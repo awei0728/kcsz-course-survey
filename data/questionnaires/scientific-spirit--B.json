@@ -1,0 +1,3832 @@
+{
+  "schema_version": 1,
+  "id": "scientific-spirit--B",
+  "project_id": "scientific-spirit",
+  "version_id": "B",
+  "project_name": "科学精神",
+  "original_name": null,
+  "original_name_reason": "原文没有为本问卷另列独立总标题；只给卷名或问卷内容节名，借鉴量表名称不是本指南独立问卷名。",
+  "title": {
+    "raw_text": "B 卷",
+    "student_text": "B 卷",
+    "source": {
+      "pdf_pages": [
+        32
+      ],
+      "printed_pages": [
+        29
+      ]
+    }
+  },
+  "source": {
+    "filename": "武汉大学课程思政教学评价指南（第一辑）.pdf",
+    "volume": 1,
+    "chapter": "六、科学精神评价指南",
+    "pdf_pages": [
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35
+    ],
+    "printed_pages": [
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32
+    ],
+    "sha256": "218ce8325ef713959646c279effd9d1a113f6064656926bdf21ac3903dd33850"
+  },
+  "instructions": [
+    {
+      "id": "scientific-spirit--B.instruction001",
+      "role": "response",
+      "raw_text": "请根据你自己的情况对下面问题的选项进行打分。其中“完全不同意-1”“比较不同意-2”“无所谓-3”“比较同意-4”“完全同意-5”",
+      "student_text": "请根据你自己的情况对下面问题的选项进行打分。其中“完全不同意-1”“比较不同意-2”“无所谓-3”“比较同意-4”“完全同意-5”",
+      "source": {
+        "pdf_pages": [
+          32
+        ],
+        "printed_pages": [
+          29
+        ]
+      }
+    },
+    {
+      "id": "scientific-spirit--B.instruction002",
+      "role": "teacher",
+      "raw_text": "（五）评价使用说明 1.评价对象：全体上课学生。 2.评分规则：（1）该问卷为李克特五分量表，评价者根据自身真实感受进行 5级打分，1 代表非常不同意、2 代表比较不同意、3 代表中立、4 代表比较同意、5 代表非常同意。每个维度的得分为各题项平均分。理性思维、批评质疑、勇于探究与道德伦理得分之和就是科学精神的总分，分数越高代表被测对象科学精神越高。（2）表格中标注“反向检测题”的题项需要特殊处理。该类题目的提问指向与其他题目相似，但提问的思路方向则与其他题目相反。主要是用于检测填答者对于问题回答的态度是否认真仔细，以及检测问卷填答的质量信度是否过关。因此在使用这些问卷进行测评时，首先在问卷制作阶段应删除“（反向检测题）”等标识文字（避免给填答者以提示）。然后在问卷印制时将这些题目的分值选项倒序排列（对反向题进行分数转换）。第三步在问卷回收后，应首先查验反向检验题的答案，以便剔除无效问卷（当填答者反向题和普通题打分处于同级时该问卷无效）。最后再进行问卷分数统计。（3）反向题分数转换的规则：1-5；2-4；3-3；4-2；5-1。 3.评价时间：（1）前测时间：建议第一节课正式上课前 10-15 分钟施测。（2）后测时间：最后一节课最后 10-15 分钟或最后一节课课后作业，但规定当日完成。 4.评价方式：（1）同一群体纵向对比：同一批学生，在课程正式开始前和结束后各进行一次评价，对比前后得分差异。可以分别使用 A/B 卷作为前测和后测问卷。（2）不同群体横向对比：选择两个其他基本素质差不多的班级，在课程结束后统一进行评价，对比两个班级的得分差异。",
+      "student_text": null,
+      "source": {
+        "pdf_pages": [
+          34,
+          35
+        ],
+        "printed_pages": [
+          31,
+          32
+        ]
+      }
+    },
+    {
+      "id": "scientific-spirit--B.teacher-context-29",
+      "role": "teacher",
+      "raw_text": "六、科学精神评价指南（一）概念定义科学精神本质上是一种思维品质以及在这种思维品质下表现出的外在行为，体现在进行科学研究和科学学习的过程中。它强调学习者要具备理性思维，有批判质疑精神，勇于探索，用科学的思维解决问题，同时将科学伦理牢记于心。自科学精神这一概念提出以来，学术界对其进行了诸多探讨，主要包括两个方面，第一方面是行动层面，如批判质疑、求证事实等；另一方面是精神层面，如道德感召力、积极包容等。具体来看，国外对“科学精神”较为有影响力的论述源于默顿，他认为“科学的这些精神气质内化于科学家的内心世界并且对科学家的行为具备规范约束力和道德感召力” [30]。我国最早关于“科学精神”的讨论是由任鸿隽提出的，他认为科学精神是不断寻求真理 [31]。后来不断有学者对科学精神的内涵进行讨论，蔡德诚第一个从科学求真的角度出发定义，认为“科学精神是在认识客观事物的过程中，善于 ‘辨误识伪’，勇于‘去伪存真 ’的‘求真’‘求实’‘求真知”的精神” [32]；刘大椿在定义“科学精神”时尝试明确其具体内容，将其阐释为求证事实的精神、辨别事物的精神、积极包容和通达的精神、尊重别人意见的民主精神、批判精神和革命精神等诸多方面[33]。在教育学界最为权威和具体的是核心素养研究课题组定义的科学精神，该课题组于 2013 年由教育部牵头建立，由北京师范大学等多所高校的近百名研究人员组成，研究成员历时 3 年，通过基础理论研究、国际比较研究、教育政策研究、传统文化分析、课程标准分析制定了我国 [30] Merton,R.K.A Note on Science and Democracy.Journal of Legal and Political Sociology,1942,1(1-2):115-126. [31] 任鸿隽．科学精神论[M]．科学，1916（2）：10-15 [32] 蔡德诚．科学精神与人文精神[J]．同舟共进，2004（06）：10-15 [33] 肖显静.科学以及科学文化的“文化缺失”与“文化回复”——兼评刘大椿先生的《科学文化与文化科学》[J].哲学分析,2013,4(06):31-42,191-192.",
+      "student_text": null,
+      "source": {
+        "pdf_pages": [
+          29
+        ],
+        "printed_pages": [
+          26
+        ]
+      }
+    },
+    {
+      "id": "scientific-spirit--B.teacher-context-30",
+      "role": "teacher",
+      "raw_text": "学生核心素养总框架。“科学精神”被课题组归为我国学生六大核心素养之一，具体是指“学生在学习、理解、运用科学知识和技能等方面所形成的价值标准、思维方式和行为表现，具体包括理性思维、批判质疑、勇于探究等基本要点”[34]。谈及课程思政语境下的“科学精神”，课程思政以课程为载体，指向培养学生，从这一角度来看较为符合核心素养课题组定义的科学精神。但课程思政最终目标指向“立德树人”，其中“德”的部分也尤为重要，而核心素养课题组的定义中没有强调这一部分。因此，学校在编制科学精神问卷时以核心素养课题组定义的科学精神为基础，在此基础上增加“德”的维度，认为科学精神是学生在学习、理解、运用科学知识和技能等方面所形成的价值标准、思维方式和行为表现。具体包括理性思维、批判质疑、勇于探究、伦理道德等基本要点。（二）维度划分根据上述概念定义，科学精神的评价维度划分如下（见图6）。图 6 科学精神评价维度 [34] 核心素养研究课题组.中国学生发展核心素养[J].中国教育学刊,2016(10):1-3.",
+      "student_text": null,
+      "source": {
+        "pdf_pages": [
+          30
+        ],
+        "printed_pages": [
+          27
+        ]
+      }
+    },
+    {
+      "id": "scientific-spirit--B.teacher-footnote-31",
+      "role": "teacher",
+      "raw_text": "[35] 本问卷题目主要依据清华大学郑美红教授发布的“新时代中国公民科学素质指标体系”测评工具、华中科技大学发布的《新工科背景下工程类课程思政指南》中有关科学精神的定义和测量。",
+      "student_text": null,
+      "source": {
+        "pdf_pages": [
+          31
+        ],
+        "printed_pages": [
+          28
+        ]
+      }
+    },
+    {
+      "id": "scientific-spirit--B.teacher-context-31",
+      "role": "teacher",
+      "raw_text": "（三）各个维度的具体解释表6 科学精神的评价维度解释维度解释理性思维崇尚真知，能理解和掌握基本的科学原理和方法；尊重事实和证据，有实证意识和严谨的求知态度；逻辑清晰，能运用科学的思维方式认识事物、解决问题、指导行为等批判质疑具有问题意识；能独立思考、独立判断；思维缜密，能多角度、辩证地分析问题，作出选择和决定等勇于探究具有好奇心和想象力；能不畏困难，有坚持不懈的探索精神；能大胆尝试，积极寻求有效的问题解决方法等道德伦理具有科研诚信意识；能反思科学发展对环境的影响；具有价值敏感性、道德想象力和社会责任感",
+      "student_text": null,
+      "source": {
+        "pdf_pages": [
+          31
+        ],
+        "printed_pages": [
+          28
+        ]
+      }
+    }
+  ],
+  "basic_information": [],
+  "items": [
+    {
+      "id": "scientific-spirit--B.q001",
+      "order": 1,
+      "original_number": null,
+      "role": "measurement",
+      "measurement_class": "scale",
+      "kind": "rating",
+      "raw_text": "听别人分享时，我会跟随分享者当下的分享内容，很少关注整体的逻辑性（反向检测题）",
+      "student_text": "听别人分享时，我会跟随分享者当下的分享内容，很少关注整体的逻辑性",
+      "source": {
+        "pdf_pages": [
+          32
+        ],
+        "printed_pages": [
+          29
+        ]
+      },
+      "group_id": "scientific-spirit--B.group001",
+      "subdimension": null,
+      "subdimension_reason": "原表仅明示本组；该组以下逐题细分维度未提供，不推断。",
+      "teacher_annotations": [
+        {
+          "text": "（反向检测题）",
+          "kind": "reverse",
+          "visibility": "teacher",
+          "source": {
+            "pdf_pages": [
+              32
+            ],
+            "printed_pages": [
+              29
+            ]
+          }
+        }
+      ],
+      "reverse": {
+        "marked": true,
+        "raw_marker": "（反向检测题）",
+        "source": {
+          "pdf_pages": [
+            32
+          ],
+          "printed_pages": [
+            29
+          ]
+        },
+        "reason": null
+      },
+      "response": {
+        "options": [
+          {
+            "id": "scientific-spirit--B.q001.option1",
+            "label": "完全不同意",
+            "value": 1,
+            "source": {
+              "pdf_pages": [
+                32
+              ],
+              "printed_pages": [
+                29
+              ]
+            }
+          },
+          {
+            "id": "scientific-spirit--B.q001.option2",
+            "label": "比较不同意",
+            "value": 2,
+            "source": {
+              "pdf_pages": [
+                32
+              ],
+              "printed_pages": [
+                29
+              ]
+            }
+          },
+          {
+            "id": "scientific-spirit--B.q001.option3",
+            "label": "无所谓",
+            "value": 3,
+            "source": {
+              "pdf_pages": [
+                32
+              ],
+              "printed_pages": [
+                29
+              ]
+            }
+          },
+          {
+            "id": "scientific-spirit--B.q001.option4",
+            "label": "比较同意",
+            "value": 4,
+            "source": {
+              "pdf_pages": [
+                32
+              ],
+              "printed_pages": [
+                29
+              ]
+            }
+          },
+          {
+            "id": "scientific-spirit--B.q001.option5",
+            "label": "完全同意",
+            "value": 5,
+            "source": {
+              "pdf_pages": [
+                32
+              ],
+              "printed_pages": [
+                29
+              ]
+            }
+          }
+        ],
+        "minimum": 1,
+        "maximum": 5,
+        "cardinality": "single",
+        "slots": null,
+        "raw_instruction": "请根据你自己的情况对下面问题的选项进行打分。其中“完全不同意-1”“比较不同意-2”“无所谓-3”“比较同意-4”“完全同意-5”",
+        "unknowns": [
+          {
+            "field": "required",
+            "reason": "原文未给必填要求，不补充约束。"
+          },
+          {
+            "field": "display_order_and_score_mapping",
+            "reason": "原文要求反向题分值选项倒序，并提供反向转换；实际导入文字/数字/显示顺序关系尚待确认，不执行倒序或计分。"
+          }
+        ],
+        "ranking": null
+      }
+    },
+    {
+      "id": "scientific-spirit--B.q002",
+      "order": 2,
+      "original_number": null,
+      "role": "measurement",
+      "measurement_class": "scale",
+      "kind": "rating",
+      "raw_text": "在将某种观点归为科学范畴之前，我会去探索对其推理和再论证的过程",
+      "student_text": "在将某种观点归为科学范畴之前，我会去探索对其推理和再论证的过程",
+      "source": {
+        "pdf_pages": [
+          32
+        ],
+        "printed_pages": [
+          29
+        ]
+      },
+      "group_id": "scientific-spirit--B.group001",
+      "subdimension": null,
+      "subdimension_reason": "原表仅明示本组；该组以下逐题细分维度未提供，不推断。",
+      "teacher_annotations": [],
+      "reverse": {
+        "marked": null,
+        "raw_marker": null,
+        "source": null,
+        "reason": "未见原文明示反向标记；否定句或概念标记不能据此推导反向。"
+      },
+      "response": {
+        "options": [
+          {
+            "id": "scientific-spirit--B.q002.option1",
+            "label": "完全不同意",
+            "value": 1,
+            "source": {
+              "pdf_pages": [
+                32
+              ],
+              "printed_pages": [
+                29
+              ]
+            }
+          },
+          {
+            "id": "scientific-spirit--B.q002.option2",
+            "label": "比较不同意",
+            "value": 2,
+            "source": {
+              "pdf_pages": [
+                32
+              ],
+              "printed_pages": [
+                29
+              ]
+            }
+          },
+          {
+            "id": "scientific-spirit--B.q002.option3",
+            "label": "无所谓",
+            "value": 3,
+            "source": {
+              "pdf_pages": [
+                32
+              ],
+              "printed_pages": [
+                29
+              ]
+            }
+          },
+          {
+            "id": "scientific-spirit--B.q002.option4",
+            "label": "比较同意",
+            "value": 4,
+            "source": {
+              "pdf_pages": [
+                32
+              ],
+              "printed_pages": [
+                29
+              ]
+            }
+          },
+          {
+            "id": "scientific-spirit--B.q002.option5",
+            "label": "完全同意",
+            "value": 5,
+            "source": {
+              "pdf_pages": [
+                32
+              ],
+              "printed_pages": [
+                29
+              ]
+            }
+          }
+        ],
+        "minimum": 1,
+        "maximum": 5,
+        "cardinality": "single",
+        "slots": null,
+        "raw_instruction": "请根据你自己的情况对下面问题的选项进行打分。其中“完全不同意-1”“比较不同意-2”“无所谓-3”“比较同意-4”“完全同意-5”",
+        "unknowns": [
+          {
+            "field": "required",
+            "reason": "原文未给必填要求，不补充约束。"
+          }
+        ],
+        "ranking": null
+      }
+    },
+    {
+      "id": "scientific-spirit--B.q003",
+      "order": 3,
+      "original_number": null,
+      "role": "measurement",
+      "measurement_class": "scale",
+      "kind": "rating",
+      "raw_text": "在学习过程中我很享受拨开迷雾、揭示事物本来面目的过程",
+      "student_text": "在学习过程中我很享受拨开迷雾、揭示事物本来面目的过程",
+      "source": {
+        "pdf_pages": [
+          33
+        ],
+        "printed_pages": [
+          30
+        ]
+      },
+      "group_id": "scientific-spirit--B.group001",
+      "subdimension": null,
+      "subdimension_reason": "原表仅明示本组；该组以下逐题细分维度未提供，不推断。",
+      "teacher_annotations": [],
+      "reverse": {
+        "marked": null,
+        "raw_marker": null,
+        "source": null,
+        "reason": "未见原文明示反向标记；否定句或概念标记不能据此推导反向。"
+      },
+      "response": {
+        "options": [
+          {
+            "id": "scientific-spirit--B.q003.option1",
+            "label": "完全不同意",
+            "value": 1,
+            "source": {
+              "pdf_pages": [
+                32,
+                33
+              ],
+              "printed_pages": [
+                29,
+                30
+              ]
+            }
+          },
+          {
+            "id": "scientific-spirit--B.q003.option2",
+            "label": "比较不同意",
+            "value": 2,
+            "source": {
+              "pdf_pages": [
+                32,
+                33
+              ],
+              "printed_pages": [
+                29,
+                30
+              ]
+            }
+          },
+          {
+            "id": "scientific-spirit--B.q003.option3",
+            "label": "无所谓",
+            "value": 3,
+            "source": {
+              "pdf_pages": [
+                32,
+                33
+              ],
+              "printed_pages": [
+                29,
+                30
+              ]
+            }
+          },
+          {
+            "id": "scientific-spirit--B.q003.option4",
+            "label": "比较同意",
+            "value": 4,
+            "source": {
+              "pdf_pages": [
+                32,
+                33
+              ],
+              "printed_pages": [
+                29,
+                30
+              ]
+            }
+          },
+          {
+            "id": "scientific-spirit--B.q003.option5",
+            "label": "完全同意",
+            "value": 5,
+            "source": {
+              "pdf_pages": [
+                32,
+                33
+              ],
+              "printed_pages": [
+                29,
+                30
+              ]
+            }
+          }
+        ],
+        "minimum": 1,
+        "maximum": 5,
+        "cardinality": "single",
+        "slots": null,
+        "raw_instruction": "请根据你自己的情况对下面问题的选项进行打分。其中“完全不同意-1”“比较不同意-2”“无所谓-3”“比较同意-4”“完全同意-5”",
+        "unknowns": [
+          {
+            "field": "required",
+            "reason": "原文未给必填要求，不补充约束。"
+          }
+        ],
+        "ranking": null
+      }
+    },
+    {
+      "id": "scientific-spirit--B.q004",
+      "order": 4,
+      "original_number": null,
+      "role": "measurement",
+      "measurement_class": "scale",
+      "kind": "rating",
+      "raw_text": "我赞同有的时候我们不得不在科学研究中纳入主观因素（反向检测题）",
+      "student_text": "我赞同有的时候我们不得不在科学研究中纳入主观因素",
+      "source": {
+        "pdf_pages": [
+          33
+        ],
+        "printed_pages": [
+          30
+        ]
+      },
+      "group_id": "scientific-spirit--B.group001",
+      "subdimension": null,
+      "subdimension_reason": "原表仅明示本组；该组以下逐题细分维度未提供，不推断。",
+      "teacher_annotations": [
+        {
+          "text": "（反向检测题）",
+          "kind": "reverse",
+          "visibility": "teacher",
+          "source": {
+            "pdf_pages": [
+              33
+            ],
+            "printed_pages": [
+              30
+            ]
+          }
+        }
+      ],
+      "reverse": {
+        "marked": true,
+        "raw_marker": "（反向检测题）",
+        "source": {
+          "pdf_pages": [
+            33
+          ],
+          "printed_pages": [
+            30
+          ]
+        },
+        "reason": null
+      },
+      "response": {
+        "options": [
+          {
+            "id": "scientific-spirit--B.q004.option1",
+            "label": "完全不同意",
+            "value": 1,
+            "source": {
+              "pdf_pages": [
+                32,
+                33
+              ],
+              "printed_pages": [
+                29,
+                30
+              ]
+            }
+          },
+          {
+            "id": "scientific-spirit--B.q004.option2",
+            "label": "比较不同意",
+            "value": 2,
+            "source": {
+              "pdf_pages": [
+                32,
+                33
+              ],
+              "printed_pages": [
+                29,
+                30
+              ]
+            }
+          },
+          {
+            "id": "scientific-spirit--B.q004.option3",
+            "label": "无所谓",
+            "value": 3,
+            "source": {
+              "pdf_pages": [
+                32,
+                33
+              ],
+              "printed_pages": [
+                29,
+                30
+              ]
+            }
+          },
+          {
+            "id": "scientific-spirit--B.q004.option4",
+            "label": "比较同意",
+            "value": 4,
+            "source": {
+              "pdf_pages": [
+                32,
+                33
+              ],
+              "printed_pages": [
+                29,
+                30
+              ]
+            }
+          },
+          {
+            "id": "scientific-spirit--B.q004.option5",
+            "label": "完全同意",
+            "value": 5,
+            "source": {
+              "pdf_pages": [
+                32,
+                33
+              ],
+              "printed_pages": [
+                29,
+                30
+              ]
+            }
+          }
+        ],
+        "minimum": 1,
+        "maximum": 5,
+        "cardinality": "single",
+        "slots": null,
+        "raw_instruction": "请根据你自己的情况对下面问题的选项进行打分。其中“完全不同意-1”“比较不同意-2”“无所谓-3”“比较同意-4”“完全同意-5”",
+        "unknowns": [
+          {
+            "field": "required",
+            "reason": "原文未给必填要求，不补充约束。"
+          },
+          {
+            "field": "display_order_and_score_mapping",
+            "reason": "原文要求反向题分值选项倒序，并提供反向转换；实际导入文字/数字/显示顺序关系尚待确认，不执行倒序或计分。"
+          }
+        ],
+        "ranking": null
+      }
+    },
+    {
+      "id": "scientific-spirit--B.q005",
+      "order": 5,
+      "original_number": null,
+      "role": "measurement",
+      "measurement_class": "scale",
+      "kind": "rating",
+      "raw_text": "我认可阶段性真理的可错性，我们现在奉为真理的东西也许未来会被证明是错的",
+      "student_text": "我认可阶段性真理的可错性，我们现在奉为真理的东西也许未来会被证明是错的",
+      "source": {
+        "pdf_pages": [
+          33
+        ],
+        "printed_pages": [
+          30
+        ]
+      },
+      "group_id": "scientific-spirit--B.group001",
+      "subdimension": null,
+      "subdimension_reason": "原表仅明示本组；该组以下逐题细分维度未提供，不推断。",
+      "teacher_annotations": [],
+      "reverse": {
+        "marked": null,
+        "raw_marker": null,
+        "source": null,
+        "reason": "未见原文明示反向标记；否定句或概念标记不能据此推导反向。"
+      },
+      "response": {
+        "options": [
+          {
+            "id": "scientific-spirit--B.q005.option1",
+            "label": "完全不同意",
+            "value": 1,
+            "source": {
+              "pdf_pages": [
+                32,
+                33
+              ],
+              "printed_pages": [
+                29,
+                30
+              ]
+            }
+          },
+          {
+            "id": "scientific-spirit--B.q005.option2",
+            "label": "比较不同意",
+            "value": 2,
+            "source": {
+              "pdf_pages": [
+                32,
+                33
+              ],
+              "printed_pages": [
+                29,
+                30
+              ]
+            }
+          },
+          {
+            "id": "scientific-spirit--B.q005.option3",
+            "label": "无所谓",
+            "value": 3,
+            "source": {
+              "pdf_pages": [
+                32,
+                33
+              ],
+              "printed_pages": [
+                29,
+                30
+              ]
+            }
+          },
+          {
+            "id": "scientific-spirit--B.q005.option4",
+            "label": "比较同意",
+            "value": 4,
+            "source": {
+              "pdf_pages": [
+                32,
+                33
+              ],
+              "printed_pages": [
+                29,
+                30
+              ]
+            }
+          },
+          {
+            "id": "scientific-spirit--B.q005.option5",
+            "label": "完全同意",
+            "value": 5,
+            "source": {
+              "pdf_pages": [
+                32,
+                33
+              ],
+              "printed_pages": [
+                29,
+                30
+              ]
+            }
+          }
+        ],
+        "minimum": 1,
+        "maximum": 5,
+        "cardinality": "single",
+        "slots": null,
+        "raw_instruction": "请根据你自己的情况对下面问题的选项进行打分。其中“完全不同意-1”“比较不同意-2”“无所谓-3”“比较同意-4”“完全同意-5”",
+        "unknowns": [
+          {
+            "field": "required",
+            "reason": "原文未给必填要求，不补充约束。"
+          }
+        ],
+        "ranking": null
+      }
+    },
+    {
+      "id": "scientific-spirit--B.q006",
+      "order": 6,
+      "original_number": null,
+      "role": "measurement",
+      "measurement_class": "scale",
+      "kind": "rating",
+      "raw_text": "我常常通过亲自验证的方式来辨别问题",
+      "student_text": "我常常通过亲自验证的方式来辨别问题",
+      "source": {
+        "pdf_pages": [
+          33
+        ],
+        "printed_pages": [
+          30
+        ]
+      },
+      "group_id": "scientific-spirit--B.group001",
+      "subdimension": null,
+      "subdimension_reason": "原表仅明示本组；该组以下逐题细分维度未提供，不推断。",
+      "teacher_annotations": [],
+      "reverse": {
+        "marked": null,
+        "raw_marker": null,
+        "source": null,
+        "reason": "未见原文明示反向标记；否定句或概念标记不能据此推导反向。"
+      },
+      "response": {
+        "options": [
+          {
+            "id": "scientific-spirit--B.q006.option1",
+            "label": "完全不同意",
+            "value": 1,
+            "source": {
+              "pdf_pages": [
+                32,
+                33
+              ],
+              "printed_pages": [
+                29,
+                30
+              ]
+            }
+          },
+          {
+            "id": "scientific-spirit--B.q006.option2",
+            "label": "比较不同意",
+            "value": 2,
+            "source": {
+              "pdf_pages": [
+                32,
+                33
+              ],
+              "printed_pages": [
+                29,
+                30
+              ]
+            }
+          },
+          {
+            "id": "scientific-spirit--B.q006.option3",
+            "label": "无所谓",
+            "value": 3,
+            "source": {
+              "pdf_pages": [
+                32,
+                33
+              ],
+              "printed_pages": [
+                29,
+                30
+              ]
+            }
+          },
+          {
+            "id": "scientific-spirit--B.q006.option4",
+            "label": "比较同意",
+            "value": 4,
+            "source": {
+              "pdf_pages": [
+                32,
+                33
+              ],
+              "printed_pages": [
+                29,
+                30
+              ]
+            }
+          },
+          {
+            "id": "scientific-spirit--B.q006.option5",
+            "label": "完全同意",
+            "value": 5,
+            "source": {
+              "pdf_pages": [
+                32,
+                33
+              ],
+              "printed_pages": [
+                29,
+                30
+              ]
+            }
+          }
+        ],
+        "minimum": 1,
+        "maximum": 5,
+        "cardinality": "single",
+        "slots": null,
+        "raw_instruction": "请根据你自己的情况对下面问题的选项进行打分。其中“完全不同意-1”“比较不同意-2”“无所谓-3”“比较同意-4”“完全同意-5”",
+        "unknowns": [
+          {
+            "field": "required",
+            "reason": "原文未给必填要求，不补充约束。"
+          }
+        ],
+        "ranking": null
+      }
+    },
+    {
+      "id": "scientific-spirit--B.q007",
+      "order": 7,
+      "original_number": null,
+      "role": "measurement",
+      "measurement_class": "scale",
+      "kind": "rating",
+      "raw_text": "我熟练掌握归纳与演绎的基本过程，并能运用在实验设计中",
+      "student_text": "我熟练掌握归纳与演绎的基本过程，并能运用在实验设计中",
+      "source": {
+        "pdf_pages": [
+          33
+        ],
+        "printed_pages": [
+          30
+        ]
+      },
+      "group_id": "scientific-spirit--B.group001",
+      "subdimension": null,
+      "subdimension_reason": "原表仅明示本组；该组以下逐题细分维度未提供，不推断。",
+      "teacher_annotations": [],
+      "reverse": {
+        "marked": null,
+        "raw_marker": null,
+        "source": null,
+        "reason": "未见原文明示反向标记；否定句或概念标记不能据此推导反向。"
+      },
+      "response": {
+        "options": [
+          {
+            "id": "scientific-spirit--B.q007.option1",
+            "label": "完全不同意",
+            "value": 1,
+            "source": {
+              "pdf_pages": [
+                32,
+                33
+              ],
+              "printed_pages": [
+                29,
+                30
+              ]
+            }
+          },
+          {
+            "id": "scientific-spirit--B.q007.option2",
+            "label": "比较不同意",
+            "value": 2,
+            "source": {
+              "pdf_pages": [
+                32,
+                33
+              ],
+              "printed_pages": [
+                29,
+                30
+              ]
+            }
+          },
+          {
+            "id": "scientific-spirit--B.q007.option3",
+            "label": "无所谓",
+            "value": 3,
+            "source": {
+              "pdf_pages": [
+                32,
+                33
+              ],
+              "printed_pages": [
+                29,
+                30
+              ]
+            }
+          },
+          {
+            "id": "scientific-spirit--B.q007.option4",
+            "label": "比较同意",
+            "value": 4,
+            "source": {
+              "pdf_pages": [
+                32,
+                33
+              ],
+              "printed_pages": [
+                29,
+                30
+              ]
+            }
+          },
+          {
+            "id": "scientific-spirit--B.q007.option5",
+            "label": "完全同意",
+            "value": 5,
+            "source": {
+              "pdf_pages": [
+                32,
+                33
+              ],
+              "printed_pages": [
+                29,
+                30
+              ]
+            }
+          }
+        ],
+        "minimum": 1,
+        "maximum": 5,
+        "cardinality": "single",
+        "slots": null,
+        "raw_instruction": "请根据你自己的情况对下面问题的选项进行打分。其中“完全不同意-1”“比较不同意-2”“无所谓-3”“比较同意-4”“完全同意-5”",
+        "unknowns": [
+          {
+            "field": "required",
+            "reason": "原文未给必填要求，不补充约束。"
+          }
+        ],
+        "ranking": null
+      }
+    },
+    {
+      "id": "scientific-spirit--B.q008",
+      "order": 8,
+      "original_number": null,
+      "role": "measurement",
+      "measurement_class": "scale",
+      "kind": "rating",
+      "raw_text": "上课时，我会认真做笔记，把老师的解决方案抄下来（反向检测题）",
+      "student_text": "上课时，我会认真做笔记，把老师的解决方案抄下来",
+      "source": {
+        "pdf_pages": [
+          33
+        ],
+        "printed_pages": [
+          30
+        ]
+      },
+      "group_id": "scientific-spirit--B.group002",
+      "subdimension": null,
+      "subdimension_reason": "原表仅明示本组；该组以下逐题细分维度未提供，不推断。",
+      "teacher_annotations": [
+        {
+          "text": "（反向检测题）",
+          "kind": "reverse",
+          "visibility": "teacher",
+          "source": {
+            "pdf_pages": [
+              33
+            ],
+            "printed_pages": [
+              30
+            ]
+          }
+        }
+      ],
+      "reverse": {
+        "marked": true,
+        "raw_marker": "（反向检测题）",
+        "source": {
+          "pdf_pages": [
+            33
+          ],
+          "printed_pages": [
+            30
+          ]
+        },
+        "reason": null
+      },
+      "response": {
+        "options": [
+          {
+            "id": "scientific-spirit--B.q008.option1",
+            "label": "完全不同意",
+            "value": 1,
+            "source": {
+              "pdf_pages": [
+                32,
+                33
+              ],
+              "printed_pages": [
+                29,
+                30
+              ]
+            }
+          },
+          {
+            "id": "scientific-spirit--B.q008.option2",
+            "label": "比较不同意",
+            "value": 2,
+            "source": {
+              "pdf_pages": [
+                32,
+                33
+              ],
+              "printed_pages": [
+                29,
+                30
+              ]
+            }
+          },
+          {
+            "id": "scientific-spirit--B.q008.option3",
+            "label": "无所谓",
+            "value": 3,
+            "source": {
+              "pdf_pages": [
+                32,
+                33
+              ],
+              "printed_pages": [
+                29,
+                30
+              ]
+            }
+          },
+          {
+            "id": "scientific-spirit--B.q008.option4",
+            "label": "比较同意",
+            "value": 4,
+            "source": {
+              "pdf_pages": [
+                32,
+                33
+              ],
+              "printed_pages": [
+                29,
+                30
+              ]
+            }
+          },
+          {
+            "id": "scientific-spirit--B.q008.option5",
+            "label": "完全同意",
+            "value": 5,
+            "source": {
+              "pdf_pages": [
+                32,
+                33
+              ],
+              "printed_pages": [
+                29,
+                30
+              ]
+            }
+          }
+        ],
+        "minimum": 1,
+        "maximum": 5,
+        "cardinality": "single",
+        "slots": null,
+        "raw_instruction": "请根据你自己的情况对下面问题的选项进行打分。其中“完全不同意-1”“比较不同意-2”“无所谓-3”“比较同意-4”“完全同意-5”",
+        "unknowns": [
+          {
+            "field": "required",
+            "reason": "原文未给必填要求，不补充约束。"
+          },
+          {
+            "field": "display_order_and_score_mapping",
+            "reason": "原文要求反向题分值选项倒序，并提供反向转换；实际导入文字/数字/显示顺序关系尚待确认，不执行倒序或计分。"
+          }
+        ],
+        "ranking": null
+      }
+    },
+    {
+      "id": "scientific-spirit--B.q009",
+      "order": 9,
+      "original_number": null,
+      "role": "measurement",
+      "measurement_class": "scale",
+      "kind": "rating",
+      "raw_text": "我会想办法去求证权威人士分享的观点",
+      "student_text": "我会想办法去求证权威人士分享的观点",
+      "source": {
+        "pdf_pages": [
+          33
+        ],
+        "printed_pages": [
+          30
+        ]
+      },
+      "group_id": "scientific-spirit--B.group002",
+      "subdimension": null,
+      "subdimension_reason": "原表仅明示本组；该组以下逐题细分维度未提供，不推断。",
+      "teacher_annotations": [],
+      "reverse": {
+        "marked": null,
+        "raw_marker": null,
+        "source": null,
+        "reason": "未见原文明示反向标记；否定句或概念标记不能据此推导反向。"
+      },
+      "response": {
+        "options": [
+          {
+            "id": "scientific-spirit--B.q009.option1",
+            "label": "完全不同意",
+            "value": 1,
+            "source": {
+              "pdf_pages": [
+                32,
+                33
+              ],
+              "printed_pages": [
+                29,
+                30
+              ]
+            }
+          },
+          {
+            "id": "scientific-spirit--B.q009.option2",
+            "label": "比较不同意",
+            "value": 2,
+            "source": {
+              "pdf_pages": [
+                32,
+                33
+              ],
+              "printed_pages": [
+                29,
+                30
+              ]
+            }
+          },
+          {
+            "id": "scientific-spirit--B.q009.option3",
+            "label": "无所谓",
+            "value": 3,
+            "source": {
+              "pdf_pages": [
+                32,
+                33
+              ],
+              "printed_pages": [
+                29,
+                30
+              ]
+            }
+          },
+          {
+            "id": "scientific-spirit--B.q009.option4",
+            "label": "比较同意",
+            "value": 4,
+            "source": {
+              "pdf_pages": [
+                32,
+                33
+              ],
+              "printed_pages": [
+                29,
+                30
+              ]
+            }
+          },
+          {
+            "id": "scientific-spirit--B.q009.option5",
+            "label": "完全同意",
+            "value": 5,
+            "source": {
+              "pdf_pages": [
+                32,
+                33
+              ],
+              "printed_pages": [
+                29,
+                30
+              ]
+            }
+          }
+        ],
+        "minimum": 1,
+        "maximum": 5,
+        "cardinality": "single",
+        "slots": null,
+        "raw_instruction": "请根据你自己的情况对下面问题的选项进行打分。其中“完全不同意-1”“比较不同意-2”“无所谓-3”“比较同意-4”“完全同意-5”",
+        "unknowns": [
+          {
+            "field": "required",
+            "reason": "原文未给必填要求，不补充约束。"
+          }
+        ],
+        "ranking": null
+      }
+    },
+    {
+      "id": "scientific-spirit--B.q010",
+      "order": 10,
+      "original_number": null,
+      "role": "measurement",
+      "measurement_class": "scale",
+      "kind": "rating",
+      "raw_text": "我自己写的课程作业我写完就不会再看（反向检测题）",
+      "student_text": "我自己写的课程作业我写完就不会再看",
+      "source": {
+        "pdf_pages": [
+          33
+        ],
+        "printed_pages": [
+          30
+        ]
+      },
+      "group_id": "scientific-spirit--B.group002",
+      "subdimension": null,
+      "subdimension_reason": "原表仅明示本组；该组以下逐题细分维度未提供，不推断。",
+      "teacher_annotations": [
+        {
+          "text": "（反向检测题）",
+          "kind": "reverse",
+          "visibility": "teacher",
+          "source": {
+            "pdf_pages": [
+              33
+            ],
+            "printed_pages": [
+              30
+            ]
+          }
+        }
+      ],
+      "reverse": {
+        "marked": true,
+        "raw_marker": "（反向检测题）",
+        "source": {
+          "pdf_pages": [
+            33
+          ],
+          "printed_pages": [
+            30
+          ]
+        },
+        "reason": null
+      },
+      "response": {
+        "options": [
+          {
+            "id": "scientific-spirit--B.q010.option1",
+            "label": "完全不同意",
+            "value": 1,
+            "source": {
+              "pdf_pages": [
+                32,
+                33
+              ],
+              "printed_pages": [
+                29,
+                30
+              ]
+            }
+          },
+          {
+            "id": "scientific-spirit--B.q010.option2",
+            "label": "比较不同意",
+            "value": 2,
+            "source": {
+              "pdf_pages": [
+                32,
+                33
+              ],
+              "printed_pages": [
+                29,
+                30
+              ]
+            }
+          },
+          {
+            "id": "scientific-spirit--B.q010.option3",
+            "label": "无所谓",
+            "value": 3,
+            "source": {
+              "pdf_pages": [
+                32,
+                33
+              ],
+              "printed_pages": [
+                29,
+                30
+              ]
+            }
+          },
+          {
+            "id": "scientific-spirit--B.q010.option4",
+            "label": "比较同意",
+            "value": 4,
+            "source": {
+              "pdf_pages": [
+                32,
+                33
+              ],
+              "printed_pages": [
+                29,
+                30
+              ]
+            }
+          },
+          {
+            "id": "scientific-spirit--B.q010.option5",
+            "label": "完全同意",
+            "value": 5,
+            "source": {
+              "pdf_pages": [
+                32,
+                33
+              ],
+              "printed_pages": [
+                29,
+                30
+              ]
+            }
+          }
+        ],
+        "minimum": 1,
+        "maximum": 5,
+        "cardinality": "single",
+        "slots": null,
+        "raw_instruction": "请根据你自己的情况对下面问题的选项进行打分。其中“完全不同意-1”“比较不同意-2”“无所谓-3”“比较同意-4”“完全同意-5”",
+        "unknowns": [
+          {
+            "field": "required",
+            "reason": "原文未给必填要求，不补充约束。"
+          },
+          {
+            "field": "display_order_and_score_mapping",
+            "reason": "原文要求反向题分值选项倒序，并提供反向转换；实际导入文字/数字/显示顺序关系尚待确认，不执行倒序或计分。"
+          }
+        ],
+        "ranking": null
+      }
+    },
+    {
+      "id": "scientific-spirit--B.q011",
+      "order": 11,
+      "original_number": null,
+      "role": "measurement",
+      "measurement_class": "scale",
+      "kind": "rating",
+      "raw_text": "我相信“有时候所见并非所得”",
+      "student_text": "我相信“有时候所见并非所得”",
+      "source": {
+        "pdf_pages": [
+          33
+        ],
+        "printed_pages": [
+          30
+        ]
+      },
+      "group_id": "scientific-spirit--B.group002",
+      "subdimension": null,
+      "subdimension_reason": "原表仅明示本组；该组以下逐题细分维度未提供，不推断。",
+      "teacher_annotations": [],
+      "reverse": {
+        "marked": null,
+        "raw_marker": null,
+        "source": null,
+        "reason": "未见原文明示反向标记；否定句或概念标记不能据此推导反向。"
+      },
+      "response": {
+        "options": [
+          {
+            "id": "scientific-spirit--B.q011.option1",
+            "label": "完全不同意",
+            "value": 1,
+            "source": {
+              "pdf_pages": [
+                32,
+                33
+              ],
+              "printed_pages": [
+                29,
+                30
+              ]
+            }
+          },
+          {
+            "id": "scientific-spirit--B.q011.option2",
+            "label": "比较不同意",
+            "value": 2,
+            "source": {
+              "pdf_pages": [
+                32,
+                33
+              ],
+              "printed_pages": [
+                29,
+                30
+              ]
+            }
+          },
+          {
+            "id": "scientific-spirit--B.q011.option3",
+            "label": "无所谓",
+            "value": 3,
+            "source": {
+              "pdf_pages": [
+                32,
+                33
+              ],
+              "printed_pages": [
+                29,
+                30
+              ]
+            }
+          },
+          {
+            "id": "scientific-spirit--B.q011.option4",
+            "label": "比较同意",
+            "value": 4,
+            "source": {
+              "pdf_pages": [
+                32,
+                33
+              ],
+              "printed_pages": [
+                29,
+                30
+              ]
+            }
+          },
+          {
+            "id": "scientific-spirit--B.q011.option5",
+            "label": "完全同意",
+            "value": 5,
+            "source": {
+              "pdf_pages": [
+                32,
+                33
+              ],
+              "printed_pages": [
+                29,
+                30
+              ]
+            }
+          }
+        ],
+        "minimum": 1,
+        "maximum": 5,
+        "cardinality": "single",
+        "slots": null,
+        "raw_instruction": "请根据你自己的情况对下面问题的选项进行打分。其中“完全不同意-1”“比较不同意-2”“无所谓-3”“比较同意-4”“完全同意-5”",
+        "unknowns": [
+          {
+            "field": "required",
+            "reason": "原文未给必填要求，不补充约束。"
+          }
+        ],
+        "ranking": null
+      }
+    },
+    {
+      "id": "scientific-spirit--B.q012",
+      "order": 12,
+      "original_number": null,
+      "role": "measurement",
+      "measurement_class": "scale",
+      "kind": "rating",
+      "raw_text": "我觉得一些网络大V确实是网络精神领袖（反向检测题）",
+      "student_text": "我觉得一些网络大V确实是网络精神领袖",
+      "source": {
+        "pdf_pages": [
+          33
+        ],
+        "printed_pages": [
+          30
+        ]
+      },
+      "group_id": "scientific-spirit--B.group002",
+      "subdimension": null,
+      "subdimension_reason": "原表仅明示本组；该组以下逐题细分维度未提供，不推断。",
+      "teacher_annotations": [
+        {
+          "text": "（反向检测题）",
+          "kind": "reverse",
+          "visibility": "teacher",
+          "source": {
+            "pdf_pages": [
+              33
+            ],
+            "printed_pages": [
+              30
+            ]
+          }
+        }
+      ],
+      "reverse": {
+        "marked": true,
+        "raw_marker": "（反向检测题）",
+        "source": {
+          "pdf_pages": [
+            33
+          ],
+          "printed_pages": [
+            30
+          ]
+        },
+        "reason": null
+      },
+      "response": {
+        "options": [
+          {
+            "id": "scientific-spirit--B.q012.option1",
+            "label": "完全不同意",
+            "value": 1,
+            "source": {
+              "pdf_pages": [
+                32,
+                33
+              ],
+              "printed_pages": [
+                29,
+                30
+              ]
+            }
+          },
+          {
+            "id": "scientific-spirit--B.q012.option2",
+            "label": "比较不同意",
+            "value": 2,
+            "source": {
+              "pdf_pages": [
+                32,
+                33
+              ],
+              "printed_pages": [
+                29,
+                30
+              ]
+            }
+          },
+          {
+            "id": "scientific-spirit--B.q012.option3",
+            "label": "无所谓",
+            "value": 3,
+            "source": {
+              "pdf_pages": [
+                32,
+                33
+              ],
+              "printed_pages": [
+                29,
+                30
+              ]
+            }
+          },
+          {
+            "id": "scientific-spirit--B.q012.option4",
+            "label": "比较同意",
+            "value": 4,
+            "source": {
+              "pdf_pages": [
+                32,
+                33
+              ],
+              "printed_pages": [
+                29,
+                30
+              ]
+            }
+          },
+          {
+            "id": "scientific-spirit--B.q012.option5",
+            "label": "完全同意",
+            "value": 5,
+            "source": {
+              "pdf_pages": [
+                32,
+                33
+              ],
+              "printed_pages": [
+                29,
+                30
+              ]
+            }
+          }
+        ],
+        "minimum": 1,
+        "maximum": 5,
+        "cardinality": "single",
+        "slots": null,
+        "raw_instruction": "请根据你自己的情况对下面问题的选项进行打分。其中“完全不同意-1”“比较不同意-2”“无所谓-3”“比较同意-4”“完全同意-5”",
+        "unknowns": [
+          {
+            "field": "required",
+            "reason": "原文未给必填要求，不补充约束。"
+          },
+          {
+            "field": "display_order_and_score_mapping",
+            "reason": "原文要求反向题分值选项倒序，并提供反向转换；实际导入文字/数字/显示顺序关系尚待确认，不执行倒序或计分。"
+          }
+        ],
+        "ranking": null
+      }
+    },
+    {
+      "id": "scientific-spirit--B.q013",
+      "order": 13,
+      "original_number": null,
+      "role": "measurement",
+      "measurement_class": "scale",
+      "kind": "rating",
+      "raw_text": "在和别人持有不同观点时我总是能够说服别人",
+      "student_text": "在和别人持有不同观点时我总是能够说服别人",
+      "source": {
+        "pdf_pages": [
+          33
+        ],
+        "printed_pages": [
+          30
+        ]
+      },
+      "group_id": "scientific-spirit--B.group002",
+      "subdimension": null,
+      "subdimension_reason": "原表仅明示本组；该组以下逐题细分维度未提供，不推断。",
+      "teacher_annotations": [],
+      "reverse": {
+        "marked": null,
+        "raw_marker": null,
+        "source": null,
+        "reason": "未见原文明示反向标记；否定句或概念标记不能据此推导反向。"
+      },
+      "response": {
+        "options": [
+          {
+            "id": "scientific-spirit--B.q013.option1",
+            "label": "完全不同意",
+            "value": 1,
+            "source": {
+              "pdf_pages": [
+                32,
+                33
+              ],
+              "printed_pages": [
+                29,
+                30
+              ]
+            }
+          },
+          {
+            "id": "scientific-spirit--B.q013.option2",
+            "label": "比较不同意",
+            "value": 2,
+            "source": {
+              "pdf_pages": [
+                32,
+                33
+              ],
+              "printed_pages": [
+                29,
+                30
+              ]
+            }
+          },
+          {
+            "id": "scientific-spirit--B.q013.option3",
+            "label": "无所谓",
+            "value": 3,
+            "source": {
+              "pdf_pages": [
+                32,
+                33
+              ],
+              "printed_pages": [
+                29,
+                30
+              ]
+            }
+          },
+          {
+            "id": "scientific-spirit--B.q013.option4",
+            "label": "比较同意",
+            "value": 4,
+            "source": {
+              "pdf_pages": [
+                32,
+                33
+              ],
+              "printed_pages": [
+                29,
+                30
+              ]
+            }
+          },
+          {
+            "id": "scientific-spirit--B.q013.option5",
+            "label": "完全同意",
+            "value": 5,
+            "source": {
+              "pdf_pages": [
+                32,
+                33
+              ],
+              "printed_pages": [
+                29,
+                30
+              ]
+            }
+          }
+        ],
+        "minimum": 1,
+        "maximum": 5,
+        "cardinality": "single",
+        "slots": null,
+        "raw_instruction": "请根据你自己的情况对下面问题的选项进行打分。其中“完全不同意-1”“比较不同意-2”“无所谓-3”“比较同意-4”“完全同意-5”",
+        "unknowns": [
+          {
+            "field": "required",
+            "reason": "原文未给必填要求，不补充约束。"
+          }
+        ],
+        "ranking": null
+      }
+    },
+    {
+      "id": "scientific-spirit--B.q014",
+      "order": 14,
+      "original_number": null,
+      "role": "measurement",
+      "measurement_class": "scale",
+      "kind": "rating",
+      "raw_text": "我在给出问题解决方法时常常反思我是不是有没有考虑全面的地方",
+      "student_text": "我在给出问题解决方法时常常反思我是不是有没有考虑全面的地方",
+      "source": {
+        "pdf_pages": [
+          33
+        ],
+        "printed_pages": [
+          30
+        ]
+      },
+      "group_id": "scientific-spirit--B.group002",
+      "subdimension": null,
+      "subdimension_reason": "原表仅明示本组；该组以下逐题细分维度未提供，不推断。",
+      "teacher_annotations": [],
+      "reverse": {
+        "marked": null,
+        "raw_marker": null,
+        "source": null,
+        "reason": "未见原文明示反向标记；否定句或概念标记不能据此推导反向。"
+      },
+      "response": {
+        "options": [
+          {
+            "id": "scientific-spirit--B.q014.option1",
+            "label": "完全不同意",
+            "value": 1,
+            "source": {
+              "pdf_pages": [
+                32,
+                33
+              ],
+              "printed_pages": [
+                29,
+                30
+              ]
+            }
+          },
+          {
+            "id": "scientific-spirit--B.q014.option2",
+            "label": "比较不同意",
+            "value": 2,
+            "source": {
+              "pdf_pages": [
+                32,
+                33
+              ],
+              "printed_pages": [
+                29,
+                30
+              ]
+            }
+          },
+          {
+            "id": "scientific-spirit--B.q014.option3",
+            "label": "无所谓",
+            "value": 3,
+            "source": {
+              "pdf_pages": [
+                32,
+                33
+              ],
+              "printed_pages": [
+                29,
+                30
+              ]
+            }
+          },
+          {
+            "id": "scientific-spirit--B.q014.option4",
+            "label": "比较同意",
+            "value": 4,
+            "source": {
+              "pdf_pages": [
+                32,
+                33
+              ],
+              "printed_pages": [
+                29,
+                30
+              ]
+            }
+          },
+          {
+            "id": "scientific-spirit--B.q014.option5",
+            "label": "完全同意",
+            "value": 5,
+            "source": {
+              "pdf_pages": [
+                32,
+                33
+              ],
+              "printed_pages": [
+                29,
+                30
+              ]
+            }
+          }
+        ],
+        "minimum": 1,
+        "maximum": 5,
+        "cardinality": "single",
+        "slots": null,
+        "raw_instruction": "请根据你自己的情况对下面问题的选项进行打分。其中“完全不同意-1”“比较不同意-2”“无所谓-3”“比较同意-4”“完全同意-5”",
+        "unknowns": [
+          {
+            "field": "required",
+            "reason": "原文未给必填要求，不补充约束。"
+          }
+        ],
+        "ranking": null
+      }
+    },
+    {
+      "id": "scientific-spirit--B.q015",
+      "order": 15,
+      "original_number": null,
+      "role": "measurement",
+      "measurement_class": "scale",
+      "kind": "rating",
+      "raw_text": "我常常不满足于找到一种解决问题的办法",
+      "student_text": "我常常不满足于找到一种解决问题的办法",
+      "source": {
+        "pdf_pages": [
+          33
+        ],
+        "printed_pages": [
+          30
+        ]
+      },
+      "group_id": "scientific-spirit--B.group003",
+      "subdimension": null,
+      "subdimension_reason": "原表仅明示本组；该组以下逐题细分维度未提供，不推断。",
+      "teacher_annotations": [],
+      "reverse": {
+        "marked": null,
+        "raw_marker": null,
+        "source": null,
+        "reason": "未见原文明示反向标记；否定句或概念标记不能据此推导反向。"
+      },
+      "response": {
+        "options": [
+          {
+            "id": "scientific-spirit--B.q015.option1",
+            "label": "完全不同意",
+            "value": 1,
+            "source": {
+              "pdf_pages": [
+                32,
+                33
+              ],
+              "printed_pages": [
+                29,
+                30
+              ]
+            }
+          },
+          {
+            "id": "scientific-spirit--B.q015.option2",
+            "label": "比较不同意",
+            "value": 2,
+            "source": {
+              "pdf_pages": [
+                32,
+                33
+              ],
+              "printed_pages": [
+                29,
+                30
+              ]
+            }
+          },
+          {
+            "id": "scientific-spirit--B.q015.option3",
+            "label": "无所谓",
+            "value": 3,
+            "source": {
+              "pdf_pages": [
+                32,
+                33
+              ],
+              "printed_pages": [
+                29,
+                30
+              ]
+            }
+          },
+          {
+            "id": "scientific-spirit--B.q015.option4",
+            "label": "比较同意",
+            "value": 4,
+            "source": {
+              "pdf_pages": [
+                32,
+                33
+              ],
+              "printed_pages": [
+                29,
+                30
+              ]
+            }
+          },
+          {
+            "id": "scientific-spirit--B.q015.option5",
+            "label": "完全同意",
+            "value": 5,
+            "source": {
+              "pdf_pages": [
+                32,
+                33
+              ],
+              "printed_pages": [
+                29,
+                30
+              ]
+            }
+          }
+        ],
+        "minimum": 1,
+        "maximum": 5,
+        "cardinality": "single",
+        "slots": null,
+        "raw_instruction": "请根据你自己的情况对下面问题的选项进行打分。其中“完全不同意-1”“比较不同意-2”“无所谓-3”“比较同意-4”“完全同意-5”",
+        "unknowns": [
+          {
+            "field": "required",
+            "reason": "原文未给必填要求，不补充约束。"
+          }
+        ],
+        "ranking": null
+      }
+    },
+    {
+      "id": "scientific-spirit--B.q016",
+      "order": 16,
+      "original_number": null,
+      "role": "measurement",
+      "measurement_class": "scale",
+      "kind": "rating",
+      "raw_text": "当我脑海里浮现一个前人没有说过的观点时，我往往认为它是错的，不敢说出来（反向检测题）",
+      "student_text": "当我脑海里浮现一个前人没有说过的观点时，我往往认为它是错的，不敢说出来",
+      "source": {
+        "pdf_pages": [
+          33
+        ],
+        "printed_pages": [
+          30
+        ]
+      },
+      "group_id": "scientific-spirit--B.group003",
+      "subdimension": null,
+      "subdimension_reason": "原表仅明示本组；该组以下逐题细分维度未提供，不推断。",
+      "teacher_annotations": [
+        {
+          "text": "（反向检测题）",
+          "kind": "reverse",
+          "visibility": "teacher",
+          "source": {
+            "pdf_pages": [
+              33
+            ],
+            "printed_pages": [
+              30
+            ]
+          }
+        }
+      ],
+      "reverse": {
+        "marked": true,
+        "raw_marker": "（反向检测题）",
+        "source": {
+          "pdf_pages": [
+            33
+          ],
+          "printed_pages": [
+            30
+          ]
+        },
+        "reason": null
+      },
+      "response": {
+        "options": [
+          {
+            "id": "scientific-spirit--B.q016.option1",
+            "label": "完全不同意",
+            "value": 1,
+            "source": {
+              "pdf_pages": [
+                32,
+                33
+              ],
+              "printed_pages": [
+                29,
+                30
+              ]
+            }
+          },
+          {
+            "id": "scientific-spirit--B.q016.option2",
+            "label": "比较不同意",
+            "value": 2,
+            "source": {
+              "pdf_pages": [
+                32,
+                33
+              ],
+              "printed_pages": [
+                29,
+                30
+              ]
+            }
+          },
+          {
+            "id": "scientific-spirit--B.q016.option3",
+            "label": "无所谓",
+            "value": 3,
+            "source": {
+              "pdf_pages": [
+                32,
+                33
+              ],
+              "printed_pages": [
+                29,
+                30
+              ]
+            }
+          },
+          {
+            "id": "scientific-spirit--B.q016.option4",
+            "label": "比较同意",
+            "value": 4,
+            "source": {
+              "pdf_pages": [
+                32,
+                33
+              ],
+              "printed_pages": [
+                29,
+                30
+              ]
+            }
+          },
+          {
+            "id": "scientific-spirit--B.q016.option5",
+            "label": "完全同意",
+            "value": 5,
+            "source": {
+              "pdf_pages": [
+                32,
+                33
+              ],
+              "printed_pages": [
+                29,
+                30
+              ]
+            }
+          }
+        ],
+        "minimum": 1,
+        "maximum": 5,
+        "cardinality": "single",
+        "slots": null,
+        "raw_instruction": "请根据你自己的情况对下面问题的选项进行打分。其中“完全不同意-1”“比较不同意-2”“无所谓-3”“比较同意-4”“完全同意-5”",
+        "unknowns": [
+          {
+            "field": "required",
+            "reason": "原文未给必填要求，不补充约束。"
+          },
+          {
+            "field": "display_order_and_score_mapping",
+            "reason": "原文要求反向题分值选项倒序，并提供反向转换；实际导入文字/数字/显示顺序关系尚待确认，不执行倒序或计分。"
+          }
+        ],
+        "ranking": null
+      }
+    },
+    {
+      "id": "scientific-spirit--B.q017",
+      "order": 17,
+      "original_number": null,
+      "role": "measurement",
+      "measurement_class": "scale",
+      "kind": "rating",
+      "raw_text": "在专业学习过程中，我发现了我感到好奇想要探索的领域",
+      "student_text": "在专业学习过程中，我发现了我感到好奇想要探索的领域",
+      "source": {
+        "pdf_pages": [
+          33
+        ],
+        "printed_pages": [
+          30
+        ]
+      },
+      "group_id": "scientific-spirit--B.group003",
+      "subdimension": null,
+      "subdimension_reason": "原表仅明示本组；该组以下逐题细分维度未提供，不推断。",
+      "teacher_annotations": [],
+      "reverse": {
+        "marked": null,
+        "raw_marker": null,
+        "source": null,
+        "reason": "未见原文明示反向标记；否定句或概念标记不能据此推导反向。"
+      },
+      "response": {
+        "options": [
+          {
+            "id": "scientific-spirit--B.q017.option1",
+            "label": "完全不同意",
+            "value": 1,
+            "source": {
+              "pdf_pages": [
+                32,
+                33
+              ],
+              "printed_pages": [
+                29,
+                30
+              ]
+            }
+          },
+          {
+            "id": "scientific-spirit--B.q017.option2",
+            "label": "比较不同意",
+            "value": 2,
+            "source": {
+              "pdf_pages": [
+                32,
+                33
+              ],
+              "printed_pages": [
+                29,
+                30
+              ]
+            }
+          },
+          {
+            "id": "scientific-spirit--B.q017.option3",
+            "label": "无所谓",
+            "value": 3,
+            "source": {
+              "pdf_pages": [
+                32,
+                33
+              ],
+              "printed_pages": [
+                29,
+                30
+              ]
+            }
+          },
+          {
+            "id": "scientific-spirit--B.q017.option4",
+            "label": "比较同意",
+            "value": 4,
+            "source": {
+              "pdf_pages": [
+                32,
+                33
+              ],
+              "printed_pages": [
+                29,
+                30
+              ]
+            }
+          },
+          {
+            "id": "scientific-spirit--B.q017.option5",
+            "label": "完全同意",
+            "value": 5,
+            "source": {
+              "pdf_pages": [
+                32,
+                33
+              ],
+              "printed_pages": [
+                29,
+                30
+              ]
+            }
+          }
+        ],
+        "minimum": 1,
+        "maximum": 5,
+        "cardinality": "single",
+        "slots": null,
+        "raw_instruction": "请根据你自己的情况对下面问题的选项进行打分。其中“完全不同意-1”“比较不同意-2”“无所谓-3”“比较同意-4”“完全同意-5”",
+        "unknowns": [
+          {
+            "field": "required",
+            "reason": "原文未给必填要求，不补充约束。"
+          }
+        ],
+        "ranking": null
+      }
+    },
+    {
+      "id": "scientific-spirit--B.q018",
+      "order": 18,
+      "original_number": null,
+      "role": "measurement",
+      "measurement_class": "scale",
+      "kind": "rating",
+      "raw_text": "我认为我们不停复制和模仿的常规操作仍有可创新的空间",
+      "student_text": "我认为我们不停复制和模仿的常规操作仍有可创新的空间",
+      "source": {
+        "pdf_pages": [
+          33
+        ],
+        "printed_pages": [
+          30
+        ]
+      },
+      "group_id": "scientific-spirit--B.group003",
+      "subdimension": null,
+      "subdimension_reason": "原表仅明示本组；该组以下逐题细分维度未提供，不推断。",
+      "teacher_annotations": [],
+      "reverse": {
+        "marked": null,
+        "raw_marker": null,
+        "source": null,
+        "reason": "未见原文明示反向标记；否定句或概念标记不能据此推导反向。"
+      },
+      "response": {
+        "options": [
+          {
+            "id": "scientific-spirit--B.q018.option1",
+            "label": "完全不同意",
+            "value": 1,
+            "source": {
+              "pdf_pages": [
+                32,
+                33
+              ],
+              "printed_pages": [
+                29,
+                30
+              ]
+            }
+          },
+          {
+            "id": "scientific-spirit--B.q018.option2",
+            "label": "比较不同意",
+            "value": 2,
+            "source": {
+              "pdf_pages": [
+                32,
+                33
+              ],
+              "printed_pages": [
+                29,
+                30
+              ]
+            }
+          },
+          {
+            "id": "scientific-spirit--B.q018.option3",
+            "label": "无所谓",
+            "value": 3,
+            "source": {
+              "pdf_pages": [
+                32,
+                33
+              ],
+              "printed_pages": [
+                29,
+                30
+              ]
+            }
+          },
+          {
+            "id": "scientific-spirit--B.q018.option4",
+            "label": "比较同意",
+            "value": 4,
+            "source": {
+              "pdf_pages": [
+                32,
+                33
+              ],
+              "printed_pages": [
+                29,
+                30
+              ]
+            }
+          },
+          {
+            "id": "scientific-spirit--B.q018.option5",
+            "label": "完全同意",
+            "value": 5,
+            "source": {
+              "pdf_pages": [
+                32,
+                33
+              ],
+              "printed_pages": [
+                29,
+                30
+              ]
+            }
+          }
+        ],
+        "minimum": 1,
+        "maximum": 5,
+        "cardinality": "single",
+        "slots": null,
+        "raw_instruction": "请根据你自己的情况对下面问题的选项进行打分。其中“完全不同意-1”“比较不同意-2”“无所谓-3”“比较同意-4”“完全同意-5”",
+        "unknowns": [
+          {
+            "field": "required",
+            "reason": "原文未给必填要求，不补充约束。"
+          }
+        ],
+        "ranking": null
+      }
+    },
+    {
+      "id": "scientific-spirit--B.q019",
+      "order": 19,
+      "original_number": null,
+      "role": "measurement",
+      "measurement_class": "scale",
+      "kind": "rating",
+      "raw_text": "每次实验成功后，我就直接快速写下实验报告（反向检测题）",
+      "student_text": "每次实验成功后，我就直接快速写下实验报告",
+      "source": {
+        "pdf_pages": [
+          33
+        ],
+        "printed_pages": [
+          30
+        ]
+      },
+      "group_id": "scientific-spirit--B.group003",
+      "subdimension": null,
+      "subdimension_reason": "原表仅明示本组；该组以下逐题细分维度未提供，不推断。",
+      "teacher_annotations": [
+        {
+          "text": "（反向检测题）",
+          "kind": "reverse",
+          "visibility": "teacher",
+          "source": {
+            "pdf_pages": [
+              33
+            ],
+            "printed_pages": [
+              30
+            ]
+          }
+        }
+      ],
+      "reverse": {
+        "marked": true,
+        "raw_marker": "（反向检测题）",
+        "source": {
+          "pdf_pages": [
+            33
+          ],
+          "printed_pages": [
+            30
+          ]
+        },
+        "reason": null
+      },
+      "response": {
+        "options": [
+          {
+            "id": "scientific-spirit--B.q019.option1",
+            "label": "完全不同意",
+            "value": 1,
+            "source": {
+              "pdf_pages": [
+                32,
+                33
+              ],
+              "printed_pages": [
+                29,
+                30
+              ]
+            }
+          },
+          {
+            "id": "scientific-spirit--B.q019.option2",
+            "label": "比较不同意",
+            "value": 2,
+            "source": {
+              "pdf_pages": [
+                32,
+                33
+              ],
+              "printed_pages": [
+                29,
+                30
+              ]
+            }
+          },
+          {
+            "id": "scientific-spirit--B.q019.option3",
+            "label": "无所谓",
+            "value": 3,
+            "source": {
+              "pdf_pages": [
+                32,
+                33
+              ],
+              "printed_pages": [
+                29,
+                30
+              ]
+            }
+          },
+          {
+            "id": "scientific-spirit--B.q019.option4",
+            "label": "比较同意",
+            "value": 4,
+            "source": {
+              "pdf_pages": [
+                32,
+                33
+              ],
+              "printed_pages": [
+                29,
+                30
+              ]
+            }
+          },
+          {
+            "id": "scientific-spirit--B.q019.option5",
+            "label": "完全同意",
+            "value": 5,
+            "source": {
+              "pdf_pages": [
+                32,
+                33
+              ],
+              "printed_pages": [
+                29,
+                30
+              ]
+            }
+          }
+        ],
+        "minimum": 1,
+        "maximum": 5,
+        "cardinality": "single",
+        "slots": null,
+        "raw_instruction": "请根据你自己的情况对下面问题的选项进行打分。其中“完全不同意-1”“比较不同意-2”“无所谓-3”“比较同意-4”“完全同意-5”",
+        "unknowns": [
+          {
+            "field": "required",
+            "reason": "原文未给必填要求，不补充约束。"
+          },
+          {
+            "field": "display_order_and_score_mapping",
+            "reason": "原文要求反向题分值选项倒序，并提供反向转换；实际导入文字/数字/显示顺序关系尚待确认，不执行倒序或计分。"
+          }
+        ],
+        "ranking": null
+      }
+    },
+    {
+      "id": "scientific-spirit--B.q020",
+      "order": 20,
+      "original_number": null,
+      "role": "measurement",
+      "measurement_class": "scale",
+      "kind": "rating",
+      "raw_text": "我相信每一次小小的实验改变，都可能产生意想不到的大惊喜",
+      "student_text": "我相信每一次小小的实验改变，都可能产生意想不到的大惊喜",
+      "source": {
+        "pdf_pages": [
+          33
+        ],
+        "printed_pages": [
+          30
+        ]
+      },
+      "group_id": "scientific-spirit--B.group003",
+      "subdimension": null,
+      "subdimension_reason": "原表仅明示本组；该组以下逐题细分维度未提供，不推断。",
+      "teacher_annotations": [],
+      "reverse": {
+        "marked": null,
+        "raw_marker": null,
+        "source": null,
+        "reason": "未见原文明示反向标记；否定句或概念标记不能据此推导反向。"
+      },
+      "response": {
+        "options": [
+          {
+            "id": "scientific-spirit--B.q020.option1",
+            "label": "完全不同意",
+            "value": 1,
+            "source": {
+              "pdf_pages": [
+                32,
+                33
+              ],
+              "printed_pages": [
+                29,
+                30
+              ]
+            }
+          },
+          {
+            "id": "scientific-spirit--B.q020.option2",
+            "label": "比较不同意",
+            "value": 2,
+            "source": {
+              "pdf_pages": [
+                32,
+                33
+              ],
+              "printed_pages": [
+                29,
+                30
+              ]
+            }
+          },
+          {
+            "id": "scientific-spirit--B.q020.option3",
+            "label": "无所谓",
+            "value": 3,
+            "source": {
+              "pdf_pages": [
+                32,
+                33
+              ],
+              "printed_pages": [
+                29,
+                30
+              ]
+            }
+          },
+          {
+            "id": "scientific-spirit--B.q020.option4",
+            "label": "比较同意",
+            "value": 4,
+            "source": {
+              "pdf_pages": [
+                32,
+                33
+              ],
+              "printed_pages": [
+                29,
+                30
+              ]
+            }
+          },
+          {
+            "id": "scientific-spirit--B.q020.option5",
+            "label": "完全同意",
+            "value": 5,
+            "source": {
+              "pdf_pages": [
+                32,
+                33
+              ],
+              "printed_pages": [
+                29,
+                30
+              ]
+            }
+          }
+        ],
+        "minimum": 1,
+        "maximum": 5,
+        "cardinality": "single",
+        "slots": null,
+        "raw_instruction": "请根据你自己的情况对下面问题的选项进行打分。其中“完全不同意-1”“比较不同意-2”“无所谓-3”“比较同意-4”“完全同意-5”",
+        "unknowns": [
+          {
+            "field": "required",
+            "reason": "原文未给必填要求，不补充约束。"
+          }
+        ],
+        "ranking": null
+      }
+    },
+    {
+      "id": "scientific-spirit--B.q021",
+      "order": 21,
+      "original_number": null,
+      "role": "measurement",
+      "measurement_class": "scale",
+      "kind": "rating",
+      "raw_text": "就算实验失败很多次，我也不会轻易放弃",
+      "student_text": "就算实验失败很多次，我也不会轻易放弃",
+      "source": {
+        "pdf_pages": [
+          33
+        ],
+        "printed_pages": [
+          30
+        ]
+      },
+      "group_id": "scientific-spirit--B.group003",
+      "subdimension": null,
+      "subdimension_reason": "原表仅明示本组；该组以下逐题细分维度未提供，不推断。",
+      "teacher_annotations": [],
+      "reverse": {
+        "marked": null,
+        "raw_marker": null,
+        "source": null,
+        "reason": "未见原文明示反向标记；否定句或概念标记不能据此推导反向。"
+      },
+      "response": {
+        "options": [
+          {
+            "id": "scientific-spirit--B.q021.option1",
+            "label": "完全不同意",
+            "value": 1,
+            "source": {
+              "pdf_pages": [
+                32,
+                33
+              ],
+              "printed_pages": [
+                29,
+                30
+              ]
+            }
+          },
+          {
+            "id": "scientific-spirit--B.q021.option2",
+            "label": "比较不同意",
+            "value": 2,
+            "source": {
+              "pdf_pages": [
+                32,
+                33
+              ],
+              "printed_pages": [
+                29,
+                30
+              ]
+            }
+          },
+          {
+            "id": "scientific-spirit--B.q021.option3",
+            "label": "无所谓",
+            "value": 3,
+            "source": {
+              "pdf_pages": [
+                32,
+                33
+              ],
+              "printed_pages": [
+                29,
+                30
+              ]
+            }
+          },
+          {
+            "id": "scientific-spirit--B.q021.option4",
+            "label": "比较同意",
+            "value": 4,
+            "source": {
+              "pdf_pages": [
+                32,
+                33
+              ],
+              "printed_pages": [
+                29,
+                30
+              ]
+            }
+          },
+          {
+            "id": "scientific-spirit--B.q021.option5",
+            "label": "完全同意",
+            "value": 5,
+            "source": {
+              "pdf_pages": [
+                32,
+                33
+              ],
+              "printed_pages": [
+                29,
+                30
+              ]
+            }
+          }
+        ],
+        "minimum": 1,
+        "maximum": 5,
+        "cardinality": "single",
+        "slots": null,
+        "raw_instruction": "请根据你自己的情况对下面问题的选项进行打分。其中“完全不同意-1”“比较不同意-2”“无所谓-3”“比较同意-4”“完全同意-5”",
+        "unknowns": [
+          {
+            "field": "required",
+            "reason": "原文未给必填要求，不补充约束。"
+          }
+        ],
+        "ranking": null
+      }
+    },
+    {
+      "id": "scientific-spirit--B.q022",
+      "order": 22,
+      "original_number": null,
+      "role": "measurement",
+      "measurement_class": "scale",
+      "kind": "rating",
+      "raw_text": "如果没有人监督我，我可能会偷懒做一些违背科学规范的小事（反向检测题）",
+      "student_text": "如果没有人监督我，我可能会偷懒做一些违背科学规范的小事",
+      "source": {
+        "pdf_pages": [
+          33
+        ],
+        "printed_pages": [
+          30
+        ]
+      },
+      "group_id": "scientific-spirit--B.group004",
+      "subdimension": null,
+      "subdimension_reason": "原表仅明示本组；该组以下逐题细分维度未提供，不推断。",
+      "teacher_annotations": [
+        {
+          "text": "（反向检测题）",
+          "kind": "reverse",
+          "visibility": "teacher",
+          "source": {
+            "pdf_pages": [
+              33
+            ],
+            "printed_pages": [
+              30
+            ]
+          }
+        }
+      ],
+      "reverse": {
+        "marked": true,
+        "raw_marker": "（反向检测题）",
+        "source": {
+          "pdf_pages": [
+            33
+          ],
+          "printed_pages": [
+            30
+          ]
+        },
+        "reason": null
+      },
+      "response": {
+        "options": [
+          {
+            "id": "scientific-spirit--B.q022.option1",
+            "label": "完全不同意",
+            "value": 1,
+            "source": {
+              "pdf_pages": [
+                32,
+                33
+              ],
+              "printed_pages": [
+                29,
+                30
+              ]
+            }
+          },
+          {
+            "id": "scientific-spirit--B.q022.option2",
+            "label": "比较不同意",
+            "value": 2,
+            "source": {
+              "pdf_pages": [
+                32,
+                33
+              ],
+              "printed_pages": [
+                29,
+                30
+              ]
+            }
+          },
+          {
+            "id": "scientific-spirit--B.q022.option3",
+            "label": "无所谓",
+            "value": 3,
+            "source": {
+              "pdf_pages": [
+                32,
+                33
+              ],
+              "printed_pages": [
+                29,
+                30
+              ]
+            }
+          },
+          {
+            "id": "scientific-spirit--B.q022.option4",
+            "label": "比较同意",
+            "value": 4,
+            "source": {
+              "pdf_pages": [
+                32,
+                33
+              ],
+              "printed_pages": [
+                29,
+                30
+              ]
+            }
+          },
+          {
+            "id": "scientific-spirit--B.q022.option5",
+            "label": "完全同意",
+            "value": 5,
+            "source": {
+              "pdf_pages": [
+                32,
+                33
+              ],
+              "printed_pages": [
+                29,
+                30
+              ]
+            }
+          }
+        ],
+        "minimum": 1,
+        "maximum": 5,
+        "cardinality": "single",
+        "slots": null,
+        "raw_instruction": "请根据你自己的情况对下面问题的选项进行打分。其中“完全不同意-1”“比较不同意-2”“无所谓-3”“比较同意-4”“完全同意-5”",
+        "unknowns": [
+          {
+            "field": "required",
+            "reason": "原文未给必填要求，不补充约束。"
+          },
+          {
+            "field": "display_order_and_score_mapping",
+            "reason": "原文要求反向题分值选项倒序，并提供反向转换；实际导入文字/数字/显示顺序关系尚待确认，不执行倒序或计分。"
+          }
+        ],
+        "ranking": null
+      }
+    },
+    {
+      "id": "scientific-spirit--B.q023",
+      "order": 23,
+      "original_number": null,
+      "role": "measurement",
+      "measurement_class": "scale",
+      "kind": "rating",
+      "raw_text": "我认可“技术无罪”的说法（反向检测题）",
+      "student_text": "我认可“技术无罪”的说法",
+      "source": {
+        "pdf_pages": [
+          33
+        ],
+        "printed_pages": [
+          30
+        ]
+      },
+      "group_id": "scientific-spirit--B.group004",
+      "subdimension": null,
+      "subdimension_reason": "原表仅明示本组；该组以下逐题细分维度未提供，不推断。",
+      "teacher_annotations": [
+        {
+          "text": "（反向检测题）",
+          "kind": "reverse",
+          "visibility": "teacher",
+          "source": {
+            "pdf_pages": [
+              33
+            ],
+            "printed_pages": [
+              30
+            ]
+          }
+        }
+      ],
+      "reverse": {
+        "marked": true,
+        "raw_marker": "（反向检测题）",
+        "source": {
+          "pdf_pages": [
+            33
+          ],
+          "printed_pages": [
+            30
+          ]
+        },
+        "reason": null
+      },
+      "response": {
+        "options": [
+          {
+            "id": "scientific-spirit--B.q023.option1",
+            "label": "完全不同意",
+            "value": 1,
+            "source": {
+              "pdf_pages": [
+                32,
+                33
+              ],
+              "printed_pages": [
+                29,
+                30
+              ]
+            }
+          },
+          {
+            "id": "scientific-spirit--B.q023.option2",
+            "label": "比较不同意",
+            "value": 2,
+            "source": {
+              "pdf_pages": [
+                32,
+                33
+              ],
+              "printed_pages": [
+                29,
+                30
+              ]
+            }
+          },
+          {
+            "id": "scientific-spirit--B.q023.option3",
+            "label": "无所谓",
+            "value": 3,
+            "source": {
+              "pdf_pages": [
+                32,
+                33
+              ],
+              "printed_pages": [
+                29,
+                30
+              ]
+            }
+          },
+          {
+            "id": "scientific-spirit--B.q023.option4",
+            "label": "比较同意",
+            "value": 4,
+            "source": {
+              "pdf_pages": [
+                32,
+                33
+              ],
+              "printed_pages": [
+                29,
+                30
+              ]
+            }
+          },
+          {
+            "id": "scientific-spirit--B.q023.option5",
+            "label": "完全同意",
+            "value": 5,
+            "source": {
+              "pdf_pages": [
+                32,
+                33
+              ],
+              "printed_pages": [
+                29,
+                30
+              ]
+            }
+          }
+        ],
+        "minimum": 1,
+        "maximum": 5,
+        "cardinality": "single",
+        "slots": null,
+        "raw_instruction": "请根据你自己的情况对下面问题的选项进行打分。其中“完全不同意-1”“比较不同意-2”“无所谓-3”“比较同意-4”“完全同意-5”",
+        "unknowns": [
+          {
+            "field": "required",
+            "reason": "原文未给必填要求，不补充约束。"
+          },
+          {
+            "field": "display_order_and_score_mapping",
+            "reason": "原文要求反向题分值选项倒序，并提供反向转换；实际导入文字/数字/显示顺序关系尚待确认，不执行倒序或计分。"
+          }
+        ],
+        "ranking": null
+      }
+    },
+    {
+      "id": "scientific-spirit--B.q024",
+      "order": 24,
+      "original_number": null,
+      "role": "measurement",
+      "measurement_class": "scale",
+      "kind": "rating",
+      "raw_text": "就算能发高级别的期刊，我也不会把研究结论适当包装得超过它本来的样子",
+      "student_text": "就算能发高级别的期刊，我也不会把研究结论适当包装得超过它本来的样子",
+      "source": {
+        "pdf_pages": [
+          34
+        ],
+        "printed_pages": [
+          31
+        ]
+      },
+      "group_id": "scientific-spirit--B.group004",
+      "subdimension": null,
+      "subdimension_reason": "原表仅明示本组；该组以下逐题细分维度未提供，不推断。",
+      "teacher_annotations": [],
+      "reverse": {
+        "marked": null,
+        "raw_marker": null,
+        "source": null,
+        "reason": "未见原文明示反向标记；否定句或概念标记不能据此推导反向。"
+      },
+      "response": {
+        "options": [
+          {
+            "id": "scientific-spirit--B.q024.option1",
+            "label": "完全不同意",
+            "value": 1,
+            "source": {
+              "pdf_pages": [
+                32,
+                34
+              ],
+              "printed_pages": [
+                29,
+                31
+              ]
+            }
+          },
+          {
+            "id": "scientific-spirit--B.q024.option2",
+            "label": "比较不同意",
+            "value": 2,
+            "source": {
+              "pdf_pages": [
+                32,
+                34
+              ],
+              "printed_pages": [
+                29,
+                31
+              ]
+            }
+          },
+          {
+            "id": "scientific-spirit--B.q024.option3",
+            "label": "无所谓",
+            "value": 3,
+            "source": {
+              "pdf_pages": [
+                32,
+                34
+              ],
+              "printed_pages": [
+                29,
+                31
+              ]
+            }
+          },
+          {
+            "id": "scientific-spirit--B.q024.option4",
+            "label": "比较同意",
+            "value": 4,
+            "source": {
+              "pdf_pages": [
+                32,
+                34
+              ],
+              "printed_pages": [
+                29,
+                31
+              ]
+            }
+          },
+          {
+            "id": "scientific-spirit--B.q024.option5",
+            "label": "完全同意",
+            "value": 5,
+            "source": {
+              "pdf_pages": [
+                32,
+                34
+              ],
+              "printed_pages": [
+                29,
+                31
+              ]
+            }
+          }
+        ],
+        "minimum": 1,
+        "maximum": 5,
+        "cardinality": "single",
+        "slots": null,
+        "raw_instruction": "请根据你自己的情况对下面问题的选项进行打分。其中“完全不同意-1”“比较不同意-2”“无所谓-3”“比较同意-4”“完全同意-5”",
+        "unknowns": [
+          {
+            "field": "required",
+            "reason": "原文未给必填要求，不补充约束。"
+          }
+        ],
+        "ranking": null
+      }
+    },
+    {
+      "id": "scientific-spirit--B.q025",
+      "order": 25,
+      "original_number": null,
+      "role": "measurement",
+      "measurement_class": "scale",
+      "kind": "rating",
+      "raw_text": "我在写论文时基于前人的研究现状，较为缜密地叙述自己的观点，不夸大",
+      "student_text": "我在写论文时基于前人的研究现状，较为缜密地叙述自己的观点，不夸大",
+      "source": {
+        "pdf_pages": [
+          34
+        ],
+        "printed_pages": [
+          31
+        ]
+      },
+      "group_id": "scientific-spirit--B.group004",
+      "subdimension": null,
+      "subdimension_reason": "原表仅明示本组；该组以下逐题细分维度未提供，不推断。",
+      "teacher_annotations": [],
+      "reverse": {
+        "marked": null,
+        "raw_marker": null,
+        "source": null,
+        "reason": "未见原文明示反向标记；否定句或概念标记不能据此推导反向。"
+      },
+      "response": {
+        "options": [
+          {
+            "id": "scientific-spirit--B.q025.option1",
+            "label": "完全不同意",
+            "value": 1,
+            "source": {
+              "pdf_pages": [
+                32,
+                34
+              ],
+              "printed_pages": [
+                29,
+                31
+              ]
+            }
+          },
+          {
+            "id": "scientific-spirit--B.q025.option2",
+            "label": "比较不同意",
+            "value": 2,
+            "source": {
+              "pdf_pages": [
+                32,
+                34
+              ],
+              "printed_pages": [
+                29,
+                31
+              ]
+            }
+          },
+          {
+            "id": "scientific-spirit--B.q025.option3",
+            "label": "无所谓",
+            "value": 3,
+            "source": {
+              "pdf_pages": [
+                32,
+                34
+              ],
+              "printed_pages": [
+                29,
+                31
+              ]
+            }
+          },
+          {
+            "id": "scientific-spirit--B.q025.option4",
+            "label": "比较同意",
+            "value": 4,
+            "source": {
+              "pdf_pages": [
+                32,
+                34
+              ],
+              "printed_pages": [
+                29,
+                31
+              ]
+            }
+          },
+          {
+            "id": "scientific-spirit--B.q025.option5",
+            "label": "完全同意",
+            "value": 5,
+            "source": {
+              "pdf_pages": [
+                32,
+                34
+              ],
+              "printed_pages": [
+                29,
+                31
+              ]
+            }
+          }
+        ],
+        "minimum": 1,
+        "maximum": 5,
+        "cardinality": "single",
+        "slots": null,
+        "raw_instruction": "请根据你自己的情况对下面问题的选项进行打分。其中“完全不同意-1”“比较不同意-2”“无所谓-3”“比较同意-4”“完全同意-5”",
+        "unknowns": [
+          {
+            "field": "required",
+            "reason": "原文未给必填要求，不补充约束。"
+          }
+        ],
+        "ranking": null
+      }
+    },
+    {
+      "id": "scientific-spirit--B.q026",
+      "order": 26,
+      "original_number": null,
+      "role": "measurement",
+      "measurement_class": "scale",
+      "kind": "rating",
+      "raw_text": "有的时候科技的发展对社会带来的危害是不可避免的",
+      "student_text": "有的时候科技的发展对社会带来的危害是不可避免的",
+      "source": {
+        "pdf_pages": [
+          34
+        ],
+        "printed_pages": [
+          31
+        ]
+      },
+      "group_id": "scientific-spirit--B.group004",
+      "subdimension": null,
+      "subdimension_reason": "原表仅明示本组；该组以下逐题细分维度未提供，不推断。",
+      "teacher_annotations": [],
+      "reverse": {
+        "marked": null,
+        "raw_marker": null,
+        "source": null,
+        "reason": "未见原文明示反向标记；否定句或概念标记不能据此推导反向。"
+      },
+      "response": {
+        "options": [
+          {
+            "id": "scientific-spirit--B.q026.option1",
+            "label": "完全不同意",
+            "value": 1,
+            "source": {
+              "pdf_pages": [
+                32,
+                34
+              ],
+              "printed_pages": [
+                29,
+                31
+              ]
+            }
+          },
+          {
+            "id": "scientific-spirit--B.q026.option2",
+            "label": "比较不同意",
+            "value": 2,
+            "source": {
+              "pdf_pages": [
+                32,
+                34
+              ],
+              "printed_pages": [
+                29,
+                31
+              ]
+            }
+          },
+          {
+            "id": "scientific-spirit--B.q026.option3",
+            "label": "无所谓",
+            "value": 3,
+            "source": {
+              "pdf_pages": [
+                32,
+                34
+              ],
+              "printed_pages": [
+                29,
+                31
+              ]
+            }
+          },
+          {
+            "id": "scientific-spirit--B.q026.option4",
+            "label": "比较同意",
+            "value": 4,
+            "source": {
+              "pdf_pages": [
+                32,
+                34
+              ],
+              "printed_pages": [
+                29,
+                31
+              ]
+            }
+          },
+          {
+            "id": "scientific-spirit--B.q026.option5",
+            "label": "完全同意",
+            "value": 5,
+            "source": {
+              "pdf_pages": [
+                32,
+                34
+              ],
+              "printed_pages": [
+                29,
+                31
+              ]
+            }
+          }
+        ],
+        "minimum": 1,
+        "maximum": 5,
+        "cardinality": "single",
+        "slots": null,
+        "raw_instruction": "请根据你自己的情况对下面问题的选项进行打分。其中“完全不同意-1”“比较不同意-2”“无所谓-3”“比较同意-4”“完全同意-5”",
+        "unknowns": [
+          {
+            "field": "required",
+            "reason": "原文未给必填要求，不补充约束。"
+          }
+        ],
+        "ranking": null
+      }
+    }
+  ],
+  "groups": [
+    {
+      "id": "scientific-spirit--B.group001",
+      "raw_name": "理性思维",
+      "source": {
+        "pdf_pages": [
+          32,
+          33
+        ],
+        "printed_pages": [
+          29,
+          30
+        ]
+      },
+      "parent_id": null,
+      "note": "原题表明示分组；含跨页续表时由已核验连续行延续，不按题意分配。"
+    },
+    {
+      "id": "scientific-spirit--B.group002",
+      "raw_name": "批判质疑",
+      "source": {
+        "pdf_pages": [
+          33
+        ],
+        "printed_pages": [
+          30
+        ]
+      },
+      "parent_id": null,
+      "note": "原题表明示分组；含跨页续表时由已核验连续行延续，不按题意分配。"
+    },
+    {
+      "id": "scientific-spirit--B.group003",
+      "raw_name": "勇于探究",
+      "source": {
+        "pdf_pages": [
+          33
+        ],
+        "printed_pages": [
+          30
+        ]
+      },
+      "parent_id": null,
+      "note": "原题表明示分组；含跨页续表时由已核验连续行延续，不按题意分配。"
+    },
+    {
+      "id": "scientific-spirit--B.group004",
+      "raw_name": "道德伦理",
+      "source": {
+        "pdf_pages": [
+          33,
+          34
+        ],
+        "printed_pages": [
+          30,
+          31
+        ]
+      },
+      "parent_id": null,
+      "note": "原题表明示分组；含跨页续表时由已核验连续行延续，不按题意分配。"
+    }
+  ],
+  "blocks": [
+    {
+      "id": "scientific-spirit--B.block001",
+      "kind": "matrix",
+      "raw_title": null,
+      "item_ids": [
+        "scientific-spirit--B.q001",
+        "scientific-spirit--B.q002",
+        "scientific-spirit--B.q003",
+        "scientific-spirit--B.q004",
+        "scientific-spirit--B.q005",
+        "scientific-spirit--B.q006",
+        "scientific-spirit--B.q007",
+        "scientific-spirit--B.q008",
+        "scientific-spirit--B.q009",
+        "scientific-spirit--B.q010",
+        "scientific-spirit--B.q011",
+        "scientific-spirit--B.q012",
+        "scientific-spirit--B.q013",
+        "scientific-spirit--B.q014",
+        "scientific-spirit--B.q015",
+        "scientific-spirit--B.q016",
+        "scientific-spirit--B.q017",
+        "scientific-spirit--B.q018",
+        "scientific-spirit--B.q019",
+        "scientific-spirit--B.q020",
+        "scientific-spirit--B.q021",
+        "scientific-spirit--B.q022",
+        "scientific-spirit--B.q023",
+        "scientific-spirit--B.q024",
+        "scientific-spirit--B.q025",
+        "scientific-spirit--B.q026"
+      ],
+      "source": {
+        "pdf_pages": [
+          32,
+          33,
+          34
+        ],
+        "printed_pages": [
+          29,
+          30,
+          31
+        ]
+      },
+      "note": "原五级评分表，列顺序1、2、3、4、5；原表题行逐项引用并保留明示组别。跨页重现表头为续表，不新增测量题。"
+    }
+  ],
+  "scoring": {
+    "raw_rules": [
+      {
+        "raw_text": "2.评分规则：（1）该问卷为李克特五分量表，评价者根据自身真实感受进行 5级打分，1 代表非常不同意、2 代表比较不同意、3 代表中立、4 代表比较同意、5 代表非常同意。每个维度的得分为各题项平均分。理性思维、批评质疑、勇于探究与道德伦理得分之和就是科学精神的总分，分数越高代表被测对象科学精神越高。（2）表格中标注“反向检测题”的题项需要特殊处理。该类题目的提问指向与其他题目相似，但提问的思路方向则与其他题目相反。主要是用于检测填答者对于问题回答的态度是否认真仔细，以及检测问卷填答的质量信度是否过关。因此在使用这些问卷进行测评时，首先在问卷制作阶段应删除“（反向检测题）”等标识文字（避免给填答者以提示）。然后在问卷印制时将这些题目的分值选项倒序排列（对反向题进行分数转换）。第三步在问卷回收后，应首先查验反向检验题的答案，以便剔除无效问卷（当填答者反向题和普通题打分处于同级时该问卷无效）。最后再进行问卷分数统计。（3）反向题分数转换的规则：1-5；2-4；3-3；4-2；5-1。 ",
+        "source": {
+          "pdf_pages": [
+            34
+          ],
+          "printed_pages": [
+            31
+          ]
+        }
+      }
+    ],
+    "reverse_mapping": [
+      {
+        "from": 1,
+        "to": 5
+      },
+      {
+        "from": 2,
+        "to": 4
+      },
+      {
+        "from": 3,
+        "to": 3
+      },
+      {
+        "from": 4,
+        "to": 2
+      },
+      {
+        "from": 5,
+        "to": 1
+      }
+    ],
+    "unknowns": [
+      {
+        "field": "missing_values",
+        "reason": "原文未明确缺失回答的计分处理。",
+        "source": {
+          "pdf_pages": [
+            34,
+            35
+          ],
+          "printed_pages": [
+            31,
+            32
+          ]
+        }
+      },
+      {
+        "field": "norms_and_thresholds",
+        "reason": "原文未明确常模、解释阈值或分类规则。",
+        "source": {
+          "pdf_pages": [
+            34,
+            35
+          ],
+          "printed_pages": [
+            31,
+            32
+          ]
+        }
+      }
+    ]
+  },
+  "counts": {
+    "basic_information": 0,
+    "measurement_items": 26,
+    "scale_items": 26,
+    "preliminary_items": 0,
+    "background_items": 0,
+    "item_records": 26,
+    "original_question_blocks": 1,
+    "reason": "原问卷评分矩阵为一个原题块；每行独立计一个测量题项，理论解释表与教师说明不计题。"
+  },
+  "issues": [
+    {
+      "id": "scientific-spirit--B.A-1",
+      "category": "blocking",
+      "blocking": true,
+      "source": {
+        "pdf_pages": [
+          32,
+          34
+        ],
+        "printed_pages": [
+          29,
+          31
+        ]
+      },
+      "original_text": "请根据你自己的情况对下面问题的选项进行打分。其中“完全不同意-1”“比较不同意-2”“无所谓-3”“比较同意-4”“完全同意-5”\n2.评分规则：（1）该问卷为李克特五分量表，评价者根据自身真实感受进行 5级打分，1 代表非常不同意、2 代表比较不同意、3 代表中立、4 代表比较同意、5 代表非常同意。每个维度的得分为各题项平均分。理性思维、批评质疑、勇于探究与道德伦理得分之和就是科学精神的总分，分数越高代表被测对象科学精神越高。（2）表格中标注“反向检测题”的题项需要特殊处理。该类题目的提问指向与其他题目相似，但提问的思路方向则与其他题目相反。主要是用于检测填答者对于问题回答的态度是否认真仔细，以及检测问卷填答的质量信度是否过关。因此在使用这些问卷进行测评时，首先在问卷制作阶段应删除“（反向检测题）”等标识文字（避免给填答者以提示）。然后在问卷印制时将这些题目的分值选项倒序排列（对反向题进行分数转换）。第三步在问卷回收后，应首先查验反向检验题的答案，以便剔除无效问卷（当填答者反向题和普通题打分处于同级时该问卷无效）。最后再进行问卷分数统计。（3）反向题分数转换的规则：1-5；2-4；3-3；4-2；5-1。",
+      "missing_information": "题面五级标签完全不同意/无所谓/完全同意，与评分说明非常不同意/中立/非常同意不一致；学生端采用哪个原文标签尚未确认。原文摘录依次为本卷题面作答说明和教师评分说明，来自本疑点标注的相应页。",
+      "possible_resolutions": [
+        "明确接受题面五级原标签，评分段异文只保留教师元数据。",
+        "取得编制方可核实的原版更正及展示政策。"
+      ],
+      "recommendation": "推荐忠实采用本卷题面五级标签，并明确记录政策依据；本轮仅保存两套原文，不视为问题已解决。",
+      "affected_item_ids": [
+        "scientific-spirit--B.q001",
+        "scientific-spirit--B.q002",
+        "scientific-spirit--B.q003",
+        "scientific-spirit--B.q004",
+        "scientific-spirit--B.q005",
+        "scientific-spirit--B.q006",
+        "scientific-spirit--B.q007",
+        "scientific-spirit--B.q008",
+        "scientific-spirit--B.q009",
+        "scientific-spirit--B.q010",
+        "scientific-spirit--B.q011",
+        "scientific-spirit--B.q012",
+        "scientific-spirit--B.q013",
+        "scientific-spirit--B.q014",
+        "scientific-spirit--B.q015",
+        "scientific-spirit--B.q016",
+        "scientific-spirit--B.q017",
+        "scientific-spirit--B.q018",
+        "scientific-spirit--B.q019",
+        "scientific-spirit--B.q020",
+        "scientific-spirit--B.q021",
+        "scientific-spirit--B.q022",
+        "scientific-spirit--B.q023",
+        "scientific-spirit--B.q024",
+        "scientific-spirit--B.q025",
+        "scientific-spirit--B.q026"
+      ],
+      "resolution": null
+    },
+    {
+      "id": "scientific-spirit--B.A-2",
+      "category": "blocking",
+      "blocking": true,
+      "source": {
+        "pdf_pages": [
+          34
+        ],
+        "printed_pages": [
+          31
+        ]
+      },
+      "original_text": "2.评分规则：（1）该问卷为李克特五分量表，评价者根据自身真实感受进行 5级打分，1 代表非常不同意、2 代表比较不同意、3 代表中立、4 代表比较同意、5 代表非常同意。每个维度的得分为各题项平均分。理性思维、批评质疑、勇于探究与道德伦理得分之和就是科学精神的总分，分数越高代表被测对象科学精神越高。（2）表格中标注“反向检测题”的题项需要特殊处理。该类题目的提问指向与其他题目相似，但提问的思路方向则与其他题目相反。主要是用于检测填答者对于问题回答的态度是否认真仔细，以及检测问卷填答的质量信度是否过关。因此在使用这些问卷进行测评时，首先在问卷制作阶段应删除“（反向检测题）”等标识文字（避免给填答者以提示）。然后在问卷印制时将这些题目的分值选项倒序排列（对反向题进行分数转换）。第三步在问卷回收后，应首先查验反向检验题的答案，以便剔除无效问卷（当填答者反向题和普通题打分处于同级时该问卷无效）。最后再进行问卷分数统计。（3）反向题分数转换的规则：1-5；2-4；3-3；4-2；5-1。 ",
+      "missing_information": "反向题的分值选项倒序、文字标签顺序、显示数字与计分映射未给数字导入示例，尚未明确，不能静默默认或重复反转。",
+      "possible_resolutions": [
+        "获取原版显示实例并明确文字/数字/顺序关系。",
+        "由教师显式确认忠实展示政策并留下依据，计分保持元数据。"
+      ],
+      "recommendation": "原反向标记存教师注释；学生候选题干只剥离原文明示应隐藏的标记。选项保持原题面顺序等待确认；不计算分数。",
+      "affected_item_ids": [
+        "scientific-spirit--B.q001",
+        "scientific-spirit--B.q004",
+        "scientific-spirit--B.q008",
+        "scientific-spirit--B.q010",
+        "scientific-spirit--B.q012",
+        "scientific-spirit--B.q016",
+        "scientific-spirit--B.q019",
+        "scientific-spirit--B.q022",
+        "scientific-spirit--B.q023"
+      ],
+      "resolution": null
+    },
+    {
+      "id": "scientific-spirit--B.A-3",
+      "category": "metadata",
+      "blocking": false,
+      "source": {
+        "pdf_pages": [
+          34
+        ],
+        "printed_pages": [
+          31
+        ]
+      },
+      "original_text": "当填答者反向题和普通题打分处于同级时该问卷无效",
+      "missing_information": "未给反向与普通题配对、比较范围或无效阈值；不能据此实现自动剔除。",
+      "possible_resolutions": [
+        "仅存原文教师说明，不执行。",
+        "未来获得完整规则后另行计分阶段评估。"
+      ],
+      "recommendation": "第一版不读答卷、不统计、不剔除；该不完整规则仅为元数据。",
+      "affected_item_ids": [
+        "scientific-spirit--B.q001",
+        "scientific-spirit--B.q004",
+        "scientific-spirit--B.q008",
+        "scientific-spirit--B.q010",
+        "scientific-spirit--B.q012",
+        "scientific-spirit--B.q016",
+        "scientific-spirit--B.q019",
+        "scientific-spirit--B.q022",
+        "scientific-spirit--B.q023"
+      ],
+      "resolution": null
+    },
+    {
+      "id": "scientific-spirit--B.A-8-names",
+      "category": "textual",
+      "blocking": false,
+      "source": {
+        "pdf_pages": [
+          30,
+          31,
+          34
+        ],
+        "printed_pages": [
+          27,
+          28,
+          31
+        ]
+      },
+      "original_text": "伦理道德\n道德伦理\n批评质疑\n批判质疑",
+      "missing_information": "概念段使用“伦理道德”，图6/表6/题表使用“道德伦理”；评分段使用“批评质疑”，题表使用“批判质疑”。维度术语异文，未附更正。",
+      "possible_resolutions": [
+        "按各处原词保存，题表分组不改。"
+      ],
+      "recommendation": "不静默统一名称，不改变原表分组。",
+      "affected_item_ids": [
+        "scientific-spirit--B.q001",
+        "scientific-spirit--B.q002",
+        "scientific-spirit--B.q003",
+        "scientific-spirit--B.q004",
+        "scientific-spirit--B.q005",
+        "scientific-spirit--B.q006",
+        "scientific-spirit--B.q007",
+        "scientific-spirit--B.q008",
+        "scientific-spirit--B.q009",
+        "scientific-spirit--B.q010",
+        "scientific-spirit--B.q011",
+        "scientific-spirit--B.q012",
+        "scientific-spirit--B.q013",
+        "scientific-spirit--B.q014",
+        "scientific-spirit--B.q015",
+        "scientific-spirit--B.q016",
+        "scientific-spirit--B.q017",
+        "scientific-spirit--B.q018",
+        "scientific-spirit--B.q019",
+        "scientific-spirit--B.q020",
+        "scientific-spirit--B.q021",
+        "scientific-spirit--B.q022",
+        "scientific-spirit--B.q023",
+        "scientific-spirit--B.q024",
+        "scientific-spirit--B.q025",
+        "scientific-spirit--B.q026"
+      ],
+      "resolution": null
+    },
+    {
+      "id": "scientific-spirit--B.A-8-item",
+      "category": "textual",
+      "blocking": false,
+      "source": {
+        "pdf_pages": [
+          33
+        ],
+        "printed_pages": [
+          30
+        ]
+      },
+      "original_text": "我在给出问题解决方法时常常反思我是不是有没有考虑全面的地方",
+      "missing_information": "原句含“我是不是有没有”疑似冗余，原页如此。",
+      "possible_resolutions": [
+        "忠实保留原文并向教师提示。",
+        "如取得正式更正，另存修订记录，不覆盖原版。"
+      ],
+      "recommendation": "原词原序保存，不润色。",
+      "affected_item_ids": [
+        "scientific-spirit--B.q014"
+      ],
+      "resolution": null
+    }
+  ],
+  "review": {
+    "status": "needs_confirmation",
+    "transcription_verified": true,
+    "checked_pdf_pages": [
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35
+    ],
+    "method": "重新从哈希一致原PDF用pypdf与pdfplumber提取；逐卷实际查看原页PNG题表、连续表格分组、标题与完整使用说明，再核对全部原题行；未用旧全文直接充当正式数据。只合并版面换行与空白，不改字词。",
+    "reviewed_on": "2026-10-04",
+    "eligible_for_generation": false,
+    "note": "仅为数据层转录与输出阻断状态，不是导出、计分、WorkBuddy调用或问卷星导入验证；本阶段未开发生成器。"
+  }
+}

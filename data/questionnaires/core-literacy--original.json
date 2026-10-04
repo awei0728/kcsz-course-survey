@@ -1,0 +1,4981 @@
+{
+  "schema_version": 1,
+  "id": "core-literacy--original",
+  "project_id": "core-literacy",
+  "version_id": "original",
+  "project_name": "学生核心素养",
+  "original_name": null,
+  "original_name_reason": "原文没有为本问卷另列独立总标题；只给卷名或问卷内容节名，借鉴量表名称不是本指南独立问卷名。",
+  "title": {
+    "raw_text": "（四）问卷具体内容及题项",
+    "student_text": "（四）问卷具体内容及题项",
+    "source": {
+      "pdf_pages": [
+        27
+      ],
+      "printed_pages": [
+        24
+      ]
+    }
+  },
+  "source": {
+    "filename": "武汉大学课程思政教学评价指南（第一辑）.pdf",
+    "volume": 1,
+    "chapter": "五、学生核心素养评价指南",
+    "pdf_pages": [
+      24,
+      25,
+      26,
+      27,
+      28
+    ],
+    "printed_pages": [
+      21,
+      22,
+      23,
+      24,
+      25
+    ],
+    "sha256": "218ce8325ef713959646c279effd9d1a113f6064656926bdf21ac3903dd33850"
+  },
+  "instructions": [
+    {
+      "id": "core-literacy--original.instruction001",
+      "role": "response",
+      "raw_text": "请对下表中给出的核心素养指标进行判断，并在你认同的合理程度选择栏内划“√”。",
+      "student_text": "请对下表中给出的核心素养指标进行判断，并在你认同的合理程度选择栏内划“√”。",
+      "source": {
+        "pdf_pages": [
+          27
+        ],
+        "printed_pages": [
+          24
+        ]
+      }
+    },
+    {
+      "id": "core-literacy--original.instruction002",
+      "role": "teacher",
+      "raw_text": "（五）评价使用说明 1.评价对象：全体上课学生。 2.评分规则：该问卷为李克特五分量表，评价者根据自身真实感受进行 5 级打分，1 代表非常不同意、2 代表比较不同意、3 代表中立、4 代表比较同意、5代表非常同意。每个维度的得分为各题项平均分。文化基础、自主发展和社会参与的得分之和即为核心素养总分，分数越高代表被测对象核心素养越高。 3.说明：核心素养的形成需要较长时间，因此短时间的跟踪评价数据意义不大。建议作为总括性了解。",
+      "student_text": null,
+      "source": {
+        "pdf_pages": [
+          28
+        ],
+        "printed_pages": [
+          25
+        ]
+      }
+    },
+    {
+      "id": "core-literacy--original.teacher-context-24",
+      "role": "teacher",
+      "raw_text": "五、学生核心素养评价指南（一）概念定义 2014 年教育部研制印发《关于全面深化课程改革落实立德树人根本任务的意见》中提出“教育部将组织研究提出各学段学生发展核心素养体系，明确学生应具备的适应终身发展和社会发展需要的必备品格和关键能力” [26]。核心素养是党的教育方针的具体化，是连接宏观教育理念、培养目标与具体教育教学实践的中间要件。党的教育方针通过核心素养这一桥梁，可以转化为教育教学实践可用的、教育工作者易于理解的具体要求，明确学生应具备的必备品格和关键能力，从中观层面深入回答“立什么德、树什么人”的根本问题，引领课程改革和育人模式变革 [27]。学生发展核心素养指学生应具备的，能够适应终身发展和社会发展需要的必备品格和核心能力，是关于学生知识、技能、情感、态度、价值观等多方面要求的综合表现。明确核心素养，一方面可通过引领和促进教师的专业发展，改变当前存在的“学科本位”和“知识本位”现象，一方面可帮助学生明确未来的发展方向，激励学生朝着这一目标不断努力[28]。（二）维度划分《中国学生发展核心素养》研究成果于2016 年9 月 13 日在京发布。核心素养以培养“全面发展的人”为核心，分为文化基础、自主发展、社会参与 3 个方面，综合表现为人文底蕴、科学精神、学会学习、健康生活、责任担当、实践创新六大素养，具体细化为国家认同等 18 个基本要点。该成果是教育部委托北京师范大学，联合国内高校近百位专家 [26] 教育部关于全面深化课程改革落实立德树人根本任务的意见http://www.moe.gov.cn/srcsite/A26/jcj_kcjcgh/201404/t20140408_167226.html?pphlnglnohdbaiek [27] 中国学生发展核心素养研究课题组负责人答记者问http://edu.cssn.cn/jyx/jyx_zdtj/201609/t20160914_3202030.shtml [28] 核心素养研制组:《中国学生发展核心素养》, http://edu.people.com.cn/n1/2016/0914/c1053-28714231.html",
+      "student_text": null,
+      "source": {
+        "pdf_pages": [
+          24
+        ],
+        "printed_pages": [
+          21
+        ]
+      }
+    },
+    {
+      "id": "core-literacy--original.teacher-context-25",
+      "role": "teacher",
+      "raw_text": "成立课题组，历时 3 年完成的。调查目的是对学生核心素养的认同（学生认为自身应该具备哪些核心素养）进行相关调查。维度划分以研究成果《中国学生发展核心素养》为依据划分(见图5) [29]。图5 中国学生发展核心素养的测评维度 [29] 核心素养研制组:《中国学生发展核心素养》, http://edu.people.com.cn/n1/2016/0914/c1053-28714231.html",
+      "student_text": null,
+      "source": {
+        "pdf_pages": [
+          25
+        ],
+        "printed_pages": [
+          22
+        ]
+      }
+    },
+    {
+      "id": "core-literacy--original.teacher-context-26",
+      "role": "teacher",
+      "raw_text": "（三）各维度具体解释表5 中国学生发展核心素养测评维度解释一级维度解释二级维度解释文化基础文化是人存在的根和魂。文化基础，重在强调能习得人文、科学等各领域的知识和技能，掌握和运用人类优秀智慧成果，涵养内在精神，追求真善美的统一，发展成为有宽厚文化基础、有更高精神追求的人人文底蕴学生在学习、理解、运用人文领域知识和技能等方面所形成的基本能力、情感态度和价值取向。具体包括人文积淀、人文情怀和审美情趣等基本要点科学精神学生在学习、理解、运用科学知识和技能等方面所形成的价值标准、思维方式和行为表现。具体包括理性思维、批判质疑、勇于探究等基本要点自主发展自主性是人作为主体的根本属性。自主发展，重在强调能有效管理自己的学习和生活，认识和发现自我价值，发掘自身潜力，有效应对复杂多变的环境，成就出彩人生，发展成为有明确人生方向、有生活品质的人学会学习学生在学习意识形成、学习方式方法选择、学习进程评估调控等方面的综合表现。具体包括乐学善学、勤于反思、信息意识等基本要点健康生活学生在认识自我、发展身心、规划人生等方面的综合表现。具体包括珍爱生命、健全人格、自我管理等基本要点社会参与社会性是人的本质属性。社会参与，重在强调能处理好自我与社会的关系，养成现代公民所必须遵守和履行的道德准则和行为规范，增强社会责任感，提升创新精神和实践能力，促进个人价值实现，推动社会发展进步，发展成为有理想信念、敢于担当的人责任担当学生在处理与社会、国家、国际等关系方面的情感态度、价值取向和行为方式。具体包括社会责任、国家认同、国际理解等基本要点实践创新学生在日常活动、问题解决、适应挑战等方面所形成的实践能力、创新意识和行为表现。具体包括劳动意识、问题解决、技术应用等基本要点",
+      "student_text": null,
+      "source": {
+        "pdf_pages": [
+          26
+        ],
+        "printed_pages": [
+          23
+        ]
+      }
+    }
+  ],
+  "basic_information": [],
+  "items": [
+    {
+      "id": "core-literacy--original.q001",
+      "order": 1,
+      "original_number": null,
+      "role": "measurement",
+      "measurement_class": "scale",
+      "kind": "rating",
+      "raw_text": "人文知识",
+      "student_text": "人文知识",
+      "source": {
+        "pdf_pages": [
+          27
+        ],
+        "printed_pages": [
+          24
+        ]
+      },
+      "group_id": "core-literacy--original.group001",
+      "subdimension": null,
+      "subdimension_reason": "原表仅明示本组；该组以下逐题细分维度未提供，不推断。",
+      "teacher_annotations": [],
+      "reverse": {
+        "marked": null,
+        "raw_marker": null,
+        "source": null,
+        "reason": "未见原文明示反向标记；否定句或概念标记不能据此推导反向。"
+      },
+      "response": {
+        "options": [
+          {
+            "id": "core-literacy--original.q001.option1",
+            "label": "非常不同意",
+            "value": 1,
+            "source": {
+              "pdf_pages": [
+                27,
+                28
+              ],
+              "printed_pages": [
+                24,
+                25
+              ]
+            }
+          },
+          {
+            "id": "core-literacy--original.q001.option2",
+            "label": "比较不同意",
+            "value": 2,
+            "source": {
+              "pdf_pages": [
+                27,
+                28
+              ],
+              "printed_pages": [
+                24,
+                25
+              ]
+            }
+          },
+          {
+            "id": "core-literacy--original.q001.option3",
+            "label": "中立",
+            "value": 3,
+            "source": {
+              "pdf_pages": [
+                27,
+                28
+              ],
+              "printed_pages": [
+                24,
+                25
+              ]
+            }
+          },
+          {
+            "id": "core-literacy--original.q001.option4",
+            "label": "比较同意",
+            "value": 4,
+            "source": {
+              "pdf_pages": [
+                27,
+                28
+              ],
+              "printed_pages": [
+                24,
+                25
+              ]
+            }
+          },
+          {
+            "id": "core-literacy--original.q001.option5",
+            "label": "非常同意",
+            "value": 5,
+            "source": {
+              "pdf_pages": [
+                27,
+                28
+              ],
+              "printed_pages": [
+                24,
+                25
+              ]
+            }
+          }
+        ],
+        "minimum": 1,
+        "maximum": 5,
+        "cardinality": "single",
+        "slots": null,
+        "raw_instruction": "请对下表中给出的核心素养指标进行判断，并在你认同的合理程度选择栏内划“√”。",
+        "unknowns": [
+          {
+            "field": "required",
+            "reason": "原文未给必填要求，不补充约束。"
+          }
+        ],
+        "ranking": null
+      }
+    },
+    {
+      "id": "core-literacy--original.q002",
+      "order": 2,
+      "original_number": null,
+      "role": "measurement",
+      "measurement_class": "scale",
+      "kind": "rating",
+      "raw_text": "科学知识",
+      "student_text": "科学知识",
+      "source": {
+        "pdf_pages": [
+          27
+        ],
+        "printed_pages": [
+          24
+        ]
+      },
+      "group_id": "core-literacy--original.group001",
+      "subdimension": null,
+      "subdimension_reason": "原表仅明示本组；该组以下逐题细分维度未提供，不推断。",
+      "teacher_annotations": [],
+      "reverse": {
+        "marked": null,
+        "raw_marker": null,
+        "source": null,
+        "reason": "未见原文明示反向标记；否定句或概念标记不能据此推导反向。"
+      },
+      "response": {
+        "options": [
+          {
+            "id": "core-literacy--original.q002.option1",
+            "label": "非常不同意",
+            "value": 1,
+            "source": {
+              "pdf_pages": [
+                27,
+                28
+              ],
+              "printed_pages": [
+                24,
+                25
+              ]
+            }
+          },
+          {
+            "id": "core-literacy--original.q002.option2",
+            "label": "比较不同意",
+            "value": 2,
+            "source": {
+              "pdf_pages": [
+                27,
+                28
+              ],
+              "printed_pages": [
+                24,
+                25
+              ]
+            }
+          },
+          {
+            "id": "core-literacy--original.q002.option3",
+            "label": "中立",
+            "value": 3,
+            "source": {
+              "pdf_pages": [
+                27,
+                28
+              ],
+              "printed_pages": [
+                24,
+                25
+              ]
+            }
+          },
+          {
+            "id": "core-literacy--original.q002.option4",
+            "label": "比较同意",
+            "value": 4,
+            "source": {
+              "pdf_pages": [
+                27,
+                28
+              ],
+              "printed_pages": [
+                24,
+                25
+              ]
+            }
+          },
+          {
+            "id": "core-literacy--original.q002.option5",
+            "label": "非常同意",
+            "value": 5,
+            "source": {
+              "pdf_pages": [
+                27,
+                28
+              ],
+              "printed_pages": [
+                24,
+                25
+              ]
+            }
+          }
+        ],
+        "minimum": 1,
+        "maximum": 5,
+        "cardinality": "single",
+        "slots": null,
+        "raw_instruction": "请对下表中给出的核心素养指标进行判断，并在你认同的合理程度选择栏内划“√”。",
+        "unknowns": [
+          {
+            "field": "required",
+            "reason": "原文未给必填要求，不补充约束。"
+          }
+        ],
+        "ranking": null
+      }
+    },
+    {
+      "id": "core-literacy--original.q003",
+      "order": 3,
+      "original_number": null,
+      "role": "measurement",
+      "measurement_class": "scale",
+      "kind": "rating",
+      "raw_text": "专业理论",
+      "student_text": "专业理论",
+      "source": {
+        "pdf_pages": [
+          27
+        ],
+        "printed_pages": [
+          24
+        ]
+      },
+      "group_id": "core-literacy--original.group001",
+      "subdimension": null,
+      "subdimension_reason": "原表仅明示本组；该组以下逐题细分维度未提供，不推断。",
+      "teacher_annotations": [],
+      "reverse": {
+        "marked": null,
+        "raw_marker": null,
+        "source": null,
+        "reason": "未见原文明示反向标记；否定句或概念标记不能据此推导反向。"
+      },
+      "response": {
+        "options": [
+          {
+            "id": "core-literacy--original.q003.option1",
+            "label": "非常不同意",
+            "value": 1,
+            "source": {
+              "pdf_pages": [
+                27,
+                28
+              ],
+              "printed_pages": [
+                24,
+                25
+              ]
+            }
+          },
+          {
+            "id": "core-literacy--original.q003.option2",
+            "label": "比较不同意",
+            "value": 2,
+            "source": {
+              "pdf_pages": [
+                27,
+                28
+              ],
+              "printed_pages": [
+                24,
+                25
+              ]
+            }
+          },
+          {
+            "id": "core-literacy--original.q003.option3",
+            "label": "中立",
+            "value": 3,
+            "source": {
+              "pdf_pages": [
+                27,
+                28
+              ],
+              "printed_pages": [
+                24,
+                25
+              ]
+            }
+          },
+          {
+            "id": "core-literacy--original.q003.option4",
+            "label": "比较同意",
+            "value": 4,
+            "source": {
+              "pdf_pages": [
+                27,
+                28
+              ],
+              "printed_pages": [
+                24,
+                25
+              ]
+            }
+          },
+          {
+            "id": "core-literacy--original.q003.option5",
+            "label": "非常同意",
+            "value": 5,
+            "source": {
+              "pdf_pages": [
+                27,
+                28
+              ],
+              "printed_pages": [
+                24,
+                25
+              ]
+            }
+          }
+        ],
+        "minimum": 1,
+        "maximum": 5,
+        "cardinality": "single",
+        "slots": null,
+        "raw_instruction": "请对下表中给出的核心素养指标进行判断，并在你认同的合理程度选择栏内划“√”。",
+        "unknowns": [
+          {
+            "field": "required",
+            "reason": "原文未给必填要求，不补充约束。"
+          }
+        ],
+        "ranking": null
+      }
+    },
+    {
+      "id": "core-literacy--original.q004",
+      "order": 4,
+      "original_number": null,
+      "role": "measurement",
+      "measurement_class": "scale",
+      "kind": "rating",
+      "raw_text": "专业规范",
+      "student_text": "专业规范",
+      "source": {
+        "pdf_pages": [
+          27
+        ],
+        "printed_pages": [
+          24
+        ]
+      },
+      "group_id": "core-literacy--original.group001",
+      "subdimension": null,
+      "subdimension_reason": "原表仅明示本组；该组以下逐题细分维度未提供，不推断。",
+      "teacher_annotations": [],
+      "reverse": {
+        "marked": null,
+        "raw_marker": null,
+        "source": null,
+        "reason": "未见原文明示反向标记；否定句或概念标记不能据此推导反向。"
+      },
+      "response": {
+        "options": [
+          {
+            "id": "core-literacy--original.q004.option1",
+            "label": "非常不同意",
+            "value": 1,
+            "source": {
+              "pdf_pages": [
+                27,
+                28
+              ],
+              "printed_pages": [
+                24,
+                25
+              ]
+            }
+          },
+          {
+            "id": "core-literacy--original.q004.option2",
+            "label": "比较不同意",
+            "value": 2,
+            "source": {
+              "pdf_pages": [
+                27,
+                28
+              ],
+              "printed_pages": [
+                24,
+                25
+              ]
+            }
+          },
+          {
+            "id": "core-literacy--original.q004.option3",
+            "label": "中立",
+            "value": 3,
+            "source": {
+              "pdf_pages": [
+                27,
+                28
+              ],
+              "printed_pages": [
+                24,
+                25
+              ]
+            }
+          },
+          {
+            "id": "core-literacy--original.q004.option4",
+            "label": "比较同意",
+            "value": 4,
+            "source": {
+              "pdf_pages": [
+                27,
+                28
+              ],
+              "printed_pages": [
+                24,
+                25
+              ]
+            }
+          },
+          {
+            "id": "core-literacy--original.q004.option5",
+            "label": "非常同意",
+            "value": 5,
+            "source": {
+              "pdf_pages": [
+                27,
+                28
+              ],
+              "printed_pages": [
+                24,
+                25
+              ]
+            }
+          }
+        ],
+        "minimum": 1,
+        "maximum": 5,
+        "cardinality": "single",
+        "slots": null,
+        "raw_instruction": "请对下表中给出的核心素养指标进行判断，并在你认同的合理程度选择栏内划“√”。",
+        "unknowns": [
+          {
+            "field": "required",
+            "reason": "原文未给必填要求，不补充约束。"
+          }
+        ],
+        "ranking": null
+      }
+    },
+    {
+      "id": "core-literacy--original.q005",
+      "order": 5,
+      "original_number": null,
+      "role": "measurement",
+      "measurement_class": "scale",
+      "kind": "rating",
+      "raw_text": "人文情怀",
+      "student_text": "人文情怀",
+      "source": {
+        "pdf_pages": [
+          27
+        ],
+        "printed_pages": [
+          24
+        ]
+      },
+      "group_id": "core-literacy--original.group001",
+      "subdimension": null,
+      "subdimension_reason": "原表仅明示本组；该组以下逐题细分维度未提供，不推断。",
+      "teacher_annotations": [],
+      "reverse": {
+        "marked": null,
+        "raw_marker": null,
+        "source": null,
+        "reason": "未见原文明示反向标记；否定句或概念标记不能据此推导反向。"
+      },
+      "response": {
+        "options": [
+          {
+            "id": "core-literacy--original.q005.option1",
+            "label": "非常不同意",
+            "value": 1,
+            "source": {
+              "pdf_pages": [
+                27,
+                28
+              ],
+              "printed_pages": [
+                24,
+                25
+              ]
+            }
+          },
+          {
+            "id": "core-literacy--original.q005.option2",
+            "label": "比较不同意",
+            "value": 2,
+            "source": {
+              "pdf_pages": [
+                27,
+                28
+              ],
+              "printed_pages": [
+                24,
+                25
+              ]
+            }
+          },
+          {
+            "id": "core-literacy--original.q005.option3",
+            "label": "中立",
+            "value": 3,
+            "source": {
+              "pdf_pages": [
+                27,
+                28
+              ],
+              "printed_pages": [
+                24,
+                25
+              ]
+            }
+          },
+          {
+            "id": "core-literacy--original.q005.option4",
+            "label": "比较同意",
+            "value": 4,
+            "source": {
+              "pdf_pages": [
+                27,
+                28
+              ],
+              "printed_pages": [
+                24,
+                25
+              ]
+            }
+          },
+          {
+            "id": "core-literacy--original.q005.option5",
+            "label": "非常同意",
+            "value": 5,
+            "source": {
+              "pdf_pages": [
+                27,
+                28
+              ],
+              "printed_pages": [
+                24,
+                25
+              ]
+            }
+          }
+        ],
+        "minimum": 1,
+        "maximum": 5,
+        "cardinality": "single",
+        "slots": null,
+        "raw_instruction": "请对下表中给出的核心素养指标进行判断，并在你认同的合理程度选择栏内划“√”。",
+        "unknowns": [
+          {
+            "field": "required",
+            "reason": "原文未给必填要求，不补充约束。"
+          }
+        ],
+        "ranking": null
+      }
+    },
+    {
+      "id": "core-literacy--original.q006",
+      "order": 6,
+      "original_number": null,
+      "role": "measurement",
+      "measurement_class": "scale",
+      "kind": "rating",
+      "raw_text": "理性思维",
+      "student_text": "理性思维",
+      "source": {
+        "pdf_pages": [
+          27
+        ],
+        "printed_pages": [
+          24
+        ]
+      },
+      "group_id": "core-literacy--original.group001",
+      "subdimension": null,
+      "subdimension_reason": "原表仅明示本组；该组以下逐题细分维度未提供，不推断。",
+      "teacher_annotations": [],
+      "reverse": {
+        "marked": null,
+        "raw_marker": null,
+        "source": null,
+        "reason": "未见原文明示反向标记；否定句或概念标记不能据此推导反向。"
+      },
+      "response": {
+        "options": [
+          {
+            "id": "core-literacy--original.q006.option1",
+            "label": "非常不同意",
+            "value": 1,
+            "source": {
+              "pdf_pages": [
+                27,
+                28
+              ],
+              "printed_pages": [
+                24,
+                25
+              ]
+            }
+          },
+          {
+            "id": "core-literacy--original.q006.option2",
+            "label": "比较不同意",
+            "value": 2,
+            "source": {
+              "pdf_pages": [
+                27,
+                28
+              ],
+              "printed_pages": [
+                24,
+                25
+              ]
+            }
+          },
+          {
+            "id": "core-literacy--original.q006.option3",
+            "label": "中立",
+            "value": 3,
+            "source": {
+              "pdf_pages": [
+                27,
+                28
+              ],
+              "printed_pages": [
+                24,
+                25
+              ]
+            }
+          },
+          {
+            "id": "core-literacy--original.q006.option4",
+            "label": "比较同意",
+            "value": 4,
+            "source": {
+              "pdf_pages": [
+                27,
+                28
+              ],
+              "printed_pages": [
+                24,
+                25
+              ]
+            }
+          },
+          {
+            "id": "core-literacy--original.q006.option5",
+            "label": "非常同意",
+            "value": 5,
+            "source": {
+              "pdf_pages": [
+                27,
+                28
+              ],
+              "printed_pages": [
+                24,
+                25
+              ]
+            }
+          }
+        ],
+        "minimum": 1,
+        "maximum": 5,
+        "cardinality": "single",
+        "slots": null,
+        "raw_instruction": "请对下表中给出的核心素养指标进行判断，并在你认同的合理程度选择栏内划“√”。",
+        "unknowns": [
+          {
+            "field": "required",
+            "reason": "原文未给必填要求，不补充约束。"
+          }
+        ],
+        "ranking": null
+      }
+    },
+    {
+      "id": "core-literacy--original.q007",
+      "order": 7,
+      "original_number": null,
+      "role": "measurement",
+      "measurement_class": "scale",
+      "kind": "rating",
+      "raw_text": "批判质疑",
+      "student_text": "批判质疑",
+      "source": {
+        "pdf_pages": [
+          27
+        ],
+        "printed_pages": [
+          24
+        ]
+      },
+      "group_id": "core-literacy--original.group001",
+      "subdimension": null,
+      "subdimension_reason": "原表仅明示本组；该组以下逐题细分维度未提供，不推断。",
+      "teacher_annotations": [],
+      "reverse": {
+        "marked": null,
+        "raw_marker": null,
+        "source": null,
+        "reason": "未见原文明示反向标记；否定句或概念标记不能据此推导反向。"
+      },
+      "response": {
+        "options": [
+          {
+            "id": "core-literacy--original.q007.option1",
+            "label": "非常不同意",
+            "value": 1,
+            "source": {
+              "pdf_pages": [
+                27,
+                28
+              ],
+              "printed_pages": [
+                24,
+                25
+              ]
+            }
+          },
+          {
+            "id": "core-literacy--original.q007.option2",
+            "label": "比较不同意",
+            "value": 2,
+            "source": {
+              "pdf_pages": [
+                27,
+                28
+              ],
+              "printed_pages": [
+                24,
+                25
+              ]
+            }
+          },
+          {
+            "id": "core-literacy--original.q007.option3",
+            "label": "中立",
+            "value": 3,
+            "source": {
+              "pdf_pages": [
+                27,
+                28
+              ],
+              "printed_pages": [
+                24,
+                25
+              ]
+            }
+          },
+          {
+            "id": "core-literacy--original.q007.option4",
+            "label": "比较同意",
+            "value": 4,
+            "source": {
+              "pdf_pages": [
+                27,
+                28
+              ],
+              "printed_pages": [
+                24,
+                25
+              ]
+            }
+          },
+          {
+            "id": "core-literacy--original.q007.option5",
+            "label": "非常同意",
+            "value": 5,
+            "source": {
+              "pdf_pages": [
+                27,
+                28
+              ],
+              "printed_pages": [
+                24,
+                25
+              ]
+            }
+          }
+        ],
+        "minimum": 1,
+        "maximum": 5,
+        "cardinality": "single",
+        "slots": null,
+        "raw_instruction": "请对下表中给出的核心素养指标进行判断，并在你认同的合理程度选择栏内划“√”。",
+        "unknowns": [
+          {
+            "field": "required",
+            "reason": "原文未给必填要求，不补充约束。"
+          }
+        ],
+        "ranking": null
+      }
+    },
+    {
+      "id": "core-literacy--original.q008",
+      "order": 8,
+      "original_number": null,
+      "role": "measurement",
+      "measurement_class": "scale",
+      "kind": "rating",
+      "raw_text": "勇于探究",
+      "student_text": "勇于探究",
+      "source": {
+        "pdf_pages": [
+          27
+        ],
+        "printed_pages": [
+          24
+        ]
+      },
+      "group_id": "core-literacy--original.group001",
+      "subdimension": null,
+      "subdimension_reason": "原表仅明示本组；该组以下逐题细分维度未提供，不推断。",
+      "teacher_annotations": [],
+      "reverse": {
+        "marked": null,
+        "raw_marker": null,
+        "source": null,
+        "reason": "未见原文明示反向标记；否定句或概念标记不能据此推导反向。"
+      },
+      "response": {
+        "options": [
+          {
+            "id": "core-literacy--original.q008.option1",
+            "label": "非常不同意",
+            "value": 1,
+            "source": {
+              "pdf_pages": [
+                27,
+                28
+              ],
+              "printed_pages": [
+                24,
+                25
+              ]
+            }
+          },
+          {
+            "id": "core-literacy--original.q008.option2",
+            "label": "比较不同意",
+            "value": 2,
+            "source": {
+              "pdf_pages": [
+                27,
+                28
+              ],
+              "printed_pages": [
+                24,
+                25
+              ]
+            }
+          },
+          {
+            "id": "core-literacy--original.q008.option3",
+            "label": "中立",
+            "value": 3,
+            "source": {
+              "pdf_pages": [
+                27,
+                28
+              ],
+              "printed_pages": [
+                24,
+                25
+              ]
+            }
+          },
+          {
+            "id": "core-literacy--original.q008.option4",
+            "label": "比较同意",
+            "value": 4,
+            "source": {
+              "pdf_pages": [
+                27,
+                28
+              ],
+              "printed_pages": [
+                24,
+                25
+              ]
+            }
+          },
+          {
+            "id": "core-literacy--original.q008.option5",
+            "label": "非常同意",
+            "value": 5,
+            "source": {
+              "pdf_pages": [
+                27,
+                28
+              ],
+              "printed_pages": [
+                24,
+                25
+              ]
+            }
+          }
+        ],
+        "minimum": 1,
+        "maximum": 5,
+        "cardinality": "single",
+        "slots": null,
+        "raw_instruction": "请对下表中给出的核心素养指标进行判断，并在你认同的合理程度选择栏内划“√”。",
+        "unknowns": [
+          {
+            "field": "required",
+            "reason": "原文未给必填要求，不补充约束。"
+          }
+        ],
+        "ranking": null
+      }
+    },
+    {
+      "id": "core-literacy--original.q009",
+      "order": 9,
+      "original_number": null,
+      "role": "measurement",
+      "measurement_class": "scale",
+      "kind": "rating",
+      "raw_text": "专业认同",
+      "student_text": "专业认同",
+      "source": {
+        "pdf_pages": [
+          27
+        ],
+        "printed_pages": [
+          24
+        ]
+      },
+      "group_id": "core-literacy--original.group002",
+      "subdimension": null,
+      "subdimension_reason": "原表仅明示本组；该组以下逐题细分维度未提供，不推断。",
+      "teacher_annotations": [],
+      "reverse": {
+        "marked": null,
+        "raw_marker": null,
+        "source": null,
+        "reason": "未见原文明示反向标记；否定句或概念标记不能据此推导反向。"
+      },
+      "response": {
+        "options": [
+          {
+            "id": "core-literacy--original.q009.option1",
+            "label": "非常不同意",
+            "value": 1,
+            "source": {
+              "pdf_pages": [
+                27,
+                28
+              ],
+              "printed_pages": [
+                24,
+                25
+              ]
+            }
+          },
+          {
+            "id": "core-literacy--original.q009.option2",
+            "label": "比较不同意",
+            "value": 2,
+            "source": {
+              "pdf_pages": [
+                27,
+                28
+              ],
+              "printed_pages": [
+                24,
+                25
+              ]
+            }
+          },
+          {
+            "id": "core-literacy--original.q009.option3",
+            "label": "中立",
+            "value": 3,
+            "source": {
+              "pdf_pages": [
+                27,
+                28
+              ],
+              "printed_pages": [
+                24,
+                25
+              ]
+            }
+          },
+          {
+            "id": "core-literacy--original.q009.option4",
+            "label": "比较同意",
+            "value": 4,
+            "source": {
+              "pdf_pages": [
+                27,
+                28
+              ],
+              "printed_pages": [
+                24,
+                25
+              ]
+            }
+          },
+          {
+            "id": "core-literacy--original.q009.option5",
+            "label": "非常同意",
+            "value": 5,
+            "source": {
+              "pdf_pages": [
+                27,
+                28
+              ],
+              "printed_pages": [
+                24,
+                25
+              ]
+            }
+          }
+        ],
+        "minimum": 1,
+        "maximum": 5,
+        "cardinality": "single",
+        "slots": null,
+        "raw_instruction": "请对下表中给出的核心素养指标进行判断，并在你认同的合理程度选择栏内划“√”。",
+        "unknowns": [
+          {
+            "field": "required",
+            "reason": "原文未给必填要求，不补充约束。"
+          }
+        ],
+        "ranking": null
+      }
+    },
+    {
+      "id": "core-literacy--original.q010",
+      "order": 10,
+      "original_number": null,
+      "role": "measurement",
+      "measurement_class": "scale",
+      "kind": "rating",
+      "raw_text": "岗位认同",
+      "student_text": "岗位认同",
+      "source": {
+        "pdf_pages": [
+          27
+        ],
+        "printed_pages": [
+          24
+        ]
+      },
+      "group_id": "core-literacy--original.group002",
+      "subdimension": null,
+      "subdimension_reason": "原表仅明示本组；该组以下逐题细分维度未提供，不推断。",
+      "teacher_annotations": [],
+      "reverse": {
+        "marked": null,
+        "raw_marker": null,
+        "source": null,
+        "reason": "未见原文明示反向标记；否定句或概念标记不能据此推导反向。"
+      },
+      "response": {
+        "options": [
+          {
+            "id": "core-literacy--original.q010.option1",
+            "label": "非常不同意",
+            "value": 1,
+            "source": {
+              "pdf_pages": [
+                27,
+                28
+              ],
+              "printed_pages": [
+                24,
+                25
+              ]
+            }
+          },
+          {
+            "id": "core-literacy--original.q010.option2",
+            "label": "比较不同意",
+            "value": 2,
+            "source": {
+              "pdf_pages": [
+                27,
+                28
+              ],
+              "printed_pages": [
+                24,
+                25
+              ]
+            }
+          },
+          {
+            "id": "core-literacy--original.q010.option3",
+            "label": "中立",
+            "value": 3,
+            "source": {
+              "pdf_pages": [
+                27,
+                28
+              ],
+              "printed_pages": [
+                24,
+                25
+              ]
+            }
+          },
+          {
+            "id": "core-literacy--original.q010.option4",
+            "label": "比较同意",
+            "value": 4,
+            "source": {
+              "pdf_pages": [
+                27,
+                28
+              ],
+              "printed_pages": [
+                24,
+                25
+              ]
+            }
+          },
+          {
+            "id": "core-literacy--original.q010.option5",
+            "label": "非常同意",
+            "value": 5,
+            "source": {
+              "pdf_pages": [
+                27,
+                28
+              ],
+              "printed_pages": [
+                24,
+                25
+              ]
+            }
+          }
+        ],
+        "minimum": 1,
+        "maximum": 5,
+        "cardinality": "single",
+        "slots": null,
+        "raw_instruction": "请对下表中给出的核心素养指标进行判断，并在你认同的合理程度选择栏内划“√”。",
+        "unknowns": [
+          {
+            "field": "required",
+            "reason": "原文未给必填要求，不补充约束。"
+          }
+        ],
+        "ranking": null
+      }
+    },
+    {
+      "id": "core-literacy--original.q011",
+      "order": 11,
+      "original_number": null,
+      "role": "measurement",
+      "measurement_class": "scale",
+      "kind": "rating",
+      "raw_text": "认真踏实",
+      "student_text": "认真踏实",
+      "source": {
+        "pdf_pages": [
+          27
+        ],
+        "printed_pages": [
+          24
+        ]
+      },
+      "group_id": "core-literacy--original.group002",
+      "subdimension": null,
+      "subdimension_reason": "原表仅明示本组；该组以下逐题细分维度未提供，不推断。",
+      "teacher_annotations": [],
+      "reverse": {
+        "marked": null,
+        "raw_marker": null,
+        "source": null,
+        "reason": "未见原文明示反向标记；否定句或概念标记不能据此推导反向。"
+      },
+      "response": {
+        "options": [
+          {
+            "id": "core-literacy--original.q011.option1",
+            "label": "非常不同意",
+            "value": 1,
+            "source": {
+              "pdf_pages": [
+                27,
+                28
+              ],
+              "printed_pages": [
+                24,
+                25
+              ]
+            }
+          },
+          {
+            "id": "core-literacy--original.q011.option2",
+            "label": "比较不同意",
+            "value": 2,
+            "source": {
+              "pdf_pages": [
+                27,
+                28
+              ],
+              "printed_pages": [
+                24,
+                25
+              ]
+            }
+          },
+          {
+            "id": "core-literacy--original.q011.option3",
+            "label": "中立",
+            "value": 3,
+            "source": {
+              "pdf_pages": [
+                27,
+                28
+              ],
+              "printed_pages": [
+                24,
+                25
+              ]
+            }
+          },
+          {
+            "id": "core-literacy--original.q011.option4",
+            "label": "比较同意",
+            "value": 4,
+            "source": {
+              "pdf_pages": [
+                27,
+                28
+              ],
+              "printed_pages": [
+                24,
+                25
+              ]
+            }
+          },
+          {
+            "id": "core-literacy--original.q011.option5",
+            "label": "非常同意",
+            "value": 5,
+            "source": {
+              "pdf_pages": [
+                27,
+                28
+              ],
+              "printed_pages": [
+                24,
+                25
+              ]
+            }
+          }
+        ],
+        "minimum": 1,
+        "maximum": 5,
+        "cardinality": "single",
+        "slots": null,
+        "raw_instruction": "请对下表中给出的核心素养指标进行判断，并在你认同的合理程度选择栏内划“√”。",
+        "unknowns": [
+          {
+            "field": "required",
+            "reason": "原文未给必填要求，不补充约束。"
+          }
+        ],
+        "ranking": null
+      }
+    },
+    {
+      "id": "core-literacy--original.q012",
+      "order": 12,
+      "original_number": null,
+      "role": "measurement",
+      "measurement_class": "scale",
+      "kind": "rating",
+      "raw_text": "积极进取",
+      "student_text": "积极进取",
+      "source": {
+        "pdf_pages": [
+          27
+        ],
+        "printed_pages": [
+          24
+        ]
+      },
+      "group_id": "core-literacy--original.group002",
+      "subdimension": null,
+      "subdimension_reason": "原表仅明示本组；该组以下逐题细分维度未提供，不推断。",
+      "teacher_annotations": [],
+      "reverse": {
+        "marked": null,
+        "raw_marker": null,
+        "source": null,
+        "reason": "未见原文明示反向标记；否定句或概念标记不能据此推导反向。"
+      },
+      "response": {
+        "options": [
+          {
+            "id": "core-literacy--original.q012.option1",
+            "label": "非常不同意",
+            "value": 1,
+            "source": {
+              "pdf_pages": [
+                27,
+                28
+              ],
+              "printed_pages": [
+                24,
+                25
+              ]
+            }
+          },
+          {
+            "id": "core-literacy--original.q012.option2",
+            "label": "比较不同意",
+            "value": 2,
+            "source": {
+              "pdf_pages": [
+                27,
+                28
+              ],
+              "printed_pages": [
+                24,
+                25
+              ]
+            }
+          },
+          {
+            "id": "core-literacy--original.q012.option3",
+            "label": "中立",
+            "value": 3,
+            "source": {
+              "pdf_pages": [
+                27,
+                28
+              ],
+              "printed_pages": [
+                24,
+                25
+              ]
+            }
+          },
+          {
+            "id": "core-literacy--original.q012.option4",
+            "label": "比较同意",
+            "value": 4,
+            "source": {
+              "pdf_pages": [
+                27,
+                28
+              ],
+              "printed_pages": [
+                24,
+                25
+              ]
+            }
+          },
+          {
+            "id": "core-literacy--original.q012.option5",
+            "label": "非常同意",
+            "value": 5,
+            "source": {
+              "pdf_pages": [
+                27,
+                28
+              ],
+              "printed_pages": [
+                24,
+                25
+              ]
+            }
+          }
+        ],
+        "minimum": 1,
+        "maximum": 5,
+        "cardinality": "single",
+        "slots": null,
+        "raw_instruction": "请对下表中给出的核心素养指标进行判断，并在你认同的合理程度选择栏内划“√”。",
+        "unknowns": [
+          {
+            "field": "required",
+            "reason": "原文未给必填要求，不补充约束。"
+          }
+        ],
+        "ranking": null
+      }
+    },
+    {
+      "id": "core-literacy--original.q013",
+      "order": 13,
+      "original_number": null,
+      "role": "measurement",
+      "measurement_class": "scale",
+      "kind": "rating",
+      "raw_text": "刻苦钻研",
+      "student_text": "刻苦钻研",
+      "source": {
+        "pdf_pages": [
+          27
+        ],
+        "printed_pages": [
+          24
+        ]
+      },
+      "group_id": "core-literacy--original.group002",
+      "subdimension": null,
+      "subdimension_reason": "原表仅明示本组；该组以下逐题细分维度未提供，不推断。",
+      "teacher_annotations": [],
+      "reverse": {
+        "marked": null,
+        "raw_marker": null,
+        "source": null,
+        "reason": "未见原文明示反向标记；否定句或概念标记不能据此推导反向。"
+      },
+      "response": {
+        "options": [
+          {
+            "id": "core-literacy--original.q013.option1",
+            "label": "非常不同意",
+            "value": 1,
+            "source": {
+              "pdf_pages": [
+                27,
+                28
+              ],
+              "printed_pages": [
+                24,
+                25
+              ]
+            }
+          },
+          {
+            "id": "core-literacy--original.q013.option2",
+            "label": "比较不同意",
+            "value": 2,
+            "source": {
+              "pdf_pages": [
+                27,
+                28
+              ],
+              "printed_pages": [
+                24,
+                25
+              ]
+            }
+          },
+          {
+            "id": "core-literacy--original.q013.option3",
+            "label": "中立",
+            "value": 3,
+            "source": {
+              "pdf_pages": [
+                27,
+                28
+              ],
+              "printed_pages": [
+                24,
+                25
+              ]
+            }
+          },
+          {
+            "id": "core-literacy--original.q013.option4",
+            "label": "比较同意",
+            "value": 4,
+            "source": {
+              "pdf_pages": [
+                27,
+                28
+              ],
+              "printed_pages": [
+                24,
+                25
+              ]
+            }
+          },
+          {
+            "id": "core-literacy--original.q013.option5",
+            "label": "非常同意",
+            "value": 5,
+            "source": {
+              "pdf_pages": [
+                27,
+                28
+              ],
+              "printed_pages": [
+                24,
+                25
+              ]
+            }
+          }
+        ],
+        "minimum": 1,
+        "maximum": 5,
+        "cardinality": "single",
+        "slots": null,
+        "raw_instruction": "请对下表中给出的核心素养指标进行判断，并在你认同的合理程度选择栏内划“√”。",
+        "unknowns": [
+          {
+            "field": "required",
+            "reason": "原文未给必填要求，不补充约束。"
+          }
+        ],
+        "ranking": null
+      }
+    },
+    {
+      "id": "core-literacy--original.q014",
+      "order": 14,
+      "original_number": null,
+      "role": "measurement",
+      "measurement_class": "scale",
+      "kind": "rating",
+      "raw_text": "乐思善学",
+      "student_text": "乐思善学",
+      "source": {
+        "pdf_pages": [
+          27
+        ],
+        "printed_pages": [
+          24
+        ]
+      },
+      "group_id": "core-literacy--original.group002",
+      "subdimension": null,
+      "subdimension_reason": "原表仅明示本组；该组以下逐题细分维度未提供，不推断。",
+      "teacher_annotations": [],
+      "reverse": {
+        "marked": null,
+        "raw_marker": null,
+        "source": null,
+        "reason": "未见原文明示反向标记；否定句或概念标记不能据此推导反向。"
+      },
+      "response": {
+        "options": [
+          {
+            "id": "core-literacy--original.q014.option1",
+            "label": "非常不同意",
+            "value": 1,
+            "source": {
+              "pdf_pages": [
+                27,
+                28
+              ],
+              "printed_pages": [
+                24,
+                25
+              ]
+            }
+          },
+          {
+            "id": "core-literacy--original.q014.option2",
+            "label": "比较不同意",
+            "value": 2,
+            "source": {
+              "pdf_pages": [
+                27,
+                28
+              ],
+              "printed_pages": [
+                24,
+                25
+              ]
+            }
+          },
+          {
+            "id": "core-literacy--original.q014.option3",
+            "label": "中立",
+            "value": 3,
+            "source": {
+              "pdf_pages": [
+                27,
+                28
+              ],
+              "printed_pages": [
+                24,
+                25
+              ]
+            }
+          },
+          {
+            "id": "core-literacy--original.q014.option4",
+            "label": "比较同意",
+            "value": 4,
+            "source": {
+              "pdf_pages": [
+                27,
+                28
+              ],
+              "printed_pages": [
+                24,
+                25
+              ]
+            }
+          },
+          {
+            "id": "core-literacy--original.q014.option5",
+            "label": "非常同意",
+            "value": 5,
+            "source": {
+              "pdf_pages": [
+                27,
+                28
+              ],
+              "printed_pages": [
+                24,
+                25
+              ]
+            }
+          }
+        ],
+        "minimum": 1,
+        "maximum": 5,
+        "cardinality": "single",
+        "slots": null,
+        "raw_instruction": "请对下表中给出的核心素养指标进行判断，并在你认同的合理程度选择栏内划“√”。",
+        "unknowns": [
+          {
+            "field": "required",
+            "reason": "原文未给必填要求，不补充约束。"
+          }
+        ],
+        "ranking": null
+      }
+    },
+    {
+      "id": "core-literacy--original.q015",
+      "order": 15,
+      "original_number": null,
+      "role": "measurement",
+      "measurement_class": "scale",
+      "kind": "rating",
+      "raw_text": "劳模精神",
+      "student_text": "劳模精神",
+      "source": {
+        "pdf_pages": [
+          27
+        ],
+        "printed_pages": [
+          24
+        ]
+      },
+      "group_id": "core-literacy--original.group002",
+      "subdimension": null,
+      "subdimension_reason": "原表仅明示本组；该组以下逐题细分维度未提供，不推断。",
+      "teacher_annotations": [],
+      "reverse": {
+        "marked": null,
+        "raw_marker": null,
+        "source": null,
+        "reason": "未见原文明示反向标记；否定句或概念标记不能据此推导反向。"
+      },
+      "response": {
+        "options": [
+          {
+            "id": "core-literacy--original.q015.option1",
+            "label": "非常不同意",
+            "value": 1,
+            "source": {
+              "pdf_pages": [
+                27,
+                28
+              ],
+              "printed_pages": [
+                24,
+                25
+              ]
+            }
+          },
+          {
+            "id": "core-literacy--original.q015.option2",
+            "label": "比较不同意",
+            "value": 2,
+            "source": {
+              "pdf_pages": [
+                27,
+                28
+              ],
+              "printed_pages": [
+                24,
+                25
+              ]
+            }
+          },
+          {
+            "id": "core-literacy--original.q015.option3",
+            "label": "中立",
+            "value": 3,
+            "source": {
+              "pdf_pages": [
+                27,
+                28
+              ],
+              "printed_pages": [
+                24,
+                25
+              ]
+            }
+          },
+          {
+            "id": "core-literacy--original.q015.option4",
+            "label": "比较同意",
+            "value": 4,
+            "source": {
+              "pdf_pages": [
+                27,
+                28
+              ],
+              "printed_pages": [
+                24,
+                25
+              ]
+            }
+          },
+          {
+            "id": "core-literacy--original.q015.option5",
+            "label": "非常同意",
+            "value": 5,
+            "source": {
+              "pdf_pages": [
+                27,
+                28
+              ],
+              "printed_pages": [
+                24,
+                25
+              ]
+            }
+          }
+        ],
+        "minimum": 1,
+        "maximum": 5,
+        "cardinality": "single",
+        "slots": null,
+        "raw_instruction": "请对下表中给出的核心素养指标进行判断，并在你认同的合理程度选择栏内划“√”。",
+        "unknowns": [
+          {
+            "field": "required",
+            "reason": "原文未给必填要求，不补充约束。"
+          }
+        ],
+        "ranking": null
+      }
+    },
+    {
+      "id": "core-literacy--original.q016",
+      "order": 16,
+      "original_number": null,
+      "role": "measurement",
+      "measurement_class": "scale",
+      "kind": "rating",
+      "raw_text": "工匠精神",
+      "student_text": "工匠精神",
+      "source": {
+        "pdf_pages": [
+          27
+        ],
+        "printed_pages": [
+          24
+        ]
+      },
+      "group_id": "core-literacy--original.group002",
+      "subdimension": null,
+      "subdimension_reason": "原表仅明示本组；该组以下逐题细分维度未提供，不推断。",
+      "teacher_annotations": [],
+      "reverse": {
+        "marked": null,
+        "raw_marker": null,
+        "source": null,
+        "reason": "未见原文明示反向标记；否定句或概念标记不能据此推导反向。"
+      },
+      "response": {
+        "options": [
+          {
+            "id": "core-literacy--original.q016.option1",
+            "label": "非常不同意",
+            "value": 1,
+            "source": {
+              "pdf_pages": [
+                27,
+                28
+              ],
+              "printed_pages": [
+                24,
+                25
+              ]
+            }
+          },
+          {
+            "id": "core-literacy--original.q016.option2",
+            "label": "比较不同意",
+            "value": 2,
+            "source": {
+              "pdf_pages": [
+                27,
+                28
+              ],
+              "printed_pages": [
+                24,
+                25
+              ]
+            }
+          },
+          {
+            "id": "core-literacy--original.q016.option3",
+            "label": "中立",
+            "value": 3,
+            "source": {
+              "pdf_pages": [
+                27,
+                28
+              ],
+              "printed_pages": [
+                24,
+                25
+              ]
+            }
+          },
+          {
+            "id": "core-literacy--original.q016.option4",
+            "label": "比较同意",
+            "value": 4,
+            "source": {
+              "pdf_pages": [
+                27,
+                28
+              ],
+              "printed_pages": [
+                24,
+                25
+              ]
+            }
+          },
+          {
+            "id": "core-literacy--original.q016.option5",
+            "label": "非常同意",
+            "value": 5,
+            "source": {
+              "pdf_pages": [
+                27,
+                28
+              ],
+              "printed_pages": [
+                24,
+                25
+              ]
+            }
+          }
+        ],
+        "minimum": 1,
+        "maximum": 5,
+        "cardinality": "single",
+        "slots": null,
+        "raw_instruction": "请对下表中给出的核心素养指标进行判断，并在你认同的合理程度选择栏内划“√”。",
+        "unknowns": [
+          {
+            "field": "required",
+            "reason": "原文未给必填要求，不补充约束。"
+          }
+        ],
+        "ranking": null
+      }
+    },
+    {
+      "id": "core-literacy--original.q017",
+      "order": 17,
+      "original_number": null,
+      "role": "measurement",
+      "measurement_class": "scale",
+      "kind": "rating",
+      "raw_text": "体质良好",
+      "student_text": "体质良好",
+      "source": {
+        "pdf_pages": [
+          27
+        ],
+        "printed_pages": [
+          24
+        ]
+      },
+      "group_id": "core-literacy--original.group002",
+      "subdimension": null,
+      "subdimension_reason": "原表仅明示本组；该组以下逐题细分维度未提供，不推断。",
+      "teacher_annotations": [],
+      "reverse": {
+        "marked": null,
+        "raw_marker": null,
+        "source": null,
+        "reason": "未见原文明示反向标记；否定句或概念标记不能据此推导反向。"
+      },
+      "response": {
+        "options": [
+          {
+            "id": "core-literacy--original.q017.option1",
+            "label": "非常不同意",
+            "value": 1,
+            "source": {
+              "pdf_pages": [
+                27,
+                28
+              ],
+              "printed_pages": [
+                24,
+                25
+              ]
+            }
+          },
+          {
+            "id": "core-literacy--original.q017.option2",
+            "label": "比较不同意",
+            "value": 2,
+            "source": {
+              "pdf_pages": [
+                27,
+                28
+              ],
+              "printed_pages": [
+                24,
+                25
+              ]
+            }
+          },
+          {
+            "id": "core-literacy--original.q017.option3",
+            "label": "中立",
+            "value": 3,
+            "source": {
+              "pdf_pages": [
+                27,
+                28
+              ],
+              "printed_pages": [
+                24,
+                25
+              ]
+            }
+          },
+          {
+            "id": "core-literacy--original.q017.option4",
+            "label": "比较同意",
+            "value": 4,
+            "source": {
+              "pdf_pages": [
+                27,
+                28
+              ],
+              "printed_pages": [
+                24,
+                25
+              ]
+            }
+          },
+          {
+            "id": "core-literacy--original.q017.option5",
+            "label": "非常同意",
+            "value": 5,
+            "source": {
+              "pdf_pages": [
+                27,
+                28
+              ],
+              "printed_pages": [
+                24,
+                25
+              ]
+            }
+          }
+        ],
+        "minimum": 1,
+        "maximum": 5,
+        "cardinality": "single",
+        "slots": null,
+        "raw_instruction": "请对下表中给出的核心素养指标进行判断，并在你认同的合理程度选择栏内划“√”。",
+        "unknowns": [
+          {
+            "field": "required",
+            "reason": "原文未给必填要求，不补充约束。"
+          }
+        ],
+        "ranking": null
+      }
+    },
+    {
+      "id": "core-literacy--original.q018",
+      "order": 18,
+      "original_number": null,
+      "role": "measurement",
+      "measurement_class": "scale",
+      "kind": "rating",
+      "raw_text": "信息处理",
+      "student_text": "信息处理",
+      "source": {
+        "pdf_pages": [
+          27
+        ],
+        "printed_pages": [
+          24
+        ]
+      },
+      "group_id": "core-literacy--original.group002",
+      "subdimension": null,
+      "subdimension_reason": "原表仅明示本组；该组以下逐题细分维度未提供，不推断。",
+      "teacher_annotations": [],
+      "reverse": {
+        "marked": null,
+        "raw_marker": null,
+        "source": null,
+        "reason": "未见原文明示反向标记；否定句或概念标记不能据此推导反向。"
+      },
+      "response": {
+        "options": [
+          {
+            "id": "core-literacy--original.q018.option1",
+            "label": "非常不同意",
+            "value": 1,
+            "source": {
+              "pdf_pages": [
+                27,
+                28
+              ],
+              "printed_pages": [
+                24,
+                25
+              ]
+            }
+          },
+          {
+            "id": "core-literacy--original.q018.option2",
+            "label": "比较不同意",
+            "value": 2,
+            "source": {
+              "pdf_pages": [
+                27,
+                28
+              ],
+              "printed_pages": [
+                24,
+                25
+              ]
+            }
+          },
+          {
+            "id": "core-literacy--original.q018.option3",
+            "label": "中立",
+            "value": 3,
+            "source": {
+              "pdf_pages": [
+                27,
+                28
+              ],
+              "printed_pages": [
+                24,
+                25
+              ]
+            }
+          },
+          {
+            "id": "core-literacy--original.q018.option4",
+            "label": "比较同意",
+            "value": 4,
+            "source": {
+              "pdf_pages": [
+                27,
+                28
+              ],
+              "printed_pages": [
+                24,
+                25
+              ]
+            }
+          },
+          {
+            "id": "core-literacy--original.q018.option5",
+            "label": "非常同意",
+            "value": 5,
+            "source": {
+              "pdf_pages": [
+                27,
+                28
+              ],
+              "printed_pages": [
+                24,
+                25
+              ]
+            }
+          }
+        ],
+        "minimum": 1,
+        "maximum": 5,
+        "cardinality": "single",
+        "slots": null,
+        "raw_instruction": "请对下表中给出的核心素养指标进行判断，并在你认同的合理程度选择栏内划“√”。",
+        "unknowns": [
+          {
+            "field": "required",
+            "reason": "原文未给必填要求，不补充约束。"
+          }
+        ],
+        "ranking": null
+      }
+    },
+    {
+      "id": "core-literacy--original.q019",
+      "order": 19,
+      "original_number": null,
+      "role": "measurement",
+      "measurement_class": "scale",
+      "kind": "rating",
+      "raw_text": "自我管理",
+      "student_text": "自我管理",
+      "source": {
+        "pdf_pages": [
+          27
+        ],
+        "printed_pages": [
+          24
+        ]
+      },
+      "group_id": "core-literacy--original.group002",
+      "subdimension": null,
+      "subdimension_reason": "原表仅明示本组；该组以下逐题细分维度未提供，不推断。",
+      "teacher_annotations": [],
+      "reverse": {
+        "marked": null,
+        "raw_marker": null,
+        "source": null,
+        "reason": "未见原文明示反向标记；否定句或概念标记不能据此推导反向。"
+      },
+      "response": {
+        "options": [
+          {
+            "id": "core-literacy--original.q019.option1",
+            "label": "非常不同意",
+            "value": 1,
+            "source": {
+              "pdf_pages": [
+                27,
+                28
+              ],
+              "printed_pages": [
+                24,
+                25
+              ]
+            }
+          },
+          {
+            "id": "core-literacy--original.q019.option2",
+            "label": "比较不同意",
+            "value": 2,
+            "source": {
+              "pdf_pages": [
+                27,
+                28
+              ],
+              "printed_pages": [
+                24,
+                25
+              ]
+            }
+          },
+          {
+            "id": "core-literacy--original.q019.option3",
+            "label": "中立",
+            "value": 3,
+            "source": {
+              "pdf_pages": [
+                27,
+                28
+              ],
+              "printed_pages": [
+                24,
+                25
+              ]
+            }
+          },
+          {
+            "id": "core-literacy--original.q019.option4",
+            "label": "比较同意",
+            "value": 4,
+            "source": {
+              "pdf_pages": [
+                27,
+                28
+              ],
+              "printed_pages": [
+                24,
+                25
+              ]
+            }
+          },
+          {
+            "id": "core-literacy--original.q019.option5",
+            "label": "非常同意",
+            "value": 5,
+            "source": {
+              "pdf_pages": [
+                27,
+                28
+              ],
+              "printed_pages": [
+                24,
+                25
+              ]
+            }
+          }
+        ],
+        "minimum": 1,
+        "maximum": 5,
+        "cardinality": "single",
+        "slots": null,
+        "raw_instruction": "请对下表中给出的核心素养指标进行判断，并在你认同的合理程度选择栏内划“√”。",
+        "unknowns": [
+          {
+            "field": "required",
+            "reason": "原文未给必填要求，不补充约束。"
+          }
+        ],
+        "ranking": null
+      }
+    },
+    {
+      "id": "core-literacy--original.q020",
+      "order": 20,
+      "original_number": null,
+      "role": "measurement",
+      "measurement_class": "scale",
+      "kind": "rating",
+      "raw_text": "沟通交流",
+      "student_text": "沟通交流",
+      "source": {
+        "pdf_pages": [
+          27
+        ],
+        "printed_pages": [
+          24
+        ]
+      },
+      "group_id": "core-literacy--original.group002",
+      "subdimension": null,
+      "subdimension_reason": "原表仅明示本组；该组以下逐题细分维度未提供，不推断。",
+      "teacher_annotations": [],
+      "reverse": {
+        "marked": null,
+        "raw_marker": null,
+        "source": null,
+        "reason": "未见原文明示反向标记；否定句或概念标记不能据此推导反向。"
+      },
+      "response": {
+        "options": [
+          {
+            "id": "core-literacy--original.q020.option1",
+            "label": "非常不同意",
+            "value": 1,
+            "source": {
+              "pdf_pages": [
+                27,
+                28
+              ],
+              "printed_pages": [
+                24,
+                25
+              ]
+            }
+          },
+          {
+            "id": "core-literacy--original.q020.option2",
+            "label": "比较不同意",
+            "value": 2,
+            "source": {
+              "pdf_pages": [
+                27,
+                28
+              ],
+              "printed_pages": [
+                24,
+                25
+              ]
+            }
+          },
+          {
+            "id": "core-literacy--original.q020.option3",
+            "label": "中立",
+            "value": 3,
+            "source": {
+              "pdf_pages": [
+                27,
+                28
+              ],
+              "printed_pages": [
+                24,
+                25
+              ]
+            }
+          },
+          {
+            "id": "core-literacy--original.q020.option4",
+            "label": "比较同意",
+            "value": 4,
+            "source": {
+              "pdf_pages": [
+                27,
+                28
+              ],
+              "printed_pages": [
+                24,
+                25
+              ]
+            }
+          },
+          {
+            "id": "core-literacy--original.q020.option5",
+            "label": "非常同意",
+            "value": 5,
+            "source": {
+              "pdf_pages": [
+                27,
+                28
+              ],
+              "printed_pages": [
+                24,
+                25
+              ]
+            }
+          }
+        ],
+        "minimum": 1,
+        "maximum": 5,
+        "cardinality": "single",
+        "slots": null,
+        "raw_instruction": "请对下表中给出的核心素养指标进行判断，并在你认同的合理程度选择栏内划“√”。",
+        "unknowns": [
+          {
+            "field": "required",
+            "reason": "原文未给必填要求，不补充约束。"
+          }
+        ],
+        "ranking": null
+      }
+    },
+    {
+      "id": "core-literacy--original.q021",
+      "order": 21,
+      "original_number": null,
+      "role": "measurement",
+      "measurement_class": "scale",
+      "kind": "rating",
+      "raw_text": "团队协作",
+      "student_text": "团队协作",
+      "source": {
+        "pdf_pages": [
+          27
+        ],
+        "printed_pages": [
+          24
+        ]
+      },
+      "group_id": "core-literacy--original.group002",
+      "subdimension": null,
+      "subdimension_reason": "原表仅明示本组；该组以下逐题细分维度未提供，不推断。",
+      "teacher_annotations": [],
+      "reverse": {
+        "marked": null,
+        "raw_marker": null,
+        "source": null,
+        "reason": "未见原文明示反向标记；否定句或概念标记不能据此推导反向。"
+      },
+      "response": {
+        "options": [
+          {
+            "id": "core-literacy--original.q021.option1",
+            "label": "非常不同意",
+            "value": 1,
+            "source": {
+              "pdf_pages": [
+                27,
+                28
+              ],
+              "printed_pages": [
+                24,
+                25
+              ]
+            }
+          },
+          {
+            "id": "core-literacy--original.q021.option2",
+            "label": "比较不同意",
+            "value": 2,
+            "source": {
+              "pdf_pages": [
+                27,
+                28
+              ],
+              "printed_pages": [
+                24,
+                25
+              ]
+            }
+          },
+          {
+            "id": "core-literacy--original.q021.option3",
+            "label": "中立",
+            "value": 3,
+            "source": {
+              "pdf_pages": [
+                27,
+                28
+              ],
+              "printed_pages": [
+                24,
+                25
+              ]
+            }
+          },
+          {
+            "id": "core-literacy--original.q021.option4",
+            "label": "比较同意",
+            "value": 4,
+            "source": {
+              "pdf_pages": [
+                27,
+                28
+              ],
+              "printed_pages": [
+                24,
+                25
+              ]
+            }
+          },
+          {
+            "id": "core-literacy--original.q021.option5",
+            "label": "非常同意",
+            "value": 5,
+            "source": {
+              "pdf_pages": [
+                27,
+                28
+              ],
+              "printed_pages": [
+                24,
+                25
+              ]
+            }
+          }
+        ],
+        "minimum": 1,
+        "maximum": 5,
+        "cardinality": "single",
+        "slots": null,
+        "raw_instruction": "请对下表中给出的核心素养指标进行判断，并在你认同的合理程度选择栏内划“√”。",
+        "unknowns": [
+          {
+            "field": "required",
+            "reason": "原文未给必填要求，不补充约束。"
+          }
+        ],
+        "ranking": null
+      }
+    },
+    {
+      "id": "core-literacy--original.q022",
+      "order": 22,
+      "original_number": null,
+      "role": "measurement",
+      "measurement_class": "scale",
+      "kind": "rating",
+      "raw_text": "岗位适应",
+      "student_text": "岗位适应",
+      "source": {
+        "pdf_pages": [
+          27
+        ],
+        "printed_pages": [
+          24
+        ]
+      },
+      "group_id": "core-literacy--original.group002",
+      "subdimension": null,
+      "subdimension_reason": "原表仅明示本组；该组以下逐题细分维度未提供，不推断。",
+      "teacher_annotations": [],
+      "reverse": {
+        "marked": null,
+        "raw_marker": null,
+        "source": null,
+        "reason": "未见原文明示反向标记；否定句或概念标记不能据此推导反向。"
+      },
+      "response": {
+        "options": [
+          {
+            "id": "core-literacy--original.q022.option1",
+            "label": "非常不同意",
+            "value": 1,
+            "source": {
+              "pdf_pages": [
+                27,
+                28
+              ],
+              "printed_pages": [
+                24,
+                25
+              ]
+            }
+          },
+          {
+            "id": "core-literacy--original.q022.option2",
+            "label": "比较不同意",
+            "value": 2,
+            "source": {
+              "pdf_pages": [
+                27,
+                28
+              ],
+              "printed_pages": [
+                24,
+                25
+              ]
+            }
+          },
+          {
+            "id": "core-literacy--original.q022.option3",
+            "label": "中立",
+            "value": 3,
+            "source": {
+              "pdf_pages": [
+                27,
+                28
+              ],
+              "printed_pages": [
+                24,
+                25
+              ]
+            }
+          },
+          {
+            "id": "core-literacy--original.q022.option4",
+            "label": "比较同意",
+            "value": 4,
+            "source": {
+              "pdf_pages": [
+                27,
+                28
+              ],
+              "printed_pages": [
+                24,
+                25
+              ]
+            }
+          },
+          {
+            "id": "core-literacy--original.q022.option5",
+            "label": "非常同意",
+            "value": 5,
+            "source": {
+              "pdf_pages": [
+                27,
+                28
+              ],
+              "printed_pages": [
+                24,
+                25
+              ]
+            }
+          }
+        ],
+        "minimum": 1,
+        "maximum": 5,
+        "cardinality": "single",
+        "slots": null,
+        "raw_instruction": "请对下表中给出的核心素养指标进行判断，并在你认同的合理程度选择栏内划“√”。",
+        "unknowns": [
+          {
+            "field": "required",
+            "reason": "原文未给必填要求，不补充约束。"
+          }
+        ],
+        "ranking": null
+      }
+    },
+    {
+      "id": "core-literacy--original.q023",
+      "order": 23,
+      "original_number": null,
+      "role": "measurement",
+      "measurement_class": "scale",
+      "kind": "rating",
+      "raw_text": "抗压能力",
+      "student_text": "抗压能力",
+      "source": {
+        "pdf_pages": [
+          27
+        ],
+        "printed_pages": [
+          24
+        ]
+      },
+      "group_id": "core-literacy--original.group002",
+      "subdimension": null,
+      "subdimension_reason": "原表仅明示本组；该组以下逐题细分维度未提供，不推断。",
+      "teacher_annotations": [],
+      "reverse": {
+        "marked": null,
+        "raw_marker": null,
+        "source": null,
+        "reason": "未见原文明示反向标记；否定句或概念标记不能据此推导反向。"
+      },
+      "response": {
+        "options": [
+          {
+            "id": "core-literacy--original.q023.option1",
+            "label": "非常不同意",
+            "value": 1,
+            "source": {
+              "pdf_pages": [
+                27,
+                28
+              ],
+              "printed_pages": [
+                24,
+                25
+              ]
+            }
+          },
+          {
+            "id": "core-literacy--original.q023.option2",
+            "label": "比较不同意",
+            "value": 2,
+            "source": {
+              "pdf_pages": [
+                27,
+                28
+              ],
+              "printed_pages": [
+                24,
+                25
+              ]
+            }
+          },
+          {
+            "id": "core-literacy--original.q023.option3",
+            "label": "中立",
+            "value": 3,
+            "source": {
+              "pdf_pages": [
+                27,
+                28
+              ],
+              "printed_pages": [
+                24,
+                25
+              ]
+            }
+          },
+          {
+            "id": "core-literacy--original.q023.option4",
+            "label": "比较同意",
+            "value": 4,
+            "source": {
+              "pdf_pages": [
+                27,
+                28
+              ],
+              "printed_pages": [
+                24,
+                25
+              ]
+            }
+          },
+          {
+            "id": "core-literacy--original.q023.option5",
+            "label": "非常同意",
+            "value": 5,
+            "source": {
+              "pdf_pages": [
+                27,
+                28
+              ],
+              "printed_pages": [
+                24,
+                25
+              ]
+            }
+          }
+        ],
+        "minimum": 1,
+        "maximum": 5,
+        "cardinality": "single",
+        "slots": null,
+        "raw_instruction": "请对下表中给出的核心素养指标进行判断，并在你认同的合理程度选择栏内划“√”。",
+        "unknowns": [
+          {
+            "field": "required",
+            "reason": "原文未给必填要求，不补充约束。"
+          }
+        ],
+        "ranking": null
+      }
+    },
+    {
+      "id": "core-literacy--original.q024",
+      "order": 24,
+      "original_number": null,
+      "role": "measurement",
+      "measurement_class": "scale",
+      "kind": "rating",
+      "raw_text": "问题解决",
+      "student_text": "问题解决",
+      "source": {
+        "pdf_pages": [
+          27
+        ],
+        "printed_pages": [
+          24
+        ]
+      },
+      "group_id": "core-literacy--original.group002",
+      "subdimension": null,
+      "subdimension_reason": "原表仅明示本组；该组以下逐题细分维度未提供，不推断。",
+      "teacher_annotations": [],
+      "reverse": {
+        "marked": null,
+        "raw_marker": null,
+        "source": null,
+        "reason": "未见原文明示反向标记；否定句或概念标记不能据此推导反向。"
+      },
+      "response": {
+        "options": [
+          {
+            "id": "core-literacy--original.q024.option1",
+            "label": "非常不同意",
+            "value": 1,
+            "source": {
+              "pdf_pages": [
+                27,
+                28
+              ],
+              "printed_pages": [
+                24,
+                25
+              ]
+            }
+          },
+          {
+            "id": "core-literacy--original.q024.option2",
+            "label": "比较不同意",
+            "value": 2,
+            "source": {
+              "pdf_pages": [
+                27,
+                28
+              ],
+              "printed_pages": [
+                24,
+                25
+              ]
+            }
+          },
+          {
+            "id": "core-literacy--original.q024.option3",
+            "label": "中立",
+            "value": 3,
+            "source": {
+              "pdf_pages": [
+                27,
+                28
+              ],
+              "printed_pages": [
+                24,
+                25
+              ]
+            }
+          },
+          {
+            "id": "core-literacy--original.q024.option4",
+            "label": "比较同意",
+            "value": 4,
+            "source": {
+              "pdf_pages": [
+                27,
+                28
+              ],
+              "printed_pages": [
+                24,
+                25
+              ]
+            }
+          },
+          {
+            "id": "core-literacy--original.q024.option5",
+            "label": "非常同意",
+            "value": 5,
+            "source": {
+              "pdf_pages": [
+                27,
+                28
+              ],
+              "printed_pages": [
+                24,
+                25
+              ]
+            }
+          }
+        ],
+        "minimum": 1,
+        "maximum": 5,
+        "cardinality": "single",
+        "slots": null,
+        "raw_instruction": "请对下表中给出的核心素养指标进行判断，并在你认同的合理程度选择栏内划“√”。",
+        "unknowns": [
+          {
+            "field": "required",
+            "reason": "原文未给必填要求，不补充约束。"
+          }
+        ],
+        "ranking": null
+      }
+    },
+    {
+      "id": "core-literacy--original.q025",
+      "order": 25,
+      "original_number": null,
+      "role": "measurement",
+      "measurement_class": "scale",
+      "kind": "rating",
+      "raw_text": "爱党爱国",
+      "student_text": "爱党爱国",
+      "source": {
+        "pdf_pages": [
+          27
+        ],
+        "printed_pages": [
+          24
+        ]
+      },
+      "group_id": "core-literacy--original.group003",
+      "subdimension": null,
+      "subdimension_reason": "原表仅明示本组；该组以下逐题细分维度未提供，不推断。",
+      "teacher_annotations": [],
+      "reverse": {
+        "marked": null,
+        "raw_marker": null,
+        "source": null,
+        "reason": "未见原文明示反向标记；否定句或概念标记不能据此推导反向。"
+      },
+      "response": {
+        "options": [
+          {
+            "id": "core-literacy--original.q025.option1",
+            "label": "非常不同意",
+            "value": 1,
+            "source": {
+              "pdf_pages": [
+                27,
+                28
+              ],
+              "printed_pages": [
+                24,
+                25
+              ]
+            }
+          },
+          {
+            "id": "core-literacy--original.q025.option2",
+            "label": "比较不同意",
+            "value": 2,
+            "source": {
+              "pdf_pages": [
+                27,
+                28
+              ],
+              "printed_pages": [
+                24,
+                25
+              ]
+            }
+          },
+          {
+            "id": "core-literacy--original.q025.option3",
+            "label": "中立",
+            "value": 3,
+            "source": {
+              "pdf_pages": [
+                27,
+                28
+              ],
+              "printed_pages": [
+                24,
+                25
+              ]
+            }
+          },
+          {
+            "id": "core-literacy--original.q025.option4",
+            "label": "比较同意",
+            "value": 4,
+            "source": {
+              "pdf_pages": [
+                27,
+                28
+              ],
+              "printed_pages": [
+                24,
+                25
+              ]
+            }
+          },
+          {
+            "id": "core-literacy--original.q025.option5",
+            "label": "非常同意",
+            "value": 5,
+            "source": {
+              "pdf_pages": [
+                27,
+                28
+              ],
+              "printed_pages": [
+                24,
+                25
+              ]
+            }
+          }
+        ],
+        "minimum": 1,
+        "maximum": 5,
+        "cardinality": "single",
+        "slots": null,
+        "raw_instruction": "请对下表中给出的核心素养指标进行判断，并在你认同的合理程度选择栏内划“√”。",
+        "unknowns": [
+          {
+            "field": "required",
+            "reason": "原文未给必填要求，不补充约束。"
+          }
+        ],
+        "ranking": null
+      }
+    },
+    {
+      "id": "core-literacy--original.q026",
+      "order": 26,
+      "original_number": null,
+      "role": "measurement",
+      "measurement_class": "scale",
+      "kind": "rating",
+      "raw_text": "民族认同",
+      "student_text": "民族认同",
+      "source": {
+        "pdf_pages": [
+          27
+        ],
+        "printed_pages": [
+          24
+        ]
+      },
+      "group_id": "core-literacy--original.group003",
+      "subdimension": null,
+      "subdimension_reason": "原表仅明示本组；该组以下逐题细分维度未提供，不推断。",
+      "teacher_annotations": [],
+      "reverse": {
+        "marked": null,
+        "raw_marker": null,
+        "source": null,
+        "reason": "未见原文明示反向标记；否定句或概念标记不能据此推导反向。"
+      },
+      "response": {
+        "options": [
+          {
+            "id": "core-literacy--original.q026.option1",
+            "label": "非常不同意",
+            "value": 1,
+            "source": {
+              "pdf_pages": [
+                27,
+                28
+              ],
+              "printed_pages": [
+                24,
+                25
+              ]
+            }
+          },
+          {
+            "id": "core-literacy--original.q026.option2",
+            "label": "比较不同意",
+            "value": 2,
+            "source": {
+              "pdf_pages": [
+                27,
+                28
+              ],
+              "printed_pages": [
+                24,
+                25
+              ]
+            }
+          },
+          {
+            "id": "core-literacy--original.q026.option3",
+            "label": "中立",
+            "value": 3,
+            "source": {
+              "pdf_pages": [
+                27,
+                28
+              ],
+              "printed_pages": [
+                24,
+                25
+              ]
+            }
+          },
+          {
+            "id": "core-literacy--original.q026.option4",
+            "label": "比较同意",
+            "value": 4,
+            "source": {
+              "pdf_pages": [
+                27,
+                28
+              ],
+              "printed_pages": [
+                24,
+                25
+              ]
+            }
+          },
+          {
+            "id": "core-literacy--original.q026.option5",
+            "label": "非常同意",
+            "value": 5,
+            "source": {
+              "pdf_pages": [
+                27,
+                28
+              ],
+              "printed_pages": [
+                24,
+                25
+              ]
+            }
+          }
+        ],
+        "minimum": 1,
+        "maximum": 5,
+        "cardinality": "single",
+        "slots": null,
+        "raw_instruction": "请对下表中给出的核心素养指标进行判断，并在你认同的合理程度选择栏内划“√”。",
+        "unknowns": [
+          {
+            "field": "required",
+            "reason": "原文未给必填要求，不补充约束。"
+          }
+        ],
+        "ranking": null
+      }
+    },
+    {
+      "id": "core-literacy--original.q027",
+      "order": 27,
+      "original_number": null,
+      "role": "measurement",
+      "measurement_class": "scale",
+      "kind": "rating",
+      "raw_text": "国家安全观",
+      "student_text": "国家安全观",
+      "source": {
+        "pdf_pages": [
+          27
+        ],
+        "printed_pages": [
+          24
+        ]
+      },
+      "group_id": "core-literacy--original.group003",
+      "subdimension": null,
+      "subdimension_reason": "原表仅明示本组；该组以下逐题细分维度未提供，不推断。",
+      "teacher_annotations": [],
+      "reverse": {
+        "marked": null,
+        "raw_marker": null,
+        "source": null,
+        "reason": "未见原文明示反向标记；否定句或概念标记不能据此推导反向。"
+      },
+      "response": {
+        "options": [
+          {
+            "id": "core-literacy--original.q027.option1",
+            "label": "非常不同意",
+            "value": 1,
+            "source": {
+              "pdf_pages": [
+                27,
+                28
+              ],
+              "printed_pages": [
+                24,
+                25
+              ]
+            }
+          },
+          {
+            "id": "core-literacy--original.q027.option2",
+            "label": "比较不同意",
+            "value": 2,
+            "source": {
+              "pdf_pages": [
+                27,
+                28
+              ],
+              "printed_pages": [
+                24,
+                25
+              ]
+            }
+          },
+          {
+            "id": "core-literacy--original.q027.option3",
+            "label": "中立",
+            "value": 3,
+            "source": {
+              "pdf_pages": [
+                27,
+                28
+              ],
+              "printed_pages": [
+                24,
+                25
+              ]
+            }
+          },
+          {
+            "id": "core-literacy--original.q027.option4",
+            "label": "比较同意",
+            "value": 4,
+            "source": {
+              "pdf_pages": [
+                27,
+                28
+              ],
+              "printed_pages": [
+                24,
+                25
+              ]
+            }
+          },
+          {
+            "id": "core-literacy--original.q027.option5",
+            "label": "非常同意",
+            "value": 5,
+            "source": {
+              "pdf_pages": [
+                27,
+                28
+              ],
+              "printed_pages": [
+                24,
+                25
+              ]
+            }
+          }
+        ],
+        "minimum": 1,
+        "maximum": 5,
+        "cardinality": "single",
+        "slots": null,
+        "raw_instruction": "请对下表中给出的核心素养指标进行判断，并在你认同的合理程度选择栏内划“√”。",
+        "unknowns": [
+          {
+            "field": "required",
+            "reason": "原文未给必填要求，不补充约束。"
+          }
+        ],
+        "ranking": null
+      }
+    },
+    {
+      "id": "core-literacy--original.q028",
+      "order": 28,
+      "original_number": null,
+      "role": "measurement",
+      "measurement_class": "scale",
+      "kind": "rating",
+      "raw_text": "诚实守信",
+      "student_text": "诚实守信",
+      "source": {
+        "pdf_pages": [
+          27
+        ],
+        "printed_pages": [
+          24
+        ]
+      },
+      "group_id": "core-literacy--original.group003",
+      "subdimension": null,
+      "subdimension_reason": "原表仅明示本组；该组以下逐题细分维度未提供，不推断。",
+      "teacher_annotations": [],
+      "reverse": {
+        "marked": null,
+        "raw_marker": null,
+        "source": null,
+        "reason": "未见原文明示反向标记；否定句或概念标记不能据此推导反向。"
+      },
+      "response": {
+        "options": [
+          {
+            "id": "core-literacy--original.q028.option1",
+            "label": "非常不同意",
+            "value": 1,
+            "source": {
+              "pdf_pages": [
+                27,
+                28
+              ],
+              "printed_pages": [
+                24,
+                25
+              ]
+            }
+          },
+          {
+            "id": "core-literacy--original.q028.option2",
+            "label": "比较不同意",
+            "value": 2,
+            "source": {
+              "pdf_pages": [
+                27,
+                28
+              ],
+              "printed_pages": [
+                24,
+                25
+              ]
+            }
+          },
+          {
+            "id": "core-literacy--original.q028.option3",
+            "label": "中立",
+            "value": 3,
+            "source": {
+              "pdf_pages": [
+                27,
+                28
+              ],
+              "printed_pages": [
+                24,
+                25
+              ]
+            }
+          },
+          {
+            "id": "core-literacy--original.q028.option4",
+            "label": "比较同意",
+            "value": 4,
+            "source": {
+              "pdf_pages": [
+                27,
+                28
+              ],
+              "printed_pages": [
+                24,
+                25
+              ]
+            }
+          },
+          {
+            "id": "core-literacy--original.q028.option5",
+            "label": "非常同意",
+            "value": 5,
+            "source": {
+              "pdf_pages": [
+                27,
+                28
+              ],
+              "printed_pages": [
+                24,
+                25
+              ]
+            }
+          }
+        ],
+        "minimum": 1,
+        "maximum": 5,
+        "cardinality": "single",
+        "slots": null,
+        "raw_instruction": "请对下表中给出的核心素养指标进行判断，并在你认同的合理程度选择栏内划“√”。",
+        "unknowns": [
+          {
+            "field": "required",
+            "reason": "原文未给必填要求，不补充约束。"
+          }
+        ],
+        "ranking": null
+      }
+    },
+    {
+      "id": "core-literacy--original.q029",
+      "order": 29,
+      "original_number": null,
+      "role": "measurement",
+      "measurement_class": "scale",
+      "kind": "rating",
+      "raw_text": "遵纪守法",
+      "student_text": "遵纪守法",
+      "source": {
+        "pdf_pages": [
+          27
+        ],
+        "printed_pages": [
+          24
+        ]
+      },
+      "group_id": "core-literacy--original.group003",
+      "subdimension": null,
+      "subdimension_reason": "原表仅明示本组；该组以下逐题细分维度未提供，不推断。",
+      "teacher_annotations": [],
+      "reverse": {
+        "marked": null,
+        "raw_marker": null,
+        "source": null,
+        "reason": "未见原文明示反向标记；否定句或概念标记不能据此推导反向。"
+      },
+      "response": {
+        "options": [
+          {
+            "id": "core-literacy--original.q029.option1",
+            "label": "非常不同意",
+            "value": 1,
+            "source": {
+              "pdf_pages": [
+                27,
+                28
+              ],
+              "printed_pages": [
+                24,
+                25
+              ]
+            }
+          },
+          {
+            "id": "core-literacy--original.q029.option2",
+            "label": "比较不同意",
+            "value": 2,
+            "source": {
+              "pdf_pages": [
+                27,
+                28
+              ],
+              "printed_pages": [
+                24,
+                25
+              ]
+            }
+          },
+          {
+            "id": "core-literacy--original.q029.option3",
+            "label": "中立",
+            "value": 3,
+            "source": {
+              "pdf_pages": [
+                27,
+                28
+              ],
+              "printed_pages": [
+                24,
+                25
+              ]
+            }
+          },
+          {
+            "id": "core-literacy--original.q029.option4",
+            "label": "比较同意",
+            "value": 4,
+            "source": {
+              "pdf_pages": [
+                27,
+                28
+              ],
+              "printed_pages": [
+                24,
+                25
+              ]
+            }
+          },
+          {
+            "id": "core-literacy--original.q029.option5",
+            "label": "非常同意",
+            "value": 5,
+            "source": {
+              "pdf_pages": [
+                27,
+                28
+              ],
+              "printed_pages": [
+                24,
+                25
+              ]
+            }
+          }
+        ],
+        "minimum": 1,
+        "maximum": 5,
+        "cardinality": "single",
+        "slots": null,
+        "raw_instruction": "请对下表中给出的核心素养指标进行判断，并在你认同的合理程度选择栏内划“√”。",
+        "unknowns": [
+          {
+            "field": "required",
+            "reason": "原文未给必填要求，不补充约束。"
+          }
+        ],
+        "ranking": null
+      }
+    },
+    {
+      "id": "core-literacy--original.q030",
+      "order": 30,
+      "original_number": null,
+      "role": "measurement",
+      "measurement_class": "scale",
+      "kind": "rating",
+      "raw_text": "乐于助人",
+      "student_text": "乐于助人",
+      "source": {
+        "pdf_pages": [
+          28
+        ],
+        "printed_pages": [
+          25
+        ]
+      },
+      "group_id": "core-literacy--original.group003",
+      "subdimension": null,
+      "subdimension_reason": "原表仅明示本组；该组以下逐题细分维度未提供，不推断。",
+      "teacher_annotations": [],
+      "reverse": {
+        "marked": null,
+        "raw_marker": null,
+        "source": null,
+        "reason": "未见原文明示反向标记；否定句或概念标记不能据此推导反向。"
+      },
+      "response": {
+        "options": [
+          {
+            "id": "core-literacy--original.q030.option1",
+            "label": "非常不同意",
+            "value": 1,
+            "source": {
+              "pdf_pages": [
+                28
+              ],
+              "printed_pages": [
+                25
+              ]
+            }
+          },
+          {
+            "id": "core-literacy--original.q030.option2",
+            "label": "比较不同意",
+            "value": 2,
+            "source": {
+              "pdf_pages": [
+                28
+              ],
+              "printed_pages": [
+                25
+              ]
+            }
+          },
+          {
+            "id": "core-literacy--original.q030.option3",
+            "label": "中立",
+            "value": 3,
+            "source": {
+              "pdf_pages": [
+                28
+              ],
+              "printed_pages": [
+                25
+              ]
+            }
+          },
+          {
+            "id": "core-literacy--original.q030.option4",
+            "label": "比较同意",
+            "value": 4,
+            "source": {
+              "pdf_pages": [
+                28
+              ],
+              "printed_pages": [
+                25
+              ]
+            }
+          },
+          {
+            "id": "core-literacy--original.q030.option5",
+            "label": "非常同意",
+            "value": 5,
+            "source": {
+              "pdf_pages": [
+                28
+              ],
+              "printed_pages": [
+                25
+              ]
+            }
+          }
+        ],
+        "minimum": 1,
+        "maximum": 5,
+        "cardinality": "single",
+        "slots": null,
+        "raw_instruction": "请对下表中给出的核心素养指标进行判断，并在你认同的合理程度选择栏内划“√”。",
+        "unknowns": [
+          {
+            "field": "required",
+            "reason": "原文未给必填要求，不补充约束。"
+          }
+        ],
+        "ranking": null
+      }
+    },
+    {
+      "id": "core-literacy--original.q031",
+      "order": 31,
+      "original_number": null,
+      "role": "measurement",
+      "measurement_class": "scale",
+      "kind": "rating",
+      "raw_text": "主动服务",
+      "student_text": "主动服务",
+      "source": {
+        "pdf_pages": [
+          28
+        ],
+        "printed_pages": [
+          25
+        ]
+      },
+      "group_id": "core-literacy--original.group003",
+      "subdimension": null,
+      "subdimension_reason": "原表仅明示本组；该组以下逐题细分维度未提供，不推断。",
+      "teacher_annotations": [],
+      "reverse": {
+        "marked": null,
+        "raw_marker": null,
+        "source": null,
+        "reason": "未见原文明示反向标记；否定句或概念标记不能据此推导反向。"
+      },
+      "response": {
+        "options": [
+          {
+            "id": "core-literacy--original.q031.option1",
+            "label": "非常不同意",
+            "value": 1,
+            "source": {
+              "pdf_pages": [
+                28
+              ],
+              "printed_pages": [
+                25
+              ]
+            }
+          },
+          {
+            "id": "core-literacy--original.q031.option2",
+            "label": "比较不同意",
+            "value": 2,
+            "source": {
+              "pdf_pages": [
+                28
+              ],
+              "printed_pages": [
+                25
+              ]
+            }
+          },
+          {
+            "id": "core-literacy--original.q031.option3",
+            "label": "中立",
+            "value": 3,
+            "source": {
+              "pdf_pages": [
+                28
+              ],
+              "printed_pages": [
+                25
+              ]
+            }
+          },
+          {
+            "id": "core-literacy--original.q031.option4",
+            "label": "比较同意",
+            "value": 4,
+            "source": {
+              "pdf_pages": [
+                28
+              ],
+              "printed_pages": [
+                25
+              ]
+            }
+          },
+          {
+            "id": "core-literacy--original.q031.option5",
+            "label": "非常同意",
+            "value": 5,
+            "source": {
+              "pdf_pages": [
+                28
+              ],
+              "printed_pages": [
+                25
+              ]
+            }
+          }
+        ],
+        "minimum": 1,
+        "maximum": 5,
+        "cardinality": "single",
+        "slots": null,
+        "raw_instruction": "请对下表中给出的核心素养指标进行判断，并在你认同的合理程度选择栏内划“√”。",
+        "unknowns": [
+          {
+            "field": "required",
+            "reason": "原文未给必填要求，不补充约束。"
+          }
+        ],
+        "ranking": null
+      }
+    },
+    {
+      "id": "core-literacy--original.q032",
+      "order": 32,
+      "original_number": null,
+      "role": "measurement",
+      "measurement_class": "scale",
+      "kind": "rating",
+      "raw_text": "责任担当",
+      "student_text": "责任担当",
+      "source": {
+        "pdf_pages": [
+          28
+        ],
+        "printed_pages": [
+          25
+        ]
+      },
+      "group_id": "core-literacy--original.group003",
+      "subdimension": null,
+      "subdimension_reason": "原表仅明示本组；该组以下逐题细分维度未提供，不推断。",
+      "teacher_annotations": [],
+      "reverse": {
+        "marked": null,
+        "raw_marker": null,
+        "source": null,
+        "reason": "未见原文明示反向标记；否定句或概念标记不能据此推导反向。"
+      },
+      "response": {
+        "options": [
+          {
+            "id": "core-literacy--original.q032.option1",
+            "label": "非常不同意",
+            "value": 1,
+            "source": {
+              "pdf_pages": [
+                28
+              ],
+              "printed_pages": [
+                25
+              ]
+            }
+          },
+          {
+            "id": "core-literacy--original.q032.option2",
+            "label": "比较不同意",
+            "value": 2,
+            "source": {
+              "pdf_pages": [
+                28
+              ],
+              "printed_pages": [
+                25
+              ]
+            }
+          },
+          {
+            "id": "core-literacy--original.q032.option3",
+            "label": "中立",
+            "value": 3,
+            "source": {
+              "pdf_pages": [
+                28
+              ],
+              "printed_pages": [
+                25
+              ]
+            }
+          },
+          {
+            "id": "core-literacy--original.q032.option4",
+            "label": "比较同意",
+            "value": 4,
+            "source": {
+              "pdf_pages": [
+                28
+              ],
+              "printed_pages": [
+                25
+              ]
+            }
+          },
+          {
+            "id": "core-literacy--original.q032.option5",
+            "label": "非常同意",
+            "value": 5,
+            "source": {
+              "pdf_pages": [
+                28
+              ],
+              "printed_pages": [
+                25
+              ]
+            }
+          }
+        ],
+        "minimum": 1,
+        "maximum": 5,
+        "cardinality": "single",
+        "slots": null,
+        "raw_instruction": "请对下表中给出的核心素养指标进行判断，并在你认同的合理程度选择栏内划“√”。",
+        "unknowns": [
+          {
+            "field": "required",
+            "reason": "原文未给必填要求，不补充约束。"
+          }
+        ],
+        "ranking": null
+      }
+    },
+    {
+      "id": "core-literacy--original.q033",
+      "order": 33,
+      "original_number": null,
+      "role": "measurement",
+      "measurement_class": "scale",
+      "kind": "rating",
+      "raw_text": "工具应用",
+      "student_text": "工具应用",
+      "source": {
+        "pdf_pages": [
+          28
+        ],
+        "printed_pages": [
+          25
+        ]
+      },
+      "group_id": "core-literacy--original.group003",
+      "subdimension": null,
+      "subdimension_reason": "原表仅明示本组；该组以下逐题细分维度未提供，不推断。",
+      "teacher_annotations": [],
+      "reverse": {
+        "marked": null,
+        "raw_marker": null,
+        "source": null,
+        "reason": "未见原文明示反向标记；否定句或概念标记不能据此推导反向。"
+      },
+      "response": {
+        "options": [
+          {
+            "id": "core-literacy--original.q033.option1",
+            "label": "非常不同意",
+            "value": 1,
+            "source": {
+              "pdf_pages": [
+                28
+              ],
+              "printed_pages": [
+                25
+              ]
+            }
+          },
+          {
+            "id": "core-literacy--original.q033.option2",
+            "label": "比较不同意",
+            "value": 2,
+            "source": {
+              "pdf_pages": [
+                28
+              ],
+              "printed_pages": [
+                25
+              ]
+            }
+          },
+          {
+            "id": "core-literacy--original.q033.option3",
+            "label": "中立",
+            "value": 3,
+            "source": {
+              "pdf_pages": [
+                28
+              ],
+              "printed_pages": [
+                25
+              ]
+            }
+          },
+          {
+            "id": "core-literacy--original.q033.option4",
+            "label": "比较同意",
+            "value": 4,
+            "source": {
+              "pdf_pages": [
+                28
+              ],
+              "printed_pages": [
+                25
+              ]
+            }
+          },
+          {
+            "id": "core-literacy--original.q033.option5",
+            "label": "非常同意",
+            "value": 5,
+            "source": {
+              "pdf_pages": [
+                28
+              ],
+              "printed_pages": [
+                25
+              ]
+            }
+          }
+        ],
+        "minimum": 1,
+        "maximum": 5,
+        "cardinality": "single",
+        "slots": null,
+        "raw_instruction": "请对下表中给出的核心素养指标进行判断，并在你认同的合理程度选择栏内划“√”。",
+        "unknowns": [
+          {
+            "field": "required",
+            "reason": "原文未给必填要求，不补充约束。"
+          }
+        ],
+        "ranking": null
+      }
+    },
+    {
+      "id": "core-literacy--original.q034",
+      "order": 34,
+      "original_number": null,
+      "role": "measurement",
+      "measurement_class": "scale",
+      "kind": "rating",
+      "raw_text": "实践操作",
+      "student_text": "实践操作",
+      "source": {
+        "pdf_pages": [
+          28
+        ],
+        "printed_pages": [
+          25
+        ]
+      },
+      "group_id": "core-literacy--original.group003",
+      "subdimension": null,
+      "subdimension_reason": "原表仅明示本组；该组以下逐题细分维度未提供，不推断。",
+      "teacher_annotations": [],
+      "reverse": {
+        "marked": null,
+        "raw_marker": null,
+        "source": null,
+        "reason": "未见原文明示反向标记；否定句或概念标记不能据此推导反向。"
+      },
+      "response": {
+        "options": [
+          {
+            "id": "core-literacy--original.q034.option1",
+            "label": "非常不同意",
+            "value": 1,
+            "source": {
+              "pdf_pages": [
+                28
+              ],
+              "printed_pages": [
+                25
+              ]
+            }
+          },
+          {
+            "id": "core-literacy--original.q034.option2",
+            "label": "比较不同意",
+            "value": 2,
+            "source": {
+              "pdf_pages": [
+                28
+              ],
+              "printed_pages": [
+                25
+              ]
+            }
+          },
+          {
+            "id": "core-literacy--original.q034.option3",
+            "label": "中立",
+            "value": 3,
+            "source": {
+              "pdf_pages": [
+                28
+              ],
+              "printed_pages": [
+                25
+              ]
+            }
+          },
+          {
+            "id": "core-literacy--original.q034.option4",
+            "label": "比较同意",
+            "value": 4,
+            "source": {
+              "pdf_pages": [
+                28
+              ],
+              "printed_pages": [
+                25
+              ]
+            }
+          },
+          {
+            "id": "core-literacy--original.q034.option5",
+            "label": "非常同意",
+            "value": 5,
+            "source": {
+              "pdf_pages": [
+                28
+              ],
+              "printed_pages": [
+                25
+              ]
+            }
+          }
+        ],
+        "minimum": 1,
+        "maximum": 5,
+        "cardinality": "single",
+        "slots": null,
+        "raw_instruction": "请对下表中给出的核心素养指标进行判断，并在你认同的合理程度选择栏内划“√”。",
+        "unknowns": [
+          {
+            "field": "required",
+            "reason": "原文未给必填要求，不补充约束。"
+          }
+        ],
+        "ranking": null
+      }
+    },
+    {
+      "id": "core-literacy--original.q035",
+      "order": 35,
+      "original_number": null,
+      "role": "measurement",
+      "measurement_class": "scale",
+      "kind": "rating",
+      "raw_text": "外语掌握",
+      "student_text": "外语掌握",
+      "source": {
+        "pdf_pages": [
+          28
+        ],
+        "printed_pages": [
+          25
+        ]
+      },
+      "group_id": "core-literacy--original.group003",
+      "subdimension": null,
+      "subdimension_reason": "原表仅明示本组；该组以下逐题细分维度未提供，不推断。",
+      "teacher_annotations": [],
+      "reverse": {
+        "marked": null,
+        "raw_marker": null,
+        "source": null,
+        "reason": "未见原文明示反向标记；否定句或概念标记不能据此推导反向。"
+      },
+      "response": {
+        "options": [
+          {
+            "id": "core-literacy--original.q035.option1",
+            "label": "非常不同意",
+            "value": 1,
+            "source": {
+              "pdf_pages": [
+                28
+              ],
+              "printed_pages": [
+                25
+              ]
+            }
+          },
+          {
+            "id": "core-literacy--original.q035.option2",
+            "label": "比较不同意",
+            "value": 2,
+            "source": {
+              "pdf_pages": [
+                28
+              ],
+              "printed_pages": [
+                25
+              ]
+            }
+          },
+          {
+            "id": "core-literacy--original.q035.option3",
+            "label": "中立",
+            "value": 3,
+            "source": {
+              "pdf_pages": [
+                28
+              ],
+              "printed_pages": [
+                25
+              ]
+            }
+          },
+          {
+            "id": "core-literacy--original.q035.option4",
+            "label": "比较同意",
+            "value": 4,
+            "source": {
+              "pdf_pages": [
+                28
+              ],
+              "printed_pages": [
+                25
+              ]
+            }
+          },
+          {
+            "id": "core-literacy--original.q035.option5",
+            "label": "非常同意",
+            "value": 5,
+            "source": {
+              "pdf_pages": [
+                28
+              ],
+              "printed_pages": [
+                25
+              ]
+            }
+          }
+        ],
+        "minimum": 1,
+        "maximum": 5,
+        "cardinality": "single",
+        "slots": null,
+        "raw_instruction": "请对下表中给出的核心素养指标进行判断，并在你认同的合理程度选择栏内划“√”。",
+        "unknowns": [
+          {
+            "field": "required",
+            "reason": "原文未给必填要求，不补充约束。"
+          }
+        ],
+        "ranking": null
+      }
+    },
+    {
+      "id": "core-literacy--original.q036",
+      "order": 36,
+      "original_number": null,
+      "role": "measurement",
+      "measurement_class": "scale",
+      "kind": "rating",
+      "raw_text": "口头表达",
+      "student_text": "口头表达",
+      "source": {
+        "pdf_pages": [
+          28
+        ],
+        "printed_pages": [
+          25
+        ]
+      },
+      "group_id": "core-literacy--original.group003",
+      "subdimension": null,
+      "subdimension_reason": "原表仅明示本组；该组以下逐题细分维度未提供，不推断。",
+      "teacher_annotations": [],
+      "reverse": {
+        "marked": null,
+        "raw_marker": null,
+        "source": null,
+        "reason": "未见原文明示反向标记；否定句或概念标记不能据此推导反向。"
+      },
+      "response": {
+        "options": [
+          {
+            "id": "core-literacy--original.q036.option1",
+            "label": "非常不同意",
+            "value": 1,
+            "source": {
+              "pdf_pages": [
+                28
+              ],
+              "printed_pages": [
+                25
+              ]
+            }
+          },
+          {
+            "id": "core-literacy--original.q036.option2",
+            "label": "比较不同意",
+            "value": 2,
+            "source": {
+              "pdf_pages": [
+                28
+              ],
+              "printed_pages": [
+                25
+              ]
+            }
+          },
+          {
+            "id": "core-literacy--original.q036.option3",
+            "label": "中立",
+            "value": 3,
+            "source": {
+              "pdf_pages": [
+                28
+              ],
+              "printed_pages": [
+                25
+              ]
+            }
+          },
+          {
+            "id": "core-literacy--original.q036.option4",
+            "label": "比较同意",
+            "value": 4,
+            "source": {
+              "pdf_pages": [
+                28
+              ],
+              "printed_pages": [
+                25
+              ]
+            }
+          },
+          {
+            "id": "core-literacy--original.q036.option5",
+            "label": "非常同意",
+            "value": 5,
+            "source": {
+              "pdf_pages": [
+                28
+              ],
+              "printed_pages": [
+                25
+              ]
+            }
+          }
+        ],
+        "minimum": 1,
+        "maximum": 5,
+        "cardinality": "single",
+        "slots": null,
+        "raw_instruction": "请对下表中给出的核心素养指标进行判断，并在你认同的合理程度选择栏内划“√”。",
+        "unknowns": [
+          {
+            "field": "required",
+            "reason": "原文未给必填要求，不补充约束。"
+          }
+        ],
+        "ranking": null
+      }
+    },
+    {
+      "id": "core-literacy--original.q037",
+      "order": 37,
+      "original_number": null,
+      "role": "measurement",
+      "measurement_class": "scale",
+      "kind": "rating",
+      "raw_text": "书面表达",
+      "student_text": "书面表达",
+      "source": {
+        "pdf_pages": [
+          28
+        ],
+        "printed_pages": [
+          25
+        ]
+      },
+      "group_id": "core-literacy--original.group003",
+      "subdimension": null,
+      "subdimension_reason": "原表仅明示本组；该组以下逐题细分维度未提供，不推断。",
+      "teacher_annotations": [],
+      "reverse": {
+        "marked": null,
+        "raw_marker": null,
+        "source": null,
+        "reason": "未见原文明示反向标记；否定句或概念标记不能据此推导反向。"
+      },
+      "response": {
+        "options": [
+          {
+            "id": "core-literacy--original.q037.option1",
+            "label": "非常不同意",
+            "value": 1,
+            "source": {
+              "pdf_pages": [
+                28
+              ],
+              "printed_pages": [
+                25
+              ]
+            }
+          },
+          {
+            "id": "core-literacy--original.q037.option2",
+            "label": "比较不同意",
+            "value": 2,
+            "source": {
+              "pdf_pages": [
+                28
+              ],
+              "printed_pages": [
+                25
+              ]
+            }
+          },
+          {
+            "id": "core-literacy--original.q037.option3",
+            "label": "中立",
+            "value": 3,
+            "source": {
+              "pdf_pages": [
+                28
+              ],
+              "printed_pages": [
+                25
+              ]
+            }
+          },
+          {
+            "id": "core-literacy--original.q037.option4",
+            "label": "比较同意",
+            "value": 4,
+            "source": {
+              "pdf_pages": [
+                28
+              ],
+              "printed_pages": [
+                25
+              ]
+            }
+          },
+          {
+            "id": "core-literacy--original.q037.option5",
+            "label": "非常同意",
+            "value": 5,
+            "source": {
+              "pdf_pages": [
+                28
+              ],
+              "printed_pages": [
+                25
+              ]
+            }
+          }
+        ],
+        "minimum": 1,
+        "maximum": 5,
+        "cardinality": "single",
+        "slots": null,
+        "raw_instruction": "请对下表中给出的核心素养指标进行判断，并在你认同的合理程度选择栏内划“√”。",
+        "unknowns": [
+          {
+            "field": "required",
+            "reason": "原文未给必填要求，不补充约束。"
+          }
+        ],
+        "ranking": null
+      }
+    },
+    {
+      "id": "core-literacy--original.q038",
+      "order": 38,
+      "original_number": null,
+      "role": "measurement",
+      "measurement_class": "scale",
+      "kind": "rating",
+      "raw_text": "技能储备",
+      "student_text": "技能储备",
+      "source": {
+        "pdf_pages": [
+          28
+        ],
+        "printed_pages": [
+          25
+        ]
+      },
+      "group_id": "core-literacy--original.group003",
+      "subdimension": null,
+      "subdimension_reason": "原表仅明示本组；该组以下逐题细分维度未提供，不推断。",
+      "teacher_annotations": [],
+      "reverse": {
+        "marked": null,
+        "raw_marker": null,
+        "source": null,
+        "reason": "未见原文明示反向标记；否定句或概念标记不能据此推导反向。"
+      },
+      "response": {
+        "options": [
+          {
+            "id": "core-literacy--original.q038.option1",
+            "label": "非常不同意",
+            "value": 1,
+            "source": {
+              "pdf_pages": [
+                28
+              ],
+              "printed_pages": [
+                25
+              ]
+            }
+          },
+          {
+            "id": "core-literacy--original.q038.option2",
+            "label": "比较不同意",
+            "value": 2,
+            "source": {
+              "pdf_pages": [
+                28
+              ],
+              "printed_pages": [
+                25
+              ]
+            }
+          },
+          {
+            "id": "core-literacy--original.q038.option3",
+            "label": "中立",
+            "value": 3,
+            "source": {
+              "pdf_pages": [
+                28
+              ],
+              "printed_pages": [
+                25
+              ]
+            }
+          },
+          {
+            "id": "core-literacy--original.q038.option4",
+            "label": "比较同意",
+            "value": 4,
+            "source": {
+              "pdf_pages": [
+                28
+              ],
+              "printed_pages": [
+                25
+              ]
+            }
+          },
+          {
+            "id": "core-literacy--original.q038.option5",
+            "label": "非常同意",
+            "value": 5,
+            "source": {
+              "pdf_pages": [
+                28
+              ],
+              "printed_pages": [
+                25
+              ]
+            }
+          }
+        ],
+        "minimum": 1,
+        "maximum": 5,
+        "cardinality": "single",
+        "slots": null,
+        "raw_instruction": "请对下表中给出的核心素养指标进行判断，并在你认同的合理程度选择栏内划“√”。",
+        "unknowns": [
+          {
+            "field": "required",
+            "reason": "原文未给必填要求，不补充约束。"
+          }
+        ],
+        "ranking": null
+      }
+    },
+    {
+      "id": "core-literacy--original.q039",
+      "order": 39,
+      "original_number": null,
+      "role": "measurement",
+      "measurement_class": "scale",
+      "kind": "rating",
+      "raw_text": "技术应用",
+      "student_text": "技术应用",
+      "source": {
+        "pdf_pages": [
+          28
+        ],
+        "printed_pages": [
+          25
+        ]
+      },
+      "group_id": "core-literacy--original.group003",
+      "subdimension": null,
+      "subdimension_reason": "原表仅明示本组；该组以下逐题细分维度未提供，不推断。",
+      "teacher_annotations": [],
+      "reverse": {
+        "marked": null,
+        "raw_marker": null,
+        "source": null,
+        "reason": "未见原文明示反向标记；否定句或概念标记不能据此推导反向。"
+      },
+      "response": {
+        "options": [
+          {
+            "id": "core-literacy--original.q039.option1",
+            "label": "非常不同意",
+            "value": 1,
+            "source": {
+              "pdf_pages": [
+                28
+              ],
+              "printed_pages": [
+                25
+              ]
+            }
+          },
+          {
+            "id": "core-literacy--original.q039.option2",
+            "label": "比较不同意",
+            "value": 2,
+            "source": {
+              "pdf_pages": [
+                28
+              ],
+              "printed_pages": [
+                25
+              ]
+            }
+          },
+          {
+            "id": "core-literacy--original.q039.option3",
+            "label": "中立",
+            "value": 3,
+            "source": {
+              "pdf_pages": [
+                28
+              ],
+              "printed_pages": [
+                25
+              ]
+            }
+          },
+          {
+            "id": "core-literacy--original.q039.option4",
+            "label": "比较同意",
+            "value": 4,
+            "source": {
+              "pdf_pages": [
+                28
+              ],
+              "printed_pages": [
+                25
+              ]
+            }
+          },
+          {
+            "id": "core-literacy--original.q039.option5",
+            "label": "非常同意",
+            "value": 5,
+            "source": {
+              "pdf_pages": [
+                28
+              ],
+              "printed_pages": [
+                25
+              ]
+            }
+          }
+        ],
+        "minimum": 1,
+        "maximum": 5,
+        "cardinality": "single",
+        "slots": null,
+        "raw_instruction": "请对下表中给出的核心素养指标进行判断，并在你认同的合理程度选择栏内划“√”。",
+        "unknowns": [
+          {
+            "field": "required",
+            "reason": "原文未给必填要求，不补充约束。"
+          }
+        ],
+        "ranking": null
+      }
+    }
+  ],
+  "groups": [
+    {
+      "id": "core-literacy--original.group001",
+      "raw_name": "文化基础",
+      "source": {
+        "pdf_pages": [
+          27
+        ],
+        "printed_pages": [
+          24
+        ]
+      },
+      "parent_id": null,
+      "note": "原题表明示分组；含跨页续表时由已核验连续行延续，不按题意分配。"
+    },
+    {
+      "id": "core-literacy--original.group002",
+      "raw_name": "自主发展",
+      "source": {
+        "pdf_pages": [
+          27
+        ],
+        "printed_pages": [
+          24
+        ]
+      },
+      "parent_id": null,
+      "note": "原题表明示分组；含跨页续表时由已核验连续行延续，不按题意分配。"
+    },
+    {
+      "id": "core-literacy--original.group003",
+      "raw_name": "社会参与",
+      "source": {
+        "pdf_pages": [
+          27,
+          28
+        ],
+        "printed_pages": [
+          24,
+          25
+        ]
+      },
+      "parent_id": null,
+      "note": "原题表明示分组；含跨页续表时由已核验连续行延续，不按题意分配。"
+    }
+  ],
+  "blocks": [
+    {
+      "id": "core-literacy--original.block001",
+      "kind": "matrix",
+      "raw_title": null,
+      "item_ids": [
+        "core-literacy--original.q001",
+        "core-literacy--original.q002",
+        "core-literacy--original.q003",
+        "core-literacy--original.q004",
+        "core-literacy--original.q005",
+        "core-literacy--original.q006",
+        "core-literacy--original.q007",
+        "core-literacy--original.q008",
+        "core-literacy--original.q009",
+        "core-literacy--original.q010",
+        "core-literacy--original.q011",
+        "core-literacy--original.q012",
+        "core-literacy--original.q013",
+        "core-literacy--original.q014",
+        "core-literacy--original.q015",
+        "core-literacy--original.q016",
+        "core-literacy--original.q017",
+        "core-literacy--original.q018",
+        "core-literacy--original.q019",
+        "core-literacy--original.q020",
+        "core-literacy--original.q021",
+        "core-literacy--original.q022",
+        "core-literacy--original.q023",
+        "core-literacy--original.q024",
+        "core-literacy--original.q025",
+        "core-literacy--original.q026",
+        "core-literacy--original.q027",
+        "core-literacy--original.q028",
+        "core-literacy--original.q029",
+        "core-literacy--original.q030",
+        "core-literacy--original.q031",
+        "core-literacy--original.q032",
+        "core-literacy--original.q033",
+        "core-literacy--original.q034",
+        "core-literacy--original.q035",
+        "core-literacy--original.q036",
+        "core-literacy--original.q037",
+        "core-literacy--original.q038",
+        "core-literacy--original.q039"
+      ],
+      "source": {
+        "pdf_pages": [
+          27,
+          28
+        ],
+        "printed_pages": [
+          24,
+          25
+        ]
+      },
+      "note": "原五级评分表，列顺序1、2、3、4、5；原表题行逐项引用并保留明示组别。跨页重现表头为续表，不新增测量题。"
+    }
+  ],
+  "scoring": {
+    "raw_rules": [
+      {
+        "raw_text": "2.评分规则：该问卷为李克特五分量表，评价者根据自身真实感受进行 5 级打分，1 代表非常不同意、2 代表比较不同意、3 代表中立、4 代表比较同意、5代表非常同意。每个维度的得分为各题项平均分。文化基础、自主发展和社会参与的得分之和即为核心素养总分，分数越高代表被测对象核心素养越高。 ",
+        "source": {
+          "pdf_pages": [
+            28
+          ],
+          "printed_pages": [
+            25
+          ]
+        }
+      }
+    ],
+    "reverse_mapping": null,
+    "unknowns": [
+      {
+        "field": "missing_values",
+        "reason": "原文未明确缺失回答的计分处理。",
+        "source": {
+          "pdf_pages": [
+            28
+          ],
+          "printed_pages": [
+            25
+          ]
+        }
+      },
+      {
+        "field": "norms_and_thresholds",
+        "reason": "原文未明确常模、解释阈值或分类规则。",
+        "source": {
+          "pdf_pages": [
+            28
+          ],
+          "printed_pages": [
+            25
+          ]
+        }
+      },
+      {
+        "field": "item_secondary_dimension_mapping",
+        "reason": "原文未给39个题面指标到六个二级素养/18基本要点的逐项对应。",
+        "source": {
+          "pdf_pages": [
+            25,
+            26,
+            27,
+            28
+          ],
+          "printed_pages": [
+            22,
+            23,
+            24,
+            25
+          ]
+        }
+      }
+    ]
+  },
+  "counts": {
+    "basic_information": 0,
+    "measurement_items": 39,
+    "scale_items": 39,
+    "preliminary_items": 0,
+    "background_items": 0,
+    "item_records": 39,
+    "original_question_blocks": 1,
+    "reason": "原问卷评分矩阵为一个原题块；每行独立计一个测量题项，理论解释表与教师说明不计题。"
+  },
+  "issues": [
+    {
+      "id": "core-literacy--original.A-7",
+      "category": "metadata",
+      "blocking": false,
+      "source": {
+        "pdf_pages": [
+          25,
+          27,
+          28
+        ],
+        "printed_pages": [
+          22,
+          24,
+          25
+        ]
+      },
+      "original_text": "调查目的是对学生核心素养的认同（学生认为自身应该具备哪些核心素养）进行相关调查。\n请对下表中给出的核心素养指标进行判断，并在你认同的合理程度选择栏内划“√”。\n分数越高代表被测对象核心素养越高。",
+      "missing_information": "题面是指标合理程度认同，评分说明解释为实际素养高低，两者测量含义有差异。",
+      "possible_resolutions": [
+        "忠实保留题面指标与指导语，仅在教师元数据提示解释差异。"
+      ],
+      "recommendation": "不改成能力自评句，不执行统计解释。",
+      "affected_item_ids": [
+        "core-literacy--original.q001",
+        "core-literacy--original.q002",
+        "core-literacy--original.q003",
+        "core-literacy--original.q004",
+        "core-literacy--original.q005",
+        "core-literacy--original.q006",
+        "core-literacy--original.q007",
+        "core-literacy--original.q008",
+        "core-literacy--original.q009",
+        "core-literacy--original.q010",
+        "core-literacy--original.q011",
+        "core-literacy--original.q012",
+        "core-literacy--original.q013",
+        "core-literacy--original.q014",
+        "core-literacy--original.q015",
+        "core-literacy--original.q016",
+        "core-literacy--original.q017",
+        "core-literacy--original.q018",
+        "core-literacy--original.q019",
+        "core-literacy--original.q020",
+        "core-literacy--original.q021",
+        "core-literacy--original.q022",
+        "core-literacy--original.q023",
+        "core-literacy--original.q024",
+        "core-literacy--original.q025",
+        "core-literacy--original.q026",
+        "core-literacy--original.q027",
+        "core-literacy--original.q028",
+        "core-literacy--original.q029",
+        "core-literacy--original.q030",
+        "core-literacy--original.q031",
+        "core-literacy--original.q032",
+        "core-literacy--original.q033",
+        "core-literacy--original.q034",
+        "core-literacy--original.q035",
+        "core-literacy--original.q036",
+        "core-literacy--original.q037",
+        "core-literacy--original.q038",
+        "core-literacy--original.q039"
+      ],
+      "resolution": null
+    },
+    {
+      "id": "core-literacy--original.core-subdimensions",
+      "category": "metadata",
+      "blocking": false,
+      "source": {
+        "pdf_pages": [
+          25,
+          26,
+          27,
+          28
+        ],
+        "printed_pages": [
+          22,
+          23,
+          24,
+          25
+        ]
+      },
+      "original_text": "文化基础\n人文底蕴\n科学精神\n自主发展\n学会学习\n健康生活\n社会参与\n责任担当\n实践创新",
+      "missing_information": "图5将文化基础分为人文底蕴/科学精神、自主发展分为学会学习/健康生活、社会参与分为责任担当/实践创新；图中另列18个基本要点。这些层级和数量是图示排列的审计说明，原文摘录仅列实际名称，理论二级维度与18基本要点未给到题表39指标的逐项映射。",
+      "possible_resolutions": [
+        "保留三个题表一级组；逐项subdimension=null。"
+      ],
+      "recommendation": "不凭理论维度推断题项归属；保留图表层次为教师说明。",
+      "affected_item_ids": [
+        "core-literacy--original.q001",
+        "core-literacy--original.q002",
+        "core-literacy--original.q003",
+        "core-literacy--original.q004",
+        "core-literacy--original.q005",
+        "core-literacy--original.q006",
+        "core-literacy--original.q007",
+        "core-literacy--original.q008",
+        "core-literacy--original.q009",
+        "core-literacy--original.q010",
+        "core-literacy--original.q011",
+        "core-literacy--original.q012",
+        "core-literacy--original.q013",
+        "core-literacy--original.q014",
+        "core-literacy--original.q015",
+        "core-literacy--original.q016",
+        "core-literacy--original.q017",
+        "core-literacy--original.q018",
+        "core-literacy--original.q019",
+        "core-literacy--original.q020",
+        "core-literacy--original.q021",
+        "core-literacy--original.q022",
+        "core-literacy--original.q023",
+        "core-literacy--original.q024",
+        "core-literacy--original.q025",
+        "core-literacy--original.q026",
+        "core-literacy--original.q027",
+        "core-literacy--original.q028",
+        "core-literacy--original.q029",
+        "core-literacy--original.q030",
+        "core-literacy--original.q031",
+        "core-literacy--original.q032",
+        "core-literacy--original.q033",
+        "core-literacy--original.q034",
+        "core-literacy--original.q035",
+        "core-literacy--original.q036",
+        "core-literacy--original.q037",
+        "core-literacy--original.q038",
+        "core-literacy--original.q039"
+      ],
+      "resolution": null
+    }
+  ],
+  "review": {
+    "status": "verified",
+    "transcription_verified": true,
+    "checked_pdf_pages": [
+      24,
+      25,
+      26,
+      27,
+      28
+    ],
+    "method": "重新从哈希一致原PDF用pypdf与pdfplumber提取；逐卷实际查看原页PNG题表、连续表格分组、标题与完整使用说明，再核对全部原题行；未用旧全文直接充当正式数据。只合并版面换行与空白，不改字词。",
+    "reviewed_on": "2026-10-04",
+    "eligible_for_generation": true,
+    "note": "仅为数据层转录与输出阻断状态，不是导出、计分、WorkBuddy调用或问卷星导入验证；本阶段未开发生成器。核心素养按原指标短语/原指导语/唯一明示评分标签保存，测量解释差异只留教师元数据。"
+  }
+}

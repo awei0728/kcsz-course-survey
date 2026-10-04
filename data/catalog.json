@@ -1,0 +1,262 @@
+{
+  "schema_version": 1,
+  "name": "课程思政问卷助手",
+  "coverage": {
+    "projects": 12,
+    "versions": 16
+  },
+  "sources": [
+    {
+      "filename": "武汉大学课程思政教学评价指南（第一辑）.pdf",
+      "volume": 1,
+      "pdf_page_count": 41,
+      "sha256": "218ce8325ef713959646c279effd9d1a113f6064656926bdf21ac3903dd33850"
+    },
+    {
+      "filename": "武汉大学课程思政教学评价指南（第二辑）.pdf",
+      "volume": 2,
+      "pdf_page_count": 33,
+      "sha256": "409e07caee432868f24c51a5c3989cabdb5df37f8bbdcddfb36cc4adbbc51ce4"
+    }
+  ],
+  "projects": [
+    {
+      "id": "critical-thinking",
+      "name": "批判性思维",
+      "aliases": [
+        "批判性思维评价指南"
+      ],
+      "source_volume": 1,
+      "versions": [
+        {
+          "id": "A",
+          "file": "questionnaires/critical-thinking--A.json",
+          "questionnaire_id": "critical-thinking--A",
+          "review_status": "needs_confirmation",
+          "eligible_for_generation": false
+        },
+        {
+          "id": "B",
+          "file": "questionnaires/critical-thinking--B.json",
+          "questionnaire_id": "critical-thinking--B",
+          "review_status": "needs_confirmation",
+          "eligible_for_generation": false
+        }
+      ]
+    },
+    {
+      "id": "learning-self-efficacy",
+      "name": "学习自我效能感",
+      "aliases": [
+        "学习自我效能感评价指南"
+      ],
+      "source_volume": 1,
+      "versions": [
+        {
+          "id": "A",
+          "file": "questionnaires/learning-self-efficacy--A.json",
+          "questionnaire_id": "learning-self-efficacy--A",
+          "review_status": "needs_confirmation",
+          "eligible_for_generation": false
+        },
+        {
+          "id": "B",
+          "file": "questionnaires/learning-self-efficacy--B.json",
+          "questionnaire_id": "learning-self-efficacy--B",
+          "review_status": "needs_confirmation",
+          "eligible_for_generation": false
+        }
+      ]
+    },
+    {
+      "id": "professional-identity",
+      "name": "专业认同感",
+      "aliases": [
+        "专业认同感评价指南"
+      ],
+      "source_volume": 1,
+      "versions": [
+        {
+          "id": "A",
+          "file": "questionnaires/professional-identity--A.json",
+          "questionnaire_id": "professional-identity--A",
+          "review_status": "needs_confirmation",
+          "eligible_for_generation": false
+        },
+        {
+          "id": "B",
+          "file": "questionnaires/professional-identity--B.json",
+          "questionnaire_id": "professional-identity--B",
+          "review_status": "needs_confirmation",
+          "eligible_for_generation": false
+        }
+      ]
+    },
+    {
+      "id": "patriotism",
+      "name": "爱国主义态度",
+      "aliases": [
+        "爱国主义态度评价指南"
+      ],
+      "source_volume": 1,
+      "versions": [
+        {
+          "id": "original",
+          "file": "questionnaires/patriotism--original.json",
+          "questionnaire_id": "patriotism--original",
+          "review_status": "needs_confirmation",
+          "eligible_for_generation": false
+        }
+      ]
+    },
+    {
+      "id": "core-literacy",
+      "name": "学生核心素养",
+      "aliases": [
+        "学生核心素养评价指南"
+      ],
+      "source_volume": 1,
+      "versions": [
+        {
+          "id": "original",
+          "file": "questionnaires/core-literacy--original.json",
+          "questionnaire_id": "core-literacy--original",
+          "review_status": "verified",
+          "eligible_for_generation": true
+        }
+      ]
+    },
+    {
+      "id": "scientific-spirit",
+      "name": "科学精神",
+      "aliases": [
+        "科学精神评价指南"
+      ],
+      "source_volume": 1,
+      "versions": [
+        {
+          "id": "A",
+          "file": "questionnaires/scientific-spirit--A.json",
+          "questionnaire_id": "scientific-spirit--A",
+          "review_status": "needs_confirmation",
+          "eligible_for_generation": false
+        },
+        {
+          "id": "B",
+          "file": "questionnaires/scientific-spirit--B.json",
+          "questionnaire_id": "scientific-spirit--B",
+          "review_status": "needs_confirmation",
+          "eligible_for_generation": false
+        }
+      ]
+    },
+    {
+      "id": "creativity",
+      "name": "创造力",
+      "aliases": [
+        "创造力评价指南",
+        "大学生创造力问卷"
+      ],
+      "source_volume": 2,
+      "versions": [
+        {
+          "id": "original",
+          "file": "questionnaires/creativity--original.json",
+          "questionnaire_id": "creativity--original",
+          "review_status": "verified",
+          "eligible_for_generation": true
+        }
+      ]
+    },
+    {
+      "id": "learning-style-engagement",
+      "name": "学习风格和学习投入度",
+      "aliases": [
+        "学习风格和学习投入度评价指南",
+        "大学生学习风格和学习投入度问卷"
+      ],
+      "source_volume": 2,
+      "versions": [
+        {
+          "id": "original",
+          "file": "questionnaires/learning-style-engagement--original.json",
+          "questionnaire_id": "learning-style-engagement--original",
+          "review_status": "verified",
+          "eligible_for_generation": true
+        }
+      ]
+    },
+    {
+      "id": "cooperation-social",
+      "name": "合作和社交能力",
+      "aliases": [
+        "合作和社交能力评价指南",
+        "大学生合作力水平与社交能力调查问卷"
+      ],
+      "source_volume": 2,
+      "versions": [
+        {
+          "id": "original",
+          "file": "questionnaires/cooperation-social--original.json",
+          "questionnaire_id": "cooperation-social--original",
+          "review_status": "verified",
+          "eligible_for_generation": true
+        }
+      ]
+    },
+    {
+      "id": "thinking-problem-solving",
+      "name": "思考方式和问题解决能力",
+      "aliases": [
+        "思考方式和问题解决能力评价指南",
+        "大学生思考力问卷"
+      ],
+      "source_volume": 2,
+      "versions": [
+        {
+          "id": "original",
+          "file": "questionnaires/thinking-problem-solving--original.json",
+          "questionnaire_id": "thinking-problem-solving--original",
+          "review_status": "verified",
+          "eligible_for_generation": true
+        }
+      ]
+    },
+    {
+      "id": "cultural-identity",
+      "name": "文化认同",
+      "aliases": [
+        "文化认同评价指南",
+        "大学生文化认同调查问卷"
+      ],
+      "source_volume": 2,
+      "versions": [
+        {
+          "id": "original",
+          "file": "questionnaires/cultural-identity--original.json",
+          "questionnaire_id": "cultural-identity--original",
+          "review_status": "verified",
+          "eligible_for_generation": true
+        }
+      ]
+    },
+    {
+      "id": "engineering-ethics",
+      "name": "工程伦理",
+      "aliases": [
+        "工程伦理评价指南",
+        "大学生工程伦理问卷"
+      ],
+      "source_volume": 2,
+      "versions": [
+        {
+          "id": "original",
+          "file": "questionnaires/engineering-ethics--original.json",
+          "questionnaire_id": "engineering-ethics--original",
+          "review_status": "needs_confirmation",
+          "eligible_for_generation": false
+        }
+      ]
+    }
+  ]
+}

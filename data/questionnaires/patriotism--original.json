@@ -1,0 +1,2092 @@
+{
+  "schema_version": 1,
+  "id": "patriotism--original",
+  "project_id": "patriotism",
+  "version_id": "original",
+  "project_name": "爱国主义态度",
+  "original_name": null,
+  "original_name_reason": "原文没有为本问卷另列独立总标题；只给卷名或问卷内容节名，借鉴量表名称不是本指南独立问卷名。",
+  "title": {
+    "raw_text": "（四）问卷具体内容及题项",
+    "student_text": "（四）问卷具体内容及题项",
+    "source": {
+      "pdf_pages": [
+        22
+      ],
+      "printed_pages": [
+        19
+      ]
+    }
+  },
+  "source": {
+    "filename": "武汉大学课程思政教学评价指南（第一辑）.pdf",
+    "volume": 1,
+    "chapter": "四、爱国主义态度评价指南",
+    "pdf_pages": [
+      21,
+      22,
+      23
+    ],
+    "printed_pages": [
+      18,
+      19,
+      20
+    ],
+    "sha256": "218ce8325ef713959646c279effd9d1a113f6064656926bdf21ac3903dd33850"
+  },
+  "instructions": [
+    {
+      "id": "patriotism--original.instruction001",
+      "role": "response",
+      "raw_text": "请根据你自己的情况对下面问题的选项进行打分。其中“完全不同意-1”“比较不同意-2”“无所谓-3”“比较同意-4”“完全同意-5”",
+      "student_text": "请根据你自己的情况对下面问题的选项进行打分。其中“完全不同意-1”“比较不同意-2”“无所谓-3”“比较同意-4”“完全同意-5”",
+      "source": {
+        "pdf_pages": [
+          22
+        ],
+        "printed_pages": [
+          19
+        ]
+      }
+    },
+    {
+      "id": "patriotism--original.instruction002",
+      "role": "teacher",
+      "raw_text": "（五）评价使用说明 1.评价对象：全体上课学生。 2.评分规则：该问卷为李克特五分量表，评价者根据自身真实感受进行 5 级打分，1 代表非常不同意、2 代表比较不同意、3 代表中立、4 代表比较同意、5代表非常同意。每个维度的得分为各题项平均分。 3.说明：爱国主义情感的形成需要较长时间，因此短时间的跟踪评价数据意义不大。建议作为总括性了解。为了减少学生填答时的顾虑，本问卷不建议追踪个案数值。盲目爱国主义是价值型态度的一部分，因此本问卷中设置了“盲目爱国主义”的题项（4 项）。在积分时应单独拎出计分，在结果分析时也应特别注意其指向性和方向性。盲目爱国主义应该作为对学生爱国主义态度评估的一个方面加以考虑，但建议不计入量化分数中。",
+      "student_text": null,
+      "source": {
+        "pdf_pages": [
+          23
+        ],
+        "printed_pages": [
+          20
+        ]
+      }
+    },
+    {
+      "id": "patriotism--original.teacher-context-21",
+      "role": "teacher",
+      "raw_text": "四、爱国主义态度评价指南（一）概念定义爱国是指人们对自己所属国家的热爱之情。政治心理学基于情感性层面讨论爱国主义，强调对国家的自豪感、归属感和荣誉感。如康诺弗和费尔德曼认为，爱国主义是一种对国家深深的情感性归属感 [20]。科斯特曼和费什巴赫认为，它是爱所属国家和以国家为傲的程度 [21]。巴塔尔社会心理学将其视为“群体成员对他们的群体和他们居住的国家的归属感”[22]。政治哲学不仅关注情感层面，还关注行为层面。如纳桑森将其定义为：对自己国家的特殊感情；对国家的个人认同感；对国家福祉的特别关注；愿意为了促进国家利益做出牺牲[23]。（二）维度划分邹建平等结合爱国主义在政治心理学和政治哲学中的定义特点，认为爱国主义在本质上是个体对国家的一种正向、积极的态度。基于态度构成理论，建构了含价值性态度、情感性态度与行动性态度的三维度爱国主义概念框架（见图4）[24]。图4 爱国主义态度测评维度 [20] Conover, Feldman, Memo to NES Board of overseers Regarding \"Measuring Patriotism and Nationalism\",1987, http://www.icpsr.umich.edu [21] Kosterman, Feshbach, Toward a Measure of Patriotic andNationalistic Attitudes, Political Psychology, 1989, 10. 2, pp.257-274. [22] Bar- Tal, Patriotism as Fundamental Beliefs of GroupMembers, Politics and the Individual, 1993, 3.2, pp. 45-62. [23] Nathanson, Patriotism, Morality, and Peace, Rowman&Littlefield, 1993, pp. 34-35. [24] 邹建平,肖唐镖.情感、价值与行为：爱国主义态度的三重面向与量表开发[J].南京社会科学,2022(04):61-75.DOI:10.15937/j.cnki.issn1001-8263.2022.04.008.",
+      "student_text": null,
+      "source": {
+        "pdf_pages": [
+          21
+        ],
+        "printed_pages": [
+          18
+        ]
+      }
+    },
+    {
+      "id": "patriotism--original.teacher-footnote-22",
+      "role": "teacher",
+      "raw_text": "[25] 邹建平,肖唐镖.情感、价值与行为：爱国主义态度的三重面向与量表开发[J].南京社会科学,2022(04):61-75.DOI:10.15937/j.cnki.issn1001-8263.2022.04.008.",
+      "student_text": null,
+      "source": {
+        "pdf_pages": [
+          22
+        ],
+        "printed_pages": [
+          19
+        ]
+      }
+    },
+    {
+      "id": "patriotism--original.teacher-context-22",
+      "role": "teacher",
+      "raw_text": "（三）各维度态度具体解释表4 爱国主义态度测评维度解释维度解释情感性态度主要聚焦于国家自豪感和象征性爱国主义。具体分为：对国民身份的情感对国家成就的情感对国家象征的情感价值性态度主要聚焦于盲目性爱国主义和建设性爱国主义。具体分为：批判性条件性行动性态度主要聚焦于为国奉献的意愿",
+      "student_text": null,
+      "source": {
+        "pdf_pages": [
+          22
+        ],
+        "printed_pages": [
+          19
+        ]
+      }
+    }
+  ],
+  "basic_information": [],
+  "items": [
+    {
+      "id": "patriotism--original.q001",
+      "order": 1,
+      "original_number": null,
+      "role": "measurement",
+      "measurement_class": "scale",
+      "kind": "rating",
+      "raw_text": "作为我们国家的公民，您觉得光荣吗？",
+      "student_text": "作为我们国家的公民，您觉得光荣吗？",
+      "source": {
+        "pdf_pages": [
+          22
+        ],
+        "printed_pages": [
+          19
+        ]
+      },
+      "group_id": "patriotism--original.group001",
+      "subdimension": null,
+      "subdimension_reason": "原表仅明示本组；该组以下逐题细分维度未提供，不推断。",
+      "teacher_annotations": [],
+      "reverse": {
+        "marked": null,
+        "raw_marker": null,
+        "source": null,
+        "reason": "未见原文明示反向标记；否定句或概念标记不能据此推导反向。"
+      },
+      "response": {
+        "options": [
+          {
+            "id": "patriotism--original.q001.option1",
+            "label": "完全不同意",
+            "value": 1,
+            "source": {
+              "pdf_pages": [
+                22
+              ],
+              "printed_pages": [
+                19
+              ]
+            }
+          },
+          {
+            "id": "patriotism--original.q001.option2",
+            "label": "比较不同意",
+            "value": 2,
+            "source": {
+              "pdf_pages": [
+                22
+              ],
+              "printed_pages": [
+                19
+              ]
+            }
+          },
+          {
+            "id": "patriotism--original.q001.option3",
+            "label": "无所谓",
+            "value": 3,
+            "source": {
+              "pdf_pages": [
+                22
+              ],
+              "printed_pages": [
+                19
+              ]
+            }
+          },
+          {
+            "id": "patriotism--original.q001.option4",
+            "label": "比较同意",
+            "value": 4,
+            "source": {
+              "pdf_pages": [
+                22
+              ],
+              "printed_pages": [
+                19
+              ]
+            }
+          },
+          {
+            "id": "patriotism--original.q001.option5",
+            "label": "完全同意",
+            "value": 5,
+            "source": {
+              "pdf_pages": [
+                22
+              ],
+              "printed_pages": [
+                19
+              ]
+            }
+          }
+        ],
+        "minimum": 1,
+        "maximum": 5,
+        "cardinality": "single",
+        "slots": null,
+        "raw_instruction": "请根据你自己的情况对下面问题的选项进行打分。其中“完全不同意-1”“比较不同意-2”“无所谓-3”“比较同意-4”“完全同意-5”",
+        "unknowns": [
+          {
+            "field": "required",
+            "reason": "原文未给必填要求，不补充约束。"
+          }
+        ],
+        "ranking": null
+      }
+    },
+    {
+      "id": "patriotism--original.q002",
+      "order": 2,
+      "original_number": null,
+      "role": "measurement",
+      "measurement_class": "scale",
+      "kind": "rating",
+      "raw_text": "您对我国的下列方面是否感到自豪：科学技术成就",
+      "student_text": "您对我国的下列方面是否感到自豪：科学技术成就",
+      "source": {
+        "pdf_pages": [
+          22
+        ],
+        "printed_pages": [
+          19
+        ]
+      },
+      "group_id": "patriotism--original.group001",
+      "subdimension": null,
+      "subdimension_reason": "原表仅明示本组；该组以下逐题细分维度未提供，不推断。",
+      "teacher_annotations": [],
+      "reverse": {
+        "marked": null,
+        "raw_marker": null,
+        "source": null,
+        "reason": "未见原文明示反向标记；否定句或概念标记不能据此推导反向。"
+      },
+      "response": {
+        "options": [
+          {
+            "id": "patriotism--original.q002.option1",
+            "label": "完全不同意",
+            "value": 1,
+            "source": {
+              "pdf_pages": [
+                22
+              ],
+              "printed_pages": [
+                19
+              ]
+            }
+          },
+          {
+            "id": "patriotism--original.q002.option2",
+            "label": "比较不同意",
+            "value": 2,
+            "source": {
+              "pdf_pages": [
+                22
+              ],
+              "printed_pages": [
+                19
+              ]
+            }
+          },
+          {
+            "id": "patriotism--original.q002.option3",
+            "label": "无所谓",
+            "value": 3,
+            "source": {
+              "pdf_pages": [
+                22
+              ],
+              "printed_pages": [
+                19
+              ]
+            }
+          },
+          {
+            "id": "patriotism--original.q002.option4",
+            "label": "比较同意",
+            "value": 4,
+            "source": {
+              "pdf_pages": [
+                22
+              ],
+              "printed_pages": [
+                19
+              ]
+            }
+          },
+          {
+            "id": "patriotism--original.q002.option5",
+            "label": "完全同意",
+            "value": 5,
+            "source": {
+              "pdf_pages": [
+                22
+              ],
+              "printed_pages": [
+                19
+              ]
+            }
+          }
+        ],
+        "minimum": 1,
+        "maximum": 5,
+        "cardinality": "single",
+        "slots": null,
+        "raw_instruction": "请根据你自己的情况对下面问题的选项进行打分。其中“完全不同意-1”“比较不同意-2”“无所谓-3”“比较同意-4”“完全同意-5”",
+        "unknowns": [
+          {
+            "field": "required",
+            "reason": "原文未给必填要求，不补充约束。"
+          }
+        ],
+        "ranking": null
+      }
+    },
+    {
+      "id": "patriotism--original.q003",
+      "order": 3,
+      "original_number": null,
+      "role": "measurement",
+      "measurement_class": "scale",
+      "kind": "rating",
+      "raw_text": "您对我国的下列方面是否感到自豪：悠久的历史",
+      "student_text": "您对我国的下列方面是否感到自豪：悠久的历史",
+      "source": {
+        "pdf_pages": [
+          22
+        ],
+        "printed_pages": [
+          19
+        ]
+      },
+      "group_id": "patriotism--original.group001",
+      "subdimension": null,
+      "subdimension_reason": "原表仅明示本组；该组以下逐题细分维度未提供，不推断。",
+      "teacher_annotations": [],
+      "reverse": {
+        "marked": null,
+        "raw_marker": null,
+        "source": null,
+        "reason": "未见原文明示反向标记；否定句或概念标记不能据此推导反向。"
+      },
+      "response": {
+        "options": [
+          {
+            "id": "patriotism--original.q003.option1",
+            "label": "完全不同意",
+            "value": 1,
+            "source": {
+              "pdf_pages": [
+                22
+              ],
+              "printed_pages": [
+                19
+              ]
+            }
+          },
+          {
+            "id": "patriotism--original.q003.option2",
+            "label": "比较不同意",
+            "value": 2,
+            "source": {
+              "pdf_pages": [
+                22
+              ],
+              "printed_pages": [
+                19
+              ]
+            }
+          },
+          {
+            "id": "patriotism--original.q003.option3",
+            "label": "无所谓",
+            "value": 3,
+            "source": {
+              "pdf_pages": [
+                22
+              ],
+              "printed_pages": [
+                19
+              ]
+            }
+          },
+          {
+            "id": "patriotism--original.q003.option4",
+            "label": "比较同意",
+            "value": 4,
+            "source": {
+              "pdf_pages": [
+                22
+              ],
+              "printed_pages": [
+                19
+              ]
+            }
+          },
+          {
+            "id": "patriotism--original.q003.option5",
+            "label": "完全同意",
+            "value": 5,
+            "source": {
+              "pdf_pages": [
+                22
+              ],
+              "printed_pages": [
+                19
+              ]
+            }
+          }
+        ],
+        "minimum": 1,
+        "maximum": 5,
+        "cardinality": "single",
+        "slots": null,
+        "raw_instruction": "请根据你自己的情况对下面问题的选项进行打分。其中“完全不同意-1”“比较不同意-2”“无所谓-3”“比较同意-4”“完全同意-5”",
+        "unknowns": [
+          {
+            "field": "required",
+            "reason": "原文未给必填要求，不补充约束。"
+          }
+        ],
+        "ranking": null
+      }
+    },
+    {
+      "id": "patriotism--original.q004",
+      "order": 4,
+      "original_number": null,
+      "role": "measurement",
+      "measurement_class": "scale",
+      "kind": "rating",
+      "raw_text": "您对我国的下列方面是否感到自豪：社会公平与平等",
+      "student_text": "您对我国的下列方面是否感到自豪：社会公平与平等",
+      "source": {
+        "pdf_pages": [
+          22
+        ],
+        "printed_pages": [
+          19
+        ]
+      },
+      "group_id": "patriotism--original.group001",
+      "subdimension": null,
+      "subdimension_reason": "原表仅明示本组；该组以下逐题细分维度未提供，不推断。",
+      "teacher_annotations": [],
+      "reverse": {
+        "marked": null,
+        "raw_marker": null,
+        "source": null,
+        "reason": "未见原文明示反向标记；否定句或概念标记不能据此推导反向。"
+      },
+      "response": {
+        "options": [
+          {
+            "id": "patriotism--original.q004.option1",
+            "label": "完全不同意",
+            "value": 1,
+            "source": {
+              "pdf_pages": [
+                22
+              ],
+              "printed_pages": [
+                19
+              ]
+            }
+          },
+          {
+            "id": "patriotism--original.q004.option2",
+            "label": "比较不同意",
+            "value": 2,
+            "source": {
+              "pdf_pages": [
+                22
+              ],
+              "printed_pages": [
+                19
+              ]
+            }
+          },
+          {
+            "id": "patriotism--original.q004.option3",
+            "label": "无所谓",
+            "value": 3,
+            "source": {
+              "pdf_pages": [
+                22
+              ],
+              "printed_pages": [
+                19
+              ]
+            }
+          },
+          {
+            "id": "patriotism--original.q004.option4",
+            "label": "比较同意",
+            "value": 4,
+            "source": {
+              "pdf_pages": [
+                22
+              ],
+              "printed_pages": [
+                19
+              ]
+            }
+          },
+          {
+            "id": "patriotism--original.q004.option5",
+            "label": "完全同意",
+            "value": 5,
+            "source": {
+              "pdf_pages": [
+                22
+              ],
+              "printed_pages": [
+                19
+              ]
+            }
+          }
+        ],
+        "minimum": 1,
+        "maximum": 5,
+        "cardinality": "single",
+        "slots": null,
+        "raw_instruction": "请根据你自己的情况对下面问题的选项进行打分。其中“完全不同意-1”“比较不同意-2”“无所谓-3”“比较同意-4”“完全同意-5”",
+        "unknowns": [
+          {
+            "field": "required",
+            "reason": "原文未给必填要求，不补充约束。"
+          }
+        ],
+        "ranking": null
+      }
+    },
+    {
+      "id": "patriotism--original.q005",
+      "order": 5,
+      "original_number": null,
+      "role": "measurement",
+      "measurement_class": "scale",
+      "kind": "rating",
+      "raw_text": "您对我国的下列方面是否感到自豪：社会保障制度",
+      "student_text": "您对我国的下列方面是否感到自豪：社会保障制度",
+      "source": {
+        "pdf_pages": [
+          22
+        ],
+        "printed_pages": [
+          19
+        ]
+      },
+      "group_id": "patriotism--original.group001",
+      "subdimension": null,
+      "subdimension_reason": "原表仅明示本组；该组以下逐题细分维度未提供，不推断。",
+      "teacher_annotations": [],
+      "reverse": {
+        "marked": null,
+        "raw_marker": null,
+        "source": null,
+        "reason": "未见原文明示反向标记；否定句或概念标记不能据此推导反向。"
+      },
+      "response": {
+        "options": [
+          {
+            "id": "patriotism--original.q005.option1",
+            "label": "完全不同意",
+            "value": 1,
+            "source": {
+              "pdf_pages": [
+                22
+              ],
+              "printed_pages": [
+                19
+              ]
+            }
+          },
+          {
+            "id": "patriotism--original.q005.option2",
+            "label": "比较不同意",
+            "value": 2,
+            "source": {
+              "pdf_pages": [
+                22
+              ],
+              "printed_pages": [
+                19
+              ]
+            }
+          },
+          {
+            "id": "patriotism--original.q005.option3",
+            "label": "无所谓",
+            "value": 3,
+            "source": {
+              "pdf_pages": [
+                22
+              ],
+              "printed_pages": [
+                19
+              ]
+            }
+          },
+          {
+            "id": "patriotism--original.q005.option4",
+            "label": "比较同意",
+            "value": 4,
+            "source": {
+              "pdf_pages": [
+                22
+              ],
+              "printed_pages": [
+                19
+              ]
+            }
+          },
+          {
+            "id": "patriotism--original.q005.option5",
+            "label": "完全同意",
+            "value": 5,
+            "source": {
+              "pdf_pages": [
+                22
+              ],
+              "printed_pages": [
+                19
+              ]
+            }
+          }
+        ],
+        "minimum": 1,
+        "maximum": 5,
+        "cardinality": "single",
+        "slots": null,
+        "raw_instruction": "请根据你自己的情况对下面问题的选项进行打分。其中“完全不同意-1”“比较不同意-2”“无所谓-3”“比较同意-4”“完全同意-5”",
+        "unknowns": [
+          {
+            "field": "required",
+            "reason": "原文未给必填要求，不补充约束。"
+          }
+        ],
+        "ranking": null
+      }
+    },
+    {
+      "id": "patriotism--original.q006",
+      "order": 6,
+      "original_number": null,
+      "role": "measurement",
+      "measurement_class": "scale",
+      "kind": "rating",
+      "raw_text": "您对我国的下列方面是否感到自豪：辽阔国土和大好河山",
+      "student_text": "您对我国的下列方面是否感到自豪：辽阔国土和大好河山",
+      "source": {
+        "pdf_pages": [
+          22
+        ],
+        "printed_pages": [
+          19
+        ]
+      },
+      "group_id": "patriotism--original.group001",
+      "subdimension": null,
+      "subdimension_reason": "原表仅明示本组；该组以下逐题细分维度未提供，不推断。",
+      "teacher_annotations": [],
+      "reverse": {
+        "marked": null,
+        "raw_marker": null,
+        "source": null,
+        "reason": "未见原文明示反向标记；否定句或概念标记不能据此推导反向。"
+      },
+      "response": {
+        "options": [
+          {
+            "id": "patriotism--original.q006.option1",
+            "label": "完全不同意",
+            "value": 1,
+            "source": {
+              "pdf_pages": [
+                22
+              ],
+              "printed_pages": [
+                19
+              ]
+            }
+          },
+          {
+            "id": "patriotism--original.q006.option2",
+            "label": "比较不同意",
+            "value": 2,
+            "source": {
+              "pdf_pages": [
+                22
+              ],
+              "printed_pages": [
+                19
+              ]
+            }
+          },
+          {
+            "id": "patriotism--original.q006.option3",
+            "label": "无所谓",
+            "value": 3,
+            "source": {
+              "pdf_pages": [
+                22
+              ],
+              "printed_pages": [
+                19
+              ]
+            }
+          },
+          {
+            "id": "patriotism--original.q006.option4",
+            "label": "比较同意",
+            "value": 4,
+            "source": {
+              "pdf_pages": [
+                22
+              ],
+              "printed_pages": [
+                19
+              ]
+            }
+          },
+          {
+            "id": "patriotism--original.q006.option5",
+            "label": "完全同意",
+            "value": 5,
+            "source": {
+              "pdf_pages": [
+                22
+              ],
+              "printed_pages": [
+                19
+              ]
+            }
+          }
+        ],
+        "minimum": 1,
+        "maximum": 5,
+        "cardinality": "single",
+        "slots": null,
+        "raw_instruction": "请根据你自己的情况对下面问题的选项进行打分。其中“完全不同意-1”“比较不同意-2”“无所谓-3”“比较同意-4”“完全同意-5”",
+        "unknowns": [
+          {
+            "field": "required",
+            "reason": "原文未给必填要求，不补充约束。"
+          }
+        ],
+        "ranking": null
+      }
+    },
+    {
+      "id": "patriotism--original.q007",
+      "order": 7,
+      "original_number": null,
+      "role": "measurement",
+      "measurement_class": "scale",
+      "kind": "rating",
+      "raw_text": "您对我国的下列方面是否感到自豪：政府的管理方式",
+      "student_text": "您对我国的下列方面是否感到自豪：政府的管理方式",
+      "source": {
+        "pdf_pages": [
+          22
+        ],
+        "printed_pages": [
+          19
+        ]
+      },
+      "group_id": "patriotism--original.group001",
+      "subdimension": null,
+      "subdimension_reason": "原表仅明示本组；该组以下逐题细分维度未提供，不推断。",
+      "teacher_annotations": [],
+      "reverse": {
+        "marked": null,
+        "raw_marker": null,
+        "source": null,
+        "reason": "未见原文明示反向标记；否定句或概念标记不能据此推导反向。"
+      },
+      "response": {
+        "options": [
+          {
+            "id": "patriotism--original.q007.option1",
+            "label": "完全不同意",
+            "value": 1,
+            "source": {
+              "pdf_pages": [
+                22
+              ],
+              "printed_pages": [
+                19
+              ]
+            }
+          },
+          {
+            "id": "patriotism--original.q007.option2",
+            "label": "比较不同意",
+            "value": 2,
+            "source": {
+              "pdf_pages": [
+                22
+              ],
+              "printed_pages": [
+                19
+              ]
+            }
+          },
+          {
+            "id": "patriotism--original.q007.option3",
+            "label": "无所谓",
+            "value": 3,
+            "source": {
+              "pdf_pages": [
+                22
+              ],
+              "printed_pages": [
+                19
+              ]
+            }
+          },
+          {
+            "id": "patriotism--original.q007.option4",
+            "label": "比较同意",
+            "value": 4,
+            "source": {
+              "pdf_pages": [
+                22
+              ],
+              "printed_pages": [
+                19
+              ]
+            }
+          },
+          {
+            "id": "patriotism--original.q007.option5",
+            "label": "完全同意",
+            "value": 5,
+            "source": {
+              "pdf_pages": [
+                22
+              ],
+              "printed_pages": [
+                19
+              ]
+            }
+          }
+        ],
+        "minimum": 1,
+        "maximum": 5,
+        "cardinality": "single",
+        "slots": null,
+        "raw_instruction": "请根据你自己的情况对下面问题的选项进行打分。其中“完全不同意-1”“比较不同意-2”“无所谓-3”“比较同意-4”“完全同意-5”",
+        "unknowns": [
+          {
+            "field": "required",
+            "reason": "原文未给必填要求，不补充约束。"
+          }
+        ],
+        "ranking": null
+      }
+    },
+    {
+      "id": "patriotism--original.q008",
+      "order": 8,
+      "original_number": null,
+      "role": "measurement",
+      "measurement_class": "scale",
+      "kind": "rating",
+      "raw_text": "当看到国旗升起的时候，我会很激动",
+      "student_text": "当看到国旗升起的时候，我会很激动",
+      "source": {
+        "pdf_pages": [
+          22
+        ],
+        "printed_pages": [
+          19
+        ]
+      },
+      "group_id": "patriotism--original.group002",
+      "subdimension": null,
+      "subdimension_reason": "原表仅明示本组；该组以下逐题细分维度未提供，不推断。",
+      "teacher_annotations": [],
+      "reverse": {
+        "marked": null,
+        "raw_marker": null,
+        "source": null,
+        "reason": "未见原文明示反向标记；否定句或概念标记不能据此推导反向。"
+      },
+      "response": {
+        "options": [
+          {
+            "id": "patriotism--original.q008.option1",
+            "label": "完全不同意",
+            "value": 1,
+            "source": {
+              "pdf_pages": [
+                22
+              ],
+              "printed_pages": [
+                19
+              ]
+            }
+          },
+          {
+            "id": "patriotism--original.q008.option2",
+            "label": "比较不同意",
+            "value": 2,
+            "source": {
+              "pdf_pages": [
+                22
+              ],
+              "printed_pages": [
+                19
+              ]
+            }
+          },
+          {
+            "id": "patriotism--original.q008.option3",
+            "label": "无所谓",
+            "value": 3,
+            "source": {
+              "pdf_pages": [
+                22
+              ],
+              "printed_pages": [
+                19
+              ]
+            }
+          },
+          {
+            "id": "patriotism--original.q008.option4",
+            "label": "比较同意",
+            "value": 4,
+            "source": {
+              "pdf_pages": [
+                22
+              ],
+              "printed_pages": [
+                19
+              ]
+            }
+          },
+          {
+            "id": "patriotism--original.q008.option5",
+            "label": "完全同意",
+            "value": 5,
+            "source": {
+              "pdf_pages": [
+                22
+              ],
+              "printed_pages": [
+                19
+              ]
+            }
+          }
+        ],
+        "minimum": 1,
+        "maximum": 5,
+        "cardinality": "single",
+        "slots": null,
+        "raw_instruction": "请根据你自己的情况对下面问题的选项进行打分。其中“完全不同意-1”“比较不同意-2”“无所谓-3”“比较同意-4”“完全同意-5”",
+        "unknowns": [
+          {
+            "field": "required",
+            "reason": "原文未给必填要求，不补充约束。"
+          }
+        ],
+        "ranking": null
+      }
+    },
+    {
+      "id": "patriotism--original.q009",
+      "order": 9,
+      "original_number": null,
+      "role": "measurement",
+      "measurement_class": "scale",
+      "kind": "rating",
+      "raw_text": "当听到国歌响起的时候，我会很激动",
+      "student_text": "当听到国歌响起的时候，我会很激动",
+      "source": {
+        "pdf_pages": [
+          22
+        ],
+        "printed_pages": [
+          19
+        ]
+      },
+      "group_id": "patriotism--original.group002",
+      "subdimension": null,
+      "subdimension_reason": "原表仅明示本组；该组以下逐题细分维度未提供，不推断。",
+      "teacher_annotations": [],
+      "reverse": {
+        "marked": null,
+        "raw_marker": null,
+        "source": null,
+        "reason": "未见原文明示反向标记；否定句或概念标记不能据此推导反向。"
+      },
+      "response": {
+        "options": [
+          {
+            "id": "patriotism--original.q009.option1",
+            "label": "完全不同意",
+            "value": 1,
+            "source": {
+              "pdf_pages": [
+                22
+              ],
+              "printed_pages": [
+                19
+              ]
+            }
+          },
+          {
+            "id": "patriotism--original.q009.option2",
+            "label": "比较不同意",
+            "value": 2,
+            "source": {
+              "pdf_pages": [
+                22
+              ],
+              "printed_pages": [
+                19
+              ]
+            }
+          },
+          {
+            "id": "patriotism--original.q009.option3",
+            "label": "无所谓",
+            "value": 3,
+            "source": {
+              "pdf_pages": [
+                22
+              ],
+              "printed_pages": [
+                19
+              ]
+            }
+          },
+          {
+            "id": "patriotism--original.q009.option4",
+            "label": "比较同意",
+            "value": 4,
+            "source": {
+              "pdf_pages": [
+                22
+              ],
+              "printed_pages": [
+                19
+              ]
+            }
+          },
+          {
+            "id": "patriotism--original.q009.option5",
+            "label": "完全同意",
+            "value": 5,
+            "source": {
+              "pdf_pages": [
+                22
+              ],
+              "printed_pages": [
+                19
+              ]
+            }
+          }
+        ],
+        "minimum": 1,
+        "maximum": 5,
+        "cardinality": "single",
+        "slots": null,
+        "raw_instruction": "请根据你自己的情况对下面问题的选项进行打分。其中“完全不同意-1”“比较不同意-2”“无所谓-3”“比较同意-4”“完全同意-5”",
+        "unknowns": [
+          {
+            "field": "required",
+            "reason": "原文未给必填要求，不补充约束。"
+          }
+        ],
+        "ranking": null
+      }
+    },
+    {
+      "id": "patriotism--original.q010",
+      "order": 10,
+      "original_number": null,
+      "role": "measurement",
+      "measurement_class": "scale",
+      "kind": "rating",
+      "raw_text": "批评中国的人，就不配做中国人（盲目爱国主义）",
+      "student_text": "批评中国的人，就不配做中国人",
+      "source": {
+        "pdf_pages": [
+          22
+        ],
+        "printed_pages": [
+          19
+        ]
+      },
+      "group_id": "patriotism--original.group002",
+      "subdimension": null,
+      "subdimension_reason": "原表仅明示本组；该组以下逐题细分维度未提供，不推断。",
+      "teacher_annotations": [
+        {
+          "text": "（盲目爱国主义）",
+          "kind": "concept",
+          "visibility": "undecided",
+          "source": {
+            "pdf_pages": [
+              22
+            ],
+            "printed_pages": [
+              19
+            ]
+          }
+        }
+      ],
+      "reverse": {
+        "marked": null,
+        "raw_marker": null,
+        "source": null,
+        "reason": "未见原文明示反向标记；否定句或概念标记不能据此推导反向。"
+      },
+      "response": {
+        "options": [
+          {
+            "id": "patriotism--original.q010.option1",
+            "label": "完全不同意",
+            "value": 1,
+            "source": {
+              "pdf_pages": [
+                22
+              ],
+              "printed_pages": [
+                19
+              ]
+            }
+          },
+          {
+            "id": "patriotism--original.q010.option2",
+            "label": "比较不同意",
+            "value": 2,
+            "source": {
+              "pdf_pages": [
+                22
+              ],
+              "printed_pages": [
+                19
+              ]
+            }
+          },
+          {
+            "id": "patriotism--original.q010.option3",
+            "label": "无所谓",
+            "value": 3,
+            "source": {
+              "pdf_pages": [
+                22
+              ],
+              "printed_pages": [
+                19
+              ]
+            }
+          },
+          {
+            "id": "patriotism--original.q010.option4",
+            "label": "比较同意",
+            "value": 4,
+            "source": {
+              "pdf_pages": [
+                22
+              ],
+              "printed_pages": [
+                19
+              ]
+            }
+          },
+          {
+            "id": "patriotism--original.q010.option5",
+            "label": "完全同意",
+            "value": 5,
+            "source": {
+              "pdf_pages": [
+                22
+              ],
+              "printed_pages": [
+                19
+              ]
+            }
+          }
+        ],
+        "minimum": 1,
+        "maximum": 5,
+        "cardinality": "single",
+        "slots": null,
+        "raw_instruction": "请根据你自己的情况对下面问题的选项进行打分。其中“完全不同意-1”“比较不同意-2”“无所谓-3”“比较同意-4”“完全同意-5”",
+        "unknowns": [
+          {
+            "field": "required",
+            "reason": "原文未给必填要求，不补充约束。"
+          }
+        ],
+        "ranking": null
+      }
+    },
+    {
+      "id": "patriotism--original.q011",
+      "order": 11,
+      "original_number": null,
+      "role": "measurement",
+      "measurement_class": "scale",
+      "kind": "rating",
+      "raw_text": "那些不支持中国的人，不配居住在中国（盲目爱国主义）",
+      "student_text": "那些不支持中国的人，不配居住在中国",
+      "source": {
+        "pdf_pages": [
+          22
+        ],
+        "printed_pages": [
+          19
+        ]
+      },
+      "group_id": "patriotism--original.group002",
+      "subdimension": null,
+      "subdimension_reason": "原表仅明示本组；该组以下逐题细分维度未提供，不推断。",
+      "teacher_annotations": [
+        {
+          "text": "（盲目爱国主义）",
+          "kind": "concept",
+          "visibility": "undecided",
+          "source": {
+            "pdf_pages": [
+              22
+            ],
+            "printed_pages": [
+              19
+            ]
+          }
+        }
+      ],
+      "reverse": {
+        "marked": null,
+        "raw_marker": null,
+        "source": null,
+        "reason": "未见原文明示反向标记；否定句或概念标记不能据此推导反向。"
+      },
+      "response": {
+        "options": [
+          {
+            "id": "patriotism--original.q011.option1",
+            "label": "完全不同意",
+            "value": 1,
+            "source": {
+              "pdf_pages": [
+                22
+              ],
+              "printed_pages": [
+                19
+              ]
+            }
+          },
+          {
+            "id": "patriotism--original.q011.option2",
+            "label": "比较不同意",
+            "value": 2,
+            "source": {
+              "pdf_pages": [
+                22
+              ],
+              "printed_pages": [
+                19
+              ]
+            }
+          },
+          {
+            "id": "patriotism--original.q011.option3",
+            "label": "无所谓",
+            "value": 3,
+            "source": {
+              "pdf_pages": [
+                22
+              ],
+              "printed_pages": [
+                19
+              ]
+            }
+          },
+          {
+            "id": "patriotism--original.q011.option4",
+            "label": "比较同意",
+            "value": 4,
+            "source": {
+              "pdf_pages": [
+                22
+              ],
+              "printed_pages": [
+                19
+              ]
+            }
+          },
+          {
+            "id": "patriotism--original.q011.option5",
+            "label": "完全同意",
+            "value": 5,
+            "source": {
+              "pdf_pages": [
+                22
+              ],
+              "printed_pages": [
+                19
+              ]
+            }
+          }
+        ],
+        "minimum": 1,
+        "maximum": 5,
+        "cardinality": "single",
+        "slots": null,
+        "raw_instruction": "请根据你自己的情况对下面问题的选项进行打分。其中“完全不同意-1”“比较不同意-2”“无所谓-3”“比较同意-4”“完全同意-5”",
+        "unknowns": [
+          {
+            "field": "required",
+            "reason": "原文未给必填要求，不补充约束。"
+          }
+        ],
+        "ranking": null
+      }
+    },
+    {
+      "id": "patriotism--original.q012",
+      "order": 12,
+      "original_number": null,
+      "role": "measurement",
+      "measurement_class": "scale",
+      "kind": "rating",
+      "raw_text": "作为中国公民，我们不应该批评国家（盲目爱国主义）",
+      "student_text": "作为中国公民，我们不应该批评国家",
+      "source": {
+        "pdf_pages": [
+          22
+        ],
+        "printed_pages": [
+          19
+        ]
+      },
+      "group_id": "patriotism--original.group002",
+      "subdimension": null,
+      "subdimension_reason": "原表仅明示本组；该组以下逐题细分维度未提供，不推断。",
+      "teacher_annotations": [
+        {
+          "text": "（盲目爱国主义）",
+          "kind": "concept",
+          "visibility": "undecided",
+          "source": {
+            "pdf_pages": [
+              22
+            ],
+            "printed_pages": [
+              19
+            ]
+          }
+        }
+      ],
+      "reverse": {
+        "marked": null,
+        "raw_marker": null,
+        "source": null,
+        "reason": "未见原文明示反向标记；否定句或概念标记不能据此推导反向。"
+      },
+      "response": {
+        "options": [
+          {
+            "id": "patriotism--original.q012.option1",
+            "label": "完全不同意",
+            "value": 1,
+            "source": {
+              "pdf_pages": [
+                22
+              ],
+              "printed_pages": [
+                19
+              ]
+            }
+          },
+          {
+            "id": "patriotism--original.q012.option2",
+            "label": "比较不同意",
+            "value": 2,
+            "source": {
+              "pdf_pages": [
+                22
+              ],
+              "printed_pages": [
+                19
+              ]
+            }
+          },
+          {
+            "id": "patriotism--original.q012.option3",
+            "label": "无所谓",
+            "value": 3,
+            "source": {
+              "pdf_pages": [
+                22
+              ],
+              "printed_pages": [
+                19
+              ]
+            }
+          },
+          {
+            "id": "patriotism--original.q012.option4",
+            "label": "比较同意",
+            "value": 4,
+            "source": {
+              "pdf_pages": [
+                22
+              ],
+              "printed_pages": [
+                19
+              ]
+            }
+          },
+          {
+            "id": "patriotism--original.q012.option5",
+            "label": "完全同意",
+            "value": 5,
+            "source": {
+              "pdf_pages": [
+                22
+              ],
+              "printed_pages": [
+                19
+              ]
+            }
+          }
+        ],
+        "minimum": 1,
+        "maximum": 5,
+        "cardinality": "single",
+        "slots": null,
+        "raw_instruction": "请根据你自己的情况对下面问题的选项进行打分。其中“完全不同意-1”“比较不同意-2”“无所谓-3”“比较同意-4”“完全同意-5”",
+        "unknowns": [
+          {
+            "field": "required",
+            "reason": "原文未给必填要求，不补充约束。"
+          }
+        ],
+        "ranking": null
+      }
+    },
+    {
+      "id": "patriotism--original.q013",
+      "order": 13,
+      "original_number": null,
+      "role": "measurement",
+      "measurement_class": "scale",
+      "kind": "rating",
+      "raw_text": "如果一个人经常批评他的国家，那就说明他不爱国（盲目爱国主义）",
+      "student_text": "如果一个人经常批评他的国家，那就说明他不爱国",
+      "source": {
+        "pdf_pages": [
+          22
+        ],
+        "printed_pages": [
+          19
+        ]
+      },
+      "group_id": "patriotism--original.group002",
+      "subdimension": null,
+      "subdimension_reason": "原表仅明示本组；该组以下逐题细分维度未提供，不推断。",
+      "teacher_annotations": [
+        {
+          "text": "（盲目爱国主义）",
+          "kind": "concept",
+          "visibility": "undecided",
+          "source": {
+            "pdf_pages": [
+              22
+            ],
+            "printed_pages": [
+              19
+            ]
+          }
+        }
+      ],
+      "reverse": {
+        "marked": null,
+        "raw_marker": null,
+        "source": null,
+        "reason": "未见原文明示反向标记；否定句或概念标记不能据此推导反向。"
+      },
+      "response": {
+        "options": [
+          {
+            "id": "patriotism--original.q013.option1",
+            "label": "完全不同意",
+            "value": 1,
+            "source": {
+              "pdf_pages": [
+                22
+              ],
+              "printed_pages": [
+                19
+              ]
+            }
+          },
+          {
+            "id": "patriotism--original.q013.option2",
+            "label": "比较不同意",
+            "value": 2,
+            "source": {
+              "pdf_pages": [
+                22
+              ],
+              "printed_pages": [
+                19
+              ]
+            }
+          },
+          {
+            "id": "patriotism--original.q013.option3",
+            "label": "无所谓",
+            "value": 3,
+            "source": {
+              "pdf_pages": [
+                22
+              ],
+              "printed_pages": [
+                19
+              ]
+            }
+          },
+          {
+            "id": "patriotism--original.q013.option4",
+            "label": "比较同意",
+            "value": 4,
+            "source": {
+              "pdf_pages": [
+                22
+              ],
+              "printed_pages": [
+                19
+              ]
+            }
+          },
+          {
+            "id": "patriotism--original.q013.option5",
+            "label": "完全同意",
+            "value": 5,
+            "source": {
+              "pdf_pages": [
+                22
+              ],
+              "printed_pages": [
+                19
+              ]
+            }
+          }
+        ],
+        "minimum": 1,
+        "maximum": 5,
+        "cardinality": "single",
+        "slots": null,
+        "raw_instruction": "请根据你自己的情况对下面问题的选项进行打分。其中“完全不同意-1”“比较不同意-2”“无所谓-3”“比较同意-4”“完全同意-5”",
+        "unknowns": [
+          {
+            "field": "required",
+            "reason": "原文未给必填要求，不补充约束。"
+          }
+        ],
+        "ranking": null
+      }
+    },
+    {
+      "id": "patriotism--original.q014",
+      "order": 14,
+      "original_number": null,
+      "role": "measurement",
+      "measurement_class": "scale",
+      "kind": "rating",
+      "raw_text": "为了国家，我愿意牺牲自己的利益",
+      "student_text": "为了国家，我愿意牺牲自己的利益",
+      "source": {
+        "pdf_pages": [
+          23
+        ],
+        "printed_pages": [
+          20
+        ]
+      },
+      "group_id": "patriotism--original.group003",
+      "subdimension": null,
+      "subdimension_reason": "原表仅明示本组；该组以下逐题细分维度未提供，不推断。",
+      "teacher_annotations": [],
+      "reverse": {
+        "marked": null,
+        "raw_marker": null,
+        "source": null,
+        "reason": "未见原文明示反向标记；否定句或概念标记不能据此推导反向。"
+      },
+      "response": {
+        "options": [
+          {
+            "id": "patriotism--original.q014.option1",
+            "label": "完全不同意",
+            "value": 1,
+            "source": {
+              "pdf_pages": [
+                22,
+                23
+              ],
+              "printed_pages": [
+                19,
+                20
+              ]
+            }
+          },
+          {
+            "id": "patriotism--original.q014.option2",
+            "label": "比较不同意",
+            "value": 2,
+            "source": {
+              "pdf_pages": [
+                22,
+                23
+              ],
+              "printed_pages": [
+                19,
+                20
+              ]
+            }
+          },
+          {
+            "id": "patriotism--original.q014.option3",
+            "label": "无所谓",
+            "value": 3,
+            "source": {
+              "pdf_pages": [
+                22,
+                23
+              ],
+              "printed_pages": [
+                19,
+                20
+              ]
+            }
+          },
+          {
+            "id": "patriotism--original.q014.option4",
+            "label": "比较同意",
+            "value": 4,
+            "source": {
+              "pdf_pages": [
+                22,
+                23
+              ],
+              "printed_pages": [
+                19,
+                20
+              ]
+            }
+          },
+          {
+            "id": "patriotism--original.q014.option5",
+            "label": "完全同意",
+            "value": 5,
+            "source": {
+              "pdf_pages": [
+                22,
+                23
+              ],
+              "printed_pages": [
+                19,
+                20
+              ]
+            }
+          }
+        ],
+        "minimum": 1,
+        "maximum": 5,
+        "cardinality": "single",
+        "slots": null,
+        "raw_instruction": "请根据你自己的情况对下面问题的选项进行打分。其中“完全不同意-1”“比较不同意-2”“无所谓-3”“比较同意-4”“完全同意-5”",
+        "unknowns": [
+          {
+            "field": "required",
+            "reason": "原文未给必填要求，不补充约束。"
+          }
+        ],
+        "ranking": null
+      }
+    },
+    {
+      "id": "patriotism--original.q015",
+      "order": 15,
+      "original_number": null,
+      "role": "measurement",
+      "measurement_class": "scale",
+      "kind": "rating",
+      "raw_text": "为了国家，我愿意牺牲我的生命",
+      "student_text": "为了国家，我愿意牺牲我的生命",
+      "source": {
+        "pdf_pages": [
+          23
+        ],
+        "printed_pages": [
+          20
+        ]
+      },
+      "group_id": "patriotism--original.group003",
+      "subdimension": null,
+      "subdimension_reason": "原表仅明示本组；该组以下逐题细分维度未提供，不推断。",
+      "teacher_annotations": [],
+      "reverse": {
+        "marked": null,
+        "raw_marker": null,
+        "source": null,
+        "reason": "未见原文明示反向标记；否定句或概念标记不能据此推导反向。"
+      },
+      "response": {
+        "options": [
+          {
+            "id": "patriotism--original.q015.option1",
+            "label": "完全不同意",
+            "value": 1,
+            "source": {
+              "pdf_pages": [
+                22,
+                23
+              ],
+              "printed_pages": [
+                19,
+                20
+              ]
+            }
+          },
+          {
+            "id": "patriotism--original.q015.option2",
+            "label": "比较不同意",
+            "value": 2,
+            "source": {
+              "pdf_pages": [
+                22,
+                23
+              ],
+              "printed_pages": [
+                19,
+                20
+              ]
+            }
+          },
+          {
+            "id": "patriotism--original.q015.option3",
+            "label": "无所谓",
+            "value": 3,
+            "source": {
+              "pdf_pages": [
+                22,
+                23
+              ],
+              "printed_pages": [
+                19,
+                20
+              ]
+            }
+          },
+          {
+            "id": "patriotism--original.q015.option4",
+            "label": "比较同意",
+            "value": 4,
+            "source": {
+              "pdf_pages": [
+                22,
+                23
+              ],
+              "printed_pages": [
+                19,
+                20
+              ]
+            }
+          },
+          {
+            "id": "patriotism--original.q015.option5",
+            "label": "完全同意",
+            "value": 5,
+            "source": {
+              "pdf_pages": [
+                22,
+                23
+              ],
+              "printed_pages": [
+                19,
+                20
+              ]
+            }
+          }
+        ],
+        "minimum": 1,
+        "maximum": 5,
+        "cardinality": "single",
+        "slots": null,
+        "raw_instruction": "请根据你自己的情况对下面问题的选项进行打分。其中“完全不同意-1”“比较不同意-2”“无所谓-3”“比较同意-4”“完全同意-5”",
+        "unknowns": [
+          {
+            "field": "required",
+            "reason": "原文未给必填要求，不补充约束。"
+          }
+        ],
+        "ranking": null
+      }
+    }
+  ],
+  "groups": [
+    {
+      "id": "patriotism--original.group001",
+      "raw_name": "情感性态度",
+      "source": {
+        "pdf_pages": [
+          22
+        ],
+        "printed_pages": [
+          19
+        ]
+      },
+      "parent_id": null,
+      "note": "原题表明示分组；含跨页续表时由已核验连续行延续，不按题意分配。"
+    },
+    {
+      "id": "patriotism--original.group002",
+      "raw_name": "价值性态度",
+      "source": {
+        "pdf_pages": [
+          22
+        ],
+        "printed_pages": [
+          19
+        ]
+      },
+      "parent_id": null,
+      "note": "原题表明示分组；含跨页续表时由已核验连续行延续，不按题意分配。"
+    },
+    {
+      "id": "patriotism--original.group003",
+      "raw_name": "行为性态度",
+      "source": {
+        "pdf_pages": [
+          23
+        ],
+        "printed_pages": [
+          20
+        ]
+      },
+      "parent_id": null,
+      "note": "原题表明示分组；含跨页续表时由已核验连续行延续，不按题意分配。"
+    }
+  ],
+  "blocks": [
+    {
+      "id": "patriotism--original.block001",
+      "kind": "matrix",
+      "raw_title": null,
+      "item_ids": [
+        "patriotism--original.q001",
+        "patriotism--original.q002",
+        "patriotism--original.q003",
+        "patriotism--original.q004",
+        "patriotism--original.q005",
+        "patriotism--original.q006",
+        "patriotism--original.q007",
+        "patriotism--original.q008",
+        "patriotism--original.q009",
+        "patriotism--original.q010",
+        "patriotism--original.q011",
+        "patriotism--original.q012",
+        "patriotism--original.q013",
+        "patriotism--original.q014",
+        "patriotism--original.q015"
+      ],
+      "source": {
+        "pdf_pages": [
+          22,
+          23
+        ],
+        "printed_pages": [
+          19,
+          20
+        ]
+      },
+      "note": "原五级评分表，列顺序1、2、3、4、5；原表题行逐项引用并保留明示组别。跨页重现表头为续表，不新增测量题。"
+    }
+  ],
+  "scoring": {
+    "raw_rules": [
+      {
+        "raw_text": "2.评分规则：该问卷为李克特五分量表，评价者根据自身真实感受进行 5 级打分，1 代表非常不同意、2 代表比较不同意、3 代表中立、4 代表比较同意、5代表非常同意。每个维度的得分为各题项平均分。 ",
+        "source": {
+          "pdf_pages": [
+            23
+          ],
+          "printed_pages": [
+            20
+          ]
+        }
+      },
+      {
+        "raw_text": "盲目爱国主义是价值型态度的一部分，因此本问卷中设置了“盲目爱国主义”的题项（4 项）。在积分时应单独拎出计分，在结果分析时也应特别注意其指向性和方向性。盲目爱国主义应该作为对学生爱国主义态度评估的一个方面加以考虑，但建议不计入量化分数中。",
+        "source": {
+          "pdf_pages": [
+            23
+          ],
+          "printed_pages": [
+            20
+          ]
+        }
+      }
+    ],
+    "reverse_mapping": null,
+    "unknowns": [
+      {
+        "field": "missing_values",
+        "reason": "原文未明确缺失回答的计分处理。",
+        "source": {
+          "pdf_pages": [
+            23
+          ],
+          "printed_pages": [
+            20
+          ]
+        }
+      },
+      {
+        "field": "norms_and_thresholds",
+        "reason": "原文未明确常模、解释阈值或分类规则。",
+        "source": {
+          "pdf_pages": [
+            23
+          ],
+          "printed_pages": [
+            20
+          ]
+        }
+      },
+      {
+        "field": "blind_patriotism_scoring",
+        "reason": "原文要求四项单独计分又建议不计入量化分数，未明确合成/方向/反向映射。",
+        "source": {
+          "pdf_pages": [
+            23
+          ],
+          "printed_pages": [
+            20
+          ]
+        }
+      }
+    ]
+  },
+  "counts": {
+    "basic_information": 0,
+    "measurement_items": 15,
+    "scale_items": 15,
+    "preliminary_items": 0,
+    "background_items": 0,
+    "item_records": 15,
+    "original_question_blocks": 1,
+    "reason": "原问卷评分矩阵为一个原题块；每行独立计一个测量题项，理论解释表与教师说明不计题。"
+  },
+  "issues": [
+    {
+      "id": "patriotism--original.A-1",
+      "category": "blocking",
+      "blocking": true,
+      "source": {
+        "pdf_pages": [
+          22,
+          23
+        ],
+        "printed_pages": [
+          19,
+          20
+        ]
+      },
+      "original_text": "请根据你自己的情况对下面问题的选项进行打分。其中“完全不同意-1”“比较不同意-2”“无所谓-3”“比较同意-4”“完全同意-5”\n2.评分规则：该问卷为李克特五分量表，评价者根据自身真实感受进行 5 级打分，1 代表非常不同意、2 代表比较不同意、3 代表中立、4 代表比较同意、5代表非常同意。每个维度的得分为各题项平均分。",
+      "missing_information": "题面五级标签完全不同意/无所谓/完全同意，与评分说明非常不同意/中立/非常同意不一致；学生端采用哪个原文标签尚未确认。原文摘录依次为本卷题面作答说明和教师评分说明，来自本疑点标注的相应页。",
+      "possible_resolutions": [
+        "明确接受题面五级原标签，评分段异文只保留教师元数据。",
+        "取得编制方可核实的原版更正及展示政策。"
+      ],
+      "recommendation": "推荐忠实采用本卷题面五级标签，并明确记录政策依据；本轮仅保存两套原文，不视为问题已解决。",
+      "affected_item_ids": [
+        "patriotism--original.q001",
+        "patriotism--original.q002",
+        "patriotism--original.q003",
+        "patriotism--original.q004",
+        "patriotism--original.q005",
+        "patriotism--original.q006",
+        "patriotism--original.q007",
+        "patriotism--original.q008",
+        "patriotism--original.q009",
+        "patriotism--original.q010",
+        "patriotism--original.q011",
+        "patriotism--original.q012",
+        "patriotism--original.q013",
+        "patriotism--original.q014",
+        "patriotism--original.q015"
+      ],
+      "resolution": null
+    },
+    {
+      "id": "patriotism--original.A-6-marker",
+      "category": "blocking",
+      "blocking": true,
+      "source": {
+        "pdf_pages": [
+          22,
+          23
+        ],
+        "printed_pages": [
+          19,
+          20
+        ]
+      },
+      "original_text": "（盲目爱国主义）\n盲目爱国主义是价值型态度的一部分，因此本问卷中设置了“盲目爱国主义”的题项（4 项）。在积分时应单独拎出计分，在结果分析时也应特别注意其指向性和方向性。盲目爱国主义应该作为对学生爱国主义态度评估的一个方面加以考虑，但建议不计入量化分数中。",
+      "missing_information": "四项概念括注的学生展示政策未明示；不是反向标记，不能自动套用反向规则或删除题目。",
+      "possible_resolutions": [
+        "教师确认概念注释只显示给教师，并保留原题。",
+        "取得原版学生问卷确认该括注可见性。"
+      ],
+      "recommendation": "保留15题及raw_text；括注拆为概念metadata，visibility=undecided，候选clean题干尚不允许生成。",
+      "affected_item_ids": [
+        "patriotism--original.q010",
+        "patriotism--original.q011",
+        "patriotism--original.q012",
+        "patriotism--original.q013"
+      ],
+      "resolution": null
+    },
+    {
+      "id": "patriotism--original.A-6-group",
+      "category": "blocking",
+      "blocking": true,
+      "source": {
+        "pdf_pages": [
+          21,
+          22,
+          23
+        ],
+        "printed_pages": [
+          18,
+          19,
+          20
+        ]
+      },
+      "original_text": "情感性态度\n主要聚焦于国家自豪感和象征性爱国主义。具体分为：\n对国民身份的情感\n对国家成就的情感\n对国家象征的情感\n行动性态度\n主要聚焦于为国奉献的意愿\n价值性态度\n当看到国旗升起的时候，我会很激动\n当听到国歌响起的时候，我会很激动\n行为性态度",
+      "missing_information": "表4把“对国家象征的情感”列在“情感性态度”，同页问卷题表把国旗升起/国歌响起两题列在“价值性态度”；表4使用“行动性态度”，续页题表使用“行为性态度”。这些位置及归属判断是原表排列的审计说明。学生题组展示与理论说明冲突，需要明确接受以原题表为准的政策。",
+      "possible_resolutions": [
+        "明确接受原题表分组并将冲突作为教师说明。",
+        "取得编制方更正来源后建立独立修订记录。"
+      ],
+      "recommendation": "保留原题表7/6/2分组，不移组。",
+      "affected_item_ids": [
+        "patriotism--original.q008",
+        "patriotism--original.q009",
+        "patriotism--original.q014",
+        "patriotism--original.q015"
+      ],
+      "resolution": null
+    }
+  ],
+  "review": {
+    "status": "needs_confirmation",
+    "transcription_verified": true,
+    "checked_pdf_pages": [
+      21,
+      22,
+      23
+    ],
+    "method": "重新从哈希一致原PDF用pypdf与pdfplumber提取；逐卷实际查看原页PNG题表、连续表格分组、标题与完整使用说明，再核对全部原题行；未用旧全文直接充当正式数据。只合并版面换行与空白，不改字词。",
+    "reviewed_on": "2026-10-04",
+    "eligible_for_generation": false,
+    "note": "仅为数据层转录与输出阻断状态，不是导出、计分、WorkBuddy调用或问卷星导入验证；本阶段未开发生成器。"
+  }
+}

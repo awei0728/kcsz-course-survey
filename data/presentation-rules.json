@@ -1,0 +1,294 @@
+{
+  "schema_version": 1,
+  "id": "phase-2-user-approved-presentation",
+  "approved_on": "2026-10-04",
+  "authority": {
+    "kind": "explicit_user_instruction",
+    "reference": "用户本轮《阶段2：落实已确认的呈现和作答规则，开发问卷星文本导出功能》第二部分",
+    "scope": "派生呈现与作答规则；原始PDF、16份原始版本JSON及原审核记录保持不变。",
+    "original_version_count": 16,
+    "engineering_completion_adds_source_version": false
+  },
+  "coverage": {"projects": 12, "source_versions": 16},
+  "source_version_ids": [
+    "critical-thinking--A", "critical-thinking--B",
+    "learning-self-efficacy--A", "learning-self-efficacy--B",
+    "professional-identity--A", "professional-identity--B",
+    "patriotism--original", "core-literacy--original",
+    "scientific-spirit--A", "scientific-spirit--B",
+    "creativity--original", "learning-style-engagement--original",
+    "cooperation-social--original", "thinking-problem-solving--original",
+    "cultural-identity--original", "engineering-ethics--original"
+  ],
+  "rules": [
+    {
+      "id": "P2-1",
+      "origin": "user_approved_presentation",
+      "approved_text": "采用原问卷学生题面中的等级标签，不能用教师计分说明中的另一套措辞替换。原文、教师说明和来源页码继续保留。",
+      "scope": {"volumes": [1]},
+      "resolves_issue_suffixes": ["A-1"],
+      "settings": {"labels": "source_student_table", "option_order": "source_order", "core_literacy_student_labels": "numeric_only"}
+    },
+    {
+      "id": "P2-2",
+      "origin": "user_approved_presentation",
+      "approved_text": "保留原题干，包括否定表达。学生端隐藏“反向检测题”等教师标记。选项按原问卷题表顺序呈现。本阶段不执行反向计分，也不在问卷星中暗中设置反向分值；已有计分说明仅作为元数据保留。",
+      "scope": {"all_source_versions": true},
+      "resolves_issue_suffixes": ["A-2"],
+      "settings": {"hide_annotation_kinds": ["reverse"], "option_order": "source_order", "apply_reverse_scoring": false, "assign_reverse_values": false}
+    },
+    {
+      "id": "P2-3",
+      "origin": "user_approved_presentation",
+      "approved_text": "保留全部15项及原题表分组。学生端隐藏“盲目爱国主义”等概念标记，教师侧保留。这些概念标记不能自动视为反向题标记。不得依据理论说明重新移动、合并题项。",
+      "scope": {"project_ids": ["patriotism"]},
+      "resolves_issue_suffixes": ["A-6-marker", "A-6-group"],
+      "settings": {"hide_annotation_kinds": ["concept"], "preserve_items": true, "grouping": "source_table", "concept_as_reverse": false}
+    },
+    {
+      "id": "P2-4",
+      "origin": "user_approved_presentation",
+      "approved_text": "保留原指导语和题目含义。教师说明中明确：原问卷涉及对指标合理性的评价，不应直接解释为学生个人素养水平测量。不能为了适配用户需求，擅自改写成个人能力自评。",
+      "scope": {"project_ids": ["core-literacy"]},
+      "resolves_issue_suffixes": [],
+      "settings": {"preserve_guidance": true, "teacher_warning": "原问卷涉及对指标合理性的评价，不应直接解释为学生个人素养水平测量；保留原指导语和指标短语，不改写为个人能力自评。"}
+    },
+    {
+      "id": "P2-5",
+      "origin": "user_approved_presentation",
+      "approved_text": "十级评分保持1–10，不改为0–10，也不执行NPS计算。原文未提供的中间等级文字不得补造。性别、年龄、年级等原空白字段保持开放填写，不自行添加枚举选项、范围或额外身份字段。保留原指导语；教师疑点说明不混入学生问卷。",
+      "scope": {"volumes": [2]},
+      "resolves_issue_suffixes": [],
+      "settings": {"ten_level_range": [1, 10], "invent_middle_labels": false, "apply_nps": false, "basic_information": "source_open_fields", "preserve_guidance": true}
+    },
+    {
+      "id": "P2-E-0",
+      "origin": "user_approved_supplement",
+      "approved_text": "保留原始数据，另外记录经用户批准的补充规则。生成标题必须明确标注“作答规则补全版”，不能冒充来源原卷的完整原始作答结构。工程伦理补全规则属于派生呈现方案，不凭空增加一个来源版本。",
+      "scope": {"project_ids": ["engineering-ethics"]},
+      "resolves_issue_suffixes": [],
+      "settings": {"title_suffix": "作答规则补全版", "source_version_id": "original"}
+    },
+    {
+      "id": "P2-E-1",
+      "origin": "user_approved_supplement",
+      "approved_text": "E-1：两个背景题按单选题处理，保留各自原有三个选项。",
+      "scope": {"project_ids": ["engineering-ethics"]},
+      "resolves_issue_suffixes": ["E-1"],
+      "settings": {"item_suffixes": ["q001", "q002"], "cardinality": "single"}
+    },
+    {
+      "id": "P2-E-2",
+      "status": "superseded",
+      "superseded_by": "P2.1-E-2-3",
+      "origin": "user_approved_supplement",
+      "approved_text": "E-2：选择认为属于工程伦理的事项，再仅对选中事项按重要性从高到低排序，不允许并列。",
+      "scope": {"project_ids": ["engineering-ethics"]},
+      "resolves_issue_suffixes": ["E-2"],
+      "settings": {"item_suffix": "q003", "kind": "select_rank", "selection_cardinality": "multiple", "minimum_selections": null, "maximum_selections": null, "ranking_scope": "selected_options", "rank_all_selected": true, "ranking_direction": "importance_descending", "ties_allowed": false, "student_instruction": "选择你认为属于工程伦理的事项，再仅对选中事项按重要性从高到低排序，不允许并列。"}
+    },
+    {
+      "id": "P2-E-3",
+      "status": "superseded",
+      "superseded_by": "P2.1-E-2-3",
+      "origin": "user_approved_supplement",
+      "approved_text": "E-3：“其他”被选中时必须填写说明，并参与排序。",
+      "scope": {"project_ids": ["engineering-ethics"]},
+      "resolves_issue_suffixes": ["E-3"],
+      "settings": {"item_suffix": "q003", "other_option_id": "G", "required_when_selected": true, "participates_in_ranking": true, "student_instruction": "“其他”被选中时必须填写说明，并参与排序。"}
+    },
+    {
+      "id": "P2-E-4",
+      "status": "superseded",
+      "superseded_by": "P2.1-E-4",
+      "origin": "user_approved_supplement",
+      "approved_text": "E-4：另一道五选项排序题要求全部五项排序，重要性从高到低，不允许并列。",
+      "scope": {"project_ids": ["engineering-ethics"]},
+      "resolves_issue_suffixes": ["E-4"],
+      "settings": {"item_suffix": "q004", "ranking_direction": "importance_descending", "complete": true, "ties_allowed": false, "student_instruction": "请将全部五项按重要性从高到低排序，不允许并列。"}
+    },
+    {
+      "id": "P2-E-5",
+      "origin": "user_approved_supplement",
+      "approved_text": "E-5：三种教学方式分别评价认可程度。等级为：完全不认可、比较不认可、中立、比较认可、完全认可。",
+      "scope": {"project_ids": ["engineering-ethics"]},
+      "resolves_issue_suffixes": ["E-5"],
+      "settings": {"item_suffix": "q009", "expand_source_options": ["A", "B", "C"], "labels": ["完全不认可", "比较不认可", "中立", "比较认可", "完全认可"], "student_instruction": "请分别评价三种教学方式的认可程度。", "assign_score_values": false}
+    },
+    {
+      "id": "P2-E-6",
+      "origin": "user_approved_supplement",
+      "approved_text": "E-6：第一组三条自评陈述分别评价同意程度。等级为：完全不同意、比较不同意、中立、比较同意、完全同意。",
+      "scope": {"project_ids": ["engineering-ethics"]},
+      "resolves_issue_suffixes": ["E-6"],
+      "settings": {"item_suffix": "q010", "expand_source_options": ["A", "B", "C"], "labels": ["完全不同意", "比较不同意", "中立", "比较同意", "完全同意"], "student_instruction": "请分别评价三条陈述的同意程度。", "assign_score_values": false}
+    },
+    {
+      "id": "P2-E-7",
+      "origin": "user_approved_supplement",
+      "approved_text": "E-7：另一组三条自评陈述采用相同的五级同意程度。",
+      "scope": {"project_ids": ["engineering-ethics"]},
+      "resolves_issue_suffixes": ["E-7"],
+      "settings": {"item_suffix": "q012", "expand_source_options": ["A", "B", "C"], "labels": ["完全不同意", "比较不同意", "中立", "比较同意", "完全同意"], "student_instruction": "请分别评价三条陈述的同意程度。", "assign_score_values": false}
+    },
+    {
+      "id": "P2-E-8",
+      "origin": "user_approved_validation_requirement",
+      "approved_text": "E-8：混合题型能否通过文本完整导入，由技术验证确定。不得把“平台支持”直接当作“文本导入支持”。需要导入后手工设置的方案不能算作纯文本完整导入通过。",
+      "scope": {"project_ids": ["engineering-ethics"]},
+      "resolves_issue_suffixes": [],
+      "settings": {"import_validation": "required_and_not_automatically_passed"}
+    },
+    {
+      "id": "P2-E-9",
+      "origin": "user_approved_counting_requirement",
+      "approved_text": "E-9：依据最终结构重新统计数量，分别记录来源题干块、存储记录、独立作答项和导出题目数量，不能继续把13条记录当作已确认测量题数。",
+      "scope": {"project_ids": ["engineering-ethics"]},
+      "resolves_issue_suffixes": ["E-9"],
+      "settings": {"keep_source_counts": true, "count_response_actions_separately": true, "conditional_auxiliary_fields_separate": true, "export_question_count_owner": "format_renderer"}
+    },
+    {
+      "id": "P2-E-10",
+      "origin": "user_approved_presentation",
+      "approved_text": "E-10：原有文字异文、疑似笔误保留，教师侧说明，不静默修订。不得追加用户未批准的选择数量限制、计分规则、维度解释或测量效度声明。",
+      "scope": {"project_ids": ["engineering-ethics"]},
+      "resolves_issue_suffixes": [],
+      "settings": {"preserve_source_words": true, "teacher_notes_only": true, "add_unapproved_rules": false}
+    },
+    {
+      "id": "P2.1-E-2-3",
+      "status": "superseded",
+      "superseded_by": "P2.1-R-E-2-3",
+      "supersedes": ["P2-E-2", "P2-E-3"],
+      "origin": "user_approved_basic_text_adaptation",
+      "authority": {
+        "kind": "explicit_user_instruction",
+        "reference": "用户阶段2.1明确批准工程伦理q003/q004普通开放文本适配",
+        "approved_on": "2026-10-04",
+        "approved_supplement": "两题均普通开放文本一个框，不依赖排序控件、选项引用、条件显示、计算公式、付费校验；参考原选项全文保留不点击；不预填或提供推荐排列；重复/漏项/未知代码/G说明缺失人工核对，不声称原控件同等校验，不评分/不分析。",
+        "source_version_id": "original"
+      },
+      "approved_text": "请只填写您认为属于工程伦理范畴的项目代码，并按重要性从高到低排列，用 > 分隔。每个代码只出现一次，不并列；未选中的项目不要填写。若包含 G，请在同一回答中追加‘G：具体内容’，且 G 应出现在排序中。如认为均不属于，请填写‘无’。",
+      "scope": {"project_ids": ["engineering-ethics"]},
+      "resolves_issue_suffixes": ["E-2", "E-3"],
+      "settings": {
+        "item_suffix": "q003",
+        "kind": "open",
+        "slots": 1,
+        "reference_option_ids": ["A", "B", "C", "D", "E", "F", "G"],
+        "information_components": ["selection", "importance_order", "other_description"],
+        "student_instruction": "请只填写您认为属于工程伦理范畴的项目代码，并按重要性从高到低排列，用 > 分隔。每个代码只出现一次，不并列；未选中的项目不要填写。若包含 G，请在同一回答中追加‘G：具体内容’，且 G 应出现在排序中。如认为均不属于，请填写‘无’。",
+        "automatic_validation": false,
+        "manual_review_required": true,
+        "manual_review_checks": ["重复代码或并列", "未知代码", "排序中的G缺少同一回答内的G说明", "G说明没有对应排序中的G", "未选项目误填；无项目时按说明填写无"],
+        "paid_feature_dependency": false,
+        "score_responses": false,
+        "analyze_responses": false
+      }
+    },
+    {
+      "id": "P2.1-E-4",
+      "status": "superseded",
+      "superseded_by": "P2.1-R-E-4",
+      "supersedes": ["P2-E-4"],
+      "origin": "user_approved_basic_text_adaptation",
+      "authority": {
+        "kind": "explicit_user_instruction",
+        "reference": "用户阶段2.1明确批准工程伦理q003/q004普通开放文本适配",
+        "approved_on": "2026-10-04",
+        "approved_supplement": "两题均普通开放文本一个框，不依赖排序控件、选项引用、条件显示、计算公式、付费校验；参考原选项全文保留不点击；不预填或提供推荐排列；重复/漏项/未知代码/G说明缺失人工核对，不声称原控件同等校验，不评分/不分析。",
+        "source_version_id": "original"
+      },
+      "approved_text": "请将 A、B、C、D、E 五个项目全部按重要性从高到低排列，用 > 分隔。每个代码恰好出现一次，不遗漏、不重复、不并列。",
+      "scope": {"project_ids": ["engineering-ethics"]},
+      "resolves_issue_suffixes": ["E-4"],
+      "settings": {
+        "item_suffix": "q004",
+        "kind": "open",
+        "slots": 1,
+        "reference_option_ids": ["A", "B", "C", "D", "E"],
+        "information_components": ["importance_order"],
+        "student_instruction": "请将 A、B、C、D、E 五个项目全部按重要性从高到低排列，用 > 分隔。每个代码恰好出现一次，不遗漏、不重复、不并列。",
+        "automatic_validation": false,
+        "manual_review_required": true,
+        "manual_review_checks": ["五项遗漏", "重复代码或并列", "未知代码", "是否按说明写出A至E全部项目"],
+        "paid_feature_dependency": false,
+        "score_responses": false,
+        "analyze_responses": false
+      }
+    },
+    {
+      "id": "P2.1-R-E-2-3",
+      "status": "active",
+      "supersedes": ["P2.1-E-2-3"],
+      "origin": "user_approved_import_feedback_presentation_repair",
+      "authority": {
+        "kind": "explicit_user_instruction",
+        "reference": "用户反馈工程伦理第3、4题被问卷星误识别为单选后，明确批准独立参考说明段落与短题干填空候选排版",
+        "approved_on": "2026-10-04",
+        "approved_supplement": "原参考文字全文和顺序不变，代码展示为【A】等形式，全部参考项目和完整说明置于题前独立说明段落；原短题干行末紧接[填空题]。回答分隔符改为中文逗号，每题仍只有一个普通文本框；重复、漏项、未知代码、并列及其他说明缺失由人工核对，不引入付费引用、条件必填、自动评分或答卷分析。本轮候选排版须待实际导入验证，不增加来源版本。",
+        "source_version_id": "original"
+      },
+      "approved_text": "请只填写您认为属于工程伦理范畴的项目代码，按重要性从高到低排列，代码之间用中文逗号分隔。每个代码只出现一次，不并列；未选中的项目不要填写。若选择‘其他’，请将其代码列入排序，并在同一回答末尾补充其他内容的具体说明。如认为均不属于，请填写‘无’。",
+      "scope": {"project_ids": ["engineering-ethics"]},
+      "resolves_issue_suffixes": ["E-2", "E-3"],
+      "settings": {
+        "item_suffix": "q003",
+        "kind": "open",
+        "slots": 1,
+        "reference_option_ids": ["A", "B", "C", "D", "E", "F", "G"],
+        "information_components": ["selection", "importance_order", "other_description"],
+        "student_instruction": "请只填写您认为属于工程伦理范畴的项目代码，按重要性从高到低排列，代码之间用中文逗号分隔。每个代码只出现一次，不并列；未选中的项目不要填写。若选择‘其他’，请将其代码列入排序，并在同一回答末尾补充其他内容的具体说明。如认为均不属于，请填写‘无’。",
+        "answer_separator": "，",
+        "reference_layout": "paragraph_before_question",
+        "reference_code_style": "bracketed",
+        "reference_code_template": "【{code}】",
+        "question_stem": "source_student_text",
+        "question_type_marker": "[填空题]",
+        "automatic_validation": false,
+        "manual_review_required": true,
+        "manual_review_checks": ["重复代码或并列", "未知代码", "其他代码列入排序但同一回答末尾缺少具体内容说明", "其他具体内容说明没有对应排序中的其他代码", "未选项目误填；无项目时按说明填写无", "代码是否按说明使用中文逗号分隔"],
+        "paid_feature_dependency": false,
+        "score_responses": false,
+        "analyze_responses": false
+      }
+    },
+    {
+      "id": "P2.1-R-E-4",
+      "status": "active",
+      "supersedes": ["P2.1-E-4"],
+      "origin": "user_approved_import_feedback_presentation_repair",
+      "authority": {
+        "kind": "explicit_user_instruction",
+        "reference": "用户反馈工程伦理第3、4题被问卷星误识别为单选后，明确批准独立参考说明段落与短题干填空候选排版",
+        "approved_on": "2026-10-04",
+        "approved_supplement": "原参考文字全文和顺序不变，代码展示为【A】等形式，全部参考项目和完整说明置于题前独立说明段落；原短题干行末紧接[填空题]。回答分隔符改为中文逗号，每题仍只有一个普通文本框；重复、漏项、未知代码、并列及其他说明缺失由人工核对，不引入付费引用、条件必填、自动评分或答卷分析。本轮候选排版须待实际导入验证，不增加来源版本。",
+        "source_version_id": "original"
+      },
+      "approved_text": "请将以上五个项目的代码全部按重要性从高到低排列，代码之间用中文逗号分隔。每个代码恰好出现一次，不遗漏、不重复、不并列。",
+      "scope": {"project_ids": ["engineering-ethics"]},
+      "resolves_issue_suffixes": ["E-4"],
+      "settings": {
+        "item_suffix": "q004",
+        "kind": "open",
+        "slots": 1,
+        "reference_option_ids": ["A", "B", "C", "D", "E"],
+        "information_components": ["importance_order"],
+        "student_instruction": "请将以上五个项目的代码全部按重要性从高到低排列，代码之间用中文逗号分隔。每个代码恰好出现一次，不遗漏、不重复、不并列。",
+        "answer_separator": "，",
+        "reference_layout": "paragraph_before_question",
+        "reference_code_style": "bracketed",
+        "reference_code_template": "【{code}】",
+        "question_stem": "source_student_text",
+        "question_type_marker": "[填空题]",
+        "automatic_validation": false,
+        "manual_review_required": true,
+        "manual_review_checks": ["五项遗漏", "重复代码或并列", "未知代码", "是否写出参考列表全部五项的代码", "代码是否按说明使用中文逗号分隔"],
+        "paid_feature_dependency": false,
+        "score_responses": false,
+        "analyze_responses": false
+      }
+    }
+  ],
+  "validation_boundary": "规则应用和派生结构计数不证明问卷星文本导入、实际作答约束、WorkBuddy或teach_claw运行已验证；格式限制由导出层单独核查。"
+}

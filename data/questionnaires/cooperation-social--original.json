@@ -1,0 +1,4707 @@
+{
+  "schema_version": 1,
+  "id": "cooperation-social--original",
+  "project_id": "cooperation-social",
+  "version_id": "original",
+  "project_name": "合作和社交能力",
+  "original_name": "大学生合作力水平与社交能力调查问卷",
+  "original_name_reason": null,
+  "title": {
+    "raw_text": "大学生合作力水平与社交能力调查问卷",
+    "student_text": "大学生合作力水平与社交能力调查问卷",
+    "source": {
+      "pdf_pages": [
+        17
+      ],
+      "printed_pages": [
+        14
+      ]
+    }
+  },
+  "source": {
+    "filename": "武汉大学课程思政教学评价指南（第二辑）.pdf",
+    "volume": 2,
+    "chapter": "三、合作和社交能力评价指南",
+    "pdf_pages": [
+      13,
+      14,
+      15,
+      16,
+      17,
+      18
+    ],
+    "printed_pages": [
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+    ],
+    "sha256": "409e07caee432868f24c51a5c3989cabdb5df37f8bbdcddfb36cc4adbbc51ce4"
+  },
+  "instructions": [
+    {
+      "id": "cooperation-social--original.instruction001",
+      "role": "guidance",
+      "raw_text": "指导语：亲爱的同学，你好！欢迎你参加本次调研。本问卷不记名，完全保密，资料仅供学术研究使用，请根据你的实际情况，如实地填写并完成以下问题。你的如实回答对研究具有非常重要的意义。非常感谢你的参与，谢谢你的合作！",
+      "student_text": "指导语：亲爱的同学，你好！欢迎你参加本次调研。本问卷不记名，完全保密，资料仅供学术研究使用，请根据你的实际情况，如实地填写并完成以下问题。你的如实回答对研究具有非常重要的意义。非常感谢你的参与，谢谢你的合作！",
+      "source": {
+        "pdf_pages": [
+          17
+        ],
+        "printed_pages": [
+          14
+        ]
+      }
+    },
+    {
+      "id": "cooperation-social--original.instruction002",
+      "role": "response",
+      "raw_text": "使用说明：本问卷使用NPS10级计分，填答者可以根据自身真实想法和感受进行评分。选项由10个等级构成，表示程度不断增加的连续变化。1代表极度负面意见，10代表极度正面意见。其中的2-9按照程度连续变化。",
+      "student_text": "使用说明：本问卷使用NPS10级计分，填答者可以根据自身真实想法和感受进行评分。选项由10个等级构成，表示程度不断增加的连续变化。1代表极度负面意见，10代表极度正面意见。其中的2-9按照程度连续变化。",
+      "source": {
+        "pdf_pages": [
+          17
+        ],
+        "printed_pages": [
+          14
+        ]
+      }
+    },
+    {
+      "id": "cooperation-social--original.instruction003",
+      "role": "teacher",
+      "raw_text": "通过文献综述、访谈即开放式问卷调查，基于课程思政的背景，将大学生人际交往能力分为主动交往、广交朋友、冲突解决、情感支持、语言表达五个维度。当前的研究领域中，存在多种多样的合作能力评价体系，结合课程思政评价指南工具库的实际需求，使用已有合作力水平和社交力问卷的部分项目，根据开放式问卷获得信息自编补充项目，如图3所示：",
+      "student_text": null,
+      "source": {
+        "pdf_pages": [
+          15
+        ],
+        "printed_pages": [
+          12
+        ]
+      }
+    }
+  ],
+  "basic_information": [
+    {
+      "id": "cooperation-social--original.basic001",
+      "order": 1,
+      "original_number": null,
+      "role": "basic_information",
+      "measurement_class": null,
+      "kind": "open",
+      "raw_text": "性别：",
+      "student_text": "性别：",
+      "source": {
+        "pdf_pages": [
+          17
+        ],
+        "printed_pages": [
+          14
+        ]
+      },
+      "group_id": null,
+      "subdimension": null,
+      "subdimension_reason": "人口基本信息字段，不作维度归属。",
+      "teacher_annotations": [],
+      "reverse": {
+        "marked": null,
+        "raw_marker": null,
+        "source": null,
+        "reason": "本原文题项未标明反向题；否定措辞不作为反向依据。"
+      },
+      "response": {
+        "options": [],
+        "minimum": null,
+        "maximum": null,
+        "cardinality": null,
+        "slots": 1,
+        "raw_instruction": null,
+        "unknowns": [
+          {
+            "field": "required",
+            "reason": "原文未说明必填性。"
+          },
+          {
+            "field": "constraints",
+            "reason": "原文只有空白填写位置，无枚举选项、格式或范围。"
+          }
+        ],
+        "ranking": null
+      }
+    },
+    {
+      "id": "cooperation-social--original.basic002",
+      "order": 2,
+      "original_number": null,
+      "role": "basic_information",
+      "measurement_class": null,
+      "kind": "open",
+      "raw_text": "年龄：",
+      "student_text": "年龄：",
+      "source": {
+        "pdf_pages": [
+          17
+        ],
+        "printed_pages": [
+          14
+        ]
+      },
+      "group_id": null,
+      "subdimension": null,
+      "subdimension_reason": "人口基本信息字段，不作维度归属。",
+      "teacher_annotations": [],
+      "reverse": {
+        "marked": null,
+        "raw_marker": null,
+        "source": null,
+        "reason": "本原文题项未标明反向题；否定措辞不作为反向依据。"
+      },
+      "response": {
+        "options": [],
+        "minimum": null,
+        "maximum": null,
+        "cardinality": null,
+        "slots": 1,
+        "raw_instruction": null,
+        "unknowns": [
+          {
+            "field": "required",
+            "reason": "原文未说明必填性。"
+          },
+          {
+            "field": "constraints",
+            "reason": "原文只有空白填写位置，无枚举选项、格式或范围。"
+          }
+        ],
+        "ranking": null
+      }
+    },
+    {
+      "id": "cooperation-social--original.basic003",
+      "order": 3,
+      "original_number": null,
+      "role": "basic_information",
+      "measurement_class": null,
+      "kind": "open",
+      "raw_text": "年级：",
+      "student_text": "年级：",
+      "source": {
+        "pdf_pages": [
+          17
+        ],
+        "printed_pages": [
+          14
+        ]
+      },
+      "group_id": null,
+      "subdimension": null,
+      "subdimension_reason": "人口基本信息字段，不作维度归属。",
+      "teacher_annotations": [],
+      "reverse": {
+        "marked": null,
+        "raw_marker": null,
+        "source": null,
+        "reason": "本原文题项未标明反向题；否定措辞不作为反向依据。"
+      },
+      "response": {
+        "options": [],
+        "minimum": null,
+        "maximum": null,
+        "cardinality": null,
+        "slots": 1,
+        "raw_instruction": null,
+        "unknowns": [
+          {
+            "field": "required",
+            "reason": "原文未说明必填性。"
+          },
+          {
+            "field": "constraints",
+            "reason": "原文只有空白填写位置，无枚举选项、格式或范围。"
+          }
+        ],
+        "ranking": null
+      }
+    }
+  ],
+  "items": [
+    {
+      "id": "cooperation-social--original.q001",
+      "order": 1,
+      "original_number": null,
+      "role": "measurement",
+      "measurement_class": "scale",
+      "kind": "rating",
+      "raw_text": "我是一个愿意合作的人",
+      "student_text": "我是一个愿意合作的人",
+      "source": {
+        "pdf_pages": [
+          18
+        ],
+        "printed_pages": [
+          15
+        ]
+      },
+      "group_id": "cooperation-social--original.group001",
+      "subdimension": null,
+      "subdimension_reason": "原题表未明示每题对应的理论细分维度；不依据语义推断。",
+      "teacher_annotations": [],
+      "reverse": {
+        "marked": null,
+        "raw_marker": null,
+        "source": null,
+        "reason": "本原文题项未标明反向题；否定措辞不作为反向依据。"
+      },
+      "response": {
+        "options": [
+          {
+            "id": "1",
+            "label": "极度负面意见",
+            "value": 1,
+            "source": {
+              "pdf_pages": [
+                17
+              ],
+              "printed_pages": [
+                14
+              ]
+            }
+          },
+          {
+            "id": "2",
+            "label": null,
+            "value": 2,
+            "source": {
+              "pdf_pages": [
+                17
+              ],
+              "printed_pages": [
+                14
+              ]
+            }
+          },
+          {
+            "id": "3",
+            "label": null,
+            "value": 3,
+            "source": {
+              "pdf_pages": [
+                17
+              ],
+              "printed_pages": [
+                14
+              ]
+            }
+          },
+          {
+            "id": "4",
+            "label": null,
+            "value": 4,
+            "source": {
+              "pdf_pages": [
+                17
+              ],
+              "printed_pages": [
+                14
+              ]
+            }
+          },
+          {
+            "id": "5",
+            "label": null,
+            "value": 5,
+            "source": {
+              "pdf_pages": [
+                17
+              ],
+              "printed_pages": [
+                14
+              ]
+            }
+          },
+          {
+            "id": "6",
+            "label": null,
+            "value": 6,
+            "source": {
+              "pdf_pages": [
+                17
+              ],
+              "printed_pages": [
+                14
+              ]
+            }
+          },
+          {
+            "id": "7",
+            "label": null,
+            "value": 7,
+            "source": {
+              "pdf_pages": [
+                17
+              ],
+              "printed_pages": [
+                14
+              ]
+            }
+          },
+          {
+            "id": "8",
+            "label": null,
+            "value": 8,
+            "source": {
+              "pdf_pages": [
+                17
+              ],
+              "printed_pages": [
+                14
+              ]
+            }
+          },
+          {
+            "id": "9",
+            "label": null,
+            "value": 9,
+            "source": {
+              "pdf_pages": [
+                17
+              ],
+              "printed_pages": [
+                14
+              ]
+            }
+          },
+          {
+            "id": "10",
+            "label": "极度正面意见",
+            "value": 10,
+            "source": {
+              "pdf_pages": [
+                17
+              ],
+              "printed_pages": [
+                14
+              ]
+            }
+          }
+        ],
+        "minimum": 1,
+        "maximum": 10,
+        "cardinality": "single",
+        "slots": null,
+        "raw_instruction": "使用说明：本问卷使用NPS10级计分，填答者可以根据自身真实想法和感受进行评分。选项由10个等级构成，表示程度不断增加的连续变化。1代表极度负面意见，10代表极度正面意见。其中的2-9按照程度连续变化。",
+        "unknowns": [
+          {
+            "field": "options.label",
+            "reason": "原文只给端点文字，未为中间档命名；中间档保留数值和null标签。"
+          }
+        ],
+        "ranking": null
+      }
+    },
+    {
+      "id": "cooperation-social--original.q002",
+      "order": 2,
+      "original_number": null,
+      "role": "measurement",
+      "measurement_class": "scale",
+      "kind": "rating",
+      "raw_text": "我是一个合作能力很强的人",
+      "student_text": "我是一个合作能力很强的人",
+      "source": {
+        "pdf_pages": [
+          18
+        ],
+        "printed_pages": [
+          15
+        ]
+      },
+      "group_id": "cooperation-social--original.group001",
+      "subdimension": null,
+      "subdimension_reason": "原题表未明示每题对应的理论细分维度；不依据语义推断。",
+      "teacher_annotations": [],
+      "reverse": {
+        "marked": null,
+        "raw_marker": null,
+        "source": null,
+        "reason": "本原文题项未标明反向题；否定措辞不作为反向依据。"
+      },
+      "response": {
+        "options": [
+          {
+            "id": "1",
+            "label": "极度负面意见",
+            "value": 1,
+            "source": {
+              "pdf_pages": [
+                17
+              ],
+              "printed_pages": [
+                14
+              ]
+            }
+          },
+          {
+            "id": "2",
+            "label": null,
+            "value": 2,
+            "source": {
+              "pdf_pages": [
+                17
+              ],
+              "printed_pages": [
+                14
+              ]
+            }
+          },
+          {
+            "id": "3",
+            "label": null,
+            "value": 3,
+            "source": {
+              "pdf_pages": [
+                17
+              ],
+              "printed_pages": [
+                14
+              ]
+            }
+          },
+          {
+            "id": "4",
+            "label": null,
+            "value": 4,
+            "source": {
+              "pdf_pages": [
+                17
+              ],
+              "printed_pages": [
+                14
+              ]
+            }
+          },
+          {
+            "id": "5",
+            "label": null,
+            "value": 5,
+            "source": {
+              "pdf_pages": [
+                17
+              ],
+              "printed_pages": [
+                14
+              ]
+            }
+          },
+          {
+            "id": "6",
+            "label": null,
+            "value": 6,
+            "source": {
+              "pdf_pages": [
+                17
+              ],
+              "printed_pages": [
+                14
+              ]
+            }
+          },
+          {
+            "id": "7",
+            "label": null,
+            "value": 7,
+            "source": {
+              "pdf_pages": [
+                17
+              ],
+              "printed_pages": [
+                14
+              ]
+            }
+          },
+          {
+            "id": "8",
+            "label": null,
+            "value": 8,
+            "source": {
+              "pdf_pages": [
+                17
+              ],
+              "printed_pages": [
+                14
+              ]
+            }
+          },
+          {
+            "id": "9",
+            "label": null,
+            "value": 9,
+            "source": {
+              "pdf_pages": [
+                17
+              ],
+              "printed_pages": [
+                14
+              ]
+            }
+          },
+          {
+            "id": "10",
+            "label": "极度正面意见",
+            "value": 10,
+            "source": {
+              "pdf_pages": [
+                17
+              ],
+              "printed_pages": [
+                14
+              ]
+            }
+          }
+        ],
+        "minimum": 1,
+        "maximum": 10,
+        "cardinality": "single",
+        "slots": null,
+        "raw_instruction": "使用说明：本问卷使用NPS10级计分，填答者可以根据自身真实想法和感受进行评分。选项由10个等级构成，表示程度不断增加的连续变化。1代表极度负面意见，10代表极度正面意见。其中的2-9按照程度连续变化。",
+        "unknowns": [
+          {
+            "field": "options.label",
+            "reason": "原文只给端点文字，未为中间档命名；中间档保留数值和null标签。"
+          }
+        ],
+        "ranking": null
+      }
+    },
+    {
+      "id": "cooperation-social--original.q003",
+      "order": 3,
+      "original_number": null,
+      "role": "measurement",
+      "measurement_class": "scale",
+      "kind": "rating",
+      "raw_text": "我经常在学习中进行合作",
+      "student_text": "我经常在学习中进行合作",
+      "source": {
+        "pdf_pages": [
+          18
+        ],
+        "printed_pages": [
+          15
+        ]
+      },
+      "group_id": "cooperation-social--original.group001",
+      "subdimension": null,
+      "subdimension_reason": "原题表未明示每题对应的理论细分维度；不依据语义推断。",
+      "teacher_annotations": [],
+      "reverse": {
+        "marked": null,
+        "raw_marker": null,
+        "source": null,
+        "reason": "本原文题项未标明反向题；否定措辞不作为反向依据。"
+      },
+      "response": {
+        "options": [
+          {
+            "id": "1",
+            "label": "极度负面意见",
+            "value": 1,
+            "source": {
+              "pdf_pages": [
+                17
+              ],
+              "printed_pages": [
+                14
+              ]
+            }
+          },
+          {
+            "id": "2",
+            "label": null,
+            "value": 2,
+            "source": {
+              "pdf_pages": [
+                17
+              ],
+              "printed_pages": [
+                14
+              ]
+            }
+          },
+          {
+            "id": "3",
+            "label": null,
+            "value": 3,
+            "source": {
+              "pdf_pages": [
+                17
+              ],
+              "printed_pages": [
+                14
+              ]
+            }
+          },
+          {
+            "id": "4",
+            "label": null,
+            "value": 4,
+            "source": {
+              "pdf_pages": [
+                17
+              ],
+              "printed_pages": [
+                14
+              ]
+            }
+          },
+          {
+            "id": "5",
+            "label": null,
+            "value": 5,
+            "source": {
+              "pdf_pages": [
+                17
+              ],
+              "printed_pages": [
+                14
+              ]
+            }
+          },
+          {
+            "id": "6",
+            "label": null,
+            "value": 6,
+            "source": {
+              "pdf_pages": [
+                17
+              ],
+              "printed_pages": [
+                14
+              ]
+            }
+          },
+          {
+            "id": "7",
+            "label": null,
+            "value": 7,
+            "source": {
+              "pdf_pages": [
+                17
+              ],
+              "printed_pages": [
+                14
+              ]
+            }
+          },
+          {
+            "id": "8",
+            "label": null,
+            "value": 8,
+            "source": {
+              "pdf_pages": [
+                17
+              ],
+              "printed_pages": [
+                14
+              ]
+            }
+          },
+          {
+            "id": "9",
+            "label": null,
+            "value": 9,
+            "source": {
+              "pdf_pages": [
+                17
+              ],
+              "printed_pages": [
+                14
+              ]
+            }
+          },
+          {
+            "id": "10",
+            "label": "极度正面意见",
+            "value": 10,
+            "source": {
+              "pdf_pages": [
+                17
+              ],
+              "printed_pages": [
+                14
+              ]
+            }
+          }
+        ],
+        "minimum": 1,
+        "maximum": 10,
+        "cardinality": "single",
+        "slots": null,
+        "raw_instruction": "使用说明：本问卷使用NPS10级计分，填答者可以根据自身真实想法和感受进行评分。选项由10个等级构成，表示程度不断增加的连续变化。1代表极度负面意见，10代表极度正面意见。其中的2-9按照程度连续变化。",
+        "unknowns": [
+          {
+            "field": "options.label",
+            "reason": "原文只给端点文字，未为中间档命名；中间档保留数值和null标签。"
+          }
+        ],
+        "ranking": null
+      }
+    },
+    {
+      "id": "cooperation-social--original.q004",
+      "order": 4,
+      "original_number": null,
+      "role": "measurement",
+      "measurement_class": "scale",
+      "kind": "rating",
+      "raw_text": "我在一个合作氛围很强的学习共同体中",
+      "student_text": "我在一个合作氛围很强的学习共同体中",
+      "source": {
+        "pdf_pages": [
+          18
+        ],
+        "printed_pages": [
+          15
+        ]
+      },
+      "group_id": "cooperation-social--original.group001",
+      "subdimension": null,
+      "subdimension_reason": "原题表未明示每题对应的理论细分维度；不依据语义推断。",
+      "teacher_annotations": [],
+      "reverse": {
+        "marked": null,
+        "raw_marker": null,
+        "source": null,
+        "reason": "本原文题项未标明反向题；否定措辞不作为反向依据。"
+      },
+      "response": {
+        "options": [
+          {
+            "id": "1",
+            "label": "极度负面意见",
+            "value": 1,
+            "source": {
+              "pdf_pages": [
+                17
+              ],
+              "printed_pages": [
+                14
+              ]
+            }
+          },
+          {
+            "id": "2",
+            "label": null,
+            "value": 2,
+            "source": {
+              "pdf_pages": [
+                17
+              ],
+              "printed_pages": [
+                14
+              ]
+            }
+          },
+          {
+            "id": "3",
+            "label": null,
+            "value": 3,
+            "source": {
+              "pdf_pages": [
+                17
+              ],
+              "printed_pages": [
+                14
+              ]
+            }
+          },
+          {
+            "id": "4",
+            "label": null,
+            "value": 4,
+            "source": {
+              "pdf_pages": [
+                17
+              ],
+              "printed_pages": [
+                14
+              ]
+            }
+          },
+          {
+            "id": "5",
+            "label": null,
+            "value": 5,
+            "source": {
+              "pdf_pages": [
+                17
+              ],
+              "printed_pages": [
+                14
+              ]
+            }
+          },
+          {
+            "id": "6",
+            "label": null,
+            "value": 6,
+            "source": {
+              "pdf_pages": [
+                17
+              ],
+              "printed_pages": [
+                14
+              ]
+            }
+          },
+          {
+            "id": "7",
+            "label": null,
+            "value": 7,
+            "source": {
+              "pdf_pages": [
+                17
+              ],
+              "printed_pages": [
+                14
+              ]
+            }
+          },
+          {
+            "id": "8",
+            "label": null,
+            "value": 8,
+            "source": {
+              "pdf_pages": [
+                17
+              ],
+              "printed_pages": [
+                14
+              ]
+            }
+          },
+          {
+            "id": "9",
+            "label": null,
+            "value": 9,
+            "source": {
+              "pdf_pages": [
+                17
+              ],
+              "printed_pages": [
+                14
+              ]
+            }
+          },
+          {
+            "id": "10",
+            "label": "极度正面意见",
+            "value": 10,
+            "source": {
+              "pdf_pages": [
+                17
+              ],
+              "printed_pages": [
+                14
+              ]
+            }
+          }
+        ],
+        "minimum": 1,
+        "maximum": 10,
+        "cardinality": "single",
+        "slots": null,
+        "raw_instruction": "使用说明：本问卷使用NPS10级计分，填答者可以根据自身真实想法和感受进行评分。选项由10个等级构成，表示程度不断增加的连续变化。1代表极度负面意见，10代表极度正面意见。其中的2-9按照程度连续变化。",
+        "unknowns": [
+          {
+            "field": "options.label",
+            "reason": "原文只给端点文字，未为中间档命名；中间档保留数值和null标签。"
+          }
+        ],
+        "ranking": null
+      }
+    },
+    {
+      "id": "cooperation-social--original.q005",
+      "order": 5,
+      "original_number": null,
+      "role": "measurement",
+      "measurement_class": "scale",
+      "kind": "rating",
+      "raw_text": "我在日常生活中不习惯主动找别人搭话",
+      "student_text": "我在日常生活中不习惯主动找别人搭话",
+      "source": {
+        "pdf_pages": [
+          18
+        ],
+        "printed_pages": [
+          15
+        ]
+      },
+      "group_id": "cooperation-social--original.group001",
+      "subdimension": null,
+      "subdimension_reason": "原题表未明示每题对应的理论细分维度；不依据语义推断。",
+      "teacher_annotations": [],
+      "reverse": {
+        "marked": null,
+        "raw_marker": null,
+        "source": null,
+        "reason": "本原文题项未标明反向题；否定措辞不作为反向依据。"
+      },
+      "response": {
+        "options": [
+          {
+            "id": "1",
+            "label": "极度负面意见",
+            "value": 1,
+            "source": {
+              "pdf_pages": [
+                17
+              ],
+              "printed_pages": [
+                14
+              ]
+            }
+          },
+          {
+            "id": "2",
+            "label": null,
+            "value": 2,
+            "source": {
+              "pdf_pages": [
+                17
+              ],
+              "printed_pages": [
+                14
+              ]
+            }
+          },
+          {
+            "id": "3",
+            "label": null,
+            "value": 3,
+            "source": {
+              "pdf_pages": [
+                17
+              ],
+              "printed_pages": [
+                14
+              ]
+            }
+          },
+          {
+            "id": "4",
+            "label": null,
+            "value": 4,
+            "source": {
+              "pdf_pages": [
+                17
+              ],
+              "printed_pages": [
+                14
+              ]
+            }
+          },
+          {
+            "id": "5",
+            "label": null,
+            "value": 5,
+            "source": {
+              "pdf_pages": [
+                17
+              ],
+              "printed_pages": [
+                14
+              ]
+            }
+          },
+          {
+            "id": "6",
+            "label": null,
+            "value": 6,
+            "source": {
+              "pdf_pages": [
+                17
+              ],
+              "printed_pages": [
+                14
+              ]
+            }
+          },
+          {
+            "id": "7",
+            "label": null,
+            "value": 7,
+            "source": {
+              "pdf_pages": [
+                17
+              ],
+              "printed_pages": [
+                14
+              ]
+            }
+          },
+          {
+            "id": "8",
+            "label": null,
+            "value": 8,
+            "source": {
+              "pdf_pages": [
+                17
+              ],
+              "printed_pages": [
+                14
+              ]
+            }
+          },
+          {
+            "id": "9",
+            "label": null,
+            "value": 9,
+            "source": {
+              "pdf_pages": [
+                17
+              ],
+              "printed_pages": [
+                14
+              ]
+            }
+          },
+          {
+            "id": "10",
+            "label": "极度正面意见",
+            "value": 10,
+            "source": {
+              "pdf_pages": [
+                17
+              ],
+              "printed_pages": [
+                14
+              ]
+            }
+          }
+        ],
+        "minimum": 1,
+        "maximum": 10,
+        "cardinality": "single",
+        "slots": null,
+        "raw_instruction": "使用说明：本问卷使用NPS10级计分，填答者可以根据自身真实想法和感受进行评分。选项由10个等级构成，表示程度不断增加的连续变化。1代表极度负面意见，10代表极度正面意见。其中的2-9按照程度连续变化。",
+        "unknowns": [
+          {
+            "field": "options.label",
+            "reason": "原文只给端点文字，未为中间档命名；中间档保留数值和null标签。"
+          }
+        ],
+        "ranking": null
+      }
+    },
+    {
+      "id": "cooperation-social--original.q006",
+      "order": 6,
+      "original_number": null,
+      "role": "measurement",
+      "measurement_class": "scale",
+      "kind": "rating",
+      "raw_text": "即使被别人拒绝我也能很快调适自己",
+      "student_text": "即使被别人拒绝我也能很快调适自己",
+      "source": {
+        "pdf_pages": [
+          18
+        ],
+        "printed_pages": [
+          15
+        ]
+      },
+      "group_id": "cooperation-social--original.group001",
+      "subdimension": null,
+      "subdimension_reason": "原题表未明示每题对应的理论细分维度；不依据语义推断。",
+      "teacher_annotations": [],
+      "reverse": {
+        "marked": null,
+        "raw_marker": null,
+        "source": null,
+        "reason": "本原文题项未标明反向题；否定措辞不作为反向依据。"
+      },
+      "response": {
+        "options": [
+          {
+            "id": "1",
+            "label": "极度负面意见",
+            "value": 1,
+            "source": {
+              "pdf_pages": [
+                17
+              ],
+              "printed_pages": [
+                14
+              ]
+            }
+          },
+          {
+            "id": "2",
+            "label": null,
+            "value": 2,
+            "source": {
+              "pdf_pages": [
+                17
+              ],
+              "printed_pages": [
+                14
+              ]
+            }
+          },
+          {
+            "id": "3",
+            "label": null,
+            "value": 3,
+            "source": {
+              "pdf_pages": [
+                17
+              ],
+              "printed_pages": [
+                14
+              ]
+            }
+          },
+          {
+            "id": "4",
+            "label": null,
+            "value": 4,
+            "source": {
+              "pdf_pages": [
+                17
+              ],
+              "printed_pages": [
+                14
+              ]
+            }
+          },
+          {
+            "id": "5",
+            "label": null,
+            "value": 5,
+            "source": {
+              "pdf_pages": [
+                17
+              ],
+              "printed_pages": [
+                14
+              ]
+            }
+          },
+          {
+            "id": "6",
+            "label": null,
+            "value": 6,
+            "source": {
+              "pdf_pages": [
+                17
+              ],
+              "printed_pages": [
+                14
+              ]
+            }
+          },
+          {
+            "id": "7",
+            "label": null,
+            "value": 7,
+            "source": {
+              "pdf_pages": [
+                17
+              ],
+              "printed_pages": [
+                14
+              ]
+            }
+          },
+          {
+            "id": "8",
+            "label": null,
+            "value": 8,
+            "source": {
+              "pdf_pages": [
+                17
+              ],
+              "printed_pages": [
+                14
+              ]
+            }
+          },
+          {
+            "id": "9",
+            "label": null,
+            "value": 9,
+            "source": {
+              "pdf_pages": [
+                17
+              ],
+              "printed_pages": [
+                14
+              ]
+            }
+          },
+          {
+            "id": "10",
+            "label": "极度正面意见",
+            "value": 10,
+            "source": {
+              "pdf_pages": [
+                17
+              ],
+              "printed_pages": [
+                14
+              ]
+            }
+          }
+        ],
+        "minimum": 1,
+        "maximum": 10,
+        "cardinality": "single",
+        "slots": null,
+        "raw_instruction": "使用说明：本问卷使用NPS10级计分，填答者可以根据自身真实想法和感受进行评分。选项由10个等级构成，表示程度不断增加的连续变化。1代表极度负面意见，10代表极度正面意见。其中的2-9按照程度连续变化。",
+        "unknowns": [
+          {
+            "field": "options.label",
+            "reason": "原文只给端点文字，未为中间档命名；中间档保留数值和null标签。"
+          }
+        ],
+        "ranking": null
+      }
+    },
+    {
+      "id": "cooperation-social--original.q007",
+      "order": 7,
+      "original_number": null,
+      "role": "measurement",
+      "measurement_class": "scale",
+      "kind": "rating",
+      "raw_text": "为了认识新朋友，我会去有很多陌生人的地方",
+      "student_text": "为了认识新朋友，我会去有很多陌生人的地方",
+      "source": {
+        "pdf_pages": [
+          18
+        ],
+        "printed_pages": [
+          15
+        ]
+      },
+      "group_id": "cooperation-social--original.group002",
+      "subdimension": null,
+      "subdimension_reason": "原题表未明示每题对应的理论细分维度；不依据语义推断。",
+      "teacher_annotations": [],
+      "reverse": {
+        "marked": null,
+        "raw_marker": null,
+        "source": null,
+        "reason": "本原文题项未标明反向题；否定措辞不作为反向依据。"
+      },
+      "response": {
+        "options": [
+          {
+            "id": "1",
+            "label": "极度负面意见",
+            "value": 1,
+            "source": {
+              "pdf_pages": [
+                17
+              ],
+              "printed_pages": [
+                14
+              ]
+            }
+          },
+          {
+            "id": "2",
+            "label": null,
+            "value": 2,
+            "source": {
+              "pdf_pages": [
+                17
+              ],
+              "printed_pages": [
+                14
+              ]
+            }
+          },
+          {
+            "id": "3",
+            "label": null,
+            "value": 3,
+            "source": {
+              "pdf_pages": [
+                17
+              ],
+              "printed_pages": [
+                14
+              ]
+            }
+          },
+          {
+            "id": "4",
+            "label": null,
+            "value": 4,
+            "source": {
+              "pdf_pages": [
+                17
+              ],
+              "printed_pages": [
+                14
+              ]
+            }
+          },
+          {
+            "id": "5",
+            "label": null,
+            "value": 5,
+            "source": {
+              "pdf_pages": [
+                17
+              ],
+              "printed_pages": [
+                14
+              ]
+            }
+          },
+          {
+            "id": "6",
+            "label": null,
+            "value": 6,
+            "source": {
+              "pdf_pages": [
+                17
+              ],
+              "printed_pages": [
+                14
+              ]
+            }
+          },
+          {
+            "id": "7",
+            "label": null,
+            "value": 7,
+            "source": {
+              "pdf_pages": [
+                17
+              ],
+              "printed_pages": [
+                14
+              ]
+            }
+          },
+          {
+            "id": "8",
+            "label": null,
+            "value": 8,
+            "source": {
+              "pdf_pages": [
+                17
+              ],
+              "printed_pages": [
+                14
+              ]
+            }
+          },
+          {
+            "id": "9",
+            "label": null,
+            "value": 9,
+            "source": {
+              "pdf_pages": [
+                17
+              ],
+              "printed_pages": [
+                14
+              ]
+            }
+          },
+          {
+            "id": "10",
+            "label": "极度正面意见",
+            "value": 10,
+            "source": {
+              "pdf_pages": [
+                17
+              ],
+              "printed_pages": [
+                14
+              ]
+            }
+          }
+        ],
+        "minimum": 1,
+        "maximum": 10,
+        "cardinality": "single",
+        "slots": null,
+        "raw_instruction": "使用说明：本问卷使用NPS10级计分，填答者可以根据自身真实想法和感受进行评分。选项由10个等级构成，表示程度不断增加的连续变化。1代表极度负面意见，10代表极度正面意见。其中的2-9按照程度连续变化。",
+        "unknowns": [
+          {
+            "field": "options.label",
+            "reason": "原文只给端点文字，未为中间档命名；中间档保留数值和null标签。"
+          }
+        ],
+        "ranking": null
+      }
+    },
+    {
+      "id": "cooperation-social--original.q008",
+      "order": 8,
+      "original_number": null,
+      "role": "measurement",
+      "measurement_class": "scale",
+      "kind": "rating",
+      "raw_text": "我几乎没有异性朋友",
+      "student_text": "我几乎没有异性朋友",
+      "source": {
+        "pdf_pages": [
+          18
+        ],
+        "printed_pages": [
+          15
+        ]
+      },
+      "group_id": "cooperation-social--original.group002",
+      "subdimension": null,
+      "subdimension_reason": "原题表未明示每题对应的理论细分维度；不依据语义推断。",
+      "teacher_annotations": [],
+      "reverse": {
+        "marked": null,
+        "raw_marker": null,
+        "source": null,
+        "reason": "本原文题项未标明反向题；否定措辞不作为反向依据。"
+      },
+      "response": {
+        "options": [
+          {
+            "id": "1",
+            "label": "极度负面意见",
+            "value": 1,
+            "source": {
+              "pdf_pages": [
+                17
+              ],
+              "printed_pages": [
+                14
+              ]
+            }
+          },
+          {
+            "id": "2",
+            "label": null,
+            "value": 2,
+            "source": {
+              "pdf_pages": [
+                17
+              ],
+              "printed_pages": [
+                14
+              ]
+            }
+          },
+          {
+            "id": "3",
+            "label": null,
+            "value": 3,
+            "source": {
+              "pdf_pages": [
+                17
+              ],
+              "printed_pages": [
+                14
+              ]
+            }
+          },
+          {
+            "id": "4",
+            "label": null,
+            "value": 4,
+            "source": {
+              "pdf_pages": [
+                17
+              ],
+              "printed_pages": [
+                14
+              ]
+            }
+          },
+          {
+            "id": "5",
+            "label": null,
+            "value": 5,
+            "source": {
+              "pdf_pages": [
+                17
+              ],
+              "printed_pages": [
+                14
+              ]
+            }
+          },
+          {
+            "id": "6",
+            "label": null,
+            "value": 6,
+            "source": {
+              "pdf_pages": [
+                17
+              ],
+              "printed_pages": [
+                14
+              ]
+            }
+          },
+          {
+            "id": "7",
+            "label": null,
+            "value": 7,
+            "source": {
+              "pdf_pages": [
+                17
+              ],
+              "printed_pages": [
+                14
+              ]
+            }
+          },
+          {
+            "id": "8",
+            "label": null,
+            "value": 8,
+            "source": {
+              "pdf_pages": [
+                17
+              ],
+              "printed_pages": [
+                14
+              ]
+            }
+          },
+          {
+            "id": "9",
+            "label": null,
+            "value": 9,
+            "source": {
+              "pdf_pages": [
+                17
+              ],
+              "printed_pages": [
+                14
+              ]
+            }
+          },
+          {
+            "id": "10",
+            "label": "极度正面意见",
+            "value": 10,
+            "source": {
+              "pdf_pages": [
+                17
+              ],
+              "printed_pages": [
+                14
+              ]
+            }
+          }
+        ],
+        "minimum": 1,
+        "maximum": 10,
+        "cardinality": "single",
+        "slots": null,
+        "raw_instruction": "使用说明：本问卷使用NPS10级计分，填答者可以根据自身真实想法和感受进行评分。选项由10个等级构成，表示程度不断增加的连续变化。1代表极度负面意见，10代表极度正面意见。其中的2-9按照程度连续变化。",
+        "unknowns": [
+          {
+            "field": "options.label",
+            "reason": "原文只给端点文字，未为中间档命名；中间档保留数值和null标签。"
+          }
+        ],
+        "ranking": null
+      }
+    },
+    {
+      "id": "cooperation-social--original.q009",
+      "order": 9,
+      "original_number": null,
+      "role": "measurement",
+      "measurement_class": "scale",
+      "kind": "rating",
+      "raw_text": "在遭别人误解而受到责难时，我能冷静地对待和处理",
+      "student_text": "在遭别人误解而受到责难时，我能冷静地对待和处理",
+      "source": {
+        "pdf_pages": [
+          18
+        ],
+        "printed_pages": [
+          15
+        ]
+      },
+      "group_id": "cooperation-social--original.group002",
+      "subdimension": null,
+      "subdimension_reason": "原题表未明示每题对应的理论细分维度；不依据语义推断。",
+      "teacher_annotations": [],
+      "reverse": {
+        "marked": null,
+        "raw_marker": null,
+        "source": null,
+        "reason": "本原文题项未标明反向题；否定措辞不作为反向依据。"
+      },
+      "response": {
+        "options": [
+          {
+            "id": "1",
+            "label": "极度负面意见",
+            "value": 1,
+            "source": {
+              "pdf_pages": [
+                17
+              ],
+              "printed_pages": [
+                14
+              ]
+            }
+          },
+          {
+            "id": "2",
+            "label": null,
+            "value": 2,
+            "source": {
+              "pdf_pages": [
+                17
+              ],
+              "printed_pages": [
+                14
+              ]
+            }
+          },
+          {
+            "id": "3",
+            "label": null,
+            "value": 3,
+            "source": {
+              "pdf_pages": [
+                17
+              ],
+              "printed_pages": [
+                14
+              ]
+            }
+          },
+          {
+            "id": "4",
+            "label": null,
+            "value": 4,
+            "source": {
+              "pdf_pages": [
+                17
+              ],
+              "printed_pages": [
+                14
+              ]
+            }
+          },
+          {
+            "id": "5",
+            "label": null,
+            "value": 5,
+            "source": {
+              "pdf_pages": [
+                17
+              ],
+              "printed_pages": [
+                14
+              ]
+            }
+          },
+          {
+            "id": "6",
+            "label": null,
+            "value": 6,
+            "source": {
+              "pdf_pages": [
+                17
+              ],
+              "printed_pages": [
+                14
+              ]
+            }
+          },
+          {
+            "id": "7",
+            "label": null,
+            "value": 7,
+            "source": {
+              "pdf_pages": [
+                17
+              ],
+              "printed_pages": [
+                14
+              ]
+            }
+          },
+          {
+            "id": "8",
+            "label": null,
+            "value": 8,
+            "source": {
+              "pdf_pages": [
+                17
+              ],
+              "printed_pages": [
+                14
+              ]
+            }
+          },
+          {
+            "id": "9",
+            "label": null,
+            "value": 9,
+            "source": {
+              "pdf_pages": [
+                17
+              ],
+              "printed_pages": [
+                14
+              ]
+            }
+          },
+          {
+            "id": "10",
+            "label": "极度正面意见",
+            "value": 10,
+            "source": {
+              "pdf_pages": [
+                17
+              ],
+              "printed_pages": [
+                14
+              ]
+            }
+          }
+        ],
+        "minimum": 1,
+        "maximum": 10,
+        "cardinality": "single",
+        "slots": null,
+        "raw_instruction": "使用说明：本问卷使用NPS10级计分，填答者可以根据自身真实想法和感受进行评分。选项由10个等级构成，表示程度不断增加的连续变化。1代表极度负面意见，10代表极度正面意见。其中的2-9按照程度连续变化。",
+        "unknowns": [
+          {
+            "field": "options.label",
+            "reason": "原文只给端点文字，未为中间档命名；中间档保留数值和null标签。"
+          }
+        ],
+        "ranking": null
+      }
+    },
+    {
+      "id": "cooperation-social--original.q010",
+      "order": 10,
+      "original_number": null,
+      "role": "measurement",
+      "measurement_class": "scale",
+      "kind": "rating",
+      "raw_text": "我能够帮助朋友厘清他(她)面临问题的关键之处",
+      "student_text": "我能够帮助朋友厘清他(她)面临问题的关键之处",
+      "source": {
+        "pdf_pages": [
+          18
+        ],
+        "printed_pages": [
+          15
+        ]
+      },
+      "group_id": "cooperation-social--original.group002",
+      "subdimension": null,
+      "subdimension_reason": "原题表未明示每题对应的理论细分维度；不依据语义推断。",
+      "teacher_annotations": [],
+      "reverse": {
+        "marked": null,
+        "raw_marker": null,
+        "source": null,
+        "reason": "本原文题项未标明反向题；否定措辞不作为反向依据。"
+      },
+      "response": {
+        "options": [
+          {
+            "id": "1",
+            "label": "极度负面意见",
+            "value": 1,
+            "source": {
+              "pdf_pages": [
+                17
+              ],
+              "printed_pages": [
+                14
+              ]
+            }
+          },
+          {
+            "id": "2",
+            "label": null,
+            "value": 2,
+            "source": {
+              "pdf_pages": [
+                17
+              ],
+              "printed_pages": [
+                14
+              ]
+            }
+          },
+          {
+            "id": "3",
+            "label": null,
+            "value": 3,
+            "source": {
+              "pdf_pages": [
+                17
+              ],
+              "printed_pages": [
+                14
+              ]
+            }
+          },
+          {
+            "id": "4",
+            "label": null,
+            "value": 4,
+            "source": {
+              "pdf_pages": [
+                17
+              ],
+              "printed_pages": [
+                14
+              ]
+            }
+          },
+          {
+            "id": "5",
+            "label": null,
+            "value": 5,
+            "source": {
+              "pdf_pages": [
+                17
+              ],
+              "printed_pages": [
+                14
+              ]
+            }
+          },
+          {
+            "id": "6",
+            "label": null,
+            "value": 6,
+            "source": {
+              "pdf_pages": [
+                17
+              ],
+              "printed_pages": [
+                14
+              ]
+            }
+          },
+          {
+            "id": "7",
+            "label": null,
+            "value": 7,
+            "source": {
+              "pdf_pages": [
+                17
+              ],
+              "printed_pages": [
+                14
+              ]
+            }
+          },
+          {
+            "id": "8",
+            "label": null,
+            "value": 8,
+            "source": {
+              "pdf_pages": [
+                17
+              ],
+              "printed_pages": [
+                14
+              ]
+            }
+          },
+          {
+            "id": "9",
+            "label": null,
+            "value": 9,
+            "source": {
+              "pdf_pages": [
+                17
+              ],
+              "printed_pages": [
+                14
+              ]
+            }
+          },
+          {
+            "id": "10",
+            "label": "极度正面意见",
+            "value": 10,
+            "source": {
+              "pdf_pages": [
+                17
+              ],
+              "printed_pages": [
+                14
+              ]
+            }
+          }
+        ],
+        "minimum": 1,
+        "maximum": 10,
+        "cardinality": "single",
+        "slots": null,
+        "raw_instruction": "使用说明：本问卷使用NPS10级计分，填答者可以根据自身真实想法和感受进行评分。选项由10个等级构成，表示程度不断增加的连续变化。1代表极度负面意见，10代表极度正面意见。其中的2-9按照程度连续变化。",
+        "unknowns": [
+          {
+            "field": "options.label",
+            "reason": "原文只给端点文字，未为中间档命名；中间档保留数值和null标签。"
+          }
+        ],
+        "ranking": null
+      }
+    },
+    {
+      "id": "cooperation-social--original.q011",
+      "order": 11,
+      "original_number": null,
+      "role": "measurement",
+      "measurement_class": "scale",
+      "kind": "rating",
+      "raw_text": "我不善于说服人，尽管有时觉得自己的观点很有道理",
+      "student_text": "我不善于说服人，尽管有时觉得自己的观点很有道理",
+      "source": {
+        "pdf_pages": [
+          18
+        ],
+        "printed_pages": [
+          15
+        ]
+      },
+      "group_id": "cooperation-social--original.group002",
+      "subdimension": null,
+      "subdimension_reason": "原题表未明示每题对应的理论细分维度；不依据语义推断。",
+      "teacher_annotations": [],
+      "reverse": {
+        "marked": null,
+        "raw_marker": null,
+        "source": null,
+        "reason": "本原文题项未标明反向题；否定措辞不作为反向依据。"
+      },
+      "response": {
+        "options": [
+          {
+            "id": "1",
+            "label": "极度负面意见",
+            "value": 1,
+            "source": {
+              "pdf_pages": [
+                17
+              ],
+              "printed_pages": [
+                14
+              ]
+            }
+          },
+          {
+            "id": "2",
+            "label": null,
+            "value": 2,
+            "source": {
+              "pdf_pages": [
+                17
+              ],
+              "printed_pages": [
+                14
+              ]
+            }
+          },
+          {
+            "id": "3",
+            "label": null,
+            "value": 3,
+            "source": {
+              "pdf_pages": [
+                17
+              ],
+              "printed_pages": [
+                14
+              ]
+            }
+          },
+          {
+            "id": "4",
+            "label": null,
+            "value": 4,
+            "source": {
+              "pdf_pages": [
+                17
+              ],
+              "printed_pages": [
+                14
+              ]
+            }
+          },
+          {
+            "id": "5",
+            "label": null,
+            "value": 5,
+            "source": {
+              "pdf_pages": [
+                17
+              ],
+              "printed_pages": [
+                14
+              ]
+            }
+          },
+          {
+            "id": "6",
+            "label": null,
+            "value": 6,
+            "source": {
+              "pdf_pages": [
+                17
+              ],
+              "printed_pages": [
+                14
+              ]
+            }
+          },
+          {
+            "id": "7",
+            "label": null,
+            "value": 7,
+            "source": {
+              "pdf_pages": [
+                17
+              ],
+              "printed_pages": [
+                14
+              ]
+            }
+          },
+          {
+            "id": "8",
+            "label": null,
+            "value": 8,
+            "source": {
+              "pdf_pages": [
+                17
+              ],
+              "printed_pages": [
+                14
+              ]
+            }
+          },
+          {
+            "id": "9",
+            "label": null,
+            "value": 9,
+            "source": {
+              "pdf_pages": [
+                17
+              ],
+              "printed_pages": [
+                14
+              ]
+            }
+          },
+          {
+            "id": "10",
+            "label": "极度正面意见",
+            "value": 10,
+            "source": {
+              "pdf_pages": [
+                17
+              ],
+              "printed_pages": [
+                14
+              ]
+            }
+          }
+        ],
+        "minimum": 1,
+        "maximum": 10,
+        "cardinality": "single",
+        "slots": null,
+        "raw_instruction": "使用说明：本问卷使用NPS10级计分，填答者可以根据自身真实想法和感受进行评分。选项由10个等级构成，表示程度不断增加的连续变化。1代表极度负面意见，10代表极度正面意见。其中的2-9按照程度连续变化。",
+        "unknowns": [
+          {
+            "field": "options.label",
+            "reason": "原文只给端点文字，未为中间档命名；中间档保留数值和null标签。"
+          }
+        ],
+        "ranking": null
+      }
+    },
+    {
+      "id": "cooperation-social--original.q012",
+      "order": 12,
+      "original_number": null,
+      "role": "measurement",
+      "measurement_class": "scale",
+      "kind": "rating",
+      "raw_text": "我会主动与我想要认识的陌生人谈话",
+      "student_text": "我会主动与我想要认识的陌生人谈话",
+      "source": {
+        "pdf_pages": [
+          18
+        ],
+        "printed_pages": [
+          15
+        ]
+      },
+      "group_id": "cooperation-social--original.group002",
+      "subdimension": null,
+      "subdimension_reason": "原题表未明示每题对应的理论细分维度；不依据语义推断。",
+      "teacher_annotations": [],
+      "reverse": {
+        "marked": null,
+        "raw_marker": null,
+        "source": null,
+        "reason": "本原文题项未标明反向题；否定措辞不作为反向依据。"
+      },
+      "response": {
+        "options": [
+          {
+            "id": "1",
+            "label": "极度负面意见",
+            "value": 1,
+            "source": {
+              "pdf_pages": [
+                17
+              ],
+              "printed_pages": [
+                14
+              ]
+            }
+          },
+          {
+            "id": "2",
+            "label": null,
+            "value": 2,
+            "source": {
+              "pdf_pages": [
+                17
+              ],
+              "printed_pages": [
+                14
+              ]
+            }
+          },
+          {
+            "id": "3",
+            "label": null,
+            "value": 3,
+            "source": {
+              "pdf_pages": [
+                17
+              ],
+              "printed_pages": [
+                14
+              ]
+            }
+          },
+          {
+            "id": "4",
+            "label": null,
+            "value": 4,
+            "source": {
+              "pdf_pages": [
+                17
+              ],
+              "printed_pages": [
+                14
+              ]
+            }
+          },
+          {
+            "id": "5",
+            "label": null,
+            "value": 5,
+            "source": {
+              "pdf_pages": [
+                17
+              ],
+              "printed_pages": [
+                14
+              ]
+            }
+          },
+          {
+            "id": "6",
+            "label": null,
+            "value": 6,
+            "source": {
+              "pdf_pages": [
+                17
+              ],
+              "printed_pages": [
+                14
+              ]
+            }
+          },
+          {
+            "id": "7",
+            "label": null,
+            "value": 7,
+            "source": {
+              "pdf_pages": [
+                17
+              ],
+              "printed_pages": [
+                14
+              ]
+            }
+          },
+          {
+            "id": "8",
+            "label": null,
+            "value": 8,
+            "source": {
+              "pdf_pages": [
+                17
+              ],
+              "printed_pages": [
+                14
+              ]
+            }
+          },
+          {
+            "id": "9",
+            "label": null,
+            "value": 9,
+            "source": {
+              "pdf_pages": [
+                17
+              ],
+              "printed_pages": [
+                14
+              ]
+            }
+          },
+          {
+            "id": "10",
+            "label": "极度正面意见",
+            "value": 10,
+            "source": {
+              "pdf_pages": [
+                17
+              ],
+              "printed_pages": [
+                14
+              ]
+            }
+          }
+        ],
+        "minimum": 1,
+        "maximum": 10,
+        "cardinality": "single",
+        "slots": null,
+        "raw_instruction": "使用说明：本问卷使用NPS10级计分，填答者可以根据自身真实想法和感受进行评分。选项由10个等级构成，表示程度不断增加的连续变化。1代表极度负面意见，10代表极度正面意见。其中的2-9按照程度连续变化。",
+        "unknowns": [
+          {
+            "field": "options.label",
+            "reason": "原文只给端点文字，未为中间档命名；中间档保留数值和null标签。"
+          }
+        ],
+        "ranking": null
+      }
+    },
+    {
+      "id": "cooperation-social--original.q013",
+      "order": 13,
+      "original_number": null,
+      "role": "measurement",
+      "measurement_class": "scale",
+      "kind": "rating",
+      "raw_text": "我很少主动到同学、朋友家串门",
+      "student_text": "我很少主动到同学、朋友家串门",
+      "source": {
+        "pdf_pages": [
+          18
+        ],
+        "printed_pages": [
+          15
+        ]
+      },
+      "group_id": "cooperation-social--original.group002",
+      "subdimension": null,
+      "subdimension_reason": "原题表未明示每题对应的理论细分维度；不依据语义推断。",
+      "teacher_annotations": [],
+      "reverse": {
+        "marked": null,
+        "raw_marker": null,
+        "source": null,
+        "reason": "本原文题项未标明反向题；否定措辞不作为反向依据。"
+      },
+      "response": {
+        "options": [
+          {
+            "id": "1",
+            "label": "极度负面意见",
+            "value": 1,
+            "source": {
+              "pdf_pages": [
+                17
+              ],
+              "printed_pages": [
+                14
+              ]
+            }
+          },
+          {
+            "id": "2",
+            "label": null,
+            "value": 2,
+            "source": {
+              "pdf_pages": [
+                17
+              ],
+              "printed_pages": [
+                14
+              ]
+            }
+          },
+          {
+            "id": "3",
+            "label": null,
+            "value": 3,
+            "source": {
+              "pdf_pages": [
+                17
+              ],
+              "printed_pages": [
+                14
+              ]
+            }
+          },
+          {
+            "id": "4",
+            "label": null,
+            "value": 4,
+            "source": {
+              "pdf_pages": [
+                17
+              ],
+              "printed_pages": [
+                14
+              ]
+            }
+          },
+          {
+            "id": "5",
+            "label": null,
+            "value": 5,
+            "source": {
+              "pdf_pages": [
+                17
+              ],
+              "printed_pages": [
+                14
+              ]
+            }
+          },
+          {
+            "id": "6",
+            "label": null,
+            "value": 6,
+            "source": {
+              "pdf_pages": [
+                17
+              ],
+              "printed_pages": [
+                14
+              ]
+            }
+          },
+          {
+            "id": "7",
+            "label": null,
+            "value": 7,
+            "source": {
+              "pdf_pages": [
+                17
+              ],
+              "printed_pages": [
+                14
+              ]
+            }
+          },
+          {
+            "id": "8",
+            "label": null,
+            "value": 8,
+            "source": {
+              "pdf_pages": [
+                17
+              ],
+              "printed_pages": [
+                14
+              ]
+            }
+          },
+          {
+            "id": "9",
+            "label": null,
+            "value": 9,
+            "source": {
+              "pdf_pages": [
+                17
+              ],
+              "printed_pages": [
+                14
+              ]
+            }
+          },
+          {
+            "id": "10",
+            "label": "极度正面意见",
+            "value": 10,
+            "source": {
+              "pdf_pages": [
+                17
+              ],
+              "printed_pages": [
+                14
+              ]
+            }
+          }
+        ],
+        "minimum": 1,
+        "maximum": 10,
+        "cardinality": "single",
+        "slots": null,
+        "raw_instruction": "使用说明：本问卷使用NPS10级计分，填答者可以根据自身真实想法和感受进行评分。选项由10个等级构成，表示程度不断增加的连续变化。1代表极度负面意见，10代表极度正面意见。其中的2-9按照程度连续变化。",
+        "unknowns": [
+          {
+            "field": "options.label",
+            "reason": "原文只给端点文字，未为中间档命名；中间档保留数值和null标签。"
+          }
+        ],
+        "ranking": null
+      }
+    },
+    {
+      "id": "cooperation-social--original.q014",
+      "order": 14,
+      "original_number": null,
+      "role": "measurement",
+      "measurement_class": "scale",
+      "kind": "rating",
+      "raw_text": "别人话中带刺讥讽我，除了生气，我别无他法",
+      "student_text": "别人话中带刺讥讽我，除了生气，我别无他法",
+      "source": {
+        "pdf_pages": [
+          18
+        ],
+        "printed_pages": [
+          15
+        ]
+      },
+      "group_id": "cooperation-social--original.group002",
+      "subdimension": null,
+      "subdimension_reason": "原题表未明示每题对应的理论细分维度；不依据语义推断。",
+      "teacher_annotations": [],
+      "reverse": {
+        "marked": null,
+        "raw_marker": null,
+        "source": null,
+        "reason": "本原文题项未标明反向题；否定措辞不作为反向依据。"
+      },
+      "response": {
+        "options": [
+          {
+            "id": "1",
+            "label": "极度负面意见",
+            "value": 1,
+            "source": {
+              "pdf_pages": [
+                17
+              ],
+              "printed_pages": [
+                14
+              ]
+            }
+          },
+          {
+            "id": "2",
+            "label": null,
+            "value": 2,
+            "source": {
+              "pdf_pages": [
+                17
+              ],
+              "printed_pages": [
+                14
+              ]
+            }
+          },
+          {
+            "id": "3",
+            "label": null,
+            "value": 3,
+            "source": {
+              "pdf_pages": [
+                17
+              ],
+              "printed_pages": [
+                14
+              ]
+            }
+          },
+          {
+            "id": "4",
+            "label": null,
+            "value": 4,
+            "source": {
+              "pdf_pages": [
+                17
+              ],
+              "printed_pages": [
+                14
+              ]
+            }
+          },
+          {
+            "id": "5",
+            "label": null,
+            "value": 5,
+            "source": {
+              "pdf_pages": [
+                17
+              ],
+              "printed_pages": [
+                14
+              ]
+            }
+          },
+          {
+            "id": "6",
+            "label": null,
+            "value": 6,
+            "source": {
+              "pdf_pages": [
+                17
+              ],
+              "printed_pages": [
+                14
+              ]
+            }
+          },
+          {
+            "id": "7",
+            "label": null,
+            "value": 7,
+            "source": {
+              "pdf_pages": [
+                17
+              ],
+              "printed_pages": [
+                14
+              ]
+            }
+          },
+          {
+            "id": "8",
+            "label": null,
+            "value": 8,
+            "source": {
+              "pdf_pages": [
+                17
+              ],
+              "printed_pages": [
+                14
+              ]
+            }
+          },
+          {
+            "id": "9",
+            "label": null,
+            "value": 9,
+            "source": {
+              "pdf_pages": [
+                17
+              ],
+              "printed_pages": [
+                14
+              ]
+            }
+          },
+          {
+            "id": "10",
+            "label": "极度正面意见",
+            "value": 10,
+            "source": {
+              "pdf_pages": [
+                17
+              ],
+              "printed_pages": [
+                14
+              ]
+            }
+          }
+        ],
+        "minimum": 1,
+        "maximum": 10,
+        "cardinality": "single",
+        "slots": null,
+        "raw_instruction": "使用说明：本问卷使用NPS10级计分，填答者可以根据自身真实想法和感受进行评分。选项由10个等级构成，表示程度不断增加的连续变化。1代表极度负面意见，10代表极度正面意见。其中的2-9按照程度连续变化。",
+        "unknowns": [
+          {
+            "field": "options.label",
+            "reason": "原文只给端点文字，未为中间档命名；中间档保留数值和null标签。"
+          }
+        ],
+        "ranking": null
+      }
+    },
+    {
+      "id": "cooperation-social--original.q015",
+      "order": 15,
+      "original_number": null,
+      "role": "measurement",
+      "measurement_class": "scale",
+      "kind": "rating",
+      "raw_text": "当别人受到羞辱时,我能够鼓励他（她）并以实际行动支持他(她)",
+      "student_text": "当别人受到羞辱时,我能够鼓励他（她）并以实际行动支持他(她)",
+      "source": {
+        "pdf_pages": [
+          18
+        ],
+        "printed_pages": [
+          15
+        ]
+      },
+      "group_id": "cooperation-social--original.group002",
+      "subdimension": null,
+      "subdimension_reason": "原题表未明示每题对应的理论细分维度；不依据语义推断。",
+      "teacher_annotations": [],
+      "reverse": {
+        "marked": null,
+        "raw_marker": null,
+        "source": null,
+        "reason": "本原文题项未标明反向题；否定措辞不作为反向依据。"
+      },
+      "response": {
+        "options": [
+          {
+            "id": "1",
+            "label": "极度负面意见",
+            "value": 1,
+            "source": {
+              "pdf_pages": [
+                17
+              ],
+              "printed_pages": [
+                14
+              ]
+            }
+          },
+          {
+            "id": "2",
+            "label": null,
+            "value": 2,
+            "source": {
+              "pdf_pages": [
+                17
+              ],
+              "printed_pages": [
+                14
+              ]
+            }
+          },
+          {
+            "id": "3",
+            "label": null,
+            "value": 3,
+            "source": {
+              "pdf_pages": [
+                17
+              ],
+              "printed_pages": [
+                14
+              ]
+            }
+          },
+          {
+            "id": "4",
+            "label": null,
+            "value": 4,
+            "source": {
+              "pdf_pages": [
+                17
+              ],
+              "printed_pages": [
+                14
+              ]
+            }
+          },
+          {
+            "id": "5",
+            "label": null,
+            "value": 5,
+            "source": {
+              "pdf_pages": [
+                17
+              ],
+              "printed_pages": [
+                14
+              ]
+            }
+          },
+          {
+            "id": "6",
+            "label": null,
+            "value": 6,
+            "source": {
+              "pdf_pages": [
+                17
+              ],
+              "printed_pages": [
+                14
+              ]
+            }
+          },
+          {
+            "id": "7",
+            "label": null,
+            "value": 7,
+            "source": {
+              "pdf_pages": [
+                17
+              ],
+              "printed_pages": [
+                14
+              ]
+            }
+          },
+          {
+            "id": "8",
+            "label": null,
+            "value": 8,
+            "source": {
+              "pdf_pages": [
+                17
+              ],
+              "printed_pages": [
+                14
+              ]
+            }
+          },
+          {
+            "id": "9",
+            "label": null,
+            "value": 9,
+            "source": {
+              "pdf_pages": [
+                17
+              ],
+              "printed_pages": [
+                14
+              ]
+            }
+          },
+          {
+            "id": "10",
+            "label": "极度正面意见",
+            "value": 10,
+            "source": {
+              "pdf_pages": [
+                17
+              ],
+              "printed_pages": [
+                14
+              ]
+            }
+          }
+        ],
+        "minimum": 1,
+        "maximum": 10,
+        "cardinality": "single",
+        "slots": null,
+        "raw_instruction": "使用说明：本问卷使用NPS10级计分，填答者可以根据自身真实想法和感受进行评分。选项由10个等级构成，表示程度不断增加的连续变化。1代表极度负面意见，10代表极度正面意见。其中的2-9按照程度连续变化。",
+        "unknowns": [
+          {
+            "field": "options.label",
+            "reason": "原文只给端点文字，未为中间档命名；中间档保留数值和null标签。"
+          }
+        ],
+        "ranking": null
+      }
+    },
+    {
+      "id": "cooperation-social--original.q016",
+      "order": 16,
+      "original_number": null,
+      "role": "measurement",
+      "measurement_class": "scale",
+      "kind": "rating",
+      "raw_text": "我无法在内向的人面前轻松自如地谈论自己的情况",
+      "student_text": "我无法在内向的人面前轻松自如地谈论自己的情况",
+      "source": {
+        "pdf_pages": [
+          18
+        ],
+        "printed_pages": [
+          15
+        ]
+      },
+      "group_id": "cooperation-social--original.group002",
+      "subdimension": null,
+      "subdimension_reason": "原题表未明示每题对应的理论细分维度；不依据语义推断。",
+      "teacher_annotations": [],
+      "reverse": {
+        "marked": null,
+        "raw_marker": null,
+        "source": null,
+        "reason": "本原文题项未标明反向题；否定措辞不作为反向依据。"
+      },
+      "response": {
+        "options": [
+          {
+            "id": "1",
+            "label": "极度负面意见",
+            "value": 1,
+            "source": {
+              "pdf_pages": [
+                17
+              ],
+              "printed_pages": [
+                14
+              ]
+            }
+          },
+          {
+            "id": "2",
+            "label": null,
+            "value": 2,
+            "source": {
+              "pdf_pages": [
+                17
+              ],
+              "printed_pages": [
+                14
+              ]
+            }
+          },
+          {
+            "id": "3",
+            "label": null,
+            "value": 3,
+            "source": {
+              "pdf_pages": [
+                17
+              ],
+              "printed_pages": [
+                14
+              ]
+            }
+          },
+          {
+            "id": "4",
+            "label": null,
+            "value": 4,
+            "source": {
+              "pdf_pages": [
+                17
+              ],
+              "printed_pages": [
+                14
+              ]
+            }
+          },
+          {
+            "id": "5",
+            "label": null,
+            "value": 5,
+            "source": {
+              "pdf_pages": [
+                17
+              ],
+              "printed_pages": [
+                14
+              ]
+            }
+          },
+          {
+            "id": "6",
+            "label": null,
+            "value": 6,
+            "source": {
+              "pdf_pages": [
+                17
+              ],
+              "printed_pages": [
+                14
+              ]
+            }
+          },
+          {
+            "id": "7",
+            "label": null,
+            "value": 7,
+            "source": {
+              "pdf_pages": [
+                17
+              ],
+              "printed_pages": [
+                14
+              ]
+            }
+          },
+          {
+            "id": "8",
+            "label": null,
+            "value": 8,
+            "source": {
+              "pdf_pages": [
+                17
+              ],
+              "printed_pages": [
+                14
+              ]
+            }
+          },
+          {
+            "id": "9",
+            "label": null,
+            "value": 9,
+            "source": {
+              "pdf_pages": [
+                17
+              ],
+              "printed_pages": [
+                14
+              ]
+            }
+          },
+          {
+            "id": "10",
+            "label": "极度正面意见",
+            "value": 10,
+            "source": {
+              "pdf_pages": [
+                17
+              ],
+              "printed_pages": [
+                14
+              ]
+            }
+          }
+        ],
+        "minimum": 1,
+        "maximum": 10,
+        "cardinality": "single",
+        "slots": null,
+        "raw_instruction": "使用说明：本问卷使用NPS10级计分，填答者可以根据自身真实想法和感受进行评分。选项由10个等级构成，表示程度不断增加的连续变化。1代表极度负面意见，10代表极度正面意见。其中的2-9按照程度连续变化。",
+        "unknowns": [
+          {
+            "field": "options.label",
+            "reason": "原文只给端点文字，未为中间档命名；中间档保留数值和null标签。"
+          }
+        ],
+        "ranking": null
+      }
+    },
+    {
+      "id": "cooperation-social--original.q017",
+      "order": 17,
+      "original_number": null,
+      "role": "measurement",
+      "measurement_class": "scale",
+      "kind": "rating",
+      "raw_text": "我喜欢与人周旋，热衷于寻找社交接触的机会",
+      "student_text": "我喜欢与人周旋，热衷于寻找社交接触的机会",
+      "source": {
+        "pdf_pages": [
+          18
+        ],
+        "printed_pages": [
+          15
+        ]
+      },
+      "group_id": "cooperation-social--original.group002",
+      "subdimension": null,
+      "subdimension_reason": "原题表未明示每题对应的理论细分维度；不依据语义推断。",
+      "teacher_annotations": [],
+      "reverse": {
+        "marked": null,
+        "raw_marker": null,
+        "source": null,
+        "reason": "本原文题项未标明反向题；否定措辞不作为反向依据。"
+      },
+      "response": {
+        "options": [
+          {
+            "id": "1",
+            "label": "极度负面意见",
+            "value": 1,
+            "source": {
+              "pdf_pages": [
+                17
+              ],
+              "printed_pages": [
+                14
+              ]
+            }
+          },
+          {
+            "id": "2",
+            "label": null,
+            "value": 2,
+            "source": {
+              "pdf_pages": [
+                17
+              ],
+              "printed_pages": [
+                14
+              ]
+            }
+          },
+          {
+            "id": "3",
+            "label": null,
+            "value": 3,
+            "source": {
+              "pdf_pages": [
+                17
+              ],
+              "printed_pages": [
+                14
+              ]
+            }
+          },
+          {
+            "id": "4",
+            "label": null,
+            "value": 4,
+            "source": {
+              "pdf_pages": [
+                17
+              ],
+              "printed_pages": [
+                14
+              ]
+            }
+          },
+          {
+            "id": "5",
+            "label": null,
+            "value": 5,
+            "source": {
+              "pdf_pages": [
+                17
+              ],
+              "printed_pages": [
+                14
+              ]
+            }
+          },
+          {
+            "id": "6",
+            "label": null,
+            "value": 6,
+            "source": {
+              "pdf_pages": [
+                17
+              ],
+              "printed_pages": [
+                14
+              ]
+            }
+          },
+          {
+            "id": "7",
+            "label": null,
+            "value": 7,
+            "source": {
+              "pdf_pages": [
+                17
+              ],
+              "printed_pages": [
+                14
+              ]
+            }
+          },
+          {
+            "id": "8",
+            "label": null,
+            "value": 8,
+            "source": {
+              "pdf_pages": [
+                17
+              ],
+              "printed_pages": [
+                14
+              ]
+            }
+          },
+          {
+            "id": "9",
+            "label": null,
+            "value": 9,
+            "source": {
+              "pdf_pages": [
+                17
+              ],
+              "printed_pages": [
+                14
+              ]
+            }
+          },
+          {
+            "id": "10",
+            "label": "极度正面意见",
+            "value": 10,
+            "source": {
+              "pdf_pages": [
+                17
+              ],
+              "printed_pages": [
+                14
+              ]
+            }
+          }
+        ],
+        "minimum": 1,
+        "maximum": 10,
+        "cardinality": "single",
+        "slots": null,
+        "raw_instruction": "使用说明：本问卷使用NPS10级计分，填答者可以根据自身真实想法和感受进行评分。选项由10个等级构成，表示程度不断增加的连续变化。1代表极度负面意见，10代表极度正面意见。其中的2-9按照程度连续变化。",
+        "unknowns": [
+          {
+            "field": "options.label",
+            "reason": "原文只给端点文字，未为中间档命名；中间档保留数值和null标签。"
+          }
+        ],
+        "ranking": null
+      }
+    },
+    {
+      "id": "cooperation-social--original.q018",
+      "order": 18,
+      "original_number": null,
+      "role": "measurement",
+      "measurement_class": "scale",
+      "kind": "rating",
+      "raw_text": "我的要好朋友很少",
+      "student_text": "我的要好朋友很少",
+      "source": {
+        "pdf_pages": [
+          18
+        ],
+        "printed_pages": [
+          15
+        ]
+      },
+      "group_id": "cooperation-social--original.group002",
+      "subdimension": null,
+      "subdimension_reason": "原题表未明示每题对应的理论细分维度；不依据语义推断。",
+      "teacher_annotations": [],
+      "reverse": {
+        "marked": null,
+        "raw_marker": null,
+        "source": null,
+        "reason": "本原文题项未标明反向题；否定措辞不作为反向依据。"
+      },
+      "response": {
+        "options": [
+          {
+            "id": "1",
+            "label": "极度负面意见",
+            "value": 1,
+            "source": {
+              "pdf_pages": [
+                17
+              ],
+              "printed_pages": [
+                14
+              ]
+            }
+          },
+          {
+            "id": "2",
+            "label": null,
+            "value": 2,
+            "source": {
+              "pdf_pages": [
+                17
+              ],
+              "printed_pages": [
+                14
+              ]
+            }
+          },
+          {
+            "id": "3",
+            "label": null,
+            "value": 3,
+            "source": {
+              "pdf_pages": [
+                17
+              ],
+              "printed_pages": [
+                14
+              ]
+            }
+          },
+          {
+            "id": "4",
+            "label": null,
+            "value": 4,
+            "source": {
+              "pdf_pages": [
+                17
+              ],
+              "printed_pages": [
+                14
+              ]
+            }
+          },
+          {
+            "id": "5",
+            "label": null,
+            "value": 5,
+            "source": {
+              "pdf_pages": [
+                17
+              ],
+              "printed_pages": [
+                14
+              ]
+            }
+          },
+          {
+            "id": "6",
+            "label": null,
+            "value": 6,
+            "source": {
+              "pdf_pages": [
+                17
+              ],
+              "printed_pages": [
+                14
+              ]
+            }
+          },
+          {
+            "id": "7",
+            "label": null,
+            "value": 7,
+            "source": {
+              "pdf_pages": [
+                17
+              ],
+              "printed_pages": [
+                14
+              ]
+            }
+          },
+          {
+            "id": "8",
+            "label": null,
+            "value": 8,
+            "source": {
+              "pdf_pages": [
+                17
+              ],
+              "printed_pages": [
+                14
+              ]
+            }
+          },
+          {
+            "id": "9",
+            "label": null,
+            "value": 9,
+            "source": {
+              "pdf_pages": [
+                17
+              ],
+              "printed_pages": [
+                14
+              ]
+            }
+          },
+          {
+            "id": "10",
+            "label": "极度正面意见",
+            "value": 10,
+            "source": {
+              "pdf_pages": [
+                17
+              ],
+              "printed_pages": [
+                14
+              ]
+            }
+          }
+        ],
+        "minimum": 1,
+        "maximum": 10,
+        "cardinality": "single",
+        "slots": null,
+        "raw_instruction": "使用说明：本问卷使用NPS10级计分，填答者可以根据自身真实想法和感受进行评分。选项由10个等级构成，表示程度不断增加的连续变化。1代表极度负面意见，10代表极度正面意见。其中的2-9按照程度连续变化。",
+        "unknowns": [
+          {
+            "field": "options.label",
+            "reason": "原文只给端点文字，未为中间档命名；中间档保留数值和null标签。"
+          }
+        ],
+        "ranking": null
+      }
+    },
+    {
+      "id": "cooperation-social--original.q019",
+      "order": 19,
+      "original_number": null,
+      "role": "measurement",
+      "measurement_class": "scale",
+      "kind": "rating",
+      "raw_text": "面对和他人的矛盾和冲突，我往往不知所措，甚至将情况弄得更糟",
+      "student_text": "面对和他人的矛盾和冲突，我往往不知所措，甚至将情况弄得更糟",
+      "source": {
+        "pdf_pages": [
+          18
+        ],
+        "printed_pages": [
+          15
+        ]
+      },
+      "group_id": "cooperation-social--original.group002",
+      "subdimension": null,
+      "subdimension_reason": "原题表未明示每题对应的理论细分维度；不依据语义推断。",
+      "teacher_annotations": [],
+      "reverse": {
+        "marked": null,
+        "raw_marker": null,
+        "source": null,
+        "reason": "本原文题项未标明反向题；否定措辞不作为反向依据。"
+      },
+      "response": {
+        "options": [
+          {
+            "id": "1",
+            "label": "极度负面意见",
+            "value": 1,
+            "source": {
+              "pdf_pages": [
+                17
+              ],
+              "printed_pages": [
+                14
+              ]
+            }
+          },
+          {
+            "id": "2",
+            "label": null,
+            "value": 2,
+            "source": {
+              "pdf_pages": [
+                17
+              ],
+              "printed_pages": [
+                14
+              ]
+            }
+          },
+          {
+            "id": "3",
+            "label": null,
+            "value": 3,
+            "source": {
+              "pdf_pages": [
+                17
+              ],
+              "printed_pages": [
+                14
+              ]
+            }
+          },
+          {
+            "id": "4",
+            "label": null,
+            "value": 4,
+            "source": {
+              "pdf_pages": [
+                17
+              ],
+              "printed_pages": [
+                14
+              ]
+            }
+          },
+          {
+            "id": "5",
+            "label": null,
+            "value": 5,
+            "source": {
+              "pdf_pages": [
+                17
+              ],
+              "printed_pages": [
+                14
+              ]
+            }
+          },
+          {
+            "id": "6",
+            "label": null,
+            "value": 6,
+            "source": {
+              "pdf_pages": [
+                17
+              ],
+              "printed_pages": [
+                14
+              ]
+            }
+          },
+          {
+            "id": "7",
+            "label": null,
+            "value": 7,
+            "source": {
+              "pdf_pages": [
+                17
+              ],
+              "printed_pages": [
+                14
+              ]
+            }
+          },
+          {
+            "id": "8",
+            "label": null,
+            "value": 8,
+            "source": {
+              "pdf_pages": [
+                17
+              ],
+              "printed_pages": [
+                14
+              ]
+            }
+          },
+          {
+            "id": "9",
+            "label": null,
+            "value": 9,
+            "source": {
+              "pdf_pages": [
+                17
+              ],
+              "printed_pages": [
+                14
+              ]
+            }
+          },
+          {
+            "id": "10",
+            "label": "极度正面意见",
+            "value": 10,
+            "source": {
+              "pdf_pages": [
+                17
+              ],
+              "printed_pages": [
+                14
+              ]
+            }
+          }
+        ],
+        "minimum": 1,
+        "maximum": 10,
+        "cardinality": "single",
+        "slots": null,
+        "raw_instruction": "使用说明：本问卷使用NPS10级计分，填答者可以根据自身真实想法和感受进行评分。选项由10个等级构成，表示程度不断增加的连续变化。1代表极度负面意见，10代表极度正面意见。其中的2-9按照程度连续变化。",
+        "unknowns": [
+          {
+            "field": "options.label",
+            "reason": "原文只给端点文字，未为中间档命名；中间档保留数值和null标签。"
+          }
+        ],
+        "ranking": null
+      }
+    },
+    {
+      "id": "cooperation-social--original.q020",
+      "order": 20,
+      "original_number": null,
+      "role": "measurement",
+      "measurement_class": "scale",
+      "kind": "rating",
+      "raw_text": "当别人心情不好时，我能够主动安慰他（她）",
+      "student_text": "当别人心情不好时，我能够主动安慰他（她）",
+      "source": {
+        "pdf_pages": [
+          18
+        ],
+        "printed_pages": [
+          15
+        ]
+      },
+      "group_id": "cooperation-social--original.group002",
+      "subdimension": null,
+      "subdimension_reason": "原题表未明示每题对应的理论细分维度；不依据语义推断。",
+      "teacher_annotations": [],
+      "reverse": {
+        "marked": null,
+        "raw_marker": null,
+        "source": null,
+        "reason": "本原文题项未标明反向题；否定措辞不作为反向依据。"
+      },
+      "response": {
+        "options": [
+          {
+            "id": "1",
+            "label": "极度负面意见",
+            "value": 1,
+            "source": {
+              "pdf_pages": [
+                17
+              ],
+              "printed_pages": [
+                14
+              ]
+            }
+          },
+          {
+            "id": "2",
+            "label": null,
+            "value": 2,
+            "source": {
+              "pdf_pages": [
+                17
+              ],
+              "printed_pages": [
+                14
+              ]
+            }
+          },
+          {
+            "id": "3",
+            "label": null,
+            "value": 3,
+            "source": {
+              "pdf_pages": [
+                17
+              ],
+              "printed_pages": [
+                14
+              ]
+            }
+          },
+          {
+            "id": "4",
+            "label": null,
+            "value": 4,
+            "source": {
+              "pdf_pages": [
+                17
+              ],
+              "printed_pages": [
+                14
+              ]
+            }
+          },
+          {
+            "id": "5",
+            "label": null,
+            "value": 5,
+            "source": {
+              "pdf_pages": [
+                17
+              ],
+              "printed_pages": [
+                14
+              ]
+            }
+          },
+          {
+            "id": "6",
+            "label": null,
+            "value": 6,
+            "source": {
+              "pdf_pages": [
+                17
+              ],
+              "printed_pages": [
+                14
+              ]
+            }
+          },
+          {
+            "id": "7",
+            "label": null,
+            "value": 7,
+            "source": {
+              "pdf_pages": [
+                17
+              ],
+              "printed_pages": [
+                14
+              ]
+            }
+          },
+          {
+            "id": "8",
+            "label": null,
+            "value": 8,
+            "source": {
+              "pdf_pages": [
+                17
+              ],
+              "printed_pages": [
+                14
+              ]
+            }
+          },
+          {
+            "id": "9",
+            "label": null,
+            "value": 9,
+            "source": {
+              "pdf_pages": [
+                17
+              ],
+              "printed_pages": [
+                14
+              ]
+            }
+          },
+          {
+            "id": "10",
+            "label": "极度正面意见",
+            "value": 10,
+            "source": {
+              "pdf_pages": [
+                17
+              ],
+              "printed_pages": [
+                14
+              ]
+            }
+          }
+        ],
+        "minimum": 1,
+        "maximum": 10,
+        "cardinality": "single",
+        "slots": null,
+        "raw_instruction": "使用说明：本问卷使用NPS10级计分，填答者可以根据自身真实想法和感受进行评分。选项由10个等级构成，表示程度不断增加的连续变化。1代表极度负面意见，10代表极度正面意见。其中的2-9按照程度连续变化。",
+        "unknowns": [
+          {
+            "field": "options.label",
+            "reason": "原文只给端点文字，未为中间档命名；中间档保留数值和null标签。"
+          }
+        ],
+        "ranking": null
+      }
+    },
+    {
+      "id": "cooperation-social--original.q021",
+      "order": 21,
+      "original_number": null,
+      "role": "measurement",
+      "measurement_class": "scale",
+      "kind": "rating",
+      "raw_text": "没有熟人在场，我感到很难找到彼此交谈的话题",
+      "student_text": "没有熟人在场，我感到很难找到彼此交谈的话题",
+      "source": {
+        "pdf_pages": [
+          18
+        ],
+        "printed_pages": [
+          15
+        ]
+      },
+      "group_id": "cooperation-social--original.group002",
+      "subdimension": null,
+      "subdimension_reason": "原题表未明示每题对应的理论细分维度；不依据语义推断。",
+      "teacher_annotations": [],
+      "reverse": {
+        "marked": null,
+        "raw_marker": null,
+        "source": null,
+        "reason": "本原文题项未标明反向题；否定措辞不作为反向依据。"
+      },
+      "response": {
+        "options": [
+          {
+            "id": "1",
+            "label": "极度负面意见",
+            "value": 1,
+            "source": {
+              "pdf_pages": [
+                17
+              ],
+              "printed_pages": [
+                14
+              ]
+            }
+          },
+          {
+            "id": "2",
+            "label": null,
+            "value": 2,
+            "source": {
+              "pdf_pages": [
+                17
+              ],
+              "printed_pages": [
+                14
+              ]
+            }
+          },
+          {
+            "id": "3",
+            "label": null,
+            "value": 3,
+            "source": {
+              "pdf_pages": [
+                17
+              ],
+              "printed_pages": [
+                14
+              ]
+            }
+          },
+          {
+            "id": "4",
+            "label": null,
+            "value": 4,
+            "source": {
+              "pdf_pages": [
+                17
+              ],
+              "printed_pages": [
+                14
+              ]
+            }
+          },
+          {
+            "id": "5",
+            "label": null,
+            "value": 5,
+            "source": {
+              "pdf_pages": [
+                17
+              ],
+              "printed_pages": [
+                14
+              ]
+            }
+          },
+          {
+            "id": "6",
+            "label": null,
+            "value": 6,
+            "source": {
+              "pdf_pages": [
+                17
+              ],
+              "printed_pages": [
+                14
+              ]
+            }
+          },
+          {
+            "id": "7",
+            "label": null,
+            "value": 7,
+            "source": {
+              "pdf_pages": [
+                17
+              ],
+              "printed_pages": [
+                14
+              ]
+            }
+          },
+          {
+            "id": "8",
+            "label": null,
+            "value": 8,
+            "source": {
+              "pdf_pages": [
+                17
+              ],
+              "printed_pages": [
+                14
+              ]
+            }
+          },
+          {
+            "id": "9",
+            "label": null,
+            "value": 9,
+            "source": {
+              "pdf_pages": [
+                17
+              ],
+              "printed_pages": [
+                14
+              ]
+            }
+          },
+          {
+            "id": "10",
+            "label": "极度正面意见",
+            "value": 10,
+            "source": {
+              "pdf_pages": [
+                17
+              ],
+              "printed_pages": [
+                14
+              ]
+            }
+          }
+        ],
+        "minimum": 1,
+        "maximum": 10,
+        "cardinality": "single",
+        "slots": null,
+        "raw_instruction": "使用说明：本问卷使用NPS10级计分，填答者可以根据自身真实想法和感受进行评分。选项由10个等级构成，表示程度不断增加的连续变化。1代表极度负面意见，10代表极度正面意见。其中的2-9按照程度连续变化。",
+        "unknowns": [
+          {
+            "field": "options.label",
+            "reason": "原文只给端点文字，未为中间档命名；中间档保留数值和null标签。"
+          }
+        ],
+        "ranking": null
+      }
+    },
+    {
+      "id": "cooperation-social--original.q022",
+      "order": 22,
+      "original_number": null,
+      "role": "measurement",
+      "measurement_class": "scale",
+      "kind": "rating",
+      "raw_text": "我会主动约新认识的朋友",
+      "student_text": "我会主动约新认识的朋友",
+      "source": {
+        "pdf_pages": [
+          18
+        ],
+        "printed_pages": [
+          15
+        ]
+      },
+      "group_id": "cooperation-social--original.group002",
+      "subdimension": null,
+      "subdimension_reason": "原题表未明示每题对应的理论细分维度；不依据语义推断。",
+      "teacher_annotations": [],
+      "reverse": {
+        "marked": null,
+        "raw_marker": null,
+        "source": null,
+        "reason": "本原文题项未标明反向题；否定措辞不作为反向依据。"
+      },
+      "response": {
+        "options": [
+          {
+            "id": "1",
+            "label": "极度负面意见",
+            "value": 1,
+            "source": {
+              "pdf_pages": [
+                17
+              ],
+              "printed_pages": [
+                14
+              ]
+            }
+          },
+          {
+            "id": "2",
+            "label": null,
+            "value": 2,
+            "source": {
+              "pdf_pages": [
+                17
+              ],
+              "printed_pages": [
+                14
+              ]
+            }
+          },
+          {
+            "id": "3",
+            "label": null,
+            "value": 3,
+            "source": {
+              "pdf_pages": [
+                17
+              ],
+              "printed_pages": [
+                14
+              ]
+            }
+          },
+          {
+            "id": "4",
+            "label": null,
+            "value": 4,
+            "source": {
+              "pdf_pages": [
+                17
+              ],
+              "printed_pages": [
+                14
+              ]
+            }
+          },
+          {
+            "id": "5",
+            "label": null,
+            "value": 5,
+            "source": {
+              "pdf_pages": [
+                17
+              ],
+              "printed_pages": [
+                14
+              ]
+            }
+          },
+          {
+            "id": "6",
+            "label": null,
+            "value": 6,
+            "source": {
+              "pdf_pages": [
+                17
+              ],
+              "printed_pages": [
+                14
+              ]
+            }
+          },
+          {
+            "id": "7",
+            "label": null,
+            "value": 7,
+            "source": {
+              "pdf_pages": [
+                17
+              ],
+              "printed_pages": [
+                14
+              ]
+            }
+          },
+          {
+            "id": "8",
+            "label": null,
+            "value": 8,
+            "source": {
+              "pdf_pages": [
+                17
+              ],
+              "printed_pages": [
+                14
+              ]
+            }
+          },
+          {
+            "id": "9",
+            "label": null,
+            "value": 9,
+            "source": {
+              "pdf_pages": [
+                17
+              ],
+              "printed_pages": [
+                14
+              ]
+            }
+          },
+          {
+            "id": "10",
+            "label": "极度正面意见",
+            "value": 10,
+            "source": {
+              "pdf_pages": [
+                17
+              ],
+              "printed_pages": [
+                14
+              ]
+            }
+          }
+        ],
+        "minimum": 1,
+        "maximum": 10,
+        "cardinality": "single",
+        "slots": null,
+        "raw_instruction": "使用说明：本问卷使用NPS10级计分，填答者可以根据自身真实想法和感受进行评分。选项由10个等级构成，表示程度不断增加的连续变化。1代表极度负面意见，10代表极度正面意见。其中的2-9按照程度连续变化。",
+        "unknowns": [
+          {
+            "field": "options.label",
+            "reason": "原文只给端点文字，未为中间档命名；中间档保留数值和null标签。"
+          }
+        ],
+        "ranking": null
+      }
+    },
+    {
+      "id": "cooperation-social--original.q023",
+      "order": 23,
+      "original_number": null,
+      "role": "measurement",
+      "measurement_class": "scale",
+      "kind": "rating",
+      "raw_text": "我能够帮助朋友厘清关于重大决策的一些问题",
+      "student_text": "我能够帮助朋友厘清关于重大决策的一些问题",
+      "source": {
+        "pdf_pages": [
+          18
+        ],
+        "printed_pages": [
+          15
+        ]
+      },
+      "group_id": "cooperation-social--original.group002",
+      "subdimension": null,
+      "subdimension_reason": "原题表未明示每题对应的理论细分维度；不依据语义推断。",
+      "teacher_annotations": [],
+      "reverse": {
+        "marked": null,
+        "raw_marker": null,
+        "source": null,
+        "reason": "本原文题项未标明反向题；否定措辞不作为反向依据。"
+      },
+      "response": {
+        "options": [
+          {
+            "id": "1",
+            "label": "极度负面意见",
+            "value": 1,
+            "source": {
+              "pdf_pages": [
+                17
+              ],
+              "printed_pages": [
+                14
+              ]
+            }
+          },
+          {
+            "id": "2",
+            "label": null,
+            "value": 2,
+            "source": {
+              "pdf_pages": [
+                17
+              ],
+              "printed_pages": [
+                14
+              ]
+            }
+          },
+          {
+            "id": "3",
+            "label": null,
+            "value": 3,
+            "source": {
+              "pdf_pages": [
+                17
+              ],
+              "printed_pages": [
+                14
+              ]
+            }
+          },
+          {
+            "id": "4",
+            "label": null,
+            "value": 4,
+            "source": {
+              "pdf_pages": [
+                17
+              ],
+              "printed_pages": [
+                14
+              ]
+            }
+          },
+          {
+            "id": "5",
+            "label": null,
+            "value": 5,
+            "source": {
+              "pdf_pages": [
+                17
+              ],
+              "printed_pages": [
+                14
+              ]
+            }
+          },
+          {
+            "id": "6",
+            "label": null,
+            "value": 6,
+            "source": {
+              "pdf_pages": [
+                17
+              ],
+              "printed_pages": [
+                14
+              ]
+            }
+          },
+          {
+            "id": "7",
+            "label": null,
+            "value": 7,
+            "source": {
+              "pdf_pages": [
+                17
+              ],
+              "printed_pages": [
+                14
+              ]
+            }
+          },
+          {
+            "id": "8",
+            "label": null,
+            "value": 8,
+            "source": {
+              "pdf_pages": [
+                17
+              ],
+              "printed_pages": [
+                14
+              ]
+            }
+          },
+          {
+            "id": "9",
+            "label": null,
+            "value": 9,
+            "source": {
+              "pdf_pages": [
+                17
+              ],
+              "printed_pages": [
+                14
+              ]
+            }
+          },
+          {
+            "id": "10",
+            "label": "极度正面意见",
+            "value": 10,
+            "source": {
+              "pdf_pages": [
+                17
+              ],
+              "printed_pages": [
+                14
+              ]
+            }
+          }
+        ],
+        "minimum": 1,
+        "maximum": 10,
+        "cardinality": "single",
+        "slots": null,
+        "raw_instruction": "使用说明：本问卷使用NPS10级计分，填答者可以根据自身真实想法和感受进行评分。选项由10个等级构成，表示程度不断增加的连续变化。1代表极度负面意见，10代表极度正面意见。其中的2-9按照程度连续变化。",
+        "unknowns": [
+          {
+            "field": "options.label",
+            "reason": "原文只给端点文字，未为中间档命名；中间档保留数值和null标签。"
+          }
+        ],
+        "ranking": null
+      }
+    },
+    {
+      "id": "cooperation-social--original.q024",
+      "order": 24,
+      "original_number": null,
+      "role": "measurement",
+      "measurement_class": "scale",
+      "kind": "rating",
+      "raw_text": "我不喜欢在大庭广众之下说话",
+      "student_text": "我不喜欢在大庭广众之下说话",
+      "source": {
+        "pdf_pages": [
+          18
+        ],
+        "printed_pages": [
+          15
+        ]
+      },
+      "group_id": "cooperation-social--original.group002",
+      "subdimension": null,
+      "subdimension_reason": "原题表未明示每题对应的理论细分维度；不依据语义推断。",
+      "teacher_annotations": [],
+      "reverse": {
+        "marked": null,
+        "raw_marker": null,
+        "source": null,
+        "reason": "本原文题项未标明反向题；否定措辞不作为反向依据。"
+      },
+      "response": {
+        "options": [
+          {
+            "id": "1",
+            "label": "极度负面意见",
+            "value": 1,
+            "source": {
+              "pdf_pages": [
+                17
+              ],
+              "printed_pages": [
+                14
+              ]
+            }
+          },
+          {
+            "id": "2",
+            "label": null,
+            "value": 2,
+            "source": {
+              "pdf_pages": [
+                17
+              ],
+              "printed_pages": [
+                14
+              ]
+            }
+          },
+          {
+            "id": "3",
+            "label": null,
+            "value": 3,
+            "source": {
+              "pdf_pages": [
+                17
+              ],
+              "printed_pages": [
+                14
+              ]
+            }
+          },
+          {
+            "id": "4",
+            "label": null,
+            "value": 4,
+            "source": {
+              "pdf_pages": [
+                17
+              ],
+              "printed_pages": [
+                14
+              ]
+            }
+          },
+          {
+            "id": "5",
+            "label": null,
+            "value": 5,
+            "source": {
+              "pdf_pages": [
+                17
+              ],
+              "printed_pages": [
+                14
+              ]
+            }
+          },
+          {
+            "id": "6",
+            "label": null,
+            "value": 6,
+            "source": {
+              "pdf_pages": [
+                17
+              ],
+              "printed_pages": [
+                14
+              ]
+            }
+          },
+          {
+            "id": "7",
+            "label": null,
+            "value": 7,
+            "source": {
+              "pdf_pages": [
+                17
+              ],
+              "printed_pages": [
+                14
+              ]
+            }
+          },
+          {
+            "id": "8",
+            "label": null,
+            "value": 8,
+            "source": {
+              "pdf_pages": [
+                17
+              ],
+              "printed_pages": [
+                14
+              ]
+            }
+          },
+          {
+            "id": "9",
+            "label": null,
+            "value": 9,
+            "source": {
+              "pdf_pages": [
+                17
+              ],
+              "printed_pages": [
+                14
+              ]
+            }
+          },
+          {
+            "id": "10",
+            "label": "极度正面意见",
+            "value": 10,
+            "source": {
+              "pdf_pages": [
+                17
+              ],
+              "printed_pages": [
+                14
+              ]
+            }
+          }
+        ],
+        "minimum": 1,
+        "maximum": 10,
+        "cardinality": "single",
+        "slots": null,
+        "raw_instruction": "使用说明：本问卷使用NPS10级计分，填答者可以根据自身真实想法和感受进行评分。选项由10个等级构成，表示程度不断增加的连续变化。1代表极度负面意见，10代表极度正面意见。其中的2-9按照程度连续变化。",
+        "unknowns": [
+          {
+            "field": "options.label",
+            "reason": "原文只给端点文字，未为中间档命名；中间档保留数值和null标签。"
+          }
+        ],
+        "ranking": null
+      }
+    }
+  ],
+  "groups": [
+    {
+      "id": "cooperation-social--original.group001",
+      "raw_name": "合作力水平",
+      "source": {
+        "pdf_pages": [
+          18
+        ],
+        "printed_pages": [
+          15
+        ]
+      },
+      "parent_id": null,
+      "note": null
+    },
+    {
+      "id": "cooperation-social--original.group002",
+      "raw_name": "社交能力",
+      "source": {
+        "pdf_pages": [
+          18
+        ],
+        "printed_pages": [
+          15
+        ]
+      },
+      "parent_id": null,
+      "note": null
+    }
+  ],
+  "blocks": [
+    {
+      "id": "cooperation-social--original.table001",
+      "kind": "matrix",
+      "raw_title": null,
+      "item_ids": [
+        "cooperation-social--original.q001",
+        "cooperation-social--original.q002",
+        "cooperation-social--original.q003",
+        "cooperation-social--original.q004",
+        "cooperation-social--original.q005",
+        "cooperation-social--original.q006",
+        "cooperation-social--original.q007",
+        "cooperation-social--original.q008",
+        "cooperation-social--original.q009",
+        "cooperation-social--original.q010",
+        "cooperation-social--original.q011",
+        "cooperation-social--original.q012",
+        "cooperation-social--original.q013",
+        "cooperation-social--original.q014",
+        "cooperation-social--original.q015",
+        "cooperation-social--original.q016",
+        "cooperation-social--original.q017",
+        "cooperation-social--original.q018",
+        "cooperation-social--original.q019",
+        "cooperation-social--original.q020",
+        "cooperation-social--original.q021",
+        "cooperation-social--original.q022",
+        "cooperation-social--original.q023",
+        "cooperation-social--original.q024"
+      ],
+      "source": {
+        "pdf_pages": [
+          18
+        ],
+        "printed_pages": [
+          15
+        ]
+      },
+      "note": "原表列为维度、题项、1-10；保存整表原结构及一级合并组，逐行题项不重复计数。"
+    }
+  ],
+  "scoring": {
+    "raw_rules": [],
+    "reverse_mapping": null,
+    "unknowns": [
+      {
+        "field": "reverse_mapping",
+        "reason": "原文未标反向或提供反向数值转换，不借用第一辑规则。",
+        "source": {
+          "pdf_pages": [
+            18
+          ],
+          "printed_pages": [
+            15
+          ]
+        }
+      },
+      {
+        "field": "aggregate_rules",
+        "reason": "原文未给总分/分组汇总算法，NPS10术语不作为净推荐值公式依据。",
+        "source": {
+          "pdf_pages": [
+            18
+          ],
+          "printed_pages": [
+            15
+          ]
+        }
+      },
+      {
+        "field": "subdimension_mapping",
+        "reason": "原文未提供理论细分维度与每题的对应。",
+        "source": {
+          "pdf_pages": [
+            18
+          ],
+          "printed_pages": [
+            15
+          ]
+        }
+      },
+      {
+        "field": "missing_values_and_norms",
+        "reason": "原文未给缺失值处理、常模或解释阈值。",
+        "source": {
+          "pdf_pages": [
+            18
+          ],
+          "printed_pages": [
+            15
+          ]
+        }
+      }
+    ]
+  },
+  "counts": {
+    "basic_information": 3,
+    "measurement_items": 24,
+    "scale_items": 24,
+    "preliminary_items": 0,
+    "background_items": 0,
+    "item_records": 24,
+    "original_question_blocks": 24,
+    "reason": null
+  },
+  "issues": [
+    {
+      "id": "A-16",
+      "category": "metadata",
+      "blocking": false,
+      "source": {
+        "pdf_pages": [
+          17
+        ],
+        "printed_pages": [
+          14
+        ]
+      },
+      "original_text": "使用说明：本问卷使用NPS10级计分，填答者可以根据自身真实想法和感受进行评分。选项由10个等级构成，表示程度不断增加的连续变化。1代表极度负面意见，10代表极度正面意见。其中的2-9按照程度连续变化。",
+      "missing_information": "NPS10术语没有配套统计公式；没有明示反向题。",
+      "possible_resolutions": [
+        "只保存1–10作答数值和原端点；统计与反向信息留未知。",
+        "如获正式补充，另记录来源。"
+      ],
+      "recommendation": "保留术语原文，不实施计分，不补反向标记。",
+      "affected_item_ids": [
+        "cooperation-social--original.q001",
+        "cooperation-social--original.q002",
+        "cooperation-social--original.q003",
+        "cooperation-social--original.q004",
+        "cooperation-social--original.q005",
+        "cooperation-social--original.q006",
+        "cooperation-social--original.q007",
+        "cooperation-social--original.q008",
+        "cooperation-social--original.q009",
+        "cooperation-social--original.q010",
+        "cooperation-social--original.q011",
+        "cooperation-social--original.q012",
+        "cooperation-social--original.q013",
+        "cooperation-social--original.q014",
+        "cooperation-social--original.q015",
+        "cooperation-social--original.q016",
+        "cooperation-social--original.q017",
+        "cooperation-social--original.q018",
+        "cooperation-social--original.q019",
+        "cooperation-social--original.q020",
+        "cooperation-social--original.q021",
+        "cooperation-social--original.q022",
+        "cooperation-social--original.q023",
+        "cooperation-social--original.q024"
+      ],
+      "resolution": null
+    },
+    {
+      "id": "cooperation-social.basic-fields",
+      "category": "metadata",
+      "blocking": false,
+      "source": {
+        "pdf_pages": [
+          17
+        ],
+        "printed_pages": [
+          14
+        ]
+      },
+      "original_text": "性别：年龄：年级：",
+      "missing_information": "未提供选项、年龄范围、年级枚举及必填性。",
+      "possible_resolutions": [
+        "保留三个原空白填写字段。",
+        "取得原来源补充后记录约束。"
+      ],
+      "recommendation": "按原空白保存，不生成枚举或限制。",
+      "affected_item_ids": [
+        "cooperation-social--original.basic001",
+        "cooperation-social--original.basic002",
+        "cooperation-social--original.basic003"
+      ],
+      "resolution": null
+    },
+    {
+      "id": "A-11",
+      "category": "textual",
+      "blocking": false,
+      "source": {
+        "pdf_pages": [
+          15,
+          16,
+          17
+        ],
+        "printed_pages": [
+          12,
+          13,
+          14
+        ]
+      },
+      "original_text": "情况支持\n情感支持",
+      "missing_information": "图3（PDF15/印12）写“情况支持”；正文及表3（PDF15–17/印12–14）写“情感支持”。图中文字与正文、维度解释表不一致。",
+      "possible_resolutions": [
+        "分处保存原文，不统一改词。"
+      ],
+      "recommendation": "题表一级组保持不变，细分词语差异教师侧提示。",
+      "affected_item_ids": [
+        "cooperation-social--original.q001",
+        "cooperation-social--original.q002",
+        "cooperation-social--original.q003",
+        "cooperation-social--original.q004",
+        "cooperation-social--original.q005",
+        "cooperation-social--original.q006",
+        "cooperation-social--original.q007",
+        "cooperation-social--original.q008",
+        "cooperation-social--original.q009",
+        "cooperation-social--original.q010",
+        "cooperation-social--original.q011",
+        "cooperation-social--original.q012",
+        "cooperation-social--original.q013",
+        "cooperation-social--original.q014",
+        "cooperation-social--original.q015",
+        "cooperation-social--original.q016",
+        "cooperation-social--original.q017",
+        "cooperation-social--original.q018",
+        "cooperation-social--original.q019",
+        "cooperation-social--original.q020",
+        "cooperation-social--original.q021",
+        "cooperation-social--original.q022",
+        "cooperation-social--original.q023",
+        "cooperation-social--original.q024"
+      ],
+      "resolution": null
+    },
+    {
+      "id": "A-11.group",
+      "category": "metadata",
+      "blocking": false,
+      "source": {
+        "pdf_pages": [
+          18
+        ],
+        "printed_pages": [
+          15
+        ]
+      },
+      "original_text": "我在日常生活中不习惯主动找别人搭话\n即使被别人拒绝我也能很快调适自己",
+      "missing_information": "这两行虽可能有社交含义，PDF18/印15原合并组明确是合作力水平；合作力组6行、社交组18行。没有细分对应，不能依据语义移组。",
+      "possible_resolutions": [
+        "按原表保存合作力6项、社交18项。"
+      ],
+      "recommendation": "不按语义把两行移到社交能力。",
+      "affected_item_ids": [
+        "cooperation-social--original.q005",
+        "cooperation-social--original.q006"
+      ],
+      "resolution": null
+    }
+  ],
+  "review": {
+    "status": "verified",
+    "transcription_verified": true,
+    "checked_pdf_pages": [
+      15,
+      16,
+      17,
+      18
+    ],
+    "method": "重新从源PDF以pypdf和pdfplumber提取；人工查看本轮Poppler原页PNG，逐行比对题表、指导语、作答等级、原分组及跨页延续。仅合并版面换行与无语义空白。",
+    "reviewed_on": "2026-10-04",
+    "eligible_for_generation": true,
+    "note": "仅为原文数据核对状态，不表示生成器已实现、WorkBuddy已运行或问卷星已导入。未命名档位不补文字、未标反向不推断，计分仅保留元数据。"
+  }
+}

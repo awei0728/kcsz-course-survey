@@ -1,0 +1,5041 @@
+{
+  "schema_version": 1,
+  "id": "thinking-problem-solving--original",
+  "project_id": "thinking-problem-solving",
+  "version_id": "original",
+  "project_name": "思考方式和问题解决能力",
+  "original_name": "大学生思考力问卷",
+  "original_name_reason": null,
+  "title": {
+    "raw_text": "大学生思考力问卷",
+    "student_text": "大学生思考力问卷",
+    "source": {
+      "pdf_pages": [
+        21
+      ],
+      "printed_pages": [
+        18
+      ]
+    }
+  },
+  "source": {
+    "filename": "武汉大学课程思政教学评价指南（第二辑）.pdf",
+    "volume": 2,
+    "chapter": "四、思考方式和问题解决能力评价指南",
+    "pdf_pages": [
+      19,
+      20,
+      21,
+      22,
+      23
+    ],
+    "printed_pages": [
+      16,
+      17,
+      18,
+      19,
+      20
+    ],
+    "sha256": "409e07caee432868f24c51a5c3989cabdb5df37f8bbdcddfb36cc4adbbc51ce4"
+  },
+  "instructions": [
+    {
+      "id": "thinking-problem-solving--original.instruction001",
+      "role": "guidance",
+      "raw_text": "指导语：亲爱的同学，你好！欢迎你参加本次调研。本问卷不记名，完全保密，资料仅供学术研究使用，请根据你的实际情况，如实地填写并完成以下问题。你的如实回答对研究具有非常重要的意义。非常感谢你的参与，谢谢你的合作！",
+      "student_text": "指导语：亲爱的同学，你好！欢迎你参加本次调研。本问卷不记名，完全保密，资料仅供学术研究使用，请根据你的实际情况，如实地填写并完成以下问题。你的如实回答对研究具有非常重要的意义。非常感谢你的参与，谢谢你的合作！",
+      "source": {
+        "pdf_pages": [
+          21,
+          22
+        ],
+        "printed_pages": [
+          18,
+          19
+        ]
+      }
+    },
+    {
+      "id": "thinking-problem-solving--original.instruction002",
+      "role": "response",
+      "raw_text": "使用说明：本问卷使用NPS10级计分，填答者可以根据自身真实想法和感受进行评分。选项由10个等级构成，表示程度不断增加的连续变化。1代表极度负面意见，10代表极度正面意见。其中的2-9按照程度连续变化。",
+      "student_text": "使用说明：本问卷使用NPS10级计分，填答者可以根据自身真实想法和感受进行评分。选项由10个等级构成，表示程度不断增加的连续变化。1代表极度负面意见，10代表极度正面意见。其中的2-9按照程度连续变化。",
+      "source": {
+        "pdf_pages": [
+          22
+        ],
+        "printed_pages": [
+          19
+        ]
+      }
+    },
+    {
+      "id": "thinking-problem-solving--original.instruction003",
+      "role": "teacher",
+      "raw_text": "（二）维度划分Vanceetal.（2007）的Linear-NonlinearThinkingStyleProfile问卷，从学生加工处理的信息源与后续决策倾向两个角度，将思维方式分为线性思维与非线性思维方式。在他们所设计的量表中，涵盖了外部信息源、内部信息源、线性决策与非线性决策四个维度[23]。对于问题意识来说，本问卷借鉴了布鲁纳有关问题解决的划分思路。布鲁纳认为学习者的学习过程就是学习者自己发现问题、回答和解决问题的过程，因此学生在学习过程中是知识的发现者，而不是被动的接受者。在布鲁纳学习理论的指导下，学生学习中的主动思维被放到了重要位置，教学要激发学生主动思考、自主性学习，培养学生的思维能力尤其是思考能力。[24]本问卷参考了大学生发现并提出问题能力培养的实证研究，将学生的问题意识界定为个体思维的问题意识，即学生具有可以发现问题并敢于提出问题、分析问题和解决问题的意识，如图4所示：",
+      "student_text": null,
+      "source": {
+        "pdf_pages": [
+          20
+        ],
+        "printed_pages": [
+          17
+        ]
+      }
+    }
+  ],
+  "basic_information": [
+    {
+      "id": "thinking-problem-solving--original.basic001",
+      "order": 1,
+      "original_number": null,
+      "role": "basic_information",
+      "measurement_class": null,
+      "kind": "open",
+      "raw_text": "性别：",
+      "student_text": "性别：",
+      "source": {
+        "pdf_pages": [
+          21
+        ],
+        "printed_pages": [
+          18
+        ]
+      },
+      "group_id": null,
+      "subdimension": null,
+      "subdimension_reason": "人口基本信息字段，不作维度归属。",
+      "teacher_annotations": [],
+      "reverse": {
+        "marked": null,
+        "raw_marker": null,
+        "source": null,
+        "reason": "本原文题项未标明反向题；否定措辞不作为反向依据。"
+      },
+      "response": {
+        "options": [],
+        "minimum": null,
+        "maximum": null,
+        "cardinality": null,
+        "slots": 1,
+        "raw_instruction": null,
+        "unknowns": [
+          {
+            "field": "required",
+            "reason": "原文未说明必填性。"
+          },
+          {
+            "field": "constraints",
+            "reason": "原文只有空白填写位置，无枚举选项、格式或范围。"
+          }
+        ],
+        "ranking": null
+      }
+    },
+    {
+      "id": "thinking-problem-solving--original.basic002",
+      "order": 2,
+      "original_number": null,
+      "role": "basic_information",
+      "measurement_class": null,
+      "kind": "open",
+      "raw_text": "年龄：",
+      "student_text": "年龄：",
+      "source": {
+        "pdf_pages": [
+          21
+        ],
+        "printed_pages": [
+          18
+        ]
+      },
+      "group_id": null,
+      "subdimension": null,
+      "subdimension_reason": "人口基本信息字段，不作维度归属。",
+      "teacher_annotations": [],
+      "reverse": {
+        "marked": null,
+        "raw_marker": null,
+        "source": null,
+        "reason": "本原文题项未标明反向题；否定措辞不作为反向依据。"
+      },
+      "response": {
+        "options": [],
+        "minimum": null,
+        "maximum": null,
+        "cardinality": null,
+        "slots": 1,
+        "raw_instruction": null,
+        "unknowns": [
+          {
+            "field": "required",
+            "reason": "原文未说明必填性。"
+          },
+          {
+            "field": "constraints",
+            "reason": "原文只有空白填写位置，无枚举选项、格式或范围。"
+          }
+        ],
+        "ranking": null
+      }
+    },
+    {
+      "id": "thinking-problem-solving--original.basic003",
+      "order": 3,
+      "original_number": null,
+      "role": "basic_information",
+      "measurement_class": null,
+      "kind": "open",
+      "raw_text": "年级：",
+      "student_text": "年级：",
+      "source": {
+        "pdf_pages": [
+          21
+        ],
+        "printed_pages": [
+          18
+        ]
+      },
+      "group_id": null,
+      "subdimension": null,
+      "subdimension_reason": "人口基本信息字段，不作维度归属。",
+      "teacher_annotations": [],
+      "reverse": {
+        "marked": null,
+        "raw_marker": null,
+        "source": null,
+        "reason": "本原文题项未标明反向题；否定措辞不作为反向依据。"
+      },
+      "response": {
+        "options": [],
+        "minimum": null,
+        "maximum": null,
+        "cardinality": null,
+        "slots": 1,
+        "raw_instruction": null,
+        "unknowns": [
+          {
+            "field": "required",
+            "reason": "原文未说明必填性。"
+          },
+          {
+            "field": "constraints",
+            "reason": "原文只有空白填写位置，无枚举选项、格式或范围。"
+          }
+        ],
+        "ranking": null
+      }
+    }
+  ],
+  "items": [
+    {
+      "id": "thinking-problem-solving--original.q001",
+      "order": 1,
+      "original_number": null,
+      "role": "measurement",
+      "measurement_class": "scale",
+      "kind": "rating",
+      "raw_text": "我做决定时主要依靠逻辑",
+      "student_text": "我做决定时主要依靠逻辑",
+      "source": {
+        "pdf_pages": [
+          22
+        ],
+        "printed_pages": [
+          19
+        ]
+      },
+      "group_id": "thinking-problem-solving--original.group001",
+      "subdimension": null,
+      "subdimension_reason": "原题表未明示每题对应的理论细分维度；不依据语义推断。",
+      "teacher_annotations": [],
+      "reverse": {
+        "marked": null,
+        "raw_marker": null,
+        "source": null,
+        "reason": "本原文题项未标明反向题；否定措辞不作为反向依据。"
+      },
+      "response": {
+        "options": [
+          {
+            "id": "1",
+            "label": "极度负面意见",
+            "value": 1,
+            "source": {
+              "pdf_pages": [
+                22
+              ],
+              "printed_pages": [
+                19
+              ]
+            }
+          },
+          {
+            "id": "2",
+            "label": null,
+            "value": 2,
+            "source": {
+              "pdf_pages": [
+                22
+              ],
+              "printed_pages": [
+                19
+              ]
+            }
+          },
+          {
+            "id": "3",
+            "label": null,
+            "value": 3,
+            "source": {
+              "pdf_pages": [
+                22
+              ],
+              "printed_pages": [
+                19
+              ]
+            }
+          },
+          {
+            "id": "4",
+            "label": null,
+            "value": 4,
+            "source": {
+              "pdf_pages": [
+                22
+              ],
+              "printed_pages": [
+                19
+              ]
+            }
+          },
+          {
+            "id": "5",
+            "label": null,
+            "value": 5,
+            "source": {
+              "pdf_pages": [
+                22
+              ],
+              "printed_pages": [
+                19
+              ]
+            }
+          },
+          {
+            "id": "6",
+            "label": null,
+            "value": 6,
+            "source": {
+              "pdf_pages": [
+                22
+              ],
+              "printed_pages": [
+                19
+              ]
+            }
+          },
+          {
+            "id": "7",
+            "label": null,
+            "value": 7,
+            "source": {
+              "pdf_pages": [
+                22
+              ],
+              "printed_pages": [
+                19
+              ]
+            }
+          },
+          {
+            "id": "8",
+            "label": null,
+            "value": 8,
+            "source": {
+              "pdf_pages": [
+                22
+              ],
+              "printed_pages": [
+                19
+              ]
+            }
+          },
+          {
+            "id": "9",
+            "label": null,
+            "value": 9,
+            "source": {
+              "pdf_pages": [
+                22
+              ],
+              "printed_pages": [
+                19
+              ]
+            }
+          },
+          {
+            "id": "10",
+            "label": "极度正面意见",
+            "value": 10,
+            "source": {
+              "pdf_pages": [
+                22
+              ],
+              "printed_pages": [
+                19
+              ]
+            }
+          }
+        ],
+        "minimum": 1,
+        "maximum": 10,
+        "cardinality": "single",
+        "slots": null,
+        "raw_instruction": "使用说明：本问卷使用NPS10级计分，填答者可以根据自身真实想法和感受进行评分。选项由10个等级构成，表示程度不断增加的连续变化。1代表极度负面意见，10代表极度正面意见。其中的2-9按照程度连续变化。",
+        "unknowns": [
+          {
+            "field": "options.label",
+            "reason": "原文只给端点文字，未为中间档命名；中间档保留数值和null标签。"
+          }
+        ],
+        "ranking": null
+      }
+    },
+    {
+      "id": "thinking-problem-solving--original.q002",
+      "order": 2,
+      "original_number": null,
+      "role": "measurement",
+      "measurement_class": "scale",
+      "kind": "rating",
+      "raw_text": "我做决定时主要依靠情感",
+      "student_text": "我做决定时主要依靠情感",
+      "source": {
+        "pdf_pages": [
+          22
+        ],
+        "printed_pages": [
+          19
+        ]
+      },
+      "group_id": "thinking-problem-solving--original.group001",
+      "subdimension": null,
+      "subdimension_reason": "原题表未明示每题对应的理论细分维度；不依据语义推断。",
+      "teacher_annotations": [],
+      "reverse": {
+        "marked": null,
+        "raw_marker": null,
+        "source": null,
+        "reason": "本原文题项未标明反向题；否定措辞不作为反向依据。"
+      },
+      "response": {
+        "options": [
+          {
+            "id": "1",
+            "label": "极度负面意见",
+            "value": 1,
+            "source": {
+              "pdf_pages": [
+                22
+              ],
+              "printed_pages": [
+                19
+              ]
+            }
+          },
+          {
+            "id": "2",
+            "label": null,
+            "value": 2,
+            "source": {
+              "pdf_pages": [
+                22
+              ],
+              "printed_pages": [
+                19
+              ]
+            }
+          },
+          {
+            "id": "3",
+            "label": null,
+            "value": 3,
+            "source": {
+              "pdf_pages": [
+                22
+              ],
+              "printed_pages": [
+                19
+              ]
+            }
+          },
+          {
+            "id": "4",
+            "label": null,
+            "value": 4,
+            "source": {
+              "pdf_pages": [
+                22
+              ],
+              "printed_pages": [
+                19
+              ]
+            }
+          },
+          {
+            "id": "5",
+            "label": null,
+            "value": 5,
+            "source": {
+              "pdf_pages": [
+                22
+              ],
+              "printed_pages": [
+                19
+              ]
+            }
+          },
+          {
+            "id": "6",
+            "label": null,
+            "value": 6,
+            "source": {
+              "pdf_pages": [
+                22
+              ],
+              "printed_pages": [
+                19
+              ]
+            }
+          },
+          {
+            "id": "7",
+            "label": null,
+            "value": 7,
+            "source": {
+              "pdf_pages": [
+                22
+              ],
+              "printed_pages": [
+                19
+              ]
+            }
+          },
+          {
+            "id": "8",
+            "label": null,
+            "value": 8,
+            "source": {
+              "pdf_pages": [
+                22
+              ],
+              "printed_pages": [
+                19
+              ]
+            }
+          },
+          {
+            "id": "9",
+            "label": null,
+            "value": 9,
+            "source": {
+              "pdf_pages": [
+                22
+              ],
+              "printed_pages": [
+                19
+              ]
+            }
+          },
+          {
+            "id": "10",
+            "label": "极度正面意见",
+            "value": 10,
+            "source": {
+              "pdf_pages": [
+                22
+              ],
+              "printed_pages": [
+                19
+              ]
+            }
+          }
+        ],
+        "minimum": 1,
+        "maximum": 10,
+        "cardinality": "single",
+        "slots": null,
+        "raw_instruction": "使用说明：本问卷使用NPS10级计分，填答者可以根据自身真实想法和感受进行评分。选项由10个等级构成，表示程度不断增加的连续变化。1代表极度负面意见，10代表极度正面意见。其中的2-9按照程度连续变化。",
+        "unknowns": [
+          {
+            "field": "options.label",
+            "reason": "原文只给端点文字，未为中间档命名；中间档保留数值和null标签。"
+          }
+        ],
+        "ranking": null
+      }
+    },
+    {
+      "id": "thinking-problem-solving--original.q003",
+      "order": 3,
+      "original_number": null,
+      "role": "measurement",
+      "measurement_class": "scale",
+      "kind": "rating",
+      "raw_text": "我在做重大决定时，首先权衡定量因素，例如：我的年龄、我的家庭经济状况、未来的回报等",
+      "student_text": "我在做重大决定时，首先权衡定量因素，例如：我的年龄、我的家庭经济状况、未来的回报等",
+      "source": {
+        "pdf_pages": [
+          22
+        ],
+        "printed_pages": [
+          19
+        ]
+      },
+      "group_id": "thinking-problem-solving--original.group001",
+      "subdimension": null,
+      "subdimension_reason": "原题表未明示每题对应的理论细分维度；不依据语义推断。",
+      "teacher_annotations": [],
+      "reverse": {
+        "marked": null,
+        "raw_marker": null,
+        "source": null,
+        "reason": "本原文题项未标明反向题；否定措辞不作为反向依据。"
+      },
+      "response": {
+        "options": [
+          {
+            "id": "1",
+            "label": "极度负面意见",
+            "value": 1,
+            "source": {
+              "pdf_pages": [
+                22
+              ],
+              "printed_pages": [
+                19
+              ]
+            }
+          },
+          {
+            "id": "2",
+            "label": null,
+            "value": 2,
+            "source": {
+              "pdf_pages": [
+                22
+              ],
+              "printed_pages": [
+                19
+              ]
+            }
+          },
+          {
+            "id": "3",
+            "label": null,
+            "value": 3,
+            "source": {
+              "pdf_pages": [
+                22
+              ],
+              "printed_pages": [
+                19
+              ]
+            }
+          },
+          {
+            "id": "4",
+            "label": null,
+            "value": 4,
+            "source": {
+              "pdf_pages": [
+                22
+              ],
+              "printed_pages": [
+                19
+              ]
+            }
+          },
+          {
+            "id": "5",
+            "label": null,
+            "value": 5,
+            "source": {
+              "pdf_pages": [
+                22
+              ],
+              "printed_pages": [
+                19
+              ]
+            }
+          },
+          {
+            "id": "6",
+            "label": null,
+            "value": 6,
+            "source": {
+              "pdf_pages": [
+                22
+              ],
+              "printed_pages": [
+                19
+              ]
+            }
+          },
+          {
+            "id": "7",
+            "label": null,
+            "value": 7,
+            "source": {
+              "pdf_pages": [
+                22
+              ],
+              "printed_pages": [
+                19
+              ]
+            }
+          },
+          {
+            "id": "8",
+            "label": null,
+            "value": 8,
+            "source": {
+              "pdf_pages": [
+                22
+              ],
+              "printed_pages": [
+                19
+              ]
+            }
+          },
+          {
+            "id": "9",
+            "label": null,
+            "value": 9,
+            "source": {
+              "pdf_pages": [
+                22
+              ],
+              "printed_pages": [
+                19
+              ]
+            }
+          },
+          {
+            "id": "10",
+            "label": "极度正面意见",
+            "value": 10,
+            "source": {
+              "pdf_pages": [
+                22
+              ],
+              "printed_pages": [
+                19
+              ]
+            }
+          }
+        ],
+        "minimum": 1,
+        "maximum": 10,
+        "cardinality": "single",
+        "slots": null,
+        "raw_instruction": "使用说明：本问卷使用NPS10级计分，填答者可以根据自身真实想法和感受进行评分。选项由10个等级构成，表示程度不断增加的连续变化。1代表极度负面意见，10代表极度正面意见。其中的2-9按照程度连续变化。",
+        "unknowns": [
+          {
+            "field": "options.label",
+            "reason": "原文只给端点文字，未为中间档命名；中间档保留数值和null标签。"
+          }
+        ],
+        "ranking": null
+      }
+    },
+    {
+      "id": "thinking-problem-solving--original.q004",
+      "order": 4,
+      "original_number": null,
+      "role": "measurement",
+      "measurement_class": "scale",
+      "kind": "rating",
+      "raw_text": "我在做重大决定时，我首先权衡定性因素，例如：我感觉上认为这个决定是正确的",
+      "student_text": "我在做重大决定时，我首先权衡定性因素，例如：我感觉上认为这个决定是正确的",
+      "source": {
+        "pdf_pages": [
+          22
+        ],
+        "printed_pages": [
+          19
+        ]
+      },
+      "group_id": "thinking-problem-solving--original.group001",
+      "subdimension": null,
+      "subdimension_reason": "原题表未明示每题对应的理论细分维度；不依据语义推断。",
+      "teacher_annotations": [],
+      "reverse": {
+        "marked": null,
+        "raw_marker": null,
+        "source": null,
+        "reason": "本原文题项未标明反向题；否定措辞不作为反向依据。"
+      },
+      "response": {
+        "options": [
+          {
+            "id": "1",
+            "label": "极度负面意见",
+            "value": 1,
+            "source": {
+              "pdf_pages": [
+                22
+              ],
+              "printed_pages": [
+                19
+              ]
+            }
+          },
+          {
+            "id": "2",
+            "label": null,
+            "value": 2,
+            "source": {
+              "pdf_pages": [
+                22
+              ],
+              "printed_pages": [
+                19
+              ]
+            }
+          },
+          {
+            "id": "3",
+            "label": null,
+            "value": 3,
+            "source": {
+              "pdf_pages": [
+                22
+              ],
+              "printed_pages": [
+                19
+              ]
+            }
+          },
+          {
+            "id": "4",
+            "label": null,
+            "value": 4,
+            "source": {
+              "pdf_pages": [
+                22
+              ],
+              "printed_pages": [
+                19
+              ]
+            }
+          },
+          {
+            "id": "5",
+            "label": null,
+            "value": 5,
+            "source": {
+              "pdf_pages": [
+                22
+              ],
+              "printed_pages": [
+                19
+              ]
+            }
+          },
+          {
+            "id": "6",
+            "label": null,
+            "value": 6,
+            "source": {
+              "pdf_pages": [
+                22
+              ],
+              "printed_pages": [
+                19
+              ]
+            }
+          },
+          {
+            "id": "7",
+            "label": null,
+            "value": 7,
+            "source": {
+              "pdf_pages": [
+                22
+              ],
+              "printed_pages": [
+                19
+              ]
+            }
+          },
+          {
+            "id": "8",
+            "label": null,
+            "value": 8,
+            "source": {
+              "pdf_pages": [
+                22
+              ],
+              "printed_pages": [
+                19
+              ]
+            }
+          },
+          {
+            "id": "9",
+            "label": null,
+            "value": 9,
+            "source": {
+              "pdf_pages": [
+                22
+              ],
+              "printed_pages": [
+                19
+              ]
+            }
+          },
+          {
+            "id": "10",
+            "label": "极度正面意见",
+            "value": 10,
+            "source": {
+              "pdf_pages": [
+                22
+              ],
+              "printed_pages": [
+                19
+              ]
+            }
+          }
+        ],
+        "minimum": 1,
+        "maximum": 10,
+        "cardinality": "single",
+        "slots": null,
+        "raw_instruction": "使用说明：本问卷使用NPS10级计分，填答者可以根据自身真实想法和感受进行评分。选项由10个等级构成，表示程度不断增加的连续变化。1代表极度负面意见，10代表极度正面意见。其中的2-9按照程度连续变化。",
+        "unknowns": [
+          {
+            "field": "options.label",
+            "reason": "原文只给端点文字，未为中间档命名；中间档保留数值和null标签。"
+          }
+        ],
+        "ranking": null
+      }
+    },
+    {
+      "id": "thinking-problem-solving--original.q005",
+      "order": 5,
+      "original_number": null,
+      "role": "measurement",
+      "measurement_class": "scale",
+      "kind": "rating",
+      "raw_text": "我在做重大决定时，如果多数专家、教师提供的意见一致，我会非常重视这个意见",
+      "student_text": "我在做重大决定时，如果多数专家、教师提供的意见一致，我会非常重视这个意见",
+      "source": {
+        "pdf_pages": [
+          22
+        ],
+        "printed_pages": [
+          19
+        ]
+      },
+      "group_id": "thinking-problem-solving--original.group001",
+      "subdimension": null,
+      "subdimension_reason": "原题表未明示每题对应的理论细分维度；不依据语义推断。",
+      "teacher_annotations": [],
+      "reverse": {
+        "marked": null,
+        "raw_marker": null,
+        "source": null,
+        "reason": "本原文题项未标明反向题；否定措辞不作为反向依据。"
+      },
+      "response": {
+        "options": [
+          {
+            "id": "1",
+            "label": "极度负面意见",
+            "value": 1,
+            "source": {
+              "pdf_pages": [
+                22
+              ],
+              "printed_pages": [
+                19
+              ]
+            }
+          },
+          {
+            "id": "2",
+            "label": null,
+            "value": 2,
+            "source": {
+              "pdf_pages": [
+                22
+              ],
+              "printed_pages": [
+                19
+              ]
+            }
+          },
+          {
+            "id": "3",
+            "label": null,
+            "value": 3,
+            "source": {
+              "pdf_pages": [
+                22
+              ],
+              "printed_pages": [
+                19
+              ]
+            }
+          },
+          {
+            "id": "4",
+            "label": null,
+            "value": 4,
+            "source": {
+              "pdf_pages": [
+                22
+              ],
+              "printed_pages": [
+                19
+              ]
+            }
+          },
+          {
+            "id": "5",
+            "label": null,
+            "value": 5,
+            "source": {
+              "pdf_pages": [
+                22
+              ],
+              "printed_pages": [
+                19
+              ]
+            }
+          },
+          {
+            "id": "6",
+            "label": null,
+            "value": 6,
+            "source": {
+              "pdf_pages": [
+                22
+              ],
+              "printed_pages": [
+                19
+              ]
+            }
+          },
+          {
+            "id": "7",
+            "label": null,
+            "value": 7,
+            "source": {
+              "pdf_pages": [
+                22
+              ],
+              "printed_pages": [
+                19
+              ]
+            }
+          },
+          {
+            "id": "8",
+            "label": null,
+            "value": 8,
+            "source": {
+              "pdf_pages": [
+                22
+              ],
+              "printed_pages": [
+                19
+              ]
+            }
+          },
+          {
+            "id": "9",
+            "label": null,
+            "value": 9,
+            "source": {
+              "pdf_pages": [
+                22
+              ],
+              "printed_pages": [
+                19
+              ]
+            }
+          },
+          {
+            "id": "10",
+            "label": "极度正面意见",
+            "value": 10,
+            "source": {
+              "pdf_pages": [
+                22
+              ],
+              "printed_pages": [
+                19
+              ]
+            }
+          }
+        ],
+        "minimum": 1,
+        "maximum": 10,
+        "cardinality": "single",
+        "slots": null,
+        "raw_instruction": "使用说明：本问卷使用NPS10级计分，填答者可以根据自身真实想法和感受进行评分。选项由10个等级构成，表示程度不断增加的连续变化。1代表极度负面意见，10代表极度正面意见。其中的2-9按照程度连续变化。",
+        "unknowns": [
+          {
+            "field": "options.label",
+            "reason": "原文只给端点文字，未为中间档命名；中间档保留数值和null标签。"
+          }
+        ],
+        "ranking": null
+      }
+    },
+    {
+      "id": "thinking-problem-solving--original.q006",
+      "order": 6,
+      "original_number": null,
+      "role": "measurement",
+      "measurement_class": "scale",
+      "kind": "rating",
+      "raw_text": "我在做重大决定时，如果我认为我“本来就知道”，或者当我做决定时，如果我感到寒颤、刺痛等生理感觉，我会对这些因素非常重视",
+      "student_text": "我在做重大决定时，如果我认为我“本来就知道”，或者当我做决定时，如果我感到寒颤、刺痛等生理感觉，我会对这些因素非常重视",
+      "source": {
+        "pdf_pages": [
+          22
+        ],
+        "printed_pages": [
+          19
+        ]
+      },
+      "group_id": "thinking-problem-solving--original.group001",
+      "subdimension": null,
+      "subdimension_reason": "原题表未明示每题对应的理论细分维度；不依据语义推断。",
+      "teacher_annotations": [],
+      "reverse": {
+        "marked": null,
+        "raw_marker": null,
+        "source": null,
+        "reason": "本原文题项未标明反向题；否定措辞不作为反向依据。"
+      },
+      "response": {
+        "options": [
+          {
+            "id": "1",
+            "label": "极度负面意见",
+            "value": 1,
+            "source": {
+              "pdf_pages": [
+                22
+              ],
+              "printed_pages": [
+                19
+              ]
+            }
+          },
+          {
+            "id": "2",
+            "label": null,
+            "value": 2,
+            "source": {
+              "pdf_pages": [
+                22
+              ],
+              "printed_pages": [
+                19
+              ]
+            }
+          },
+          {
+            "id": "3",
+            "label": null,
+            "value": 3,
+            "source": {
+              "pdf_pages": [
+                22
+              ],
+              "printed_pages": [
+                19
+              ]
+            }
+          },
+          {
+            "id": "4",
+            "label": null,
+            "value": 4,
+            "source": {
+              "pdf_pages": [
+                22
+              ],
+              "printed_pages": [
+                19
+              ]
+            }
+          },
+          {
+            "id": "5",
+            "label": null,
+            "value": 5,
+            "source": {
+              "pdf_pages": [
+                22
+              ],
+              "printed_pages": [
+                19
+              ]
+            }
+          },
+          {
+            "id": "6",
+            "label": null,
+            "value": 6,
+            "source": {
+              "pdf_pages": [
+                22
+              ],
+              "printed_pages": [
+                19
+              ]
+            }
+          },
+          {
+            "id": "7",
+            "label": null,
+            "value": 7,
+            "source": {
+              "pdf_pages": [
+                22
+              ],
+              "printed_pages": [
+                19
+              ]
+            }
+          },
+          {
+            "id": "8",
+            "label": null,
+            "value": 8,
+            "source": {
+              "pdf_pages": [
+                22
+              ],
+              "printed_pages": [
+                19
+              ]
+            }
+          },
+          {
+            "id": "9",
+            "label": null,
+            "value": 9,
+            "source": {
+              "pdf_pages": [
+                22
+              ],
+              "printed_pages": [
+                19
+              ]
+            }
+          },
+          {
+            "id": "10",
+            "label": "极度正面意见",
+            "value": 10,
+            "source": {
+              "pdf_pages": [
+                22
+              ],
+              "printed_pages": [
+                19
+              ]
+            }
+          }
+        ],
+        "minimum": 1,
+        "maximum": 10,
+        "cardinality": "single",
+        "slots": null,
+        "raw_instruction": "使用说明：本问卷使用NPS10级计分，填答者可以根据自身真实想法和感受进行评分。选项由10个等级构成，表示程度不断增加的连续变化。1代表极度负面意见，10代表极度正面意见。其中的2-9按照程度连续变化。",
+        "unknowns": [
+          {
+            "field": "options.label",
+            "reason": "原文只给端点文字，未为中间档命名；中间档保留数值和null标签。"
+          }
+        ],
+        "ranking": null
+      }
+    },
+    {
+      "id": "thinking-problem-solving--original.q007",
+      "order": 7,
+      "original_number": null,
+      "role": "measurement",
+      "measurement_class": "scale",
+      "kind": "rating",
+      "raw_text": "我在做重大决定时，最重要的因素是，我要确定这个决定是基于客观的、经证实的因素",
+      "student_text": "我在做重大决定时，最重要的因素是，我要确定这个决定是基于客观的、经证实的因素",
+      "source": {
+        "pdf_pages": [
+          22
+        ],
+        "printed_pages": [
+          19
+        ]
+      },
+      "group_id": "thinking-problem-solving--original.group001",
+      "subdimension": null,
+      "subdimension_reason": "原题表未明示每题对应的理论细分维度；不依据语义推断。",
+      "teacher_annotations": [],
+      "reverse": {
+        "marked": null,
+        "raw_marker": null,
+        "source": null,
+        "reason": "本原文题项未标明反向题；否定措辞不作为反向依据。"
+      },
+      "response": {
+        "options": [
+          {
+            "id": "1",
+            "label": "极度负面意见",
+            "value": 1,
+            "source": {
+              "pdf_pages": [
+                22
+              ],
+              "printed_pages": [
+                19
+              ]
+            }
+          },
+          {
+            "id": "2",
+            "label": null,
+            "value": 2,
+            "source": {
+              "pdf_pages": [
+                22
+              ],
+              "printed_pages": [
+                19
+              ]
+            }
+          },
+          {
+            "id": "3",
+            "label": null,
+            "value": 3,
+            "source": {
+              "pdf_pages": [
+                22
+              ],
+              "printed_pages": [
+                19
+              ]
+            }
+          },
+          {
+            "id": "4",
+            "label": null,
+            "value": 4,
+            "source": {
+              "pdf_pages": [
+                22
+              ],
+              "printed_pages": [
+                19
+              ]
+            }
+          },
+          {
+            "id": "5",
+            "label": null,
+            "value": 5,
+            "source": {
+              "pdf_pages": [
+                22
+              ],
+              "printed_pages": [
+                19
+              ]
+            }
+          },
+          {
+            "id": "6",
+            "label": null,
+            "value": 6,
+            "source": {
+              "pdf_pages": [
+                22
+              ],
+              "printed_pages": [
+                19
+              ]
+            }
+          },
+          {
+            "id": "7",
+            "label": null,
+            "value": 7,
+            "source": {
+              "pdf_pages": [
+                22
+              ],
+              "printed_pages": [
+                19
+              ]
+            }
+          },
+          {
+            "id": "8",
+            "label": null,
+            "value": 8,
+            "source": {
+              "pdf_pages": [
+                22
+              ],
+              "printed_pages": [
+                19
+              ]
+            }
+          },
+          {
+            "id": "9",
+            "label": null,
+            "value": 9,
+            "source": {
+              "pdf_pages": [
+                22
+              ],
+              "printed_pages": [
+                19
+              ]
+            }
+          },
+          {
+            "id": "10",
+            "label": "极度正面意见",
+            "value": 10,
+            "source": {
+              "pdf_pages": [
+                22
+              ],
+              "printed_pages": [
+                19
+              ]
+            }
+          }
+        ],
+        "minimum": 1,
+        "maximum": 10,
+        "cardinality": "single",
+        "slots": null,
+        "raw_instruction": "使用说明：本问卷使用NPS10级计分，填答者可以根据自身真实想法和感受进行评分。选项由10个等级构成，表示程度不断增加的连续变化。1代表极度负面意见，10代表极度正面意见。其中的2-9按照程度连续变化。",
+        "unknowns": [
+          {
+            "field": "options.label",
+            "reason": "原文只给端点文字，未为中间档命名；中间档保留数值和null标签。"
+          }
+        ],
+        "ranking": null
+      }
+    },
+    {
+      "id": "thinking-problem-solving--original.q008",
+      "order": 8,
+      "original_number": null,
+      "role": "measurement",
+      "measurement_class": "scale",
+      "kind": "rating",
+      "raw_text": "我在做重大决定时，最重要的因素是，我感觉这个决定是对的",
+      "student_text": "我在做重大决定时，最重要的因素是，我感觉这个决定是对的",
+      "source": {
+        "pdf_pages": [
+          22
+        ],
+        "printed_pages": [
+          19
+        ]
+      },
+      "group_id": "thinking-problem-solving--original.group001",
+      "subdimension": null,
+      "subdimension_reason": "原题表未明示每题对应的理论细分维度；不依据语义推断。",
+      "teacher_annotations": [],
+      "reverse": {
+        "marked": null,
+        "raw_marker": null,
+        "source": null,
+        "reason": "本原文题项未标明反向题；否定措辞不作为反向依据。"
+      },
+      "response": {
+        "options": [
+          {
+            "id": "1",
+            "label": "极度负面意见",
+            "value": 1,
+            "source": {
+              "pdf_pages": [
+                22
+              ],
+              "printed_pages": [
+                19
+              ]
+            }
+          },
+          {
+            "id": "2",
+            "label": null,
+            "value": 2,
+            "source": {
+              "pdf_pages": [
+                22
+              ],
+              "printed_pages": [
+                19
+              ]
+            }
+          },
+          {
+            "id": "3",
+            "label": null,
+            "value": 3,
+            "source": {
+              "pdf_pages": [
+                22
+              ],
+              "printed_pages": [
+                19
+              ]
+            }
+          },
+          {
+            "id": "4",
+            "label": null,
+            "value": 4,
+            "source": {
+              "pdf_pages": [
+                22
+              ],
+              "printed_pages": [
+                19
+              ]
+            }
+          },
+          {
+            "id": "5",
+            "label": null,
+            "value": 5,
+            "source": {
+              "pdf_pages": [
+                22
+              ],
+              "printed_pages": [
+                19
+              ]
+            }
+          },
+          {
+            "id": "6",
+            "label": null,
+            "value": 6,
+            "source": {
+              "pdf_pages": [
+                22
+              ],
+              "printed_pages": [
+                19
+              ]
+            }
+          },
+          {
+            "id": "7",
+            "label": null,
+            "value": 7,
+            "source": {
+              "pdf_pages": [
+                22
+              ],
+              "printed_pages": [
+                19
+              ]
+            }
+          },
+          {
+            "id": "8",
+            "label": null,
+            "value": 8,
+            "source": {
+              "pdf_pages": [
+                22
+              ],
+              "printed_pages": [
+                19
+              ]
+            }
+          },
+          {
+            "id": "9",
+            "label": null,
+            "value": 9,
+            "source": {
+              "pdf_pages": [
+                22
+              ],
+              "printed_pages": [
+                19
+              ]
+            }
+          },
+          {
+            "id": "10",
+            "label": "极度正面意见",
+            "value": 10,
+            "source": {
+              "pdf_pages": [
+                22
+              ],
+              "printed_pages": [
+                19
+              ]
+            }
+          }
+        ],
+        "minimum": 1,
+        "maximum": 10,
+        "cardinality": "single",
+        "slots": null,
+        "raw_instruction": "使用说明：本问卷使用NPS10级计分，填答者可以根据自身真实想法和感受进行评分。选项由10个等级构成，表示程度不断增加的连续变化。1代表极度负面意见，10代表极度正面意见。其中的2-9按照程度连续变化。",
+        "unknowns": [
+          {
+            "field": "options.label",
+            "reason": "原文只给端点文字，未为中间档命名；中间档保留数值和null标签。"
+          }
+        ],
+        "ranking": null
+      }
+    },
+    {
+      "id": "thinking-problem-solving--original.q009",
+      "order": 9,
+      "original_number": null,
+      "role": "measurement",
+      "measurement_class": "scale",
+      "kind": "rating",
+      "raw_text": "当我的逻辑分析与直觉发生冲突时，我会优先考虑我的逻辑分析",
+      "student_text": "当我的逻辑分析与直觉发生冲突时，我会优先考虑我的逻辑分析",
+      "source": {
+        "pdf_pages": [
+          22
+        ],
+        "printed_pages": [
+          19
+        ]
+      },
+      "group_id": "thinking-problem-solving--original.group001",
+      "subdimension": null,
+      "subdimension_reason": "原题表未明示每题对应的理论细分维度；不依据语义推断。",
+      "teacher_annotations": [],
+      "reverse": {
+        "marked": null,
+        "raw_marker": null,
+        "source": null,
+        "reason": "本原文题项未标明反向题；否定措辞不作为反向依据。"
+      },
+      "response": {
+        "options": [
+          {
+            "id": "1",
+            "label": "极度负面意见",
+            "value": 1,
+            "source": {
+              "pdf_pages": [
+                22
+              ],
+              "printed_pages": [
+                19
+              ]
+            }
+          },
+          {
+            "id": "2",
+            "label": null,
+            "value": 2,
+            "source": {
+              "pdf_pages": [
+                22
+              ],
+              "printed_pages": [
+                19
+              ]
+            }
+          },
+          {
+            "id": "3",
+            "label": null,
+            "value": 3,
+            "source": {
+              "pdf_pages": [
+                22
+              ],
+              "printed_pages": [
+                19
+              ]
+            }
+          },
+          {
+            "id": "4",
+            "label": null,
+            "value": 4,
+            "source": {
+              "pdf_pages": [
+                22
+              ],
+              "printed_pages": [
+                19
+              ]
+            }
+          },
+          {
+            "id": "5",
+            "label": null,
+            "value": 5,
+            "source": {
+              "pdf_pages": [
+                22
+              ],
+              "printed_pages": [
+                19
+              ]
+            }
+          },
+          {
+            "id": "6",
+            "label": null,
+            "value": 6,
+            "source": {
+              "pdf_pages": [
+                22
+              ],
+              "printed_pages": [
+                19
+              ]
+            }
+          },
+          {
+            "id": "7",
+            "label": null,
+            "value": 7,
+            "source": {
+              "pdf_pages": [
+                22
+              ],
+              "printed_pages": [
+                19
+              ]
+            }
+          },
+          {
+            "id": "8",
+            "label": null,
+            "value": 8,
+            "source": {
+              "pdf_pages": [
+                22
+              ],
+              "printed_pages": [
+                19
+              ]
+            }
+          },
+          {
+            "id": "9",
+            "label": null,
+            "value": 9,
+            "source": {
+              "pdf_pages": [
+                22
+              ],
+              "printed_pages": [
+                19
+              ]
+            }
+          },
+          {
+            "id": "10",
+            "label": "极度正面意见",
+            "value": 10,
+            "source": {
+              "pdf_pages": [
+                22
+              ],
+              "printed_pages": [
+                19
+              ]
+            }
+          }
+        ],
+        "minimum": 1,
+        "maximum": 10,
+        "cardinality": "single",
+        "slots": null,
+        "raw_instruction": "使用说明：本问卷使用NPS10级计分，填答者可以根据自身真实想法和感受进行评分。选项由10个等级构成，表示程度不断增加的连续变化。1代表极度负面意见，10代表极度正面意见。其中的2-9按照程度连续变化。",
+        "unknowns": [
+          {
+            "field": "options.label",
+            "reason": "原文只给端点文字，未为中间档命名；中间档保留数值和null标签。"
+          }
+        ],
+        "ranking": null
+      }
+    },
+    {
+      "id": "thinking-problem-solving--original.q010",
+      "order": 10,
+      "original_number": null,
+      "role": "measurement",
+      "measurement_class": "scale",
+      "kind": "rating",
+      "raw_text": "当我的分析与直觉发生冲突时，我会优先考虑直觉",
+      "student_text": "当我的分析与直觉发生冲突时，我会优先考虑直觉",
+      "source": {
+        "pdf_pages": [
+          22
+        ],
+        "printed_pages": [
+          19
+        ]
+      },
+      "group_id": "thinking-problem-solving--original.group001",
+      "subdimension": null,
+      "subdimension_reason": "原题表未明示每题对应的理论细分维度；不依据语义推断。",
+      "teacher_annotations": [],
+      "reverse": {
+        "marked": null,
+        "raw_marker": null,
+        "source": null,
+        "reason": "本原文题项未标明反向题；否定措辞不作为反向依据。"
+      },
+      "response": {
+        "options": [
+          {
+            "id": "1",
+            "label": "极度负面意见",
+            "value": 1,
+            "source": {
+              "pdf_pages": [
+                22
+              ],
+              "printed_pages": [
+                19
+              ]
+            }
+          },
+          {
+            "id": "2",
+            "label": null,
+            "value": 2,
+            "source": {
+              "pdf_pages": [
+                22
+              ],
+              "printed_pages": [
+                19
+              ]
+            }
+          },
+          {
+            "id": "3",
+            "label": null,
+            "value": 3,
+            "source": {
+              "pdf_pages": [
+                22
+              ],
+              "printed_pages": [
+                19
+              ]
+            }
+          },
+          {
+            "id": "4",
+            "label": null,
+            "value": 4,
+            "source": {
+              "pdf_pages": [
+                22
+              ],
+              "printed_pages": [
+                19
+              ]
+            }
+          },
+          {
+            "id": "5",
+            "label": null,
+            "value": 5,
+            "source": {
+              "pdf_pages": [
+                22
+              ],
+              "printed_pages": [
+                19
+              ]
+            }
+          },
+          {
+            "id": "6",
+            "label": null,
+            "value": 6,
+            "source": {
+              "pdf_pages": [
+                22
+              ],
+              "printed_pages": [
+                19
+              ]
+            }
+          },
+          {
+            "id": "7",
+            "label": null,
+            "value": 7,
+            "source": {
+              "pdf_pages": [
+                22
+              ],
+              "printed_pages": [
+                19
+              ]
+            }
+          },
+          {
+            "id": "8",
+            "label": null,
+            "value": 8,
+            "source": {
+              "pdf_pages": [
+                22
+              ],
+              "printed_pages": [
+                19
+              ]
+            }
+          },
+          {
+            "id": "9",
+            "label": null,
+            "value": 9,
+            "source": {
+              "pdf_pages": [
+                22
+              ],
+              "printed_pages": [
+                19
+              ]
+            }
+          },
+          {
+            "id": "10",
+            "label": "极度正面意见",
+            "value": 10,
+            "source": {
+              "pdf_pages": [
+                22
+              ],
+              "printed_pages": [
+                19
+              ]
+            }
+          }
+        ],
+        "minimum": 1,
+        "maximum": 10,
+        "cardinality": "single",
+        "slots": null,
+        "raw_instruction": "使用说明：本问卷使用NPS10级计分，填答者可以根据自身真实想法和感受进行评分。选项由10个等级构成，表示程度不断增加的连续变化。1代表极度负面意见，10代表极度正面意见。其中的2-9按照程度连续变化。",
+        "unknowns": [
+          {
+            "field": "options.label",
+            "reason": "原文只给端点文字，未为中间档命名；中间档保留数值和null标签。"
+          }
+        ],
+        "ranking": null
+      }
+    },
+    {
+      "id": "thinking-problem-solving--original.q011",
+      "order": 11,
+      "original_number": null,
+      "role": "measurement",
+      "measurement_class": "scale",
+      "kind": "rating",
+      "raw_text": "我从不怀疑教师所说的话",
+      "student_text": "我从不怀疑教师所说的话",
+      "source": {
+        "pdf_pages": [
+          22
+        ],
+        "printed_pages": [
+          19
+        ]
+      },
+      "group_id": "thinking-problem-solving--original.group002",
+      "subdimension": null,
+      "subdimension_reason": "原题表未明示每题对应的理论细分维度；不依据语义推断。",
+      "teacher_annotations": [],
+      "reverse": {
+        "marked": null,
+        "raw_marker": null,
+        "source": null,
+        "reason": "本原文题项未标明反向题；否定措辞不作为反向依据。"
+      },
+      "response": {
+        "options": [
+          {
+            "id": "1",
+            "label": "极度负面意见",
+            "value": 1,
+            "source": {
+              "pdf_pages": [
+                22
+              ],
+              "printed_pages": [
+                19
+              ]
+            }
+          },
+          {
+            "id": "2",
+            "label": null,
+            "value": 2,
+            "source": {
+              "pdf_pages": [
+                22
+              ],
+              "printed_pages": [
+                19
+              ]
+            }
+          },
+          {
+            "id": "3",
+            "label": null,
+            "value": 3,
+            "source": {
+              "pdf_pages": [
+                22
+              ],
+              "printed_pages": [
+                19
+              ]
+            }
+          },
+          {
+            "id": "4",
+            "label": null,
+            "value": 4,
+            "source": {
+              "pdf_pages": [
+                22
+              ],
+              "printed_pages": [
+                19
+              ]
+            }
+          },
+          {
+            "id": "5",
+            "label": null,
+            "value": 5,
+            "source": {
+              "pdf_pages": [
+                22
+              ],
+              "printed_pages": [
+                19
+              ]
+            }
+          },
+          {
+            "id": "6",
+            "label": null,
+            "value": 6,
+            "source": {
+              "pdf_pages": [
+                22
+              ],
+              "printed_pages": [
+                19
+              ]
+            }
+          },
+          {
+            "id": "7",
+            "label": null,
+            "value": 7,
+            "source": {
+              "pdf_pages": [
+                22
+              ],
+              "printed_pages": [
+                19
+              ]
+            }
+          },
+          {
+            "id": "8",
+            "label": null,
+            "value": 8,
+            "source": {
+              "pdf_pages": [
+                22
+              ],
+              "printed_pages": [
+                19
+              ]
+            }
+          },
+          {
+            "id": "9",
+            "label": null,
+            "value": 9,
+            "source": {
+              "pdf_pages": [
+                22
+              ],
+              "printed_pages": [
+                19
+              ]
+            }
+          },
+          {
+            "id": "10",
+            "label": "极度正面意见",
+            "value": 10,
+            "source": {
+              "pdf_pages": [
+                22
+              ],
+              "printed_pages": [
+                19
+              ]
+            }
+          }
+        ],
+        "minimum": 1,
+        "maximum": 10,
+        "cardinality": "single",
+        "slots": null,
+        "raw_instruction": "使用说明：本问卷使用NPS10级计分，填答者可以根据自身真实想法和感受进行评分。选项由10个等级构成，表示程度不断增加的连续变化。1代表极度负面意见，10代表极度正面意见。其中的2-9按照程度连续变化。",
+        "unknowns": [
+          {
+            "field": "options.label",
+            "reason": "原文只给端点文字，未为中间档命名；中间档保留数值和null标签。"
+          }
+        ],
+        "ranking": null
+      }
+    },
+    {
+      "id": "thinking-problem-solving--original.q012",
+      "order": 12,
+      "original_number": null,
+      "role": "measurement",
+      "measurement_class": "scale",
+      "kind": "rating",
+      "raw_text": "我喜欢别人直接告诉我正确答案",
+      "student_text": "我喜欢别人直接告诉我正确答案",
+      "source": {
+        "pdf_pages": [
+          22
+        ],
+        "printed_pages": [
+          19
+        ]
+      },
+      "group_id": "thinking-problem-solving--original.group002",
+      "subdimension": null,
+      "subdimension_reason": "原题表未明示每题对应的理论细分维度；不依据语义推断。",
+      "teacher_annotations": [],
+      "reverse": {
+        "marked": null,
+        "raw_marker": null,
+        "source": null,
+        "reason": "本原文题项未标明反向题；否定措辞不作为反向依据。"
+      },
+      "response": {
+        "options": [
+          {
+            "id": "1",
+            "label": "极度负面意见",
+            "value": 1,
+            "source": {
+              "pdf_pages": [
+                22
+              ],
+              "printed_pages": [
+                19
+              ]
+            }
+          },
+          {
+            "id": "2",
+            "label": null,
+            "value": 2,
+            "source": {
+              "pdf_pages": [
+                22
+              ],
+              "printed_pages": [
+                19
+              ]
+            }
+          },
+          {
+            "id": "3",
+            "label": null,
+            "value": 3,
+            "source": {
+              "pdf_pages": [
+                22
+              ],
+              "printed_pages": [
+                19
+              ]
+            }
+          },
+          {
+            "id": "4",
+            "label": null,
+            "value": 4,
+            "source": {
+              "pdf_pages": [
+                22
+              ],
+              "printed_pages": [
+                19
+              ]
+            }
+          },
+          {
+            "id": "5",
+            "label": null,
+            "value": 5,
+            "source": {
+              "pdf_pages": [
+                22
+              ],
+              "printed_pages": [
+                19
+              ]
+            }
+          },
+          {
+            "id": "6",
+            "label": null,
+            "value": 6,
+            "source": {
+              "pdf_pages": [
+                22
+              ],
+              "printed_pages": [
+                19
+              ]
+            }
+          },
+          {
+            "id": "7",
+            "label": null,
+            "value": 7,
+            "source": {
+              "pdf_pages": [
+                22
+              ],
+              "printed_pages": [
+                19
+              ]
+            }
+          },
+          {
+            "id": "8",
+            "label": null,
+            "value": 8,
+            "source": {
+              "pdf_pages": [
+                22
+              ],
+              "printed_pages": [
+                19
+              ]
+            }
+          },
+          {
+            "id": "9",
+            "label": null,
+            "value": 9,
+            "source": {
+              "pdf_pages": [
+                22
+              ],
+              "printed_pages": [
+                19
+              ]
+            }
+          },
+          {
+            "id": "10",
+            "label": "极度正面意见",
+            "value": 10,
+            "source": {
+              "pdf_pages": [
+                22
+              ],
+              "printed_pages": [
+                19
+              ]
+            }
+          }
+        ],
+        "minimum": 1,
+        "maximum": 10,
+        "cardinality": "single",
+        "slots": null,
+        "raw_instruction": "使用说明：本问卷使用NPS10级计分，填答者可以根据自身真实想法和感受进行评分。选项由10个等级构成，表示程度不断增加的连续变化。1代表极度负面意见，10代表极度正面意见。其中的2-9按照程度连续变化。",
+        "unknowns": [
+          {
+            "field": "options.label",
+            "reason": "原文只给端点文字，未为中间档命名；中间档保留数值和null标签。"
+          }
+        ],
+        "ranking": null
+      }
+    },
+    {
+      "id": "thinking-problem-solving--original.q013",
+      "order": 13,
+      "original_number": null,
+      "role": "measurement",
+      "measurement_class": "scale",
+      "kind": "rating",
+      "raw_text": "我觉得任何问题都有唯一的标准答案",
+      "student_text": "我觉得任何问题都有唯一的标准答案",
+      "source": {
+        "pdf_pages": [
+          22
+        ],
+        "printed_pages": [
+          19
+        ]
+      },
+      "group_id": "thinking-problem-solving--original.group002",
+      "subdimension": null,
+      "subdimension_reason": "原题表未明示每题对应的理论细分维度；不依据语义推断。",
+      "teacher_annotations": [],
+      "reverse": {
+        "marked": null,
+        "raw_marker": null,
+        "source": null,
+        "reason": "本原文题项未标明反向题；否定措辞不作为反向依据。"
+      },
+      "response": {
+        "options": [
+          {
+            "id": "1",
+            "label": "极度负面意见",
+            "value": 1,
+            "source": {
+              "pdf_pages": [
+                22
+              ],
+              "printed_pages": [
+                19
+              ]
+            }
+          },
+          {
+            "id": "2",
+            "label": null,
+            "value": 2,
+            "source": {
+              "pdf_pages": [
+                22
+              ],
+              "printed_pages": [
+                19
+              ]
+            }
+          },
+          {
+            "id": "3",
+            "label": null,
+            "value": 3,
+            "source": {
+              "pdf_pages": [
+                22
+              ],
+              "printed_pages": [
+                19
+              ]
+            }
+          },
+          {
+            "id": "4",
+            "label": null,
+            "value": 4,
+            "source": {
+              "pdf_pages": [
+                22
+              ],
+              "printed_pages": [
+                19
+              ]
+            }
+          },
+          {
+            "id": "5",
+            "label": null,
+            "value": 5,
+            "source": {
+              "pdf_pages": [
+                22
+              ],
+              "printed_pages": [
+                19
+              ]
+            }
+          },
+          {
+            "id": "6",
+            "label": null,
+            "value": 6,
+            "source": {
+              "pdf_pages": [
+                22
+              ],
+              "printed_pages": [
+                19
+              ]
+            }
+          },
+          {
+            "id": "7",
+            "label": null,
+            "value": 7,
+            "source": {
+              "pdf_pages": [
+                22
+              ],
+              "printed_pages": [
+                19
+              ]
+            }
+          },
+          {
+            "id": "8",
+            "label": null,
+            "value": 8,
+            "source": {
+              "pdf_pages": [
+                22
+              ],
+              "printed_pages": [
+                19
+              ]
+            }
+          },
+          {
+            "id": "9",
+            "label": null,
+            "value": 9,
+            "source": {
+              "pdf_pages": [
+                22
+              ],
+              "printed_pages": [
+                19
+              ]
+            }
+          },
+          {
+            "id": "10",
+            "label": "极度正面意见",
+            "value": 10,
+            "source": {
+              "pdf_pages": [
+                22
+              ],
+              "printed_pages": [
+                19
+              ]
+            }
+          }
+        ],
+        "minimum": 1,
+        "maximum": 10,
+        "cardinality": "single",
+        "slots": null,
+        "raw_instruction": "使用说明：本问卷使用NPS10级计分，填答者可以根据自身真实想法和感受进行评分。选项由10个等级构成，表示程度不断增加的连续变化。1代表极度负面意见，10代表极度正面意见。其中的2-9按照程度连续变化。",
+        "unknowns": [
+          {
+            "field": "options.label",
+            "reason": "原文只给端点文字，未为中间档命名；中间档保留数值和null标签。"
+          }
+        ],
+        "ranking": null
+      }
+    },
+    {
+      "id": "thinking-problem-solving--original.q014",
+      "order": 14,
+      "original_number": null,
+      "role": "measurement",
+      "measurement_class": "scale",
+      "kind": "rating",
+      "raw_text": "许多人认为很平常的事，我却很好奇",
+      "student_text": "许多人认为很平常的事，我却很好奇",
+      "source": {
+        "pdf_pages": [
+          22
+        ],
+        "printed_pages": [
+          19
+        ]
+      },
+      "group_id": "thinking-problem-solving--original.group002",
+      "subdimension": null,
+      "subdimension_reason": "原题表未明示每题对应的理论细分维度；不依据语义推断。",
+      "teacher_annotations": [],
+      "reverse": {
+        "marked": null,
+        "raw_marker": null,
+        "source": null,
+        "reason": "本原文题项未标明反向题；否定措辞不作为反向依据。"
+      },
+      "response": {
+        "options": [
+          {
+            "id": "1",
+            "label": "极度负面意见",
+            "value": 1,
+            "source": {
+              "pdf_pages": [
+                22
+              ],
+              "printed_pages": [
+                19
+              ]
+            }
+          },
+          {
+            "id": "2",
+            "label": null,
+            "value": 2,
+            "source": {
+              "pdf_pages": [
+                22
+              ],
+              "printed_pages": [
+                19
+              ]
+            }
+          },
+          {
+            "id": "3",
+            "label": null,
+            "value": 3,
+            "source": {
+              "pdf_pages": [
+                22
+              ],
+              "printed_pages": [
+                19
+              ]
+            }
+          },
+          {
+            "id": "4",
+            "label": null,
+            "value": 4,
+            "source": {
+              "pdf_pages": [
+                22
+              ],
+              "printed_pages": [
+                19
+              ]
+            }
+          },
+          {
+            "id": "5",
+            "label": null,
+            "value": 5,
+            "source": {
+              "pdf_pages": [
+                22
+              ],
+              "printed_pages": [
+                19
+              ]
+            }
+          },
+          {
+            "id": "6",
+            "label": null,
+            "value": 6,
+            "source": {
+              "pdf_pages": [
+                22
+              ],
+              "printed_pages": [
+                19
+              ]
+            }
+          },
+          {
+            "id": "7",
+            "label": null,
+            "value": 7,
+            "source": {
+              "pdf_pages": [
+                22
+              ],
+              "printed_pages": [
+                19
+              ]
+            }
+          },
+          {
+            "id": "8",
+            "label": null,
+            "value": 8,
+            "source": {
+              "pdf_pages": [
+                22
+              ],
+              "printed_pages": [
+                19
+              ]
+            }
+          },
+          {
+            "id": "9",
+            "label": null,
+            "value": 9,
+            "source": {
+              "pdf_pages": [
+                22
+              ],
+              "printed_pages": [
+                19
+              ]
+            }
+          },
+          {
+            "id": "10",
+            "label": "极度正面意见",
+            "value": 10,
+            "source": {
+              "pdf_pages": [
+                22
+              ],
+              "printed_pages": [
+                19
+              ]
+            }
+          }
+        ],
+        "minimum": 1,
+        "maximum": 10,
+        "cardinality": "single",
+        "slots": null,
+        "raw_instruction": "使用说明：本问卷使用NPS10级计分，填答者可以根据自身真实想法和感受进行评分。选项由10个等级构成，表示程度不断增加的连续变化。1代表极度负面意见，10代表极度正面意见。其中的2-9按照程度连续变化。",
+        "unknowns": [
+          {
+            "field": "options.label",
+            "reason": "原文只给端点文字，未为中间档命名；中间档保留数值和null标签。"
+          }
+        ],
+        "ranking": null
+      }
+    },
+    {
+      "id": "thinking-problem-solving--original.q015",
+      "order": 15,
+      "original_number": null,
+      "role": "measurement",
+      "measurement_class": "scale",
+      "kind": "rating",
+      "raw_text": "遇到问题时，我常能从多方面探索可能性",
+      "student_text": "遇到问题时，我常能从多方面探索可能性",
+      "source": {
+        "pdf_pages": [
+          22
+        ],
+        "printed_pages": [
+          19
+        ]
+      },
+      "group_id": "thinking-problem-solving--original.group002",
+      "subdimension": null,
+      "subdimension_reason": "原题表未明示每题对应的理论细分维度；不依据语义推断。",
+      "teacher_annotations": [],
+      "reverse": {
+        "marked": null,
+        "raw_marker": null,
+        "source": null,
+        "reason": "本原文题项未标明反向题；否定措辞不作为反向依据。"
+      },
+      "response": {
+        "options": [
+          {
+            "id": "1",
+            "label": "极度负面意见",
+            "value": 1,
+            "source": {
+              "pdf_pages": [
+                22
+              ],
+              "printed_pages": [
+                19
+              ]
+            }
+          },
+          {
+            "id": "2",
+            "label": null,
+            "value": 2,
+            "source": {
+              "pdf_pages": [
+                22
+              ],
+              "printed_pages": [
+                19
+              ]
+            }
+          },
+          {
+            "id": "3",
+            "label": null,
+            "value": 3,
+            "source": {
+              "pdf_pages": [
+                22
+              ],
+              "printed_pages": [
+                19
+              ]
+            }
+          },
+          {
+            "id": "4",
+            "label": null,
+            "value": 4,
+            "source": {
+              "pdf_pages": [
+                22
+              ],
+              "printed_pages": [
+                19
+              ]
+            }
+          },
+          {
+            "id": "5",
+            "label": null,
+            "value": 5,
+            "source": {
+              "pdf_pages": [
+                22
+              ],
+              "printed_pages": [
+                19
+              ]
+            }
+          },
+          {
+            "id": "6",
+            "label": null,
+            "value": 6,
+            "source": {
+              "pdf_pages": [
+                22
+              ],
+              "printed_pages": [
+                19
+              ]
+            }
+          },
+          {
+            "id": "7",
+            "label": null,
+            "value": 7,
+            "source": {
+              "pdf_pages": [
+                22
+              ],
+              "printed_pages": [
+                19
+              ]
+            }
+          },
+          {
+            "id": "8",
+            "label": null,
+            "value": 8,
+            "source": {
+              "pdf_pages": [
+                22
+              ],
+              "printed_pages": [
+                19
+              ]
+            }
+          },
+          {
+            "id": "9",
+            "label": null,
+            "value": 9,
+            "source": {
+              "pdf_pages": [
+                22
+              ],
+              "printed_pages": [
+                19
+              ]
+            }
+          },
+          {
+            "id": "10",
+            "label": "极度正面意见",
+            "value": 10,
+            "source": {
+              "pdf_pages": [
+                22
+              ],
+              "printed_pages": [
+                19
+              ]
+            }
+          }
+        ],
+        "minimum": 1,
+        "maximum": 10,
+        "cardinality": "single",
+        "slots": null,
+        "raw_instruction": "使用说明：本问卷使用NPS10级计分，填答者可以根据自身真实想法和感受进行评分。选项由10个等级构成，表示程度不断增加的连续变化。1代表极度负面意见，10代表极度正面意见。其中的2-9按照程度连续变化。",
+        "unknowns": [
+          {
+            "field": "options.label",
+            "reason": "原文只给端点文字，未为中间档命名；中间档保留数值和null标签。"
+          }
+        ],
+        "ranking": null
+      }
+    },
+    {
+      "id": "thinking-problem-solving--original.q016",
+      "order": 16,
+      "original_number": null,
+      "role": "measurement",
+      "measurement_class": "scale",
+      "kind": "rating",
+      "raw_text": "当我在理解问题遇到困难时，我会仔细思考直到弄懂为止",
+      "student_text": "当我在理解问题遇到困难时，我会仔细思考直到弄懂为止",
+      "source": {
+        "pdf_pages": [
+          23
+        ],
+        "printed_pages": [
+          20
+        ]
+      },
+      "group_id": "thinking-problem-solving--original.group002",
+      "subdimension": null,
+      "subdimension_reason": "原题表未明示每题对应的理论细分维度；不依据语义推断。",
+      "teacher_annotations": [],
+      "reverse": {
+        "marked": null,
+        "raw_marker": null,
+        "source": null,
+        "reason": "本原文题项未标明反向题；否定措辞不作为反向依据。"
+      },
+      "response": {
+        "options": [
+          {
+            "id": "1",
+            "label": "极度负面意见",
+            "value": 1,
+            "source": {
+              "pdf_pages": [
+                22
+              ],
+              "printed_pages": [
+                19
+              ]
+            }
+          },
+          {
+            "id": "2",
+            "label": null,
+            "value": 2,
+            "source": {
+              "pdf_pages": [
+                22
+              ],
+              "printed_pages": [
+                19
+              ]
+            }
+          },
+          {
+            "id": "3",
+            "label": null,
+            "value": 3,
+            "source": {
+              "pdf_pages": [
+                22
+              ],
+              "printed_pages": [
+                19
+              ]
+            }
+          },
+          {
+            "id": "4",
+            "label": null,
+            "value": 4,
+            "source": {
+              "pdf_pages": [
+                22
+              ],
+              "printed_pages": [
+                19
+              ]
+            }
+          },
+          {
+            "id": "5",
+            "label": null,
+            "value": 5,
+            "source": {
+              "pdf_pages": [
+                22
+              ],
+              "printed_pages": [
+                19
+              ]
+            }
+          },
+          {
+            "id": "6",
+            "label": null,
+            "value": 6,
+            "source": {
+              "pdf_pages": [
+                22
+              ],
+              "printed_pages": [
+                19
+              ]
+            }
+          },
+          {
+            "id": "7",
+            "label": null,
+            "value": 7,
+            "source": {
+              "pdf_pages": [
+                22
+              ],
+              "printed_pages": [
+                19
+              ]
+            }
+          },
+          {
+            "id": "8",
+            "label": null,
+            "value": 8,
+            "source": {
+              "pdf_pages": [
+                22
+              ],
+              "printed_pages": [
+                19
+              ]
+            }
+          },
+          {
+            "id": "9",
+            "label": null,
+            "value": 9,
+            "source": {
+              "pdf_pages": [
+                22
+              ],
+              "printed_pages": [
+                19
+              ]
+            }
+          },
+          {
+            "id": "10",
+            "label": "极度正面意见",
+            "value": 10,
+            "source": {
+              "pdf_pages": [
+                22
+              ],
+              "printed_pages": [
+                19
+              ]
+            }
+          }
+        ],
+        "minimum": 1,
+        "maximum": 10,
+        "cardinality": "single",
+        "slots": null,
+        "raw_instruction": "使用说明：本问卷使用NPS10级计分，填答者可以根据自身真实想法和感受进行评分。选项由10个等级构成，表示程度不断增加的连续变化。1代表极度负面意见，10代表极度正面意见。其中的2-9按照程度连续变化。",
+        "unknowns": [
+          {
+            "field": "options.label",
+            "reason": "原文只给端点文字，未为中间档命名；中间档保留数值和null标签。"
+          }
+        ],
+        "ranking": null
+      }
+    },
+    {
+      "id": "thinking-problem-solving--original.q017",
+      "order": 17,
+      "original_number": null,
+      "role": "measurement",
+      "measurement_class": "scale",
+      "kind": "rating",
+      "raw_text": "我经常有许多新奇的想法",
+      "student_text": "我经常有许多新奇的想法",
+      "source": {
+        "pdf_pages": [
+          23
+        ],
+        "printed_pages": [
+          20
+        ]
+      },
+      "group_id": "thinking-problem-solving--original.group002",
+      "subdimension": null,
+      "subdimension_reason": "原题表未明示每题对应的理论细分维度；不依据语义推断。",
+      "teacher_annotations": [],
+      "reverse": {
+        "marked": null,
+        "raw_marker": null,
+        "source": null,
+        "reason": "本原文题项未标明反向题；否定措辞不作为反向依据。"
+      },
+      "response": {
+        "options": [
+          {
+            "id": "1",
+            "label": "极度负面意见",
+            "value": 1,
+            "source": {
+              "pdf_pages": [
+                22
+              ],
+              "printed_pages": [
+                19
+              ]
+            }
+          },
+          {
+            "id": "2",
+            "label": null,
+            "value": 2,
+            "source": {
+              "pdf_pages": [
+                22
+              ],
+              "printed_pages": [
+                19
+              ]
+            }
+          },
+          {
+            "id": "3",
+            "label": null,
+            "value": 3,
+            "source": {
+              "pdf_pages": [
+                22
+              ],
+              "printed_pages": [
+                19
+              ]
+            }
+          },
+          {
+            "id": "4",
+            "label": null,
+            "value": 4,
+            "source": {
+              "pdf_pages": [
+                22
+              ],
+              "printed_pages": [
+                19
+              ]
+            }
+          },
+          {
+            "id": "5",
+            "label": null,
+            "value": 5,
+            "source": {
+              "pdf_pages": [
+                22
+              ],
+              "printed_pages": [
+                19
+              ]
+            }
+          },
+          {
+            "id": "6",
+            "label": null,
+            "value": 6,
+            "source": {
+              "pdf_pages": [
+                22
+              ],
+              "printed_pages": [
+                19
+              ]
+            }
+          },
+          {
+            "id": "7",
+            "label": null,
+            "value": 7,
+            "source": {
+              "pdf_pages": [
+                22
+              ],
+              "printed_pages": [
+                19
+              ]
+            }
+          },
+          {
+            "id": "8",
+            "label": null,
+            "value": 8,
+            "source": {
+              "pdf_pages": [
+                22
+              ],
+              "printed_pages": [
+                19
+              ]
+            }
+          },
+          {
+            "id": "9",
+            "label": null,
+            "value": 9,
+            "source": {
+              "pdf_pages": [
+                22
+              ],
+              "printed_pages": [
+                19
+              ]
+            }
+          },
+          {
+            "id": "10",
+            "label": "极度正面意见",
+            "value": 10,
+            "source": {
+              "pdf_pages": [
+                22
+              ],
+              "printed_pages": [
+                19
+              ]
+            }
+          }
+        ],
+        "minimum": 1,
+        "maximum": 10,
+        "cardinality": "single",
+        "slots": null,
+        "raw_instruction": "使用说明：本问卷使用NPS10级计分，填答者可以根据自身真实想法和感受进行评分。选项由10个等级构成，表示程度不断增加的连续变化。1代表极度负面意见，10代表极度正面意见。其中的2-9按照程度连续变化。",
+        "unknowns": [
+          {
+            "field": "options.label",
+            "reason": "原文只给端点文字，未为中间档命名；中间档保留数值和null标签。"
+          }
+        ],
+        "ranking": null
+      }
+    },
+    {
+      "id": "thinking-problem-solving--original.q018",
+      "order": 18,
+      "original_number": null,
+      "role": "measurement",
+      "measurement_class": "scale",
+      "kind": "rating",
+      "raw_text": "我用一种方法答题后，还喜欢尝试其他方法",
+      "student_text": "我用一种方法答题后，还喜欢尝试其他方法",
+      "source": {
+        "pdf_pages": [
+          23
+        ],
+        "printed_pages": [
+          20
+        ]
+      },
+      "group_id": "thinking-problem-solving--original.group002",
+      "subdimension": null,
+      "subdimension_reason": "原题表未明示每题对应的理论细分维度；不依据语义推断。",
+      "teacher_annotations": [],
+      "reverse": {
+        "marked": null,
+        "raw_marker": null,
+        "source": null,
+        "reason": "本原文题项未标明反向题；否定措辞不作为反向依据。"
+      },
+      "response": {
+        "options": [
+          {
+            "id": "1",
+            "label": "极度负面意见",
+            "value": 1,
+            "source": {
+              "pdf_pages": [
+                22
+              ],
+              "printed_pages": [
+                19
+              ]
+            }
+          },
+          {
+            "id": "2",
+            "label": null,
+            "value": 2,
+            "source": {
+              "pdf_pages": [
+                22
+              ],
+              "printed_pages": [
+                19
+              ]
+            }
+          },
+          {
+            "id": "3",
+            "label": null,
+            "value": 3,
+            "source": {
+              "pdf_pages": [
+                22
+              ],
+              "printed_pages": [
+                19
+              ]
+            }
+          },
+          {
+            "id": "4",
+            "label": null,
+            "value": 4,
+            "source": {
+              "pdf_pages": [
+                22
+              ],
+              "printed_pages": [
+                19
+              ]
+            }
+          },
+          {
+            "id": "5",
+            "label": null,
+            "value": 5,
+            "source": {
+              "pdf_pages": [
+                22
+              ],
+              "printed_pages": [
+                19
+              ]
+            }
+          },
+          {
+            "id": "6",
+            "label": null,
+            "value": 6,
+            "source": {
+              "pdf_pages": [
+                22
+              ],
+              "printed_pages": [
+                19
+              ]
+            }
+          },
+          {
+            "id": "7",
+            "label": null,
+            "value": 7,
+            "source": {
+              "pdf_pages": [
+                22
+              ],
+              "printed_pages": [
+                19
+              ]
+            }
+          },
+          {
+            "id": "8",
+            "label": null,
+            "value": 8,
+            "source": {
+              "pdf_pages": [
+                22
+              ],
+              "printed_pages": [
+                19
+              ]
+            }
+          },
+          {
+            "id": "9",
+            "label": null,
+            "value": 9,
+            "source": {
+              "pdf_pages": [
+                22
+              ],
+              "printed_pages": [
+                19
+              ]
+            }
+          },
+          {
+            "id": "10",
+            "label": "极度正面意见",
+            "value": 10,
+            "source": {
+              "pdf_pages": [
+                22
+              ],
+              "printed_pages": [
+                19
+              ]
+            }
+          }
+        ],
+        "minimum": 1,
+        "maximum": 10,
+        "cardinality": "single",
+        "slots": null,
+        "raw_instruction": "使用说明：本问卷使用NPS10级计分，填答者可以根据自身真实想法和感受进行评分。选项由10个等级构成，表示程度不断增加的连续变化。1代表极度负面意见，10代表极度正面意见。其中的2-9按照程度连续变化。",
+        "unknowns": [
+          {
+            "field": "options.label",
+            "reason": "原文只给端点文字，未为中间档命名；中间档保留数值和null标签。"
+          }
+        ],
+        "ranking": null
+      }
+    },
+    {
+      "id": "thinking-problem-solving--original.q019",
+      "order": 19,
+      "original_number": null,
+      "role": "measurement",
+      "measurement_class": "scale",
+      "kind": "rating",
+      "raw_text": "我对一般的事物也十分好奇",
+      "student_text": "我对一般的事物也十分好奇",
+      "source": {
+        "pdf_pages": [
+          23
+        ],
+        "printed_pages": [
+          20
+        ]
+      },
+      "group_id": "thinking-problem-solving--original.group002",
+      "subdimension": null,
+      "subdimension_reason": "原题表未明示每题对应的理论细分维度；不依据语义推断。",
+      "teacher_annotations": [],
+      "reverse": {
+        "marked": null,
+        "raw_marker": null,
+        "source": null,
+        "reason": "本原文题项未标明反向题；否定措辞不作为反向依据。"
+      },
+      "response": {
+        "options": [
+          {
+            "id": "1",
+            "label": "极度负面意见",
+            "value": 1,
+            "source": {
+              "pdf_pages": [
+                22
+              ],
+              "printed_pages": [
+                19
+              ]
+            }
+          },
+          {
+            "id": "2",
+            "label": null,
+            "value": 2,
+            "source": {
+              "pdf_pages": [
+                22
+              ],
+              "printed_pages": [
+                19
+              ]
+            }
+          },
+          {
+            "id": "3",
+            "label": null,
+            "value": 3,
+            "source": {
+              "pdf_pages": [
+                22
+              ],
+              "printed_pages": [
+                19
+              ]
+            }
+          },
+          {
+            "id": "4",
+            "label": null,
+            "value": 4,
+            "source": {
+              "pdf_pages": [
+                22
+              ],
+              "printed_pages": [
+                19
+              ]
+            }
+          },
+          {
+            "id": "5",
+            "label": null,
+            "value": 5,
+            "source": {
+              "pdf_pages": [
+                22
+              ],
+              "printed_pages": [
+                19
+              ]
+            }
+          },
+          {
+            "id": "6",
+            "label": null,
+            "value": 6,
+            "source": {
+              "pdf_pages": [
+                22
+              ],
+              "printed_pages": [
+                19
+              ]
+            }
+          },
+          {
+            "id": "7",
+            "label": null,
+            "value": 7,
+            "source": {
+              "pdf_pages": [
+                22
+              ],
+              "printed_pages": [
+                19
+              ]
+            }
+          },
+          {
+            "id": "8",
+            "label": null,
+            "value": 8,
+            "source": {
+              "pdf_pages": [
+                22
+              ],
+              "printed_pages": [
+                19
+              ]
+            }
+          },
+          {
+            "id": "9",
+            "label": null,
+            "value": 9,
+            "source": {
+              "pdf_pages": [
+                22
+              ],
+              "printed_pages": [
+                19
+              ]
+            }
+          },
+          {
+            "id": "10",
+            "label": "极度正面意见",
+            "value": 10,
+            "source": {
+              "pdf_pages": [
+                22
+              ],
+              "printed_pages": [
+                19
+              ]
+            }
+          }
+        ],
+        "minimum": 1,
+        "maximum": 10,
+        "cardinality": "single",
+        "slots": null,
+        "raw_instruction": "使用说明：本问卷使用NPS10级计分，填答者可以根据自身真实想法和感受进行评分。选项由10个等级构成，表示程度不断增加的连续变化。1代表极度负面意见，10代表极度正面意见。其中的2-9按照程度连续变化。",
+        "unknowns": [
+          {
+            "field": "options.label",
+            "reason": "原文只给端点文字，未为中间档命名；中间档保留数值和null标签。"
+          }
+        ],
+        "ranking": null
+      }
+    },
+    {
+      "id": "thinking-problem-solving--original.q020",
+      "order": 20,
+      "original_number": null,
+      "role": "measurement",
+      "measurement_class": "scale",
+      "kind": "rating",
+      "raw_text": "我认为课本上的内容也不完全对",
+      "student_text": "我认为课本上的内容也不完全对",
+      "source": {
+        "pdf_pages": [
+          23
+        ],
+        "printed_pages": [
+          20
+        ]
+      },
+      "group_id": "thinking-problem-solving--original.group002",
+      "subdimension": null,
+      "subdimension_reason": "原题表未明示每题对应的理论细分维度；不依据语义推断。",
+      "teacher_annotations": [],
+      "reverse": {
+        "marked": null,
+        "raw_marker": null,
+        "source": null,
+        "reason": "本原文题项未标明反向题；否定措辞不作为反向依据。"
+      },
+      "response": {
+        "options": [
+          {
+            "id": "1",
+            "label": "极度负面意见",
+            "value": 1,
+            "source": {
+              "pdf_pages": [
+                22
+              ],
+              "printed_pages": [
+                19
+              ]
+            }
+          },
+          {
+            "id": "2",
+            "label": null,
+            "value": 2,
+            "source": {
+              "pdf_pages": [
+                22
+              ],
+              "printed_pages": [
+                19
+              ]
+            }
+          },
+          {
+            "id": "3",
+            "label": null,
+            "value": 3,
+            "source": {
+              "pdf_pages": [
+                22
+              ],
+              "printed_pages": [
+                19
+              ]
+            }
+          },
+          {
+            "id": "4",
+            "label": null,
+            "value": 4,
+            "source": {
+              "pdf_pages": [
+                22
+              ],
+              "printed_pages": [
+                19
+              ]
+            }
+          },
+          {
+            "id": "5",
+            "label": null,
+            "value": 5,
+            "source": {
+              "pdf_pages": [
+                22
+              ],
+              "printed_pages": [
+                19
+              ]
+            }
+          },
+          {
+            "id": "6",
+            "label": null,
+            "value": 6,
+            "source": {
+              "pdf_pages": [
+                22
+              ],
+              "printed_pages": [
+                19
+              ]
+            }
+          },
+          {
+            "id": "7",
+            "label": null,
+            "value": 7,
+            "source": {
+              "pdf_pages": [
+                22
+              ],
+              "printed_pages": [
+                19
+              ]
+            }
+          },
+          {
+            "id": "8",
+            "label": null,
+            "value": 8,
+            "source": {
+              "pdf_pages": [
+                22
+              ],
+              "printed_pages": [
+                19
+              ]
+            }
+          },
+          {
+            "id": "9",
+            "label": null,
+            "value": 9,
+            "source": {
+              "pdf_pages": [
+                22
+              ],
+              "printed_pages": [
+                19
+              ]
+            }
+          },
+          {
+            "id": "10",
+            "label": "极度正面意见",
+            "value": 10,
+            "source": {
+              "pdf_pages": [
+                22
+              ],
+              "printed_pages": [
+                19
+              ]
+            }
+          }
+        ],
+        "minimum": 1,
+        "maximum": 10,
+        "cardinality": "single",
+        "slots": null,
+        "raw_instruction": "使用说明：本问卷使用NPS10级计分，填答者可以根据自身真实想法和感受进行评分。选项由10个等级构成，表示程度不断增加的连续变化。1代表极度负面意见，10代表极度正面意见。其中的2-9按照程度连续变化。",
+        "unknowns": [
+          {
+            "field": "options.label",
+            "reason": "原文只给端点文字，未为中间档命名；中间档保留数值和null标签。"
+          }
+        ],
+        "ranking": null
+      }
+    },
+    {
+      "id": "thinking-problem-solving--original.q021",
+      "order": 21,
+      "original_number": null,
+      "role": "measurement",
+      "measurement_class": "scale",
+      "kind": "rating",
+      "raw_text": "我总是有很多疑问",
+      "student_text": "我总是有很多疑问",
+      "source": {
+        "pdf_pages": [
+          23
+        ],
+        "printed_pages": [
+          20
+        ]
+      },
+      "group_id": "thinking-problem-solving--original.group002",
+      "subdimension": null,
+      "subdimension_reason": "原题表未明示每题对应的理论细分维度；不依据语义推断。",
+      "teacher_annotations": [],
+      "reverse": {
+        "marked": null,
+        "raw_marker": null,
+        "source": null,
+        "reason": "本原文题项未标明反向题；否定措辞不作为反向依据。"
+      },
+      "response": {
+        "options": [
+          {
+            "id": "1",
+            "label": "极度负面意见",
+            "value": 1,
+            "source": {
+              "pdf_pages": [
+                22
+              ],
+              "printed_pages": [
+                19
+              ]
+            }
+          },
+          {
+            "id": "2",
+            "label": null,
+            "value": 2,
+            "source": {
+              "pdf_pages": [
+                22
+              ],
+              "printed_pages": [
+                19
+              ]
+            }
+          },
+          {
+            "id": "3",
+            "label": null,
+            "value": 3,
+            "source": {
+              "pdf_pages": [
+                22
+              ],
+              "printed_pages": [
+                19
+              ]
+            }
+          },
+          {
+            "id": "4",
+            "label": null,
+            "value": 4,
+            "source": {
+              "pdf_pages": [
+                22
+              ],
+              "printed_pages": [
+                19
+              ]
+            }
+          },
+          {
+            "id": "5",
+            "label": null,
+            "value": 5,
+            "source": {
+              "pdf_pages": [
+                22
+              ],
+              "printed_pages": [
+                19
+              ]
+            }
+          },
+          {
+            "id": "6",
+            "label": null,
+            "value": 6,
+            "source": {
+              "pdf_pages": [
+                22
+              ],
+              "printed_pages": [
+                19
+              ]
+            }
+          },
+          {
+            "id": "7",
+            "label": null,
+            "value": 7,
+            "source": {
+              "pdf_pages": [
+                22
+              ],
+              "printed_pages": [
+                19
+              ]
+            }
+          },
+          {
+            "id": "8",
+            "label": null,
+            "value": 8,
+            "source": {
+              "pdf_pages": [
+                22
+              ],
+              "printed_pages": [
+                19
+              ]
+            }
+          },
+          {
+            "id": "9",
+            "label": null,
+            "value": 9,
+            "source": {
+              "pdf_pages": [
+                22
+              ],
+              "printed_pages": [
+                19
+              ]
+            }
+          },
+          {
+            "id": "10",
+            "label": "极度正面意见",
+            "value": 10,
+            "source": {
+              "pdf_pages": [
+                22
+              ],
+              "printed_pages": [
+                19
+              ]
+            }
+          }
+        ],
+        "minimum": 1,
+        "maximum": 10,
+        "cardinality": "single",
+        "slots": null,
+        "raw_instruction": "使用说明：本问卷使用NPS10级计分，填答者可以根据自身真实想法和感受进行评分。选项由10个等级构成，表示程度不断增加的连续变化。1代表极度负面意见，10代表极度正面意见。其中的2-9按照程度连续变化。",
+        "unknowns": [
+          {
+            "field": "options.label",
+            "reason": "原文只给端点文字，未为中间档命名；中间档保留数值和null标签。"
+          }
+        ],
+        "ranking": null
+      }
+    },
+    {
+      "id": "thinking-problem-solving--original.q022",
+      "order": 22,
+      "original_number": null,
+      "role": "measurement",
+      "measurement_class": "scale",
+      "kind": "rating",
+      "raw_text": "我经常在学习中遇到疑问",
+      "student_text": "我经常在学习中遇到疑问",
+      "source": {
+        "pdf_pages": [
+          23
+        ],
+        "printed_pages": [
+          20
+        ]
+      },
+      "group_id": "thinking-problem-solving--original.group002",
+      "subdimension": null,
+      "subdimension_reason": "原题表未明示每题对应的理论细分维度；不依据语义推断。",
+      "teacher_annotations": [],
+      "reverse": {
+        "marked": null,
+        "raw_marker": null,
+        "source": null,
+        "reason": "本原文题项未标明反向题；否定措辞不作为反向依据。"
+      },
+      "response": {
+        "options": [
+          {
+            "id": "1",
+            "label": "极度负面意见",
+            "value": 1,
+            "source": {
+              "pdf_pages": [
+                22
+              ],
+              "printed_pages": [
+                19
+              ]
+            }
+          },
+          {
+            "id": "2",
+            "label": null,
+            "value": 2,
+            "source": {
+              "pdf_pages": [
+                22
+              ],
+              "printed_pages": [
+                19
+              ]
+            }
+          },
+          {
+            "id": "3",
+            "label": null,
+            "value": 3,
+            "source": {
+              "pdf_pages": [
+                22
+              ],
+              "printed_pages": [
+                19
+              ]
+            }
+          },
+          {
+            "id": "4",
+            "label": null,
+            "value": 4,
+            "source": {
+              "pdf_pages": [
+                22
+              ],
+              "printed_pages": [
+                19
+              ]
+            }
+          },
+          {
+            "id": "5",
+            "label": null,
+            "value": 5,
+            "source": {
+              "pdf_pages": [
+                22
+              ],
+              "printed_pages": [
+                19
+              ]
+            }
+          },
+          {
+            "id": "6",
+            "label": null,
+            "value": 6,
+            "source": {
+              "pdf_pages": [
+                22
+              ],
+              "printed_pages": [
+                19
+              ]
+            }
+          },
+          {
+            "id": "7",
+            "label": null,
+            "value": 7,
+            "source": {
+              "pdf_pages": [
+                22
+              ],
+              "printed_pages": [
+                19
+              ]
+            }
+          },
+          {
+            "id": "8",
+            "label": null,
+            "value": 8,
+            "source": {
+              "pdf_pages": [
+                22
+              ],
+              "printed_pages": [
+                19
+              ]
+            }
+          },
+          {
+            "id": "9",
+            "label": null,
+            "value": 9,
+            "source": {
+              "pdf_pages": [
+                22
+              ],
+              "printed_pages": [
+                19
+              ]
+            }
+          },
+          {
+            "id": "10",
+            "label": "极度正面意见",
+            "value": 10,
+            "source": {
+              "pdf_pages": [
+                22
+              ],
+              "printed_pages": [
+                19
+              ]
+            }
+          }
+        ],
+        "minimum": 1,
+        "maximum": 10,
+        "cardinality": "single",
+        "slots": null,
+        "raw_instruction": "使用说明：本问卷使用NPS10级计分，填答者可以根据自身真实想法和感受进行评分。选项由10个等级构成，表示程度不断增加的连续变化。1代表极度负面意见，10代表极度正面意见。其中的2-9按照程度连续变化。",
+        "unknowns": [
+          {
+            "field": "options.label",
+            "reason": "原文只给端点文字，未为中间档命名；中间档保留数值和null标签。"
+          }
+        ],
+        "ranking": null
+      }
+    },
+    {
+      "id": "thinking-problem-solving--original.q023",
+      "order": 23,
+      "original_number": null,
+      "role": "measurement",
+      "measurement_class": "scale",
+      "kind": "rating",
+      "raw_text": "遇到问题时，我总是固定在一种思路或局限在某一方面",
+      "student_text": "遇到问题时，我总是固定在一种思路或局限在某一方面",
+      "source": {
+        "pdf_pages": [
+          23
+        ],
+        "printed_pages": [
+          20
+        ]
+      },
+      "group_id": "thinking-problem-solving--original.group002",
+      "subdimension": null,
+      "subdimension_reason": "原题表未明示每题对应的理论细分维度；不依据语义推断。",
+      "teacher_annotations": [],
+      "reverse": {
+        "marked": null,
+        "raw_marker": null,
+        "source": null,
+        "reason": "本原文题项未标明反向题；否定措辞不作为反向依据。"
+      },
+      "response": {
+        "options": [
+          {
+            "id": "1",
+            "label": "极度负面意见",
+            "value": 1,
+            "source": {
+              "pdf_pages": [
+                22
+              ],
+              "printed_pages": [
+                19
+              ]
+            }
+          },
+          {
+            "id": "2",
+            "label": null,
+            "value": 2,
+            "source": {
+              "pdf_pages": [
+                22
+              ],
+              "printed_pages": [
+                19
+              ]
+            }
+          },
+          {
+            "id": "3",
+            "label": null,
+            "value": 3,
+            "source": {
+              "pdf_pages": [
+                22
+              ],
+              "printed_pages": [
+                19
+              ]
+            }
+          },
+          {
+            "id": "4",
+            "label": null,
+            "value": 4,
+            "source": {
+              "pdf_pages": [
+                22
+              ],
+              "printed_pages": [
+                19
+              ]
+            }
+          },
+          {
+            "id": "5",
+            "label": null,
+            "value": 5,
+            "source": {
+              "pdf_pages": [
+                22
+              ],
+              "printed_pages": [
+                19
+              ]
+            }
+          },
+          {
+            "id": "6",
+            "label": null,
+            "value": 6,
+            "source": {
+              "pdf_pages": [
+                22
+              ],
+              "printed_pages": [
+                19
+              ]
+            }
+          },
+          {
+            "id": "7",
+            "label": null,
+            "value": 7,
+            "source": {
+              "pdf_pages": [
+                22
+              ],
+              "printed_pages": [
+                19
+              ]
+            }
+          },
+          {
+            "id": "8",
+            "label": null,
+            "value": 8,
+            "source": {
+              "pdf_pages": [
+                22
+              ],
+              "printed_pages": [
+                19
+              ]
+            }
+          },
+          {
+            "id": "9",
+            "label": null,
+            "value": 9,
+            "source": {
+              "pdf_pages": [
+                22
+              ],
+              "printed_pages": [
+                19
+              ]
+            }
+          },
+          {
+            "id": "10",
+            "label": "极度正面意见",
+            "value": 10,
+            "source": {
+              "pdf_pages": [
+                22
+              ],
+              "printed_pages": [
+                19
+              ]
+            }
+          }
+        ],
+        "minimum": 1,
+        "maximum": 10,
+        "cardinality": "single",
+        "slots": null,
+        "raw_instruction": "使用说明：本问卷使用NPS10级计分，填答者可以根据自身真实想法和感受进行评分。选项由10个等级构成，表示程度不断增加的连续变化。1代表极度负面意见，10代表极度正面意见。其中的2-9按照程度连续变化。",
+        "unknowns": [
+          {
+            "field": "options.label",
+            "reason": "原文只给端点文字，未为中间档命名；中间档保留数值和null标签。"
+          }
+        ],
+        "ranking": null
+      }
+    },
+    {
+      "id": "thinking-problem-solving--original.q024",
+      "order": 24,
+      "original_number": null,
+      "role": "measurement",
+      "measurement_class": "scale",
+      "kind": "rating",
+      "raw_text": "我会寻找多种解决问题的办法",
+      "student_text": "我会寻找多种解决问题的办法",
+      "source": {
+        "pdf_pages": [
+          23
+        ],
+        "printed_pages": [
+          20
+        ]
+      },
+      "group_id": "thinking-problem-solving--original.group002",
+      "subdimension": null,
+      "subdimension_reason": "原题表未明示每题对应的理论细分维度；不依据语义推断。",
+      "teacher_annotations": [],
+      "reverse": {
+        "marked": null,
+        "raw_marker": null,
+        "source": null,
+        "reason": "本原文题项未标明反向题；否定措辞不作为反向依据。"
+      },
+      "response": {
+        "options": [
+          {
+            "id": "1",
+            "label": "极度负面意见",
+            "value": 1,
+            "source": {
+              "pdf_pages": [
+                22
+              ],
+              "printed_pages": [
+                19
+              ]
+            }
+          },
+          {
+            "id": "2",
+            "label": null,
+            "value": 2,
+            "source": {
+              "pdf_pages": [
+                22
+              ],
+              "printed_pages": [
+                19
+              ]
+            }
+          },
+          {
+            "id": "3",
+            "label": null,
+            "value": 3,
+            "source": {
+              "pdf_pages": [
+                22
+              ],
+              "printed_pages": [
+                19
+              ]
+            }
+          },
+          {
+            "id": "4",
+            "label": null,
+            "value": 4,
+            "source": {
+              "pdf_pages": [
+                22
+              ],
+              "printed_pages": [
+                19
+              ]
+            }
+          },
+          {
+            "id": "5",
+            "label": null,
+            "value": 5,
+            "source": {
+              "pdf_pages": [
+                22
+              ],
+              "printed_pages": [
+                19
+              ]
+            }
+          },
+          {
+            "id": "6",
+            "label": null,
+            "value": 6,
+            "source": {
+              "pdf_pages": [
+                22
+              ],
+              "printed_pages": [
+                19
+              ]
+            }
+          },
+          {
+            "id": "7",
+            "label": null,
+            "value": 7,
+            "source": {
+              "pdf_pages": [
+                22
+              ],
+              "printed_pages": [
+                19
+              ]
+            }
+          },
+          {
+            "id": "8",
+            "label": null,
+            "value": 8,
+            "source": {
+              "pdf_pages": [
+                22
+              ],
+              "printed_pages": [
+                19
+              ]
+            }
+          },
+          {
+            "id": "9",
+            "label": null,
+            "value": 9,
+            "source": {
+              "pdf_pages": [
+                22
+              ],
+              "printed_pages": [
+                19
+              ]
+            }
+          },
+          {
+            "id": "10",
+            "label": "极度正面意见",
+            "value": 10,
+            "source": {
+              "pdf_pages": [
+                22
+              ],
+              "printed_pages": [
+                19
+              ]
+            }
+          }
+        ],
+        "minimum": 1,
+        "maximum": 10,
+        "cardinality": "single",
+        "slots": null,
+        "raw_instruction": "使用说明：本问卷使用NPS10级计分，填答者可以根据自身真实想法和感受进行评分。选项由10个等级构成，表示程度不断增加的连续变化。1代表极度负面意见，10代表极度正面意见。其中的2-9按照程度连续变化。",
+        "unknowns": [
+          {
+            "field": "options.label",
+            "reason": "原文只给端点文字，未为中间档命名；中间档保留数值和null标签。"
+          }
+        ],
+        "ranking": null
+      }
+    },
+    {
+      "id": "thinking-problem-solving--original.q025",
+      "order": 25,
+      "original_number": null,
+      "role": "measurement",
+      "measurement_class": "scale",
+      "kind": "rating",
+      "raw_text": "我善于总结问题，并进行归纳",
+      "student_text": "我善于总结问题，并进行归纳",
+      "source": {
+        "pdf_pages": [
+          23
+        ],
+        "printed_pages": [
+          20
+        ]
+      },
+      "group_id": "thinking-problem-solving--original.group002",
+      "subdimension": null,
+      "subdimension_reason": "原题表未明示每题对应的理论细分维度；不依据语义推断。",
+      "teacher_annotations": [],
+      "reverse": {
+        "marked": null,
+        "raw_marker": null,
+        "source": null,
+        "reason": "本原文题项未标明反向题；否定措辞不作为反向依据。"
+      },
+      "response": {
+        "options": [
+          {
+            "id": "1",
+            "label": "极度负面意见",
+            "value": 1,
+            "source": {
+              "pdf_pages": [
+                22
+              ],
+              "printed_pages": [
+                19
+              ]
+            }
+          },
+          {
+            "id": "2",
+            "label": null,
+            "value": 2,
+            "source": {
+              "pdf_pages": [
+                22
+              ],
+              "printed_pages": [
+                19
+              ]
+            }
+          },
+          {
+            "id": "3",
+            "label": null,
+            "value": 3,
+            "source": {
+              "pdf_pages": [
+                22
+              ],
+              "printed_pages": [
+                19
+              ]
+            }
+          },
+          {
+            "id": "4",
+            "label": null,
+            "value": 4,
+            "source": {
+              "pdf_pages": [
+                22
+              ],
+              "printed_pages": [
+                19
+              ]
+            }
+          },
+          {
+            "id": "5",
+            "label": null,
+            "value": 5,
+            "source": {
+              "pdf_pages": [
+                22
+              ],
+              "printed_pages": [
+                19
+              ]
+            }
+          },
+          {
+            "id": "6",
+            "label": null,
+            "value": 6,
+            "source": {
+              "pdf_pages": [
+                22
+              ],
+              "printed_pages": [
+                19
+              ]
+            }
+          },
+          {
+            "id": "7",
+            "label": null,
+            "value": 7,
+            "source": {
+              "pdf_pages": [
+                22
+              ],
+              "printed_pages": [
+                19
+              ]
+            }
+          },
+          {
+            "id": "8",
+            "label": null,
+            "value": 8,
+            "source": {
+              "pdf_pages": [
+                22
+              ],
+              "printed_pages": [
+                19
+              ]
+            }
+          },
+          {
+            "id": "9",
+            "label": null,
+            "value": 9,
+            "source": {
+              "pdf_pages": [
+                22
+              ],
+              "printed_pages": [
+                19
+              ]
+            }
+          },
+          {
+            "id": "10",
+            "label": "极度正面意见",
+            "value": 10,
+            "source": {
+              "pdf_pages": [
+                22
+              ],
+              "printed_pages": [
+                19
+              ]
+            }
+          }
+        ],
+        "minimum": 1,
+        "maximum": 10,
+        "cardinality": "single",
+        "slots": null,
+        "raw_instruction": "使用说明：本问卷使用NPS10级计分，填答者可以根据自身真实想法和感受进行评分。选项由10个等级构成，表示程度不断增加的连续变化。1代表极度负面意见，10代表极度正面意见。其中的2-9按照程度连续变化。",
+        "unknowns": [
+          {
+            "field": "options.label",
+            "reason": "原文只给端点文字，未为中间档命名；中间档保留数值和null标签。"
+          }
+        ],
+        "ranking": null
+      }
+    },
+    {
+      "id": "thinking-problem-solving--original.q026",
+      "order": 26,
+      "original_number": null,
+      "role": "measurement",
+      "measurement_class": "scale",
+      "kind": "rating",
+      "raw_text": "我会评估问题解决方法的有效性与可靠性",
+      "student_text": "我会评估问题解决方法的有效性与可靠性",
+      "source": {
+        "pdf_pages": [
+          23
+        ],
+        "printed_pages": [
+          20
+        ]
+      },
+      "group_id": "thinking-problem-solving--original.group002",
+      "subdimension": null,
+      "subdimension_reason": "原题表未明示每题对应的理论细分维度；不依据语义推断。",
+      "teacher_annotations": [],
+      "reverse": {
+        "marked": null,
+        "raw_marker": null,
+        "source": null,
+        "reason": "本原文题项未标明反向题；否定措辞不作为反向依据。"
+      },
+      "response": {
+        "options": [
+          {
+            "id": "1",
+            "label": "极度负面意见",
+            "value": 1,
+            "source": {
+              "pdf_pages": [
+                22
+              ],
+              "printed_pages": [
+                19
+              ]
+            }
+          },
+          {
+            "id": "2",
+            "label": null,
+            "value": 2,
+            "source": {
+              "pdf_pages": [
+                22
+              ],
+              "printed_pages": [
+                19
+              ]
+            }
+          },
+          {
+            "id": "3",
+            "label": null,
+            "value": 3,
+            "source": {
+              "pdf_pages": [
+                22
+              ],
+              "printed_pages": [
+                19
+              ]
+            }
+          },
+          {
+            "id": "4",
+            "label": null,
+            "value": 4,
+            "source": {
+              "pdf_pages": [
+                22
+              ],
+              "printed_pages": [
+                19
+              ]
+            }
+          },
+          {
+            "id": "5",
+            "label": null,
+            "value": 5,
+            "source": {
+              "pdf_pages": [
+                22
+              ],
+              "printed_pages": [
+                19
+              ]
+            }
+          },
+          {
+            "id": "6",
+            "label": null,
+            "value": 6,
+            "source": {
+              "pdf_pages": [
+                22
+              ],
+              "printed_pages": [
+                19
+              ]
+            }
+          },
+          {
+            "id": "7",
+            "label": null,
+            "value": 7,
+            "source": {
+              "pdf_pages": [
+                22
+              ],
+              "printed_pages": [
+                19
+              ]
+            }
+          },
+          {
+            "id": "8",
+            "label": null,
+            "value": 8,
+            "source": {
+              "pdf_pages": [
+                22
+              ],
+              "printed_pages": [
+                19
+              ]
+            }
+          },
+          {
+            "id": "9",
+            "label": null,
+            "value": 9,
+            "source": {
+              "pdf_pages": [
+                22
+              ],
+              "printed_pages": [
+                19
+              ]
+            }
+          },
+          {
+            "id": "10",
+            "label": "极度正面意见",
+            "value": 10,
+            "source": {
+              "pdf_pages": [
+                22
+              ],
+              "printed_pages": [
+                19
+              ]
+            }
+          }
+        ],
+        "minimum": 1,
+        "maximum": 10,
+        "cardinality": "single",
+        "slots": null,
+        "raw_instruction": "使用说明：本问卷使用NPS10级计分，填答者可以根据自身真实想法和感受进行评分。选项由10个等级构成，表示程度不断增加的连续变化。1代表极度负面意见，10代表极度正面意见。其中的2-9按照程度连续变化。",
+        "unknowns": [
+          {
+            "field": "options.label",
+            "reason": "原文只给端点文字，未为中间档命名；中间档保留数值和null标签。"
+          }
+        ],
+        "ranking": null
+      }
+    }
+  ],
+  "groups": [
+    {
+      "id": "thinking-problem-solving--original.group001",
+      "raw_name": "思维方式",
+      "source": {
+        "pdf_pages": [
+          22
+        ],
+        "printed_pages": [
+          19
+        ]
+      },
+      "parent_id": null,
+      "note": null
+    },
+    {
+      "id": "thinking-problem-solving--original.group002",
+      "raw_name": "问题意识",
+      "source": {
+        "pdf_pages": [
+          22,
+          23
+        ],
+        "printed_pages": [
+          19,
+          20
+        ]
+      },
+      "parent_id": null,
+      "note": "PDF22/印19问题意识5行延续至PDF23/印20的11行，后页一级栏未重印名称；记录连续表证据，不补细分。"
+    }
+  ],
+  "blocks": [
+    {
+      "id": "thinking-problem-solving--original.table001",
+      "kind": "matrix",
+      "raw_title": null,
+      "item_ids": [
+        "thinking-problem-solving--original.q001",
+        "thinking-problem-solving--original.q002",
+        "thinking-problem-solving--original.q003",
+        "thinking-problem-solving--original.q004",
+        "thinking-problem-solving--original.q005",
+        "thinking-problem-solving--original.q006",
+        "thinking-problem-solving--original.q007",
+        "thinking-problem-solving--original.q008",
+        "thinking-problem-solving--original.q009",
+        "thinking-problem-solving--original.q010",
+        "thinking-problem-solving--original.q011",
+        "thinking-problem-solving--original.q012",
+        "thinking-problem-solving--original.q013",
+        "thinking-problem-solving--original.q014",
+        "thinking-problem-solving--original.q015",
+        "thinking-problem-solving--original.q016",
+        "thinking-problem-solving--original.q017",
+        "thinking-problem-solving--original.q018",
+        "thinking-problem-solving--original.q019",
+        "thinking-problem-solving--original.q020",
+        "thinking-problem-solving--original.q021",
+        "thinking-problem-solving--original.q022",
+        "thinking-problem-solving--original.q023",
+        "thinking-problem-solving--original.q024",
+        "thinking-problem-solving--original.q025",
+        "thinking-problem-solving--original.q026"
+      ],
+      "source": {
+        "pdf_pages": [
+          22,
+          23
+        ],
+        "printed_pages": [
+          19,
+          20
+        ]
+      },
+      "note": "原表列为维度、题项、1-10；保存整表原结构及一级合并组，逐行题项不重复计数。"
+    }
+  ],
+  "scoring": {
+    "raw_rules": [],
+    "reverse_mapping": null,
+    "unknowns": [
+      {
+        "field": "reverse_mapping",
+        "reason": "原文未标反向或提供反向数值转换，不借用第一辑规则。",
+        "source": {
+          "pdf_pages": [
+            22,
+            23
+          ],
+          "printed_pages": [
+            19,
+            20
+          ]
+        }
+      },
+      {
+        "field": "aggregate_rules",
+        "reason": "原文未给总分/分组汇总算法，NPS10术语不作为净推荐值公式依据。",
+        "source": {
+          "pdf_pages": [
+            22,
+            23
+          ],
+          "printed_pages": [
+            19,
+            20
+          ]
+        }
+      },
+      {
+        "field": "subdimension_mapping",
+        "reason": "原文未提供理论细分维度与每题的对应。",
+        "source": {
+          "pdf_pages": [
+            22,
+            23
+          ],
+          "printed_pages": [
+            19,
+            20
+          ]
+        }
+      },
+      {
+        "field": "missing_values_and_norms",
+        "reason": "原文未给缺失值处理、常模或解释阈值。",
+        "source": {
+          "pdf_pages": [
+            22,
+            23
+          ],
+          "printed_pages": [
+            19,
+            20
+          ]
+        }
+      }
+    ]
+  },
+  "counts": {
+    "basic_information": 3,
+    "measurement_items": 26,
+    "scale_items": 26,
+    "preliminary_items": 0,
+    "background_items": 0,
+    "item_records": 26,
+    "original_question_blocks": 26,
+    "reason": null
+  },
+  "issues": [
+    {
+      "id": "A-16",
+      "category": "metadata",
+      "blocking": false,
+      "source": {
+        "pdf_pages": [
+          22
+        ],
+        "printed_pages": [
+          19
+        ]
+      },
+      "original_text": "使用说明：本问卷使用NPS10级计分，填答者可以根据自身真实想法和感受进行评分。选项由10个等级构成，表示程度不断增加的连续变化。1代表极度负面意见，10代表极度正面意见。其中的2-9按照程度连续变化。",
+      "missing_information": "NPS10术语没有配套统计公式；没有明示反向题。",
+      "possible_resolutions": [
+        "只保存1–10作答数值和原端点；统计与反向信息留未知。",
+        "如获正式补充，另记录来源。"
+      ],
+      "recommendation": "保留术语原文，不实施计分，不补反向标记。",
+      "affected_item_ids": [
+        "thinking-problem-solving--original.q001",
+        "thinking-problem-solving--original.q002",
+        "thinking-problem-solving--original.q003",
+        "thinking-problem-solving--original.q004",
+        "thinking-problem-solving--original.q005",
+        "thinking-problem-solving--original.q006",
+        "thinking-problem-solving--original.q007",
+        "thinking-problem-solving--original.q008",
+        "thinking-problem-solving--original.q009",
+        "thinking-problem-solving--original.q010",
+        "thinking-problem-solving--original.q011",
+        "thinking-problem-solving--original.q012",
+        "thinking-problem-solving--original.q013",
+        "thinking-problem-solving--original.q014",
+        "thinking-problem-solving--original.q015",
+        "thinking-problem-solving--original.q016",
+        "thinking-problem-solving--original.q017",
+        "thinking-problem-solving--original.q018",
+        "thinking-problem-solving--original.q019",
+        "thinking-problem-solving--original.q020",
+        "thinking-problem-solving--original.q021",
+        "thinking-problem-solving--original.q022",
+        "thinking-problem-solving--original.q023",
+        "thinking-problem-solving--original.q024",
+        "thinking-problem-solving--original.q025",
+        "thinking-problem-solving--original.q026"
+      ],
+      "resolution": null
+    },
+    {
+      "id": "thinking-problem-solving.basic-fields",
+      "category": "metadata",
+      "blocking": false,
+      "source": {
+        "pdf_pages": [
+          21
+        ],
+        "printed_pages": [
+          18
+        ]
+      },
+      "original_text": "性别：年龄：年级：",
+      "missing_information": "未提供选项、年龄范围、年级枚举及必填性。",
+      "possible_resolutions": [
+        "保留三个原空白填写字段。",
+        "取得原来源补充后记录约束。"
+      ],
+      "recommendation": "按原空白保存，不生成枚举或限制。",
+      "affected_item_ids": [
+        "thinking-problem-solving--original.basic001",
+        "thinking-problem-solving--original.basic002",
+        "thinking-problem-solving--original.basic003"
+      ],
+      "resolution": null
+    },
+    {
+      "id": "A-12",
+      "category": "metadata",
+      "blocking": false,
+      "source": {
+        "pdf_pages": [
+          20,
+          21,
+          22,
+          23
+        ],
+        "printed_pages": [
+          17,
+          18,
+          19,
+          20
+        ]
+      },
+      "original_text": "提出问题\n发现问题",
+      "missing_information": "图4（PDF20/印17）写“提出问题”；表4（PDF21/印18）写“发现问题”；术语不同，未提供逐题细分。PDF23/印20续表一级栏空白，11行按PDF22/印19问题意识5行之后的连续题表位置记录延续。",
+      "possible_resolutions": [
+        "保留问题意识前5行与连续后11行及各页来源。"
+      ],
+      "recommendation": "保留原题序、连续题表证据及两种理论术语，不补子维度。",
+      "affected_item_ids": [
+        "thinking-problem-solving--original.q011",
+        "thinking-problem-solving--original.q012",
+        "thinking-problem-solving--original.q013",
+        "thinking-problem-solving--original.q014",
+        "thinking-problem-solving--original.q015",
+        "thinking-problem-solving--original.q016",
+        "thinking-problem-solving--original.q017",
+        "thinking-problem-solving--original.q018",
+        "thinking-problem-solving--original.q019",
+        "thinking-problem-solving--original.q020",
+        "thinking-problem-solving--original.q021",
+        "thinking-problem-solving--original.q022",
+        "thinking-problem-solving--original.q023",
+        "thinking-problem-solving--original.q024",
+        "thinking-problem-solving--original.q025",
+        "thinking-problem-solving--original.q026"
+      ],
+      "resolution": null
+    }
+  ],
+  "review": {
+    "status": "verified",
+    "transcription_verified": true,
+    "checked_pdf_pages": [
+      20,
+      21,
+      22,
+      23
+    ],
+    "method": "重新从源PDF以pypdf和pdfplumber提取；人工查看本轮Poppler原页PNG，逐行比对题表、指导语、作答等级、原分组及跨页延续。仅合并版面换行与无语义空白。",
+    "reviewed_on": "2026-10-04",
+    "eligible_for_generation": true,
+    "note": "仅为原文数据核对状态，不表示生成器已实现、WorkBuddy已运行或问卷星已导入。未命名档位不补文字、未标反向不推断，计分仅保留元数据。"
+  }
+}

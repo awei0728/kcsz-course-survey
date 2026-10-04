@@ -1,0 +1,2071 @@
+{
+  "schema_version": 1,
+  "id": "engineering-ethics--original",
+  "project_id": "engineering-ethics",
+  "version_id": "original",
+  "project_name": "工程伦理",
+  "original_name": "大学生工程伦理问卷",
+  "original_name_reason": null,
+  "title": {
+    "raw_text": "大学生工程伦理问卷",
+    "student_text": "大学生工程伦理问卷",
+    "source": {
+      "pdf_pages": [
+        31
+      ],
+      "printed_pages": [
+        28
+      ]
+    }
+  },
+  "source": {
+    "filename": "武汉大学课程思政教学评价指南（第二辑）.pdf",
+    "volume": 2,
+    "chapter": "六、工程伦理评价指南",
+    "pdf_pages": [
+      29,
+      30,
+      31,
+      32,
+      33
+    ],
+    "printed_pages": [
+      26,
+      27,
+      28,
+      29,
+      30
+    ],
+    "sha256": "409e07caee432868f24c51a5c3989cabdb5df37f8bbdcddfb36cc4adbbc51ce4"
+  },
+  "instructions": [
+    {
+      "id": "engineering-ethics--original.instruction001",
+      "role": "guidance",
+      "raw_text": "请根据自己的情况填写下列问卷。",
+      "student_text": "请根据自己的情况填写下列问卷。",
+      "source": {
+        "pdf_pages": [
+          31
+        ],
+        "printed_pages": [
+          28
+        ]
+      }
+    },
+    {
+      "id": "engineering-ethics--original.instruction002",
+      "role": "response",
+      "raw_text": "其中“完全没有参与/交流过--1”“接触/交流过一点点--2”“参与/交流过一些--3”“经常参与/交流--4”。",
+      "student_text": "其中“完全没有参与/交流过--1”“接触/交流过一点点--2”“参与/交流过一些--3”“经常参与/交流--4”。",
+      "source": {
+        "pdf_pages": [
+          32
+        ],
+        "printed_pages": [
+          29
+        ]
+      }
+    },
+    {
+      "id": "engineering-ethics--original.instruction003",
+      "role": "teacher",
+      "raw_text": "（二）维度划分工程以科学、技术为基础，除了固有的工具理性，还应持有相应的价值理性。根据上述伦理的双重属性，将工程伦理的内容分为四个维度：规则质量、价值伦理、教学方式和实践。规则规范维度：涵盖了工程实践中的伦理准则、道德规范以及相关的法律法规，关注工程师在工程设计、实施过程，质量和用料方面需要遵守的规则和规范，以确保他们的行为和决策是道德和合法的。价值伦理维度：工程和工程师对人类进步的承诺，对提升人类福祉，经济发展等的追求，是工程伦理的基础。教学方式维度：工程伦理教育或培训的方法和策略，以帮助工程师和相关专业人员理解和应用伦理原则和价值观。",
+      "student_text": null,
+      "source": {
+        "pdf_pages": [
+          29
+        ],
+        "printed_pages": [
+          26
+        ]
+      }
+    }
+  ],
+  "basic_information": [],
+  "items": [
+    {
+      "id": "engineering-ethics--original.q001",
+      "order": 1,
+      "original_number": null,
+      "role": "background",
+      "measurement_class": "mixed",
+      "kind": "choice",
+      "raw_text": "您以前是否接触过工程伦理相关内容？",
+      "student_text": "您以前是否接触过工程伦理相关内容？",
+      "source": {
+        "pdf_pages": [
+          31
+        ],
+        "printed_pages": [
+          28
+        ]
+      },
+      "group_id": null,
+      "subdimension": null,
+      "subdimension_reason": "原题表未明示每题对应的理论细分维度；不依据语义推断。",
+      "teacher_annotations": [],
+      "reverse": {
+        "marked": null,
+        "raw_marker": null,
+        "source": null,
+        "reason": "本原文题项未标明反向题；否定措辞不作为反向依据。"
+      },
+      "response": {
+        "options": [
+          {
+            "id": "A",
+            "label": "完全没接触过",
+            "value": null,
+            "source": {
+              "pdf_pages": [
+                31
+              ],
+              "printed_pages": [
+                28
+              ]
+            }
+          },
+          {
+            "id": "B",
+            "label": "接触过一些",
+            "value": null,
+            "source": {
+              "pdf_pages": [
+                31
+              ],
+              "printed_pages": [
+                28
+              ]
+            }
+          },
+          {
+            "id": "C",
+            "label": "接触很多",
+            "value": null,
+            "source": {
+              "pdf_pages": [
+                31
+              ],
+              "printed_pages": [
+                28
+              ]
+            }
+          }
+        ],
+        "minimum": null,
+        "maximum": null,
+        "cardinality": null,
+        "slots": null,
+        "raw_instruction": null,
+        "unknowns": [
+          {
+            "field": "cardinality",
+            "reason": "原文列A/B/C三档，但未明示单选或多选；E-1待确认。"
+          }
+        ],
+        "ranking": null
+      }
+    },
+    {
+      "id": "engineering-ethics--original.q002",
+      "order": 2,
+      "original_number": null,
+      "role": "background",
+      "measurement_class": "mixed",
+      "kind": "choice",
+      "raw_text": "您以前对于工程伦理方面的知识和信息是否有过了解？",
+      "student_text": "您以前对于工程伦理方面的知识和信息是否有过了解？",
+      "source": {
+        "pdf_pages": [
+          32
+        ],
+        "printed_pages": [
+          29
+        ]
+      },
+      "group_id": null,
+      "subdimension": null,
+      "subdimension_reason": "原题表未明示每题对应的理论细分维度；不依据语义推断。",
+      "teacher_annotations": [],
+      "reverse": {
+        "marked": null,
+        "raw_marker": null,
+        "source": null,
+        "reason": "本原文题项未标明反向题；否定措辞不作为反向依据。"
+      },
+      "response": {
+        "options": [
+          {
+            "id": "A",
+            "label": "完全没接触过",
+            "value": null,
+            "source": {
+              "pdf_pages": [
+                32
+              ],
+              "printed_pages": [
+                29
+              ]
+            }
+          },
+          {
+            "id": "B",
+            "label": "接触过一些",
+            "value": null,
+            "source": {
+              "pdf_pages": [
+                32
+              ],
+              "printed_pages": [
+                29
+              ]
+            }
+          },
+          {
+            "id": "C",
+            "label": "接触很多",
+            "value": null,
+            "source": {
+              "pdf_pages": [
+                32
+              ],
+              "printed_pages": [
+                29
+              ]
+            }
+          }
+        ],
+        "minimum": null,
+        "maximum": null,
+        "cardinality": null,
+        "slots": null,
+        "raw_instruction": null,
+        "unknowns": [
+          {
+            "field": "cardinality",
+            "reason": "原文列A/B/C三档，但未明示单选或多选；E-1待确认。"
+          }
+        ],
+        "ranking": null
+      }
+    },
+    {
+      "id": "engineering-ethics--original.q003",
+      "order": 3,
+      "original_number": null,
+      "role": "measurement",
+      "measurement_class": "mixed",
+      "kind": "unknown",
+      "raw_text": "下列内容中您认为属于工程伦理范畴的是什么？重要度如何排序？",
+      "student_text": "下列内容中您认为属于工程伦理范畴的是什么？重要度如何排序？",
+      "source": {
+        "pdf_pages": [
+          32
+        ],
+        "printed_pages": [
+          29
+        ]
+      },
+      "group_id": "engineering-ethics--original.group001",
+      "subdimension": null,
+      "subdimension_reason": "原题表未明示每题对应的理论细分维度；不依据语义推断。",
+      "teacher_annotations": [],
+      "reverse": {
+        "marked": null,
+        "raw_marker": null,
+        "source": null,
+        "reason": "本原文题项未标明反向题；否定措辞不作为反向依据。"
+      },
+      "response": {
+        "options": [
+          {
+            "id": "A",
+            "label": "工程项目/工程技术要对人类社会的发展有意义",
+            "value": null,
+            "source": {
+              "pdf_pages": [
+                32
+              ],
+              "printed_pages": [
+                29
+              ]
+            }
+          },
+          {
+            "id": "B",
+            "label": "工程项目/工程技术对于自然环境要负责任",
+            "value": null,
+            "source": {
+              "pdf_pages": [
+                32
+              ],
+              "printed_pages": [
+                29
+              ]
+            }
+          },
+          {
+            "id": "C",
+            "label": "工程项目/工程技术不能伤害到公民个体",
+            "value": null,
+            "source": {
+              "pdf_pages": [
+                32
+              ],
+              "printed_pages": [
+                29
+              ]
+            }
+          },
+          {
+            "id": "D",
+            "label": "工程项目/工程技术要能够促进人类福祉",
+            "value": null,
+            "source": {
+              "pdf_pages": [
+                32
+              ],
+              "printed_pages": [
+                29
+              ]
+            }
+          },
+          {
+            "id": "E",
+            "label": "工程项目/工程技术要对民族发展和复兴有意义",
+            "value": null,
+            "source": {
+              "pdf_pages": [
+                32
+              ],
+              "printed_pages": [
+                29
+              ]
+            }
+          },
+          {
+            "id": "F",
+            "label": "工程项目/工程技术不能伤害到生物个体（比如小动物）",
+            "value": null,
+            "source": {
+              "pdf_pages": [
+                32
+              ],
+              "printed_pages": [
+                29
+              ]
+            }
+          },
+          {
+            "id": "G",
+            "label": "其他",
+            "value": null,
+            "source": {
+              "pdf_pages": [
+                32
+              ],
+              "printed_pages": [
+                29
+              ]
+            }
+          }
+        ],
+        "minimum": null,
+        "maximum": null,
+        "cardinality": null,
+        "slots": null,
+        "raw_instruction": "下列内容中您认为属于工程伦理范畴的是什么？重要度如何排序？",
+        "unknowns": [
+          {
+            "field": "mode",
+            "reason": "选择与排序的关系、是否两个响应字段不明；E-2。"
+          },
+          {
+            "field": "ranking",
+            "reason": "排序方向、全排/所选、并列均未提供；E-2。"
+          },
+          {
+            "field": "other_text",
+            "reason": "G其他是否需填空及是否参与排序未提供；E-3。"
+          }
+        ],
+        "ranking": {
+          "direction": null,
+          "complete": null,
+          "ties_allowed": null,
+          "other_text": null
+        }
+      }
+    },
+    {
+      "id": "engineering-ethics--original.q004",
+      "order": 4,
+      "original_number": null,
+      "role": "measurement",
+      "measurement_class": "mixed",
+      "kind": "ranking",
+      "raw_text": "您认为工程伦理的具体内涵是（请排序）",
+      "student_text": "您认为工程伦理的具体内涵是（请排序）",
+      "source": {
+        "pdf_pages": [
+          32
+        ],
+        "printed_pages": [
+          29
+        ]
+      },
+      "group_id": "engineering-ethics--original.group001",
+      "subdimension": null,
+      "subdimension_reason": "原题表未明示每题对应的理论细分维度；不依据语义推断。",
+      "teacher_annotations": [],
+      "reverse": {
+        "marked": null,
+        "raw_marker": null,
+        "source": null,
+        "reason": "本原文题项未标明反向题；否定措辞不作为反向依据。"
+      },
+      "response": {
+        "options": [
+          {
+            "id": "A",
+            "label": "社会价值追求",
+            "value": null,
+            "source": {
+              "pdf_pages": [
+                32
+              ],
+              "printed_pages": [
+                29
+              ]
+            }
+          },
+          {
+            "id": "B",
+            "label": "质量安全价值追求",
+            "value": null,
+            "source": {
+              "pdf_pages": [
+                32
+              ],
+              "printed_pages": [
+                29
+              ]
+            }
+          },
+          {
+            "id": "C",
+            "label": "道德价值追求",
+            "value": null,
+            "source": {
+              "pdf_pages": [
+                32
+              ],
+              "printed_pages": [
+                29
+              ]
+            }
+          },
+          {
+            "id": "D",
+            "label": "规则规范价值追求",
+            "value": null,
+            "source": {
+              "pdf_pages": [
+                32
+              ],
+              "printed_pages": [
+                29
+              ]
+            }
+          },
+          {
+            "id": "E",
+            "label": "经济价值追求",
+            "value": null,
+            "source": {
+              "pdf_pages": [
+                32
+              ],
+              "printed_pages": [
+                29
+              ]
+            }
+          }
+        ],
+        "minimum": null,
+        "maximum": null,
+        "cardinality": null,
+        "slots": null,
+        "raw_instruction": "请排序",
+        "unknowns": [
+          {
+            "field": "ranking",
+            "reason": "明示排序但方向、全排和并列规则未提供；E-4。"
+          }
+        ],
+        "ranking": {
+          "direction": null,
+          "complete": null,
+          "ties_allowed": null,
+          "other_text": null
+        }
+      }
+    },
+    {
+      "id": "engineering-ethics--original.q005",
+      "order": 5,
+      "original_number": null,
+      "role": "measurement",
+      "measurement_class": "scale",
+      "kind": "rating",
+      "raw_text": "我曾经和别人交流过有关工程伦理的问题",
+      "student_text": "我曾经和别人交流过有关工程伦理的问题",
+      "source": {
+        "pdf_pages": [
+          32
+        ],
+        "printed_pages": [
+          29
+        ]
+      },
+      "group_id": "engineering-ethics--original.group002",
+      "subdimension": null,
+      "subdimension_reason": "原题表未明示每题对应的理论细分维度；不依据语义推断。",
+      "teacher_annotations": [],
+      "reverse": {
+        "marked": null,
+        "raw_marker": null,
+        "source": null,
+        "reason": "本原文题项未标明反向题；否定措辞不作为反向依据。"
+      },
+      "response": {
+        "options": [
+          {
+            "id": "1",
+            "label": "完全没有参与/交流过",
+            "value": 1,
+            "source": {
+              "pdf_pages": [
+                32
+              ],
+              "printed_pages": [
+                29
+              ]
+            }
+          },
+          {
+            "id": "2",
+            "label": "接触/交流过一点点",
+            "value": 2,
+            "source": {
+              "pdf_pages": [
+                32
+              ],
+              "printed_pages": [
+                29
+              ]
+            }
+          },
+          {
+            "id": "3",
+            "label": "参与/交流过一些",
+            "value": 3,
+            "source": {
+              "pdf_pages": [
+                32
+              ],
+              "printed_pages": [
+                29
+              ]
+            }
+          },
+          {
+            "id": "4",
+            "label": "经常参与/交流",
+            "value": 4,
+            "source": {
+              "pdf_pages": [
+                32
+              ],
+              "printed_pages": [
+                29
+              ]
+            }
+          }
+        ],
+        "minimum": 1,
+        "maximum": 4,
+        "cardinality": "single",
+        "slots": null,
+        "raw_instruction": "其中“完全没有参与/交流过--1”“接触/交流过一点点--2”“参与/交流过一些--3”“经常参与/交流--4”。",
+        "unknowns": [],
+        "ranking": null
+      }
+    },
+    {
+      "id": "engineering-ethics--original.q006",
+      "order": 6,
+      "original_number": null,
+      "role": "measurement",
+      "measurement_class": "scale",
+      "kind": "rating",
+      "raw_text": "我曾经参与过工程项目/工程技术的的具体实施过程",
+      "student_text": "我曾经参与过工程项目/工程技术的的具体实施过程",
+      "source": {
+        "pdf_pages": [
+          32
+        ],
+        "printed_pages": [
+          29
+        ]
+      },
+      "group_id": "engineering-ethics--original.group002",
+      "subdimension": null,
+      "subdimension_reason": "原题表未明示每题对应的理论细分维度；不依据语义推断。",
+      "teacher_annotations": [],
+      "reverse": {
+        "marked": null,
+        "raw_marker": null,
+        "source": null,
+        "reason": "本原文题项未标明反向题；否定措辞不作为反向依据。"
+      },
+      "response": {
+        "options": [
+          {
+            "id": "1",
+            "label": "完全没有参与/交流过",
+            "value": 1,
+            "source": {
+              "pdf_pages": [
+                32
+              ],
+              "printed_pages": [
+                29
+              ]
+            }
+          },
+          {
+            "id": "2",
+            "label": "接触/交流过一点点",
+            "value": 2,
+            "source": {
+              "pdf_pages": [
+                32
+              ],
+              "printed_pages": [
+                29
+              ]
+            }
+          },
+          {
+            "id": "3",
+            "label": "参与/交流过一些",
+            "value": 3,
+            "source": {
+              "pdf_pages": [
+                32
+              ],
+              "printed_pages": [
+                29
+              ]
+            }
+          },
+          {
+            "id": "4",
+            "label": "经常参与/交流",
+            "value": 4,
+            "source": {
+              "pdf_pages": [
+                32
+              ],
+              "printed_pages": [
+                29
+              ]
+            }
+          }
+        ],
+        "minimum": 1,
+        "maximum": 4,
+        "cardinality": "single",
+        "slots": null,
+        "raw_instruction": "其中“完全没有参与/交流过--1”“接触/交流过一点点--2”“参与/交流过一些--3”“经常参与/交流--4”。",
+        "unknowns": [],
+        "ranking": null
+      }
+    },
+    {
+      "id": "engineering-ethics--original.q007",
+      "order": 7,
+      "original_number": null,
+      "role": "measurement",
+      "measurement_class": "scale",
+      "kind": "rating",
+      "raw_text": "我曾经参与过工程项目/工程技术的研究过程",
+      "student_text": "我曾经参与过工程项目/工程技术的研究过程",
+      "source": {
+        "pdf_pages": [
+          32
+        ],
+        "printed_pages": [
+          29
+        ]
+      },
+      "group_id": "engineering-ethics--original.group002",
+      "subdimension": null,
+      "subdimension_reason": "原题表未明示每题对应的理论细分维度；不依据语义推断。",
+      "teacher_annotations": [],
+      "reverse": {
+        "marked": null,
+        "raw_marker": null,
+        "source": null,
+        "reason": "本原文题项未标明反向题；否定措辞不作为反向依据。"
+      },
+      "response": {
+        "options": [
+          {
+            "id": "1",
+            "label": "完全没有参与/交流过",
+            "value": 1,
+            "source": {
+              "pdf_pages": [
+                32
+              ],
+              "printed_pages": [
+                29
+              ]
+            }
+          },
+          {
+            "id": "2",
+            "label": "接触/交流过一点点",
+            "value": 2,
+            "source": {
+              "pdf_pages": [
+                32
+              ],
+              "printed_pages": [
+                29
+              ]
+            }
+          },
+          {
+            "id": "3",
+            "label": "参与/交流过一些",
+            "value": 3,
+            "source": {
+              "pdf_pages": [
+                32
+              ],
+              "printed_pages": [
+                29
+              ]
+            }
+          },
+          {
+            "id": "4",
+            "label": "经常参与/交流",
+            "value": 4,
+            "source": {
+              "pdf_pages": [
+                32
+              ],
+              "printed_pages": [
+                29
+              ]
+            }
+          }
+        ],
+        "minimum": 1,
+        "maximum": 4,
+        "cardinality": "single",
+        "slots": null,
+        "raw_instruction": "其中“完全没有参与/交流过--1”“接触/交流过一点点--2”“参与/交流过一些--3”“经常参与/交流--4”。",
+        "unknowns": [],
+        "ranking": null
+      }
+    },
+    {
+      "id": "engineering-ethics--original.q008",
+      "order": 8,
+      "original_number": null,
+      "role": "measurement",
+      "measurement_class": "scale",
+      "kind": "rating",
+      "raw_text": "对于一些日常生活中的需求，我能够运用自己所学的知识来进行工程化设计或寻找工程化解决方案[量表题]（1-非常不符合;10-非常符合）",
+      "student_text": "对于一些日常生活中的需求，我能够运用自己所学的知识来进行工程化设计或寻找工程化解决方案[量表题]（1-非常不符合;10-非常符合）",
+      "source": {
+        "pdf_pages": [
+          32
+        ],
+        "printed_pages": [
+          29
+        ]
+      },
+      "group_id": "engineering-ethics--original.group002",
+      "subdimension": null,
+      "subdimension_reason": "原题表未明示每题对应的理论细分维度；不依据语义推断。",
+      "teacher_annotations": [
+        {
+          "text": "[量表题]",
+          "kind": "note",
+          "visibility": "undecided",
+          "source": {
+            "pdf_pages": [
+              32
+            ],
+            "printed_pages": [
+              29
+            ]
+          }
+        }
+      ],
+      "reverse": {
+        "marked": null,
+        "raw_marker": null,
+        "source": null,
+        "reason": "本原文题项未标明反向题；否定措辞不作为反向依据。"
+      },
+      "response": {
+        "options": [
+          {
+            "id": "A",
+            "label": "非常不符合",
+            "value": 1,
+            "source": {
+              "pdf_pages": [
+                32
+              ],
+              "printed_pages": [
+                29
+              ]
+            }
+          },
+          {
+            "id": "B",
+            "label": null,
+            "value": 2,
+            "source": {
+              "pdf_pages": [
+                32
+              ],
+              "printed_pages": [
+                29
+              ]
+            }
+          },
+          {
+            "id": "C",
+            "label": null,
+            "value": 3,
+            "source": {
+              "pdf_pages": [
+                32
+              ],
+              "printed_pages": [
+                29
+              ]
+            }
+          },
+          {
+            "id": "D",
+            "label": null,
+            "value": 4,
+            "source": {
+              "pdf_pages": [
+                32
+              ],
+              "printed_pages": [
+                29
+              ]
+            }
+          },
+          {
+            "id": "E",
+            "label": null,
+            "value": 5,
+            "source": {
+              "pdf_pages": [
+                32
+              ],
+              "printed_pages": [
+                29
+              ]
+            }
+          },
+          {
+            "id": "F",
+            "label": null,
+            "value": 6,
+            "source": {
+              "pdf_pages": [
+                32
+              ],
+              "printed_pages": [
+                29
+              ]
+            }
+          },
+          {
+            "id": "G",
+            "label": null,
+            "value": 7,
+            "source": {
+              "pdf_pages": [
+                32
+              ],
+              "printed_pages": [
+                29
+              ]
+            }
+          },
+          {
+            "id": "H",
+            "label": null,
+            "value": 8,
+            "source": {
+              "pdf_pages": [
+                32
+              ],
+              "printed_pages": [
+                29
+              ]
+            }
+          },
+          {
+            "id": "I",
+            "label": null,
+            "value": 9,
+            "source": {
+              "pdf_pages": [
+                32
+              ],
+              "printed_pages": [
+                29
+              ]
+            }
+          },
+          {
+            "id": "J",
+            "label": "非常符合",
+            "value": 10,
+            "source": {
+              "pdf_pages": [
+                32
+              ],
+              "printed_pages": [
+                29
+              ]
+            }
+          }
+        ],
+        "minimum": 1,
+        "maximum": 10,
+        "cardinality": "single",
+        "slots": null,
+        "raw_instruction": "[量表题]（1-非常不符合;10-非常符合）",
+        "unknowns": [
+          {
+            "field": "options.label",
+            "reason": "原文只给端点文字，未为中间档命名；中间档保留数值和null标签。"
+          }
+        ],
+        "ranking": null
+      }
+    },
+    {
+      "id": "engineering-ethics--original.q009",
+      "order": 9,
+      "original_number": "1",
+      "role": "measurement",
+      "measurement_class": "mixed",
+      "kind": "unknown",
+      "raw_text": "对于以下几种工程伦理教育的教学方式，你个人认为",
+      "student_text": "对于以下几种工程伦理教育的教学方式，你个人认为",
+      "source": {
+        "pdf_pages": [
+          33
+        ],
+        "printed_pages": [
+          30
+        ]
+      },
+      "group_id": "engineering-ethics--original.group003",
+      "subdimension": null,
+      "subdimension_reason": "原题表未明示每题对应的理论细分维度；不依据语义推断。",
+      "teacher_annotations": [],
+      "reverse": {
+        "marked": null,
+        "raw_marker": null,
+        "source": null,
+        "reason": "本原文题项未标明反向题；否定措辞不作为反向依据。"
+      },
+      "response": {
+        "options": [
+          {
+            "id": "A",
+            "label": "在教学中贯穿工程伦理案例的讲授",
+            "value": null,
+            "source": {
+              "pdf_pages": [
+                33
+              ],
+              "printed_pages": [
+                30
+              ]
+            }
+          },
+          {
+            "id": "B",
+            "label": "在项目操作中穿插工程伦理知识的运用",
+            "value": null,
+            "source": {
+              "pdf_pages": [
+                33
+              ],
+              "printed_pages": [
+                30
+              ]
+            }
+          },
+          {
+            "id": "C",
+            "label": "采用辩论、小组汇报、制作小报等偏向人文类的学习方式",
+            "value": null,
+            "source": {
+              "pdf_pages": [
+                33
+              ],
+              "printed_pages": [
+                30
+              ]
+            }
+          }
+        ],
+        "minimum": null,
+        "maximum": null,
+        "cardinality": null,
+        "slots": null,
+        "raw_instruction": null,
+        "unknowns": [
+          {
+            "field": "mode",
+            "reason": "原文A/B/C角色、单多选/排序/逐条评分及等级未明；E-5。"
+          }
+        ],
+        "ranking": null
+      }
+    },
+    {
+      "id": "engineering-ethics--original.q010",
+      "order": 10,
+      "original_number": "1",
+      "role": "measurement",
+      "measurement_class": "mixed",
+      "kind": "unknown",
+      "raw_text": "对于下面的描述，你的观点是",
+      "student_text": "对于下面的描述，你的观点是",
+      "source": {
+        "pdf_pages": [
+          33
+        ],
+        "printed_pages": [
+          30
+        ]
+      },
+      "group_id": "engineering-ethics--original.group004",
+      "subdimension": null,
+      "subdimension_reason": "原题表未明示每题对应的理论细分维度；不依据语义推断。",
+      "teacher_annotations": [],
+      "reverse": {
+        "marked": null,
+        "raw_marker": null,
+        "source": null,
+        "reason": "本原文题项未标明反向题；否定措辞不作为反向依据。"
+      },
+      "response": {
+        "options": [
+          {
+            "id": "A",
+            "label": "我认为自己对于项目/技术中可能存在的工程伦理陷阱，具有很强的敏感性和判断力",
+            "value": null,
+            "source": {
+              "pdf_pages": [
+                33
+              ],
+              "printed_pages": [
+                30
+              ]
+            }
+          },
+          {
+            "id": "B",
+            "label": "我认为工程伦理是一个项目/一项技术能够成功的最基本的前提条件",
+            "value": null,
+            "source": {
+              "pdf_pages": [
+                33
+              ],
+              "printed_pages": [
+                30
+              ]
+            }
+          },
+          {
+            "id": "C",
+            "label": "在接触一个新的工程项目/工程技术时，我能够较为准确地判断出它可能面临的伦理风险",
+            "value": null,
+            "source": {
+              "pdf_pages": [
+                33
+              ],
+              "printed_pages": [
+                30
+              ]
+            }
+          }
+        ],
+        "minimum": null,
+        "maximum": null,
+        "cardinality": null,
+        "slots": null,
+        "raw_instruction": null,
+        "unknowns": [
+          {
+            "field": "mode",
+            "reason": "原文A/B/C是选项还是独立陈述、响应模式与等级未明；E-6。"
+          }
+        ],
+        "ranking": null
+      }
+    },
+    {
+      "id": "engineering-ethics--original.q011",
+      "order": 11,
+      "original_number": "2",
+      "role": "measurement",
+      "measurement_class": "scale",
+      "kind": "rating",
+      "raw_text": "我对自己的工程伦理知识储备的自评分数是[量表题](1-最低分，10-最高分)",
+      "student_text": "我对自己的工程伦理知识储备的自评分数是[量表题](1-最低分，10-最高分)",
+      "source": {
+        "pdf_pages": [
+          33
+        ],
+        "printed_pages": [
+          30
+        ]
+      },
+      "group_id": "engineering-ethics--original.group004",
+      "subdimension": null,
+      "subdimension_reason": "原题表未明示每题对应的理论细分维度；不依据语义推断。",
+      "teacher_annotations": [
+        {
+          "text": "[量表题]",
+          "kind": "note",
+          "visibility": "undecided",
+          "source": {
+            "pdf_pages": [
+              33
+            ],
+            "printed_pages": [
+              30
+            ]
+          }
+        }
+      ],
+      "reverse": {
+        "marked": null,
+        "raw_marker": null,
+        "source": null,
+        "reason": "本原文题项未标明反向题；否定措辞不作为反向依据。"
+      },
+      "response": {
+        "options": [
+          {
+            "id": "A",
+            "label": "最低分",
+            "value": 1,
+            "source": {
+              "pdf_pages": [
+                33
+              ],
+              "printed_pages": [
+                30
+              ]
+            }
+          },
+          {
+            "id": "B",
+            "label": null,
+            "value": 2,
+            "source": {
+              "pdf_pages": [
+                33
+              ],
+              "printed_pages": [
+                30
+              ]
+            }
+          },
+          {
+            "id": "C",
+            "label": null,
+            "value": 3,
+            "source": {
+              "pdf_pages": [
+                33
+              ],
+              "printed_pages": [
+                30
+              ]
+            }
+          },
+          {
+            "id": "D",
+            "label": null,
+            "value": 4,
+            "source": {
+              "pdf_pages": [
+                33
+              ],
+              "printed_pages": [
+                30
+              ]
+            }
+          },
+          {
+            "id": "E",
+            "label": null,
+            "value": 5,
+            "source": {
+              "pdf_pages": [
+                33
+              ],
+              "printed_pages": [
+                30
+              ]
+            }
+          },
+          {
+            "id": "F",
+            "label": null,
+            "value": 6,
+            "source": {
+              "pdf_pages": [
+                33
+              ],
+              "printed_pages": [
+                30
+              ]
+            }
+          },
+          {
+            "id": "G",
+            "label": null,
+            "value": 7,
+            "source": {
+              "pdf_pages": [
+                33
+              ],
+              "printed_pages": [
+                30
+              ]
+            }
+          },
+          {
+            "id": "H",
+            "label": null,
+            "value": 8,
+            "source": {
+              "pdf_pages": [
+                33
+              ],
+              "printed_pages": [
+                30
+              ]
+            }
+          },
+          {
+            "id": "I",
+            "label": null,
+            "value": 9,
+            "source": {
+              "pdf_pages": [
+                33
+              ],
+              "printed_pages": [
+                30
+              ]
+            }
+          },
+          {
+            "id": "J",
+            "label": "最高分",
+            "value": 10,
+            "source": {
+              "pdf_pages": [
+                33
+              ],
+              "printed_pages": [
+                30
+              ]
+            }
+          }
+        ],
+        "minimum": 1,
+        "maximum": 10,
+        "cardinality": "single",
+        "slots": null,
+        "raw_instruction": "[量表题](1-最低分，10-最高分)",
+        "unknowns": [
+          {
+            "field": "options.label",
+            "reason": "原文只给端点文字，未为中间档命名；中间档保留数值和null标签。"
+          }
+        ],
+        "ranking": null
+      }
+    },
+    {
+      "id": "engineering-ethics--original.q012",
+      "order": 12,
+      "original_number": "3",
+      "role": "measurement",
+      "measurement_class": "mixed",
+      "kind": "unknown",
+      "raw_text": "以下叙述中，我的观点是",
+      "student_text": "以下叙述中，我的观点是",
+      "source": {
+        "pdf_pages": [
+          33
+        ],
+        "printed_pages": [
+          30
+        ]
+      },
+      "group_id": "engineering-ethics--original.group004",
+      "subdimension": null,
+      "subdimension_reason": "原题表未明示每题对应的理论细分维度；不依据语义推断。",
+      "teacher_annotations": [],
+      "reverse": {
+        "marked": null,
+        "raw_marker": null,
+        "source": null,
+        "reason": "本原文题项未标明反向题；否定措辞不作为反向依据。"
+      },
+      "response": {
+        "options": [
+          {
+            "id": "A",
+            "label": "日常生活中，当我接触到一些工程项目/工程技术（如电视节目或者日常生活中的工程）时，我都会在脑海中思考他的工程原理",
+            "value": null,
+            "source": {
+              "pdf_pages": [
+                33
+              ],
+              "printed_pages": [
+                30
+              ]
+            }
+          },
+          {
+            "id": "B",
+            "label": "在课堂教学之外，我自己也很喜欢阅读与专业相关的书籍",
+            "value": null,
+            "source": {
+              "pdf_pages": [
+                33
+              ],
+              "printed_pages": [
+                30
+              ]
+            }
+          },
+          {
+            "id": "C",
+            "label": "即使没有学业的压力，我也很愿意去参加一些工程项目/工程技术的学习活动",
+            "value": null,
+            "source": {
+              "pdf_pages": [
+                33
+              ],
+              "printed_pages": [
+                30
+              ]
+            }
+          }
+        ],
+        "minimum": null,
+        "maximum": null,
+        "cardinality": null,
+        "slots": null,
+        "raw_instruction": null,
+        "unknowns": [
+          {
+            "field": "mode",
+            "reason": "原文A/B/C是选项还是独立陈述、响应模式与等级未明；E-7。"
+          }
+        ],
+        "ranking": null
+      }
+    },
+    {
+      "id": "engineering-ethics--original.q013",
+      "order": 13,
+      "original_number": "4",
+      "role": "measurement",
+      "measurement_class": "mixed",
+      "kind": "open",
+      "raw_text": "请你用三句话来说一说你理解的“工程伦理”是什么？（可以是你对工程伦理的理解，也可以是你自己对于工程伦理教学的期待，也可以是你所知道的与工程伦理相关的案例/事故，或者其他与工程伦理有关的内容）",
+      "student_text": "请你用三句话来说一说你理解的“工程伦理”是什么？（可以是你对工程伦理的理解，也可以是你自己对于工程伦理教学的期待，也可以是你所知道的与工程伦理相关的案例/事故，或者其他与工程伦理有关的内容）",
+      "source": {
+        "pdf_pages": [
+          33
+        ],
+        "printed_pages": [
+          30
+        ]
+      },
+      "group_id": "engineering-ethics--original.group004",
+      "subdimension": null,
+      "subdimension_reason": "原题表未明示每题对应的理论细分维度；不依据语义推断。",
+      "teacher_annotations": [],
+      "reverse": {
+        "marked": null,
+        "raw_marker": null,
+        "source": null,
+        "reason": "本原文题项未标明反向题；否定措辞不作为反向依据。"
+      },
+      "response": {
+        "options": [],
+        "minimum": null,
+        "maximum": null,
+        "cardinality": null,
+        "slots": null,
+        "raw_instruction": "请你用三句话来说一说你理解的“工程伦理”是什么？",
+        "unknowns": [
+          {
+            "field": "slots",
+            "reason": "明示三句话，未画出三个独立空位；不把句数当回答字段数。"
+          },
+          {
+            "field": "required",
+            "reason": "原文未明示必填性。"
+          }
+        ],
+        "ranking": null
+      }
+    }
+  ],
+  "groups": [
+    {
+      "id": "engineering-ethics--original.group001",
+      "raw_name": "价值伦理维度&规则规范维度",
+      "source": {
+        "pdf_pages": [
+          32
+        ],
+        "printed_pages": [
+          29
+        ]
+      },
+      "parent_id": null,
+      "note": "问卷题块明示小标题，不由15个理论二级维度推断逐项对应。"
+    },
+    {
+      "id": "engineering-ethics--original.group002",
+      "raw_name": "实践维度",
+      "source": {
+        "pdf_pages": [
+          32
+        ],
+        "printed_pages": [
+          29
+        ]
+      },
+      "parent_id": null,
+      "note": "问卷题块明示小标题，不由15个理论二级维度推断逐项对应。"
+    },
+    {
+      "id": "engineering-ethics--original.group003",
+      "raw_name": "教学方式维度",
+      "source": {
+        "pdf_pages": [
+          33
+        ],
+        "printed_pages": [
+          30
+        ]
+      },
+      "parent_id": null,
+      "note": "问卷题块明示小标题，不由15个理论二级维度推断逐项对应。"
+    },
+    {
+      "id": "engineering-ethics--original.group004",
+      "raw_name": "学生对工程伦理的整体自评情况",
+      "source": {
+        "pdf_pages": [
+          33
+        ],
+        "printed_pages": [
+          30
+        ]
+      },
+      "parent_id": null,
+      "note": "问卷题块明示小标题，不由15个理论二级维度推断逐项对应。"
+    }
+  ],
+  "blocks": [
+    {
+      "id": "engineering-ethics--original.block001",
+      "kind": "section",
+      "raw_title": "您以前是否接触过工程伦理相关内容？",
+      "item_ids": [
+        "engineering-ethics--original.q001"
+      ],
+      "source": {
+        "pdf_pages": [
+          31
+        ],
+        "printed_pages": [
+          28
+        ]
+      },
+      "note": "原题干块；A/B/C列表保持在响应options中，其角色未知时不拆为题项。"
+    },
+    {
+      "id": "engineering-ethics--original.block002",
+      "kind": "section",
+      "raw_title": "您以前对于工程伦理方面的知识和信息是否有过了解？",
+      "item_ids": [
+        "engineering-ethics--original.q002"
+      ],
+      "source": {
+        "pdf_pages": [
+          32
+        ],
+        "printed_pages": [
+          29
+        ]
+      },
+      "note": "原题干块；A/B/C列表保持在响应options中，其角色未知时不拆为题项。"
+    },
+    {
+      "id": "engineering-ethics--original.block003",
+      "kind": "section",
+      "raw_title": "下列内容中您认为属于工程伦理范畴的是什么？重要度如何排序？",
+      "item_ids": [
+        "engineering-ethics--original.q003"
+      ],
+      "source": {
+        "pdf_pages": [
+          32
+        ],
+        "printed_pages": [
+          29
+        ]
+      },
+      "note": "原题干块；A/B/C列表保持在响应options中，其角色未知时不拆为题项。"
+    },
+    {
+      "id": "engineering-ethics--original.block004",
+      "kind": "section",
+      "raw_title": "您认为工程伦理的具体内涵是（请排序）",
+      "item_ids": [
+        "engineering-ethics--original.q004"
+      ],
+      "source": {
+        "pdf_pages": [
+          32
+        ],
+        "printed_pages": [
+          29
+        ]
+      },
+      "note": "原题干块；A/B/C列表保持在响应options中，其角色未知时不拆为题项。"
+    },
+    {
+      "id": "engineering-ethics--original.block005",
+      "kind": "matrix",
+      "raw_title": "实践维度",
+      "item_ids": [
+        "engineering-ethics--original.q005",
+        "engineering-ethics--original.q006",
+        "engineering-ethics--original.q007"
+      ],
+      "source": {
+        "pdf_pages": [
+          32
+        ],
+        "printed_pages": [
+          29
+        ]
+      },
+      "note": "原三行四档矩阵；行存items且只计一次。"
+    },
+    {
+      "id": "engineering-ethics--original.block006",
+      "kind": "section",
+      "raw_title": "对于一些日常生活中的需求，我能够运用自己所学的知识来进行工程化设计或寻找工程化解决方案[量表题]（1-非常不符合;10-非常符合）",
+      "item_ids": [
+        "engineering-ethics--original.q008"
+      ],
+      "source": {
+        "pdf_pages": [
+          32
+        ],
+        "printed_pages": [
+          29
+        ]
+      },
+      "note": "原题干块；A/B/C列表保持在响应options中，其角色未知时不拆为题项。"
+    },
+    {
+      "id": "engineering-ethics--original.block007",
+      "kind": "section",
+      "raw_title": "对于以下几种工程伦理教育的教学方式，你个人认为",
+      "item_ids": [
+        "engineering-ethics--original.q009"
+      ],
+      "source": {
+        "pdf_pages": [
+          33
+        ],
+        "printed_pages": [
+          30
+        ]
+      },
+      "note": "原题干块；A/B/C列表保持在响应options中，其角色未知时不拆为题项。"
+    },
+    {
+      "id": "engineering-ethics--original.block008",
+      "kind": "section",
+      "raw_title": "对于下面的描述，你的观点是",
+      "item_ids": [
+        "engineering-ethics--original.q010"
+      ],
+      "source": {
+        "pdf_pages": [
+          33
+        ],
+        "printed_pages": [
+          30
+        ]
+      },
+      "note": "原题干块；A/B/C列表保持在响应options中，其角色未知时不拆为题项。"
+    },
+    {
+      "id": "engineering-ethics--original.block009",
+      "kind": "section",
+      "raw_title": "我对自己的工程伦理知识储备的自评分数是[量表题](1-最低分，10-最高分)",
+      "item_ids": [
+        "engineering-ethics--original.q011"
+      ],
+      "source": {
+        "pdf_pages": [
+          33
+        ],
+        "printed_pages": [
+          30
+        ]
+      },
+      "note": "原题干块；A/B/C列表保持在响应options中，其角色未知时不拆为题项。"
+    },
+    {
+      "id": "engineering-ethics--original.block010",
+      "kind": "section",
+      "raw_title": "以下叙述中，我的观点是",
+      "item_ids": [
+        "engineering-ethics--original.q012"
+      ],
+      "source": {
+        "pdf_pages": [
+          33
+        ],
+        "printed_pages": [
+          30
+        ]
+      },
+      "note": "原题干块；A/B/C列表保持在响应options中，其角色未知时不拆为题项。"
+    },
+    {
+      "id": "engineering-ethics--original.block011",
+      "kind": "section",
+      "raw_title": "请你用三句话来说一说你理解的“工程伦理”是什么？（可以是你对工程伦理的理解，也可以是你自己对于工程伦理教学的期待，也可以是你所知道的与工程伦理相关的案例/事故，或者其他与工程伦理有关的内容）",
+      "item_ids": [
+        "engineering-ethics--original.q013"
+      ],
+      "source": {
+        "pdf_pages": [
+          33
+        ],
+        "printed_pages": [
+          30
+        ]
+      },
+      "note": "原题干块；A/B/C列表保持在响应options中，其角色未知时不拆为题项。"
+    }
+  ],
+  "scoring": {
+    "raw_rules": [],
+    "reverse_mapping": null,
+    "unknowns": [
+      {
+        "field": "aggregate_rules",
+        "reason": "原文只给局部作答档位，无统一计分/合成算法。",
+        "source": {
+          "pdf_pages": [
+            31,
+            32,
+            33
+          ],
+          "printed_pages": [
+            28,
+            29,
+            30
+          ]
+        }
+      },
+      {
+        "field": "reverse_mapping",
+        "reason": "本卷未明示反向或数值转换。",
+        "source": {
+          "pdf_pages": [
+            31,
+            32,
+            33
+          ],
+          "printed_pages": [
+            28,
+            29,
+            30
+          ]
+        }
+      },
+      {
+        "field": "subdimension_mapping",
+        "reason": "15个理论二级维度与题块未给逐项对应。",
+        "source": {
+          "pdf_pages": [
+            29,
+            30,
+            31,
+            32,
+            33
+          ],
+          "printed_pages": [
+            26,
+            27,
+            28,
+            29,
+            30
+          ]
+        }
+      }
+    ]
+  },
+  "counts": {
+    "basic_information": 0,
+    "measurement_items": null,
+    "scale_items": 5,
+    "preliminary_items": 0,
+    "background_items": 2,
+    "item_records": 13,
+    "original_question_blocks": 11,
+    "reason": "13条items仅是2背景+3矩阵行+8其他题干块的存储记录；11是把实践矩阵算1块的原题干块口径。三个A/B/C未知响应块及选择/排序组合尚未确认，完整独立测量项数为null。scale_items=5仅表示已明示的3个四档矩阵行+2个十档题。"
+  },
+  "issues": [
+    {
+      "id": "E-1",
+      "category": "blocking",
+      "blocking": true,
+      "source": {
+        "pdf_pages": [
+          31,
+          32
+        ],
+        "printed_pages": [
+          28,
+          29
+        ]
+      },
+      "original_text": "您以前是否接触过工程伦理相关内容？\nA．完全没接触过 B.接触过一些 C.接触很多\n您以前对于工程伦理方面的知识和信息是否有过了解？\nA.完全没接触过 B.接触过一些 C.接触很多",
+      "missing_information": "两个三档背景题未明示单选或多选。",
+      "possible_resolutions": [
+        "取得编制方或可核实原版说明，逐题确认单选。",
+        "若实际设计为多选，须提供可核实依据并记录。"
+      ],
+      "recommendation": "核实每题响应基数；保留原三项，不凭互斥含义设默认。",
+      "affected_item_ids": [
+        "engineering-ethics--original.q001",
+        "engineering-ethics--original.q002"
+      ],
+      "resolution": null
+    },
+    {
+      "id": "E-2",
+      "category": "blocking",
+      "blocking": true,
+      "source": {
+        "pdf_pages": [
+          32
+        ],
+        "printed_pages": [
+          29
+        ]
+      },
+      "original_text": "下列内容中您认为属于工程伦理范畴的是什么？重要度如何排序？\nA.工程项目/工程技术要对人类社会的发展有意义\nB.工程项目/工程技术对于自然环境要负责任\nC.工程项目/工程技术不能伤害到公民个体\nD.工程项目/工程技术要能够促进人类福祉\nE.工程项目/工程技术要对民族发展和复兴有意义\nF.工程项目/工程技术不能伤害到生物个体（比如小动物）\nG.其他",
+      "missing_information": "是否先选择再排序、排全部还是所选、重要度方向、并列规则、是否两个响应字段均未明。",
+      "possible_resolutions": [
+        "可核实说明为先选择再对所选排序，记录两个响应步骤与题块映射。",
+        "可核实说明为对全部项目排序，记录方向与并列规则。"
+      ],
+      "recommendation": "取得原题响应过程依据，确认结构后再固定，不自行拆成新增测量题。",
+      "affected_item_ids": [
+        "engineering-ethics--original.q003"
+      ],
+      "resolution": null
+    },
+    {
+      "id": "E-3",
+      "category": "blocking",
+      "blocking": true,
+      "source": {
+        "pdf_pages": [
+          32
+        ],
+        "printed_pages": [
+          29
+        ]
+      },
+      "original_text": "G.其他",
+      "missing_information": "是否需要文字填写、是否参与排序、填写位置未知。",
+      "possible_resolutions": [
+        "取得原版规定：其他需要文字且参与排序。",
+        "取得原版规定：其他只作为原选项，无附加填空。"
+      ],
+      "recommendation": "获取原版规则，不默认加填空、不删“其他”。",
+      "affected_item_ids": [
+        "engineering-ethics--original.q003"
+      ],
+      "resolution": null
+    },
+    {
+      "id": "E-4",
+      "category": "blocking",
+      "blocking": true,
+      "source": {
+        "pdf_pages": [
+          32
+        ],
+        "printed_pages": [
+          29
+        ]
+      },
+      "original_text": "您认为工程伦理的具体内涵是（请排序）\nA.社会价值追求\nB.质量安全价值追求\nC.道德价值追求\nD.规则规范价值追求\nE.经济价值追求",
+      "missing_information": "明示排序，但排序方向、是否全排、并列是否允许未给。",
+      "possible_resolutions": [
+        "取得要求全排、无并列及方向的原来源。",
+        "取得允许部分排序或并列的原来源。"
+      ],
+      "recommendation": "保存原排序要求，核实改变作答含义的缺失规则，不能改为单选/评分。",
+      "affected_item_ids": [
+        "engineering-ethics--original.q004"
+      ],
+      "resolution": null
+    },
+    {
+      "id": "E-5",
+      "category": "blocking",
+      "blocking": true,
+      "source": {
+        "pdf_pages": [
+          33
+        ],
+        "printed_pages": [
+          30
+        ]
+      },
+      "original_text": "对于以下几种工程伦理教育的教学方式，你个人认为\nA.在教学中贯穿工程伦理案例的讲授\nB.在项目操作中穿插工程伦理知识的运用\nC.采用辩论、小组汇报、制作小报等偏向人文类的学习方式",
+      "missing_information": "A/B/C角色、单选/多选/排序/逐条评价模式与评价等级未知。",
+      "possible_resolutions": [
+        "取得原版单/多选的明确说明及响应基数。",
+        "取得原版排序规则。",
+        "取得原版逐条评价格式与完整等级；保持原测量结构。"
+      ],
+      "recommendation": "独立核实该题块作答方式；不从其他块复制未证实模式，不把新增测量设计冒充原版。",
+      "affected_item_ids": [
+        "engineering-ethics--original.q009"
+      ],
+      "resolution": null
+    },
+    {
+      "id": "E-6",
+      "category": "blocking",
+      "blocking": true,
+      "source": {
+        "pdf_pages": [
+          33
+        ],
+        "printed_pages": [
+          30
+        ]
+      },
+      "original_text": "对于下面的描述，你的观点是\nA.我认为自己对于项目/技术中可能存在的工程伦理陷阱，具有很强的敏感性和判断力\nB.我认为工程伦理是一个项目/一项技术能够成功的最基本的前提条件\nC.在接触一个新的工程项目/工程技术时，我能够较为准确地判断出它可能面临的伦理风险",
+      "missing_information": "A/B/C角色、单选/多选/排序/逐条评价模式与评价等级未知。",
+      "possible_resolutions": [
+        "取得原版单/多选的明确说明及响应基数。",
+        "取得原版排序规则。",
+        "取得原版逐条评价格式与完整等级；保持原测量结构。"
+      ],
+      "recommendation": "独立核实该题块作答方式；不从其他块复制未证实模式，不把新增测量设计冒充原版。",
+      "affected_item_ids": [
+        "engineering-ethics--original.q010"
+      ],
+      "resolution": null
+    },
+    {
+      "id": "E-7",
+      "category": "blocking",
+      "blocking": true,
+      "source": {
+        "pdf_pages": [
+          33
+        ],
+        "printed_pages": [
+          30
+        ]
+      },
+      "original_text": "以下叙述中，我的观点是\nA.日常生活中，当我接触到一些工程项目/工程技术（如电视节目或者日常生活中的工程）时，我都会在脑海中思考他的工程原理\nB.在课堂教学之外，我自己也很喜欢阅读与专业相关的书籍\nC.即使没有学业的压力，我也很愿意去参加一些工程项目/工程技术的学习活动",
+      "missing_information": "A/B/C角色、单选/多选/排序/逐条评价模式与评价等级未知。",
+      "possible_resolutions": [
+        "取得原版单/多选的明确说明及响应基数。",
+        "取得原版排序规则。",
+        "取得原版逐条评价格式与完整等级；保持原测量结构。"
+      ],
+      "recommendation": "独立核实该题块作答方式；不从其他块复制未证实模式，不把新增测量设计冒充原版。",
+      "affected_item_ids": [
+        "engineering-ethics--original.q012"
+      ],
+      "resolution": null
+    },
+    {
+      "id": "E-8",
+      "category": "metadata",
+      "blocking": false,
+      "source": {
+        "pdf_pages": [
+          32,
+          33
+        ],
+        "printed_pages": [
+          29,
+          30
+        ]
+      },
+      "original_text": "其中“完全没有参与/交流过--1”“接触/交流过一点点--2”“参与/交流过一些--3”“经常参与/交流--4”。\n对于一些日常生活中的需求，我能够运用自己所学的知识来进行工程化设计或寻找工程化解决方案[量表题]（1-非常不符合;10-非常符合）\n我对自己的工程伦理知识储备的自评分数是[量表题](1-最低分，10-最高分)\n请你用三句话来说一说你理解的“工程伦理”是什么？（可以是你对工程伦理的理解，也可以是你自己对于工程伦理教学的期待，也可以是你所知道的与工程伦理相关的案例/事故，或者其他与工程伦理有关的内容）\n您认为工程伦理的具体内涵是（请排序）",
+      "missing_information": "尚未实现或验证目标导入格式对四档矩阵、两个不同端点十档题、三句话开放题及排序的完整表达。",
+      "possible_resolutions": [
+        "下一轮查官方导入规则，保存原块/输出映射，逐块人工导入核验。"
+      ],
+      "recommendation": "保留数据结构与每种端点；数据转录不等于生成、宿主或导入支持。",
+      "affected_item_ids": [
+        "engineering-ethics--original.q004",
+        "engineering-ethics--original.q005",
+        "engineering-ethics--original.q006",
+        "engineering-ethics--original.q007",
+        "engineering-ethics--original.q008",
+        "engineering-ethics--original.q011",
+        "engineering-ethics--original.q013"
+      ],
+      "resolution": null
+    },
+    {
+      "id": "E-9",
+      "category": "blocking",
+      "blocking": true,
+      "source": {
+        "pdf_pages": [
+          31,
+          32,
+          33
+        ],
+        "printed_pages": [
+          28,
+          29,
+          30
+        ]
+      },
+      "original_text": "大学生工程伦理问卷\n您以前是否接触过工程伦理相关内容？\n您以前对于工程伦理方面的知识和信息是否有过了解？\n价值伦理维度&规则规范维度\n下列内容中您认为属于工程伦理范畴的是什么？重要度如何排序？\n您认为工程伦理的具体内涵是（请排序）\n实践维度\n我曾经和别人交流过有关工程伦理的问题\n我曾经参与过工程项目/工程技术的的具体实施过程\n我曾经参与过工程项目/工程技术的研究过程\n对于一些日常生活中的需求，我能够运用自己所学的知识来进行工程化设计或寻找工程化解决方案[量表题]（1-非常不符合;10-非常符合）\n教学方式维度\n1.对于以下几种工程伦理教育的教学方式，你个人认为\n学生对工程伦理的整体自评情况\n1.对于下面的描述，你的观点是\n2.我对自己的工程伦理知识储备的自评分数是[量表题](1-最低分，10-最高分)\n3.以下叙述中，我的观点是\n4.请你用三句话来说一说你理解的“工程伦理”是什么？（可以是你对工程伦理的理解，也可以是你自己对于工程伦理教学的期待，也可以是你所知道的与工程伦理相关的案例/事故，或者其他与工程伦理有关的内容）",
+      "missing_information": "缺失响应确认后，题干块、独立作答项、矩阵行的最终测量题项计数仍待重核。",
+      "possible_resolutions": [
+        "依据经确认的原测量结构重新统计并保存各计数口径。"
+      ],
+      "recommendation": "保留11原题干块与13存储记录；measurement_items=null，不用固定13项做假验收。",
+      "affected_item_ids": [
+        "engineering-ethics--original.q001",
+        "engineering-ethics--original.q002",
+        "engineering-ethics--original.q003",
+        "engineering-ethics--original.q004",
+        "engineering-ethics--original.q005",
+        "engineering-ethics--original.q006",
+        "engineering-ethics--original.q007",
+        "engineering-ethics--original.q008",
+        "engineering-ethics--original.q009",
+        "engineering-ethics--original.q010",
+        "engineering-ethics--original.q011",
+        "engineering-ethics--original.q012",
+        "engineering-ethics--original.q013"
+      ],
+      "resolution": null
+    },
+    {
+      "id": "E-10",
+      "category": "textual",
+      "blocking": false,
+      "source": {
+        "pdf_pages": [
+          29,
+          30,
+          31,
+          32
+        ],
+        "printed_pages": [
+          26,
+          27,
+          28,
+          29
+        ]
+      },
+      "original_text": "规则质量\n规则规范维度\n价值伦理维度&规则规范维度\n我曾经参与过工程项目/工程技术的的具体实施过程",
+      "missing_information": "正文及图6（PDF29–30/印26–27）用“规则质量”；解释表（PDF31/印28）和题块（PDF32/印29）用“规则规范”；实践题行（PDF32/印29）含“的的”。这些异名与重复未有正式勘误；如何展示仍应忠实保留并提示。",
+      "possible_resolutions": [
+        "按各处原文保存，教师侧单列说明。",
+        "取得正式更正后另建有来源修订记录，不覆盖原版。"
+      ],
+      "recommendation": "原题保留“的的”，原维度异名分别保存，不静默改词。",
+      "affected_item_ids": [
+        "engineering-ethics--original.q003",
+        "engineering-ethics--original.q004",
+        "engineering-ethics--original.q006"
+      ],
+      "resolution": null
+    }
+  ],
+  "review": {
+    "status": "needs_confirmation",
+    "transcription_verified": true,
+    "checked_pdf_pages": [
+      29,
+      30,
+      31,
+      32,
+      33
+    ],
+    "method": "重新从源PDF以pypdf和pdfplumber提取；人工查看本轮Poppler原页PNG，逐行比对题表、指导语、作答等级、原分组及跨页延续。仅合并版面换行与无语义空白。",
+    "reviewed_on": "2026-10-04",
+    "eligible_for_generation": false,
+    "note": "仅为原文数据核对状态，不表示生成器已实现、WorkBuddy已运行或问卷星已导入。未命名档位不补文字、未标反向不推断，计分仅保留元数据。本卷有未解决的来源响应格式阻断，完整问卷不得生成。"
+  }
+}

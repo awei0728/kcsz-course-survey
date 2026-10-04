@@ -1,0 +1,2683 @@
+{
+  "schema_version": 1,
+  "id": "creativity--original",
+  "project_id": "creativity",
+  "version_id": "original",
+  "project_name": "创造力",
+  "original_name": "大学生创造力问卷",
+  "original_name_reason": null,
+  "title": {
+    "raw_text": "大学生创造力问卷",
+    "student_text": "大学生创造力问卷",
+    "source": {
+      "pdf_pages": [
+        7
+      ],
+      "printed_pages": [
+        4
+      ]
+    }
+  },
+  "source": {
+    "filename": "武汉大学课程思政教学评价指南（第二辑）.pdf",
+    "volume": 2,
+    "chapter": "一、创造力评价指南",
+    "pdf_pages": [
+      4,
+      5,
+      6,
+      7
+    ],
+    "printed_pages": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "sha256": "409e07caee432868f24c51a5c3989cabdb5df37f8bbdcddfb36cc4adbbc51ce4"
+  },
+  "instructions": [
+    {
+      "id": "creativity--original.instruction001",
+      "role": "guidance",
+      "raw_text": "指导语：亲爱的同学，你好！欢迎你参加本次问卷调查。本调查不记名，完全保密，资料仅供研究使用，请根据你的实际情况，如实地填写并完成以下问题。你的如实回答对研究具有非常重要的意义。非常感谢你的参与，谢谢你的合作！",
+      "student_text": "指导语：亲爱的同学，你好！欢迎你参加本次问卷调查。本调查不记名，完全保密，资料仅供研究使用，请根据你的实际情况，如实地填写并完成以下问题。你的如实回答对研究具有非常重要的意义。非常感谢你的参与，谢谢你的合作！",
+      "source": {
+        "pdf_pages": [
+          7
+        ],
+        "printed_pages": [
+          4
+        ]
+      }
+    },
+    {
+      "id": "creativity--original.instruction002",
+      "role": "response",
+      "raw_text": "使用说明：本问卷使用NPS10级计分，填答者可以根据自身真实想法和感受进行评分。选项由10个等级构成，表示程度不断增加的连续变化。1代表极度负面意见，10代表极度正面意见。其中的2-9按照程度连续变化。",
+      "student_text": "使用说明：本问卷使用NPS10级计分，填答者可以根据自身真实想法和感受进行评分。选项由10个等级构成，表示程度不断增加的连续变化。1代表极度负面意见，10代表极度正面意见。其中的2-9按照程度连续变化。",
+      "source": {
+        "pdf_pages": [
+          7
+        ],
+        "printed_pages": [
+          4
+        ]
+      }
+    },
+    {
+      "id": "creativity--original.instruction003",
+      "role": "teacher",
+      "raw_text": "本指南对于创造力的测评分为思维创造力和情绪创造力两个方面。教师在使用时可根据自己的教学需要灵活把握。在思维创造力维度，参照国际通用的创造性思维发展阶段理论所对应的CRL创造力五维度形成性评估模型[6]，结合高校课堂实际情况，将思维创造力评估维度分为创造动机、想象力、创造意志力、创造技巧四部分。在情绪创造力维度，指南借鉴了Averill（1999）情绪创造力发展阶段学说，通过因子分析和聚类分析方法，将情绪创造力的评估维度划分为三个，即准备性、新奇性和有效真诚性。如图1所示：",
+      "student_text": null,
+      "source": {
+        "pdf_pages": [
+          5
+        ],
+        "printed_pages": [
+          2
+        ]
+      }
+    }
+  ],
+  "basic_information": [
+    {
+      "id": "creativity--original.basic001",
+      "order": 1,
+      "original_number": null,
+      "role": "basic_information",
+      "measurement_class": null,
+      "kind": "open",
+      "raw_text": "性别：",
+      "student_text": "性别：",
+      "source": {
+        "pdf_pages": [
+          7
+        ],
+        "printed_pages": [
+          4
+        ]
+      },
+      "group_id": null,
+      "subdimension": null,
+      "subdimension_reason": "人口基本信息字段，不作维度归属。",
+      "teacher_annotations": [],
+      "reverse": {
+        "marked": null,
+        "raw_marker": null,
+        "source": null,
+        "reason": "本原文题项未标明反向题；否定措辞不作为反向依据。"
+      },
+      "response": {
+        "options": [],
+        "minimum": null,
+        "maximum": null,
+        "cardinality": null,
+        "slots": 1,
+        "raw_instruction": null,
+        "unknowns": [
+          {
+            "field": "required",
+            "reason": "原文未说明必填性。"
+          },
+          {
+            "field": "constraints",
+            "reason": "原文只有空白填写位置，无枚举选项、格式或范围。"
+          }
+        ],
+        "ranking": null
+      }
+    },
+    {
+      "id": "creativity--original.basic002",
+      "order": 2,
+      "original_number": null,
+      "role": "basic_information",
+      "measurement_class": null,
+      "kind": "open",
+      "raw_text": "年龄：",
+      "student_text": "年龄：",
+      "source": {
+        "pdf_pages": [
+          7
+        ],
+        "printed_pages": [
+          4
+        ]
+      },
+      "group_id": null,
+      "subdimension": null,
+      "subdimension_reason": "人口基本信息字段，不作维度归属。",
+      "teacher_annotations": [],
+      "reverse": {
+        "marked": null,
+        "raw_marker": null,
+        "source": null,
+        "reason": "本原文题项未标明反向题；否定措辞不作为反向依据。"
+      },
+      "response": {
+        "options": [],
+        "minimum": null,
+        "maximum": null,
+        "cardinality": null,
+        "slots": 1,
+        "raw_instruction": null,
+        "unknowns": [
+          {
+            "field": "required",
+            "reason": "原文未说明必填性。"
+          },
+          {
+            "field": "constraints",
+            "reason": "原文只有空白填写位置，无枚举选项、格式或范围。"
+          }
+        ],
+        "ranking": null
+      }
+    },
+    {
+      "id": "creativity--original.basic003",
+      "order": 3,
+      "original_number": null,
+      "role": "basic_information",
+      "measurement_class": null,
+      "kind": "open",
+      "raw_text": "年级：",
+      "student_text": "年级：",
+      "source": {
+        "pdf_pages": [
+          7
+        ],
+        "printed_pages": [
+          4
+        ]
+      },
+      "group_id": null,
+      "subdimension": null,
+      "subdimension_reason": "人口基本信息字段，不作维度归属。",
+      "teacher_annotations": [],
+      "reverse": {
+        "marked": null,
+        "raw_marker": null,
+        "source": null,
+        "reason": "本原文题项未标明反向题；否定措辞不作为反向依据。"
+      },
+      "response": {
+        "options": [],
+        "minimum": null,
+        "maximum": null,
+        "cardinality": null,
+        "slots": 1,
+        "raw_instruction": null,
+        "unknowns": [
+          {
+            "field": "required",
+            "reason": "原文未说明必填性。"
+          },
+          {
+            "field": "constraints",
+            "reason": "原文只有空白填写位置，无枚举选项、格式或范围。"
+          }
+        ],
+        "ranking": null
+      }
+    }
+  ],
+  "items": [
+    {
+      "id": "creativity--original.q001",
+      "order": 1,
+      "original_number": null,
+      "role": "measurement",
+      "measurement_class": "scale",
+      "kind": "rating",
+      "raw_text": "我能够主动探索寻找发现更多信息",
+      "student_text": "我能够主动探索寻找发现更多信息",
+      "source": {
+        "pdf_pages": [
+          7
+        ],
+        "printed_pages": [
+          4
+        ]
+      },
+      "group_id": "creativity--original.group001",
+      "subdimension": null,
+      "subdimension_reason": "原题表未明示每题对应的理论细分维度；不依据语义推断。",
+      "teacher_annotations": [],
+      "reverse": {
+        "marked": null,
+        "raw_marker": null,
+        "source": null,
+        "reason": "本原文题项未标明反向题；否定措辞不作为反向依据。"
+      },
+      "response": {
+        "options": [
+          {
+            "id": "1",
+            "label": "极度负面意见",
+            "value": 1,
+            "source": {
+              "pdf_pages": [
+                7
+              ],
+              "printed_pages": [
+                4
+              ]
+            }
+          },
+          {
+            "id": "2",
+            "label": null,
+            "value": 2,
+            "source": {
+              "pdf_pages": [
+                7
+              ],
+              "printed_pages": [
+                4
+              ]
+            }
+          },
+          {
+            "id": "3",
+            "label": null,
+            "value": 3,
+            "source": {
+              "pdf_pages": [
+                7
+              ],
+              "printed_pages": [
+                4
+              ]
+            }
+          },
+          {
+            "id": "4",
+            "label": null,
+            "value": 4,
+            "source": {
+              "pdf_pages": [
+                7
+              ],
+              "printed_pages": [
+                4
+              ]
+            }
+          },
+          {
+            "id": "5",
+            "label": null,
+            "value": 5,
+            "source": {
+              "pdf_pages": [
+                7
+              ],
+              "printed_pages": [
+                4
+              ]
+            }
+          },
+          {
+            "id": "6",
+            "label": null,
+            "value": 6,
+            "source": {
+              "pdf_pages": [
+                7
+              ],
+              "printed_pages": [
+                4
+              ]
+            }
+          },
+          {
+            "id": "7",
+            "label": null,
+            "value": 7,
+            "source": {
+              "pdf_pages": [
+                7
+              ],
+              "printed_pages": [
+                4
+              ]
+            }
+          },
+          {
+            "id": "8",
+            "label": null,
+            "value": 8,
+            "source": {
+              "pdf_pages": [
+                7
+              ],
+              "printed_pages": [
+                4
+              ]
+            }
+          },
+          {
+            "id": "9",
+            "label": null,
+            "value": 9,
+            "source": {
+              "pdf_pages": [
+                7
+              ],
+              "printed_pages": [
+                4
+              ]
+            }
+          },
+          {
+            "id": "10",
+            "label": "极度正面意见",
+            "value": 10,
+            "source": {
+              "pdf_pages": [
+                7
+              ],
+              "printed_pages": [
+                4
+              ]
+            }
+          }
+        ],
+        "minimum": 1,
+        "maximum": 10,
+        "cardinality": "single",
+        "slots": null,
+        "raw_instruction": "使用说明：本问卷使用NPS10级计分，填答者可以根据自身真实想法和感受进行评分。选项由10个等级构成，表示程度不断增加的连续变化。1代表极度负面意见，10代表极度正面意见。其中的2-9按照程度连续变化。",
+        "unknowns": [
+          {
+            "field": "options.label",
+            "reason": "原文只给端点文字，未为中间档命名；中间档保留数值和null标签。"
+          }
+        ],
+        "ranking": null
+      }
+    },
+    {
+      "id": "creativity--original.q002",
+      "order": 2,
+      "original_number": null,
+      "role": "measurement",
+      "measurement_class": "scale",
+      "kind": "rating",
+      "raw_text": "我能够在不同事物间建立联系并产生新的想法",
+      "student_text": "我能够在不同事物间建立联系并产生新的想法",
+      "source": {
+        "pdf_pages": [
+          7
+        ],
+        "printed_pages": [
+          4
+        ]
+      },
+      "group_id": "creativity--original.group001",
+      "subdimension": null,
+      "subdimension_reason": "原题表未明示每题对应的理论细分维度；不依据语义推断。",
+      "teacher_annotations": [],
+      "reverse": {
+        "marked": null,
+        "raw_marker": null,
+        "source": null,
+        "reason": "本原文题项未标明反向题；否定措辞不作为反向依据。"
+      },
+      "response": {
+        "options": [
+          {
+            "id": "1",
+            "label": "极度负面意见",
+            "value": 1,
+            "source": {
+              "pdf_pages": [
+                7
+              ],
+              "printed_pages": [
+                4
+              ]
+            }
+          },
+          {
+            "id": "2",
+            "label": null,
+            "value": 2,
+            "source": {
+              "pdf_pages": [
+                7
+              ],
+              "printed_pages": [
+                4
+              ]
+            }
+          },
+          {
+            "id": "3",
+            "label": null,
+            "value": 3,
+            "source": {
+              "pdf_pages": [
+                7
+              ],
+              "printed_pages": [
+                4
+              ]
+            }
+          },
+          {
+            "id": "4",
+            "label": null,
+            "value": 4,
+            "source": {
+              "pdf_pages": [
+                7
+              ],
+              "printed_pages": [
+                4
+              ]
+            }
+          },
+          {
+            "id": "5",
+            "label": null,
+            "value": 5,
+            "source": {
+              "pdf_pages": [
+                7
+              ],
+              "printed_pages": [
+                4
+              ]
+            }
+          },
+          {
+            "id": "6",
+            "label": null,
+            "value": 6,
+            "source": {
+              "pdf_pages": [
+                7
+              ],
+              "printed_pages": [
+                4
+              ]
+            }
+          },
+          {
+            "id": "7",
+            "label": null,
+            "value": 7,
+            "source": {
+              "pdf_pages": [
+                7
+              ],
+              "printed_pages": [
+                4
+              ]
+            }
+          },
+          {
+            "id": "8",
+            "label": null,
+            "value": 8,
+            "source": {
+              "pdf_pages": [
+                7
+              ],
+              "printed_pages": [
+                4
+              ]
+            }
+          },
+          {
+            "id": "9",
+            "label": null,
+            "value": 9,
+            "source": {
+              "pdf_pages": [
+                7
+              ],
+              "printed_pages": [
+                4
+              ]
+            }
+          },
+          {
+            "id": "10",
+            "label": "极度正面意见",
+            "value": 10,
+            "source": {
+              "pdf_pages": [
+                7
+              ],
+              "printed_pages": [
+                4
+              ]
+            }
+          }
+        ],
+        "minimum": 1,
+        "maximum": 10,
+        "cardinality": "single",
+        "slots": null,
+        "raw_instruction": "使用说明：本问卷使用NPS10级计分，填答者可以根据自身真实想法和感受进行评分。选项由10个等级构成，表示程度不断增加的连续变化。1代表极度负面意见，10代表极度正面意见。其中的2-9按照程度连续变化。",
+        "unknowns": [
+          {
+            "field": "options.label",
+            "reason": "原文只给端点文字，未为中间档命名；中间档保留数值和null标签。"
+          }
+        ],
+        "ranking": null
+      }
+    },
+    {
+      "id": "creativity--original.q003",
+      "order": 3,
+      "original_number": null,
+      "role": "measurement",
+      "measurement_class": "scale",
+      "kind": "rating",
+      "raw_text": "我能够使用直觉来获得新的想法",
+      "student_text": "我能够使用直觉来获得新的想法",
+      "source": {
+        "pdf_pages": [
+          7
+        ],
+        "printed_pages": [
+          4
+        ]
+      },
+      "group_id": "creativity--original.group001",
+      "subdimension": null,
+      "subdimension_reason": "原题表未明示每题对应的理论细分维度；不依据语义推断。",
+      "teacher_annotations": [],
+      "reverse": {
+        "marked": null,
+        "raw_marker": null,
+        "source": null,
+        "reason": "本原文题项未标明反向题；否定措辞不作为反向依据。"
+      },
+      "response": {
+        "options": [
+          {
+            "id": "1",
+            "label": "极度负面意见",
+            "value": 1,
+            "source": {
+              "pdf_pages": [
+                7
+              ],
+              "printed_pages": [
+                4
+              ]
+            }
+          },
+          {
+            "id": "2",
+            "label": null,
+            "value": 2,
+            "source": {
+              "pdf_pages": [
+                7
+              ],
+              "printed_pages": [
+                4
+              ]
+            }
+          },
+          {
+            "id": "3",
+            "label": null,
+            "value": 3,
+            "source": {
+              "pdf_pages": [
+                7
+              ],
+              "printed_pages": [
+                4
+              ]
+            }
+          },
+          {
+            "id": "4",
+            "label": null,
+            "value": 4,
+            "source": {
+              "pdf_pages": [
+                7
+              ],
+              "printed_pages": [
+                4
+              ]
+            }
+          },
+          {
+            "id": "5",
+            "label": null,
+            "value": 5,
+            "source": {
+              "pdf_pages": [
+                7
+              ],
+              "printed_pages": [
+                4
+              ]
+            }
+          },
+          {
+            "id": "6",
+            "label": null,
+            "value": 6,
+            "source": {
+              "pdf_pages": [
+                7
+              ],
+              "printed_pages": [
+                4
+              ]
+            }
+          },
+          {
+            "id": "7",
+            "label": null,
+            "value": 7,
+            "source": {
+              "pdf_pages": [
+                7
+              ],
+              "printed_pages": [
+                4
+              ]
+            }
+          },
+          {
+            "id": "8",
+            "label": null,
+            "value": 8,
+            "source": {
+              "pdf_pages": [
+                7
+              ],
+              "printed_pages": [
+                4
+              ]
+            }
+          },
+          {
+            "id": "9",
+            "label": null,
+            "value": 9,
+            "source": {
+              "pdf_pages": [
+                7
+              ],
+              "printed_pages": [
+                4
+              ]
+            }
+          },
+          {
+            "id": "10",
+            "label": "极度正面意见",
+            "value": 10,
+            "source": {
+              "pdf_pages": [
+                7
+              ],
+              "printed_pages": [
+                4
+              ]
+            }
+          }
+        ],
+        "minimum": 1,
+        "maximum": 10,
+        "cardinality": "single",
+        "slots": null,
+        "raw_instruction": "使用说明：本问卷使用NPS10级计分，填答者可以根据自身真实想法和感受进行评分。选项由10个等级构成，表示程度不断增加的连续变化。1代表极度负面意见，10代表极度正面意见。其中的2-9按照程度连续变化。",
+        "unknowns": [
+          {
+            "field": "options.label",
+            "reason": "原文只给端点文字，未为中间档命名；中间档保留数值和null标签。"
+          }
+        ],
+        "ranking": null
+      }
+    },
+    {
+      "id": "creativity--original.q004",
+      "order": 4,
+      "original_number": null,
+      "role": "measurement",
+      "measurement_class": "scale",
+      "kind": "rating",
+      "raw_text": "我能够坚持超越熟悉的想法，提出新想法",
+      "student_text": "我能够坚持超越熟悉的想法，提出新想法",
+      "source": {
+        "pdf_pages": [
+          7
+        ],
+        "printed_pages": [
+          4
+        ]
+      },
+      "group_id": "creativity--original.group001",
+      "subdimension": null,
+      "subdimension_reason": "原题表未明示每题对应的理论细分维度；不依据语义推断。",
+      "teacher_annotations": [],
+      "reverse": {
+        "marked": null,
+        "raw_marker": null,
+        "source": null,
+        "reason": "本原文题项未标明反向题；否定措辞不作为反向依据。"
+      },
+      "response": {
+        "options": [
+          {
+            "id": "1",
+            "label": "极度负面意见",
+            "value": 1,
+            "source": {
+              "pdf_pages": [
+                7
+              ],
+              "printed_pages": [
+                4
+              ]
+            }
+          },
+          {
+            "id": "2",
+            "label": null,
+            "value": 2,
+            "source": {
+              "pdf_pages": [
+                7
+              ],
+              "printed_pages": [
+                4
+              ]
+            }
+          },
+          {
+            "id": "3",
+            "label": null,
+            "value": 3,
+            "source": {
+              "pdf_pages": [
+                7
+              ],
+              "printed_pages": [
+                4
+              ]
+            }
+          },
+          {
+            "id": "4",
+            "label": null,
+            "value": 4,
+            "source": {
+              "pdf_pages": [
+                7
+              ],
+              "printed_pages": [
+                4
+              ]
+            }
+          },
+          {
+            "id": "5",
+            "label": null,
+            "value": 5,
+            "source": {
+              "pdf_pages": [
+                7
+              ],
+              "printed_pages": [
+                4
+              ]
+            }
+          },
+          {
+            "id": "6",
+            "label": null,
+            "value": 6,
+            "source": {
+              "pdf_pages": [
+                7
+              ],
+              "printed_pages": [
+                4
+              ]
+            }
+          },
+          {
+            "id": "7",
+            "label": null,
+            "value": 7,
+            "source": {
+              "pdf_pages": [
+                7
+              ],
+              "printed_pages": [
+                4
+              ]
+            }
+          },
+          {
+            "id": "8",
+            "label": null,
+            "value": 8,
+            "source": {
+              "pdf_pages": [
+                7
+              ],
+              "printed_pages": [
+                4
+              ]
+            }
+          },
+          {
+            "id": "9",
+            "label": null,
+            "value": 9,
+            "source": {
+              "pdf_pages": [
+                7
+              ],
+              "printed_pages": [
+                4
+              ]
+            }
+          },
+          {
+            "id": "10",
+            "label": "极度正面意见",
+            "value": 10,
+            "source": {
+              "pdf_pages": [
+                7
+              ],
+              "printed_pages": [
+                4
+              ]
+            }
+          }
+        ],
+        "minimum": 1,
+        "maximum": 10,
+        "cardinality": "single",
+        "slots": null,
+        "raw_instruction": "使用说明：本问卷使用NPS10级计分，填答者可以根据自身真实想法和感受进行评分。选项由10个等级构成，表示程度不断增加的连续变化。1代表极度负面意见，10代表极度正面意见。其中的2-9按照程度连续变化。",
+        "unknowns": [
+          {
+            "field": "options.label",
+            "reason": "原文只给端点文字，未为中间档命名；中间档保留数值和null标签。"
+          }
+        ],
+        "ranking": null
+      }
+    },
+    {
+      "id": "creativity--original.q005",
+      "order": 5,
+      "original_number": null,
+      "role": "measurement",
+      "measurement_class": "scale",
+      "kind": "rating",
+      "raw_text": "我能够在性格或目标不确定的情形下，坚持搜寻更多信息",
+      "student_text": "我能够在性格或目标不确定的情形下，坚持搜寻更多信息",
+      "source": {
+        "pdf_pages": [
+          7
+        ],
+        "printed_pages": [
+          4
+        ]
+      },
+      "group_id": "creativity--original.group001",
+      "subdimension": null,
+      "subdimension_reason": "原题表未明示每题对应的理论细分维度；不依据语义推断。",
+      "teacher_annotations": [],
+      "reverse": {
+        "marked": null,
+        "raw_marker": null,
+        "source": null,
+        "reason": "本原文题项未标明反向题；否定措辞不作为反向依据。"
+      },
+      "response": {
+        "options": [
+          {
+            "id": "1",
+            "label": "极度负面意见",
+            "value": 1,
+            "source": {
+              "pdf_pages": [
+                7
+              ],
+              "printed_pages": [
+                4
+              ]
+            }
+          },
+          {
+            "id": "2",
+            "label": null,
+            "value": 2,
+            "source": {
+              "pdf_pages": [
+                7
+              ],
+              "printed_pages": [
+                4
+              ]
+            }
+          },
+          {
+            "id": "3",
+            "label": null,
+            "value": 3,
+            "source": {
+              "pdf_pages": [
+                7
+              ],
+              "printed_pages": [
+                4
+              ]
+            }
+          },
+          {
+            "id": "4",
+            "label": null,
+            "value": 4,
+            "source": {
+              "pdf_pages": [
+                7
+              ],
+              "printed_pages": [
+                4
+              ]
+            }
+          },
+          {
+            "id": "5",
+            "label": null,
+            "value": 5,
+            "source": {
+              "pdf_pages": [
+                7
+              ],
+              "printed_pages": [
+                4
+              ]
+            }
+          },
+          {
+            "id": "6",
+            "label": null,
+            "value": 6,
+            "source": {
+              "pdf_pages": [
+                7
+              ],
+              "printed_pages": [
+                4
+              ]
+            }
+          },
+          {
+            "id": "7",
+            "label": null,
+            "value": 7,
+            "source": {
+              "pdf_pages": [
+                7
+              ],
+              "printed_pages": [
+                4
+              ]
+            }
+          },
+          {
+            "id": "8",
+            "label": null,
+            "value": 8,
+            "source": {
+              "pdf_pages": [
+                7
+              ],
+              "printed_pages": [
+                4
+              ]
+            }
+          },
+          {
+            "id": "9",
+            "label": null,
+            "value": 9,
+            "source": {
+              "pdf_pages": [
+                7
+              ],
+              "printed_pages": [
+                4
+              ]
+            }
+          },
+          {
+            "id": "10",
+            "label": "极度正面意见",
+            "value": 10,
+            "source": {
+              "pdf_pages": [
+                7
+              ],
+              "printed_pages": [
+                4
+              ]
+            }
+          }
+        ],
+        "minimum": 1,
+        "maximum": 10,
+        "cardinality": "single",
+        "slots": null,
+        "raw_instruction": "使用说明：本问卷使用NPS10级计分，填答者可以根据自身真实想法和感受进行评分。选项由10个等级构成，表示程度不断增加的连续变化。1代表极度负面意见，10代表极度正面意见。其中的2-9按照程度连续变化。",
+        "unknowns": [
+          {
+            "field": "options.label",
+            "reason": "原文只给端点文字，未为中间档命名；中间档保留数值和null标签。"
+          }
+        ],
+        "ranking": null
+      }
+    },
+    {
+      "id": "creativity--original.q006",
+      "order": 6,
+      "original_number": null,
+      "role": "measurement",
+      "measurement_class": "scale",
+      "kind": "rating",
+      "raw_text": "我既关注实施中的细节，也可以纠正错误，完善想法",
+      "student_text": "我既关注实施中的细节，也可以纠正错误，完善想法",
+      "source": {
+        "pdf_pages": [
+          7
+        ],
+        "printed_pages": [
+          4
+        ]
+      },
+      "group_id": "creativity--original.group001",
+      "subdimension": null,
+      "subdimension_reason": "原题表未明示每题对应的理论细分维度；不依据语义推断。",
+      "teacher_annotations": [],
+      "reverse": {
+        "marked": null,
+        "raw_marker": null,
+        "source": null,
+        "reason": "本原文题项未标明反向题；否定措辞不作为反向依据。"
+      },
+      "response": {
+        "options": [
+          {
+            "id": "1",
+            "label": "极度负面意见",
+            "value": 1,
+            "source": {
+              "pdf_pages": [
+                7
+              ],
+              "printed_pages": [
+                4
+              ]
+            }
+          },
+          {
+            "id": "2",
+            "label": null,
+            "value": 2,
+            "source": {
+              "pdf_pages": [
+                7
+              ],
+              "printed_pages": [
+                4
+              ]
+            }
+          },
+          {
+            "id": "3",
+            "label": null,
+            "value": 3,
+            "source": {
+              "pdf_pages": [
+                7
+              ],
+              "printed_pages": [
+                4
+              ]
+            }
+          },
+          {
+            "id": "4",
+            "label": null,
+            "value": 4,
+            "source": {
+              "pdf_pages": [
+                7
+              ],
+              "printed_pages": [
+                4
+              ]
+            }
+          },
+          {
+            "id": "5",
+            "label": null,
+            "value": 5,
+            "source": {
+              "pdf_pages": [
+                7
+              ],
+              "printed_pages": [
+                4
+              ]
+            }
+          },
+          {
+            "id": "6",
+            "label": null,
+            "value": 6,
+            "source": {
+              "pdf_pages": [
+                7
+              ],
+              "printed_pages": [
+                4
+              ]
+            }
+          },
+          {
+            "id": "7",
+            "label": null,
+            "value": 7,
+            "source": {
+              "pdf_pages": [
+                7
+              ],
+              "printed_pages": [
+                4
+              ]
+            }
+          },
+          {
+            "id": "8",
+            "label": null,
+            "value": 8,
+            "source": {
+              "pdf_pages": [
+                7
+              ],
+              "printed_pages": [
+                4
+              ]
+            }
+          },
+          {
+            "id": "9",
+            "label": null,
+            "value": 9,
+            "source": {
+              "pdf_pages": [
+                7
+              ],
+              "printed_pages": [
+                4
+              ]
+            }
+          },
+          {
+            "id": "10",
+            "label": "极度正面意见",
+            "value": 10,
+            "source": {
+              "pdf_pages": [
+                7
+              ],
+              "printed_pages": [
+                4
+              ]
+            }
+          }
+        ],
+        "minimum": 1,
+        "maximum": 10,
+        "cardinality": "single",
+        "slots": null,
+        "raw_instruction": "使用说明：本问卷使用NPS10级计分，填答者可以根据自身真实想法和感受进行评分。选项由10个等级构成，表示程度不断增加的连续变化。1代表极度负面意见，10代表极度正面意见。其中的2-9按照程度连续变化。",
+        "unknowns": [
+          {
+            "field": "options.label",
+            "reason": "原文只给端点文字，未为中间档命名；中间档保留数值和null标签。"
+          }
+        ],
+        "ranking": null
+      }
+    },
+    {
+      "id": "creativity--original.q007",
+      "order": 7,
+      "original_number": null,
+      "role": "measurement",
+      "measurement_class": "scale",
+      "kind": "rating",
+      "raw_text": "我能够批判性地评估既有想法，并提出更为全面的想法",
+      "student_text": "我能够批判性地评估既有想法，并提出更为全面的想法",
+      "source": {
+        "pdf_pages": [
+          7
+        ],
+        "printed_pages": [
+          4
+        ]
+      },
+      "group_id": "creativity--original.group001",
+      "subdimension": null,
+      "subdimension_reason": "原题表未明示每题对应的理论细分维度；不依据语义推断。",
+      "teacher_annotations": [],
+      "reverse": {
+        "marked": null,
+        "raw_marker": null,
+        "source": null,
+        "reason": "本原文题项未标明反向题；否定措辞不作为反向依据。"
+      },
+      "response": {
+        "options": [
+          {
+            "id": "1",
+            "label": "极度负面意见",
+            "value": 1,
+            "source": {
+              "pdf_pages": [
+                7
+              ],
+              "printed_pages": [
+                4
+              ]
+            }
+          },
+          {
+            "id": "2",
+            "label": null,
+            "value": 2,
+            "source": {
+              "pdf_pages": [
+                7
+              ],
+              "printed_pages": [
+                4
+              ]
+            }
+          },
+          {
+            "id": "3",
+            "label": null,
+            "value": 3,
+            "source": {
+              "pdf_pages": [
+                7
+              ],
+              "printed_pages": [
+                4
+              ]
+            }
+          },
+          {
+            "id": "4",
+            "label": null,
+            "value": 4,
+            "source": {
+              "pdf_pages": [
+                7
+              ],
+              "printed_pages": [
+                4
+              ]
+            }
+          },
+          {
+            "id": "5",
+            "label": null,
+            "value": 5,
+            "source": {
+              "pdf_pages": [
+                7
+              ],
+              "printed_pages": [
+                4
+              ]
+            }
+          },
+          {
+            "id": "6",
+            "label": null,
+            "value": 6,
+            "source": {
+              "pdf_pages": [
+                7
+              ],
+              "printed_pages": [
+                4
+              ]
+            }
+          },
+          {
+            "id": "7",
+            "label": null,
+            "value": 7,
+            "source": {
+              "pdf_pages": [
+                7
+              ],
+              "printed_pages": [
+                4
+              ]
+            }
+          },
+          {
+            "id": "8",
+            "label": null,
+            "value": 8,
+            "source": {
+              "pdf_pages": [
+                7
+              ],
+              "printed_pages": [
+                4
+              ]
+            }
+          },
+          {
+            "id": "9",
+            "label": null,
+            "value": 9,
+            "source": {
+              "pdf_pages": [
+                7
+              ],
+              "printed_pages": [
+                4
+              ]
+            }
+          },
+          {
+            "id": "10",
+            "label": "极度正面意见",
+            "value": 10,
+            "source": {
+              "pdf_pages": [
+                7
+              ],
+              "printed_pages": [
+                4
+              ]
+            }
+          }
+        ],
+        "minimum": 1,
+        "maximum": 10,
+        "cardinality": "single",
+        "slots": null,
+        "raw_instruction": "使用说明：本问卷使用NPS10级计分，填答者可以根据自身真实想法和感受进行评分。选项由10个等级构成，表示程度不断增加的连续变化。1代表极度负面意见，10代表极度正面意见。其中的2-9按照程度连续变化。",
+        "unknowns": [
+          {
+            "field": "options.label",
+            "reason": "原文只给端点文字，未为中间档命名；中间档保留数值和null标签。"
+          }
+        ],
+        "ranking": null
+      }
+    },
+    {
+      "id": "creativity--original.q008",
+      "order": 8,
+      "original_number": null,
+      "role": "measurement",
+      "measurement_class": "scale",
+      "kind": "rating",
+      "raw_text": "我会反思并尽可能去理解自己的情绪反应",
+      "student_text": "我会反思并尽可能去理解自己的情绪反应",
+      "source": {
+        "pdf_pages": [
+          7
+        ],
+        "printed_pages": [
+          4
+        ]
+      },
+      "group_id": "creativity--original.group002",
+      "subdimension": null,
+      "subdimension_reason": "原题表未明示每题对应的理论细分维度；不依据语义推断。",
+      "teacher_annotations": [],
+      "reverse": {
+        "marked": null,
+        "raw_marker": null,
+        "source": null,
+        "reason": "本原文题项未标明反向题；否定措辞不作为反向依据。"
+      },
+      "response": {
+        "options": [
+          {
+            "id": "1",
+            "label": "极度负面意见",
+            "value": 1,
+            "source": {
+              "pdf_pages": [
+                7
+              ],
+              "printed_pages": [
+                4
+              ]
+            }
+          },
+          {
+            "id": "2",
+            "label": null,
+            "value": 2,
+            "source": {
+              "pdf_pages": [
+                7
+              ],
+              "printed_pages": [
+                4
+              ]
+            }
+          },
+          {
+            "id": "3",
+            "label": null,
+            "value": 3,
+            "source": {
+              "pdf_pages": [
+                7
+              ],
+              "printed_pages": [
+                4
+              ]
+            }
+          },
+          {
+            "id": "4",
+            "label": null,
+            "value": 4,
+            "source": {
+              "pdf_pages": [
+                7
+              ],
+              "printed_pages": [
+                4
+              ]
+            }
+          },
+          {
+            "id": "5",
+            "label": null,
+            "value": 5,
+            "source": {
+              "pdf_pages": [
+                7
+              ],
+              "printed_pages": [
+                4
+              ]
+            }
+          },
+          {
+            "id": "6",
+            "label": null,
+            "value": 6,
+            "source": {
+              "pdf_pages": [
+                7
+              ],
+              "printed_pages": [
+                4
+              ]
+            }
+          },
+          {
+            "id": "7",
+            "label": null,
+            "value": 7,
+            "source": {
+              "pdf_pages": [
+                7
+              ],
+              "printed_pages": [
+                4
+              ]
+            }
+          },
+          {
+            "id": "8",
+            "label": null,
+            "value": 8,
+            "source": {
+              "pdf_pages": [
+                7
+              ],
+              "printed_pages": [
+                4
+              ]
+            }
+          },
+          {
+            "id": "9",
+            "label": null,
+            "value": 9,
+            "source": {
+              "pdf_pages": [
+                7
+              ],
+              "printed_pages": [
+                4
+              ]
+            }
+          },
+          {
+            "id": "10",
+            "label": "极度正面意见",
+            "value": 10,
+            "source": {
+              "pdf_pages": [
+                7
+              ],
+              "printed_pages": [
+                4
+              ]
+            }
+          }
+        ],
+        "minimum": 1,
+        "maximum": 10,
+        "cardinality": "single",
+        "slots": null,
+        "raw_instruction": "使用说明：本问卷使用NPS10级计分，填答者可以根据自身真实想法和感受进行评分。选项由10个等级构成，表示程度不断增加的连续变化。1代表极度负面意见，10代表极度正面意见。其中的2-9按照程度连续变化。",
+        "unknowns": [
+          {
+            "field": "options.label",
+            "reason": "原文只给端点文字，未为中间档命名；中间档保留数值和null标签。"
+          }
+        ],
+        "ranking": null
+      }
+    },
+    {
+      "id": "creativity--original.q009",
+      "order": 9,
+      "original_number": null,
+      "role": "measurement",
+      "measurement_class": "scale",
+      "kind": "rating",
+      "raw_text": "在强烈的情绪体验后，我会尽量恢复平静并客观审视自己的情绪",
+      "student_text": "在强烈的情绪体验后，我会尽量恢复平静并客观审视自己的情绪",
+      "source": {
+        "pdf_pages": [
+          7
+        ],
+        "printed_pages": [
+          4
+        ]
+      },
+      "group_id": "creativity--original.group002",
+      "subdimension": null,
+      "subdimension_reason": "原题表未明示每题对应的理论细分维度；不依据语义推断。",
+      "teacher_annotations": [],
+      "reverse": {
+        "marked": null,
+        "raw_marker": null,
+        "source": null,
+        "reason": "本原文题项未标明反向题；否定措辞不作为反向依据。"
+      },
+      "response": {
+        "options": [
+          {
+            "id": "1",
+            "label": "极度负面意见",
+            "value": 1,
+            "source": {
+              "pdf_pages": [
+                7
+              ],
+              "printed_pages": [
+                4
+              ]
+            }
+          },
+          {
+            "id": "2",
+            "label": null,
+            "value": 2,
+            "source": {
+              "pdf_pages": [
+                7
+              ],
+              "printed_pages": [
+                4
+              ]
+            }
+          },
+          {
+            "id": "3",
+            "label": null,
+            "value": 3,
+            "source": {
+              "pdf_pages": [
+                7
+              ],
+              "printed_pages": [
+                4
+              ]
+            }
+          },
+          {
+            "id": "4",
+            "label": null,
+            "value": 4,
+            "source": {
+              "pdf_pages": [
+                7
+              ],
+              "printed_pages": [
+                4
+              ]
+            }
+          },
+          {
+            "id": "5",
+            "label": null,
+            "value": 5,
+            "source": {
+              "pdf_pages": [
+                7
+              ],
+              "printed_pages": [
+                4
+              ]
+            }
+          },
+          {
+            "id": "6",
+            "label": null,
+            "value": 6,
+            "source": {
+              "pdf_pages": [
+                7
+              ],
+              "printed_pages": [
+                4
+              ]
+            }
+          },
+          {
+            "id": "7",
+            "label": null,
+            "value": 7,
+            "source": {
+              "pdf_pages": [
+                7
+              ],
+              "printed_pages": [
+                4
+              ]
+            }
+          },
+          {
+            "id": "8",
+            "label": null,
+            "value": 8,
+            "source": {
+              "pdf_pages": [
+                7
+              ],
+              "printed_pages": [
+                4
+              ]
+            }
+          },
+          {
+            "id": "9",
+            "label": null,
+            "value": 9,
+            "source": {
+              "pdf_pages": [
+                7
+              ],
+              "printed_pages": [
+                4
+              ]
+            }
+          },
+          {
+            "id": "10",
+            "label": "极度正面意见",
+            "value": 10,
+            "source": {
+              "pdf_pages": [
+                7
+              ],
+              "printed_pages": [
+                4
+              ]
+            }
+          }
+        ],
+        "minimum": 1,
+        "maximum": 10,
+        "cardinality": "single",
+        "slots": null,
+        "raw_instruction": "使用说明：本问卷使用NPS10级计分，填答者可以根据自身真实想法和感受进行评分。选项由10个等级构成，表示程度不断增加的连续变化。1代表极度负面意见，10代表极度正面意见。其中的2-9按照程度连续变化。",
+        "unknowns": [
+          {
+            "field": "options.label",
+            "reason": "原文只给端点文字，未为中间档命名；中间档保留数值和null标签。"
+          }
+        ],
+        "ranking": null
+      }
+    },
+    {
+      "id": "creativity--original.q010",
+      "order": 10,
+      "original_number": null,
+      "role": "measurement",
+      "measurement_class": "scale",
+      "kind": "rating",
+      "raw_text": "我所体验的感受和情绪常常感到难以用一般语言来形容",
+      "student_text": "我所体验的感受和情绪常常感到难以用一般语言来形容",
+      "source": {
+        "pdf_pages": [
+          7
+        ],
+        "printed_pages": [
+          4
+        ]
+      },
+      "group_id": "creativity--original.group002",
+      "subdimension": null,
+      "subdimension_reason": "原题表未明示每题对应的理论细分维度；不依据语义推断。",
+      "teacher_annotations": [],
+      "reverse": {
+        "marked": null,
+        "raw_marker": null,
+        "source": null,
+        "reason": "本原文题项未标明反向题；否定措辞不作为反向依据。"
+      },
+      "response": {
+        "options": [
+          {
+            "id": "1",
+            "label": "极度负面意见",
+            "value": 1,
+            "source": {
+              "pdf_pages": [
+                7
+              ],
+              "printed_pages": [
+                4
+              ]
+            }
+          },
+          {
+            "id": "2",
+            "label": null,
+            "value": 2,
+            "source": {
+              "pdf_pages": [
+                7
+              ],
+              "printed_pages": [
+                4
+              ]
+            }
+          },
+          {
+            "id": "3",
+            "label": null,
+            "value": 3,
+            "source": {
+              "pdf_pages": [
+                7
+              ],
+              "printed_pages": [
+                4
+              ]
+            }
+          },
+          {
+            "id": "4",
+            "label": null,
+            "value": 4,
+            "source": {
+              "pdf_pages": [
+                7
+              ],
+              "printed_pages": [
+                4
+              ]
+            }
+          },
+          {
+            "id": "5",
+            "label": null,
+            "value": 5,
+            "source": {
+              "pdf_pages": [
+                7
+              ],
+              "printed_pages": [
+                4
+              ]
+            }
+          },
+          {
+            "id": "6",
+            "label": null,
+            "value": 6,
+            "source": {
+              "pdf_pages": [
+                7
+              ],
+              "printed_pages": [
+                4
+              ]
+            }
+          },
+          {
+            "id": "7",
+            "label": null,
+            "value": 7,
+            "source": {
+              "pdf_pages": [
+                7
+              ],
+              "printed_pages": [
+                4
+              ]
+            }
+          },
+          {
+            "id": "8",
+            "label": null,
+            "value": 8,
+            "source": {
+              "pdf_pages": [
+                7
+              ],
+              "printed_pages": [
+                4
+              ]
+            }
+          },
+          {
+            "id": "9",
+            "label": null,
+            "value": 9,
+            "source": {
+              "pdf_pages": [
+                7
+              ],
+              "printed_pages": [
+                4
+              ]
+            }
+          },
+          {
+            "id": "10",
+            "label": "极度正面意见",
+            "value": 10,
+            "source": {
+              "pdf_pages": [
+                7
+              ],
+              "printed_pages": [
+                4
+              ]
+            }
+          }
+        ],
+        "minimum": 1,
+        "maximum": 10,
+        "cardinality": "single",
+        "slots": null,
+        "raw_instruction": "使用说明：本问卷使用NPS10级计分，填答者可以根据自身真实想法和感受进行评分。选项由10个等级构成，表示程度不断增加的连续变化。1代表极度负面意见，10代表极度正面意见。其中的2-9按照程度连续变化。",
+        "unknowns": [
+          {
+            "field": "options.label",
+            "reason": "原文只给端点文字，未为中间档命名；中间档保留数值和null标签。"
+          }
+        ],
+        "ranking": null
+      }
+    },
+    {
+      "id": "creativity--original.q011",
+      "order": 11,
+      "original_number": null,
+      "role": "measurement",
+      "measurement_class": "scale",
+      "kind": "rating",
+      "raw_text": "我喜欢尝试一些可以唤起新的、不同寻常的情绪反应",
+      "student_text": "我喜欢尝试一些可以唤起新的、不同寻常的情绪反应",
+      "source": {
+        "pdf_pages": [
+          7
+        ],
+        "printed_pages": [
+          4
+        ]
+      },
+      "group_id": "creativity--original.group002",
+      "subdimension": null,
+      "subdimension_reason": "原题表未明示每题对应的理论细分维度；不依据语义推断。",
+      "teacher_annotations": [],
+      "reverse": {
+        "marked": null,
+        "raw_marker": null,
+        "source": null,
+        "reason": "本原文题项未标明反向题；否定措辞不作为反向依据。"
+      },
+      "response": {
+        "options": [
+          {
+            "id": "1",
+            "label": "极度负面意见",
+            "value": 1,
+            "source": {
+              "pdf_pages": [
+                7
+              ],
+              "printed_pages": [
+                4
+              ]
+            }
+          },
+          {
+            "id": "2",
+            "label": null,
+            "value": 2,
+            "source": {
+              "pdf_pages": [
+                7
+              ],
+              "printed_pages": [
+                4
+              ]
+            }
+          },
+          {
+            "id": "3",
+            "label": null,
+            "value": 3,
+            "source": {
+              "pdf_pages": [
+                7
+              ],
+              "printed_pages": [
+                4
+              ]
+            }
+          },
+          {
+            "id": "4",
+            "label": null,
+            "value": 4,
+            "source": {
+              "pdf_pages": [
+                7
+              ],
+              "printed_pages": [
+                4
+              ]
+            }
+          },
+          {
+            "id": "5",
+            "label": null,
+            "value": 5,
+            "source": {
+              "pdf_pages": [
+                7
+              ],
+              "printed_pages": [
+                4
+              ]
+            }
+          },
+          {
+            "id": "6",
+            "label": null,
+            "value": 6,
+            "source": {
+              "pdf_pages": [
+                7
+              ],
+              "printed_pages": [
+                4
+              ]
+            }
+          },
+          {
+            "id": "7",
+            "label": null,
+            "value": 7,
+            "source": {
+              "pdf_pages": [
+                7
+              ],
+              "printed_pages": [
+                4
+              ]
+            }
+          },
+          {
+            "id": "8",
+            "label": null,
+            "value": 8,
+            "source": {
+              "pdf_pages": [
+                7
+              ],
+              "printed_pages": [
+                4
+              ]
+            }
+          },
+          {
+            "id": "9",
+            "label": null,
+            "value": 9,
+            "source": {
+              "pdf_pages": [
+                7
+              ],
+              "printed_pages": [
+                4
+              ]
+            }
+          },
+          {
+            "id": "10",
+            "label": "极度正面意见",
+            "value": 10,
+            "source": {
+              "pdf_pages": [
+                7
+              ],
+              "printed_pages": [
+                4
+              ]
+            }
+          }
+        ],
+        "minimum": 1,
+        "maximum": 10,
+        "cardinality": "single",
+        "slots": null,
+        "raw_instruction": "使用说明：本问卷使用NPS10级计分，填答者可以根据自身真实想法和感受进行评分。选项由10个等级构成，表示程度不断增加的连续变化。1代表极度负面意见，10代表极度正面意见。其中的2-9按照程度连续变化。",
+        "unknowns": [
+          {
+            "field": "options.label",
+            "reason": "原文只给端点文字，未为中间档命名；中间档保留数值和null标签。"
+          }
+        ],
+        "ranking": null
+      }
+    },
+    {
+      "id": "creativity--original.q012",
+      "order": 12,
+      "original_number": null,
+      "role": "measurement",
+      "measurement_class": "scale",
+      "kind": "rating",
+      "raw_text": "我经历过超出常规的、不寻常的情绪体验",
+      "student_text": "我经历过超出常规的、不寻常的情绪体验",
+      "source": {
+        "pdf_pages": [
+          7
+        ],
+        "printed_pages": [
+          4
+        ]
+      },
+      "group_id": "creativity--original.group002",
+      "subdimension": null,
+      "subdimension_reason": "原题表未明示每题对应的理论细分维度；不依据语义推断。",
+      "teacher_annotations": [],
+      "reverse": {
+        "marked": null,
+        "raw_marker": null,
+        "source": null,
+        "reason": "本原文题项未标明反向题；否定措辞不作为反向依据。"
+      },
+      "response": {
+        "options": [
+          {
+            "id": "1",
+            "label": "极度负面意见",
+            "value": 1,
+            "source": {
+              "pdf_pages": [
+                7
+              ],
+              "printed_pages": [
+                4
+              ]
+            }
+          },
+          {
+            "id": "2",
+            "label": null,
+            "value": 2,
+            "source": {
+              "pdf_pages": [
+                7
+              ],
+              "printed_pages": [
+                4
+              ]
+            }
+          },
+          {
+            "id": "3",
+            "label": null,
+            "value": 3,
+            "source": {
+              "pdf_pages": [
+                7
+              ],
+              "printed_pages": [
+                4
+              ]
+            }
+          },
+          {
+            "id": "4",
+            "label": null,
+            "value": 4,
+            "source": {
+              "pdf_pages": [
+                7
+              ],
+              "printed_pages": [
+                4
+              ]
+            }
+          },
+          {
+            "id": "5",
+            "label": null,
+            "value": 5,
+            "source": {
+              "pdf_pages": [
+                7
+              ],
+              "printed_pages": [
+                4
+              ]
+            }
+          },
+          {
+            "id": "6",
+            "label": null,
+            "value": 6,
+            "source": {
+              "pdf_pages": [
+                7
+              ],
+              "printed_pages": [
+                4
+              ]
+            }
+          },
+          {
+            "id": "7",
+            "label": null,
+            "value": 7,
+            "source": {
+              "pdf_pages": [
+                7
+              ],
+              "printed_pages": [
+                4
+              ]
+            }
+          },
+          {
+            "id": "8",
+            "label": null,
+            "value": 8,
+            "source": {
+              "pdf_pages": [
+                7
+              ],
+              "printed_pages": [
+                4
+              ]
+            }
+          },
+          {
+            "id": "9",
+            "label": null,
+            "value": 9,
+            "source": {
+              "pdf_pages": [
+                7
+              ],
+              "printed_pages": [
+                4
+              ]
+            }
+          },
+          {
+            "id": "10",
+            "label": "极度正面意见",
+            "value": 10,
+            "source": {
+              "pdf_pages": [
+                7
+              ],
+              "printed_pages": [
+                4
+              ]
+            }
+          }
+        ],
+        "minimum": 1,
+        "maximum": 10,
+        "cardinality": "single",
+        "slots": null,
+        "raw_instruction": "使用说明：本问卷使用NPS10级计分，填答者可以根据自身真实想法和感受进行评分。选项由10个等级构成，表示程度不断增加的连续变化。1代表极度负面意见，10代表极度正面意见。其中的2-9按照程度连续变化。",
+        "unknowns": [
+          {
+            "field": "options.label",
+            "reason": "原文只给端点文字，未为中间档命名；中间档保留数值和null标签。"
+          }
+        ],
+        "ranking": null
+      }
+    }
+  ],
+  "groups": [
+    {
+      "id": "creativity--original.group001",
+      "raw_name": "思维创造力",
+      "source": {
+        "pdf_pages": [
+          7
+        ],
+        "printed_pages": [
+          4
+        ]
+      },
+      "parent_id": null,
+      "note": null
+    },
+    {
+      "id": "creativity--original.group002",
+      "raw_name": "情绪创造力",
+      "source": {
+        "pdf_pages": [
+          7
+        ],
+        "printed_pages": [
+          4
+        ]
+      },
+      "parent_id": null,
+      "note": null
+    }
+  ],
+  "blocks": [
+    {
+      "id": "creativity--original.table001",
+      "kind": "matrix",
+      "raw_title": null,
+      "item_ids": [
+        "creativity--original.q001",
+        "creativity--original.q002",
+        "creativity--original.q003",
+        "creativity--original.q004",
+        "creativity--original.q005",
+        "creativity--original.q006",
+        "creativity--original.q007",
+        "creativity--original.q008",
+        "creativity--original.q009",
+        "creativity--original.q010",
+        "creativity--original.q011",
+        "creativity--original.q012"
+      ],
+      "source": {
+        "pdf_pages": [
+          7
+        ],
+        "printed_pages": [
+          4
+        ]
+      },
+      "note": "原表列为维度、题项、1-10；保存整表原结构及一级合并组，逐行题项不重复计数。"
+    }
+  ],
+  "scoring": {
+    "raw_rules": [],
+    "reverse_mapping": null,
+    "unknowns": [
+      {
+        "field": "reverse_mapping",
+        "reason": "原文未标反向或提供反向数值转换，不借用第一辑规则。",
+        "source": {
+          "pdf_pages": [
+            7
+          ],
+          "printed_pages": [
+            4
+          ]
+        }
+      },
+      {
+        "field": "aggregate_rules",
+        "reason": "原文未给总分/分组汇总算法，NPS10术语不作为净推荐值公式依据。",
+        "source": {
+          "pdf_pages": [
+            7
+          ],
+          "printed_pages": [
+            4
+          ]
+        }
+      },
+      {
+        "field": "subdimension_mapping",
+        "reason": "原文未提供理论细分维度与每题的对应。",
+        "source": {
+          "pdf_pages": [
+            7
+          ],
+          "printed_pages": [
+            4
+          ]
+        }
+      },
+      {
+        "field": "missing_values_and_norms",
+        "reason": "原文未给缺失值处理、常模或解释阈值。",
+        "source": {
+          "pdf_pages": [
+            7
+          ],
+          "printed_pages": [
+            4
+          ]
+        }
+      }
+    ]
+  },
+  "counts": {
+    "basic_information": 3,
+    "measurement_items": 12,
+    "scale_items": 12,
+    "preliminary_items": 0,
+    "background_items": 0,
+    "item_records": 12,
+    "original_question_blocks": 12,
+    "reason": null
+  },
+  "issues": [
+    {
+      "id": "A-16",
+      "category": "metadata",
+      "blocking": false,
+      "source": {
+        "pdf_pages": [
+          7
+        ],
+        "printed_pages": [
+          4
+        ]
+      },
+      "original_text": "使用说明：本问卷使用NPS10级计分，填答者可以根据自身真实想法和感受进行评分。选项由10个等级构成，表示程度不断增加的连续变化。1代表极度负面意见，10代表极度正面意见。其中的2-9按照程度连续变化。",
+      "missing_information": "NPS10术语没有配套统计公式；没有明示反向题。",
+      "possible_resolutions": [
+        "只保存1–10作答数值和原端点；统计与反向信息留未知。",
+        "如获正式补充，另记录来源。"
+      ],
+      "recommendation": "保留术语原文，不实施计分，不补反向标记。",
+      "affected_item_ids": [
+        "creativity--original.q001",
+        "creativity--original.q002",
+        "creativity--original.q003",
+        "creativity--original.q004",
+        "creativity--original.q005",
+        "creativity--original.q006",
+        "creativity--original.q007",
+        "creativity--original.q008",
+        "creativity--original.q009",
+        "creativity--original.q010",
+        "creativity--original.q011",
+        "creativity--original.q012"
+      ],
+      "resolution": null
+    },
+    {
+      "id": "creativity.basic-fields",
+      "category": "metadata",
+      "blocking": false,
+      "source": {
+        "pdf_pages": [
+          7
+        ],
+        "printed_pages": [
+          4
+        ]
+      },
+      "original_text": "性别：年龄：年级：",
+      "missing_information": "未提供选项、年龄范围、年级枚举及必填性。",
+      "possible_resolutions": [
+        "保留三个原空白填写字段。",
+        "取得原来源补充后记录约束。"
+      ],
+      "recommendation": "按原空白保存，不生成枚举或限制。",
+      "affected_item_ids": [
+        "creativity--original.basic001",
+        "creativity--original.basic002",
+        "creativity--original.basic003"
+      ],
+      "resolution": null
+    },
+    {
+      "id": "C-1",
+      "category": "textual",
+      "blocking": false,
+      "source": {
+        "pdf_pages": [
+          7
+        ],
+        "printed_pages": [
+          4
+        ]
+      },
+      "original_text": "我能够在性格或目标不确定的情形下，坚持搜寻更多信息",
+      "missing_information": "“性格或目标不确定”语境可能有用词问题，原文无更正。",
+      "possible_resolutions": [
+        "忠实保留并提示。",
+        "取得正式更正后新增有来源的修订记录。"
+      ],
+      "recommendation": "保留“性格”，不改“情境/情况”；教师侧提示。",
+      "affected_item_ids": [
+        "creativity--original.q005"
+      ],
+      "resolution": null
+    },
+    {
+      "id": "C-2",
+      "category": "textual",
+      "blocking": false,
+      "source": {
+        "pdf_pages": [
+          7
+        ],
+        "printed_pages": [
+          4
+        ]
+      },
+      "original_text": "我所体验的感受和情绪常常感到难以用一般语言来形容",
+      "missing_information": "“感受和情绪常常感到”主语/语法有疑点。",
+      "possible_resolutions": [
+        "忠实保留并提示。",
+        "取得正式更正后新增有来源的修订记录。"
+      ],
+      "recommendation": "逐字保留，不润色。",
+      "affected_item_ids": [
+        "creativity--original.q010"
+      ],
+      "resolution": null
+    },
+    {
+      "id": "C-3",
+      "category": "textual",
+      "blocking": false,
+      "source": {
+        "pdf_pages": [
+          7
+        ],
+        "printed_pages": [
+          4
+        ]
+      },
+      "original_text": "我喜欢尝试一些可以唤起新的、不同寻常的情绪反应",
+      "missing_information": "“尝试一些可以唤起……”未明确尝试对象。",
+      "possible_resolutions": [
+        "忠实保留并提示。",
+        "取得正式更正后新增有来源的修订记录。"
+      ],
+      "recommendation": "不加“活动/事情”等原文没有的对象。",
+      "affected_item_ids": [
+        "creativity--original.q011"
+      ],
+      "resolution": null
+    },
+    {
+      "id": "C-5",
+      "category": "metadata",
+      "blocking": false,
+      "source": {
+        "pdf_pages": [
+          7
+        ],
+        "printed_pages": [
+          4
+        ]
+      },
+      "original_text": "使用说明：本问卷使用NPS10级计分，填答者可以根据自身真实想法和感受进行评分。选项由10个等级构成，表示程度不断增加的连续变化。1代表极度负面意见，10代表极度正面意见。其中的2-9按照程度连续变化。",
+      "missing_information": "2–9档没有文字标签。",
+      "possible_resolutions": [
+        "中间档只保存原数值，label为null。"
+      ],
+      "recommendation": "不补等级名称。",
+      "affected_item_ids": [
+        "creativity--original.q001",
+        "creativity--original.q002",
+        "creativity--original.q003",
+        "creativity--original.q004",
+        "creativity--original.q005",
+        "creativity--original.q006",
+        "creativity--original.q007",
+        "creativity--original.q008",
+        "creativity--original.q009",
+        "creativity--original.q010",
+        "creativity--original.q011",
+        "creativity--original.q012"
+      ],
+      "resolution": null
+    },
+    {
+      "id": "C-6",
+      "category": "metadata",
+      "blocking": false,
+      "source": {
+        "pdf_pages": [
+          5,
+          6,
+          7
+        ],
+        "printed_pages": [
+          2,
+          3,
+          4
+        ]
+      },
+      "original_text": "新奇性\n准备性\n有效真诚性\n思维创造力\n情绪创造力",
+      "missing_information": "图1（PDF5/印2）情绪细分排列为新奇性、准备性、有效真诚性；正文/表1（PDF5–6/印2–3）为准备性、新奇性、有效真诚性。题表（PDF7/印4）只明示思维创造力、情绪创造力两组，未给七个理论细分到12行题项的映射。",
+      "possible_resolutions": [
+        "保留两个题表原组；细分只作理论元数据。"
+      ],
+      "recommendation": "逐题subdimension为null，不靠题意或理论分配。",
+      "affected_item_ids": [
+        "creativity--original.q001",
+        "creativity--original.q002",
+        "creativity--original.q003",
+        "creativity--original.q004",
+        "creativity--original.q005",
+        "creativity--original.q006",
+        "creativity--original.q007",
+        "creativity--original.q008",
+        "creativity--original.q009",
+        "creativity--original.q010",
+        "creativity--original.q011",
+        "creativity--original.q012"
+      ],
+      "resolution": null
+    },
+    {
+      "id": "C-9",
+      "category": "metadata",
+      "blocking": false,
+      "source": {
+        "pdf_pages": [
+          7
+        ],
+        "printed_pages": [
+          4
+        ]
+      },
+      "original_text": "指导语：亲爱的同学，你好！欢迎你参加本次问卷调查。本调查不记名，完全保密，资料仅供研究使用，请根据你的实际情况，如实地填写并完成以下问题。你的如实回答对研究具有非常重要的意义。非常感谢你的参与，谢谢你的合作！",
+      "missing_information": "脚本无法证明“不记名、完全保密、仅供研究”的实际收集设置与用途。",
+      "possible_resolutions": [
+        "教师实际使用前核对收集设置与用途。",
+        "需要改变指导语时明确记录变更。"
+      ],
+      "recommendation": "忠实保存指导语，不静默改写。",
+      "affected_item_ids": [],
+      "resolution": null
+    }
+  ],
+  "review": {
+    "status": "verified",
+    "transcription_verified": true,
+    "checked_pdf_pages": [
+      4,
+      5,
+      6,
+      7
+    ],
+    "method": "重新从源PDF以pypdf和pdfplumber提取；人工查看本轮Poppler原页PNG，逐行比对题表、指导语、作答等级、原分组及跨页延续。仅合并版面换行与无语义空白。",
+    "reviewed_on": "2026-10-04",
+    "eligible_for_generation": true,
+    "note": "仅为原文数据核对状态，不表示生成器已实现、WorkBuddy已运行或问卷星已导入。未命名档位不补文字、未标反向不推断，计分仅保留元数据。"
+  }
+}

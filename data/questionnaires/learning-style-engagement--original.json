@@ -1,0 +1,5624 @@
+{
+  "schema_version": 1,
+  "id": "learning-style-engagement--original",
+  "project_id": "learning-style-engagement",
+  "version_id": "original",
+  "project_name": "学习风格和学习投入度",
+  "original_name": "大学生学习风格和学习投入度问卷",
+  "original_name_reason": null,
+  "title": {
+    "raw_text": "大学生学习风格和学习投入度问卷",
+    "student_text": "大学生学习风格和学习投入度问卷",
+    "source": {
+      "pdf_pages": [
+        11
+      ],
+      "printed_pages": [
+        8
+      ]
+    }
+  },
+  "source": {
+    "filename": "武汉大学课程思政教学评价指南（第二辑）.pdf",
+    "volume": 2,
+    "chapter": "二、学习风格和学习投入度评价指南",
+    "pdf_pages": [
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "printed_pages": [
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "sha256": "409e07caee432868f24c51a5c3989cabdb5df37f8bbdcddfb36cc4adbbc51ce4"
+  },
+  "instructions": [
+    {
+      "id": "learning-style-engagement--original.instruction001",
+      "role": "guidance",
+      "raw_text": "指导语：亲爱的同学，你好！欢迎你参加本次科研活动。本次活动不记名，完全保密，资料仅供学术研究使用，请根据你的实际情况，如实地填写并完成以下问题。你的如实回答对研究具有非常重要的意义。非常感谢你的参与，谢谢你的合作！",
+      "student_text": "指导语：亲爱的同学，你好！欢迎你参加本次科研活动。本次活动不记名，完全保密，资料仅供学术研究使用，请根据你的实际情况，如实地填写并完成以下问题。你的如实回答对研究具有非常重要的意义。非常感谢你的参与，谢谢你的合作！",
+      "source": {
+        "pdf_pages": [
+          11
+        ],
+        "printed_pages": [
+          8
+        ]
+      }
+    },
+    {
+      "id": "learning-style-engagement--original.instruction002",
+      "role": "response",
+      "raw_text": "使用说明：本问卷使用NPS10级计分，填答者可以根据自身真实想法和感受进行评分。选项由10个等级构成，表示程度不断增加的连续变化。1代表极度负面意见，10代表极度正面意见。其中的2-9按照程度连续变化。",
+      "student_text": "使用说明：本问卷使用NPS10级计分，填答者可以根据自身真实想法和感受进行评分。选项由10个等级构成，表示程度不断增加的连续变化。1代表极度负面意见，10代表极度正面意见。其中的2-9按照程度连续变化。",
+      "source": {
+        "pdf_pages": [
+          11
+        ],
+        "printed_pages": [
+          8
+        ]
+      }
+    },
+    {
+      "id": "learning-style-engagement--original.instruction003",
+      "role": "teacher",
+      "raw_text": "（二）维度划分学者们探索过多种刻画学习风格的模型，弗莱明与迈尔斯（Fleming&Mills）认为学习风格由视觉型、听觉型、读写型和动觉型四种感知模式组成。Felder&Silverman则从学习过程的角度切入来刻画学习风格，他们将学习过程划分为信息感知、输入、理解和加工四个环节，每个环节中包括两种学习偏好，这一划分维度表明了弗莱明和迈尔斯的划分模式，目前在学界中被广泛采纳",
+      "student_text": null,
+      "source": {
+        "pdf_pages": [
+          9
+        ],
+        "printed_pages": [
+          6
+        ]
+      }
+    }
+  ],
+  "basic_information": [
+    {
+      "id": "learning-style-engagement--original.basic001",
+      "order": 1,
+      "original_number": null,
+      "role": "basic_information",
+      "measurement_class": null,
+      "kind": "open",
+      "raw_text": "性别：",
+      "student_text": "性别：",
+      "source": {
+        "pdf_pages": [
+          11
+        ],
+        "printed_pages": [
+          8
+        ]
+      },
+      "group_id": null,
+      "subdimension": null,
+      "subdimension_reason": "人口基本信息字段，不作维度归属。",
+      "teacher_annotations": [],
+      "reverse": {
+        "marked": null,
+        "raw_marker": null,
+        "source": null,
+        "reason": "本原文题项未标明反向题；否定措辞不作为反向依据。"
+      },
+      "response": {
+        "options": [],
+        "minimum": null,
+        "maximum": null,
+        "cardinality": null,
+        "slots": 1,
+        "raw_instruction": null,
+        "unknowns": [
+          {
+            "field": "required",
+            "reason": "原文未说明必填性。"
+          },
+          {
+            "field": "constraints",
+            "reason": "原文只有空白填写位置，无枚举选项、格式或范围。"
+          }
+        ],
+        "ranking": null
+      }
+    },
+    {
+      "id": "learning-style-engagement--original.basic002",
+      "order": 2,
+      "original_number": null,
+      "role": "basic_information",
+      "measurement_class": null,
+      "kind": "open",
+      "raw_text": "年龄：",
+      "student_text": "年龄：",
+      "source": {
+        "pdf_pages": [
+          11
+        ],
+        "printed_pages": [
+          8
+        ]
+      },
+      "group_id": null,
+      "subdimension": null,
+      "subdimension_reason": "人口基本信息字段，不作维度归属。",
+      "teacher_annotations": [],
+      "reverse": {
+        "marked": null,
+        "raw_marker": null,
+        "source": null,
+        "reason": "本原文题项未标明反向题；否定措辞不作为反向依据。"
+      },
+      "response": {
+        "options": [],
+        "minimum": null,
+        "maximum": null,
+        "cardinality": null,
+        "slots": 1,
+        "raw_instruction": null,
+        "unknowns": [
+          {
+            "field": "required",
+            "reason": "原文未说明必填性。"
+          },
+          {
+            "field": "constraints",
+            "reason": "原文只有空白填写位置，无枚举选项、格式或范围。"
+          }
+        ],
+        "ranking": null
+      }
+    },
+    {
+      "id": "learning-style-engagement--original.basic003",
+      "order": 3,
+      "original_number": null,
+      "role": "basic_information",
+      "measurement_class": null,
+      "kind": "open",
+      "raw_text": "年级：",
+      "student_text": "年级：",
+      "source": {
+        "pdf_pages": [
+          11
+        ],
+        "printed_pages": [
+          8
+        ]
+      },
+      "group_id": null,
+      "subdimension": null,
+      "subdimension_reason": "人口基本信息字段，不作维度归属。",
+      "teacher_annotations": [],
+      "reverse": {
+        "marked": null,
+        "raw_marker": null,
+        "source": null,
+        "reason": "本原文题项未标明反向题；否定措辞不作为反向依据。"
+      },
+      "response": {
+        "options": [],
+        "minimum": null,
+        "maximum": null,
+        "cardinality": null,
+        "slots": 1,
+        "raw_instruction": null,
+        "unknowns": [
+          {
+            "field": "required",
+            "reason": "原文未说明必填性。"
+          },
+          {
+            "field": "constraints",
+            "reason": "原文只有空白填写位置，无枚举选项、格式或范围。"
+          }
+        ],
+        "ranking": null
+      }
+    }
+  ],
+  "items": [
+    {
+      "id": "learning-style-engagement--original.q001",
+      "order": 1,
+      "original_number": null,
+      "role": "measurement",
+      "measurement_class": "scale",
+      "kind": "rating",
+      "raw_text": "阅读能让我记住更多的学习内容",
+      "student_text": "阅读能让我记住更多的学习内容",
+      "source": {
+        "pdf_pages": [
+          11
+        ],
+        "printed_pages": [
+          8
+        ]
+      },
+      "group_id": "learning-style-engagement--original.group001",
+      "subdimension": null,
+      "subdimension_reason": "原题表未明示每题对应的理论细分维度；不依据语义推断。",
+      "teacher_annotations": [],
+      "reverse": {
+        "marked": null,
+        "raw_marker": null,
+        "source": null,
+        "reason": "本原文题项未标明反向题；否定措辞不作为反向依据。"
+      },
+      "response": {
+        "options": [
+          {
+            "id": "1",
+            "label": "极度负面意见",
+            "value": 1,
+            "source": {
+              "pdf_pages": [
+                11
+              ],
+              "printed_pages": [
+                8
+              ]
+            }
+          },
+          {
+            "id": "2",
+            "label": null,
+            "value": 2,
+            "source": {
+              "pdf_pages": [
+                11
+              ],
+              "printed_pages": [
+                8
+              ]
+            }
+          },
+          {
+            "id": "3",
+            "label": null,
+            "value": 3,
+            "source": {
+              "pdf_pages": [
+                11
+              ],
+              "printed_pages": [
+                8
+              ]
+            }
+          },
+          {
+            "id": "4",
+            "label": null,
+            "value": 4,
+            "source": {
+              "pdf_pages": [
+                11
+              ],
+              "printed_pages": [
+                8
+              ]
+            }
+          },
+          {
+            "id": "5",
+            "label": null,
+            "value": 5,
+            "source": {
+              "pdf_pages": [
+                11
+              ],
+              "printed_pages": [
+                8
+              ]
+            }
+          },
+          {
+            "id": "6",
+            "label": null,
+            "value": 6,
+            "source": {
+              "pdf_pages": [
+                11
+              ],
+              "printed_pages": [
+                8
+              ]
+            }
+          },
+          {
+            "id": "7",
+            "label": null,
+            "value": 7,
+            "source": {
+              "pdf_pages": [
+                11
+              ],
+              "printed_pages": [
+                8
+              ]
+            }
+          },
+          {
+            "id": "8",
+            "label": null,
+            "value": 8,
+            "source": {
+              "pdf_pages": [
+                11
+              ],
+              "printed_pages": [
+                8
+              ]
+            }
+          },
+          {
+            "id": "9",
+            "label": null,
+            "value": 9,
+            "source": {
+              "pdf_pages": [
+                11
+              ],
+              "printed_pages": [
+                8
+              ]
+            }
+          },
+          {
+            "id": "10",
+            "label": "极度正面意见",
+            "value": 10,
+            "source": {
+              "pdf_pages": [
+                11
+              ],
+              "printed_pages": [
+                8
+              ]
+            }
+          }
+        ],
+        "minimum": 1,
+        "maximum": 10,
+        "cardinality": "single",
+        "slots": null,
+        "raw_instruction": "使用说明：本问卷使用NPS10级计分，填答者可以根据自身真实想法和感受进行评分。选项由10个等级构成，表示程度不断增加的连续变化。1代表极度负面意见，10代表极度正面意见。其中的2-9按照程度连续变化。",
+        "unknowns": [
+          {
+            "field": "options.label",
+            "reason": "原文只给端点文字，未为中间档命名；中间档保留数值和null标签。"
+          }
+        ],
+        "ranking": null
+      }
+    },
+    {
+      "id": "learning-style-engagement--original.q002",
+      "order": 2,
+      "original_number": null,
+      "role": "measurement",
+      "measurement_class": "scale",
+      "kind": "rating",
+      "raw_text": "我通过听讲座能获得更多的知识",
+      "student_text": "我通过听讲座能获得更多的知识",
+      "source": {
+        "pdf_pages": [
+          11
+        ],
+        "printed_pages": [
+          8
+        ]
+      },
+      "group_id": "learning-style-engagement--original.group001",
+      "subdimension": null,
+      "subdimension_reason": "原题表未明示每题对应的理论细分维度；不依据语义推断。",
+      "teacher_annotations": [],
+      "reverse": {
+        "marked": null,
+        "raw_marker": null,
+        "source": null,
+        "reason": "本原文题项未标明反向题；否定措辞不作为反向依据。"
+      },
+      "response": {
+        "options": [
+          {
+            "id": "1",
+            "label": "极度负面意见",
+            "value": 1,
+            "source": {
+              "pdf_pages": [
+                11
+              ],
+              "printed_pages": [
+                8
+              ]
+            }
+          },
+          {
+            "id": "2",
+            "label": null,
+            "value": 2,
+            "source": {
+              "pdf_pages": [
+                11
+              ],
+              "printed_pages": [
+                8
+              ]
+            }
+          },
+          {
+            "id": "3",
+            "label": null,
+            "value": 3,
+            "source": {
+              "pdf_pages": [
+                11
+              ],
+              "printed_pages": [
+                8
+              ]
+            }
+          },
+          {
+            "id": "4",
+            "label": null,
+            "value": 4,
+            "source": {
+              "pdf_pages": [
+                11
+              ],
+              "printed_pages": [
+                8
+              ]
+            }
+          },
+          {
+            "id": "5",
+            "label": null,
+            "value": 5,
+            "source": {
+              "pdf_pages": [
+                11
+              ],
+              "printed_pages": [
+                8
+              ]
+            }
+          },
+          {
+            "id": "6",
+            "label": null,
+            "value": 6,
+            "source": {
+              "pdf_pages": [
+                11
+              ],
+              "printed_pages": [
+                8
+              ]
+            }
+          },
+          {
+            "id": "7",
+            "label": null,
+            "value": 7,
+            "source": {
+              "pdf_pages": [
+                11
+              ],
+              "printed_pages": [
+                8
+              ]
+            }
+          },
+          {
+            "id": "8",
+            "label": null,
+            "value": 8,
+            "source": {
+              "pdf_pages": [
+                11
+              ],
+              "printed_pages": [
+                8
+              ]
+            }
+          },
+          {
+            "id": "9",
+            "label": null,
+            "value": 9,
+            "source": {
+              "pdf_pages": [
+                11
+              ],
+              "printed_pages": [
+                8
+              ]
+            }
+          },
+          {
+            "id": "10",
+            "label": "极度正面意见",
+            "value": 10,
+            "source": {
+              "pdf_pages": [
+                11
+              ],
+              "printed_pages": [
+                8
+              ]
+            }
+          }
+        ],
+        "minimum": 1,
+        "maximum": 10,
+        "cardinality": "single",
+        "slots": null,
+        "raw_instruction": "使用说明：本问卷使用NPS10级计分，填答者可以根据自身真实想法和感受进行评分。选项由10个等级构成，表示程度不断增加的连续变化。1代表极度负面意见，10代表极度正面意见。其中的2-9按照程度连续变化。",
+        "unknowns": [
+          {
+            "field": "options.label",
+            "reason": "原文只给端点文字，未为中间档命名；中间档保留数值和null标签。"
+          }
+        ],
+        "ranking": null
+      }
+    },
+    {
+      "id": "learning-style-engagement--original.q003",
+      "order": 3,
+      "original_number": null,
+      "role": "measurement",
+      "measurement_class": "scale",
+      "kind": "rating",
+      "raw_text": "我通过阅读书面资料能获得感兴趣的信息",
+      "student_text": "我通过阅读书面资料能获得感兴趣的信息",
+      "source": {
+        "pdf_pages": [
+          11
+        ],
+        "printed_pages": [
+          8
+        ]
+      },
+      "group_id": "learning-style-engagement--original.group001",
+      "subdimension": null,
+      "subdimension_reason": "原题表未明示每题对应的理论细分维度；不依据语义推断。",
+      "teacher_annotations": [],
+      "reverse": {
+        "marked": null,
+        "raw_marker": null,
+        "source": null,
+        "reason": "本原文题项未标明反向题；否定措辞不作为反向依据。"
+      },
+      "response": {
+        "options": [
+          {
+            "id": "1",
+            "label": "极度负面意见",
+            "value": 1,
+            "source": {
+              "pdf_pages": [
+                11
+              ],
+              "printed_pages": [
+                8
+              ]
+            }
+          },
+          {
+            "id": "2",
+            "label": null,
+            "value": 2,
+            "source": {
+              "pdf_pages": [
+                11
+              ],
+              "printed_pages": [
+                8
+              ]
+            }
+          },
+          {
+            "id": "3",
+            "label": null,
+            "value": 3,
+            "source": {
+              "pdf_pages": [
+                11
+              ],
+              "printed_pages": [
+                8
+              ]
+            }
+          },
+          {
+            "id": "4",
+            "label": null,
+            "value": 4,
+            "source": {
+              "pdf_pages": [
+                11
+              ],
+              "printed_pages": [
+                8
+              ]
+            }
+          },
+          {
+            "id": "5",
+            "label": null,
+            "value": 5,
+            "source": {
+              "pdf_pages": [
+                11
+              ],
+              "printed_pages": [
+                8
+              ]
+            }
+          },
+          {
+            "id": "6",
+            "label": null,
+            "value": 6,
+            "source": {
+              "pdf_pages": [
+                11
+              ],
+              "printed_pages": [
+                8
+              ]
+            }
+          },
+          {
+            "id": "7",
+            "label": null,
+            "value": 7,
+            "source": {
+              "pdf_pages": [
+                11
+              ],
+              "printed_pages": [
+                8
+              ]
+            }
+          },
+          {
+            "id": "8",
+            "label": null,
+            "value": 8,
+            "source": {
+              "pdf_pages": [
+                11
+              ],
+              "printed_pages": [
+                8
+              ]
+            }
+          },
+          {
+            "id": "9",
+            "label": null,
+            "value": 9,
+            "source": {
+              "pdf_pages": [
+                11
+              ],
+              "printed_pages": [
+                8
+              ]
+            }
+          },
+          {
+            "id": "10",
+            "label": "极度正面意见",
+            "value": 10,
+            "source": {
+              "pdf_pages": [
+                11
+              ],
+              "printed_pages": [
+                8
+              ]
+            }
+          }
+        ],
+        "minimum": 1,
+        "maximum": 10,
+        "cardinality": "single",
+        "slots": null,
+        "raw_instruction": "使用说明：本问卷使用NPS10级计分，填答者可以根据自身真实想法和感受进行评分。选项由10个等级构成，表示程度不断增加的连续变化。1代表极度负面意见，10代表极度正面意见。其中的2-9按照程度连续变化。",
+        "unknowns": [
+          {
+            "field": "options.label",
+            "reason": "原文只给端点文字，未为中间档命名；中间档保留数值和null标签。"
+          }
+        ],
+        "ranking": null
+      }
+    },
+    {
+      "id": "learning-style-engagement--original.q004",
+      "order": 4,
+      "original_number": null,
+      "role": "measurement",
+      "measurement_class": "scale",
+      "kind": "rating",
+      "raw_text": "在课堂上，通过教师讲解学习内容我会学得更好",
+      "student_text": "在课堂上，通过教师讲解学习内容我会学得更好",
+      "source": {
+        "pdf_pages": [
+          12
+        ],
+        "printed_pages": [
+          9
+        ]
+      },
+      "group_id": "learning-style-engagement--original.group001",
+      "subdimension": null,
+      "subdimension_reason": "原题表未明示每题对应的理论细分维度；不依据语义推断。",
+      "teacher_annotations": [],
+      "reverse": {
+        "marked": null,
+        "raw_marker": null,
+        "source": null,
+        "reason": "本原文题项未标明反向题；否定措辞不作为反向依据。"
+      },
+      "response": {
+        "options": [
+          {
+            "id": "1",
+            "label": "极度负面意见",
+            "value": 1,
+            "source": {
+              "pdf_pages": [
+                11
+              ],
+              "printed_pages": [
+                8
+              ]
+            }
+          },
+          {
+            "id": "2",
+            "label": null,
+            "value": 2,
+            "source": {
+              "pdf_pages": [
+                11
+              ],
+              "printed_pages": [
+                8
+              ]
+            }
+          },
+          {
+            "id": "3",
+            "label": null,
+            "value": 3,
+            "source": {
+              "pdf_pages": [
+                11
+              ],
+              "printed_pages": [
+                8
+              ]
+            }
+          },
+          {
+            "id": "4",
+            "label": null,
+            "value": 4,
+            "source": {
+              "pdf_pages": [
+                11
+              ],
+              "printed_pages": [
+                8
+              ]
+            }
+          },
+          {
+            "id": "5",
+            "label": null,
+            "value": 5,
+            "source": {
+              "pdf_pages": [
+                11
+              ],
+              "printed_pages": [
+                8
+              ]
+            }
+          },
+          {
+            "id": "6",
+            "label": null,
+            "value": 6,
+            "source": {
+              "pdf_pages": [
+                11
+              ],
+              "printed_pages": [
+                8
+              ]
+            }
+          },
+          {
+            "id": "7",
+            "label": null,
+            "value": 7,
+            "source": {
+              "pdf_pages": [
+                11
+              ],
+              "printed_pages": [
+                8
+              ]
+            }
+          },
+          {
+            "id": "8",
+            "label": null,
+            "value": 8,
+            "source": {
+              "pdf_pages": [
+                11
+              ],
+              "printed_pages": [
+                8
+              ]
+            }
+          },
+          {
+            "id": "9",
+            "label": null,
+            "value": 9,
+            "source": {
+              "pdf_pages": [
+                11
+              ],
+              "printed_pages": [
+                8
+              ]
+            }
+          },
+          {
+            "id": "10",
+            "label": "极度正面意见",
+            "value": 10,
+            "source": {
+              "pdf_pages": [
+                11
+              ],
+              "printed_pages": [
+                8
+              ]
+            }
+          }
+        ],
+        "minimum": 1,
+        "maximum": 10,
+        "cardinality": "single",
+        "slots": null,
+        "raw_instruction": "使用说明：本问卷使用NPS10级计分，填答者可以根据自身真实想法和感受进行评分。选项由10个等级构成，表示程度不断增加的连续变化。1代表极度负面意见，10代表极度正面意见。其中的2-9按照程度连续变化。",
+        "unknowns": [
+          {
+            "field": "options.label",
+            "reason": "原文只给端点文字，未为中间档命名；中间档保留数值和null标签。"
+          }
+        ],
+        "ranking": null
+      }
+    },
+    {
+      "id": "learning-style-engagement--original.q005",
+      "order": 5,
+      "original_number": null,
+      "role": "measurement",
+      "measurement_class": "scale",
+      "kind": "rating",
+      "raw_text": "在课外时间我最喜欢看杂志或报纸",
+      "student_text": "在课外时间我最喜欢看杂志或报纸",
+      "source": {
+        "pdf_pages": [
+          12
+        ],
+        "printed_pages": [
+          9
+        ]
+      },
+      "group_id": "learning-style-engagement--original.group001",
+      "subdimension": null,
+      "subdimension_reason": "原题表未明示每题对应的理论细分维度；不依据语义推断。",
+      "teacher_annotations": [],
+      "reverse": {
+        "marked": null,
+        "raw_marker": null,
+        "source": null,
+        "reason": "本原文题项未标明反向题；否定措辞不作为反向依据。"
+      },
+      "response": {
+        "options": [
+          {
+            "id": "1",
+            "label": "极度负面意见",
+            "value": 1,
+            "source": {
+              "pdf_pages": [
+                11
+              ],
+              "printed_pages": [
+                8
+              ]
+            }
+          },
+          {
+            "id": "2",
+            "label": null,
+            "value": 2,
+            "source": {
+              "pdf_pages": [
+                11
+              ],
+              "printed_pages": [
+                8
+              ]
+            }
+          },
+          {
+            "id": "3",
+            "label": null,
+            "value": 3,
+            "source": {
+              "pdf_pages": [
+                11
+              ],
+              "printed_pages": [
+                8
+              ]
+            }
+          },
+          {
+            "id": "4",
+            "label": null,
+            "value": 4,
+            "source": {
+              "pdf_pages": [
+                11
+              ],
+              "printed_pages": [
+                8
+              ]
+            }
+          },
+          {
+            "id": "5",
+            "label": null,
+            "value": 5,
+            "source": {
+              "pdf_pages": [
+                11
+              ],
+              "printed_pages": [
+                8
+              ]
+            }
+          },
+          {
+            "id": "6",
+            "label": null,
+            "value": 6,
+            "source": {
+              "pdf_pages": [
+                11
+              ],
+              "printed_pages": [
+                8
+              ]
+            }
+          },
+          {
+            "id": "7",
+            "label": null,
+            "value": 7,
+            "source": {
+              "pdf_pages": [
+                11
+              ],
+              "printed_pages": [
+                8
+              ]
+            }
+          },
+          {
+            "id": "8",
+            "label": null,
+            "value": 8,
+            "source": {
+              "pdf_pages": [
+                11
+              ],
+              "printed_pages": [
+                8
+              ]
+            }
+          },
+          {
+            "id": "9",
+            "label": null,
+            "value": 9,
+            "source": {
+              "pdf_pages": [
+                11
+              ],
+              "printed_pages": [
+                8
+              ]
+            }
+          },
+          {
+            "id": "10",
+            "label": "极度正面意见",
+            "value": 10,
+            "source": {
+              "pdf_pages": [
+                11
+              ],
+              "printed_pages": [
+                8
+              ]
+            }
+          }
+        ],
+        "minimum": 1,
+        "maximum": 10,
+        "cardinality": "single",
+        "slots": null,
+        "raw_instruction": "使用说明：本问卷使用NPS10级计分，填答者可以根据自身真实想法和感受进行评分。选项由10个等级构成，表示程度不断增加的连续变化。1代表极度负面意见，10代表极度正面意见。其中的2-9按照程度连续变化。",
+        "unknowns": [
+          {
+            "field": "options.label",
+            "reason": "原文只给端点文字，未为中间档命名；中间档保留数值和null标签。"
+          }
+        ],
+        "ranking": null
+      }
+    },
+    {
+      "id": "learning-style-engagement--original.q006",
+      "order": 6,
+      "original_number": null,
+      "role": "measurement",
+      "measurement_class": "scale",
+      "kind": "rating",
+      "raw_text": "我不喜欢通过观察来学习",
+      "student_text": "我不喜欢通过观察来学习",
+      "source": {
+        "pdf_pages": [
+          12
+        ],
+        "printed_pages": [
+          9
+        ]
+      },
+      "group_id": "learning-style-engagement--original.group001",
+      "subdimension": null,
+      "subdimension_reason": "原题表未明示每题对应的理论细分维度；不依据语义推断。",
+      "teacher_annotations": [],
+      "reverse": {
+        "marked": null,
+        "raw_marker": null,
+        "source": null,
+        "reason": "本原文题项未标明反向题；否定措辞不作为反向依据。"
+      },
+      "response": {
+        "options": [
+          {
+            "id": "1",
+            "label": "极度负面意见",
+            "value": 1,
+            "source": {
+              "pdf_pages": [
+                11
+              ],
+              "printed_pages": [
+                8
+              ]
+            }
+          },
+          {
+            "id": "2",
+            "label": null,
+            "value": 2,
+            "source": {
+              "pdf_pages": [
+                11
+              ],
+              "printed_pages": [
+                8
+              ]
+            }
+          },
+          {
+            "id": "3",
+            "label": null,
+            "value": 3,
+            "source": {
+              "pdf_pages": [
+                11
+              ],
+              "printed_pages": [
+                8
+              ]
+            }
+          },
+          {
+            "id": "4",
+            "label": null,
+            "value": 4,
+            "source": {
+              "pdf_pages": [
+                11
+              ],
+              "printed_pages": [
+                8
+              ]
+            }
+          },
+          {
+            "id": "5",
+            "label": null,
+            "value": 5,
+            "source": {
+              "pdf_pages": [
+                11
+              ],
+              "printed_pages": [
+                8
+              ]
+            }
+          },
+          {
+            "id": "6",
+            "label": null,
+            "value": 6,
+            "source": {
+              "pdf_pages": [
+                11
+              ],
+              "printed_pages": [
+                8
+              ]
+            }
+          },
+          {
+            "id": "7",
+            "label": null,
+            "value": 7,
+            "source": {
+              "pdf_pages": [
+                11
+              ],
+              "printed_pages": [
+                8
+              ]
+            }
+          },
+          {
+            "id": "8",
+            "label": null,
+            "value": 8,
+            "source": {
+              "pdf_pages": [
+                11
+              ],
+              "printed_pages": [
+                8
+              ]
+            }
+          },
+          {
+            "id": "9",
+            "label": null,
+            "value": 9,
+            "source": {
+              "pdf_pages": [
+                11
+              ],
+              "printed_pages": [
+                8
+              ]
+            }
+          },
+          {
+            "id": "10",
+            "label": "极度正面意见",
+            "value": 10,
+            "source": {
+              "pdf_pages": [
+                11
+              ],
+              "printed_pages": [
+                8
+              ]
+            }
+          }
+        ],
+        "minimum": 1,
+        "maximum": 10,
+        "cardinality": "single",
+        "slots": null,
+        "raw_instruction": "使用说明：本问卷使用NPS10级计分，填答者可以根据自身真实想法和感受进行评分。选项由10个等级构成，表示程度不断增加的连续变化。1代表极度负面意见，10代表极度正面意见。其中的2-9按照程度连续变化。",
+        "unknowns": [
+          {
+            "field": "options.label",
+            "reason": "原文只给端点文字，未为中间档命名；中间档保留数值和null标签。"
+          }
+        ],
+        "ranking": null
+      }
+    },
+    {
+      "id": "learning-style-engagement--original.q007",
+      "order": 7,
+      "original_number": null,
+      "role": "measurement",
+      "measurement_class": "scale",
+      "kind": "rating",
+      "raw_text": "学习教材内容时，愿意听教师讲而不愿意自己看",
+      "student_text": "学习教材内容时，愿意听教师讲而不愿意自己看",
+      "source": {
+        "pdf_pages": [
+          12
+        ],
+        "printed_pages": [
+          9
+        ]
+      },
+      "group_id": "learning-style-engagement--original.group001",
+      "subdimension": null,
+      "subdimension_reason": "原题表未明示每题对应的理论细分维度；不依据语义推断。",
+      "teacher_annotations": [],
+      "reverse": {
+        "marked": null,
+        "raw_marker": null,
+        "source": null,
+        "reason": "本原文题项未标明反向题；否定措辞不作为反向依据。"
+      },
+      "response": {
+        "options": [
+          {
+            "id": "1",
+            "label": "极度负面意见",
+            "value": 1,
+            "source": {
+              "pdf_pages": [
+                11
+              ],
+              "printed_pages": [
+                8
+              ]
+            }
+          },
+          {
+            "id": "2",
+            "label": null,
+            "value": 2,
+            "source": {
+              "pdf_pages": [
+                11
+              ],
+              "printed_pages": [
+                8
+              ]
+            }
+          },
+          {
+            "id": "3",
+            "label": null,
+            "value": 3,
+            "source": {
+              "pdf_pages": [
+                11
+              ],
+              "printed_pages": [
+                8
+              ]
+            }
+          },
+          {
+            "id": "4",
+            "label": null,
+            "value": 4,
+            "source": {
+              "pdf_pages": [
+                11
+              ],
+              "printed_pages": [
+                8
+              ]
+            }
+          },
+          {
+            "id": "5",
+            "label": null,
+            "value": 5,
+            "source": {
+              "pdf_pages": [
+                11
+              ],
+              "printed_pages": [
+                8
+              ]
+            }
+          },
+          {
+            "id": "6",
+            "label": null,
+            "value": 6,
+            "source": {
+              "pdf_pages": [
+                11
+              ],
+              "printed_pages": [
+                8
+              ]
+            }
+          },
+          {
+            "id": "7",
+            "label": null,
+            "value": 7,
+            "source": {
+              "pdf_pages": [
+                11
+              ],
+              "printed_pages": [
+                8
+              ]
+            }
+          },
+          {
+            "id": "8",
+            "label": null,
+            "value": 8,
+            "source": {
+              "pdf_pages": [
+                11
+              ],
+              "printed_pages": [
+                8
+              ]
+            }
+          },
+          {
+            "id": "9",
+            "label": null,
+            "value": 9,
+            "source": {
+              "pdf_pages": [
+                11
+              ],
+              "printed_pages": [
+                8
+              ]
+            }
+          },
+          {
+            "id": "10",
+            "label": "极度正面意见",
+            "value": 10,
+            "source": {
+              "pdf_pages": [
+                11
+              ],
+              "printed_pages": [
+                8
+              ]
+            }
+          }
+        ],
+        "minimum": 1,
+        "maximum": 10,
+        "cardinality": "single",
+        "slots": null,
+        "raw_instruction": "使用说明：本问卷使用NPS10级计分，填答者可以根据自身真实想法和感受进行评分。选项由10个等级构成，表示程度不断增加的连续变化。1代表极度负面意见，10代表极度正面意见。其中的2-9按照程度连续变化。",
+        "unknowns": [
+          {
+            "field": "options.label",
+            "reason": "原文只给端点文字，未为中间档命名；中间档保留数值和null标签。"
+          }
+        ],
+        "ranking": null
+      }
+    },
+    {
+      "id": "learning-style-engagement--original.q008",
+      "order": 8,
+      "original_number": null,
+      "role": "measurement",
+      "measurement_class": "scale",
+      "kind": "rating",
+      "raw_text": "口头指导使我学到更多的内容",
+      "student_text": "口头指导使我学到更多的内容",
+      "source": {
+        "pdf_pages": [
+          12
+        ],
+        "printed_pages": [
+          9
+        ]
+      },
+      "group_id": "learning-style-engagement--original.group001",
+      "subdimension": null,
+      "subdimension_reason": "原题表未明示每题对应的理论细分维度；不依据语义推断。",
+      "teacher_annotations": [],
+      "reverse": {
+        "marked": null,
+        "raw_marker": null,
+        "source": null,
+        "reason": "本原文题项未标明反向题；否定措辞不作为反向依据。"
+      },
+      "response": {
+        "options": [
+          {
+            "id": "1",
+            "label": "极度负面意见",
+            "value": 1,
+            "source": {
+              "pdf_pages": [
+                11
+              ],
+              "printed_pages": [
+                8
+              ]
+            }
+          },
+          {
+            "id": "2",
+            "label": null,
+            "value": 2,
+            "source": {
+              "pdf_pages": [
+                11
+              ],
+              "printed_pages": [
+                8
+              ]
+            }
+          },
+          {
+            "id": "3",
+            "label": null,
+            "value": 3,
+            "source": {
+              "pdf_pages": [
+                11
+              ],
+              "printed_pages": [
+                8
+              ]
+            }
+          },
+          {
+            "id": "4",
+            "label": null,
+            "value": 4,
+            "source": {
+              "pdf_pages": [
+                11
+              ],
+              "printed_pages": [
+                8
+              ]
+            }
+          },
+          {
+            "id": "5",
+            "label": null,
+            "value": 5,
+            "source": {
+              "pdf_pages": [
+                11
+              ],
+              "printed_pages": [
+                8
+              ]
+            }
+          },
+          {
+            "id": "6",
+            "label": null,
+            "value": 6,
+            "source": {
+              "pdf_pages": [
+                11
+              ],
+              "printed_pages": [
+                8
+              ]
+            }
+          },
+          {
+            "id": "7",
+            "label": null,
+            "value": 7,
+            "source": {
+              "pdf_pages": [
+                11
+              ],
+              "printed_pages": [
+                8
+              ]
+            }
+          },
+          {
+            "id": "8",
+            "label": null,
+            "value": 8,
+            "source": {
+              "pdf_pages": [
+                11
+              ],
+              "printed_pages": [
+                8
+              ]
+            }
+          },
+          {
+            "id": "9",
+            "label": null,
+            "value": 9,
+            "source": {
+              "pdf_pages": [
+                11
+              ],
+              "printed_pages": [
+                8
+              ]
+            }
+          },
+          {
+            "id": "10",
+            "label": "极度正面意见",
+            "value": 10,
+            "source": {
+              "pdf_pages": [
+                11
+              ],
+              "printed_pages": [
+                8
+              ]
+            }
+          }
+        ],
+        "minimum": 1,
+        "maximum": 10,
+        "cardinality": "single",
+        "slots": null,
+        "raw_instruction": "使用说明：本问卷使用NPS10级计分，填答者可以根据自身真实想法和感受进行评分。选项由10个等级构成，表示程度不断增加的连续变化。1代表极度负面意见，10代表极度正面意见。其中的2-9按照程度连续变化。",
+        "unknowns": [
+          {
+            "field": "options.label",
+            "reason": "原文只给端点文字，未为中间档命名；中间档保留数值和null标签。"
+          }
+        ],
+        "ranking": null
+      }
+    },
+    {
+      "id": "learning-style-engagement--original.q009",
+      "order": 9,
+      "original_number": null,
+      "role": "measurement",
+      "measurement_class": "scale",
+      "kind": "rating",
+      "raw_text": "我通过看书面材料能获得更多知识",
+      "student_text": "我通过看书面材料能获得更多知识",
+      "source": {
+        "pdf_pages": [
+          12
+        ],
+        "printed_pages": [
+          9
+        ]
+      },
+      "group_id": "learning-style-engagement--original.group001",
+      "subdimension": null,
+      "subdimension_reason": "原题表未明示每题对应的理论细分维度；不依据语义推断。",
+      "teacher_annotations": [],
+      "reverse": {
+        "marked": null,
+        "raw_marker": null,
+        "source": null,
+        "reason": "本原文题项未标明反向题；否定措辞不作为反向依据。"
+      },
+      "response": {
+        "options": [
+          {
+            "id": "1",
+            "label": "极度负面意见",
+            "value": 1,
+            "source": {
+              "pdf_pages": [
+                11
+              ],
+              "printed_pages": [
+                8
+              ]
+            }
+          },
+          {
+            "id": "2",
+            "label": null,
+            "value": 2,
+            "source": {
+              "pdf_pages": [
+                11
+              ],
+              "printed_pages": [
+                8
+              ]
+            }
+          },
+          {
+            "id": "3",
+            "label": null,
+            "value": 3,
+            "source": {
+              "pdf_pages": [
+                11
+              ],
+              "printed_pages": [
+                8
+              ]
+            }
+          },
+          {
+            "id": "4",
+            "label": null,
+            "value": 4,
+            "source": {
+              "pdf_pages": [
+                11
+              ],
+              "printed_pages": [
+                8
+              ]
+            }
+          },
+          {
+            "id": "5",
+            "label": null,
+            "value": 5,
+            "source": {
+              "pdf_pages": [
+                11
+              ],
+              "printed_pages": [
+                8
+              ]
+            }
+          },
+          {
+            "id": "6",
+            "label": null,
+            "value": 6,
+            "source": {
+              "pdf_pages": [
+                11
+              ],
+              "printed_pages": [
+                8
+              ]
+            }
+          },
+          {
+            "id": "7",
+            "label": null,
+            "value": 7,
+            "source": {
+              "pdf_pages": [
+                11
+              ],
+              "printed_pages": [
+                8
+              ]
+            }
+          },
+          {
+            "id": "8",
+            "label": null,
+            "value": 8,
+            "source": {
+              "pdf_pages": [
+                11
+              ],
+              "printed_pages": [
+                8
+              ]
+            }
+          },
+          {
+            "id": "9",
+            "label": null,
+            "value": 9,
+            "source": {
+              "pdf_pages": [
+                11
+              ],
+              "printed_pages": [
+                8
+              ]
+            }
+          },
+          {
+            "id": "10",
+            "label": "极度正面意见",
+            "value": 10,
+            "source": {
+              "pdf_pages": [
+                11
+              ],
+              "printed_pages": [
+                8
+              ]
+            }
+          }
+        ],
+        "minimum": 1,
+        "maximum": 10,
+        "cardinality": "single",
+        "slots": null,
+        "raw_instruction": "使用说明：本问卷使用NPS10级计分，填答者可以根据自身真实想法和感受进行评分。选项由10个等级构成，表示程度不断增加的连续变化。1代表极度负面意见，10代表极度正面意见。其中的2-9按照程度连续变化。",
+        "unknowns": [
+          {
+            "field": "options.label",
+            "reason": "原文只给端点文字，未为中间档命名；中间档保留数值和null标签。"
+          }
+        ],
+        "ranking": null
+      }
+    },
+    {
+      "id": "learning-style-engagement--original.q010",
+      "order": 10,
+      "original_number": null,
+      "role": "measurement",
+      "measurement_class": "scale",
+      "kind": "rating",
+      "raw_text": "我通过做实验能学到更多的东西",
+      "student_text": "我通过做实验能学到更多的东西",
+      "source": {
+        "pdf_pages": [
+          12
+        ],
+        "printed_pages": [
+          9
+        ]
+      },
+      "group_id": "learning-style-engagement--original.group001",
+      "subdimension": null,
+      "subdimension_reason": "原题表未明示每题对应的理论细分维度；不依据语义推断。",
+      "teacher_annotations": [],
+      "reverse": {
+        "marked": null,
+        "raw_marker": null,
+        "source": null,
+        "reason": "本原文题项未标明反向题；否定措辞不作为反向依据。"
+      },
+      "response": {
+        "options": [
+          {
+            "id": "1",
+            "label": "极度负面意见",
+            "value": 1,
+            "source": {
+              "pdf_pages": [
+                11
+              ],
+              "printed_pages": [
+                8
+              ]
+            }
+          },
+          {
+            "id": "2",
+            "label": null,
+            "value": 2,
+            "source": {
+              "pdf_pages": [
+                11
+              ],
+              "printed_pages": [
+                8
+              ]
+            }
+          },
+          {
+            "id": "3",
+            "label": null,
+            "value": 3,
+            "source": {
+              "pdf_pages": [
+                11
+              ],
+              "printed_pages": [
+                8
+              ]
+            }
+          },
+          {
+            "id": "4",
+            "label": null,
+            "value": 4,
+            "source": {
+              "pdf_pages": [
+                11
+              ],
+              "printed_pages": [
+                8
+              ]
+            }
+          },
+          {
+            "id": "5",
+            "label": null,
+            "value": 5,
+            "source": {
+              "pdf_pages": [
+                11
+              ],
+              "printed_pages": [
+                8
+              ]
+            }
+          },
+          {
+            "id": "6",
+            "label": null,
+            "value": 6,
+            "source": {
+              "pdf_pages": [
+                11
+              ],
+              "printed_pages": [
+                8
+              ]
+            }
+          },
+          {
+            "id": "7",
+            "label": null,
+            "value": 7,
+            "source": {
+              "pdf_pages": [
+                11
+              ],
+              "printed_pages": [
+                8
+              ]
+            }
+          },
+          {
+            "id": "8",
+            "label": null,
+            "value": 8,
+            "source": {
+              "pdf_pages": [
+                11
+              ],
+              "printed_pages": [
+                8
+              ]
+            }
+          },
+          {
+            "id": "9",
+            "label": null,
+            "value": 9,
+            "source": {
+              "pdf_pages": [
+                11
+              ],
+              "printed_pages": [
+                8
+              ]
+            }
+          },
+          {
+            "id": "10",
+            "label": "极度正面意见",
+            "value": 10,
+            "source": {
+              "pdf_pages": [
+                11
+              ],
+              "printed_pages": [
+                8
+              ]
+            }
+          }
+        ],
+        "minimum": 1,
+        "maximum": 10,
+        "cardinality": "single",
+        "slots": null,
+        "raw_instruction": "使用说明：本问卷使用NPS10级计分，填答者可以根据自身真实想法和感受进行评分。选项由10个等级构成，表示程度不断增加的连续变化。1代表极度负面意见，10代表极度正面意见。其中的2-9按照程度连续变化。",
+        "unknowns": [
+          {
+            "field": "options.label",
+            "reason": "原文只给端点文字，未为中间档命名；中间档保留数值和null标签。"
+          }
+        ],
+        "ranking": null
+      }
+    },
+    {
+      "id": "learning-style-engagement--original.q011",
+      "order": 11,
+      "original_number": null,
+      "role": "measurement",
+      "measurement_class": "scale",
+      "kind": "rating",
+      "raw_text": "我喜欢与同学们讨论学习中自己解决不了的内容",
+      "student_text": "我喜欢与同学们讨论学习中自己解决不了的内容",
+      "source": {
+        "pdf_pages": [
+          12
+        ],
+        "printed_pages": [
+          9
+        ]
+      },
+      "group_id": "learning-style-engagement--original.group001",
+      "subdimension": null,
+      "subdimension_reason": "原题表未明示每题对应的理论细分维度；不依据语义推断。",
+      "teacher_annotations": [],
+      "reverse": {
+        "marked": null,
+        "raw_marker": null,
+        "source": null,
+        "reason": "本原文题项未标明反向题；否定措辞不作为反向依据。"
+      },
+      "response": {
+        "options": [
+          {
+            "id": "1",
+            "label": "极度负面意见",
+            "value": 1,
+            "source": {
+              "pdf_pages": [
+                11
+              ],
+              "printed_pages": [
+                8
+              ]
+            }
+          },
+          {
+            "id": "2",
+            "label": null,
+            "value": 2,
+            "source": {
+              "pdf_pages": [
+                11
+              ],
+              "printed_pages": [
+                8
+              ]
+            }
+          },
+          {
+            "id": "3",
+            "label": null,
+            "value": 3,
+            "source": {
+              "pdf_pages": [
+                11
+              ],
+              "printed_pages": [
+                8
+              ]
+            }
+          },
+          {
+            "id": "4",
+            "label": null,
+            "value": 4,
+            "source": {
+              "pdf_pages": [
+                11
+              ],
+              "printed_pages": [
+                8
+              ]
+            }
+          },
+          {
+            "id": "5",
+            "label": null,
+            "value": 5,
+            "source": {
+              "pdf_pages": [
+                11
+              ],
+              "printed_pages": [
+                8
+              ]
+            }
+          },
+          {
+            "id": "6",
+            "label": null,
+            "value": 6,
+            "source": {
+              "pdf_pages": [
+                11
+              ],
+              "printed_pages": [
+                8
+              ]
+            }
+          },
+          {
+            "id": "7",
+            "label": null,
+            "value": 7,
+            "source": {
+              "pdf_pages": [
+                11
+              ],
+              "printed_pages": [
+                8
+              ]
+            }
+          },
+          {
+            "id": "8",
+            "label": null,
+            "value": 8,
+            "source": {
+              "pdf_pages": [
+                11
+              ],
+              "printed_pages": [
+                8
+              ]
+            }
+          },
+          {
+            "id": "9",
+            "label": null,
+            "value": 9,
+            "source": {
+              "pdf_pages": [
+                11
+              ],
+              "printed_pages": [
+                8
+              ]
+            }
+          },
+          {
+            "id": "10",
+            "label": "极度正面意见",
+            "value": 10,
+            "source": {
+              "pdf_pages": [
+                11
+              ],
+              "printed_pages": [
+                8
+              ]
+            }
+          }
+        ],
+        "minimum": 1,
+        "maximum": 10,
+        "cardinality": "single",
+        "slots": null,
+        "raw_instruction": "使用说明：本问卷使用NPS10级计分，填答者可以根据自身真实想法和感受进行评分。选项由10个等级构成，表示程度不断增加的连续变化。1代表极度负面意见，10代表极度正面意见。其中的2-9按照程度连续变化。",
+        "unknowns": [
+          {
+            "field": "options.label",
+            "reason": "原文只给端点文字，未为中间档命名；中间档保留数值和null标签。"
+          }
+        ],
+        "ranking": null
+      }
+    },
+    {
+      "id": "learning-style-engagement--original.q012",
+      "order": 12,
+      "original_number": null,
+      "role": "measurement",
+      "measurement_class": "scale",
+      "kind": "rating",
+      "raw_text": "在课堂上我更喜欢注意听教师的讲解",
+      "student_text": "在课堂上我更喜欢注意听教师的讲解",
+      "source": {
+        "pdf_pages": [
+          12
+        ],
+        "printed_pages": [
+          9
+        ]
+      },
+      "group_id": "learning-style-engagement--original.group001",
+      "subdimension": null,
+      "subdimension_reason": "原题表未明示每题对应的理论细分维度；不依据语义推断。",
+      "teacher_annotations": [],
+      "reverse": {
+        "marked": null,
+        "raw_marker": null,
+        "source": null,
+        "reason": "本原文题项未标明反向题；否定措辞不作为反向依据。"
+      },
+      "response": {
+        "options": [
+          {
+            "id": "1",
+            "label": "极度负面意见",
+            "value": 1,
+            "source": {
+              "pdf_pages": [
+                11
+              ],
+              "printed_pages": [
+                8
+              ]
+            }
+          },
+          {
+            "id": "2",
+            "label": null,
+            "value": 2,
+            "source": {
+              "pdf_pages": [
+                11
+              ],
+              "printed_pages": [
+                8
+              ]
+            }
+          },
+          {
+            "id": "3",
+            "label": null,
+            "value": 3,
+            "source": {
+              "pdf_pages": [
+                11
+              ],
+              "printed_pages": [
+                8
+              ]
+            }
+          },
+          {
+            "id": "4",
+            "label": null,
+            "value": 4,
+            "source": {
+              "pdf_pages": [
+                11
+              ],
+              "printed_pages": [
+                8
+              ]
+            }
+          },
+          {
+            "id": "5",
+            "label": null,
+            "value": 5,
+            "source": {
+              "pdf_pages": [
+                11
+              ],
+              "printed_pages": [
+                8
+              ]
+            }
+          },
+          {
+            "id": "6",
+            "label": null,
+            "value": 6,
+            "source": {
+              "pdf_pages": [
+                11
+              ],
+              "printed_pages": [
+                8
+              ]
+            }
+          },
+          {
+            "id": "7",
+            "label": null,
+            "value": 7,
+            "source": {
+              "pdf_pages": [
+                11
+              ],
+              "printed_pages": [
+                8
+              ]
+            }
+          },
+          {
+            "id": "8",
+            "label": null,
+            "value": 8,
+            "source": {
+              "pdf_pages": [
+                11
+              ],
+              "printed_pages": [
+                8
+              ]
+            }
+          },
+          {
+            "id": "9",
+            "label": null,
+            "value": 9,
+            "source": {
+              "pdf_pages": [
+                11
+              ],
+              "printed_pages": [
+                8
+              ]
+            }
+          },
+          {
+            "id": "10",
+            "label": "极度正面意见",
+            "value": 10,
+            "source": {
+              "pdf_pages": [
+                11
+              ],
+              "printed_pages": [
+                8
+              ]
+            }
+          }
+        ],
+        "minimum": 1,
+        "maximum": 10,
+        "cardinality": "single",
+        "slots": null,
+        "raw_instruction": "使用说明：本问卷使用NPS10级计分，填答者可以根据自身真实想法和感受进行评分。选项由10个等级构成，表示程度不断增加的连续变化。1代表极度负面意见，10代表极度正面意见。其中的2-9按照程度连续变化。",
+        "unknowns": [
+          {
+            "field": "options.label",
+            "reason": "原文只给端点文字，未为中间档命名；中间档保留数值和null标签。"
+          }
+        ],
+        "ranking": null
+      }
+    },
+    {
+      "id": "learning-style-engagement--original.q013",
+      "order": 13,
+      "original_number": null,
+      "role": "measurement",
+      "measurement_class": "scale",
+      "kind": "rating",
+      "raw_text": "早晨一起床，我就乐意去学习",
+      "student_text": "早晨一起床，我就乐意去学习",
+      "source": {
+        "pdf_pages": [
+          12
+        ],
+        "printed_pages": [
+          9
+        ]
+      },
+      "group_id": "learning-style-engagement--original.group002",
+      "subdimension": null,
+      "subdimension_reason": "原题表未明示每题对应的理论细分维度；不依据语义推断。",
+      "teacher_annotations": [],
+      "reverse": {
+        "marked": null,
+        "raw_marker": null,
+        "source": null,
+        "reason": "本原文题项未标明反向题；否定措辞不作为反向依据。"
+      },
+      "response": {
+        "options": [
+          {
+            "id": "1",
+            "label": "极度负面意见",
+            "value": 1,
+            "source": {
+              "pdf_pages": [
+                11
+              ],
+              "printed_pages": [
+                8
+              ]
+            }
+          },
+          {
+            "id": "2",
+            "label": null,
+            "value": 2,
+            "source": {
+              "pdf_pages": [
+                11
+              ],
+              "printed_pages": [
+                8
+              ]
+            }
+          },
+          {
+            "id": "3",
+            "label": null,
+            "value": 3,
+            "source": {
+              "pdf_pages": [
+                11
+              ],
+              "printed_pages": [
+                8
+              ]
+            }
+          },
+          {
+            "id": "4",
+            "label": null,
+            "value": 4,
+            "source": {
+              "pdf_pages": [
+                11
+              ],
+              "printed_pages": [
+                8
+              ]
+            }
+          },
+          {
+            "id": "5",
+            "label": null,
+            "value": 5,
+            "source": {
+              "pdf_pages": [
+                11
+              ],
+              "printed_pages": [
+                8
+              ]
+            }
+          },
+          {
+            "id": "6",
+            "label": null,
+            "value": 6,
+            "source": {
+              "pdf_pages": [
+                11
+              ],
+              "printed_pages": [
+                8
+              ]
+            }
+          },
+          {
+            "id": "7",
+            "label": null,
+            "value": 7,
+            "source": {
+              "pdf_pages": [
+                11
+              ],
+              "printed_pages": [
+                8
+              ]
+            }
+          },
+          {
+            "id": "8",
+            "label": null,
+            "value": 8,
+            "source": {
+              "pdf_pages": [
+                11
+              ],
+              "printed_pages": [
+                8
+              ]
+            }
+          },
+          {
+            "id": "9",
+            "label": null,
+            "value": 9,
+            "source": {
+              "pdf_pages": [
+                11
+              ],
+              "printed_pages": [
+                8
+              ]
+            }
+          },
+          {
+            "id": "10",
+            "label": "极度正面意见",
+            "value": 10,
+            "source": {
+              "pdf_pages": [
+                11
+              ],
+              "printed_pages": [
+                8
+              ]
+            }
+          }
+        ],
+        "minimum": 1,
+        "maximum": 10,
+        "cardinality": "single",
+        "slots": null,
+        "raw_instruction": "使用说明：本问卷使用NPS10级计分，填答者可以根据自身真实想法和感受进行评分。选项由10个等级构成，表示程度不断增加的连续变化。1代表极度负面意见，10代表极度正面意见。其中的2-9按照程度连续变化。",
+        "unknowns": [
+          {
+            "field": "options.label",
+            "reason": "原文只给端点文字，未为中间档命名；中间档保留数值和null标签。"
+          }
+        ],
+        "ranking": null
+      }
+    },
+    {
+      "id": "learning-style-engagement--original.q014",
+      "order": 14,
+      "original_number": null,
+      "role": "measurement",
+      "measurement_class": "scale",
+      "kind": "rating",
+      "raw_text": "学习时，我感到精力充沛",
+      "student_text": "学习时，我感到精力充沛",
+      "source": {
+        "pdf_pages": [
+          12
+        ],
+        "printed_pages": [
+          9
+        ]
+      },
+      "group_id": "learning-style-engagement--original.group002",
+      "subdimension": null,
+      "subdimension_reason": "原题表未明示每题对应的理论细分维度；不依据语义推断。",
+      "teacher_annotations": [],
+      "reverse": {
+        "marked": null,
+        "raw_marker": null,
+        "source": null,
+        "reason": "本原文题项未标明反向题；否定措辞不作为反向依据。"
+      },
+      "response": {
+        "options": [
+          {
+            "id": "1",
+            "label": "极度负面意见",
+            "value": 1,
+            "source": {
+              "pdf_pages": [
+                11
+              ],
+              "printed_pages": [
+                8
+              ]
+            }
+          },
+          {
+            "id": "2",
+            "label": null,
+            "value": 2,
+            "source": {
+              "pdf_pages": [
+                11
+              ],
+              "printed_pages": [
+                8
+              ]
+            }
+          },
+          {
+            "id": "3",
+            "label": null,
+            "value": 3,
+            "source": {
+              "pdf_pages": [
+                11
+              ],
+              "printed_pages": [
+                8
+              ]
+            }
+          },
+          {
+            "id": "4",
+            "label": null,
+            "value": 4,
+            "source": {
+              "pdf_pages": [
+                11
+              ],
+              "printed_pages": [
+                8
+              ]
+            }
+          },
+          {
+            "id": "5",
+            "label": null,
+            "value": 5,
+            "source": {
+              "pdf_pages": [
+                11
+              ],
+              "printed_pages": [
+                8
+              ]
+            }
+          },
+          {
+            "id": "6",
+            "label": null,
+            "value": 6,
+            "source": {
+              "pdf_pages": [
+                11
+              ],
+              "printed_pages": [
+                8
+              ]
+            }
+          },
+          {
+            "id": "7",
+            "label": null,
+            "value": 7,
+            "source": {
+              "pdf_pages": [
+                11
+              ],
+              "printed_pages": [
+                8
+              ]
+            }
+          },
+          {
+            "id": "8",
+            "label": null,
+            "value": 8,
+            "source": {
+              "pdf_pages": [
+                11
+              ],
+              "printed_pages": [
+                8
+              ]
+            }
+          },
+          {
+            "id": "9",
+            "label": null,
+            "value": 9,
+            "source": {
+              "pdf_pages": [
+                11
+              ],
+              "printed_pages": [
+                8
+              ]
+            }
+          },
+          {
+            "id": "10",
+            "label": "极度正面意见",
+            "value": 10,
+            "source": {
+              "pdf_pages": [
+                11
+              ],
+              "printed_pages": [
+                8
+              ]
+            }
+          }
+        ],
+        "minimum": 1,
+        "maximum": 10,
+        "cardinality": "single",
+        "slots": null,
+        "raw_instruction": "使用说明：本问卷使用NPS10级计分，填答者可以根据自身真实想法和感受进行评分。选项由10个等级构成，表示程度不断增加的连续变化。1代表极度负面意见，10代表极度正面意见。其中的2-9按照程度连续变化。",
+        "unknowns": [
+          {
+            "field": "options.label",
+            "reason": "原文只给端点文字，未为中间档命名；中间档保留数值和null标签。"
+          }
+        ],
+        "ranking": null
+      }
+    },
+    {
+      "id": "learning-style-engagement--original.q015",
+      "order": 15,
+      "original_number": null,
+      "role": "measurement",
+      "measurement_class": "scale",
+      "kind": "rating",
+      "raw_text": "即使学习不顺利，我也毫不气馁，能够坚持不懈",
+      "student_text": "即使学习不顺利，我也毫不气馁，能够坚持不懈",
+      "source": {
+        "pdf_pages": [
+          12
+        ],
+        "printed_pages": [
+          9
+        ]
+      },
+      "group_id": "learning-style-engagement--original.group002",
+      "subdimension": null,
+      "subdimension_reason": "原题表未明示每题对应的理论细分维度；不依据语义推断。",
+      "teacher_annotations": [],
+      "reverse": {
+        "marked": null,
+        "raw_marker": null,
+        "source": null,
+        "reason": "本原文题项未标明反向题；否定措辞不作为反向依据。"
+      },
+      "response": {
+        "options": [
+          {
+            "id": "1",
+            "label": "极度负面意见",
+            "value": 1,
+            "source": {
+              "pdf_pages": [
+                11
+              ],
+              "printed_pages": [
+                8
+              ]
+            }
+          },
+          {
+            "id": "2",
+            "label": null,
+            "value": 2,
+            "source": {
+              "pdf_pages": [
+                11
+              ],
+              "printed_pages": [
+                8
+              ]
+            }
+          },
+          {
+            "id": "3",
+            "label": null,
+            "value": 3,
+            "source": {
+              "pdf_pages": [
+                11
+              ],
+              "printed_pages": [
+                8
+              ]
+            }
+          },
+          {
+            "id": "4",
+            "label": null,
+            "value": 4,
+            "source": {
+              "pdf_pages": [
+                11
+              ],
+              "printed_pages": [
+                8
+              ]
+            }
+          },
+          {
+            "id": "5",
+            "label": null,
+            "value": 5,
+            "source": {
+              "pdf_pages": [
+                11
+              ],
+              "printed_pages": [
+                8
+              ]
+            }
+          },
+          {
+            "id": "6",
+            "label": null,
+            "value": 6,
+            "source": {
+              "pdf_pages": [
+                11
+              ],
+              "printed_pages": [
+                8
+              ]
+            }
+          },
+          {
+            "id": "7",
+            "label": null,
+            "value": 7,
+            "source": {
+              "pdf_pages": [
+                11
+              ],
+              "printed_pages": [
+                8
+              ]
+            }
+          },
+          {
+            "id": "8",
+            "label": null,
+            "value": 8,
+            "source": {
+              "pdf_pages": [
+                11
+              ],
+              "printed_pages": [
+                8
+              ]
+            }
+          },
+          {
+            "id": "9",
+            "label": null,
+            "value": 9,
+            "source": {
+              "pdf_pages": [
+                11
+              ],
+              "printed_pages": [
+                8
+              ]
+            }
+          },
+          {
+            "id": "10",
+            "label": "极度正面意见",
+            "value": 10,
+            "source": {
+              "pdf_pages": [
+                11
+              ],
+              "printed_pages": [
+                8
+              ]
+            }
+          }
+        ],
+        "minimum": 1,
+        "maximum": 10,
+        "cardinality": "single",
+        "slots": null,
+        "raw_instruction": "使用说明：本问卷使用NPS10级计分，填答者可以根据自身真实想法和感受进行评分。选项由10个等级构成，表示程度不断增加的连续变化。1代表极度负面意见，10代表极度正面意见。其中的2-9按照程度连续变化。",
+        "unknowns": [
+          {
+            "field": "options.label",
+            "reason": "原文只给端点文字，未为中间档命名；中间档保留数值和null标签。"
+          }
+        ],
+        "ranking": null
+      }
+    },
+    {
+      "id": "learning-style-engagement--original.q016",
+      "order": 16,
+      "original_number": null,
+      "role": "measurement",
+      "measurement_class": "scale",
+      "kind": "rating",
+      "raw_text": "我能持续学习很长时间，中间不需要休息",
+      "student_text": "我能持续学习很长时间，中间不需要休息",
+      "source": {
+        "pdf_pages": [
+          12
+        ],
+        "printed_pages": [
+          9
+        ]
+      },
+      "group_id": "learning-style-engagement--original.group002",
+      "subdimension": null,
+      "subdimension_reason": "原题表未明示每题对应的理论细分维度；不依据语义推断。",
+      "teacher_annotations": [],
+      "reverse": {
+        "marked": null,
+        "raw_marker": null,
+        "source": null,
+        "reason": "本原文题项未标明反向题；否定措辞不作为反向依据。"
+      },
+      "response": {
+        "options": [
+          {
+            "id": "1",
+            "label": "极度负面意见",
+            "value": 1,
+            "source": {
+              "pdf_pages": [
+                11
+              ],
+              "printed_pages": [
+                8
+              ]
+            }
+          },
+          {
+            "id": "2",
+            "label": null,
+            "value": 2,
+            "source": {
+              "pdf_pages": [
+                11
+              ],
+              "printed_pages": [
+                8
+              ]
+            }
+          },
+          {
+            "id": "3",
+            "label": null,
+            "value": 3,
+            "source": {
+              "pdf_pages": [
+                11
+              ],
+              "printed_pages": [
+                8
+              ]
+            }
+          },
+          {
+            "id": "4",
+            "label": null,
+            "value": 4,
+            "source": {
+              "pdf_pages": [
+                11
+              ],
+              "printed_pages": [
+                8
+              ]
+            }
+          },
+          {
+            "id": "5",
+            "label": null,
+            "value": 5,
+            "source": {
+              "pdf_pages": [
+                11
+              ],
+              "printed_pages": [
+                8
+              ]
+            }
+          },
+          {
+            "id": "6",
+            "label": null,
+            "value": 6,
+            "source": {
+              "pdf_pages": [
+                11
+              ],
+              "printed_pages": [
+                8
+              ]
+            }
+          },
+          {
+            "id": "7",
+            "label": null,
+            "value": 7,
+            "source": {
+              "pdf_pages": [
+                11
+              ],
+              "printed_pages": [
+                8
+              ]
+            }
+          },
+          {
+            "id": "8",
+            "label": null,
+            "value": 8,
+            "source": {
+              "pdf_pages": [
+                11
+              ],
+              "printed_pages": [
+                8
+              ]
+            }
+          },
+          {
+            "id": "9",
+            "label": null,
+            "value": 9,
+            "source": {
+              "pdf_pages": [
+                11
+              ],
+              "printed_pages": [
+                8
+              ]
+            }
+          },
+          {
+            "id": "10",
+            "label": "极度正面意见",
+            "value": 10,
+            "source": {
+              "pdf_pages": [
+                11
+              ],
+              "printed_pages": [
+                8
+              ]
+            }
+          }
+        ],
+        "minimum": 1,
+        "maximum": 10,
+        "cardinality": "single",
+        "slots": null,
+        "raw_instruction": "使用说明：本问卷使用NPS10级计分，填答者可以根据自身真实想法和感受进行评分。选项由10个等级构成，表示程度不断增加的连续变化。1代表极度负面意见，10代表极度正面意见。其中的2-9按照程度连续变化。",
+        "unknowns": [
+          {
+            "field": "options.label",
+            "reason": "原文只给端点文字，未为中间档命名；中间档保留数值和null标签。"
+          }
+        ],
+        "ranking": null
+      }
+    },
+    {
+      "id": "learning-style-engagement--original.q017",
+      "order": 17,
+      "original_number": null,
+      "role": "measurement",
+      "measurement_class": "scale",
+      "kind": "rating",
+      "raw_text": "学习时，即使精神疲劳，我也能很快恢复",
+      "student_text": "学习时，即使精神疲劳，我也能很快恢复",
+      "source": {
+        "pdf_pages": [
+          12
+        ],
+        "printed_pages": [
+          9
+        ]
+      },
+      "group_id": "learning-style-engagement--original.group002",
+      "subdimension": null,
+      "subdimension_reason": "原题表未明示每题对应的理论细分维度；不依据语义推断。",
+      "teacher_annotations": [],
+      "reverse": {
+        "marked": null,
+        "raw_marker": null,
+        "source": null,
+        "reason": "本原文题项未标明反向题；否定措辞不作为反向依据。"
+      },
+      "response": {
+        "options": [
+          {
+            "id": "1",
+            "label": "极度负面意见",
+            "value": 1,
+            "source": {
+              "pdf_pages": [
+                11
+              ],
+              "printed_pages": [
+                8
+              ]
+            }
+          },
+          {
+            "id": "2",
+            "label": null,
+            "value": 2,
+            "source": {
+              "pdf_pages": [
+                11
+              ],
+              "printed_pages": [
+                8
+              ]
+            }
+          },
+          {
+            "id": "3",
+            "label": null,
+            "value": 3,
+            "source": {
+              "pdf_pages": [
+                11
+              ],
+              "printed_pages": [
+                8
+              ]
+            }
+          },
+          {
+            "id": "4",
+            "label": null,
+            "value": 4,
+            "source": {
+              "pdf_pages": [
+                11
+              ],
+              "printed_pages": [
+                8
+              ]
+            }
+          },
+          {
+            "id": "5",
+            "label": null,
+            "value": 5,
+            "source": {
+              "pdf_pages": [
+                11
+              ],
+              "printed_pages": [
+                8
+              ]
+            }
+          },
+          {
+            "id": "6",
+            "label": null,
+            "value": 6,
+            "source": {
+              "pdf_pages": [
+                11
+              ],
+              "printed_pages": [
+                8
+              ]
+            }
+          },
+          {
+            "id": "7",
+            "label": null,
+            "value": 7,
+            "source": {
+              "pdf_pages": [
+                11
+              ],
+              "printed_pages": [
+                8
+              ]
+            }
+          },
+          {
+            "id": "8",
+            "label": null,
+            "value": 8,
+            "source": {
+              "pdf_pages": [
+                11
+              ],
+              "printed_pages": [
+                8
+              ]
+            }
+          },
+          {
+            "id": "9",
+            "label": null,
+            "value": 9,
+            "source": {
+              "pdf_pages": [
+                11
+              ],
+              "printed_pages": [
+                8
+              ]
+            }
+          },
+          {
+            "id": "10",
+            "label": "极度正面意见",
+            "value": 10,
+            "source": {
+              "pdf_pages": [
+                11
+              ],
+              "printed_pages": [
+                8
+              ]
+            }
+          }
+        ],
+        "minimum": 1,
+        "maximum": 10,
+        "cardinality": "single",
+        "slots": null,
+        "raw_instruction": "使用说明：本问卷使用NPS10级计分，填答者可以根据自身真实想法和感受进行评分。选项由10个等级构成，表示程度不断增加的连续变化。1代表极度负面意见，10代表极度正面意见。其中的2-9按照程度连续变化。",
+        "unknowns": [
+          {
+            "field": "options.label",
+            "reason": "原文只给端点文字，未为中间档命名；中间档保留数值和null标签。"
+          }
+        ],
+        "ranking": null
+      }
+    },
+    {
+      "id": "learning-style-engagement--original.q018",
+      "order": 18,
+      "original_number": null,
+      "role": "measurement",
+      "measurement_class": "scale",
+      "kind": "rating",
+      "raw_text": "学习时，我浑身有力而且干劲十足",
+      "student_text": "学习时，我浑身有力而且干劲十足",
+      "source": {
+        "pdf_pages": [
+          12
+        ],
+        "printed_pages": [
+          9
+        ]
+      },
+      "group_id": "learning-style-engagement--original.group002",
+      "subdimension": null,
+      "subdimension_reason": "原题表未明示每题对应的理论细分维度；不依据语义推断。",
+      "teacher_annotations": [],
+      "reverse": {
+        "marked": null,
+        "raw_marker": null,
+        "source": null,
+        "reason": "本原文题项未标明反向题；否定措辞不作为反向依据。"
+      },
+      "response": {
+        "options": [
+          {
+            "id": "1",
+            "label": "极度负面意见",
+            "value": 1,
+            "source": {
+              "pdf_pages": [
+                11
+              ],
+              "printed_pages": [
+                8
+              ]
+            }
+          },
+          {
+            "id": "2",
+            "label": null,
+            "value": 2,
+            "source": {
+              "pdf_pages": [
+                11
+              ],
+              "printed_pages": [
+                8
+              ]
+            }
+          },
+          {
+            "id": "3",
+            "label": null,
+            "value": 3,
+            "source": {
+              "pdf_pages": [
+                11
+              ],
+              "printed_pages": [
+                8
+              ]
+            }
+          },
+          {
+            "id": "4",
+            "label": null,
+            "value": 4,
+            "source": {
+              "pdf_pages": [
+                11
+              ],
+              "printed_pages": [
+                8
+              ]
+            }
+          },
+          {
+            "id": "5",
+            "label": null,
+            "value": 5,
+            "source": {
+              "pdf_pages": [
+                11
+              ],
+              "printed_pages": [
+                8
+              ]
+            }
+          },
+          {
+            "id": "6",
+            "label": null,
+            "value": 6,
+            "source": {
+              "pdf_pages": [
+                11
+              ],
+              "printed_pages": [
+                8
+              ]
+            }
+          },
+          {
+            "id": "7",
+            "label": null,
+            "value": 7,
+            "source": {
+              "pdf_pages": [
+                11
+              ],
+              "printed_pages": [
+                8
+              ]
+            }
+          },
+          {
+            "id": "8",
+            "label": null,
+            "value": 8,
+            "source": {
+              "pdf_pages": [
+                11
+              ],
+              "printed_pages": [
+                8
+              ]
+            }
+          },
+          {
+            "id": "9",
+            "label": null,
+            "value": 9,
+            "source": {
+              "pdf_pages": [
+                11
+              ],
+              "printed_pages": [
+                8
+              ]
+            }
+          },
+          {
+            "id": "10",
+            "label": "极度正面意见",
+            "value": 10,
+            "source": {
+              "pdf_pages": [
+                11
+              ],
+              "printed_pages": [
+                8
+              ]
+            }
+          }
+        ],
+        "minimum": 1,
+        "maximum": 10,
+        "cardinality": "single",
+        "slots": null,
+        "raw_instruction": "使用说明：本问卷使用NPS10级计分，填答者可以根据自身真实想法和感受进行评分。选项由10个等级构成，表示程度不断增加的连续变化。1代表极度负面意见，10代表极度正面意见。其中的2-9按照程度连续变化。",
+        "unknowns": [
+          {
+            "field": "options.label",
+            "reason": "原文只给端点文字，未为中间档命名；中间档保留数值和null标签。"
+          }
+        ],
+        "ranking": null
+      }
+    },
+    {
+      "id": "learning-style-engagement--original.q019",
+      "order": 19,
+      "original_number": null,
+      "role": "measurement",
+      "measurement_class": "scale",
+      "kind": "rating",
+      "raw_text": "我发现学习富有挑战性",
+      "student_text": "我发现学习富有挑战性",
+      "source": {
+        "pdf_pages": [
+          12
+        ],
+        "printed_pages": [
+          9
+        ]
+      },
+      "group_id": "learning-style-engagement--original.group002",
+      "subdimension": null,
+      "subdimension_reason": "原题表未明示每题对应的理论细分维度；不依据语义推断。",
+      "teacher_annotations": [],
+      "reverse": {
+        "marked": null,
+        "raw_marker": null,
+        "source": null,
+        "reason": "本原文题项未标明反向题；否定措辞不作为反向依据。"
+      },
+      "response": {
+        "options": [
+          {
+            "id": "1",
+            "label": "极度负面意见",
+            "value": 1,
+            "source": {
+              "pdf_pages": [
+                11
+              ],
+              "printed_pages": [
+                8
+              ]
+            }
+          },
+          {
+            "id": "2",
+            "label": null,
+            "value": 2,
+            "source": {
+              "pdf_pages": [
+                11
+              ],
+              "printed_pages": [
+                8
+              ]
+            }
+          },
+          {
+            "id": "3",
+            "label": null,
+            "value": 3,
+            "source": {
+              "pdf_pages": [
+                11
+              ],
+              "printed_pages": [
+                8
+              ]
+            }
+          },
+          {
+            "id": "4",
+            "label": null,
+            "value": 4,
+            "source": {
+              "pdf_pages": [
+                11
+              ],
+              "printed_pages": [
+                8
+              ]
+            }
+          },
+          {
+            "id": "5",
+            "label": null,
+            "value": 5,
+            "source": {
+              "pdf_pages": [
+                11
+              ],
+              "printed_pages": [
+                8
+              ]
+            }
+          },
+          {
+            "id": "6",
+            "label": null,
+            "value": 6,
+            "source": {
+              "pdf_pages": [
+                11
+              ],
+              "printed_pages": [
+                8
+              ]
+            }
+          },
+          {
+            "id": "7",
+            "label": null,
+            "value": 7,
+            "source": {
+              "pdf_pages": [
+                11
+              ],
+              "printed_pages": [
+                8
+              ]
+            }
+          },
+          {
+            "id": "8",
+            "label": null,
+            "value": 8,
+            "source": {
+              "pdf_pages": [
+                11
+              ],
+              "printed_pages": [
+                8
+              ]
+            }
+          },
+          {
+            "id": "9",
+            "label": null,
+            "value": 9,
+            "source": {
+              "pdf_pages": [
+                11
+              ],
+              "printed_pages": [
+                8
+              ]
+            }
+          },
+          {
+            "id": "10",
+            "label": "极度正面意见",
+            "value": 10,
+            "source": {
+              "pdf_pages": [
+                11
+              ],
+              "printed_pages": [
+                8
+              ]
+            }
+          }
+        ],
+        "minimum": 1,
+        "maximum": 10,
+        "cardinality": "single",
+        "slots": null,
+        "raw_instruction": "使用说明：本问卷使用NPS10级计分，填答者可以根据自身真实想法和感受进行评分。选项由10个等级构成，表示程度不断增加的连续变化。1代表极度负面意见，10代表极度正面意见。其中的2-9按照程度连续变化。",
+        "unknowns": [
+          {
+            "field": "options.label",
+            "reason": "原文只给端点文字，未为中间档命名；中间档保留数值和null标签。"
+          }
+        ],
+        "ranking": null
+      }
+    },
+    {
+      "id": "learning-style-engagement--original.q020",
+      "order": 20,
+      "original_number": null,
+      "role": "measurement",
+      "measurement_class": "scale",
+      "kind": "rating",
+      "raw_text": "学习激发我的灵感",
+      "student_text": "学习激发我的灵感",
+      "source": {
+        "pdf_pages": [
+          12
+        ],
+        "printed_pages": [
+          9
+        ]
+      },
+      "group_id": "learning-style-engagement--original.group002",
+      "subdimension": null,
+      "subdimension_reason": "原题表未明示每题对应的理论细分维度；不依据语义推断。",
+      "teacher_annotations": [],
+      "reverse": {
+        "marked": null,
+        "raw_marker": null,
+        "source": null,
+        "reason": "本原文题项未标明反向题；否定措辞不作为反向依据。"
+      },
+      "response": {
+        "options": [
+          {
+            "id": "1",
+            "label": "极度负面意见",
+            "value": 1,
+            "source": {
+              "pdf_pages": [
+                11
+              ],
+              "printed_pages": [
+                8
+              ]
+            }
+          },
+          {
+            "id": "2",
+            "label": null,
+            "value": 2,
+            "source": {
+              "pdf_pages": [
+                11
+              ],
+              "printed_pages": [
+                8
+              ]
+            }
+          },
+          {
+            "id": "3",
+            "label": null,
+            "value": 3,
+            "source": {
+              "pdf_pages": [
+                11
+              ],
+              "printed_pages": [
+                8
+              ]
+            }
+          },
+          {
+            "id": "4",
+            "label": null,
+            "value": 4,
+            "source": {
+              "pdf_pages": [
+                11
+              ],
+              "printed_pages": [
+                8
+              ]
+            }
+          },
+          {
+            "id": "5",
+            "label": null,
+            "value": 5,
+            "source": {
+              "pdf_pages": [
+                11
+              ],
+              "printed_pages": [
+                8
+              ]
+            }
+          },
+          {
+            "id": "6",
+            "label": null,
+            "value": 6,
+            "source": {
+              "pdf_pages": [
+                11
+              ],
+              "printed_pages": [
+                8
+              ]
+            }
+          },
+          {
+            "id": "7",
+            "label": null,
+            "value": 7,
+            "source": {
+              "pdf_pages": [
+                11
+              ],
+              "printed_pages": [
+                8
+              ]
+            }
+          },
+          {
+            "id": "8",
+            "label": null,
+            "value": 8,
+            "source": {
+              "pdf_pages": [
+                11
+              ],
+              "printed_pages": [
+                8
+              ]
+            }
+          },
+          {
+            "id": "9",
+            "label": null,
+            "value": 9,
+            "source": {
+              "pdf_pages": [
+                11
+              ],
+              "printed_pages": [
+                8
+              ]
+            }
+          },
+          {
+            "id": "10",
+            "label": "极度正面意见",
+            "value": 10,
+            "source": {
+              "pdf_pages": [
+                11
+              ],
+              "printed_pages": [
+                8
+              ]
+            }
+          }
+        ],
+        "minimum": 1,
+        "maximum": 10,
+        "cardinality": "single",
+        "slots": null,
+        "raw_instruction": "使用说明：本问卷使用NPS10级计分，填答者可以根据自身真实想法和感受进行评分。选项由10个等级构成，表示程度不断增加的连续变化。1代表极度负面意见，10代表极度正面意见。其中的2-9按照程度连续变化。",
+        "unknowns": [
+          {
+            "field": "options.label",
+            "reason": "原文只给端点文字，未为中间档命名；中间档保留数值和null标签。"
+          }
+        ],
+        "ranking": null
+      }
+    },
+    {
+      "id": "learning-style-engagement--original.q021",
+      "order": 21,
+      "original_number": null,
+      "role": "measurement",
+      "measurement_class": "scale",
+      "kind": "rating",
+      "raw_text": "我对学习充满热情",
+      "student_text": "我对学习充满热情",
+      "source": {
+        "pdf_pages": [
+          12
+        ],
+        "printed_pages": [
+          9
+        ]
+      },
+      "group_id": "learning-style-engagement--original.group002",
+      "subdimension": null,
+      "subdimension_reason": "原题表未明示每题对应的理论细分维度；不依据语义推断。",
+      "teacher_annotations": [],
+      "reverse": {
+        "marked": null,
+        "raw_marker": null,
+        "source": null,
+        "reason": "本原文题项未标明反向题；否定措辞不作为反向依据。"
+      },
+      "response": {
+        "options": [
+          {
+            "id": "1",
+            "label": "极度负面意见",
+            "value": 1,
+            "source": {
+              "pdf_pages": [
+                11
+              ],
+              "printed_pages": [
+                8
+              ]
+            }
+          },
+          {
+            "id": "2",
+            "label": null,
+            "value": 2,
+            "source": {
+              "pdf_pages": [
+                11
+              ],
+              "printed_pages": [
+                8
+              ]
+            }
+          },
+          {
+            "id": "3",
+            "label": null,
+            "value": 3,
+            "source": {
+              "pdf_pages": [
+                11
+              ],
+              "printed_pages": [
+                8
+              ]
+            }
+          },
+          {
+            "id": "4",
+            "label": null,
+            "value": 4,
+            "source": {
+              "pdf_pages": [
+                11
+              ],
+              "printed_pages": [
+                8
+              ]
+            }
+          },
+          {
+            "id": "5",
+            "label": null,
+            "value": 5,
+            "source": {
+              "pdf_pages": [
+                11
+              ],
+              "printed_pages": [
+                8
+              ]
+            }
+          },
+          {
+            "id": "6",
+            "label": null,
+            "value": 6,
+            "source": {
+              "pdf_pages": [
+                11
+              ],
+              "printed_pages": [
+                8
+              ]
+            }
+          },
+          {
+            "id": "7",
+            "label": null,
+            "value": 7,
+            "source": {
+              "pdf_pages": [
+                11
+              ],
+              "printed_pages": [
+                8
+              ]
+            }
+          },
+          {
+            "id": "8",
+            "label": null,
+            "value": 8,
+            "source": {
+              "pdf_pages": [
+                11
+              ],
+              "printed_pages": [
+                8
+              ]
+            }
+          },
+          {
+            "id": "9",
+            "label": null,
+            "value": 9,
+            "source": {
+              "pdf_pages": [
+                11
+              ],
+              "printed_pages": [
+                8
+              ]
+            }
+          },
+          {
+            "id": "10",
+            "label": "极度正面意见",
+            "value": 10,
+            "source": {
+              "pdf_pages": [
+                11
+              ],
+              "printed_pages": [
+                8
+              ]
+            }
+          }
+        ],
+        "minimum": 1,
+        "maximum": 10,
+        "cardinality": "single",
+        "slots": null,
+        "raw_instruction": "使用说明：本问卷使用NPS10级计分，填答者可以根据自身真实想法和感受进行评分。选项由10个等级构成，表示程度不断增加的连续变化。1代表极度负面意见，10代表极度正面意见。其中的2-9按照程度连续变化。",
+        "unknowns": [
+          {
+            "field": "options.label",
+            "reason": "原文只给端点文字，未为中间档命名；中间档保留数值和null标签。"
+          }
+        ],
+        "ranking": null
+      }
+    },
+    {
+      "id": "learning-style-engagement--original.q022",
+      "order": 22,
+      "original_number": null,
+      "role": "measurement",
+      "measurement_class": "scale",
+      "kind": "rating",
+      "raw_text": "我因我的学习而感到自豪",
+      "student_text": "我因我的学习而感到自豪",
+      "source": {
+        "pdf_pages": [
+          12
+        ],
+        "printed_pages": [
+          9
+        ]
+      },
+      "group_id": "learning-style-engagement--original.group002",
+      "subdimension": null,
+      "subdimension_reason": "原题表未明示每题对应的理论细分维度；不依据语义推断。",
+      "teacher_annotations": [],
+      "reverse": {
+        "marked": null,
+        "raw_marker": null,
+        "source": null,
+        "reason": "本原文题项未标明反向题；否定措辞不作为反向依据。"
+      },
+      "response": {
+        "options": [
+          {
+            "id": "1",
+            "label": "极度负面意见",
+            "value": 1,
+            "source": {
+              "pdf_pages": [
+                11
+              ],
+              "printed_pages": [
+                8
+              ]
+            }
+          },
+          {
+            "id": "2",
+            "label": null,
+            "value": 2,
+            "source": {
+              "pdf_pages": [
+                11
+              ],
+              "printed_pages": [
+                8
+              ]
+            }
+          },
+          {
+            "id": "3",
+            "label": null,
+            "value": 3,
+            "source": {
+              "pdf_pages": [
+                11
+              ],
+              "printed_pages": [
+                8
+              ]
+            }
+          },
+          {
+            "id": "4",
+            "label": null,
+            "value": 4,
+            "source": {
+              "pdf_pages": [
+                11
+              ],
+              "printed_pages": [
+                8
+              ]
+            }
+          },
+          {
+            "id": "5",
+            "label": null,
+            "value": 5,
+            "source": {
+              "pdf_pages": [
+                11
+              ],
+              "printed_pages": [
+                8
+              ]
+            }
+          },
+          {
+            "id": "6",
+            "label": null,
+            "value": 6,
+            "source": {
+              "pdf_pages": [
+                11
+              ],
+              "printed_pages": [
+                8
+              ]
+            }
+          },
+          {
+            "id": "7",
+            "label": null,
+            "value": 7,
+            "source": {
+              "pdf_pages": [
+                11
+              ],
+              "printed_pages": [
+                8
+              ]
+            }
+          },
+          {
+            "id": "8",
+            "label": null,
+            "value": 8,
+            "source": {
+              "pdf_pages": [
+                11
+              ],
+              "printed_pages": [
+                8
+              ]
+            }
+          },
+          {
+            "id": "9",
+            "label": null,
+            "value": 9,
+            "source": {
+              "pdf_pages": [
+                11
+              ],
+              "printed_pages": [
+                8
+              ]
+            }
+          },
+          {
+            "id": "10",
+            "label": "极度正面意见",
+            "value": 10,
+            "source": {
+              "pdf_pages": [
+                11
+              ],
+              "printed_pages": [
+                8
+              ]
+            }
+          }
+        ],
+        "minimum": 1,
+        "maximum": 10,
+        "cardinality": "single",
+        "slots": null,
+        "raw_instruction": "使用说明：本问卷使用NPS10级计分，填答者可以根据自身真实想法和感受进行评分。选项由10个等级构成，表示程度不断增加的连续变化。1代表极度负面意见，10代表极度正面意见。其中的2-9按照程度连续变化。",
+        "unknowns": [
+          {
+            "field": "options.label",
+            "reason": "原文只给端点文字，未为中间档命名；中间档保留数值和null标签。"
+          }
+        ],
+        "ranking": null
+      }
+    },
+    {
+      "id": "learning-style-engagement--original.q023",
+      "order": 23,
+      "original_number": null,
+      "role": "measurement",
+      "measurement_class": "scale",
+      "kind": "rating",
+      "raw_text": "我发现学习目的明确，而且很有意义",
+      "student_text": "我发现学习目的明确，而且很有意义",
+      "source": {
+        "pdf_pages": [
+          12
+        ],
+        "printed_pages": [
+          9
+        ]
+      },
+      "group_id": "learning-style-engagement--original.group002",
+      "subdimension": null,
+      "subdimension_reason": "原题表未明示每题对应的理论细分维度；不依据语义推断。",
+      "teacher_annotations": [],
+      "reverse": {
+        "marked": null,
+        "raw_marker": null,
+        "source": null,
+        "reason": "本原文题项未标明反向题；否定措辞不作为反向依据。"
+      },
+      "response": {
+        "options": [
+          {
+            "id": "1",
+            "label": "极度负面意见",
+            "value": 1,
+            "source": {
+              "pdf_pages": [
+                11
+              ],
+              "printed_pages": [
+                8
+              ]
+            }
+          },
+          {
+            "id": "2",
+            "label": null,
+            "value": 2,
+            "source": {
+              "pdf_pages": [
+                11
+              ],
+              "printed_pages": [
+                8
+              ]
+            }
+          },
+          {
+            "id": "3",
+            "label": null,
+            "value": 3,
+            "source": {
+              "pdf_pages": [
+                11
+              ],
+              "printed_pages": [
+                8
+              ]
+            }
+          },
+          {
+            "id": "4",
+            "label": null,
+            "value": 4,
+            "source": {
+              "pdf_pages": [
+                11
+              ],
+              "printed_pages": [
+                8
+              ]
+            }
+          },
+          {
+            "id": "5",
+            "label": null,
+            "value": 5,
+            "source": {
+              "pdf_pages": [
+                11
+              ],
+              "printed_pages": [
+                8
+              ]
+            }
+          },
+          {
+            "id": "6",
+            "label": null,
+            "value": 6,
+            "source": {
+              "pdf_pages": [
+                11
+              ],
+              "printed_pages": [
+                8
+              ]
+            }
+          },
+          {
+            "id": "7",
+            "label": null,
+            "value": 7,
+            "source": {
+              "pdf_pages": [
+                11
+              ],
+              "printed_pages": [
+                8
+              ]
+            }
+          },
+          {
+            "id": "8",
+            "label": null,
+            "value": 8,
+            "source": {
+              "pdf_pages": [
+                11
+              ],
+              "printed_pages": [
+                8
+              ]
+            }
+          },
+          {
+            "id": "9",
+            "label": null,
+            "value": 9,
+            "source": {
+              "pdf_pages": [
+                11
+              ],
+              "printed_pages": [
+                8
+              ]
+            }
+          },
+          {
+            "id": "10",
+            "label": "极度正面意见",
+            "value": 10,
+            "source": {
+              "pdf_pages": [
+                11
+              ],
+              "printed_pages": [
+                8
+              ]
+            }
+          }
+        ],
+        "minimum": 1,
+        "maximum": 10,
+        "cardinality": "single",
+        "slots": null,
+        "raw_instruction": "使用说明：本问卷使用NPS10级计分，填答者可以根据自身真实想法和感受进行评分。选项由10个等级构成，表示程度不断增加的连续变化。1代表极度负面意见，10代表极度正面意见。其中的2-9按照程度连续变化。",
+        "unknowns": [
+          {
+            "field": "options.label",
+            "reason": "原文只给端点文字，未为中间档命名；中间档保留数值和null标签。"
+          }
+        ],
+        "ranking": null
+      }
+    },
+    {
+      "id": "learning-style-engagement--original.q024",
+      "order": 24,
+      "original_number": null,
+      "role": "measurement",
+      "measurement_class": "scale",
+      "kind": "rating",
+      "raw_text": "学习时，我忘了周围的一切",
+      "student_text": "学习时，我忘了周围的一切",
+      "source": {
+        "pdf_pages": [
+          12
+        ],
+        "printed_pages": [
+          9
+        ]
+      },
+      "group_id": "learning-style-engagement--original.group002",
+      "subdimension": null,
+      "subdimension_reason": "原题表未明示每题对应的理论细分维度；不依据语义推断。",
+      "teacher_annotations": [],
+      "reverse": {
+        "marked": null,
+        "raw_marker": null,
+        "source": null,
+        "reason": "本原文题项未标明反向题；否定措辞不作为反向依据。"
+      },
+      "response": {
+        "options": [
+          {
+            "id": "1",
+            "label": "极度负面意见",
+            "value": 1,
+            "source": {
+              "pdf_pages": [
+                11
+              ],
+              "printed_pages": [
+                8
+              ]
+            }
+          },
+          {
+            "id": "2",
+            "label": null,
+            "value": 2,
+            "source": {
+              "pdf_pages": [
+                11
+              ],
+              "printed_pages": [
+                8
+              ]
+            }
+          },
+          {
+            "id": "3",
+            "label": null,
+            "value": 3,
+            "source": {
+              "pdf_pages": [
+                11
+              ],
+              "printed_pages": [
+                8
+              ]
+            }
+          },
+          {
+            "id": "4",
+            "label": null,
+            "value": 4,
+            "source": {
+              "pdf_pages": [
+                11
+              ],
+              "printed_pages": [
+                8
+              ]
+            }
+          },
+          {
+            "id": "5",
+            "label": null,
+            "value": 5,
+            "source": {
+              "pdf_pages": [
+                11
+              ],
+              "printed_pages": [
+                8
+              ]
+            }
+          },
+          {
+            "id": "6",
+            "label": null,
+            "value": 6,
+            "source": {
+              "pdf_pages": [
+                11
+              ],
+              "printed_pages": [
+                8
+              ]
+            }
+          },
+          {
+            "id": "7",
+            "label": null,
+            "value": 7,
+            "source": {
+              "pdf_pages": [
+                11
+              ],
+              "printed_pages": [
+                8
+              ]
+            }
+          },
+          {
+            "id": "8",
+            "label": null,
+            "value": 8,
+            "source": {
+              "pdf_pages": [
+                11
+              ],
+              "printed_pages": [
+                8
+              ]
+            }
+          },
+          {
+            "id": "9",
+            "label": null,
+            "value": 9,
+            "source": {
+              "pdf_pages": [
+                11
+              ],
+              "printed_pages": [
+                8
+              ]
+            }
+          },
+          {
+            "id": "10",
+            "label": "极度正面意见",
+            "value": 10,
+            "source": {
+              "pdf_pages": [
+                11
+              ],
+              "printed_pages": [
+                8
+              ]
+            }
+          }
+        ],
+        "minimum": 1,
+        "maximum": 10,
+        "cardinality": "single",
+        "slots": null,
+        "raw_instruction": "使用说明：本问卷使用NPS10级计分，填答者可以根据自身真实想法和感受进行评分。选项由10个等级构成，表示程度不断增加的连续变化。1代表极度负面意见，10代表极度正面意见。其中的2-9按照程度连续变化。",
+        "unknowns": [
+          {
+            "field": "options.label",
+            "reason": "原文只给端点文字，未为中间档命名；中间档保留数值和null标签。"
+          }
+        ],
+        "ranking": null
+      }
+    },
+    {
+      "id": "learning-style-engagement--original.q025",
+      "order": 25,
+      "original_number": null,
+      "role": "measurement",
+      "measurement_class": "scale",
+      "kind": "rating",
+      "raw_text": "学习时，我感到时间过得很快",
+      "student_text": "学习时，我感到时间过得很快",
+      "source": {
+        "pdf_pages": [
+          12
+        ],
+        "printed_pages": [
+          9
+        ]
+      },
+      "group_id": "learning-style-engagement--original.group002",
+      "subdimension": null,
+      "subdimension_reason": "原题表未明示每题对应的理论细分维度；不依据语义推断。",
+      "teacher_annotations": [],
+      "reverse": {
+        "marked": null,
+        "raw_marker": null,
+        "source": null,
+        "reason": "本原文题项未标明反向题；否定措辞不作为反向依据。"
+      },
+      "response": {
+        "options": [
+          {
+            "id": "1",
+            "label": "极度负面意见",
+            "value": 1,
+            "source": {
+              "pdf_pages": [
+                11
+              ],
+              "printed_pages": [
+                8
+              ]
+            }
+          },
+          {
+            "id": "2",
+            "label": null,
+            "value": 2,
+            "source": {
+              "pdf_pages": [
+                11
+              ],
+              "printed_pages": [
+                8
+              ]
+            }
+          },
+          {
+            "id": "3",
+            "label": null,
+            "value": 3,
+            "source": {
+              "pdf_pages": [
+                11
+              ],
+              "printed_pages": [
+                8
+              ]
+            }
+          },
+          {
+            "id": "4",
+            "label": null,
+            "value": 4,
+            "source": {
+              "pdf_pages": [
+                11
+              ],
+              "printed_pages": [
+                8
+              ]
+            }
+          },
+          {
+            "id": "5",
+            "label": null,
+            "value": 5,
+            "source": {
+              "pdf_pages": [
+                11
+              ],
+              "printed_pages": [
+                8
+              ]
+            }
+          },
+          {
+            "id": "6",
+            "label": null,
+            "value": 6,
+            "source": {
+              "pdf_pages": [
+                11
+              ],
+              "printed_pages": [
+                8
+              ]
+            }
+          },
+          {
+            "id": "7",
+            "label": null,
+            "value": 7,
+            "source": {
+              "pdf_pages": [
+                11
+              ],
+              "printed_pages": [
+                8
+              ]
+            }
+          },
+          {
+            "id": "8",
+            "label": null,
+            "value": 8,
+            "source": {
+              "pdf_pages": [
+                11
+              ],
+              "printed_pages": [
+                8
+              ]
+            }
+          },
+          {
+            "id": "9",
+            "label": null,
+            "value": 9,
+            "source": {
+              "pdf_pages": [
+                11
+              ],
+              "printed_pages": [
+                8
+              ]
+            }
+          },
+          {
+            "id": "10",
+            "label": "极度正面意见",
+            "value": 10,
+            "source": {
+              "pdf_pages": [
+                11
+              ],
+              "printed_pages": [
+                8
+              ]
+            }
+          }
+        ],
+        "minimum": 1,
+        "maximum": 10,
+        "cardinality": "single",
+        "slots": null,
+        "raw_instruction": "使用说明：本问卷使用NPS10级计分，填答者可以根据自身真实想法和感受进行评分。选项由10个等级构成，表示程度不断增加的连续变化。1代表极度负面意见，10代表极度正面意见。其中的2-9按照程度连续变化。",
+        "unknowns": [
+          {
+            "field": "options.label",
+            "reason": "原文只给端点文字，未为中间档命名；中间档保留数值和null标签。"
+          }
+        ],
+        "ranking": null
+      }
+    },
+    {
+      "id": "learning-style-engagement--original.q026",
+      "order": 26,
+      "original_number": null,
+      "role": "measurement",
+      "measurement_class": "scale",
+      "kind": "rating",
+      "raw_text": "学习时，我心里只想着学习",
+      "student_text": "学习时，我心里只想着学习",
+      "source": {
+        "pdf_pages": [
+          12
+        ],
+        "printed_pages": [
+          9
+        ]
+      },
+      "group_id": "learning-style-engagement--original.group002",
+      "subdimension": null,
+      "subdimension_reason": "原题表未明示每题对应的理论细分维度；不依据语义推断。",
+      "teacher_annotations": [],
+      "reverse": {
+        "marked": null,
+        "raw_marker": null,
+        "source": null,
+        "reason": "本原文题项未标明反向题；否定措辞不作为反向依据。"
+      },
+      "response": {
+        "options": [
+          {
+            "id": "1",
+            "label": "极度负面意见",
+            "value": 1,
+            "source": {
+              "pdf_pages": [
+                11
+              ],
+              "printed_pages": [
+                8
+              ]
+            }
+          },
+          {
+            "id": "2",
+            "label": null,
+            "value": 2,
+            "source": {
+              "pdf_pages": [
+                11
+              ],
+              "printed_pages": [
+                8
+              ]
+            }
+          },
+          {
+            "id": "3",
+            "label": null,
+            "value": 3,
+            "source": {
+              "pdf_pages": [
+                11
+              ],
+              "printed_pages": [
+                8
+              ]
+            }
+          },
+          {
+            "id": "4",
+            "label": null,
+            "value": 4,
+            "source": {
+              "pdf_pages": [
+                11
+              ],
+              "printed_pages": [
+                8
+              ]
+            }
+          },
+          {
+            "id": "5",
+            "label": null,
+            "value": 5,
+            "source": {
+              "pdf_pages": [
+                11
+              ],
+              "printed_pages": [
+                8
+              ]
+            }
+          },
+          {
+            "id": "6",
+            "label": null,
+            "value": 6,
+            "source": {
+              "pdf_pages": [
+                11
+              ],
+              "printed_pages": [
+                8
+              ]
+            }
+          },
+          {
+            "id": "7",
+            "label": null,
+            "value": 7,
+            "source": {
+              "pdf_pages": [
+                11
+              ],
+              "printed_pages": [
+                8
+              ]
+            }
+          },
+          {
+            "id": "8",
+            "label": null,
+            "value": 8,
+            "source": {
+              "pdf_pages": [
+                11
+              ],
+              "printed_pages": [
+                8
+              ]
+            }
+          },
+          {
+            "id": "9",
+            "label": null,
+            "value": 9,
+            "source": {
+              "pdf_pages": [
+                11
+              ],
+              "printed_pages": [
+                8
+              ]
+            }
+          },
+          {
+            "id": "10",
+            "label": "极度正面意见",
+            "value": 10,
+            "source": {
+              "pdf_pages": [
+                11
+              ],
+              "printed_pages": [
+                8
+              ]
+            }
+          }
+        ],
+        "minimum": 1,
+        "maximum": 10,
+        "cardinality": "single",
+        "slots": null,
+        "raw_instruction": "使用说明：本问卷使用NPS10级计分，填答者可以根据自身真实想法和感受进行评分。选项由10个等级构成，表示程度不断增加的连续变化。1代表极度负面意见，10代表极度正面意见。其中的2-9按照程度连续变化。",
+        "unknowns": [
+          {
+            "field": "options.label",
+            "reason": "原文只给端点文字，未为中间档命名；中间档保留数值和null标签。"
+          }
+        ],
+        "ranking": null
+      }
+    },
+    {
+      "id": "learning-style-engagement--original.q027",
+      "order": 27,
+      "original_number": null,
+      "role": "measurement",
+      "measurement_class": "scale",
+      "kind": "rating",
+      "raw_text": "我难以放下手中的学习",
+      "student_text": "我难以放下手中的学习",
+      "source": {
+        "pdf_pages": [
+          12
+        ],
+        "printed_pages": [
+          9
+        ]
+      },
+      "group_id": "learning-style-engagement--original.group002",
+      "subdimension": null,
+      "subdimension_reason": "原题表未明示每题对应的理论细分维度；不依据语义推断。",
+      "teacher_annotations": [],
+      "reverse": {
+        "marked": null,
+        "raw_marker": null,
+        "source": null,
+        "reason": "本原文题项未标明反向题；否定措辞不作为反向依据。"
+      },
+      "response": {
+        "options": [
+          {
+            "id": "1",
+            "label": "极度负面意见",
+            "value": 1,
+            "source": {
+              "pdf_pages": [
+                11
+              ],
+              "printed_pages": [
+                8
+              ]
+            }
+          },
+          {
+            "id": "2",
+            "label": null,
+            "value": 2,
+            "source": {
+              "pdf_pages": [
+                11
+              ],
+              "printed_pages": [
+                8
+              ]
+            }
+          },
+          {
+            "id": "3",
+            "label": null,
+            "value": 3,
+            "source": {
+              "pdf_pages": [
+                11
+              ],
+              "printed_pages": [
+                8
+              ]
+            }
+          },
+          {
+            "id": "4",
+            "label": null,
+            "value": 4,
+            "source": {
+              "pdf_pages": [
+                11
+              ],
+              "printed_pages": [
+                8
+              ]
+            }
+          },
+          {
+            "id": "5",
+            "label": null,
+            "value": 5,
+            "source": {
+              "pdf_pages": [
+                11
+              ],
+              "printed_pages": [
+                8
+              ]
+            }
+          },
+          {
+            "id": "6",
+            "label": null,
+            "value": 6,
+            "source": {
+              "pdf_pages": [
+                11
+              ],
+              "printed_pages": [
+                8
+              ]
+            }
+          },
+          {
+            "id": "7",
+            "label": null,
+            "value": 7,
+            "source": {
+              "pdf_pages": [
+                11
+              ],
+              "printed_pages": [
+                8
+              ]
+            }
+          },
+          {
+            "id": "8",
+            "label": null,
+            "value": 8,
+            "source": {
+              "pdf_pages": [
+                11
+              ],
+              "printed_pages": [
+                8
+              ]
+            }
+          },
+          {
+            "id": "9",
+            "label": null,
+            "value": 9,
+            "source": {
+              "pdf_pages": [
+                11
+              ],
+              "printed_pages": [
+                8
+              ]
+            }
+          },
+          {
+            "id": "10",
+            "label": "极度正面意见",
+            "value": 10,
+            "source": {
+              "pdf_pages": [
+                11
+              ],
+              "printed_pages": [
+                8
+              ]
+            }
+          }
+        ],
+        "minimum": 1,
+        "maximum": 10,
+        "cardinality": "single",
+        "slots": null,
+        "raw_instruction": "使用说明：本问卷使用NPS10级计分，填答者可以根据自身真实想法和感受进行评分。选项由10个等级构成，表示程度不断增加的连续变化。1代表极度负面意见，10代表极度正面意见。其中的2-9按照程度连续变化。",
+        "unknowns": [
+          {
+            "field": "options.label",
+            "reason": "原文只给端点文字，未为中间档命名；中间档保留数值和null标签。"
+          }
+        ],
+        "ranking": null
+      }
+    },
+    {
+      "id": "learning-style-engagement--original.q028",
+      "order": 28,
+      "original_number": null,
+      "role": "measurement",
+      "measurement_class": "scale",
+      "kind": "rating",
+      "raw_text": "我沉浸在学习中",
+      "student_text": "我沉浸在学习中",
+      "source": {
+        "pdf_pages": [
+          12
+        ],
+        "printed_pages": [
+          9
+        ]
+      },
+      "group_id": "learning-style-engagement--original.group002",
+      "subdimension": null,
+      "subdimension_reason": "原题表未明示每题对应的理论细分维度；不依据语义推断。",
+      "teacher_annotations": [],
+      "reverse": {
+        "marked": null,
+        "raw_marker": null,
+        "source": null,
+        "reason": "本原文题项未标明反向题；否定措辞不作为反向依据。"
+      },
+      "response": {
+        "options": [
+          {
+            "id": "1",
+            "label": "极度负面意见",
+            "value": 1,
+            "source": {
+              "pdf_pages": [
+                11
+              ],
+              "printed_pages": [
+                8
+              ]
+            }
+          },
+          {
+            "id": "2",
+            "label": null,
+            "value": 2,
+            "source": {
+              "pdf_pages": [
+                11
+              ],
+              "printed_pages": [
+                8
+              ]
+            }
+          },
+          {
+            "id": "3",
+            "label": null,
+            "value": 3,
+            "source": {
+              "pdf_pages": [
+                11
+              ],
+              "printed_pages": [
+                8
+              ]
+            }
+          },
+          {
+            "id": "4",
+            "label": null,
+            "value": 4,
+            "source": {
+              "pdf_pages": [
+                11
+              ],
+              "printed_pages": [
+                8
+              ]
+            }
+          },
+          {
+            "id": "5",
+            "label": null,
+            "value": 5,
+            "source": {
+              "pdf_pages": [
+                11
+              ],
+              "printed_pages": [
+                8
+              ]
+            }
+          },
+          {
+            "id": "6",
+            "label": null,
+            "value": 6,
+            "source": {
+              "pdf_pages": [
+                11
+              ],
+              "printed_pages": [
+                8
+              ]
+            }
+          },
+          {
+            "id": "7",
+            "label": null,
+            "value": 7,
+            "source": {
+              "pdf_pages": [
+                11
+              ],
+              "printed_pages": [
+                8
+              ]
+            }
+          },
+          {
+            "id": "8",
+            "label": null,
+            "value": 8,
+            "source": {
+              "pdf_pages": [
+                11
+              ],
+              "printed_pages": [
+                8
+              ]
+            }
+          },
+          {
+            "id": "9",
+            "label": null,
+            "value": 9,
+            "source": {
+              "pdf_pages": [
+                11
+              ],
+              "printed_pages": [
+                8
+              ]
+            }
+          },
+          {
+            "id": "10",
+            "label": "极度正面意见",
+            "value": 10,
+            "source": {
+              "pdf_pages": [
+                11
+              ],
+              "printed_pages": [
+                8
+              ]
+            }
+          }
+        ],
+        "minimum": 1,
+        "maximum": 10,
+        "cardinality": "single",
+        "slots": null,
+        "raw_instruction": "使用说明：本问卷使用NPS10级计分，填答者可以根据自身真实想法和感受进行评分。选项由10个等级构成，表示程度不断增加的连续变化。1代表极度负面意见，10代表极度正面意见。其中的2-9按照程度连续变化。",
+        "unknowns": [
+          {
+            "field": "options.label",
+            "reason": "原文只给端点文字，未为中间档命名；中间档保留数值和null标签。"
+          }
+        ],
+        "ranking": null
+      }
+    },
+    {
+      "id": "learning-style-engagement--original.q029",
+      "order": 29,
+      "original_number": null,
+      "role": "measurement",
+      "measurement_class": "scale",
+      "kind": "rating",
+      "raw_text": "全身心投入学习时，我感到很快乐",
+      "student_text": "全身心投入学习时，我感到很快乐",
+      "source": {
+        "pdf_pages": [
+          12
+        ],
+        "printed_pages": [
+          9
+        ]
+      },
+      "group_id": "learning-style-engagement--original.group002",
+      "subdimension": null,
+      "subdimension_reason": "原题表未明示每题对应的理论细分维度；不依据语义推断。",
+      "teacher_annotations": [],
+      "reverse": {
+        "marked": null,
+        "raw_marker": null,
+        "source": null,
+        "reason": "本原文题项未标明反向题；否定措辞不作为反向依据。"
+      },
+      "response": {
+        "options": [
+          {
+            "id": "1",
+            "label": "极度负面意见",
+            "value": 1,
+            "source": {
+              "pdf_pages": [
+                11
+              ],
+              "printed_pages": [
+                8
+              ]
+            }
+          },
+          {
+            "id": "2",
+            "label": null,
+            "value": 2,
+            "source": {
+              "pdf_pages": [
+                11
+              ],
+              "printed_pages": [
+                8
+              ]
+            }
+          },
+          {
+            "id": "3",
+            "label": null,
+            "value": 3,
+            "source": {
+              "pdf_pages": [
+                11
+              ],
+              "printed_pages": [
+                8
+              ]
+            }
+          },
+          {
+            "id": "4",
+            "label": null,
+            "value": 4,
+            "source": {
+              "pdf_pages": [
+                11
+              ],
+              "printed_pages": [
+                8
+              ]
+            }
+          },
+          {
+            "id": "5",
+            "label": null,
+            "value": 5,
+            "source": {
+              "pdf_pages": [
+                11
+              ],
+              "printed_pages": [
+                8
+              ]
+            }
+          },
+          {
+            "id": "6",
+            "label": null,
+            "value": 6,
+            "source": {
+              "pdf_pages": [
+                11
+              ],
+              "printed_pages": [
+                8
+              ]
+            }
+          },
+          {
+            "id": "7",
+            "label": null,
+            "value": 7,
+            "source": {
+              "pdf_pages": [
+                11
+              ],
+              "printed_pages": [
+                8
+              ]
+            }
+          },
+          {
+            "id": "8",
+            "label": null,
+            "value": 8,
+            "source": {
+              "pdf_pages": [
+                11
+              ],
+              "printed_pages": [
+                8
+              ]
+            }
+          },
+          {
+            "id": "9",
+            "label": null,
+            "value": 9,
+            "source": {
+              "pdf_pages": [
+                11
+              ],
+              "printed_pages": [
+                8
+              ]
+            }
+          },
+          {
+            "id": "10",
+            "label": "极度正面意见",
+            "value": 10,
+            "source": {
+              "pdf_pages": [
+                11
+              ],
+              "printed_pages": [
+                8
+              ]
+            }
+          }
+        ],
+        "minimum": 1,
+        "maximum": 10,
+        "cardinality": "single",
+        "slots": null,
+        "raw_instruction": "使用说明：本问卷使用NPS10级计分，填答者可以根据自身真实想法和感受进行评分。选项由10个等级构成，表示程度不断增加的连续变化。1代表极度负面意见，10代表极度正面意见。其中的2-9按照程度连续变化。",
+        "unknowns": [
+          {
+            "field": "options.label",
+            "reason": "原文只给端点文字，未为中间档命名；中间档保留数值和null标签。"
+          }
+        ],
+        "ranking": null
+      }
+    }
+  ],
+  "groups": [
+    {
+      "id": "learning-style-engagement--original.group001",
+      "raw_name": "学习风格",
+      "source": {
+        "pdf_pages": [
+          11,
+          12
+        ],
+        "printed_pages": [
+          8,
+          9
+        ]
+      },
+      "parent_id": null,
+      "note": "PDF12/印9前9行一级栏空白，按PDF11/印8学习风格题表连续延续；解释表一级标签冲突不用于移题。"
+    },
+    {
+      "id": "learning-style-engagement--original.group002",
+      "raw_name": "学习投入度",
+      "source": {
+        "pdf_pages": [
+          12
+        ],
+        "printed_pages": [
+          9
+        ]
+      },
+      "parent_id": null,
+      "note": null
+    }
+  ],
+  "blocks": [
+    {
+      "id": "learning-style-engagement--original.table001",
+      "kind": "matrix",
+      "raw_title": null,
+      "item_ids": [
+        "learning-style-engagement--original.q001",
+        "learning-style-engagement--original.q002",
+        "learning-style-engagement--original.q003",
+        "learning-style-engagement--original.q004",
+        "learning-style-engagement--original.q005",
+        "learning-style-engagement--original.q006",
+        "learning-style-engagement--original.q007",
+        "learning-style-engagement--original.q008",
+        "learning-style-engagement--original.q009",
+        "learning-style-engagement--original.q010",
+        "learning-style-engagement--original.q011",
+        "learning-style-engagement--original.q012",
+        "learning-style-engagement--original.q013",
+        "learning-style-engagement--original.q014",
+        "learning-style-engagement--original.q015",
+        "learning-style-engagement--original.q016",
+        "learning-style-engagement--original.q017",
+        "learning-style-engagement--original.q018",
+        "learning-style-engagement--original.q019",
+        "learning-style-engagement--original.q020",
+        "learning-style-engagement--original.q021",
+        "learning-style-engagement--original.q022",
+        "learning-style-engagement--original.q023",
+        "learning-style-engagement--original.q024",
+        "learning-style-engagement--original.q025",
+        "learning-style-engagement--original.q026",
+        "learning-style-engagement--original.q027",
+        "learning-style-engagement--original.q028",
+        "learning-style-engagement--original.q029"
+      ],
+      "source": {
+        "pdf_pages": [
+          11,
+          12
+        ],
+        "printed_pages": [
+          8,
+          9
+        ]
+      },
+      "note": "原表列为维度、题项、1-10；保存整表原结构及一级合并组，逐行题项不重复计数。"
+    }
+  ],
+  "scoring": {
+    "raw_rules": [],
+    "reverse_mapping": null,
+    "unknowns": [
+      {
+        "field": "reverse_mapping",
+        "reason": "原文未标反向或提供反向数值转换，不借用第一辑规则。",
+        "source": {
+          "pdf_pages": [
+            11,
+            12
+          ],
+          "printed_pages": [
+            8,
+            9
+          ]
+        }
+      },
+      {
+        "field": "aggregate_rules",
+        "reason": "原文未给总分/分组汇总算法，NPS10术语不作为净推荐值公式依据。",
+        "source": {
+          "pdf_pages": [
+            11,
+            12
+          ],
+          "printed_pages": [
+            8,
+            9
+          ]
+        }
+      },
+      {
+        "field": "subdimension_mapping",
+        "reason": "原文未提供理论细分维度与每题的对应。",
+        "source": {
+          "pdf_pages": [
+            11,
+            12
+          ],
+          "printed_pages": [
+            8,
+            9
+          ]
+        }
+      },
+      {
+        "field": "missing_values_and_norms",
+        "reason": "原文未给缺失值处理、常模或解释阈值。",
+        "source": {
+          "pdf_pages": [
+            11,
+            12
+          ],
+          "printed_pages": [
+            8,
+            9
+          ]
+        }
+      }
+    ]
+  },
+  "counts": {
+    "basic_information": 3,
+    "measurement_items": 29,
+    "scale_items": 29,
+    "preliminary_items": 0,
+    "background_items": 0,
+    "item_records": 29,
+    "original_question_blocks": 29,
+    "reason": null
+  },
+  "issues": [
+    {
+      "id": "A-16",
+      "category": "metadata",
+      "blocking": false,
+      "source": {
+        "pdf_pages": [
+          11
+        ],
+        "printed_pages": [
+          8
+        ]
+      },
+      "original_text": "使用说明：本问卷使用NPS10级计分，填答者可以根据自身真实想法和感受进行评分。选项由10个等级构成，表示程度不断增加的连续变化。1代表极度负面意见，10代表极度正面意见。其中的2-9按照程度连续变化。",
+      "missing_information": "NPS10术语没有配套统计公式；没有明示反向题。",
+      "possible_resolutions": [
+        "只保存1–10作答数值和原端点；统计与反向信息留未知。",
+        "如获正式补充，另记录来源。"
+      ],
+      "recommendation": "保留术语原文，不实施计分，不补反向标记。",
+      "affected_item_ids": [
+        "learning-style-engagement--original.q001",
+        "learning-style-engagement--original.q002",
+        "learning-style-engagement--original.q003",
+        "learning-style-engagement--original.q004",
+        "learning-style-engagement--original.q005",
+        "learning-style-engagement--original.q006",
+        "learning-style-engagement--original.q007",
+        "learning-style-engagement--original.q008",
+        "learning-style-engagement--original.q009",
+        "learning-style-engagement--original.q010",
+        "learning-style-engagement--original.q011",
+        "learning-style-engagement--original.q012",
+        "learning-style-engagement--original.q013",
+        "learning-style-engagement--original.q014",
+        "learning-style-engagement--original.q015",
+        "learning-style-engagement--original.q016",
+        "learning-style-engagement--original.q017",
+        "learning-style-engagement--original.q018",
+        "learning-style-engagement--original.q019",
+        "learning-style-engagement--original.q020",
+        "learning-style-engagement--original.q021",
+        "learning-style-engagement--original.q022",
+        "learning-style-engagement--original.q023",
+        "learning-style-engagement--original.q024",
+        "learning-style-engagement--original.q025",
+        "learning-style-engagement--original.q026",
+        "learning-style-engagement--original.q027",
+        "learning-style-engagement--original.q028",
+        "learning-style-engagement--original.q029"
+      ],
+      "resolution": null
+    },
+    {
+      "id": "learning-style-engagement.basic-fields",
+      "category": "metadata",
+      "blocking": false,
+      "source": {
+        "pdf_pages": [
+          11
+        ],
+        "printed_pages": [
+          8
+        ]
+      },
+      "original_text": "性别：年龄：年级：",
+      "missing_information": "未提供选项、年龄范围、年级枚举及必填性。",
+      "possible_resolutions": [
+        "保留三个原空白填写字段。",
+        "取得原来源补充后记录约束。"
+      ],
+      "recommendation": "按原空白保存，不生成枚举或限制。",
+      "affected_item_ids": [
+        "learning-style-engagement--original.basic001",
+        "learning-style-engagement--original.basic002",
+        "learning-style-engagement--original.basic003"
+      ],
+      "resolution": null
+    },
+    {
+      "id": "A-10",
+      "category": "metadata",
+      "blocking": false,
+      "source": {
+        "pdf_pages": [
+          9,
+          10,
+          11,
+          12
+        ],
+        "printed_pages": [
+          6,
+          7,
+          8,
+          9
+        ]
+      },
+      "original_text": "学习风格\n活力\n奉献\n专注\n学习投入度\n知识的输入：视觉型/言语型\n知识的加工：活跃性/沉思型\n知识的理解：序列型/综合型\n知识的感知：感悟型/直觉型\n学习投入是一种与学习、科研和就业相关的、持久的、积极的、完满的情感和认知的心理状态。2002年Schaufeli等编制了《学习投入量表》(学生版)，共14题，以活力、奉献和专注为三个核心维度，它具有稳定的三维度结构",
+      "missing_information": "表2（PDF10–11/印7–8）把学习风格对应活力、奉献、专注，把学习投入度对应知识输入、加工、理解、感知；图2与PDF9正文的一级归属相反。解释表一级标签相互矛盾，题项理论细分映射未提供。",
+      "possible_resolutions": [
+        "依题项表保留学习风格12行、学习投入度17行。",
+        "获得正式勘误后新增修订记录。"
+      ],
+      "recommendation": "题项按可见原表分组；解释表不静默改正，subdimension留null。",
+      "affected_item_ids": [
+        "learning-style-engagement--original.q001",
+        "learning-style-engagement--original.q002",
+        "learning-style-engagement--original.q003",
+        "learning-style-engagement--original.q004",
+        "learning-style-engagement--original.q005",
+        "learning-style-engagement--original.q006",
+        "learning-style-engagement--original.q007",
+        "learning-style-engagement--original.q008",
+        "learning-style-engagement--original.q009",
+        "learning-style-engagement--original.q010",
+        "learning-style-engagement--original.q011",
+        "learning-style-engagement--original.q012",
+        "learning-style-engagement--original.q013",
+        "learning-style-engagement--original.q014",
+        "learning-style-engagement--original.q015",
+        "learning-style-engagement--original.q016",
+        "learning-style-engagement--original.q017",
+        "learning-style-engagement--original.q018",
+        "learning-style-engagement--original.q019",
+        "learning-style-engagement--original.q020",
+        "learning-style-engagement--original.q021",
+        "learning-style-engagement--original.q022",
+        "learning-style-engagement--original.q023",
+        "learning-style-engagement--original.q024",
+        "learning-style-engagement--original.q025",
+        "learning-style-engagement--original.q026",
+        "learning-style-engagement--original.q027",
+        "learning-style-engagement--original.q028",
+        "learning-style-engagement--original.q029"
+      ],
+      "resolution": null
+    },
+    {
+      "id": "A-10.count",
+      "category": "metadata",
+      "blocking": false,
+      "source": {
+        "pdf_pages": [
+          9,
+          11,
+          12
+        ],
+        "printed_pages": [
+          6,
+          8,
+          9
+        ]
+      },
+      "original_text": "2002年Schaufeli等编制了《学习投入量表》(学生版)，共14题，以活力、奉献和专注为三个核心维度，它具有稳定的三维度结构",
+      "missing_information": "PDF9/印6引用学生版量表共14题；本指南PDF11–12/印8–9问卷表实际学习投入度为17行、学习风格为12行。引用工具题数不是本原问卷题量，不能据14题补删本卷。",
+      "possible_resolutions": [
+        "以本指南29个实际题行计数。"
+      ],
+      "recommendation": "不按14题删减或补造。",
+      "affected_item_ids": [
+        "learning-style-engagement--original.q013",
+        "learning-style-engagement--original.q014",
+        "learning-style-engagement--original.q015",
+        "learning-style-engagement--original.q016",
+        "learning-style-engagement--original.q017",
+        "learning-style-engagement--original.q018",
+        "learning-style-engagement--original.q019",
+        "learning-style-engagement--original.q020",
+        "learning-style-engagement--original.q021",
+        "learning-style-engagement--original.q022",
+        "learning-style-engagement--original.q023",
+        "learning-style-engagement--original.q024",
+        "learning-style-engagement--original.q025",
+        "learning-style-engagement--original.q026",
+        "learning-style-engagement--original.q027",
+        "learning-style-engagement--original.q028",
+        "learning-style-engagement--original.q029"
+      ],
+      "resolution": null
+    }
+  ],
+  "review": {
+    "status": "verified",
+    "transcription_verified": true,
+    "checked_pdf_pages": [
+      9,
+      10,
+      11,
+      12
+    ],
+    "method": "重新从源PDF以pypdf和pdfplumber提取；人工查看本轮Poppler原页PNG，逐行比对题表、指导语、作答等级、原分组及跨页延续。仅合并版面换行与无语义空白。",
+    "reviewed_on": "2026-10-04",
+    "eligible_for_generation": true,
+    "note": "仅为原文数据核对状态，不表示生成器已实现、WorkBuddy已运行或问卷星已导入。未命名档位不补文字、未标反向不推断，计分仅保留元数据。"
+  }
+}

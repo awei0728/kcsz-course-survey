@@ -1,0 +1,2963 @@
+{
+  "schema_version": 1,
+  "id": "critical-thinking--B",
+  "project_id": "critical-thinking",
+  "version_id": "B",
+  "project_name": "批判性思维",
+  "original_name": null,
+  "original_name_reason": "原文没有为本问卷另列独立总标题；只给卷名或问卷内容节名，借鉴量表名称不是本指南独立问卷名。",
+  "title": {
+    "raw_text": "B 卷",
+    "student_text": "B 卷",
+    "source": {
+      "pdf_pages": [
+        7
+      ],
+      "printed_pages": [
+        4
+      ]
+    }
+  },
+  "source": {
+    "filename": "武汉大学课程思政教学评价指南（第一辑）.pdf",
+    "volume": 1,
+    "chapter": "一、批判性思维评价指南",
+    "pdf_pages": [
+      4,
+      5,
+      7,
+      8,
+      9
+    ],
+    "printed_pages": [
+      1,
+      2,
+      4,
+      5,
+      6
+    ],
+    "sha256": "218ce8325ef713959646c279effd9d1a113f6064656926bdf21ac3903dd33850"
+  },
+  "instructions": [
+    {
+      "id": "critical-thinking--B.instruction001",
+      "role": "response",
+      "raw_text": "请根据你自己的情况对下面问题的选项进行打分。其中“完全不同意 -1”“比较不同意-2”“无所谓-3”“比较同意-4”“完全同意-5”",
+      "student_text": "请根据你自己的情况对下面问题的选项进行打分。其中“完全不同意 -1”“比较不同意-2”“无所谓-3”“比较同意-4”“完全同意-5”",
+      "source": {
+        "pdf_pages": [
+          7
+        ],
+        "printed_pages": [
+          4
+        ]
+      }
+    },
+    {
+      "id": "critical-thinking--B.instruction002",
+      "role": "teacher",
+      "raw_text": "（五）评价使用说明 1.评价对象：全体上课学生。 2.评分规则：（1）该问卷为李克特五分量表，评价者根据自身真实感受进行 5级打分，1 代表非常不同意、2 代表比较不同意、3 代表中立、4 代表比较同意、5 代表非常同意。每个维度的得分为各题项平均分。分数越高代表被测对象批判性思维技能和倾向越高。（2）表格中标注“反向检测题”的题项需要特殊处理。该类题目的提问指向与其他题目相似，但提问的思路方向则与其他题目相反。主要是用于检测填答者对于问题回答的态度是否认真仔细，以及检测问卷填答的质量信度是否过关。因此在使用这些问卷进行测评时，首先在问卷制作阶段应删除“（反向检测题）”等标识文字（避免给填答者以提示）。然后在问卷印制时将这些题目的分值选项倒序排列（对反向题进行分数转换）。第三步在问卷回收后，应首先查验反向检验题的答案，以便剔除无效问卷（当填答者反向题和普通题打分处于同级时该问卷无效）。最后再进行问卷分数统计。（3）反向题分数转换的规则：1-5；2-4；3-3；4-2；5-1。 3.评价时间节点的选择：（1）前测时间：建议第一节课正式上课前 10-15 分钟施测。（2）后测时间：最后一节课最后 10-15 分钟施测。 4.评价方式：（1）同一群体纵向对比：同一批学生，在课程正式开始前和结束后各进行一次评价，对比前后得分差异。可以分别使用 A/B 卷作为前测和后测问卷。（2）不同群体横向对比：选择两个其他基本素质差不多的班级，在课程结束后统一进行评价，对比两个班级的得分差异。",
+      "student_text": null,
+      "source": {
+        "pdf_pages": [
+          8,
+          9
+        ],
+        "printed_pages": [
+          5,
+          6
+        ]
+      }
+    },
+    {
+      "id": "critical-thinking--B.teacher-context-4",
+      "role": "teacher",
+      "raw_text": "一、批判性思维评价指南（一）概念定义批判性思维是一种有目的性的，对知识产生的过程、理论、方法、背景、证据和评价知识的标准等正确与否作出自我调节性判断的思维过程[1]。目前，国内外学者对批判性思维这一概念尚无统一的、公认的定义。综合而言，批判性思维是由认知技能和情感意向构成的 [2]。前者又称批判性思维技能，包括：解释、分析、评估、推理、说明和自我调控；后者又称批判精神，包括：探索真理、思想开放、分析性、系统性、自信和好奇[3]。批判性思维技能主要是人类在探索真理、寻找真相的过程中运用的推理模式和认知技巧，批判精神要求人们拥有客观、公正、开放的能够提高推理能力的明显性格倾向[4]。课程思政语境下的“批判性思维”，其一指批判性思维技能，即学生能否发现问题、解释问题实质、分析理解问题，能否进行归纳或推理，并对自我的思维过程进行元调控；其二指批判性思维倾向，即学生以探究的倾向、开放的思想和严谨的态度，自信地开展分析、概括、推理和反思等。（二）维度划分根据上述概念定义，批判性思维可归拢为批判性思维技能和批判性思维倾向两个方面，再参照国际通用的“加利福尼亚批判性思维倾向测量量表”（ CCTDI），可具体划分为 7 个方面的特质，即寻求真理（ Truth-Seeking ）、开放思想（ Open-Mindedness ）、分析能力（Analyticity ）、系统化能力（Systematicity ）、批判性思维自信度 [1] 罗清旭,杨鑫辉.《加利福尼亚批判性思维技能测验》的初步修订[J].心理科学,2002,(06):740-741. [2] Peter A.Facione.CriticalThinking:A Statement of Expert Consensus for Purposes of Educational Assessment andInstruction[R].California Academic Press,1990,(2):2. [3] 黄朝阳.加强批判性思维教育培养创新型人才[J].教育研究,2010,31(05):69-74. [4] 崔清田，王左立. 非形式逻辑与批判性思维[J]. 社会科学辑刊，2002(4):33-35.",
+      "student_text": null,
+      "source": {
+        "pdf_pages": [
+          4
+        ],
+        "printed_pages": [
+          1
+        ]
+      }
+    },
+    {
+      "id": "critical-thinking--B.teacher-footnote-5",
+      "role": "teacher",
+      "raw_text": "[5] 目前国内引用最多的量表，是彭美慈等专家教授以“加利福尼亚批判性思维倾向测量量表”（CCTDI）为基础，将其进行本土化改编而制定的“批判性思维能力测量表”（CTDI-CV）。本问卷参考CTDI-CV 的维度划分，并结合课程思政评价库的需求缩减了题量，对部分语句进行了改编。",
+      "student_text": null,
+      "source": {
+        "pdf_pages": [
+          5
+        ],
+        "printed_pages": [
+          2
+        ]
+      }
+    },
+    {
+      "id": "critical-thinking--B.teacher-context-5",
+      "role": "teacher",
+      "raw_text": "（Self-confidence）、求知欲（Inquisitiveness）和认知成熟度（Maturity）（见图1）。图1 批判性思维考察的主要维度和内容（三）各个维度的具体解释表1 批判性思维考察的维度解释维度解释批判性思维技能分析能力能鉴定问题所在，以理由和证据去理解症结和预计后果系统化能力有组织、有目标地处理问题批判性思维倾向寻求真理对寻找知识抱着真诚和客观的态度。即使找出的答案与个人原有的观点不相符，甚至与个人信念背驰，或影响自身利益，也在所不计开放思想对不同的意见采取宽容的态度，防范个人偏见的可能批判性思维自信度对自己的理性分析能力有把握求知欲对知识好奇和热衷，并尝试学习和理解，就算这些知识的实用价值并不直接明显认知成熟度审慎地作出判断，或暂不下判断，或修改已有判断。有警觉性地去接受多种解决问题的方法。即使在欠缺全面知识的情况下，也能明白有时是需要权宜地考虑问题",
+      "student_text": null,
+      "source": {
+        "pdf_pages": [
+          5
+        ],
+        "printed_pages": [
+          2
+        ]
+      }
+    }
+  ],
+  "basic_information": [],
+  "items": [
+    {
+      "id": "critical-thinking--B.q001",
+      "order": 1,
+      "original_number": null,
+      "role": "measurement",
+      "measurement_class": "scale",
+      "kind": "rating",
+      "raw_text": "我常常用直觉解决问题（反向检测题）",
+      "student_text": "我常常用直觉解决问题",
+      "source": {
+        "pdf_pages": [
+          7
+        ],
+        "printed_pages": [
+          4
+        ]
+      },
+      "group_id": "critical-thinking--B.group001",
+      "subdimension": null,
+      "subdimension_reason": "原表仅明示本组；该组以下逐题细分维度未提供，不推断。",
+      "teacher_annotations": [
+        {
+          "text": "（反向检测题）",
+          "kind": "reverse",
+          "visibility": "teacher",
+          "source": {
+            "pdf_pages": [
+              7
+            ],
+            "printed_pages": [
+              4
+            ]
+          }
+        }
+      ],
+      "reverse": {
+        "marked": true,
+        "raw_marker": "（反向检测题）",
+        "source": {
+          "pdf_pages": [
+            7
+          ],
+          "printed_pages": [
+            4
+          ]
+        },
+        "reason": null
+      },
+      "response": {
+        "options": [
+          {
+            "id": "critical-thinking--B.q001.option1",
+            "label": "完全不同意",
+            "value": 1,
+            "source": {
+              "pdf_pages": [
+                7
+              ],
+              "printed_pages": [
+                4
+              ]
+            }
+          },
+          {
+            "id": "critical-thinking--B.q001.option2",
+            "label": "比较不同意",
+            "value": 2,
+            "source": {
+              "pdf_pages": [
+                7
+              ],
+              "printed_pages": [
+                4
+              ]
+            }
+          },
+          {
+            "id": "critical-thinking--B.q001.option3",
+            "label": "无所谓",
+            "value": 3,
+            "source": {
+              "pdf_pages": [
+                7
+              ],
+              "printed_pages": [
+                4
+              ]
+            }
+          },
+          {
+            "id": "critical-thinking--B.q001.option4",
+            "label": "比较同意",
+            "value": 4,
+            "source": {
+              "pdf_pages": [
+                7
+              ],
+              "printed_pages": [
+                4
+              ]
+            }
+          },
+          {
+            "id": "critical-thinking--B.q001.option5",
+            "label": "完全同意",
+            "value": 5,
+            "source": {
+              "pdf_pages": [
+                7
+              ],
+              "printed_pages": [
+                4
+              ]
+            }
+          }
+        ],
+        "minimum": 1,
+        "maximum": 5,
+        "cardinality": "single",
+        "slots": null,
+        "raw_instruction": "请根据你自己的情况对下面问题的选项进行打分。其中“完全不同意 -1”“比较不同意-2”“无所谓-3”“比较同意-4”“完全同意-5”",
+        "unknowns": [
+          {
+            "field": "required",
+            "reason": "原文未给必填要求，不补充约束。"
+          },
+          {
+            "field": "display_order_and_score_mapping",
+            "reason": "原文要求反向题分值选项倒序，并提供反向转换；实际导入文字/数字/显示顺序关系尚待确认，不执行倒序或计分。"
+          }
+        ],
+        "ranking": null
+      }
+    },
+    {
+      "id": "critical-thinking--B.q002",
+      "order": 2,
+      "original_number": null,
+      "role": "measurement",
+      "measurement_class": "scale",
+      "kind": "rating",
+      "raw_text": "当我反对别人的意见时，我会先提出理由",
+      "student_text": "当我反对别人的意见时，我会先提出理由",
+      "source": {
+        "pdf_pages": [
+          7
+        ],
+        "printed_pages": [
+          4
+        ]
+      },
+      "group_id": "critical-thinking--B.group001",
+      "subdimension": null,
+      "subdimension_reason": "原表仅明示本组；该组以下逐题细分维度未提供，不推断。",
+      "teacher_annotations": [],
+      "reverse": {
+        "marked": null,
+        "raw_marker": null,
+        "source": null,
+        "reason": "未见原文明示反向标记；否定句或概念标记不能据此推导反向。"
+      },
+      "response": {
+        "options": [
+          {
+            "id": "critical-thinking--B.q002.option1",
+            "label": "完全不同意",
+            "value": 1,
+            "source": {
+              "pdf_pages": [
+                7
+              ],
+              "printed_pages": [
+                4
+              ]
+            }
+          },
+          {
+            "id": "critical-thinking--B.q002.option2",
+            "label": "比较不同意",
+            "value": 2,
+            "source": {
+              "pdf_pages": [
+                7
+              ],
+              "printed_pages": [
+                4
+              ]
+            }
+          },
+          {
+            "id": "critical-thinking--B.q002.option3",
+            "label": "无所谓",
+            "value": 3,
+            "source": {
+              "pdf_pages": [
+                7
+              ],
+              "printed_pages": [
+                4
+              ]
+            }
+          },
+          {
+            "id": "critical-thinking--B.q002.option4",
+            "label": "比较同意",
+            "value": 4,
+            "source": {
+              "pdf_pages": [
+                7
+              ],
+              "printed_pages": [
+                4
+              ]
+            }
+          },
+          {
+            "id": "critical-thinking--B.q002.option5",
+            "label": "完全同意",
+            "value": 5,
+            "source": {
+              "pdf_pages": [
+                7
+              ],
+              "printed_pages": [
+                4
+              ]
+            }
+          }
+        ],
+        "minimum": 1,
+        "maximum": 5,
+        "cardinality": "single",
+        "slots": null,
+        "raw_instruction": "请根据你自己的情况对下面问题的选项进行打分。其中“完全不同意 -1”“比较不同意-2”“无所谓-3”“比较同意-4”“完全同意-5”",
+        "unknowns": [
+          {
+            "field": "required",
+            "reason": "原文未给必填要求，不补充约束。"
+          }
+        ],
+        "ranking": null
+      }
+    },
+    {
+      "id": "critical-thinking--B.q003",
+      "order": 3,
+      "original_number": null,
+      "role": "measurement",
+      "measurement_class": "scale",
+      "kind": "rating",
+      "raw_text": "处理问题时，我会先弄清问题的症结所在",
+      "student_text": "处理问题时，我会先弄清问题的症结所在",
+      "source": {
+        "pdf_pages": [
+          7
+        ],
+        "printed_pages": [
+          4
+        ]
+      },
+      "group_id": "critical-thinking--B.group001",
+      "subdimension": null,
+      "subdimension_reason": "原表仅明示本组；该组以下逐题细分维度未提供，不推断。",
+      "teacher_annotations": [],
+      "reverse": {
+        "marked": null,
+        "raw_marker": null,
+        "source": null,
+        "reason": "未见原文明示反向标记；否定句或概念标记不能据此推导反向。"
+      },
+      "response": {
+        "options": [
+          {
+            "id": "critical-thinking--B.q003.option1",
+            "label": "完全不同意",
+            "value": 1,
+            "source": {
+              "pdf_pages": [
+                7
+              ],
+              "printed_pages": [
+                4
+              ]
+            }
+          },
+          {
+            "id": "critical-thinking--B.q003.option2",
+            "label": "比较不同意",
+            "value": 2,
+            "source": {
+              "pdf_pages": [
+                7
+              ],
+              "printed_pages": [
+                4
+              ]
+            }
+          },
+          {
+            "id": "critical-thinking--B.q003.option3",
+            "label": "无所谓",
+            "value": 3,
+            "source": {
+              "pdf_pages": [
+                7
+              ],
+              "printed_pages": [
+                4
+              ]
+            }
+          },
+          {
+            "id": "critical-thinking--B.q003.option4",
+            "label": "比较同意",
+            "value": 4,
+            "source": {
+              "pdf_pages": [
+                7
+              ],
+              "printed_pages": [
+                4
+              ]
+            }
+          },
+          {
+            "id": "critical-thinking--B.q003.option5",
+            "label": "完全同意",
+            "value": 5,
+            "source": {
+              "pdf_pages": [
+                7
+              ],
+              "printed_pages": [
+                4
+              ]
+            }
+          }
+        ],
+        "minimum": 1,
+        "maximum": 5,
+        "cardinality": "single",
+        "slots": null,
+        "raw_instruction": "请根据你自己的情况对下面问题的选项进行打分。其中“完全不同意 -1”“比较不同意-2”“无所谓-3”“比较同意-4”“完全同意-5”",
+        "unknowns": [
+          {
+            "field": "required",
+            "reason": "原文未给必填要求，不补充约束。"
+          }
+        ],
+        "ranking": null
+      }
+    },
+    {
+      "id": "critical-thinking--B.q004",
+      "order": 4,
+      "original_number": null,
+      "role": "measurement",
+      "measurement_class": "scale",
+      "kind": "rating",
+      "raw_text": "我经常反复思考实践和经验中的对与错",
+      "student_text": "我经常反复思考实践和经验中的对与错",
+      "source": {
+        "pdf_pages": [
+          7
+        ],
+        "printed_pages": [
+          4
+        ]
+      },
+      "group_id": "critical-thinking--B.group002",
+      "subdimension": null,
+      "subdimension_reason": "原表仅明示本组；该组以下逐题细分维度未提供，不推断。",
+      "teacher_annotations": [],
+      "reverse": {
+        "marked": null,
+        "raw_marker": null,
+        "source": null,
+        "reason": "未见原文明示反向标记；否定句或概念标记不能据此推导反向。"
+      },
+      "response": {
+        "options": [
+          {
+            "id": "critical-thinking--B.q004.option1",
+            "label": "完全不同意",
+            "value": 1,
+            "source": {
+              "pdf_pages": [
+                7
+              ],
+              "printed_pages": [
+                4
+              ]
+            }
+          },
+          {
+            "id": "critical-thinking--B.q004.option2",
+            "label": "比较不同意",
+            "value": 2,
+            "source": {
+              "pdf_pages": [
+                7
+              ],
+              "printed_pages": [
+                4
+              ]
+            }
+          },
+          {
+            "id": "critical-thinking--B.q004.option3",
+            "label": "无所谓",
+            "value": 3,
+            "source": {
+              "pdf_pages": [
+                7
+              ],
+              "printed_pages": [
+                4
+              ]
+            }
+          },
+          {
+            "id": "critical-thinking--B.q004.option4",
+            "label": "比较同意",
+            "value": 4,
+            "source": {
+              "pdf_pages": [
+                7
+              ],
+              "printed_pages": [
+                4
+              ]
+            }
+          },
+          {
+            "id": "critical-thinking--B.q004.option5",
+            "label": "完全同意",
+            "value": 5,
+            "source": {
+              "pdf_pages": [
+                7
+              ],
+              "printed_pages": [
+                4
+              ]
+            }
+          }
+        ],
+        "minimum": 1,
+        "maximum": 5,
+        "cardinality": "single",
+        "slots": null,
+        "raw_instruction": "请根据你自己的情况对下面问题的选项进行打分。其中“完全不同意 -1”“比较不同意-2”“无所谓-3”“比较同意-4”“完全同意-5”",
+        "unknowns": [
+          {
+            "field": "required",
+            "reason": "原文未给必填要求，不补充约束。"
+          }
+        ],
+        "ranking": null
+      }
+    },
+    {
+      "id": "critical-thinking--B.q005",
+      "order": 5,
+      "original_number": null,
+      "role": "measurement",
+      "measurement_class": "scale",
+      "kind": "rating",
+      "raw_text": "我需要以问题解决为最终目标才可以不断谈论某一问题",
+      "student_text": "我需要以问题解决为最终目标才可以不断谈论某一问题",
+      "source": {
+        "pdf_pages": [
+          7
+        ],
+        "printed_pages": [
+          4
+        ]
+      },
+      "group_id": "critical-thinking--B.group002",
+      "subdimension": null,
+      "subdimension_reason": "原表仅明示本组；该组以下逐题细分维度未提供，不推断。",
+      "teacher_annotations": [],
+      "reverse": {
+        "marked": null,
+        "raw_marker": null,
+        "source": null,
+        "reason": "未见原文明示反向标记；否定句或概念标记不能据此推导反向。"
+      },
+      "response": {
+        "options": [
+          {
+            "id": "critical-thinking--B.q005.option1",
+            "label": "完全不同意",
+            "value": 1,
+            "source": {
+              "pdf_pages": [
+                7
+              ],
+              "printed_pages": [
+                4
+              ]
+            }
+          },
+          {
+            "id": "critical-thinking--B.q005.option2",
+            "label": "比较不同意",
+            "value": 2,
+            "source": {
+              "pdf_pages": [
+                7
+              ],
+              "printed_pages": [
+                4
+              ]
+            }
+          },
+          {
+            "id": "critical-thinking--B.q005.option3",
+            "label": "无所谓",
+            "value": 3,
+            "source": {
+              "pdf_pages": [
+                7
+              ],
+              "printed_pages": [
+                4
+              ]
+            }
+          },
+          {
+            "id": "critical-thinking--B.q005.option4",
+            "label": "比较同意",
+            "value": 4,
+            "source": {
+              "pdf_pages": [
+                7
+              ],
+              "printed_pages": [
+                4
+              ]
+            }
+          },
+          {
+            "id": "critical-thinking--B.q005.option5",
+            "label": "完全同意",
+            "value": 5,
+            "source": {
+              "pdf_pages": [
+                7
+              ],
+              "printed_pages": [
+                4
+              ]
+            }
+          }
+        ],
+        "minimum": 1,
+        "maximum": 5,
+        "cardinality": "single",
+        "slots": null,
+        "raw_instruction": "请根据你自己的情况对下面问题的选项进行打分。其中“完全不同意 -1”“比较不同意-2”“无所谓-3”“比较同意-4”“完全同意-5”",
+        "unknowns": [
+          {
+            "field": "required",
+            "reason": "原文未给必填要求，不补充约束。"
+          }
+        ],
+        "ranking": null
+      }
+    },
+    {
+      "id": "critical-thinking--B.q006",
+      "order": 6,
+      "original_number": null,
+      "role": "measurement",
+      "measurement_class": "scale",
+      "kind": "rating",
+      "raw_text": "我很少能一步一步推导出复杂问题的解决思路（反向检测题）",
+      "student_text": "我很少能一步一步推导出复杂问题的解决思路",
+      "source": {
+        "pdf_pages": [
+          7
+        ],
+        "printed_pages": [
+          4
+        ]
+      },
+      "group_id": "critical-thinking--B.group002",
+      "subdimension": null,
+      "subdimension_reason": "原表仅明示本组；该组以下逐题细分维度未提供，不推断。",
+      "teacher_annotations": [
+        {
+          "text": "（反向检测题）",
+          "kind": "reverse",
+          "visibility": "teacher",
+          "source": {
+            "pdf_pages": [
+              7
+            ],
+            "printed_pages": [
+              4
+            ]
+          }
+        }
+      ],
+      "reverse": {
+        "marked": true,
+        "raw_marker": "（反向检测题）",
+        "source": {
+          "pdf_pages": [
+            7
+          ],
+          "printed_pages": [
+            4
+          ]
+        },
+        "reason": null
+      },
+      "response": {
+        "options": [
+          {
+            "id": "critical-thinking--B.q006.option1",
+            "label": "完全不同意",
+            "value": 1,
+            "source": {
+              "pdf_pages": [
+                7
+              ],
+              "printed_pages": [
+                4
+              ]
+            }
+          },
+          {
+            "id": "critical-thinking--B.q006.option2",
+            "label": "比较不同意",
+            "value": 2,
+            "source": {
+              "pdf_pages": [
+                7
+              ],
+              "printed_pages": [
+                4
+              ]
+            }
+          },
+          {
+            "id": "critical-thinking--B.q006.option3",
+            "label": "无所谓",
+            "value": 3,
+            "source": {
+              "pdf_pages": [
+                7
+              ],
+              "printed_pages": [
+                4
+              ]
+            }
+          },
+          {
+            "id": "critical-thinking--B.q006.option4",
+            "label": "比较同意",
+            "value": 4,
+            "source": {
+              "pdf_pages": [
+                7
+              ],
+              "printed_pages": [
+                4
+              ]
+            }
+          },
+          {
+            "id": "critical-thinking--B.q006.option5",
+            "label": "完全同意",
+            "value": 5,
+            "source": {
+              "pdf_pages": [
+                7
+              ],
+              "printed_pages": [
+                4
+              ]
+            }
+          }
+        ],
+        "minimum": 1,
+        "maximum": 5,
+        "cardinality": "single",
+        "slots": null,
+        "raw_instruction": "请根据你自己的情况对下面问题的选项进行打分。其中“完全不同意 -1”“比较不同意-2”“无所谓-3”“比较同意-4”“完全同意-5”",
+        "unknowns": [
+          {
+            "field": "required",
+            "reason": "原文未给必填要求，不补充约束。"
+          },
+          {
+            "field": "display_order_and_score_mapping",
+            "reason": "原文要求反向题分值选项倒序，并提供反向转换；实际导入文字/数字/显示顺序关系尚待确认，不执行倒序或计分。"
+          }
+        ],
+        "ranking": null
+      }
+    },
+    {
+      "id": "critical-thinking--B.q007",
+      "order": 7,
+      "original_number": null,
+      "role": "measurement",
+      "measurement_class": "scale",
+      "kind": "rating",
+      "raw_text": "如果有事实证据与我的想法不符，我便不会坚持我的想法",
+      "student_text": "如果有事实证据与我的想法不符，我便不会坚持我的想法",
+      "source": {
+        "pdf_pages": [
+          7
+        ],
+        "printed_pages": [
+          4
+        ]
+      },
+      "group_id": "critical-thinking--B.group003",
+      "subdimension": null,
+      "subdimension_reason": "原表仅明示本组；该组以下逐题细分维度未提供，不推断。",
+      "teacher_annotations": [],
+      "reverse": {
+        "marked": null,
+        "raw_marker": null,
+        "source": null,
+        "reason": "未见原文明示反向标记；否定句或概念标记不能据此推导反向。"
+      },
+      "response": {
+        "options": [
+          {
+            "id": "critical-thinking--B.q007.option1",
+            "label": "完全不同意",
+            "value": 1,
+            "source": {
+              "pdf_pages": [
+                7
+              ],
+              "printed_pages": [
+                4
+              ]
+            }
+          },
+          {
+            "id": "critical-thinking--B.q007.option2",
+            "label": "比较不同意",
+            "value": 2,
+            "source": {
+              "pdf_pages": [
+                7
+              ],
+              "printed_pages": [
+                4
+              ]
+            }
+          },
+          {
+            "id": "critical-thinking--B.q007.option3",
+            "label": "无所谓",
+            "value": 3,
+            "source": {
+              "pdf_pages": [
+                7
+              ],
+              "printed_pages": [
+                4
+              ]
+            }
+          },
+          {
+            "id": "critical-thinking--B.q007.option4",
+            "label": "比较同意",
+            "value": 4,
+            "source": {
+              "pdf_pages": [
+                7
+              ],
+              "printed_pages": [
+                4
+              ]
+            }
+          },
+          {
+            "id": "critical-thinking--B.q007.option5",
+            "label": "完全同意",
+            "value": 5,
+            "source": {
+              "pdf_pages": [
+                7
+              ],
+              "printed_pages": [
+                4
+              ]
+            }
+          }
+        ],
+        "minimum": 1,
+        "maximum": 5,
+        "cardinality": "single",
+        "slots": null,
+        "raw_instruction": "请根据你自己的情况对下面问题的选项进行打分。其中“完全不同意 -1”“比较不同意-2”“无所谓-3”“比较同意-4”“完全同意-5”",
+        "unknowns": [
+          {
+            "field": "required",
+            "reason": "原文未给必填要求，不补充约束。"
+          }
+        ],
+        "ranking": null
+      }
+    },
+    {
+      "id": "critical-thinking--B.q008",
+      "order": 8,
+      "original_number": null,
+      "role": "measurement",
+      "measurement_class": "scale",
+      "kind": "rating",
+      "raw_text": "对很多问题我都乐意去寻找事实的真相",
+      "student_text": "对很多问题我都乐意去寻找事实的真相",
+      "source": {
+        "pdf_pages": [
+          7
+        ],
+        "printed_pages": [
+          4
+        ]
+      },
+      "group_id": "critical-thinking--B.group003",
+      "subdimension": null,
+      "subdimension_reason": "原表仅明示本组；该组以下逐题细分维度未提供，不推断。",
+      "teacher_annotations": [],
+      "reverse": {
+        "marked": null,
+        "raw_marker": null,
+        "source": null,
+        "reason": "未见原文明示反向标记；否定句或概念标记不能据此推导反向。"
+      },
+      "response": {
+        "options": [
+          {
+            "id": "critical-thinking--B.q008.option1",
+            "label": "完全不同意",
+            "value": 1,
+            "source": {
+              "pdf_pages": [
+                7
+              ],
+              "printed_pages": [
+                4
+              ]
+            }
+          },
+          {
+            "id": "critical-thinking--B.q008.option2",
+            "label": "比较不同意",
+            "value": 2,
+            "source": {
+              "pdf_pages": [
+                7
+              ],
+              "printed_pages": [
+                4
+              ]
+            }
+          },
+          {
+            "id": "critical-thinking--B.q008.option3",
+            "label": "无所谓",
+            "value": 3,
+            "source": {
+              "pdf_pages": [
+                7
+              ],
+              "printed_pages": [
+                4
+              ]
+            }
+          },
+          {
+            "id": "critical-thinking--B.q008.option4",
+            "label": "比较同意",
+            "value": 4,
+            "source": {
+              "pdf_pages": [
+                7
+              ],
+              "printed_pages": [
+                4
+              ]
+            }
+          },
+          {
+            "id": "critical-thinking--B.q008.option5",
+            "label": "完全同意",
+            "value": 5,
+            "source": {
+              "pdf_pages": [
+                7
+              ],
+              "printed_pages": [
+                4
+              ]
+            }
+          }
+        ],
+        "minimum": 1,
+        "maximum": 5,
+        "cardinality": "single",
+        "slots": null,
+        "raw_instruction": "请根据你自己的情况对下面问题的选项进行打分。其中“完全不同意 -1”“比较不同意-2”“无所谓-3”“比较同意-4”“完全同意-5”",
+        "unknowns": [
+          {
+            "field": "required",
+            "reason": "原文未给必填要求，不补充约束。"
+          }
+        ],
+        "ranking": null
+      }
+    },
+    {
+      "id": "critical-thinking--B.q009",
+      "order": 9,
+      "original_number": null,
+      "role": "measurement",
+      "measurement_class": "scale",
+      "kind": "rating",
+      "raw_text": "我表达自己的意见时，有时会忽略客观事实（反向检测题）",
+      "student_text": "我表达自己的意见时，有时会忽略客观事实",
+      "source": {
+        "pdf_pages": [
+          7
+        ],
+        "printed_pages": [
+          4
+        ]
+      },
+      "group_id": "critical-thinking--B.group003",
+      "subdimension": null,
+      "subdimension_reason": "原表仅明示本组；该组以下逐题细分维度未提供，不推断。",
+      "teacher_annotations": [
+        {
+          "text": "（反向检测题）",
+          "kind": "reverse",
+          "visibility": "teacher",
+          "source": {
+            "pdf_pages": [
+              7
+            ],
+            "printed_pages": [
+              4
+            ]
+          }
+        }
+      ],
+      "reverse": {
+        "marked": true,
+        "raw_marker": "（反向检测题）",
+        "source": {
+          "pdf_pages": [
+            7
+          ],
+          "printed_pages": [
+            4
+          ]
+        },
+        "reason": null
+      },
+      "response": {
+        "options": [
+          {
+            "id": "critical-thinking--B.q009.option1",
+            "label": "完全不同意",
+            "value": 1,
+            "source": {
+              "pdf_pages": [
+                7
+              ],
+              "printed_pages": [
+                4
+              ]
+            }
+          },
+          {
+            "id": "critical-thinking--B.q009.option2",
+            "label": "比较不同意",
+            "value": 2,
+            "source": {
+              "pdf_pages": [
+                7
+              ],
+              "printed_pages": [
+                4
+              ]
+            }
+          },
+          {
+            "id": "critical-thinking--B.q009.option3",
+            "label": "无所谓",
+            "value": 3,
+            "source": {
+              "pdf_pages": [
+                7
+              ],
+              "printed_pages": [
+                4
+              ]
+            }
+          },
+          {
+            "id": "critical-thinking--B.q009.option4",
+            "label": "比较同意",
+            "value": 4,
+            "source": {
+              "pdf_pages": [
+                7
+              ],
+              "printed_pages": [
+                4
+              ]
+            }
+          },
+          {
+            "id": "critical-thinking--B.q009.option5",
+            "label": "完全同意",
+            "value": 5,
+            "source": {
+              "pdf_pages": [
+                7
+              ],
+              "printed_pages": [
+                4
+              ]
+            }
+          }
+        ],
+        "minimum": 1,
+        "maximum": 5,
+        "cardinality": "single",
+        "slots": null,
+        "raw_instruction": "请根据你自己的情况对下面问题的选项进行打分。其中“完全不同意 -1”“比较不同意-2”“无所谓-3”“比较同意-4”“完全同意-5”",
+        "unknowns": [
+          {
+            "field": "required",
+            "reason": "原文未给必填要求，不补充约束。"
+          },
+          {
+            "field": "display_order_and_score_mapping",
+            "reason": "原文要求反向题分值选项倒序，并提供反向转换；实际导入文字/数字/显示顺序关系尚待确认，不执行倒序或计分。"
+          }
+        ],
+        "ranking": null
+      }
+    },
+    {
+      "id": "critical-thinking--B.q010",
+      "order": 10,
+      "original_number": null,
+      "role": "measurement",
+      "measurement_class": "scale",
+      "kind": "rating",
+      "raw_text": "对不同的世界观（例如：有神论、进化论等）持开放态度，对我来说很重要",
+      "student_text": "对不同的世界观（例如：有神论、进化论等）持开放态度，对我来说很重要",
+      "source": {
+        "pdf_pages": [
+          7
+        ],
+        "printed_pages": [
+          4
+        ]
+      },
+      "group_id": "critical-thinking--B.group004",
+      "subdimension": null,
+      "subdimension_reason": "原表仅明示本组；该组以下逐题细分维度未提供，不推断。",
+      "teacher_annotations": [],
+      "reverse": {
+        "marked": null,
+        "raw_marker": null,
+        "source": null,
+        "reason": "未见原文明示反向标记；否定句或概念标记不能据此推导反向。"
+      },
+      "response": {
+        "options": [
+          {
+            "id": "critical-thinking--B.q010.option1",
+            "label": "完全不同意",
+            "value": 1,
+            "source": {
+              "pdf_pages": [
+                7
+              ],
+              "printed_pages": [
+                4
+              ]
+            }
+          },
+          {
+            "id": "critical-thinking--B.q010.option2",
+            "label": "比较不同意",
+            "value": 2,
+            "source": {
+              "pdf_pages": [
+                7
+              ],
+              "printed_pages": [
+                4
+              ]
+            }
+          },
+          {
+            "id": "critical-thinking--B.q010.option3",
+            "label": "无所谓",
+            "value": 3,
+            "source": {
+              "pdf_pages": [
+                7
+              ],
+              "printed_pages": [
+                4
+              ]
+            }
+          },
+          {
+            "id": "critical-thinking--B.q010.option4",
+            "label": "比较同意",
+            "value": 4,
+            "source": {
+              "pdf_pages": [
+                7
+              ],
+              "printed_pages": [
+                4
+              ]
+            }
+          },
+          {
+            "id": "critical-thinking--B.q010.option5",
+            "label": "完全同意",
+            "value": 5,
+            "source": {
+              "pdf_pages": [
+                7
+              ],
+              "printed_pages": [
+                4
+              ]
+            }
+          }
+        ],
+        "minimum": 1,
+        "maximum": 5,
+        "cardinality": "single",
+        "slots": null,
+        "raw_instruction": "请根据你自己的情况对下面问题的选项进行打分。其中“完全不同意 -1”“比较不同意-2”“无所谓-3”“比较同意-4”“完全同意-5”",
+        "unknowns": [
+          {
+            "field": "required",
+            "reason": "原文未给必填要求，不补充约束。"
+          }
+        ],
+        "ranking": null
+      }
+    },
+    {
+      "id": "critical-thinking--B.q011",
+      "order": 11,
+      "original_number": null,
+      "role": "measurement",
+      "measurement_class": "scale",
+      "kind": "rating",
+      "raw_text": "我不会探究众人都认为是理所当然的事（反向检测题）",
+      "student_text": "我不会探究众人都认为是理所当然的事",
+      "source": {
+        "pdf_pages": [
+          7
+        ],
+        "printed_pages": [
+          4
+        ]
+      },
+      "group_id": "critical-thinking--B.group004",
+      "subdimension": null,
+      "subdimension_reason": "原表仅明示本组；该组以下逐题细分维度未提供，不推断。",
+      "teacher_annotations": [
+        {
+          "text": "（反向检测题）",
+          "kind": "reverse",
+          "visibility": "teacher",
+          "source": {
+            "pdf_pages": [
+              7
+            ],
+            "printed_pages": [
+              4
+            ]
+          }
+        }
+      ],
+      "reverse": {
+        "marked": true,
+        "raw_marker": "（反向检测题）",
+        "source": {
+          "pdf_pages": [
+            7
+          ],
+          "printed_pages": [
+            4
+          ]
+        },
+        "reason": null
+      },
+      "response": {
+        "options": [
+          {
+            "id": "critical-thinking--B.q011.option1",
+            "label": "完全不同意",
+            "value": 1,
+            "source": {
+              "pdf_pages": [
+                7
+              ],
+              "printed_pages": [
+                4
+              ]
+            }
+          },
+          {
+            "id": "critical-thinking--B.q011.option2",
+            "label": "比较不同意",
+            "value": 2,
+            "source": {
+              "pdf_pages": [
+                7
+              ],
+              "printed_pages": [
+                4
+              ]
+            }
+          },
+          {
+            "id": "critical-thinking--B.q011.option3",
+            "label": "无所谓",
+            "value": 3,
+            "source": {
+              "pdf_pages": [
+                7
+              ],
+              "printed_pages": [
+                4
+              ]
+            }
+          },
+          {
+            "id": "critical-thinking--B.q011.option4",
+            "label": "比较同意",
+            "value": 4,
+            "source": {
+              "pdf_pages": [
+                7
+              ],
+              "printed_pages": [
+                4
+              ]
+            }
+          },
+          {
+            "id": "critical-thinking--B.q011.option5",
+            "label": "完全同意",
+            "value": 5,
+            "source": {
+              "pdf_pages": [
+                7
+              ],
+              "printed_pages": [
+                4
+              ]
+            }
+          }
+        ],
+        "minimum": 1,
+        "maximum": 5,
+        "cardinality": "single",
+        "slots": null,
+        "raw_instruction": "请根据你自己的情况对下面问题的选项进行打分。其中“完全不同意 -1”“比较不同意-2”“无所谓-3”“比较同意-4”“完全同意-5”",
+        "unknowns": [
+          {
+            "field": "required",
+            "reason": "原文未给必填要求，不补充约束。"
+          },
+          {
+            "field": "display_order_and_score_mapping",
+            "reason": "原文要求反向题分值选项倒序，并提供反向转换；实际导入文字/数字/显示顺序关系尚待确认，不执行倒序或计分。"
+          }
+        ],
+        "ranking": null
+      }
+    },
+    {
+      "id": "critical-thinking--B.q012",
+      "order": 12,
+      "original_number": null,
+      "role": "measurement",
+      "measurement_class": "scale",
+      "kind": "rating",
+      "raw_text": "各人有权利发表他们的意见，但我会理会和在意他们的意见",
+      "student_text": "各人有权利发表他们的意见，但我会理会和在意他们的意见",
+      "source": {
+        "pdf_pages": [
+          7
+        ],
+        "printed_pages": [
+          4
+        ]
+      },
+      "group_id": "critical-thinking--B.group004",
+      "subdimension": null,
+      "subdimension_reason": "原表仅明示本组；该组以下逐题细分维度未提供，不推断。",
+      "teacher_annotations": [],
+      "reverse": {
+        "marked": null,
+        "raw_marker": null,
+        "source": null,
+        "reason": "未见原文明示反向标记；否定句或概念标记不能据此推导反向。"
+      },
+      "response": {
+        "options": [
+          {
+            "id": "critical-thinking--B.q012.option1",
+            "label": "完全不同意",
+            "value": 1,
+            "source": {
+              "pdf_pages": [
+                7
+              ],
+              "printed_pages": [
+                4
+              ]
+            }
+          },
+          {
+            "id": "critical-thinking--B.q012.option2",
+            "label": "比较不同意",
+            "value": 2,
+            "source": {
+              "pdf_pages": [
+                7
+              ],
+              "printed_pages": [
+                4
+              ]
+            }
+          },
+          {
+            "id": "critical-thinking--B.q012.option3",
+            "label": "无所谓",
+            "value": 3,
+            "source": {
+              "pdf_pages": [
+                7
+              ],
+              "printed_pages": [
+                4
+              ]
+            }
+          },
+          {
+            "id": "critical-thinking--B.q012.option4",
+            "label": "比较同意",
+            "value": 4,
+            "source": {
+              "pdf_pages": [
+                7
+              ],
+              "printed_pages": [
+                4
+              ]
+            }
+          },
+          {
+            "id": "critical-thinking--B.q012.option5",
+            "label": "完全同意",
+            "value": 5,
+            "source": {
+              "pdf_pages": [
+                7
+              ],
+              "printed_pages": [
+                4
+              ]
+            }
+          }
+        ],
+        "minimum": 1,
+        "maximum": 5,
+        "cardinality": "single",
+        "slots": null,
+        "raw_instruction": "请根据你自己的情况对下面问题的选项进行打分。其中“完全不同意 -1”“比较不同意-2”“无所谓-3”“比较同意-4”“完全同意-5”",
+        "unknowns": [
+          {
+            "field": "required",
+            "reason": "原文未给必填要求，不补充约束。"
+          }
+        ],
+        "ranking": null
+      }
+    },
+    {
+      "id": "critical-thinking--B.q013",
+      "order": 13,
+      "original_number": null,
+      "role": "measurement",
+      "measurement_class": "scale",
+      "kind": "rating",
+      "raw_text": "做决定时，其他人期待我去制定适当的准则作指引",
+      "student_text": "做决定时，其他人期待我去制定适当的准则作指引",
+      "source": {
+        "pdf_pages": [
+          7
+        ],
+        "printed_pages": [
+          4
+        ]
+      },
+      "group_id": "critical-thinking--B.group005",
+      "subdimension": null,
+      "subdimension_reason": "原表仅明示本组；该组以下逐题细分维度未提供，不推断。",
+      "teacher_annotations": [],
+      "reverse": {
+        "marked": null,
+        "raw_marker": null,
+        "source": null,
+        "reason": "未见原文明示反向标记；否定句或概念标记不能据此推导反向。"
+      },
+      "response": {
+        "options": [
+          {
+            "id": "critical-thinking--B.q013.option1",
+            "label": "完全不同意",
+            "value": 1,
+            "source": {
+              "pdf_pages": [
+                7
+              ],
+              "printed_pages": [
+                4
+              ]
+            }
+          },
+          {
+            "id": "critical-thinking--B.q013.option2",
+            "label": "比较不同意",
+            "value": 2,
+            "source": {
+              "pdf_pages": [
+                7
+              ],
+              "printed_pages": [
+                4
+              ]
+            }
+          },
+          {
+            "id": "critical-thinking--B.q013.option3",
+            "label": "无所谓",
+            "value": 3,
+            "source": {
+              "pdf_pages": [
+                7
+              ],
+              "printed_pages": [
+                4
+              ]
+            }
+          },
+          {
+            "id": "critical-thinking--B.q013.option4",
+            "label": "比较同意",
+            "value": 4,
+            "source": {
+              "pdf_pages": [
+                7
+              ],
+              "printed_pages": [
+                4
+              ]
+            }
+          },
+          {
+            "id": "critical-thinking--B.q013.option5",
+            "label": "完全同意",
+            "value": 5,
+            "source": {
+              "pdf_pages": [
+                7
+              ],
+              "printed_pages": [
+                4
+              ]
+            }
+          }
+        ],
+        "minimum": 1,
+        "maximum": 5,
+        "cardinality": "single",
+        "slots": null,
+        "raw_instruction": "请根据你自己的情况对下面问题的选项进行打分。其中“完全不同意 -1”“比较不同意-2”“无所谓-3”“比较同意-4”“完全同意-5”",
+        "unknowns": [
+          {
+            "field": "required",
+            "reason": "原文未给必填要求，不补充约束。"
+          }
+        ],
+        "ranking": null
+      }
+    },
+    {
+      "id": "critical-thinking--B.q014",
+      "order": 14,
+      "original_number": null,
+      "role": "measurement",
+      "measurement_class": "scale",
+      "kind": "rating",
+      "raw_text": "对自己能够了解其他人的观点，我很满足",
+      "student_text": "对自己能够了解其他人的观点，我很满足",
+      "source": {
+        "pdf_pages": [
+          7
+        ],
+        "printed_pages": [
+          4
+        ]
+      },
+      "group_id": "critical-thinking--B.group005",
+      "subdimension": null,
+      "subdimension_reason": "原表仅明示本组；该组以下逐题细分维度未提供，不推断。",
+      "teacher_annotations": [],
+      "reverse": {
+        "marked": null,
+        "raw_marker": null,
+        "source": null,
+        "reason": "未见原文明示反向标记；否定句或概念标记不能据此推导反向。"
+      },
+      "response": {
+        "options": [
+          {
+            "id": "critical-thinking--B.q014.option1",
+            "label": "完全不同意",
+            "value": 1,
+            "source": {
+              "pdf_pages": [
+                7
+              ],
+              "printed_pages": [
+                4
+              ]
+            }
+          },
+          {
+            "id": "critical-thinking--B.q014.option2",
+            "label": "比较不同意",
+            "value": 2,
+            "source": {
+              "pdf_pages": [
+                7
+              ],
+              "printed_pages": [
+                4
+              ]
+            }
+          },
+          {
+            "id": "critical-thinking--B.q014.option3",
+            "label": "无所谓",
+            "value": 3,
+            "source": {
+              "pdf_pages": [
+                7
+              ],
+              "printed_pages": [
+                4
+              ]
+            }
+          },
+          {
+            "id": "critical-thinking--B.q014.option4",
+            "label": "比较同意",
+            "value": 4,
+            "source": {
+              "pdf_pages": [
+                7
+              ],
+              "printed_pages": [
+                4
+              ]
+            }
+          },
+          {
+            "id": "critical-thinking--B.q014.option5",
+            "label": "完全同意",
+            "value": 5,
+            "source": {
+              "pdf_pages": [
+                7
+              ],
+              "printed_pages": [
+                4
+              ]
+            }
+          }
+        ],
+        "minimum": 1,
+        "maximum": 5,
+        "cardinality": "single",
+        "slots": null,
+        "raw_instruction": "请根据你自己的情况对下面问题的选项进行打分。其中“完全不同意 -1”“比较不同意-2”“无所谓-3”“比较同意-4”“完全同意-5”",
+        "unknowns": [
+          {
+            "field": "required",
+            "reason": "原文未给必填要求，不补充约束。"
+          }
+        ],
+        "ranking": null
+      }
+    },
+    {
+      "id": "critical-thinking--B.q015",
+      "order": 15,
+      "original_number": null,
+      "role": "measurement",
+      "measurement_class": "scale",
+      "kind": "rating",
+      "raw_text": "当问题变得棘手时，我会期待其他人帮我处理（反向检测题）",
+      "student_text": "当问题变得棘手时，我会期待其他人帮我处理",
+      "source": {
+        "pdf_pages": [
+          7
+        ],
+        "printed_pages": [
+          4
+        ]
+      },
+      "group_id": "critical-thinking--B.group005",
+      "subdimension": null,
+      "subdimension_reason": "原表仅明示本组；该组以下逐题细分维度未提供，不推断。",
+      "teacher_annotations": [
+        {
+          "text": "（反向检测题）",
+          "kind": "reverse",
+          "visibility": "teacher",
+          "source": {
+            "pdf_pages": [
+              7
+            ],
+            "printed_pages": [
+              4
+            ]
+          }
+        }
+      ],
+      "reverse": {
+        "marked": true,
+        "raw_marker": "（反向检测题）",
+        "source": {
+          "pdf_pages": [
+            7
+          ],
+          "printed_pages": [
+            4
+          ]
+        },
+        "reason": null
+      },
+      "response": {
+        "options": [
+          {
+            "id": "critical-thinking--B.q015.option1",
+            "label": "完全不同意",
+            "value": 1,
+            "source": {
+              "pdf_pages": [
+                7
+              ],
+              "printed_pages": [
+                4
+              ]
+            }
+          },
+          {
+            "id": "critical-thinking--B.q015.option2",
+            "label": "比较不同意",
+            "value": 2,
+            "source": {
+              "pdf_pages": [
+                7
+              ],
+              "printed_pages": [
+                4
+              ]
+            }
+          },
+          {
+            "id": "critical-thinking--B.q015.option3",
+            "label": "无所谓",
+            "value": 3,
+            "source": {
+              "pdf_pages": [
+                7
+              ],
+              "printed_pages": [
+                4
+              ]
+            }
+          },
+          {
+            "id": "critical-thinking--B.q015.option4",
+            "label": "比较同意",
+            "value": 4,
+            "source": {
+              "pdf_pages": [
+                7
+              ],
+              "printed_pages": [
+                4
+              ]
+            }
+          },
+          {
+            "id": "critical-thinking--B.q015.option5",
+            "label": "完全同意",
+            "value": 5,
+            "source": {
+              "pdf_pages": [
+                7
+              ],
+              "printed_pages": [
+                4
+              ]
+            }
+          }
+        ],
+        "minimum": 1,
+        "maximum": 5,
+        "cardinality": "single",
+        "slots": null,
+        "raw_instruction": "请根据你自己的情况对下面问题的选项进行打分。其中“完全不同意 -1”“比较不同意-2”“无所谓-3”“比较同意-4”“完全同意-5”",
+        "unknowns": [
+          {
+            "field": "required",
+            "reason": "原文未给必填要求，不补充约束。"
+          },
+          {
+            "field": "display_order_and_score_mapping",
+            "reason": "原文要求反向题分值选项倒序，并提供反向转换；实际导入文字/数字/显示顺序关系尚待确认，不执行倒序或计分。"
+          }
+        ],
+        "ranking": null
+      }
+    },
+    {
+      "id": "critical-thinking--B.q016",
+      "order": 16,
+      "original_number": null,
+      "role": "measurement",
+      "measurement_class": "scale",
+      "kind": "rating",
+      "raw_text": "研究新事物能使我的人生更丰富",
+      "student_text": "研究新事物能使我的人生更丰富",
+      "source": {
+        "pdf_pages": [
+          7
+        ],
+        "printed_pages": [
+          4
+        ]
+      },
+      "group_id": "critical-thinking--B.group006",
+      "subdimension": null,
+      "subdimension_reason": "原表仅明示本组；该组以下逐题细分维度未提供，不推断。",
+      "teacher_annotations": [],
+      "reverse": {
+        "marked": null,
+        "raw_marker": null,
+        "source": null,
+        "reason": "未见原文明示反向标记；否定句或概念标记不能据此推导反向。"
+      },
+      "response": {
+        "options": [
+          {
+            "id": "critical-thinking--B.q016.option1",
+            "label": "完全不同意",
+            "value": 1,
+            "source": {
+              "pdf_pages": [
+                7
+              ],
+              "printed_pages": [
+                4
+              ]
+            }
+          },
+          {
+            "id": "critical-thinking--B.q016.option2",
+            "label": "比较不同意",
+            "value": 2,
+            "source": {
+              "pdf_pages": [
+                7
+              ],
+              "printed_pages": [
+                4
+              ]
+            }
+          },
+          {
+            "id": "critical-thinking--B.q016.option3",
+            "label": "无所谓",
+            "value": 3,
+            "source": {
+              "pdf_pages": [
+                7
+              ],
+              "printed_pages": [
+                4
+              ]
+            }
+          },
+          {
+            "id": "critical-thinking--B.q016.option4",
+            "label": "比较同意",
+            "value": 4,
+            "source": {
+              "pdf_pages": [
+                7
+              ],
+              "printed_pages": [
+                4
+              ]
+            }
+          },
+          {
+            "id": "critical-thinking--B.q016.option5",
+            "label": "完全同意",
+            "value": 5,
+            "source": {
+              "pdf_pages": [
+                7
+              ],
+              "printed_pages": [
+                4
+              ]
+            }
+          }
+        ],
+        "minimum": 1,
+        "maximum": 5,
+        "cardinality": "single",
+        "slots": null,
+        "raw_instruction": "请根据你自己的情况对下面问题的选项进行打分。其中“完全不同意 -1”“比较不同意-2”“无所谓-3”“比较同意-4”“完全同意-5”",
+        "unknowns": [
+          {
+            "field": "required",
+            "reason": "原文未给必填要求，不补充约束。"
+          }
+        ],
+        "ranking": null
+      }
+    },
+    {
+      "id": "critical-thinking--B.q017",
+      "order": 17,
+      "original_number": null,
+      "role": "measurement",
+      "measurement_class": "scale",
+      "kind": "rating",
+      "raw_text": "我会尽量去学习每一样东西，即使我不知道它们何时有用",
+      "student_text": "我会尽量去学习每一样东西，即使我不知道它们何时有用",
+      "source": {
+        "pdf_pages": [
+          7
+        ],
+        "printed_pages": [
+          4
+        ]
+      },
+      "group_id": "critical-thinking--B.group006",
+      "subdimension": null,
+      "subdimension_reason": "原表仅明示本组；该组以下逐题细分维度未提供，不推断。",
+      "teacher_annotations": [],
+      "reverse": {
+        "marked": null,
+        "raw_marker": null,
+        "source": null,
+        "reason": "未见原文明示反向标记；否定句或概念标记不能据此推导反向。"
+      },
+      "response": {
+        "options": [
+          {
+            "id": "critical-thinking--B.q017.option1",
+            "label": "完全不同意",
+            "value": 1,
+            "source": {
+              "pdf_pages": [
+                7
+              ],
+              "printed_pages": [
+                4
+              ]
+            }
+          },
+          {
+            "id": "critical-thinking--B.q017.option2",
+            "label": "比较不同意",
+            "value": 2,
+            "source": {
+              "pdf_pages": [
+                7
+              ],
+              "printed_pages": [
+                4
+              ]
+            }
+          },
+          {
+            "id": "critical-thinking--B.q017.option3",
+            "label": "无所谓",
+            "value": 3,
+            "source": {
+              "pdf_pages": [
+                7
+              ],
+              "printed_pages": [
+                4
+              ]
+            }
+          },
+          {
+            "id": "critical-thinking--B.q017.option4",
+            "label": "比较同意",
+            "value": 4,
+            "source": {
+              "pdf_pages": [
+                7
+              ],
+              "printed_pages": [
+                4
+              ]
+            }
+          },
+          {
+            "id": "critical-thinking--B.q017.option5",
+            "label": "完全同意",
+            "value": 5,
+            "source": {
+              "pdf_pages": [
+                7
+              ],
+              "printed_pages": [
+                4
+              ]
+            }
+          }
+        ],
+        "minimum": 1,
+        "maximum": 5,
+        "cardinality": "single",
+        "slots": null,
+        "raw_instruction": "请根据你自己的情况对下面问题的选项进行打分。其中“完全不同意 -1”“比较不同意-2”“无所谓-3”“比较同意-4”“完全同意-5”",
+        "unknowns": [
+          {
+            "field": "required",
+            "reason": "原文未给必填要求，不补充约束。"
+          }
+        ],
+        "ranking": null
+      }
+    },
+    {
+      "id": "critical-thinking--B.q018",
+      "order": 18,
+      "original_number": null,
+      "role": "measurement",
+      "measurement_class": "scale",
+      "kind": "rating",
+      "raw_text": "主动尝试去解决各样的难题，并非那么重要（反向检测题）",
+      "student_text": "主动尝试去解决各样的难题，并非那么重要",
+      "source": {
+        "pdf_pages": [
+          7
+        ],
+        "printed_pages": [
+          4
+        ]
+      },
+      "group_id": "critical-thinking--B.group006",
+      "subdimension": null,
+      "subdimension_reason": "原表仅明示本组；该组以下逐题细分维度未提供，不推断。",
+      "teacher_annotations": [
+        {
+          "text": "（反向检测题）",
+          "kind": "reverse",
+          "visibility": "teacher",
+          "source": {
+            "pdf_pages": [
+              7
+            ],
+            "printed_pages": [
+              4
+            ]
+          }
+        }
+      ],
+      "reverse": {
+        "marked": true,
+        "raw_marker": "（反向检测题）",
+        "source": {
+          "pdf_pages": [
+            7
+          ],
+          "printed_pages": [
+            4
+          ]
+        },
+        "reason": null
+      },
+      "response": {
+        "options": [
+          {
+            "id": "critical-thinking--B.q018.option1",
+            "label": "完全不同意",
+            "value": 1,
+            "source": {
+              "pdf_pages": [
+                7
+              ],
+              "printed_pages": [
+                4
+              ]
+            }
+          },
+          {
+            "id": "critical-thinking--B.q018.option2",
+            "label": "比较不同意",
+            "value": 2,
+            "source": {
+              "pdf_pages": [
+                7
+              ],
+              "printed_pages": [
+                4
+              ]
+            }
+          },
+          {
+            "id": "critical-thinking--B.q018.option3",
+            "label": "无所谓",
+            "value": 3,
+            "source": {
+              "pdf_pages": [
+                7
+              ],
+              "printed_pages": [
+                4
+              ]
+            }
+          },
+          {
+            "id": "critical-thinking--B.q018.option4",
+            "label": "比较同意",
+            "value": 4,
+            "source": {
+              "pdf_pages": [
+                7
+              ],
+              "printed_pages": [
+                4
+              ]
+            }
+          },
+          {
+            "id": "critical-thinking--B.q018.option5",
+            "label": "完全同意",
+            "value": 5,
+            "source": {
+              "pdf_pages": [
+                7
+              ],
+              "printed_pages": [
+                4
+              ]
+            }
+          }
+        ],
+        "minimum": 1,
+        "maximum": 5,
+        "cardinality": "single",
+        "slots": null,
+        "raw_instruction": "请根据你自己的情况对下面问题的选项进行打分。其中“完全不同意 -1”“比较不同意-2”“无所谓-3”“比较同意-4”“完全同意-5”",
+        "unknowns": [
+          {
+            "field": "required",
+            "reason": "原文未给必填要求，不补充约束。"
+          },
+          {
+            "field": "display_order_and_score_mapping",
+            "reason": "原文要求反向题分值选项倒序，并提供反向转换；实际导入文字/数字/显示顺序关系尚待确认，不执行倒序或计分。"
+          }
+        ],
+        "ranking": null
+      }
+    },
+    {
+      "id": "critical-thinking--B.q019",
+      "order": 19,
+      "original_number": null,
+      "role": "measurement",
+      "measurement_class": "scale",
+      "kind": "rating",
+      "raw_text": "某一领域的权威专家所做的决定不一定是正确的决定",
+      "student_text": "某一领域的权威专家所做的决定不一定是正确的决定",
+      "source": {
+        "pdf_pages": [
+          7
+        ],
+        "printed_pages": [
+          4
+        ]
+      },
+      "group_id": "critical-thinking--B.group007",
+      "subdimension": null,
+      "subdimension_reason": "原表仅明示本组；该组以下逐题细分维度未提供，不推断。",
+      "teacher_annotations": [],
+      "reverse": {
+        "marked": null,
+        "raw_marker": null,
+        "source": null,
+        "reason": "未见原文明示反向标记；否定句或概念标记不能据此推导反向。"
+      },
+      "response": {
+        "options": [
+          {
+            "id": "critical-thinking--B.q019.option1",
+            "label": "完全不同意",
+            "value": 1,
+            "source": {
+              "pdf_pages": [
+                7
+              ],
+              "printed_pages": [
+                4
+              ]
+            }
+          },
+          {
+            "id": "critical-thinking--B.q019.option2",
+            "label": "比较不同意",
+            "value": 2,
+            "source": {
+              "pdf_pages": [
+                7
+              ],
+              "printed_pages": [
+                4
+              ]
+            }
+          },
+          {
+            "id": "critical-thinking--B.q019.option3",
+            "label": "无所谓",
+            "value": 3,
+            "source": {
+              "pdf_pages": [
+                7
+              ],
+              "printed_pages": [
+                4
+              ]
+            }
+          },
+          {
+            "id": "critical-thinking--B.q019.option4",
+            "label": "比较同意",
+            "value": 4,
+            "source": {
+              "pdf_pages": [
+                7
+              ],
+              "printed_pages": [
+                4
+              ]
+            }
+          },
+          {
+            "id": "critical-thinking--B.q019.option5",
+            "label": "完全同意",
+            "value": 5,
+            "source": {
+              "pdf_pages": [
+                7
+              ],
+              "printed_pages": [
+                4
+              ]
+            }
+          }
+        ],
+        "minimum": 1,
+        "maximum": 5,
+        "cardinality": "single",
+        "slots": null,
+        "raw_instruction": "请根据你自己的情况对下面问题的选项进行打分。其中“完全不同意 -1”“比较不同意-2”“无所谓-3”“比较同意-4”“完全同意-5”",
+        "unknowns": [
+          {
+            "field": "required",
+            "reason": "原文未给必填要求，不补充约束。"
+          }
+        ],
+        "ranking": null
+      }
+    },
+    {
+      "id": "critical-thinking--B.q020",
+      "order": 20,
+      "original_number": null,
+      "role": "measurement",
+      "measurement_class": "scale",
+      "kind": "rating",
+      "raw_text": "最好的论点，并不来自于对某个问题的瞬间感觉",
+      "student_text": "最好的论点，并不来自于对某个问题的瞬间感觉",
+      "source": {
+        "pdf_pages": [
+          7
+        ],
+        "printed_pages": [
+          4
+        ]
+      },
+      "group_id": "critical-thinking--B.group007",
+      "subdimension": null,
+      "subdimension_reason": "原表仅明示本组；该组以下逐题细分维度未提供，不推断。",
+      "teacher_annotations": [],
+      "reverse": {
+        "marked": null,
+        "raw_marker": null,
+        "source": null,
+        "reason": "未见原文明示反向标记；否定句或概念标记不能据此推导反向。"
+      },
+      "response": {
+        "options": [
+          {
+            "id": "critical-thinking--B.q020.option1",
+            "label": "完全不同意",
+            "value": 1,
+            "source": {
+              "pdf_pages": [
+                7
+              ],
+              "printed_pages": [
+                4
+              ]
+            }
+          },
+          {
+            "id": "critical-thinking--B.q020.option2",
+            "label": "比较不同意",
+            "value": 2,
+            "source": {
+              "pdf_pages": [
+                7
+              ],
+              "printed_pages": [
+                4
+              ]
+            }
+          },
+          {
+            "id": "critical-thinking--B.q020.option3",
+            "label": "无所谓",
+            "value": 3,
+            "source": {
+              "pdf_pages": [
+                7
+              ],
+              "printed_pages": [
+                4
+              ]
+            }
+          },
+          {
+            "id": "critical-thinking--B.q020.option4",
+            "label": "比较同意",
+            "value": 4,
+            "source": {
+              "pdf_pages": [
+                7
+              ],
+              "printed_pages": [
+                4
+              ]
+            }
+          },
+          {
+            "id": "critical-thinking--B.q020.option5",
+            "label": "完全同意",
+            "value": 5,
+            "source": {
+              "pdf_pages": [
+                7
+              ],
+              "printed_pages": [
+                4
+              ]
+            }
+          }
+        ],
+        "minimum": 1,
+        "maximum": 5,
+        "cardinality": "single",
+        "slots": null,
+        "raw_instruction": "请根据你自己的情况对下面问题的选项进行打分。其中“完全不同意 -1”“比较不同意-2”“无所谓-3”“比较同意-4”“完全同意-5”",
+        "unknowns": [
+          {
+            "field": "required",
+            "reason": "原文未给必填要求，不补充约束。"
+          }
+        ],
+        "ranking": null
+      }
+    },
+    {
+      "id": "critical-thinking--B.q021",
+      "order": 21,
+      "original_number": null,
+      "role": "measurement",
+      "measurement_class": "scale",
+      "kind": "rating",
+      "raw_text": "当出现某种知识能推翻我的决定时，我倾向于立即修改已有判断（反向检测题）",
+      "student_text": "当出现某种知识能推翻我的决定时，我倾向于立即修改已有判断",
+      "source": {
+        "pdf_pages": [
+          7
+        ],
+        "printed_pages": [
+          4
+        ]
+      },
+      "group_id": "critical-thinking--B.group007",
+      "subdimension": null,
+      "subdimension_reason": "原表仅明示本组；该组以下逐题细分维度未提供，不推断。",
+      "teacher_annotations": [
+        {
+          "text": "（反向检测题）",
+          "kind": "reverse",
+          "visibility": "teacher",
+          "source": {
+            "pdf_pages": [
+              7
+            ],
+            "printed_pages": [
+              4
+            ]
+          }
+        }
+      ],
+      "reverse": {
+        "marked": true,
+        "raw_marker": "（反向检测题）",
+        "source": {
+          "pdf_pages": [
+            7
+          ],
+          "printed_pages": [
+            4
+          ]
+        },
+        "reason": null
+      },
+      "response": {
+        "options": [
+          {
+            "id": "critical-thinking--B.q021.option1",
+            "label": "完全不同意",
+            "value": 1,
+            "source": {
+              "pdf_pages": [
+                7
+              ],
+              "printed_pages": [
+                4
+              ]
+            }
+          },
+          {
+            "id": "critical-thinking--B.q021.option2",
+            "label": "比较不同意",
+            "value": 2,
+            "source": {
+              "pdf_pages": [
+                7
+              ],
+              "printed_pages": [
+                4
+              ]
+            }
+          },
+          {
+            "id": "critical-thinking--B.q021.option3",
+            "label": "无所谓",
+            "value": 3,
+            "source": {
+              "pdf_pages": [
+                7
+              ],
+              "printed_pages": [
+                4
+              ]
+            }
+          },
+          {
+            "id": "critical-thinking--B.q021.option4",
+            "label": "比较同意",
+            "value": 4,
+            "source": {
+              "pdf_pages": [
+                7
+              ],
+              "printed_pages": [
+                4
+              ]
+            }
+          },
+          {
+            "id": "critical-thinking--B.q021.option5",
+            "label": "完全同意",
+            "value": 5,
+            "source": {
+              "pdf_pages": [
+                7
+              ],
+              "printed_pages": [
+                4
+              ]
+            }
+          }
+        ],
+        "minimum": 1,
+        "maximum": 5,
+        "cardinality": "single",
+        "slots": null,
+        "raw_instruction": "请根据你自己的情况对下面问题的选项进行打分。其中“完全不同意 -1”“比较不同意-2”“无所谓-3”“比较同意-4”“完全同意-5”",
+        "unknowns": [
+          {
+            "field": "required",
+            "reason": "原文未给必填要求，不补充约束。"
+          },
+          {
+            "field": "display_order_and_score_mapping",
+            "reason": "原文要求反向题分值选项倒序，并提供反向转换；实际导入文字/数字/显示顺序关系尚待确认，不执行倒序或计分。"
+          }
+        ],
+        "ranking": null
+      }
+    }
+  ],
+  "groups": [
+    {
+      "id": "critical-thinking--B.group-skills",
+      "raw_name": "批判性思维技能",
+      "source": {
+        "pdf_pages": [
+          5
+        ],
+        "printed_pages": [
+          2
+        ]
+      },
+      "parent_id": null,
+      "note": "原图1和表1明示上层维度。"
+    },
+    {
+      "id": "critical-thinking--B.group-disposition",
+      "raw_name": "批判性思维倾向",
+      "source": {
+        "pdf_pages": [
+          5
+        ],
+        "printed_pages": [
+          2
+        ]
+      },
+      "parent_id": null,
+      "note": "原图1和表1明示上层维度。"
+    },
+    {
+      "id": "critical-thinking--B.group001",
+      "raw_name": "分析能力",
+      "source": {
+        "pdf_pages": [
+          7
+        ],
+        "printed_pages": [
+          4
+        ]
+      },
+      "parent_id": "critical-thinking--B.group-skills",
+      "note": "原题表明示分组；含跨页续表时由已核验连续行延续，不按题意分配。"
+    },
+    {
+      "id": "critical-thinking--B.group002",
+      "raw_name": "系统化能力",
+      "source": {
+        "pdf_pages": [
+          7
+        ],
+        "printed_pages": [
+          4
+        ]
+      },
+      "parent_id": "critical-thinking--B.group-skills",
+      "note": "原题表明示分组；含跨页续表时由已核验连续行延续，不按题意分配。"
+    },
+    {
+      "id": "critical-thinking--B.group003",
+      "raw_name": "寻求真理",
+      "source": {
+        "pdf_pages": [
+          7
+        ],
+        "printed_pages": [
+          4
+        ]
+      },
+      "parent_id": "critical-thinking--B.group-disposition",
+      "note": "原题表明示分组；含跨页续表时由已核验连续行延续，不按题意分配。"
+    },
+    {
+      "id": "critical-thinking--B.group004",
+      "raw_name": "开放思想",
+      "source": {
+        "pdf_pages": [
+          7
+        ],
+        "printed_pages": [
+          4
+        ]
+      },
+      "parent_id": "critical-thinking--B.group-disposition",
+      "note": "原题表明示分组；含跨页续表时由已核验连续行延续，不按题意分配。"
+    },
+    {
+      "id": "critical-thinking--B.group005",
+      "raw_name": "批判性思维自信度",
+      "source": {
+        "pdf_pages": [
+          7
+        ],
+        "printed_pages": [
+          4
+        ]
+      },
+      "parent_id": "critical-thinking--B.group-disposition",
+      "note": "原题表明示分组；含跨页续表时由已核验连续行延续，不按题意分配。"
+    },
+    {
+      "id": "critical-thinking--B.group006",
+      "raw_name": "求知欲",
+      "source": {
+        "pdf_pages": [
+          7
+        ],
+        "printed_pages": [
+          4
+        ]
+      },
+      "parent_id": "critical-thinking--B.group-disposition",
+      "note": "原题表明示分组；含跨页续表时由已核验连续行延续，不按题意分配。"
+    },
+    {
+      "id": "critical-thinking--B.group007",
+      "raw_name": "认知成熟度",
+      "source": {
+        "pdf_pages": [
+          7
+        ],
+        "printed_pages": [
+          4
+        ]
+      },
+      "parent_id": "critical-thinking--B.group-disposition",
+      "note": "原题表明示分组；含跨页续表时由已核验连续行延续，不按题意分配。"
+    }
+  ],
+  "blocks": [
+    {
+      "id": "critical-thinking--B.block001",
+      "kind": "matrix",
+      "raw_title": null,
+      "item_ids": [
+        "critical-thinking--B.q001",
+        "critical-thinking--B.q002",
+        "critical-thinking--B.q003",
+        "critical-thinking--B.q004",
+        "critical-thinking--B.q005",
+        "critical-thinking--B.q006",
+        "critical-thinking--B.q007",
+        "critical-thinking--B.q008",
+        "critical-thinking--B.q009",
+        "critical-thinking--B.q010",
+        "critical-thinking--B.q011",
+        "critical-thinking--B.q012",
+        "critical-thinking--B.q013",
+        "critical-thinking--B.q014",
+        "critical-thinking--B.q015",
+        "critical-thinking--B.q016",
+        "critical-thinking--B.q017",
+        "critical-thinking--B.q018",
+        "critical-thinking--B.q019",
+        "critical-thinking--B.q020",
+        "critical-thinking--B.q021"
+      ],
+      "source": {
+        "pdf_pages": [
+          7
+        ],
+        "printed_pages": [
+          4
+        ]
+      },
+      "note": "原五级评分表，列顺序1、2、3、4、5；原表题行逐项引用并保留明示组别。跨页重现表头为续表，不新增测量题。"
+    }
+  ],
+  "scoring": {
+    "raw_rules": [
+      {
+        "raw_text": "2.评分规则：（1）该问卷为李克特五分量表，评价者根据自身真实感受进行 5级打分，1 代表非常不同意、2 代表比较不同意、3 代表中立、4 代表比较同意、5 代表非常同意。每个维度的得分为各题项平均分。分数越高代表被测对象批判性思维技能和倾向越高。（2）表格中标注“反向检测题”的题项需要特殊处理。该类题目的提问指向与其他题目相似，但提问的思路方向则与其他题目相反。主要是用于检测填答者对于问题回答的态度是否认真仔细，以及检测问卷填答的质量信度是否过关。因此在使用这些问卷进行测评时，首先在问卷制作阶段应删除“（反向检测题）”等标识文字（避免给填答者以提示）。然后在问卷印制时将这些题目的分值选项倒序排列（对反向题进行分数转换）。第三步在问卷回收后，应首先查验反向检验题的答案，以便剔除无效问卷（当填答者反向题和普通题打分处于同级时该问卷无效）。最后再进行问卷分数统计。（3）反向题分数转换的规则：1-5；2-4；3-3；4-2；5-1。 ",
+        "source": {
+          "pdf_pages": [
+            8
+          ],
+          "printed_pages": [
+            5
+          ]
+        }
+      }
+    ],
+    "reverse_mapping": [
+      {
+        "from": 1,
+        "to": 5
+      },
+      {
+        "from": 2,
+        "to": 4
+      },
+      {
+        "from": 3,
+        "to": 3
+      },
+      {
+        "from": 4,
+        "to": 2
+      },
+      {
+        "from": 5,
+        "to": 1
+      }
+    ],
+    "unknowns": [
+      {
+        "field": "missing_values",
+        "reason": "原文未明确缺失回答的计分处理。",
+        "source": {
+          "pdf_pages": [
+            8,
+            9
+          ],
+          "printed_pages": [
+            5,
+            6
+          ]
+        }
+      },
+      {
+        "field": "norms_and_thresholds",
+        "reason": "原文未明确常模、解释阈值或分类规则。",
+        "source": {
+          "pdf_pages": [
+            8,
+            9
+          ],
+          "printed_pages": [
+            5,
+            6
+          ]
+        }
+      },
+      {
+        "field": "overall_score_formula",
+        "reason": "明确提供各维度题项平均分，未明确全量表总分合成公式。",
+        "source": {
+          "pdf_pages": [
+            8,
+            9
+          ],
+          "printed_pages": [
+            5,
+            6
+          ]
+        }
+      }
+    ]
+  },
+  "counts": {
+    "basic_information": 0,
+    "measurement_items": 21,
+    "scale_items": 21,
+    "preliminary_items": 0,
+    "background_items": 0,
+    "item_records": 21,
+    "original_question_blocks": 1,
+    "reason": "原问卷评分矩阵为一个原题块；每行独立计一个测量题项，理论解释表与教师说明不计题。"
+  },
+  "issues": [
+    {
+      "id": "critical-thinking--B.A-1",
+      "category": "blocking",
+      "blocking": true,
+      "source": {
+        "pdf_pages": [
+          7,
+          8
+        ],
+        "printed_pages": [
+          4,
+          5
+        ]
+      },
+      "original_text": "请根据你自己的情况对下面问题的选项进行打分。其中“完全不同意 -1”“比较不同意-2”“无所谓-3”“比较同意-4”“完全同意-5”\n2.评分规则：（1）该问卷为李克特五分量表，评价者根据自身真实感受进行 5级打分，1 代表非常不同意、2 代表比较不同意、3 代表中立、4 代表比较同意、5 代表非常同意。每个维度的得分为各题项平均分。分数越高代表被测对象批判性思维技能和倾向越高。（2）表格中标注“反向检测题”的题项需要特殊处理。该类题目的提问指向与其他题目相似，但提问的思路方向则与其他题目相反。主要是用于检测填答者对于问题回答的态度是否认真仔细，以及检测问卷填答的质量信度是否过关。因此在使用这些问卷进行测评时，首先在问卷制作阶段应删除“（反向检测题）”等标识文字（避免给填答者以提示）。然后在问卷印制时将这些题目的分值选项倒序排列（对反向题进行分数转换）。第三步在问卷回收后，应首先查验反向检验题的答案，以便剔除无效问卷（当填答者反向题和普通题打分处于同级时该问卷无效）。最后再进行问卷分数统计。（3）反向题分数转换的规则：1-5；2-4；3-3；4-2；5-1。",
+      "missing_information": "题面五级标签完全不同意/无所谓/完全同意，与评分说明非常不同意/中立/非常同意不一致；学生端采用哪个原文标签尚未确认。原文摘录依次为本卷题面作答说明和教师评分说明，来自本疑点标注的相应页。",
+      "possible_resolutions": [
+        "明确接受题面五级原标签，评分段异文只保留教师元数据。",
+        "取得编制方可核实的原版更正及展示政策。"
+      ],
+      "recommendation": "推荐忠实采用本卷题面五级标签，并明确记录政策依据；本轮仅保存两套原文，不视为问题已解决。",
+      "affected_item_ids": [
+        "critical-thinking--B.q001",
+        "critical-thinking--B.q002",
+        "critical-thinking--B.q003",
+        "critical-thinking--B.q004",
+        "critical-thinking--B.q005",
+        "critical-thinking--B.q006",
+        "critical-thinking--B.q007",
+        "critical-thinking--B.q008",
+        "critical-thinking--B.q009",
+        "critical-thinking--B.q010",
+        "critical-thinking--B.q011",
+        "critical-thinking--B.q012",
+        "critical-thinking--B.q013",
+        "critical-thinking--B.q014",
+        "critical-thinking--B.q015",
+        "critical-thinking--B.q016",
+        "critical-thinking--B.q017",
+        "critical-thinking--B.q018",
+        "critical-thinking--B.q019",
+        "critical-thinking--B.q020",
+        "critical-thinking--B.q021"
+      ],
+      "resolution": null
+    },
+    {
+      "id": "critical-thinking--B.A-2",
+      "category": "blocking",
+      "blocking": true,
+      "source": {
+        "pdf_pages": [
+          8
+        ],
+        "printed_pages": [
+          5
+        ]
+      },
+      "original_text": "2.评分规则：（1）该问卷为李克特五分量表，评价者根据自身真实感受进行 5级打分，1 代表非常不同意、2 代表比较不同意、3 代表中立、4 代表比较同意、5 代表非常同意。每个维度的得分为各题项平均分。分数越高代表被测对象批判性思维技能和倾向越高。（2）表格中标注“反向检测题”的题项需要特殊处理。该类题目的提问指向与其他题目相似，但提问的思路方向则与其他题目相反。主要是用于检测填答者对于问题回答的态度是否认真仔细，以及检测问卷填答的质量信度是否过关。因此在使用这些问卷进行测评时，首先在问卷制作阶段应删除“（反向检测题）”等标识文字（避免给填答者以提示）。然后在问卷印制时将这些题目的分值选项倒序排列（对反向题进行分数转换）。第三步在问卷回收后，应首先查验反向检验题的答案，以便剔除无效问卷（当填答者反向题和普通题打分处于同级时该问卷无效）。最后再进行问卷分数统计。（3）反向题分数转换的规则：1-5；2-4；3-3；4-2；5-1。 ",
+      "missing_information": "反向题的分值选项倒序、文字标签顺序、显示数字与计分映射未给数字导入示例，尚未明确，不能静默默认或重复反转。",
+      "possible_resolutions": [
+        "获取原版显示实例并明确文字/数字/顺序关系。",
+        "由教师显式确认忠实展示政策并留下依据，计分保持元数据。"
+      ],
+      "recommendation": "原反向标记存教师注释；学生候选题干只剥离原文明示应隐藏的标记。选项保持原题面顺序等待确认；不计算分数。",
+      "affected_item_ids": [
+        "critical-thinking--B.q001",
+        "critical-thinking--B.q006",
+        "critical-thinking--B.q009",
+        "critical-thinking--B.q011",
+        "critical-thinking--B.q015",
+        "critical-thinking--B.q018",
+        "critical-thinking--B.q021"
+      ],
+      "resolution": null
+    },
+    {
+      "id": "critical-thinking--B.A-3",
+      "category": "metadata",
+      "blocking": false,
+      "source": {
+        "pdf_pages": [
+          8
+        ],
+        "printed_pages": [
+          5
+        ]
+      },
+      "original_text": "当填答者反向题和普通题打分处于同级时该问卷无效",
+      "missing_information": "未给反向与普通题配对、比较范围或无效阈值；不能据此实现自动剔除。",
+      "possible_resolutions": [
+        "仅存原文教师说明，不执行。",
+        "未来获得完整规则后另行计分阶段评估。"
+      ],
+      "recommendation": "第一版不读答卷、不统计、不剔除；该不完整规则仅为元数据。",
+      "affected_item_ids": [
+        "critical-thinking--B.q001",
+        "critical-thinking--B.q006",
+        "critical-thinking--B.q009",
+        "critical-thinking--B.q011",
+        "critical-thinking--B.q015",
+        "critical-thinking--B.q018",
+        "critical-thinking--B.q021"
+      ],
+      "resolution": null
+    }
+  ],
+  "review": {
+    "status": "needs_confirmation",
+    "transcription_verified": true,
+    "checked_pdf_pages": [
+      4,
+      5,
+      7,
+      8,
+      9
+    ],
+    "method": "重新从哈希一致原PDF用pypdf与pdfplumber提取；逐卷实际查看原页PNG题表、连续表格分组、标题与完整使用说明，再核对全部原题行；未用旧全文直接充当正式数据。只合并版面换行与空白，不改字词。",
+    "reviewed_on": "2026-10-04",
+    "eligible_for_generation": false,
+    "note": "仅为数据层转录与输出阻断状态，不是导出、计分、WorkBuddy调用或问卷星导入验证；本阶段未开发生成器。"
+  }
+}

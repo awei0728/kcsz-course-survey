@@ -1,0 +1,2750 @@
+{
+  "schema_version": 1,
+  "id": "professional-identity--B",
+  "project_id": "professional-identity",
+  "version_id": "B",
+  "project_name": "专业认同感",
+  "original_name": null,
+  "original_name_reason": "原文没有为本问卷另列独立总标题；只给卷名或问卷内容节名，借鉴量表名称不是本指南独立问卷名。",
+  "title": {
+    "raw_text": "B 卷",
+    "student_text": "B 卷",
+    "source": {
+      "pdf_pages": [
+        19
+      ],
+      "printed_pages": [
+        16
+      ]
+    }
+  },
+  "source": {
+    "filename": "武汉大学课程思政教学评价指南（第一辑）.pdf",
+    "volume": 1,
+    "chapter": "三、专业认同感评价指南",
+    "pdf_pages": [
+      16,
+      17,
+      18,
+      19,
+      20
+    ],
+    "printed_pages": [
+      13,
+      14,
+      15,
+      16,
+      17
+    ],
+    "sha256": "218ce8325ef713959646c279effd9d1a113f6064656926bdf21ac3903dd33850"
+  },
+  "instructions": [
+    {
+      "id": "professional-identity--B.instruction001",
+      "role": "response",
+      "raw_text": "请根据你自己的情况对下面问题的选项进行打分。其中“完全不同意-1”“比较不同意-2”“无所谓-3”“比较同意-4”“完全同意-5”",
+      "student_text": "请根据你自己的情况对下面问题的选项进行打分。其中“完全不同意-1”“比较不同意-2”“无所谓-3”“比较同意-4”“完全同意-5”",
+      "source": {
+        "pdf_pages": [
+          19
+        ],
+        "printed_pages": [
+          16
+        ]
+      }
+    },
+    {
+      "id": "professional-identity--B.instruction002",
+      "role": "teacher",
+      "raw_text": "（五）评价使用说明 1.评价对象：全体上课学生。2.评分规则：（1）该问卷为李克特五分量表，评价者根据自身真实感受进行 5级打分，1 代表非常不同意、2 代表比较不同意、3 代表中立、4 代表比较同意、5 代表非常同意。每个维度的得分为各题项平均分。（2）表格中标注“反向检测题”的题项需要特殊处理。该类题目的提问指向与其他题目相似，但提问的思路方向则与其他题目相反。主要是用于检测填答者对于问题回答的态度是否认真仔细，以及检测问卷填答的质量信度是否过关。因此在使用这些问卷进行测评时，首先在问卷制作阶段应删除“（反向检测题）”等标识文字（避免给填答者以提示）。然后在问卷印制时将这些题目的分值选项倒序排列（对反向题进行分数转换）。第三步在问卷回收后，应首先查验反向检验题的答案，以便剔除无效问卷（当填答者反向题和普通题打分处于同级时该问卷无效）。最后再进行问卷分数统计。（3）反向题分数转换的规则：1-5；2-4；3-3；4-2；5-1。 3.评价时间：（1）前测时间：建议第一节课正式上课前 10-15 分钟施测。（2）后测时间：最后一节课最后 10-15 分钟或最后一节课课后作业，但规定当日完成。 4.评价方式：（1）同一群体纵向对比：同一批学生，在课程正式开始前和结束后各进行一次评价，对比前后得分差异。可以分别使用 A/B 卷作为前测和后测问卷。（2）不同群体横向对比：选择两个其他基本素质差不多的班级，在课程结束后统一进行评价，对比两个班级的得分差异。",
+      "student_text": null,
+      "source": {
+        "pdf_pages": [
+          19,
+          20
+        ],
+        "printed_pages": [
+          16,
+          17
+        ]
+      }
+    },
+    {
+      "id": "professional-identity--B.teacher-context-16",
+      "role": "teacher",
+      "raw_text": "三、专业认同感评价指南（一）概念定义认同指个体对某一事物或对象在认知了解的基础上的接受和认可，是一种情感、态度乃至认识的移入过程 [12]。目前学术界对于专业认同的探讨大多是基于对认同的理解延伸出来，国外早期没有专门的“专业认同”的概念，而是将其归于“职业认同”的范畴来谈，Carson 认为职业认同指对职业紧密的情感联系，是职业承诺的一部分[13]。具有代表性的观点认为职业认同是个体对于所从事职业的认同感，是个体内心对该专业价值的认可，并愿意在该专业领域有所发展 [14]。有学者开始讨论“专业认同”，如学者 Henning 认为专业认同度是个体对于社会现实中的专业在主观上的一种感受，是个体与该专业内心保持一致和平衡的程度 [15]。国内也不乏对专业认同的讨论，如王顶明认为专业认同是个体对所学专业的接受与认可，反映个体在学习过程中持续的认知和行为卷入及积极的情感状态，包括认知、情感、行为和社会等因素 [16]。而比较具有代表性且被学者引用较多的观点是秦攀博在王顶明观点基础上，结合心理学对认同的定义界定的专业认同，他认为专业认同是指学习者在认知、了解所学习的学科基础上产生的情感上的接受和认可，并伴随积极的外在行为和内心的适切感[17]。 [12] 费穗宇，张潘仕主编. 社会心理学辞典[M]. 石家庄：河北人民出版社, 1988.02. [13] Carson K . D, Bedeian. G Career commitment: Construction of a measure and examination of its psychometric properties.[J]. Journal of Vocational Behavior. 1994, 44(3): 237-262. [14] Mawhinney H. Xu F. Restructuring the Professional Identity of Foreign-Trained Teachers in Ontario Schools[ J].TESOL Quarterly .1997(3): 632-639 [15] Henning,Salling,Olesen. Professional identity as learning processes in life histories [J]. Journal of Work-place Learning,2001(13):7-8. [16] 王顶明,刘永存.硕士研究生专业认同调查[J].中国高教研究,2007(08):18-22.DOI:10.16298/j.cnki.1004-3667.2007.08.018. [17] 秦攀博. 大学生专业认同的特点及其相关研究[D].西南大学,2009.",
+      "student_text": null,
+      "source": {
+        "pdf_pages": [
+          16
+        ],
+        "printed_pages": [
+          13
+        ]
+      }
+    },
+    {
+      "id": "professional-identity--B.teacher-context-17",
+      "role": "teacher",
+      "raw_text": "纵观国内外学者对专业认同的探讨，我们发现这些观点都将专业认同视为对专业的一种态度，虽然具体的内容描述不同，但都涉及认知、情感和行为三个方面，这也和社会心理学所探讨的态度构成相契合[18]。本问卷编制时，结合国内外学者的探讨，以国内引用最多的观点为基础进行修改，将其定义为学习者在认知、了解所学习的学科基础上产生的情感上的接受和认可，并伴随积极的外在行动。（二）维度划分根据上述概念定义我们可根据态度的构成推导出专业认同的维度，由专业认知、专业情感以及专业行为倾向构成（见图 3），这三个维度也是目前对专业认同结构划分重合度最高的三个维度。图 3 专业认同评价维度（三）各个维度内涵表 3 专业认同感维度解释维度解释专业认知对学科基本情况的了解程度，包括专业培养模式、课程设置、专业价值等 [18] 倪晓莉主编,社会心理学,西安交通大学出版社,2007.09,第193 页",
+      "student_text": null,
+      "source": {
+        "pdf_pages": [
+          17
+        ],
+        "printed_pages": [
+          14
+        ]
+      }
+    },
+    {
+      "id": "professional-identity--B.teacher-footnote-18",
+      "role": "teacher",
+      "raw_text": "[19] 大学生专业认同是高等教育研究中的热门领域，国内外许多学者都予以关注。同时也有学者在充分借鉴前人研究基础上，结合中国大学生的特点开发了适用于中国学生的专业认同问卷。本指南参考当前秦攀博的大学生专业认同问卷进行适当删减和修改。",
+      "student_text": null,
+      "source": {
+        "pdf_pages": [
+          18
+        ],
+        "printed_pages": [
+          15
+        ]
+      }
+    },
+    {
+      "id": "professional-identity--B.teacher-context-18",
+      "role": "teacher",
+      "raw_text": "专业情感对学科所产生的情感体验，主要包括专业兴趣、专业获得感、专业热情等专业行为在认知与情感的基础上所产生的积极的专业学习行为，包含学习投入等",
+      "student_text": null,
+      "source": {
+        "pdf_pages": [
+          18
+        ],
+        "printed_pages": [
+          15
+        ]
+      }
+    }
+  ],
+  "basic_information": [],
+  "items": [
+    {
+      "id": "professional-identity--B.q001",
+      "order": 1,
+      "original_number": null,
+      "role": "measurement",
+      "measurement_class": "scale",
+      "kind": "rating",
+      "raw_text": "我了解所学专业领域中主要及最新的研究成果",
+      "student_text": "我了解所学专业领域中主要及最新的研究成果",
+      "source": {
+        "pdf_pages": [
+          19
+        ],
+        "printed_pages": [
+          16
+        ]
+      },
+      "group_id": "professional-identity--B.group001",
+      "subdimension": null,
+      "subdimension_reason": "原表仅明示本组；该组以下逐题细分维度未提供，不推断。",
+      "teacher_annotations": [],
+      "reverse": {
+        "marked": null,
+        "raw_marker": null,
+        "source": null,
+        "reason": "未见原文明示反向标记；否定句或概念标记不能据此推导反向。"
+      },
+      "response": {
+        "options": [
+          {
+            "id": "professional-identity--B.q001.option1",
+            "label": "完全不同意",
+            "value": 1,
+            "source": {
+              "pdf_pages": [
+                19
+              ],
+              "printed_pages": [
+                16
+              ]
+            }
+          },
+          {
+            "id": "professional-identity--B.q001.option2",
+            "label": "比较不同意",
+            "value": 2,
+            "source": {
+              "pdf_pages": [
+                19
+              ],
+              "printed_pages": [
+                16
+              ]
+            }
+          },
+          {
+            "id": "professional-identity--B.q001.option3",
+            "label": "无所谓",
+            "value": 3,
+            "source": {
+              "pdf_pages": [
+                19
+              ],
+              "printed_pages": [
+                16
+              ]
+            }
+          },
+          {
+            "id": "professional-identity--B.q001.option4",
+            "label": "比较同意",
+            "value": 4,
+            "source": {
+              "pdf_pages": [
+                19
+              ],
+              "printed_pages": [
+                16
+              ]
+            }
+          },
+          {
+            "id": "professional-identity--B.q001.option5",
+            "label": "完全同意",
+            "value": 5,
+            "source": {
+              "pdf_pages": [
+                19
+              ],
+              "printed_pages": [
+                16
+              ]
+            }
+          }
+        ],
+        "minimum": 1,
+        "maximum": 5,
+        "cardinality": "single",
+        "slots": null,
+        "raw_instruction": "请根据你自己的情况对下面问题的选项进行打分。其中“完全不同意-1”“比较不同意-2”“无所谓-3”“比较同意-4”“完全同意-5”",
+        "unknowns": [
+          {
+            "field": "required",
+            "reason": "原文未给必填要求，不补充约束。"
+          }
+        ],
+        "ranking": null
+      }
+    },
+    {
+      "id": "professional-identity--B.q002",
+      "order": 2,
+      "original_number": null,
+      "role": "measurement",
+      "measurement_class": "scale",
+      "kind": "rating",
+      "raw_text": "我能向一个其他专业的人清晰介绍我的专业课程内容",
+      "student_text": "我能向一个其他专业的人清晰介绍我的专业课程内容",
+      "source": {
+        "pdf_pages": [
+          19
+        ],
+        "printed_pages": [
+          16
+        ]
+      },
+      "group_id": "professional-identity--B.group001",
+      "subdimension": null,
+      "subdimension_reason": "原表仅明示本组；该组以下逐题细分维度未提供，不推断。",
+      "teacher_annotations": [],
+      "reverse": {
+        "marked": null,
+        "raw_marker": null,
+        "source": null,
+        "reason": "未见原文明示反向标记；否定句或概念标记不能据此推导反向。"
+      },
+      "response": {
+        "options": [
+          {
+            "id": "professional-identity--B.q002.option1",
+            "label": "完全不同意",
+            "value": 1,
+            "source": {
+              "pdf_pages": [
+                19
+              ],
+              "printed_pages": [
+                16
+              ]
+            }
+          },
+          {
+            "id": "professional-identity--B.q002.option2",
+            "label": "比较不同意",
+            "value": 2,
+            "source": {
+              "pdf_pages": [
+                19
+              ],
+              "printed_pages": [
+                16
+              ]
+            }
+          },
+          {
+            "id": "professional-identity--B.q002.option3",
+            "label": "无所谓",
+            "value": 3,
+            "source": {
+              "pdf_pages": [
+                19
+              ],
+              "printed_pages": [
+                16
+              ]
+            }
+          },
+          {
+            "id": "professional-identity--B.q002.option4",
+            "label": "比较同意",
+            "value": 4,
+            "source": {
+              "pdf_pages": [
+                19
+              ],
+              "printed_pages": [
+                16
+              ]
+            }
+          },
+          {
+            "id": "professional-identity--B.q002.option5",
+            "label": "完全同意",
+            "value": 5,
+            "source": {
+              "pdf_pages": [
+                19
+              ],
+              "printed_pages": [
+                16
+              ]
+            }
+          }
+        ],
+        "minimum": 1,
+        "maximum": 5,
+        "cardinality": "single",
+        "slots": null,
+        "raw_instruction": "请根据你自己的情况对下面问题的选项进行打分。其中“完全不同意-1”“比较不同意-2”“无所谓-3”“比较同意-4”“完全同意-5”",
+        "unknowns": [
+          {
+            "field": "required",
+            "reason": "原文未给必填要求，不补充约束。"
+          }
+        ],
+        "ranking": null
+      }
+    },
+    {
+      "id": "professional-identity--B.q003",
+      "order": 3,
+      "original_number": null,
+      "role": "measurement",
+      "measurement_class": "scale",
+      "kind": "rating",
+      "raw_text": "我了解我所学专业达到毕业的基本要求",
+      "student_text": "我了解我所学专业达到毕业的基本要求",
+      "source": {
+        "pdf_pages": [
+          19
+        ],
+        "printed_pages": [
+          16
+        ]
+      },
+      "group_id": "professional-identity--B.group001",
+      "subdimension": null,
+      "subdimension_reason": "原表仅明示本组；该组以下逐题细分维度未提供，不推断。",
+      "teacher_annotations": [],
+      "reverse": {
+        "marked": null,
+        "raw_marker": null,
+        "source": null,
+        "reason": "未见原文明示反向标记；否定句或概念标记不能据此推导反向。"
+      },
+      "response": {
+        "options": [
+          {
+            "id": "professional-identity--B.q003.option1",
+            "label": "完全不同意",
+            "value": 1,
+            "source": {
+              "pdf_pages": [
+                19
+              ],
+              "printed_pages": [
+                16
+              ]
+            }
+          },
+          {
+            "id": "professional-identity--B.q003.option2",
+            "label": "比较不同意",
+            "value": 2,
+            "source": {
+              "pdf_pages": [
+                19
+              ],
+              "printed_pages": [
+                16
+              ]
+            }
+          },
+          {
+            "id": "professional-identity--B.q003.option3",
+            "label": "无所谓",
+            "value": 3,
+            "source": {
+              "pdf_pages": [
+                19
+              ],
+              "printed_pages": [
+                16
+              ]
+            }
+          },
+          {
+            "id": "professional-identity--B.q003.option4",
+            "label": "比较同意",
+            "value": 4,
+            "source": {
+              "pdf_pages": [
+                19
+              ],
+              "printed_pages": [
+                16
+              ]
+            }
+          },
+          {
+            "id": "professional-identity--B.q003.option5",
+            "label": "完全同意",
+            "value": 5,
+            "source": {
+              "pdf_pages": [
+                19
+              ],
+              "printed_pages": [
+                16
+              ]
+            }
+          }
+        ],
+        "minimum": 1,
+        "maximum": 5,
+        "cardinality": "single",
+        "slots": null,
+        "raw_instruction": "请根据你自己的情况对下面问题的选项进行打分。其中“完全不同意-1”“比较不同意-2”“无所谓-3”“比较同意-4”“完全同意-5”",
+        "unknowns": [
+          {
+            "field": "required",
+            "reason": "原文未给必填要求，不补充约束。"
+          }
+        ],
+        "ranking": null
+      }
+    },
+    {
+      "id": "professional-identity--B.q004",
+      "order": 4,
+      "original_number": null,
+      "role": "measurement",
+      "measurement_class": "scale",
+      "kind": "rating",
+      "raw_text": "我知道本专业在全国高校同专业中的地位",
+      "student_text": "我知道本专业在全国高校同专业中的地位",
+      "source": {
+        "pdf_pages": [
+          19
+        ],
+        "printed_pages": [
+          16
+        ]
+      },
+      "group_id": "professional-identity--B.group001",
+      "subdimension": null,
+      "subdimension_reason": "原表仅明示本组；该组以下逐题细分维度未提供，不推断。",
+      "teacher_annotations": [],
+      "reverse": {
+        "marked": null,
+        "raw_marker": null,
+        "source": null,
+        "reason": "未见原文明示反向标记；否定句或概念标记不能据此推导反向。"
+      },
+      "response": {
+        "options": [
+          {
+            "id": "professional-identity--B.q004.option1",
+            "label": "完全不同意",
+            "value": 1,
+            "source": {
+              "pdf_pages": [
+                19
+              ],
+              "printed_pages": [
+                16
+              ]
+            }
+          },
+          {
+            "id": "professional-identity--B.q004.option2",
+            "label": "比较不同意",
+            "value": 2,
+            "source": {
+              "pdf_pages": [
+                19
+              ],
+              "printed_pages": [
+                16
+              ]
+            }
+          },
+          {
+            "id": "professional-identity--B.q004.option3",
+            "label": "无所谓",
+            "value": 3,
+            "source": {
+              "pdf_pages": [
+                19
+              ],
+              "printed_pages": [
+                16
+              ]
+            }
+          },
+          {
+            "id": "professional-identity--B.q004.option4",
+            "label": "比较同意",
+            "value": 4,
+            "source": {
+              "pdf_pages": [
+                19
+              ],
+              "printed_pages": [
+                16
+              ]
+            }
+          },
+          {
+            "id": "professional-identity--B.q004.option5",
+            "label": "完全同意",
+            "value": 5,
+            "source": {
+              "pdf_pages": [
+                19
+              ],
+              "printed_pages": [
+                16
+              ]
+            }
+          }
+        ],
+        "minimum": 1,
+        "maximum": 5,
+        "cardinality": "single",
+        "slots": null,
+        "raw_instruction": "请根据你自己的情况对下面问题的选项进行打分。其中“完全不同意-1”“比较不同意-2”“无所谓-3”“比较同意-4”“完全同意-5”",
+        "unknowns": [
+          {
+            "field": "required",
+            "reason": "原文未给必填要求，不补充约束。"
+          }
+        ],
+        "ranking": null
+      }
+    },
+    {
+      "id": "professional-identity--B.q005",
+      "order": 5,
+      "original_number": null,
+      "role": "measurement",
+      "measurement_class": "scale",
+      "kind": "rating",
+      "raw_text": "我并不了解本专业在社会上的需求度（反向检测题）",
+      "student_text": "我并不了解本专业在社会上的需求度",
+      "source": {
+        "pdf_pages": [
+          19
+        ],
+        "printed_pages": [
+          16
+        ]
+      },
+      "group_id": "professional-identity--B.group001",
+      "subdimension": null,
+      "subdimension_reason": "原表仅明示本组；该组以下逐题细分维度未提供，不推断。",
+      "teacher_annotations": [
+        {
+          "text": "（反向检测题）",
+          "kind": "reverse",
+          "visibility": "teacher",
+          "source": {
+            "pdf_pages": [
+              19
+            ],
+            "printed_pages": [
+              16
+            ]
+          }
+        }
+      ],
+      "reverse": {
+        "marked": true,
+        "raw_marker": "（反向检测题）",
+        "source": {
+          "pdf_pages": [
+            19
+          ],
+          "printed_pages": [
+            16
+          ]
+        },
+        "reason": null
+      },
+      "response": {
+        "options": [
+          {
+            "id": "professional-identity--B.q005.option1",
+            "label": "完全不同意",
+            "value": 1,
+            "source": {
+              "pdf_pages": [
+                19
+              ],
+              "printed_pages": [
+                16
+              ]
+            }
+          },
+          {
+            "id": "professional-identity--B.q005.option2",
+            "label": "比较不同意",
+            "value": 2,
+            "source": {
+              "pdf_pages": [
+                19
+              ],
+              "printed_pages": [
+                16
+              ]
+            }
+          },
+          {
+            "id": "professional-identity--B.q005.option3",
+            "label": "无所谓",
+            "value": 3,
+            "source": {
+              "pdf_pages": [
+                19
+              ],
+              "printed_pages": [
+                16
+              ]
+            }
+          },
+          {
+            "id": "professional-identity--B.q005.option4",
+            "label": "比较同意",
+            "value": 4,
+            "source": {
+              "pdf_pages": [
+                19
+              ],
+              "printed_pages": [
+                16
+              ]
+            }
+          },
+          {
+            "id": "professional-identity--B.q005.option5",
+            "label": "完全同意",
+            "value": 5,
+            "source": {
+              "pdf_pages": [
+                19
+              ],
+              "printed_pages": [
+                16
+              ]
+            }
+          }
+        ],
+        "minimum": 1,
+        "maximum": 5,
+        "cardinality": "single",
+        "slots": null,
+        "raw_instruction": "请根据你自己的情况对下面问题的选项进行打分。其中“完全不同意-1”“比较不同意-2”“无所谓-3”“比较同意-4”“完全同意-5”",
+        "unknowns": [
+          {
+            "field": "required",
+            "reason": "原文未给必填要求，不补充约束。"
+          },
+          {
+            "field": "display_order_and_score_mapping",
+            "reason": "原文要求反向题分值选项倒序，并提供反向转换；实际导入文字/数字/显示顺序关系尚待确认，不执行倒序或计分。"
+          }
+        ],
+        "ranking": null
+      }
+    },
+    {
+      "id": "professional-identity--B.q006",
+      "order": 6,
+      "original_number": null,
+      "role": "measurement",
+      "measurement_class": "scale",
+      "kind": "rating",
+      "raw_text": "我很清楚学习本专业未来可以从事哪些职业",
+      "student_text": "我很清楚学习本专业未来可以从事哪些职业",
+      "source": {
+        "pdf_pages": [
+          19
+        ],
+        "printed_pages": [
+          16
+        ]
+      },
+      "group_id": "professional-identity--B.group001",
+      "subdimension": null,
+      "subdimension_reason": "原表仅明示本组；该组以下逐题细分维度未提供，不推断。",
+      "teacher_annotations": [],
+      "reverse": {
+        "marked": null,
+        "raw_marker": null,
+        "source": null,
+        "reason": "未见原文明示反向标记；否定句或概念标记不能据此推导反向。"
+      },
+      "response": {
+        "options": [
+          {
+            "id": "professional-identity--B.q006.option1",
+            "label": "完全不同意",
+            "value": 1,
+            "source": {
+              "pdf_pages": [
+                19
+              ],
+              "printed_pages": [
+                16
+              ]
+            }
+          },
+          {
+            "id": "professional-identity--B.q006.option2",
+            "label": "比较不同意",
+            "value": 2,
+            "source": {
+              "pdf_pages": [
+                19
+              ],
+              "printed_pages": [
+                16
+              ]
+            }
+          },
+          {
+            "id": "professional-identity--B.q006.option3",
+            "label": "无所谓",
+            "value": 3,
+            "source": {
+              "pdf_pages": [
+                19
+              ],
+              "printed_pages": [
+                16
+              ]
+            }
+          },
+          {
+            "id": "professional-identity--B.q006.option4",
+            "label": "比较同意",
+            "value": 4,
+            "source": {
+              "pdf_pages": [
+                19
+              ],
+              "printed_pages": [
+                16
+              ]
+            }
+          },
+          {
+            "id": "professional-identity--B.q006.option5",
+            "label": "完全同意",
+            "value": 5,
+            "source": {
+              "pdf_pages": [
+                19
+              ],
+              "printed_pages": [
+                16
+              ]
+            }
+          }
+        ],
+        "minimum": 1,
+        "maximum": 5,
+        "cardinality": "single",
+        "slots": null,
+        "raw_instruction": "请根据你自己的情况对下面问题的选项进行打分。其中“完全不同意-1”“比较不同意-2”“无所谓-3”“比较同意-4”“完全同意-5”",
+        "unknowns": [
+          {
+            "field": "required",
+            "reason": "原文未给必填要求，不补充约束。"
+          }
+        ],
+        "ranking": null
+      }
+    },
+    {
+      "id": "professional-identity--B.q007",
+      "order": 7,
+      "original_number": null,
+      "role": "measurement",
+      "measurement_class": "scale",
+      "kind": "rating",
+      "raw_text": "我知道我所学专业未来可以为社会做些什么",
+      "student_text": "我知道我所学专业未来可以为社会做些什么",
+      "source": {
+        "pdf_pages": [
+          19
+        ],
+        "printed_pages": [
+          16
+        ]
+      },
+      "group_id": "professional-identity--B.group001",
+      "subdimension": null,
+      "subdimension_reason": "原表仅明示本组；该组以下逐题细分维度未提供，不推断。",
+      "teacher_annotations": [],
+      "reverse": {
+        "marked": null,
+        "raw_marker": null,
+        "source": null,
+        "reason": "未见原文明示反向标记；否定句或概念标记不能据此推导反向。"
+      },
+      "response": {
+        "options": [
+          {
+            "id": "professional-identity--B.q007.option1",
+            "label": "完全不同意",
+            "value": 1,
+            "source": {
+              "pdf_pages": [
+                19
+              ],
+              "printed_pages": [
+                16
+              ]
+            }
+          },
+          {
+            "id": "professional-identity--B.q007.option2",
+            "label": "比较不同意",
+            "value": 2,
+            "source": {
+              "pdf_pages": [
+                19
+              ],
+              "printed_pages": [
+                16
+              ]
+            }
+          },
+          {
+            "id": "professional-identity--B.q007.option3",
+            "label": "无所谓",
+            "value": 3,
+            "source": {
+              "pdf_pages": [
+                19
+              ],
+              "printed_pages": [
+                16
+              ]
+            }
+          },
+          {
+            "id": "professional-identity--B.q007.option4",
+            "label": "比较同意",
+            "value": 4,
+            "source": {
+              "pdf_pages": [
+                19
+              ],
+              "printed_pages": [
+                16
+              ]
+            }
+          },
+          {
+            "id": "professional-identity--B.q007.option5",
+            "label": "完全同意",
+            "value": 5,
+            "source": {
+              "pdf_pages": [
+                19
+              ],
+              "printed_pages": [
+                16
+              ]
+            }
+          }
+        ],
+        "minimum": 1,
+        "maximum": 5,
+        "cardinality": "single",
+        "slots": null,
+        "raw_instruction": "请根据你自己的情况对下面问题的选项进行打分。其中“完全不同意-1”“比较不同意-2”“无所谓-3”“比较同意-4”“完全同意-5”",
+        "unknowns": [
+          {
+            "field": "required",
+            "reason": "原文未给必填要求，不补充约束。"
+          }
+        ],
+        "ranking": null
+      }
+    },
+    {
+      "id": "professional-identity--B.q008",
+      "order": 8,
+      "original_number": null,
+      "role": "measurement",
+      "measurement_class": "scale",
+      "kind": "rating",
+      "raw_text": "目前我很享受专业学习",
+      "student_text": "目前我很享受专业学习",
+      "source": {
+        "pdf_pages": [
+          19
+        ],
+        "printed_pages": [
+          16
+        ]
+      },
+      "group_id": "professional-identity--B.group002",
+      "subdimension": null,
+      "subdimension_reason": "原表仅明示本组；该组以下逐题细分维度未提供，不推断。",
+      "teacher_annotations": [],
+      "reverse": {
+        "marked": null,
+        "raw_marker": null,
+        "source": null,
+        "reason": "未见原文明示反向标记；否定句或概念标记不能据此推导反向。"
+      },
+      "response": {
+        "options": [
+          {
+            "id": "professional-identity--B.q008.option1",
+            "label": "完全不同意",
+            "value": 1,
+            "source": {
+              "pdf_pages": [
+                19
+              ],
+              "printed_pages": [
+                16
+              ]
+            }
+          },
+          {
+            "id": "professional-identity--B.q008.option2",
+            "label": "比较不同意",
+            "value": 2,
+            "source": {
+              "pdf_pages": [
+                19
+              ],
+              "printed_pages": [
+                16
+              ]
+            }
+          },
+          {
+            "id": "professional-identity--B.q008.option3",
+            "label": "无所谓",
+            "value": 3,
+            "source": {
+              "pdf_pages": [
+                19
+              ],
+              "printed_pages": [
+                16
+              ]
+            }
+          },
+          {
+            "id": "professional-identity--B.q008.option4",
+            "label": "比较同意",
+            "value": 4,
+            "source": {
+              "pdf_pages": [
+                19
+              ],
+              "printed_pages": [
+                16
+              ]
+            }
+          },
+          {
+            "id": "professional-identity--B.q008.option5",
+            "label": "完全同意",
+            "value": 5,
+            "source": {
+              "pdf_pages": [
+                19
+              ],
+              "printed_pages": [
+                16
+              ]
+            }
+          }
+        ],
+        "minimum": 1,
+        "maximum": 5,
+        "cardinality": "single",
+        "slots": null,
+        "raw_instruction": "请根据你自己的情况对下面问题的选项进行打分。其中“完全不同意-1”“比较不同意-2”“无所谓-3”“比较同意-4”“完全同意-5”",
+        "unknowns": [
+          {
+            "field": "required",
+            "reason": "原文未给必填要求，不补充约束。"
+          }
+        ],
+        "ranking": null
+      }
+    },
+    {
+      "id": "professional-identity--B.q009",
+      "order": 9,
+      "original_number": null,
+      "role": "measurement",
+      "measurement_class": "scale",
+      "kind": "rating",
+      "raw_text": "我对深入探索这一专业领域充满了期待",
+      "student_text": "我对深入探索这一专业领域充满了期待",
+      "source": {
+        "pdf_pages": [
+          19
+        ],
+        "printed_pages": [
+          16
+        ]
+      },
+      "group_id": "professional-identity--B.group002",
+      "subdimension": null,
+      "subdimension_reason": "原表仅明示本组；该组以下逐题细分维度未提供，不推断。",
+      "teacher_annotations": [],
+      "reverse": {
+        "marked": null,
+        "raw_marker": null,
+        "source": null,
+        "reason": "未见原文明示反向标记；否定句或概念标记不能据此推导反向。"
+      },
+      "response": {
+        "options": [
+          {
+            "id": "professional-identity--B.q009.option1",
+            "label": "完全不同意",
+            "value": 1,
+            "source": {
+              "pdf_pages": [
+                19
+              ],
+              "printed_pages": [
+                16
+              ]
+            }
+          },
+          {
+            "id": "professional-identity--B.q009.option2",
+            "label": "比较不同意",
+            "value": 2,
+            "source": {
+              "pdf_pages": [
+                19
+              ],
+              "printed_pages": [
+                16
+              ]
+            }
+          },
+          {
+            "id": "professional-identity--B.q009.option3",
+            "label": "无所谓",
+            "value": 3,
+            "source": {
+              "pdf_pages": [
+                19
+              ],
+              "printed_pages": [
+                16
+              ]
+            }
+          },
+          {
+            "id": "professional-identity--B.q009.option4",
+            "label": "比较同意",
+            "value": 4,
+            "source": {
+              "pdf_pages": [
+                19
+              ],
+              "printed_pages": [
+                16
+              ]
+            }
+          },
+          {
+            "id": "professional-identity--B.q009.option5",
+            "label": "完全同意",
+            "value": 5,
+            "source": {
+              "pdf_pages": [
+                19
+              ],
+              "printed_pages": [
+                16
+              ]
+            }
+          }
+        ],
+        "minimum": 1,
+        "maximum": 5,
+        "cardinality": "single",
+        "slots": null,
+        "raw_instruction": "请根据你自己的情况对下面问题的选项进行打分。其中“完全不同意-1”“比较不同意-2”“无所谓-3”“比较同意-4”“完全同意-5”",
+        "unknowns": [
+          {
+            "field": "required",
+            "reason": "原文未给必填要求，不补充约束。"
+          }
+        ],
+        "ranking": null
+      }
+    },
+    {
+      "id": "professional-identity--B.q010",
+      "order": 10,
+      "original_number": null,
+      "role": "measurement",
+      "measurement_class": "scale",
+      "kind": "rating",
+      "raw_text": "每次提起我的专业我总有说不完的话",
+      "student_text": "每次提起我的专业我总有说不完的话",
+      "source": {
+        "pdf_pages": [
+          19
+        ],
+        "printed_pages": [
+          16
+        ]
+      },
+      "group_id": "professional-identity--B.group002",
+      "subdimension": null,
+      "subdimension_reason": "原表仅明示本组；该组以下逐题细分维度未提供，不推断。",
+      "teacher_annotations": [],
+      "reverse": {
+        "marked": null,
+        "raw_marker": null,
+        "source": null,
+        "reason": "未见原文明示反向标记；否定句或概念标记不能据此推导反向。"
+      },
+      "response": {
+        "options": [
+          {
+            "id": "professional-identity--B.q010.option1",
+            "label": "完全不同意",
+            "value": 1,
+            "source": {
+              "pdf_pages": [
+                19
+              ],
+              "printed_pages": [
+                16
+              ]
+            }
+          },
+          {
+            "id": "professional-identity--B.q010.option2",
+            "label": "比较不同意",
+            "value": 2,
+            "source": {
+              "pdf_pages": [
+                19
+              ],
+              "printed_pages": [
+                16
+              ]
+            }
+          },
+          {
+            "id": "professional-identity--B.q010.option3",
+            "label": "无所谓",
+            "value": 3,
+            "source": {
+              "pdf_pages": [
+                19
+              ],
+              "printed_pages": [
+                16
+              ]
+            }
+          },
+          {
+            "id": "professional-identity--B.q010.option4",
+            "label": "比较同意",
+            "value": 4,
+            "source": {
+              "pdf_pages": [
+                19
+              ],
+              "printed_pages": [
+                16
+              ]
+            }
+          },
+          {
+            "id": "professional-identity--B.q010.option5",
+            "label": "完全同意",
+            "value": 5,
+            "source": {
+              "pdf_pages": [
+                19
+              ],
+              "printed_pages": [
+                16
+              ]
+            }
+          }
+        ],
+        "minimum": 1,
+        "maximum": 5,
+        "cardinality": "single",
+        "slots": null,
+        "raw_instruction": "请根据你自己的情况对下面问题的选项进行打分。其中“完全不同意-1”“比较不同意-2”“无所谓-3”“比较同意-4”“完全同意-5”",
+        "unknowns": [
+          {
+            "field": "required",
+            "reason": "原文未给必填要求，不补充约束。"
+          }
+        ],
+        "ranking": null
+      }
+    },
+    {
+      "id": "professional-identity--B.q011",
+      "order": 11,
+      "original_number": null,
+      "role": "measurement",
+      "measurement_class": "scale",
+      "kind": "rating",
+      "raw_text": "我相信我能用所学专业在社会上发挥价值",
+      "student_text": "我相信我能用所学专业在社会上发挥价值",
+      "source": {
+        "pdf_pages": [
+          19
+        ],
+        "printed_pages": [
+          16
+        ]
+      },
+      "group_id": "professional-identity--B.group002",
+      "subdimension": null,
+      "subdimension_reason": "原表仅明示本组；该组以下逐题细分维度未提供，不推断。",
+      "teacher_annotations": [],
+      "reverse": {
+        "marked": null,
+        "raw_marker": null,
+        "source": null,
+        "reason": "未见原文明示反向标记；否定句或概念标记不能据此推导反向。"
+      },
+      "response": {
+        "options": [
+          {
+            "id": "professional-identity--B.q011.option1",
+            "label": "完全不同意",
+            "value": 1,
+            "source": {
+              "pdf_pages": [
+                19
+              ],
+              "printed_pages": [
+                16
+              ]
+            }
+          },
+          {
+            "id": "professional-identity--B.q011.option2",
+            "label": "比较不同意",
+            "value": 2,
+            "source": {
+              "pdf_pages": [
+                19
+              ],
+              "printed_pages": [
+                16
+              ]
+            }
+          },
+          {
+            "id": "professional-identity--B.q011.option3",
+            "label": "无所谓",
+            "value": 3,
+            "source": {
+              "pdf_pages": [
+                19
+              ],
+              "printed_pages": [
+                16
+              ]
+            }
+          },
+          {
+            "id": "professional-identity--B.q011.option4",
+            "label": "比较同意",
+            "value": 4,
+            "source": {
+              "pdf_pages": [
+                19
+              ],
+              "printed_pages": [
+                16
+              ]
+            }
+          },
+          {
+            "id": "professional-identity--B.q011.option5",
+            "label": "完全同意",
+            "value": 5,
+            "source": {
+              "pdf_pages": [
+                19
+              ],
+              "printed_pages": [
+                16
+              ]
+            }
+          }
+        ],
+        "minimum": 1,
+        "maximum": 5,
+        "cardinality": "single",
+        "slots": null,
+        "raw_instruction": "请根据你自己的情况对下面问题的选项进行打分。其中“完全不同意-1”“比较不同意-2”“无所谓-3”“比较同意-4”“完全同意-5”",
+        "unknowns": [
+          {
+            "field": "required",
+            "reason": "原文未给必填要求，不补充约束。"
+          }
+        ],
+        "ranking": null
+      }
+    },
+    {
+      "id": "professional-identity--B.q012",
+      "order": 12,
+      "original_number": null,
+      "role": "measurement",
+      "measurement_class": "scale",
+      "kind": "rating",
+      "raw_text": "我对所学专业本身的发展前景很有信心",
+      "student_text": "我对所学专业本身的发展前景很有信心",
+      "source": {
+        "pdf_pages": [
+          19
+        ],
+        "printed_pages": [
+          16
+        ]
+      },
+      "group_id": "professional-identity--B.group002",
+      "subdimension": null,
+      "subdimension_reason": "原表仅明示本组；该组以下逐题细分维度未提供，不推断。",
+      "teacher_annotations": [],
+      "reverse": {
+        "marked": null,
+        "raw_marker": null,
+        "source": null,
+        "reason": "未见原文明示反向标记；否定句或概念标记不能据此推导反向。"
+      },
+      "response": {
+        "options": [
+          {
+            "id": "professional-identity--B.q012.option1",
+            "label": "完全不同意",
+            "value": 1,
+            "source": {
+              "pdf_pages": [
+                19
+              ],
+              "printed_pages": [
+                16
+              ]
+            }
+          },
+          {
+            "id": "professional-identity--B.q012.option2",
+            "label": "比较不同意",
+            "value": 2,
+            "source": {
+              "pdf_pages": [
+                19
+              ],
+              "printed_pages": [
+                16
+              ]
+            }
+          },
+          {
+            "id": "professional-identity--B.q012.option3",
+            "label": "无所谓",
+            "value": 3,
+            "source": {
+              "pdf_pages": [
+                19
+              ],
+              "printed_pages": [
+                16
+              ]
+            }
+          },
+          {
+            "id": "professional-identity--B.q012.option4",
+            "label": "比较同意",
+            "value": 4,
+            "source": {
+              "pdf_pages": [
+                19
+              ],
+              "printed_pages": [
+                16
+              ]
+            }
+          },
+          {
+            "id": "professional-identity--B.q012.option5",
+            "label": "完全同意",
+            "value": 5,
+            "source": {
+              "pdf_pages": [
+                19
+              ],
+              "printed_pages": [
+                16
+              ]
+            }
+          }
+        ],
+        "minimum": 1,
+        "maximum": 5,
+        "cardinality": "single",
+        "slots": null,
+        "raw_instruction": "请根据你自己的情况对下面问题的选项进行打分。其中“完全不同意-1”“比较不同意-2”“无所谓-3”“比较同意-4”“完全同意-5”",
+        "unknowns": [
+          {
+            "field": "required",
+            "reason": "原文未给必填要求，不补充约束。"
+          }
+        ],
+        "ranking": null
+      }
+    },
+    {
+      "id": "professional-identity--B.q013",
+      "order": 13,
+      "original_number": null,
+      "role": "measurement",
+      "measurement_class": "scale",
+      "kind": "rating",
+      "raw_text": "我很乐意向他人介绍我的专业，这让我觉得自豪",
+      "student_text": "我很乐意向他人介绍我的专业，这让我觉得自豪",
+      "source": {
+        "pdf_pages": [
+          19
+        ],
+        "printed_pages": [
+          16
+        ]
+      },
+      "group_id": "professional-identity--B.group002",
+      "subdimension": null,
+      "subdimension_reason": "原表仅明示本组；该组以下逐题细分维度未提供，不推断。",
+      "teacher_annotations": [],
+      "reverse": {
+        "marked": null,
+        "raw_marker": null,
+        "source": null,
+        "reason": "未见原文明示反向标记；否定句或概念标记不能据此推导反向。"
+      },
+      "response": {
+        "options": [
+          {
+            "id": "professional-identity--B.q013.option1",
+            "label": "完全不同意",
+            "value": 1,
+            "source": {
+              "pdf_pages": [
+                19
+              ],
+              "printed_pages": [
+                16
+              ]
+            }
+          },
+          {
+            "id": "professional-identity--B.q013.option2",
+            "label": "比较不同意",
+            "value": 2,
+            "source": {
+              "pdf_pages": [
+                19
+              ],
+              "printed_pages": [
+                16
+              ]
+            }
+          },
+          {
+            "id": "professional-identity--B.q013.option3",
+            "label": "无所谓",
+            "value": 3,
+            "source": {
+              "pdf_pages": [
+                19
+              ],
+              "printed_pages": [
+                16
+              ]
+            }
+          },
+          {
+            "id": "professional-identity--B.q013.option4",
+            "label": "比较同意",
+            "value": 4,
+            "source": {
+              "pdf_pages": [
+                19
+              ],
+              "printed_pages": [
+                16
+              ]
+            }
+          },
+          {
+            "id": "professional-identity--B.q013.option5",
+            "label": "完全同意",
+            "value": 5,
+            "source": {
+              "pdf_pages": [
+                19
+              ],
+              "printed_pages": [
+                16
+              ]
+            }
+          }
+        ],
+        "minimum": 1,
+        "maximum": 5,
+        "cardinality": "single",
+        "slots": null,
+        "raw_instruction": "请根据你自己的情况对下面问题的选项进行打分。其中“完全不同意-1”“比较不同意-2”“无所谓-3”“比较同意-4”“完全同意-5”",
+        "unknowns": [
+          {
+            "field": "required",
+            "reason": "原文未给必填要求，不补充约束。"
+          }
+        ],
+        "ranking": null
+      }
+    },
+    {
+      "id": "professional-identity--B.q014",
+      "order": 14,
+      "original_number": null,
+      "role": "measurement",
+      "measurement_class": "scale",
+      "kind": "rating",
+      "raw_text": "所学专业好像并不能体现我的特长（反向检测题）",
+      "student_text": "所学专业好像并不能体现我的特长",
+      "source": {
+        "pdf_pages": [
+          19
+        ],
+        "printed_pages": [
+          16
+        ]
+      },
+      "group_id": "professional-identity--B.group002",
+      "subdimension": null,
+      "subdimension_reason": "原表仅明示本组；该组以下逐题细分维度未提供，不推断。",
+      "teacher_annotations": [
+        {
+          "text": "（反向检测题）",
+          "kind": "reverse",
+          "visibility": "teacher",
+          "source": {
+            "pdf_pages": [
+              19
+            ],
+            "printed_pages": [
+              16
+            ]
+          }
+        }
+      ],
+      "reverse": {
+        "marked": true,
+        "raw_marker": "（反向检测题）",
+        "source": {
+          "pdf_pages": [
+            19
+          ],
+          "printed_pages": [
+            16
+          ]
+        },
+        "reason": null
+      },
+      "response": {
+        "options": [
+          {
+            "id": "professional-identity--B.q014.option1",
+            "label": "完全不同意",
+            "value": 1,
+            "source": {
+              "pdf_pages": [
+                19
+              ],
+              "printed_pages": [
+                16
+              ]
+            }
+          },
+          {
+            "id": "professional-identity--B.q014.option2",
+            "label": "比较不同意",
+            "value": 2,
+            "source": {
+              "pdf_pages": [
+                19
+              ],
+              "printed_pages": [
+                16
+              ]
+            }
+          },
+          {
+            "id": "professional-identity--B.q014.option3",
+            "label": "无所谓",
+            "value": 3,
+            "source": {
+              "pdf_pages": [
+                19
+              ],
+              "printed_pages": [
+                16
+              ]
+            }
+          },
+          {
+            "id": "professional-identity--B.q014.option4",
+            "label": "比较同意",
+            "value": 4,
+            "source": {
+              "pdf_pages": [
+                19
+              ],
+              "printed_pages": [
+                16
+              ]
+            }
+          },
+          {
+            "id": "professional-identity--B.q014.option5",
+            "label": "完全同意",
+            "value": 5,
+            "source": {
+              "pdf_pages": [
+                19
+              ],
+              "printed_pages": [
+                16
+              ]
+            }
+          }
+        ],
+        "minimum": 1,
+        "maximum": 5,
+        "cardinality": "single",
+        "slots": null,
+        "raw_instruction": "请根据你自己的情况对下面问题的选项进行打分。其中“完全不同意-1”“比较不同意-2”“无所谓-3”“比较同意-4”“完全同意-5”",
+        "unknowns": [
+          {
+            "field": "required",
+            "reason": "原文未给必填要求，不补充约束。"
+          },
+          {
+            "field": "display_order_and_score_mapping",
+            "reason": "原文要求反向题分值选项倒序，并提供反向转换；实际导入文字/数字/显示顺序关系尚待确认，不执行倒序或计分。"
+          }
+        ],
+        "ranking": null
+      }
+    },
+    {
+      "id": "professional-identity--B.q015",
+      "order": 15,
+      "original_number": null,
+      "role": "measurement",
+      "measurement_class": "scale",
+      "kind": "rating",
+      "raw_text": "我在专业学习上花了很多时间",
+      "student_text": "我在专业学习上花了很多时间",
+      "source": {
+        "pdf_pages": [
+          19
+        ],
+        "printed_pages": [
+          16
+        ]
+      },
+      "group_id": "professional-identity--B.group003",
+      "subdimension": null,
+      "subdimension_reason": "原表仅明示本组；该组以下逐题细分维度未提供，不推断。",
+      "teacher_annotations": [],
+      "reverse": {
+        "marked": null,
+        "raw_marker": null,
+        "source": null,
+        "reason": "未见原文明示反向标记；否定句或概念标记不能据此推导反向。"
+      },
+      "response": {
+        "options": [
+          {
+            "id": "professional-identity--B.q015.option1",
+            "label": "完全不同意",
+            "value": 1,
+            "source": {
+              "pdf_pages": [
+                19
+              ],
+              "printed_pages": [
+                16
+              ]
+            }
+          },
+          {
+            "id": "professional-identity--B.q015.option2",
+            "label": "比较不同意",
+            "value": 2,
+            "source": {
+              "pdf_pages": [
+                19
+              ],
+              "printed_pages": [
+                16
+              ]
+            }
+          },
+          {
+            "id": "professional-identity--B.q015.option3",
+            "label": "无所谓",
+            "value": 3,
+            "source": {
+              "pdf_pages": [
+                19
+              ],
+              "printed_pages": [
+                16
+              ]
+            }
+          },
+          {
+            "id": "professional-identity--B.q015.option4",
+            "label": "比较同意",
+            "value": 4,
+            "source": {
+              "pdf_pages": [
+                19
+              ],
+              "printed_pages": [
+                16
+              ]
+            }
+          },
+          {
+            "id": "professional-identity--B.q015.option5",
+            "label": "完全同意",
+            "value": 5,
+            "source": {
+              "pdf_pages": [
+                19
+              ],
+              "printed_pages": [
+                16
+              ]
+            }
+          }
+        ],
+        "minimum": 1,
+        "maximum": 5,
+        "cardinality": "single",
+        "slots": null,
+        "raw_instruction": "请根据你自己的情况对下面问题的选项进行打分。其中“完全不同意-1”“比较不同意-2”“无所谓-3”“比较同意-4”“完全同意-5”",
+        "unknowns": [
+          {
+            "field": "required",
+            "reason": "原文未给必填要求，不补充约束。"
+          }
+        ],
+        "ranking": null
+      }
+    },
+    {
+      "id": "professional-identity--B.q016",
+      "order": 16,
+      "original_number": null,
+      "role": "measurement",
+      "measurement_class": "scale",
+      "kind": "rating",
+      "raw_text": "错过任何一个和专业相关的实践活动我都会感到遗憾",
+      "student_text": "错过任何一个和专业相关的实践活动我都会感到遗憾",
+      "source": {
+        "pdf_pages": [
+          19
+        ],
+        "printed_pages": [
+          16
+        ]
+      },
+      "group_id": "professional-identity--B.group003",
+      "subdimension": null,
+      "subdimension_reason": "原表仅明示本组；该组以下逐题细分维度未提供，不推断。",
+      "teacher_annotations": [],
+      "reverse": {
+        "marked": null,
+        "raw_marker": null,
+        "source": null,
+        "reason": "未见原文明示反向标记；否定句或概念标记不能据此推导反向。"
+      },
+      "response": {
+        "options": [
+          {
+            "id": "professional-identity--B.q016.option1",
+            "label": "完全不同意",
+            "value": 1,
+            "source": {
+              "pdf_pages": [
+                19
+              ],
+              "printed_pages": [
+                16
+              ]
+            }
+          },
+          {
+            "id": "professional-identity--B.q016.option2",
+            "label": "比较不同意",
+            "value": 2,
+            "source": {
+              "pdf_pages": [
+                19
+              ],
+              "printed_pages": [
+                16
+              ]
+            }
+          },
+          {
+            "id": "professional-identity--B.q016.option3",
+            "label": "无所谓",
+            "value": 3,
+            "source": {
+              "pdf_pages": [
+                19
+              ],
+              "printed_pages": [
+                16
+              ]
+            }
+          },
+          {
+            "id": "professional-identity--B.q016.option4",
+            "label": "比较同意",
+            "value": 4,
+            "source": {
+              "pdf_pages": [
+                19
+              ],
+              "printed_pages": [
+                16
+              ]
+            }
+          },
+          {
+            "id": "professional-identity--B.q016.option5",
+            "label": "完全同意",
+            "value": 5,
+            "source": {
+              "pdf_pages": [
+                19
+              ],
+              "printed_pages": [
+                16
+              ]
+            }
+          }
+        ],
+        "minimum": 1,
+        "maximum": 5,
+        "cardinality": "single",
+        "slots": null,
+        "raw_instruction": "请根据你自己的情况对下面问题的选项进行打分。其中“完全不同意-1”“比较不同意-2”“无所谓-3”“比较同意-4”“完全同意-5”",
+        "unknowns": [
+          {
+            "field": "required",
+            "reason": "原文未给必填要求，不补充约束。"
+          }
+        ],
+        "ranking": null
+      }
+    },
+    {
+      "id": "professional-identity--B.q017",
+      "order": 17,
+      "original_number": null,
+      "role": "measurement",
+      "measurement_class": "scale",
+      "kind": "rating",
+      "raw_text": "专业学习中我没有长远规划与近期目标，走一步算一步（反向检测题）",
+      "student_text": "专业学习中我没有长远规划与近期目标，走一步算一步",
+      "source": {
+        "pdf_pages": [
+          19
+        ],
+        "printed_pages": [
+          16
+        ]
+      },
+      "group_id": "professional-identity--B.group003",
+      "subdimension": null,
+      "subdimension_reason": "原表仅明示本组；该组以下逐题细分维度未提供，不推断。",
+      "teacher_annotations": [
+        {
+          "text": "（反向检测题）",
+          "kind": "reverse",
+          "visibility": "teacher",
+          "source": {
+            "pdf_pages": [
+              19
+            ],
+            "printed_pages": [
+              16
+            ]
+          }
+        }
+      ],
+      "reverse": {
+        "marked": true,
+        "raw_marker": "（反向检测题）",
+        "source": {
+          "pdf_pages": [
+            19
+          ],
+          "printed_pages": [
+            16
+          ]
+        },
+        "reason": null
+      },
+      "response": {
+        "options": [
+          {
+            "id": "professional-identity--B.q017.option1",
+            "label": "完全不同意",
+            "value": 1,
+            "source": {
+              "pdf_pages": [
+                19
+              ],
+              "printed_pages": [
+                16
+              ]
+            }
+          },
+          {
+            "id": "professional-identity--B.q017.option2",
+            "label": "比较不同意",
+            "value": 2,
+            "source": {
+              "pdf_pages": [
+                19
+              ],
+              "printed_pages": [
+                16
+              ]
+            }
+          },
+          {
+            "id": "professional-identity--B.q017.option3",
+            "label": "无所谓",
+            "value": 3,
+            "source": {
+              "pdf_pages": [
+                19
+              ],
+              "printed_pages": [
+                16
+              ]
+            }
+          },
+          {
+            "id": "professional-identity--B.q017.option4",
+            "label": "比较同意",
+            "value": 4,
+            "source": {
+              "pdf_pages": [
+                19
+              ],
+              "printed_pages": [
+                16
+              ]
+            }
+          },
+          {
+            "id": "professional-identity--B.q017.option5",
+            "label": "完全同意",
+            "value": 5,
+            "source": {
+              "pdf_pages": [
+                19
+              ],
+              "printed_pages": [
+                16
+              ]
+            }
+          }
+        ],
+        "minimum": 1,
+        "maximum": 5,
+        "cardinality": "single",
+        "slots": null,
+        "raw_instruction": "请根据你自己的情况对下面问题的选项进行打分。其中“完全不同意-1”“比较不同意-2”“无所谓-3”“比较同意-4”“完全同意-5”",
+        "unknowns": [
+          {
+            "field": "required",
+            "reason": "原文未给必填要求，不补充约束。"
+          },
+          {
+            "field": "display_order_and_score_mapping",
+            "reason": "原文要求反向题分值选项倒序，并提供反向转换；实际导入文字/数字/显示顺序关系尚待确认，不执行倒序或计分。"
+          }
+        ],
+        "ranking": null
+      }
+    },
+    {
+      "id": "professional-identity--B.q018",
+      "order": 18,
+      "original_number": null,
+      "role": "measurement",
+      "measurement_class": "scale",
+      "kind": "rating",
+      "raw_text": "我乐意从事和所学专业有关的工作",
+      "student_text": "我乐意从事和所学专业有关的工作",
+      "source": {
+        "pdf_pages": [
+          19
+        ],
+        "printed_pages": [
+          16
+        ]
+      },
+      "group_id": "professional-identity--B.group003",
+      "subdimension": null,
+      "subdimension_reason": "原表仅明示本组；该组以下逐题细分维度未提供，不推断。",
+      "teacher_annotations": [],
+      "reverse": {
+        "marked": null,
+        "raw_marker": null,
+        "source": null,
+        "reason": "未见原文明示反向标记；否定句或概念标记不能据此推导反向。"
+      },
+      "response": {
+        "options": [
+          {
+            "id": "professional-identity--B.q018.option1",
+            "label": "完全不同意",
+            "value": 1,
+            "source": {
+              "pdf_pages": [
+                19
+              ],
+              "printed_pages": [
+                16
+              ]
+            }
+          },
+          {
+            "id": "professional-identity--B.q018.option2",
+            "label": "比较不同意",
+            "value": 2,
+            "source": {
+              "pdf_pages": [
+                19
+              ],
+              "printed_pages": [
+                16
+              ]
+            }
+          },
+          {
+            "id": "professional-identity--B.q018.option3",
+            "label": "无所谓",
+            "value": 3,
+            "source": {
+              "pdf_pages": [
+                19
+              ],
+              "printed_pages": [
+                16
+              ]
+            }
+          },
+          {
+            "id": "professional-identity--B.q018.option4",
+            "label": "比较同意",
+            "value": 4,
+            "source": {
+              "pdf_pages": [
+                19
+              ],
+              "printed_pages": [
+                16
+              ]
+            }
+          },
+          {
+            "id": "professional-identity--B.q018.option5",
+            "label": "完全同意",
+            "value": 5,
+            "source": {
+              "pdf_pages": [
+                19
+              ],
+              "printed_pages": [
+                16
+              ]
+            }
+          }
+        ],
+        "minimum": 1,
+        "maximum": 5,
+        "cardinality": "single",
+        "slots": null,
+        "raw_instruction": "请根据你自己的情况对下面问题的选项进行打分。其中“完全不同意-1”“比较不同意-2”“无所谓-3”“比较同意-4”“完全同意-5”",
+        "unknowns": [
+          {
+            "field": "required",
+            "reason": "原文未给必填要求，不补充约束。"
+          }
+        ],
+        "ranking": null
+      }
+    },
+    {
+      "id": "professional-identity--B.q019",
+      "order": 19,
+      "original_number": null,
+      "role": "measurement",
+      "measurement_class": "scale",
+      "kind": "rating",
+      "raw_text": "我期待更深入的探索和研究所学专业领域的议题",
+      "student_text": "我期待更深入的探索和研究所学专业领域的议题",
+      "source": {
+        "pdf_pages": [
+          19
+        ],
+        "printed_pages": [
+          16
+        ]
+      },
+      "group_id": "professional-identity--B.group003",
+      "subdimension": null,
+      "subdimension_reason": "原表仅明示本组；该组以下逐题细分维度未提供，不推断。",
+      "teacher_annotations": [],
+      "reverse": {
+        "marked": null,
+        "raw_marker": null,
+        "source": null,
+        "reason": "未见原文明示反向标记；否定句或概念标记不能据此推导反向。"
+      },
+      "response": {
+        "options": [
+          {
+            "id": "professional-identity--B.q019.option1",
+            "label": "完全不同意",
+            "value": 1,
+            "source": {
+              "pdf_pages": [
+                19
+              ],
+              "printed_pages": [
+                16
+              ]
+            }
+          },
+          {
+            "id": "professional-identity--B.q019.option2",
+            "label": "比较不同意",
+            "value": 2,
+            "source": {
+              "pdf_pages": [
+                19
+              ],
+              "printed_pages": [
+                16
+              ]
+            }
+          },
+          {
+            "id": "professional-identity--B.q019.option3",
+            "label": "无所谓",
+            "value": 3,
+            "source": {
+              "pdf_pages": [
+                19
+              ],
+              "printed_pages": [
+                16
+              ]
+            }
+          },
+          {
+            "id": "professional-identity--B.q019.option4",
+            "label": "比较同意",
+            "value": 4,
+            "source": {
+              "pdf_pages": [
+                19
+              ],
+              "printed_pages": [
+                16
+              ]
+            }
+          },
+          {
+            "id": "professional-identity--B.q019.option5",
+            "label": "完全同意",
+            "value": 5,
+            "source": {
+              "pdf_pages": [
+                19
+              ],
+              "printed_pages": [
+                16
+              ]
+            }
+          }
+        ],
+        "minimum": 1,
+        "maximum": 5,
+        "cardinality": "single",
+        "slots": null,
+        "raw_instruction": "请根据你自己的情况对下面问题的选项进行打分。其中“完全不同意-1”“比较不同意-2”“无所谓-3”“比较同意-4”“完全同意-5”",
+        "unknowns": [
+          {
+            "field": "required",
+            "reason": "原文未给必填要求，不补充约束。"
+          }
+        ],
+        "ranking": null
+      }
+    },
+    {
+      "id": "professional-identity--B.q020",
+      "order": 20,
+      "original_number": null,
+      "role": "measurement",
+      "measurement_class": "scale",
+      "kind": "rating",
+      "raw_text": "如果考研我会继续我这个专业的学习",
+      "student_text": "如果考研我会继续我这个专业的学习",
+      "source": {
+        "pdf_pages": [
+          19
+        ],
+        "printed_pages": [
+          16
+        ]
+      },
+      "group_id": "professional-identity--B.group003",
+      "subdimension": null,
+      "subdimension_reason": "原表仅明示本组；该组以下逐题细分维度未提供，不推断。",
+      "teacher_annotations": [],
+      "reverse": {
+        "marked": null,
+        "raw_marker": null,
+        "source": null,
+        "reason": "未见原文明示反向标记；否定句或概念标记不能据此推导反向。"
+      },
+      "response": {
+        "options": [
+          {
+            "id": "professional-identity--B.q020.option1",
+            "label": "完全不同意",
+            "value": 1,
+            "source": {
+              "pdf_pages": [
+                19
+              ],
+              "printed_pages": [
+                16
+              ]
+            }
+          },
+          {
+            "id": "professional-identity--B.q020.option2",
+            "label": "比较不同意",
+            "value": 2,
+            "source": {
+              "pdf_pages": [
+                19
+              ],
+              "printed_pages": [
+                16
+              ]
+            }
+          },
+          {
+            "id": "professional-identity--B.q020.option3",
+            "label": "无所谓",
+            "value": 3,
+            "source": {
+              "pdf_pages": [
+                19
+              ],
+              "printed_pages": [
+                16
+              ]
+            }
+          },
+          {
+            "id": "professional-identity--B.q020.option4",
+            "label": "比较同意",
+            "value": 4,
+            "source": {
+              "pdf_pages": [
+                19
+              ],
+              "printed_pages": [
+                16
+              ]
+            }
+          },
+          {
+            "id": "professional-identity--B.q020.option5",
+            "label": "完全同意",
+            "value": 5,
+            "source": {
+              "pdf_pages": [
+                19
+              ],
+              "printed_pages": [
+                16
+              ]
+            }
+          }
+        ],
+        "minimum": 1,
+        "maximum": 5,
+        "cardinality": "single",
+        "slots": null,
+        "raw_instruction": "请根据你自己的情况对下面问题的选项进行打分。其中“完全不同意-1”“比较不同意-2”“无所谓-3”“比较同意-4”“完全同意-5”",
+        "unknowns": [
+          {
+            "field": "required",
+            "reason": "原文未给必填要求，不补充约束。"
+          }
+        ],
+        "ranking": null
+      }
+    }
+  ],
+  "groups": [
+    {
+      "id": "professional-identity--B.group001",
+      "raw_name": "专业认知",
+      "source": {
+        "pdf_pages": [
+          19
+        ],
+        "printed_pages": [
+          16
+        ]
+      },
+      "parent_id": null,
+      "note": "原题表明示分组；含跨页续表时由已核验连续行延续，不按题意分配。"
+    },
+    {
+      "id": "professional-identity--B.group002",
+      "raw_name": "专业情感",
+      "source": {
+        "pdf_pages": [
+          19
+        ],
+        "printed_pages": [
+          16
+        ]
+      },
+      "parent_id": null,
+      "note": "原题表明示分组；含跨页续表时由已核验连续行延续，不按题意分配。"
+    },
+    {
+      "id": "professional-identity--B.group003",
+      "raw_name": "专业行为倾向",
+      "source": {
+        "pdf_pages": [
+          19
+        ],
+        "printed_pages": [
+          16
+        ]
+      },
+      "parent_id": null,
+      "note": "原题表明示分组；含跨页续表时由已核验连续行延续，不按题意分配。"
+    }
+  ],
+  "blocks": [
+    {
+      "id": "professional-identity--B.block001",
+      "kind": "matrix",
+      "raw_title": null,
+      "item_ids": [
+        "professional-identity--B.q001",
+        "professional-identity--B.q002",
+        "professional-identity--B.q003",
+        "professional-identity--B.q004",
+        "professional-identity--B.q005",
+        "professional-identity--B.q006",
+        "professional-identity--B.q007",
+        "professional-identity--B.q008",
+        "professional-identity--B.q009",
+        "professional-identity--B.q010",
+        "professional-identity--B.q011",
+        "professional-identity--B.q012",
+        "professional-identity--B.q013",
+        "professional-identity--B.q014",
+        "professional-identity--B.q015",
+        "professional-identity--B.q016",
+        "professional-identity--B.q017",
+        "professional-identity--B.q018",
+        "professional-identity--B.q019",
+        "professional-identity--B.q020"
+      ],
+      "source": {
+        "pdf_pages": [
+          19
+        ],
+        "printed_pages": [
+          16
+        ]
+      },
+      "note": "原五级评分表，列顺序1、2、3、4、5；原表题行逐项引用并保留明示组别。跨页重现表头为续表，不新增测量题。"
+    }
+  ],
+  "scoring": {
+    "raw_rules": [
+      {
+        "raw_text": "2.评分规则：（1）该问卷为李克特五分量表，评价者根据自身真实感受进行 5级打分，1 代表非常不同意、2 代表比较不同意、3 代表中立、4 代表比较同意、5 代表非常同意。每个维度的得分为各题项平均分。（2）表格中标注“反向检测题”的题项需要特殊处理。该类题目的提问指向与其他题目相似，但提问的思路方向则与其他题目相反。主要是用于检测填答者对于问题回答的态度是否认真仔细，以及检测问卷填答的质量信度是否过关。因此在使用这些问卷进行测评时，首先在问卷制作阶段应删除“（反向检测题）”等标识文字（避免给填答者以提示）。然后在问卷印制时将这些题目的分值选项倒序排列（对反向题进行分数转换）。第三步在问卷回收后，应首先查验反向检验题的答案，以便剔除无效问卷（当填答者反向题和普通题打分处于同级时该问卷无效）。最后再进行问卷分数统计。（3）反向题分数转换的规则：1-5；2-4；3-3；4-2；5-1。 ",
+        "source": {
+          "pdf_pages": [
+            20
+          ],
+          "printed_pages": [
+            17
+          ]
+        }
+      }
+    ],
+    "reverse_mapping": [
+      {
+        "from": 1,
+        "to": 5
+      },
+      {
+        "from": 2,
+        "to": 4
+      },
+      {
+        "from": 3,
+        "to": 3
+      },
+      {
+        "from": 4,
+        "to": 2
+      },
+      {
+        "from": 5,
+        "to": 1
+      }
+    ],
+    "unknowns": [
+      {
+        "field": "missing_values",
+        "reason": "原文未明确缺失回答的计分处理。",
+        "source": {
+          "pdf_pages": [
+            19,
+            20
+          ],
+          "printed_pages": [
+            16,
+            17
+          ]
+        }
+      },
+      {
+        "field": "norms_and_thresholds",
+        "reason": "原文未明确常模、解释阈值或分类规则。",
+        "source": {
+          "pdf_pages": [
+            19,
+            20
+          ],
+          "printed_pages": [
+            16,
+            17
+          ]
+        }
+      },
+      {
+        "field": "overall_score_formula",
+        "reason": "明确提供各维度题项平均分，未明确全量表总分合成公式。",
+        "source": {
+          "pdf_pages": [
+            19,
+            20
+          ],
+          "printed_pages": [
+            16,
+            17
+          ]
+        }
+      }
+    ]
+  },
+  "counts": {
+    "basic_information": 0,
+    "measurement_items": 20,
+    "scale_items": 20,
+    "preliminary_items": 0,
+    "background_items": 0,
+    "item_records": 20,
+    "original_question_blocks": 1,
+    "reason": "原问卷评分矩阵为一个原题块；每行独立计一个测量题项，理论解释表与教师说明不计题。"
+  },
+  "issues": [
+    {
+      "id": "professional-identity--B.A-1",
+      "category": "blocking",
+      "blocking": true,
+      "source": {
+        "pdf_pages": [
+          19,
+          20
+        ],
+        "printed_pages": [
+          16,
+          17
+        ]
+      },
+      "original_text": "请根据你自己的情况对下面问题的选项进行打分。其中“完全不同意-1”“比较不同意-2”“无所谓-3”“比较同意-4”“完全同意-5”\n2.评分规则：（1）该问卷为李克特五分量表，评价者根据自身真实感受进行 5级打分，1 代表非常不同意、2 代表比较不同意、3 代表中立、4 代表比较同意、5 代表非常同意。每个维度的得分为各题项平均分。（2）表格中标注“反向检测题”的题项需要特殊处理。该类题目的提问指向与其他题目相似，但提问的思路方向则与其他题目相反。主要是用于检测填答者对于问题回答的态度是否认真仔细，以及检测问卷填答的质量信度是否过关。因此在使用这些问卷进行测评时，首先在问卷制作阶段应删除“（反向检测题）”等标识文字（避免给填答者以提示）。然后在问卷印制时将这些题目的分值选项倒序排列（对反向题进行分数转换）。第三步在问卷回收后，应首先查验反向检验题的答案，以便剔除无效问卷（当填答者反向题和普通题打分处于同级时该问卷无效）。最后再进行问卷分数统计。（3）反向题分数转换的规则：1-5；2-4；3-3；4-2；5-1。",
+      "missing_information": "题面五级标签完全不同意/无所谓/完全同意，与评分说明非常不同意/中立/非常同意不一致；学生端采用哪个原文标签尚未确认。原文摘录依次为本卷题面作答说明和教师评分说明，来自本疑点标注的相应页。",
+      "possible_resolutions": [
+        "明确接受题面五级原标签，评分段异文只保留教师元数据。",
+        "取得编制方可核实的原版更正及展示政策。"
+      ],
+      "recommendation": "推荐忠实采用本卷题面五级标签，并明确记录政策依据；本轮仅保存两套原文，不视为问题已解决。",
+      "affected_item_ids": [
+        "professional-identity--B.q001",
+        "professional-identity--B.q002",
+        "professional-identity--B.q003",
+        "professional-identity--B.q004",
+        "professional-identity--B.q005",
+        "professional-identity--B.q006",
+        "professional-identity--B.q007",
+        "professional-identity--B.q008",
+        "professional-identity--B.q009",
+        "professional-identity--B.q010",
+        "professional-identity--B.q011",
+        "professional-identity--B.q012",
+        "professional-identity--B.q013",
+        "professional-identity--B.q014",
+        "professional-identity--B.q015",
+        "professional-identity--B.q016",
+        "professional-identity--B.q017",
+        "professional-identity--B.q018",
+        "professional-identity--B.q019",
+        "professional-identity--B.q020"
+      ],
+      "resolution": null
+    },
+    {
+      "id": "professional-identity--B.A-2",
+      "category": "blocking",
+      "blocking": true,
+      "source": {
+        "pdf_pages": [
+          20
+        ],
+        "printed_pages": [
+          17
+        ]
+      },
+      "original_text": "2.评分规则：（1）该问卷为李克特五分量表，评价者根据自身真实感受进行 5级打分，1 代表非常不同意、2 代表比较不同意、3 代表中立、4 代表比较同意、5 代表非常同意。每个维度的得分为各题项平均分。（2）表格中标注“反向检测题”的题项需要特殊处理。该类题目的提问指向与其他题目相似，但提问的思路方向则与其他题目相反。主要是用于检测填答者对于问题回答的态度是否认真仔细，以及检测问卷填答的质量信度是否过关。因此在使用这些问卷进行测评时，首先在问卷制作阶段应删除“（反向检测题）”等标识文字（避免给填答者以提示）。然后在问卷印制时将这些题目的分值选项倒序排列（对反向题进行分数转换）。第三步在问卷回收后，应首先查验反向检验题的答案，以便剔除无效问卷（当填答者反向题和普通题打分处于同级时该问卷无效）。最后再进行问卷分数统计。（3）反向题分数转换的规则：1-5；2-4；3-3；4-2；5-1。 ",
+      "missing_information": "反向题的分值选项倒序、文字标签顺序、显示数字与计分映射未给数字导入示例，尚未明确，不能静默默认或重复反转。",
+      "possible_resolutions": [
+        "获取原版显示实例并明确文字/数字/顺序关系。",
+        "由教师显式确认忠实展示政策并留下依据，计分保持元数据。"
+      ],
+      "recommendation": "原反向标记存教师注释；学生候选题干只剥离原文明示应隐藏的标记。选项保持原题面顺序等待确认；不计算分数。",
+      "affected_item_ids": [
+        "professional-identity--B.q005",
+        "professional-identity--B.q014",
+        "professional-identity--B.q017"
+      ],
+      "resolution": null
+    },
+    {
+      "id": "professional-identity--B.A-3",
+      "category": "metadata",
+      "blocking": false,
+      "source": {
+        "pdf_pages": [
+          20
+        ],
+        "printed_pages": [
+          17
+        ]
+      },
+      "original_text": "当填答者反向题和普通题打分处于同级时该问卷无效",
+      "missing_information": "未给反向与普通题配对、比较范围或无效阈值；不能据此实现自动剔除。",
+      "possible_resolutions": [
+        "仅存原文教师说明，不执行。",
+        "未来获得完整规则后另行计分阶段评估。"
+      ],
+      "recommendation": "第一版不读答卷、不统计、不剔除；该不完整规则仅为元数据。",
+      "affected_item_ids": [
+        "professional-identity--B.q005",
+        "professional-identity--B.q014",
+        "professional-identity--B.q017"
+      ],
+      "resolution": null
+    },
+    {
+      "id": "professional-identity--B.A-5",
+      "category": "metadata",
+      "blocking": false,
+      "source": {
+        "pdf_pages": [
+          18,
+          19
+        ],
+        "printed_pages": [
+          15,
+          16
+        ]
+      },
+      "original_text": "A 卷\n专业情感\n我对这一专业非常感兴趣，它带给我快乐\n如果让我重新选择，我会选择其他专业（反向检测题）\n我常常忍不住去和别人谈论我的专业\n我觉得外界对本专业的评价较高\n我期待有更多的人来学习我的专业\n我并不觉得这一专业的学习能够帮助我自我实现（反向检测题）\n我的性格与该专业匹配\n我有信心学好该专业\nB 卷\n专业情感\n目前我很享受专业学习\n我对深入探索这一专业领域充满了期待\n每次提起我的专业我总有说不完的话\n我相信我能用所学专业在社会上发挥价值\n我对所学专业本身的发展前景很有信心\n我很乐意向他人介绍我的专业，这让我觉得自豪\n所学专业好像并不能体现我的特长（反向检测题）",
+      "missing_information": "原表A卷专业情感有8个题行，B卷专业情感有7个题行；这是原页18/19实际排列与数量的审计结果，原文未解释两卷长度不同的原因。题项不得为对齐版本补删。原文摘录依次列出A卷、B卷该组全部题干。",
+      "possible_resolutions": [
+        "独立保留A21、B20与各卷原题序。"
+      ],
+      "recommendation": "查询必须明确选择版本，不从前/后测自动指定。",
+      "affected_item_ids": [
+        "professional-identity--B.q001",
+        "professional-identity--B.q002",
+        "professional-identity--B.q003",
+        "professional-identity--B.q004",
+        "professional-identity--B.q005",
+        "professional-identity--B.q006",
+        "professional-identity--B.q007",
+        "professional-identity--B.q008",
+        "professional-identity--B.q009",
+        "professional-identity--B.q010",
+        "professional-identity--B.q011",
+        "professional-identity--B.q012",
+        "professional-identity--B.q013",
+        "professional-identity--B.q014",
+        "professional-identity--B.q015",
+        "professional-identity--B.q016",
+        "professional-identity--B.q017",
+        "professional-identity--B.q018",
+        "professional-identity--B.q019",
+        "professional-identity--B.q020"
+      ],
+      "resolution": null
+    },
+    {
+      "id": "professional-identity--B.professional-group-name",
+      "category": "textual",
+      "blocking": false,
+      "source": {
+        "pdf_pages": [
+          17,
+          18,
+          19
+        ],
+        "printed_pages": [
+          14,
+          15,
+          16
+        ]
+      },
+      "original_text": "专业行为\n专业行为倾向",
+      "missing_information": "图3/表3使用“专业行为”，正文及题表使用“专业行为倾向”；原文名称异文，未给等同或更正说明。",
+      "possible_resolutions": [
+        "各处原词保存；题项分组按题表。"
+      ],
+      "recommendation": "不静默统一为编辑词。",
+      "affected_item_ids": [
+        "professional-identity--B.q015",
+        "professional-identity--B.q016",
+        "professional-identity--B.q017",
+        "professional-identity--B.q018",
+        "professional-identity--B.q019",
+        "professional-identity--B.q020"
+      ],
+      "resolution": null
+    }
+  ],
+  "review": {
+    "status": "needs_confirmation",
+    "transcription_verified": true,
+    "checked_pdf_pages": [
+      16,
+      17,
+      18,
+      19,
+      20
+    ],
+    "method": "重新从哈希一致原PDF用pypdf与pdfplumber提取；逐卷实际查看原页PNG题表、连续表格分组、标题与完整使用说明，再核对全部原题行；未用旧全文直接充当正式数据。只合并版面换行与空白，不改字词。",
+    "reviewed_on": "2026-10-04",
+    "eligible_for_generation": false,
+    "note": "仅为数据层转录与输出阻断状态，不是导出、计分、WorkBuddy调用或问卷星导入验证；本阶段未开发生成器。"
+  }
+}
