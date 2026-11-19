@@ -446,8 +446,16 @@ def export_questionnaire(project, version=None, course=None, scenario=None,
 
 
 def parser():
-    result = StructuredParser(description="生成问卷星手工文本候选；实际导入待用户验证。")
-    result.add_argument("--project", required=True, help="项目ID、名称或已确认别名")
+    result = StructuredParser(description="导出课程思政问卷；支持18项目候选组卷和既有来源版本。")
+    result.add_argument("--project", help="单个项目ID、名称或已确认别名；配合--format使用18项目候选题库")
+    result.add_argument("--goal", action="append", help="评价价值目标，可重复；单目标含全部候选，多目标仅核心候选")
+    result.add_argument("--format", dest="output_format", choices=("wjx", "chaoxing"),
+                        help="18项目候选组卷格式：问卷星文本或学习通Excel")
+    result.add_argument("--purpose", choices=("review", "survey"),
+                        help="候选组卷用途：review审查稿（默认）或survey正式施测资格检查")
+    result.add_argument("--dimensions-file", help="18项目所属三个上位维度的显式归属配置")
+    result.add_argument("--question-count", type=int, help="指定整份候选问卷的总题数；单目标从全部候选选，多目标仅从核心选")
+    result.add_argument("--seed", type=int, help="指定题数时的可复现抽题种子，默认0；须与--question-count一起使用")
     result.add_argument("--version", help="A/B项目必选；单一来源版为original")
     result.add_argument("--course", help="仅加入标题的课程名称")
     result.add_argument("--scenario", help="仅加入标题的前测/后测等场景")
@@ -459,19 +467,42 @@ def parser():
 
 def main(argv=None):
     started, request_id = datetime.now(timezone.utc).isoformat(), str(uuid.uuid4())
-    result, error, exit_code = None, None, 0
+    result, error, exit_code, envelope = None, None, 0, None
     try:
         args = parser().parse_args(argv)
         request_id = _parameter("request_id", args.request_id) or request_id
-        result = export_questionnaire(args.project, args.version, args.course, args.scenario,
-                                      args.output_dir, request_id, source_item_ids=args.source_item_id)
+        candidate_mode = any(value is not None for value in
+                             (args.goal, args.output_format, args.purpose, args.dimensions_file,
+                              args.question_count, args.seed))
+        if candidate_mode:
+            if any(value is not None for value in
+                   (args.version, args.source_item_id, args.course, args.scenario)):
+                raise DataError("INVALID_REQUEST", "候选组卷参数不能与来源版本、来源题项子集、课程或场景参数混用。")
+            if args.goal is not None and args.project is not None:
+                raise DataError("INVALID_REQUEST", "请使用可重复的--goal选择价值目标，不要同时传入--project。")
+            if args.seed is not None and args.question_count is None:
+                raise DataError("INVALID_REQUEST", "--seed须与--question-count一起使用。")
+            # Lazy import keeps the original source-version API independent and
+            # avoids a cycle when the candidate exporter reuses path helpers.
+            from candidate_survey import run_request as run_candidate_request
+            goals = args.goal if args.goal is not None else ([args.project] if args.project is not None else None)
+            envelope, exit_code = run_candidate_request(
+                goals=goals, output_format=args.output_format or "wjx", output_dir=args.output_dir,
+                request_id=request_id, purpose=args.purpose or "review", dimensions_path=args.dimensions_file,
+                question_count=args.question_count, seed=0 if args.seed is None else args.seed)
+        else:
+            if args.project is None:
+                raise DataError("INVALID_REQUEST", "请选择--project来源项目，或使用--goal选择候选价值目标。")
+            result = export_questionnaire(args.project, args.version, args.course, args.scenario,
+                                          args.output_dir, request_id, source_item_ids=args.source_item_id)
     except DataError as exc:
         error = exc
         exit_code = (5 if exc.code == "OUTPUT_WRITE_FAILED" else 4 if exc.code in {
             "INVALID_DATA", "PRESENTATION_BLOCKED", "TARGET_FORMAT_LIMIT"} else 2)
-    envelope = make_result_envelope("export", result, error, request_id=request_id, started_at=started,
-                                    title="课程思政问卷文本候选",
-                                    message="候选文本、教师说明与映射已生成；官方图片语法及问卷星实际导入待核对。")
+    if envelope is None:
+        envelope = make_result_envelope("export", result, error, request_id=request_id, started_at=started,
+                                        title="课程思政问卷文本候选",
+                                        message="候选文本、教师说明与映射已生成；官方图片语法及问卷星实际导入待核对。")
     if hasattr(sys.stdout, "reconfigure"):
         sys.stdout.reconfigure(encoding="utf-8")
     print(json.dumps(envelope, ensure_ascii=False, indent=2, allow_nan=False))

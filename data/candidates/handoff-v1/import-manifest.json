@@ -1,0 +1,67 @@
+{
+  "schema_version": 1,
+  "data_version": "consolidation-v1",
+  "archive_sha256": "5a396b67f49b43a13f236d2ca372dd126afc00c119154ceafc05797970e1eade",
+  "status": "research_handoff_unapproved_not_for_survey_release",
+  "counts": {
+    "projects": 18,
+    "raw_source_rows": 505,
+    "unified_candidates": 482,
+    "core_candidates": 188,
+    "backup_candidates": 294,
+    "merged_candidates": 23,
+    "teacher_events": 22,
+    "priority_exceptions": 235,
+    "overlap_screen_top100": 11,
+    "risk_P_not_classified": 62,
+    "qa_checks_passed": 5840
+  },
+  "files": {
+    "candidates": {
+      "file": "kcsz_18project_candidates_v1.csv",
+      "sha256": "f5d38b858375f3923c721b8d3c280dbecb7b4b4775997fd0ab08639fe1a30609",
+      "bytes": 750490
+    },
+    "sources": {
+      "file": "kcsz_18project_source_traceability_v1.csv",
+      "sha256": "623735da46e5abd7e80d1f70097ddd5f00c07ebf44aa4e7e5b60c20f331d79ed",
+      "bytes": 1211022
+    },
+    "decisions": {
+      "file": "kcsz_18project_teacher_decisions_v1.csv",
+      "sha256": "359bba08bca0387aa1977d0b3c1ba7d7d7e36f8804d5624b18d52388baf8a41a",
+      "bytes": 12510
+    },
+    "projects": {
+      "file": "kcsz_18project_project_summary_v1.csv",
+      "sha256": "b991e5bcd2ad1c92809607d917143e2b550d4d3b86932ca286b68cd6e9709010",
+      "bytes": 5646
+    },
+    "exceptions": {
+      "file": "kcsz_18project_priority_exceptions_v1.csv",
+      "sha256": "fe86f09a9a89e0462d9a067c8aa55a56b1b65ada9a1c7bfd26a5090f267bd033",
+      "bytes": 143212
+    },
+    "overlaps": {
+      "file": "kcsz_18project_overlap_screen_v1.csv",
+      "sha256": "6a7a53fb7b340ffc41a1a02b4962c4dc9048b3514661bfd07629c3fb734d892a",
+      "bytes": 4883
+    },
+    "validation_log": {
+      "file": "kcsz_18project_validation_log_v1.csv",
+      "sha256": "5e7d42e1967e13b2fdee294bd34f233822ac86ebf365d96c2d4f08922bd9a459",
+      "bytes": 264928
+    },
+    "original_rows": {
+      "file": "sources/item-mapping.csv",
+      "sha256": "d4f517b0c00d9faee30f8d6b49c04b79b07a56f11455de34a14276cb0ab5d0f5",
+      "bytes": 951460
+    },
+    "upstream_manifest": {
+      "file": "kcsz_18project_manifest_v1.json",
+      "sha256": "57c2e330a8ed60a04ca5355f9bd3ed702e3e454b57bd5e34e3236bfaf266c52e",
+      "bytes": 6449
+    }
+  },
+  "import_policy": "verified upstream SHA256; data only; no bundled code executed"
+}

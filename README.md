@@ -1,109 +1,112 @@
 # 课程思政问卷助手
 
-`kcsz-course-survey` 根据教师的自然语言需求，调用武汉大学两辑《课程思政教学评价指南》的正式题库，生成供教师自行导入问卷星的 UTF-8 TXT。宿主模型理解项目、版本、课程与前后测场景；Python 程序负责查询、校验和固定内容导出。
+`kcsz-course-survey` 按教师选择的价值目标组织问卷，导出问卷星 UTF-8 TXT 或学习通 Excel（`.xls`），同时提供教师说明和来源映射。当前软件版本为 **v0.2.0-rc.1 预发布版**，见 [VERSION](VERSION)。
 
-当前拟发布版本为 **v0.1.0-rc.1 预发布候选**，版本文件见 [VERSION](VERSION)。源码仓库为 [awei0728/kcsz-course-survey](https://github.com/awei0728/kcsz-course-survey)，[预发布页面](https://github.com/awei0728/kcsz-course-survey/releases/tag/v0.1.0-rc.1)及[WorkBuddy 安装 ZIP 下载入口](https://github.com/awei0728/kcsz-course-survey/releases/download/v0.1.0-rc.1/kcsz-course-survey-v0.1.0-rc.1-workbuddy.zip)在本次发布完成后可用。
+- [GitHub 源码](https://github.com/awei0728/kcsz-course-survey)
+- [v0.2.0-rc.1 发布页](https://github.com/awei0728/kcsz-course-survey/releases/tag/v0.2.0-rc.1)
+- [完整 Skill 安装 ZIP](https://github.com/awei0728/kcsz-course-survey/releases/download/v0.2.0-rc.1/kcsz-course-survey-v0.2.0-rc.1-workbuddy.zip)
 
-项目原创代码采用 [MIT](LICENSE)。用户已确认两份来源 PDF 可以公开发布；原 PDF、量规原文、逐字转录题项及对应来源内容不纳入项目 MIT 授权范围，保留原作者与出版方的权利和来源。完整边界见 [SOURCES.md](SOURCES.md)。
+软件预发布与题库施测许可分别管理。当前482道题仍为研究候选，默认输出候选审查稿；选入、抽样或发布软件均不提升题目的正式施测许可。实际导入问卷星、学习通及当次宿主运行结果须分别验证。
 
-## 可以做什么
+## 三个维度与18个价值目标
 
-- 查询已收录的评价项目及真实版本。
-- 按选定项目和版本生成完整问卷；课程名称与前测、后测等场景只进入标题，不改测量内容。
-- 同时交付学生问卷 TXT、教师说明与来源映射。
+新版数据层保留 **482道候选题、505条来源记录、188道核心候选和294道备份候选**，23个候选各对应两个来源。原始30字段、项目内维度和题文、分库、合并、计分、量尺五类确认独立保留。
 
-保留原题、选项顺序、响应尺度和原文明示分组。未收录项目不自行编题；不支持学科化改编、多量表合并、答卷分析、自动计分或在线创建问卷。反向题保留原题干，学生端隐藏教师标记，不执行反向计分。
+| 一级组织维度 | 项目数 | 价值目标 |
+| --- | ---: | --- |
+| 家国认同 | 3 | 爱国主义态度、中华文化传播意愿、对华友好态度 |
+| 文化涵养 | 9 | 批判性思维、学生核心素养、科学精神、创造力、思考方式和问题解决能力、文化认同、跨文化理解、中华文化认知与理解、生命敬畏态度 |
+| 职业素养 | 6 | 学习自我效能感、专业认同感、学习风格和学习投入度、合作和社交能力、工程伦理、科研诚信意识 |
 
-**学生核心素养**原卷评价指标合理性，不能直接解释为学生个人素养水平测量；明确要求测个人能力时，Skill 应说明用途不匹配，不改写为能力自评。
+一级维度用于导航和组卷上限，不替代项目内部的原始维度，也不表示已验证的统一三因子量表。每项目只有一个主归属，关联维度不重复计数；配置见 [dimensions.json](data/candidates/dimensions.json)。
 
-第一版验收宿主为 **WorkBuddy**。teach_claw 的接入和运行验证留到后续版本，当前没有宣称支持。
+## 选题规则
 
-## 收录项目与验证范围
+| 模式 | 未指定题数 | 指定题数 |
+| --- | --- | --- |
+| 单目标 | 该项目全部核心＋备份候选 | 从两库合并池等概率、无放回抽取，不优先核心 |
+| 多目标 | 各目标全部核心候选 | 仅从核心池抽取，按目标尽量均衡分配 |
 
-全部 12 个项目、16 个来源版本已收录，当前规则可生成全部版本的候选 TXT。下表名称、ID 与版本来自 [正式目录](data/catalog.json)，`original` 表示该项目唯一来源版本；工程伦理的补全与适配不增加来源版本。
+多目标最多6个，同一主归属维度最多3个。指定数量是**整份问卷总题数**，不能超过可用题数；多目标至少每个目标1题。容量不足的目标停止分配，其余份额转给仍有候选的目标。抽题默认种子为0，可指定种子复现或更换结果，展示仍按原题顺序。
 
-| 评价项目 | 稳定 ID | 来源版本 | 问卷星实际导入反馈 |
-| --- | --- | --- | --- |
-| 批判性思维 | `critical-thinking` | A卷、B卷 | 两版待逐版反馈 |
-| 学习自我效能感 | `learning-self-efficacy` | A卷、B卷 | 两版待逐版反馈 |
-| 专业认同感 | `professional-identity` | A卷、B卷 | 两版待逐版反馈 |
-| 爱国主义态度 | `patriotism` | 原版 `original` | 待反馈 |
-| 学生核心素养 | `core-literacy` | 原版 `original` | 待反馈 |
-| 科学精神 | `scientific-spirit` | A卷、B卷 | 两版待逐版反馈 |
-| 创造力 | `creativity` | 原版 `original` | 用户反馈通过 |
-| 学习风格和学习投入度 | `learning-style-engagement` | 原版 `original` | 待反馈 |
-| 合作和社交能力 | `cooperation-social` | 原版 `original` | 待反馈 |
-| 思考方式和问题解决能力 | `thinking-problem-solving` | 原版 `original` | 待反馈 |
-| 文化认同 | `cultural-identity` | 原版 `original` | 待反馈 |
-| 工程伦理 | `engineering-ethics` | 原版 `original`，采用补全适配呈现 | 当前修正版用户反馈通过 |
+示例：创造力单目标默认12题（6核心＋6备份）；爱国主义态度＋创造力＋学习自我效能感默认22题，指定10题时分配为4＋3＋3，全部核心。详细接口见 [18目标组卷](references/candidate-surveys.md)。
 
-“已收录”“已生成”“用户反馈导入通过”和“宿主实际运行通过”是不同证据。用户反馈的问卷星通过范围是创造力与工程伦理修正版共 2 版，其余 14 版仍待逐版反馈。此前安装包的 WorkBuddy 加载及创造力自然语言生成流程获用户反馈通过；本候选包未重新在 WorkBuddy 加载，当前仅做本地检查。详细记录见 [验证与反馈](references/import-feedback.md)。
+## 两种导出格式
 
-## 在 WorkBuddy 安装与使用
+| 主文件 | 格式与用途 |
+| --- | --- |
+| `questionnaire.txt` | 问卷星文本导入；每题五级单选，连续编号、每个选项独占一行 |
+| `questionnaire.xls` | 真正的 Excel 97–2003 BIFF8 文件；沿用户学习通模板20列，每题一行“测评题”，正确答案留空，5个选项 |
+| `teacher-notes.md` | 实际选题数量、抽题规则、各目标分配、风险与教师审查状态 |
+| `manifest.json` | 候选ID、来源与教师事件、原始字段、五类确认、选题种子与主文件SHA-256 |
 
-先准备已有 WorkBuddy 环境和可用 Python。Skill 不另行要求模型 API Key 或问卷星 API Key，沿用宿主当前配置的模型。
+每次导出创建独立目录，不覆盖已有问卷。默认在实际 Skill 根目录 `output/candidates/` 下，也可指定可写的 `--output-dir`。宿主应以 `artifacts[].path` 返回真实文件，不能推测文件位置或编造下载链接。
 
-1. 从 [v0.1.0-rc.1 预发布页面](https://github.com/awei0728/kcsz-course-survey/releases/tag/v0.1.0-rc.1)取得 `kcsz-course-survey-v0.1.0-rc.1-workbuddy.zip`；也可使用[固定版本下载入口](https://github.com/awei0728/kcsz-course-survey/releases/download/v0.1.0-rc.1/kcsz-course-survey-v0.1.0-rc.1-workbuddy.zip)。发布完成前这些远端入口尚不可用。不要只上传 `SKILL.md`，运行还需要脚本、数据、引用说明及两份原 PDF。
-2. 在 WorkBuddy 打开“技能”，点击“添加技能”，选择“上传技能”，拖拽 ZIP 或点击“选择文件”导入。
-3. 在已安装技能中找到并启用 `kcsz-course-survey`。新建任务，选择“做一做（Craft）”，并在对话中选择该已安装技能。
-4. 使用已有模型发送下列请求。宿主应先查正式目录，再调用 Python 程序并返回实际文件。
+学习通不添加正确答案、考试得分或反向公式。程序不在线创建问卷、不处理答卷、不自动计分、不生成未验证的等级或阈值。统一五级同意是候选工作方案，不能推定与原量尺等值；科研诚信历史双量尺冲突仍保留，不由组卷程序自动解决。
 
-上传与启用步骤依据 [WorkBuddy 官方技能说明](https://www.workbuddy.ai/docs/zh/workbuddy/From-Beginner-to-Expert-Guide/Function-Description/Skills-Market)；任务模式与选择技能依据 [官方任务栏说明](https://www.workbuddy.ai/docs/zh/workbuddy/From-Beginner-to-Expert-Guide/Function-Description/Task-Bar)，核查日期 2026-10-04。目录层级沿用此前用户成功加载的 `kcsz-course-survey/SKILL.md`，不要求手工写入猜测的安装路径。更详细的调用与交付边界见 [WorkBuddy 说明](references/workbuddy.md)。
+## 在 TeachClaw 使用
 
-可以直接发送：
+新版固定命令默认使用18目标候选流程，无需为候选选择A/B卷。示例：
 
 ```text
-帮我生成一份用于 Python 课程前测的学生创造力问卷。
-生成批判性思维B卷，用于Python课程后测。
-有哪些评价项目可用？
-生成工程伦理问卷。
+生成课程思政调查问卷 --创造力
+生成课程思政调查问卷 --创造力 --题数 8 --格式 问卷星
+生成课程思政调查问卷 --爱国主义态度 --创造力 --学习自我效能感 --题数 10 --格式 学习通
 ```
 
-单一来源版本直接生成，不必提供课程、场景或输出目录。多版本项目没有明确卷别时会询问选择；**前测不自动对应 A卷，后测不自动对应 B卷**。例如“生成批判性思维前测问卷”仍需要选 A 或 B。
+默认格式为问卷星；`--格式`也可用`--format wjx|chaoxing`，`--题数`也可用`--question-count`。指定题数时可加`--种子`或`--seed`，不单独使用种子。明确指定`--原版`、`--source`或`--版本/--version`才走保留的旧来源版；旧来源版仅支持单项目问卷星，不混用候选题数或学习通格式。
 
-## 文件在哪里
+TeachClaw接入由monorepo中的宿主插件负责，Skill安装ZIP不会自行安装、修改QQ账号或发送消息。部署与当次收件结果应分别留证；详见 [TeachClaw说明](references/teach-claw.md)。本发布构建的宿主实测状态独立记录，不将本地协议测试称为QQ实际收件。
 
-每次导出建立独立目录，不覆盖已有文件；默认位于实际加载的 Skill 根目录下 `output/`，也可以在请求中明确给出可写输出目录。安装目录只读时，应选择其他可写位置。宿主以程序结果中 `artifacts[].path` 为准返回完整实际路径或真实附件，不能凭目录名字猜位置。
+本次已完成TeachClaw挂载、插件1.4.0升级及真实WSL systemd到Windows Runner验收，三维指定10题的TXT/XLS选题一致，单目标批判性思维默认41题。三附件回调采用本地模拟，真实QQ收件和问卷平台导入仍待用户反馈，见[发布验收记录](references/release-verification-v0.2.0-rc.1.md)。
 
-| 文件 | 用途 |
-| --- | --- |
-| `survey.pending-import.txt` | 学生题面；UTF-8 TXT，供问卷星文本导入使用，主交付文件 |
-| `teacher-notes.md` | 教师侧来源、疑点、反向标记、批准补全规则与导入限制，不粘贴进学生问卷 |
-| `manifest.json` | 项目与版本、规则、数量、文件校验信息，以及源题 ID 到导出题号、矩阵行或子题的映射 |
+## 在 WorkBuddy 安装
 
-WorkBuddy 支持文件展示时，以其实际文件机制返回 TXT；若当前会话只能提供本地文件，回复应列出完整本地路径。官方 [快速开始](https://www.workbuddy.ai/docs/workbuddy/Quickstart)介绍结果面板的文件与预览，但本 Skill 不编造下载链接或附件 API。
+从本版发布页取得完整ZIP，在“技能→添加技能→上传技能”导入并启用，然后在 Craft 任务中选择该技能。保留包内 `kcsz-course-survey/SKILL.md` 层级，不只上传入口文件。具体流程依据及验证边界见 [WorkBuddy说明](references/workbuddy.md)。
 
-## 导入问卷星
+可使用自然语言：
 
-1. 打开 TXT，按 UTF-8 读取并复制全文，保留原换行。不要复制教师说明或 manifest。
-2. 在问卷星打开 [官方“从文本创建问卷”](https://www.wjx.cn/help/help.aspx?helpid=138)所示入口，粘贴全文并查看识别结果；入口位置以平台当时页面及官方图示为准。
-3. 在投入教学使用前，逐题核对指导语、题型、矩阵行列、评分范围、开放填写槽位及选项顺序。尤其检查工程伦理参考项目仅作为说明展示，两题各为一个普通文本框。
+```text
+生成创造力问卷，选8题，输出问卷星文本。
+从三个维度各选一个目标：爱国主义态度、创造力、学习自我效能感，共10题，输出学习通Excel。
+有哪些价值目标可以选择？
+```
 
-本项目不登录问卷星、不自动创建或发布问卷。官方说明核查日期为 2026-10-04；具体图片语法曾受访问限制，不能将本地文本检查等同于平台实际识别通过。当前 2 版的导入成功依据为用户反馈，其余 14 版需要逐版核对。
+此前包的WorkBuddy加载与创造力生成曾获用户反馈通过，不能扩张为本新版重新加载已通过。
 
-## 工程伦理的适配边界
+## Python独立调用
 
-标题明确使用“大学生工程伦理问卷（作答规则补全版）”。第 3、4 题采用独立参考说明段落、`【A】`等代码、中文逗号分隔排序代码，以及原文短题干普通填空；原参考内容与顺序保留。完整问卷当前为 **11 道作答题、19 个作答字段**，说明段落不计作答题。
+运行核心只使用 **Python 3.10+ 标准库** 和本目录模块，不需要模型Key、问卷星Key、Gateway或OpenClaw服务。当前主开发检查使用Python3.14.7；旧版另有Python3.12.14验证记录，最低3.10未单独实测。宿主自然语言理解沿用其已有模型。
 
-这属于基础题型适配，保留所选项目与重要性顺序的信息需求。重复、漏项、未知代码和“其他”说明缺失由教师人工核对；不宣称普通文本框具备原排序控件的自动校验能力，不使用付费选项引用、条件必填、计算公式或自动评分。
-
-## Python 与独立调用
-
-核心需要已有 **Python 3.10 或更新版本**，只使用标准库和本目录模块。此前本地验证实际使用 Python **3.14.7、3.12.14**；最低 3.10 依据所用接口确定，未把它表述为已实际测试版本。无需安装 PDF 提取库：运行读取两份 PDF 字节以校验来源 SHA-256，并不解析 PDF。
-
-保留源码内部目录后可整体迁移，不依赖开发机盘符或父仓库模块。两份原 PDF 是现有校验依赖，不能删去后忽略错误。依赖说明见 [runtime.md](references/runtime.md)。
-
-下面从已经解压、含 `SKILL.md` 的根目录运行；随后也可以从任意工作目录使用确定的脚本路径。参数独立传递，不将自然语言拼接为可执行 Shell 代码。
+从实际Skill根目录运行，或传入脚本绝对路径；所有用户参数作为独立argv传递，不拼接成Shell代码：
 
 ```powershell
-$surveyRoot = (Get-Location).Path
-$surveyPython = (Get-Command python -CommandType Application -ErrorAction Stop).Source
-& $surveyPython -B (Join-Path $surveyRoot 'scripts/survey_data.py') validate
-& $surveyPython -B (Join-Path $surveyRoot 'scripts/survey_data.py') list
-& $surveyPython -B (Join-Path $surveyRoot 'scripts/survey_export.py') --project creativity --course 'Python课程' --scenario '前测'
-& $surveyPython -B (Join-Path $surveyRoot 'scripts/survey_export.py') --project critical-thinking --version B
+python -B scripts/candidate_data.py validate
+python -B scripts/candidate_survey.py --list
+python -B scripts/candidate_survey.py --goal '创造力' --question-count 8 --format wjx
+python -B scripts/candidate_survey.py --goal '爱国主义态度' --goal '创造力' --goal '学习自我效能感' --question-count 10 --format chaoxing
 ```
 
-程序返回 UTF-8 JSON，生成文件由 `artifacts` 定位。退出码 0 只表示本地操作成功，2 表示请求或版本等错误，4 表示数据、呈现或目标格式问题，5 表示输出失败。不要将失败结果或旧文件当作本轮成功；详细接口见 [公共调用](references/public-call.md)。`model_trace=[]` 表示核心未调用模型，不表示宿主没有参与需求理解。
+`survey_export.py`和`teachclaw_entry.py`的`--goal`、`--format`、`--question-count`也可进入候选流程。为了兼容已有调用，不带候选参数的旧Python `--project/--version`接口继续按来源版导出；TeachClaw插件会显式传候选参数，默认固定命令因此使用新版。
 
-开发与可复现构建见 [BUILDING.md](BUILDING.md)，本次预发布说明见 [RELEASE_NOTES.md](RELEASE_NOTES.md)。原创代码采用 [MIT](LICENSE)；第三方来源 PDF、量规原文、转录题项及含来源内容的派生材料保留原权利，许可范围分别见 [SOURCES.md](SOURCES.md)。
+程序返回UTF-8 JSON。退出码0表示本地完成，2表示请求/选择错误，4表示数据/呈现/施测守门错误，5表示输出失败。检查 `ok/error/artifacts` 后再交付文件；`model_trace=[]`只表示核心未调用模型。资源与移位运行要求见 [runtime.md](references/runtime.md)。
+
+## 保留的12项目、16来源版本
+
+旧来源目录 [catalog.json](data/catalog.json) 和16份来源JSON保持独立，保留原题、原选项、尺度与明确分组。明确要求原版/A卷/B卷时使用它们，不将其与18目标改编候选混用。前测、后测不自动对应A/B卷。
+
+```powershell
+python -B scripts/survey_data.py validate
+python -B scripts/survey_export.py --project critical-thinking --version B
+python -B scripts/survey_export.py --project creativity --course 'Python课程' --scenario '前测'
+```
+
+学生核心素养原卷评价指标合理性，不能直接解释成学生个人能力自评。工程伦理旧来源版维持作答规则补全与基础题型适配：11道作答题、19个字段，第3、4题用独立参考说明、【代码】、中文逗号及普通填空；排序合法性和“其他”说明由教师核对。
+
+历史问卷星实际导入反馈仅覆盖创造力原版及工程伦理修正版2版，其余14版待逐版反馈。本版候选TXT/XLS的本地生成、结构检查和Excel读取成功，均不等于目标平台实际导入通过。详细历史见 [验证与反馈](references/import-feedback.md)。
+
+## 发布与来源
+
+本软件采用白名单构建，GitHub安装ZIP、manifest、SHA256SUMS和发布说明均可独立核验，见 [BUILDING.md](BUILDING.md) 与 [RELEASE_NOTES.md](RELEASE_NOTES.md)。`v0.1.0-rc.1`保留为历史版本，不覆盖其标签或附件。
+
+原创代码、测试及原创操作说明采用 [MIT](LICENSE)。两份指南PDF、量规原文、候选交接材料、上传的维度说明和学习通模板及其中来源内容不因软件发布而获得MIT授权，保留原权利和来源，详见 [SOURCES.md](SOURCES.md)。

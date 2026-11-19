@@ -1,47 +1,62 @@
 # 构建与本地检查
 
-版本由 [VERSION](VERSION) 给出，当前为 `v0.1.0-rc.1`。构建只产生本地材料；它不会自行创建 Git 标签或公开 Release。发布目标为 [awei0728/kcsz-course-survey](https://github.com/awei0728/kcsz-course-survey)，[固定版本预发布入口](https://github.com/awei0728/kcsz-course-survey/releases/tag/v0.1.0-rc.1)在本次发布完成后可用。原创代码采用 [MIT](LICENSE)，来源内容排除范围见 [SOURCES.md](SOURCES.md)。
+版本唯一值见 [VERSION](VERSION)，当前为 `v0.2.0-rc.1`。本地构建只生成白名单源码与安装材料，不自行执行Git操作、上传GitHub或部署TeachClaw。发布目标为 [awei0728/kcsz-course-survey](https://github.com/awei0728/kcsz-course-survey)，历史 `v0.1.0-rc.1` 已发布并保留，不覆盖其标签或附件。
 
-## 运行要求
+本版软件预发布包含18目标候选组卷、指定总题数与双格式导出。所有候选仍未获正式施测许可；`public_release_ready`只描述用户已授权的软件包装准备状态，不认证量表或目标平台导入。
 
-使用已有 Python 3.10+，无需第三方 Python 包。当前实际测试版本为 3.14.7 和 3.12.14；最低 3.10 尚未实际运行。模型由宿主管理，构建和 Python 核心不调用模型或外部服务。
+## 运行和验证
 
-以下 PowerShell 命令中的 `$skillRoot` 是实际解压或源码目录，`$pythonPath` 是当前可用解释器的路径；不是固定安装路径。可从任何工作目录调用：
+使用已有Python3.10+；生产核心只使用标准库，开发和构建不调用模型或外部服务。当前主开发检查使用3.14.7，旧来源版另有3.12.14验证记录，最低3.10尚未单独实测。
+
+从实际Skill根目录运行，或用脚本绝对路径：
 
 ```powershell
-$skillRoot = (Resolve-Path ".\kcsz-course-survey").Path
-$pythonPath = (Get-Command python).Source
-& $pythonPath -B "$skillRoot\scripts\survey_data.py" validate
-& $pythonPath -B -m unittest discover -s "$skillRoot\tests" -v
-& $pythonPath -B "$skillRoot\scripts\build_release.py"
+python -B scripts/survey_data.py validate
+python -B scripts/candidate_data.py validate
+python -B -m unittest discover -s tests -v
+python -B scripts/build_release.py
 ```
 
-如果当前目录没有源码文件夹，先将 `$skillRoot` 赋为实际目录；其余命令仍可在无关工作目录运行。测试及构建需要目录可写；不更改宿主权限。可用 `--output-dir` 指定另一可写的构建父目录。
+完整平台发布还须从monorepo根运行AGENTS.md规定的Gateway、Python客户端、仓库政策和离线检查。开发依赖在仓库根 `requirements-dev.txt` 管理，不加入生产survey环境。检查结果应如实记录，未完成项不能改称已通过。
 
-构建默认创建一个新的 `release-candidate/<版本>-<运行标识>/`，包括：
+## 构建结果
+
+默认创建独立 `release-candidate/<版本>-<运行标识>/`：
 
 ```text
-source/kcsz-course-survey/                 独立公开源码候选
-kcsz-course-survey-v0.1.0-rc.1-workbuddy.zip
-manifest.json                            逐文件字节数、SHA-256和来源类别
-SHA256SUMS                               源码、ZIP、manifest及Release说明的校验值
-release-notes.md                          对应本次构建的预发布说明附件
+source/kcsz-course-survey/
+kcsz-course-survey-v0.2.0-rc.1-workbuddy.zip
+manifest.json
+SHA256SUMS
+release-notes.md
 ```
 
-成功结果为 UTF-8 JSON，含源码、ZIP、manifest、校验文件及 Release 说明的真实绝对路径。构建退出码 0 表示本地完成，1 表示构建失败；它不改变查询/导出的结果信封或退出码。失败目录保留 `BUILD-INCOMPLETE`，不能交付为完成候选。重复运行创建新目录；显式 `--candidate-id` 已存在则拒绝覆盖。
+返回UTF-8 JSON，含上述实际路径；0表示本地完成，1表示构建失败。可用 `--output-dir` 选择其他可写父目录。显式 `--candidate-id` 已存在时拒绝覆盖；失败目录保留 `BUILD-INCOMPLETE`，不可当作完成产物。来源数据、模板、脚本等目录不得作为构建输出位置。
 
-## 白名单与可复现性
+## 白名单与校验
 
-白名单在 [scripts/build_release.py](scripts/build_release.py) 的 `PUBLIC_FILES` 明确列出，16份问卷及2份PDF另有固定清单。源码快照与ZIP使用同一43项白名单。不遍历复制父仓库或整个Skill，不靠事后删除私密文件；未列出的文件不会进入候选。包括入口、必要引用、5个脚本（含构建）、18份数据JSON、2份原PDF、5份测试、README、LICENSE、来源说明、版本与构建说明、[RELEASE_NOTES.md](RELEASE_NOTES.md)及忽略规则。候选根另外保存 release-notes.md 附件，其内容与源码 RELEASE_NOTES.md 字节一致并纳入校验文件。
+包内`.gitattributes`禁止Git自动转换换行，以保持导入数据、维度证据和发布清单中逐文件SHA256的字节一致性；源码检出与安装包使用同一输入字节。
 
-不打包 `.git`、虚拟环境、缓存、历史 `output`、`tmp`、规划/审计报告、本机配置、用户会话或其他Skill。PDF是明确列出的运行完整性校验依赖；缺失或哈希不符则构建失败，不能省略后跳过检查。构建也检查catalog、呈现规则及本地Markdown链接完整性。
+[build_release.py](scripts/build_release.py) 的 `PUBLIC_FILES` 明确列出全部打包文件。源码快照与ZIP使用相同名单，包括新旧Python入口、必要说明、旧16来源JSON与2份PDF、新候选数据、维度说明原文、学习通模板及配置、测试、许可证和版本文件。
 
-ZIP保持已成功加载包的 `kcsz-course-survey/SKILL.md` 层级，所有文件按相对路径排序；文件时间固定为1980-01-01，权限和压缩等级固定。相同输入字节、相同Python/zlib构建环境重复构建应有相同ZIP、manifest及SHA256SUMS；源文件mtime、构建输出目录和运行标识不进入包内容。跨压缩库版本不保证ZIP字节相同，逐文件内容哈希仍可比较。
+构建检查：
 
-## 安装包与验证范围
+- 旧目录仍为12项目、16来源版本，PDF哈希与目录一致。
+- 新候选为18项目、482题、505来源、188核心、294备份，原始30字段及引用完整。
+- 三个主维度已确认，来源Markdown和学习通模板哈希正确。
+- 所有本地Markdown引用均位于发布白名单中。
+- ZIP成员、根目录及字节与源码快照一致。
 
-新包包含开发测试及构建说明，便于独立复查。它们不是运行核心依赖。核心依赖及迁移方法见 [references/runtime.md](references/runtime.md)，宿主加载见 [references/workbuddy.md](references/workbuddy.md)。
+不复制父仓库或开发机配置。`.git`、虚拟环境、缓存、历史output、tmp、发布工作区、运行日志、私密配置和开发审计资料不进入公开源码。安装ZIP、发布清单及校验文件作为Release附件，不提交进发布源码历史。
 
-本地检查需要独立解压，换一个工作目录执行validate，再实际生成创造力和工程伦理TXT；将正文、数量及来源映射与当前有效实现比较。即使这些检查通过，也不能据此称新包已在WorkBuddy重新加载，或16版已通过问卷星实际导入。当前反馈范围见 [references/import-feedback.md](references/import-feedback.md)。
+ZIP按相对路径排序，时间固定1980-01-01，权限及压缩等级固定。相同输入字节和Python/zlib环境下重复构建应得到相同ZIP、manifest、SHA256SUMS与发布说明；跨压缩库版本不保证ZIP字节相同，可独立比较文件哈希。
 
-本次用户已确认目标账号及公开仓库、原创代码 MIT、两份 PDF 可以公开，并授权源码提交、推送和预发布。来源材料及逐字题项并不因进入仓库就获得 MIT，完整边界保留在 SOURCES 中。构建不会初始化 Git、创建标签、登录、创建远程仓库、提交、推送或发布 Release；这些操作需要在独立发布工作区完成，ZIP、manifest、SHA256SUMS 等附件不提交进源码历史。
+## 独立安装与发布验证
+
+将ZIP独立解压到新目录，从其他cwd执行两套validate，再生成单目标默认、单目标指定题数、多目标默认和多目标指定题数的TXT/XLS；核对数量、选题、来源映射和主文件哈希。不要通过原开发路径读取资源来伪装移位运行成功。
+
+GitHub发布应核实已有main及旧标签，在独立发布快照中追加本版提交，不推送父monorepo历史、不强推或移动旧标签。上传本次生成的四份附件后重新下载，核对大小与SHA-256。构建器本身始终报告 `remote_release_status=not_published_by_builder`，远端发布状态由发布过程单独验证。
+
+TeachClaw宿主插件在monorepo维护。Skill ZIP不修改QQ账号、服务配置或插件，运行接入见 [TeachClaw说明](references/teach-claw.md)。本地协议测试、真实跨环境执行及QQ实际收件是不同证据，部署记录分别报告。
+
+原创代码采用 [MIT](LICENSE)。候选交接、PDF、题文、维度来源说明与学习通模板的非MIT边界见 [SOURCES.md](SOURCES.md)。

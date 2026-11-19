@@ -1,0 +1,182 @@
+{
+  "schema_version": "kcsz-18project-consolidation-v1",
+  "generated_at": "2026-11-19",
+  "status": "research_handoff_unapproved_not_for_survey_release",
+  "counts": {
+    "projects": 18,
+    "raw_source_rows": 505,
+    "unified_candidates": 482,
+    "core_candidates": 188,
+    "backup_candidates": 294,
+    "merged_candidates": 23,
+    "teacher_events": 22,
+    "priority_exceptions": 235,
+    "overlap_screen_top100": 11,
+    "risk_P_not_classified": 62,
+    "qa_checks_passed": 5840
+  },
+  "source_inputs": [
+    {
+      "file": "item-mapping.csv",
+      "sha256": "d4f517b0c00d9faee30f8d6b49c04b79b07a56f11455de34a14276cb0ab5d0f5",
+      "bytes": 951460
+    },
+    {
+      "file": "first6_unified_candidates(1).csv",
+      "sha256": "49f9c189aee523f1a43b10dead0ca078eaf674ad92147df5c1438ad4fe0bf77d",
+      "bytes": 217446
+    },
+    {
+      "file": "first6_source_traceability(1).csv",
+      "sha256": "5ac755f06cbff157a2e3ca36a084c858391a86735495be0bb07bc36fbd76816f",
+      "bytes": 699295
+    },
+    {
+      "file": "first6_teacher_decisions(1).csv",
+      "sha256": "77e6be6e72a1d7a8dc44b66ea7bb676d3de76489c1c20eb246f021e91a2ed0dc",
+      "bytes": 4006
+    },
+    {
+      "file": "first6_handoff(1).md",
+      "sha256": "fe9ddc0255e7d98542e2038eb86ab70cbb1b9ea93581df367aa1221a8831add3",
+      "bytes": 21174
+    },
+    {
+      "file": "科学精神_52来源完整追溯_v13_教师分项确认.csv",
+      "sha256": "200a85387dea6b4d23874e43dcf5eb5aa3a54778003fe90cc5be043f8732407f",
+      "bytes": 150794
+    },
+    {
+      "file": "科学精神_v13_教师累计确认决策记录.csv",
+      "sha256": "8e274765128b99bd9b9316719742286c7bf70c15dc0cf2c5811745567d003f1f",
+      "bytes": 2792
+    },
+    {
+      "file": "爱国主义态度_统一候选题库_15题_首轮整合_教师部分确认_v2.csv",
+      "sha256": "1eda2925ab3e74f1e519ef208c22bdb24a25b78430fc7a2828fa9faf263d204a",
+      "bytes": 18886
+    },
+    {
+      "file": "科学精神_47题统一候选_v13_教师分项确认.csv",
+      "sha256": "ff03e0a0ddea219e73b7f260d7786a38358421a71e678cf44c0d29777a58d6f3",
+      "bytes": 125934
+    },
+    {
+      "file": "创造力_12题_首轮整合_分级审查候选.csv",
+      "sha256": "5cf8bc52e2ab4bc253a5be326f903493ac4ed5e74dbaffdf355d3d49919a7eb5",
+      "bytes": 41812
+    },
+    {
+      "file": "学习风格和学习投入度_LSE001-LSE029_全量首轮审查_风险分级_v1.csv",
+      "sha256": "302464beb8c28a9fd1bca65e88dcd962ec8ec606fd522d3f725dc90d9261a22f",
+      "bytes": 88535
+    },
+    {
+      "file": "合作和社交能力_CS001-CS024_全量首轮审查_风险分级_v1.csv",
+      "sha256": "50a3163838ee8f56036da9645e64d4206d0e997f36dd57ca9709b4cde9dc43e9",
+      "bytes": 76587
+    },
+    {
+      "file": "思考方式和问题解决能力_TP001-TP026_全量首轮审查_风险分级_v1.csv",
+      "sha256": "08ca8ae64bbddf0bfa3a3eb06643368ce8ff07db25c8a6d789e19a8e09fc8bc7",
+      "bytes": 87463
+    },
+    {
+      "file": "文化认同_CI001-CI019_全量首轮审查_风险分级_v1.csv",
+      "sha256": "b63aad064e0016c827700906e121ba040e13f999caea6723aab28d30d71196ad",
+      "bytes": 69237
+    },
+    {
+      "file": "跨文化理解_IU001-IU024_全量首轮审查_风险分级_v1.csv",
+      "sha256": "6d05b134c4dea73f766676d23b005137dea8e5948549f7f971705ec1fde1317e",
+      "bytes": 74898
+    },
+    {
+      "file": "中华文化传播意愿_CCC001-CCC022_首轮审查_风险分级_v1.csv",
+      "sha256": "880435c2efc91d249fbb185ae8ff266151ba1bf0f3b5bf34c85c0094da3a797c",
+      "bytes": 79806
+    },
+    {
+      "file": "中华文化认知与理解_CCU001-CCU018_全量首轮审查_风险分级_v1.csv",
+      "sha256": "4f9234847fd161c7af4cdc0682a938244ec787904f9bdabb30b7e9cc8f01e1b0",
+      "bytes": 69744
+    },
+    {
+      "file": "对华友好态度_CFA001-CFA018_全量首轮审查_风险分级_v1.csv",
+      "sha256": "7dfe53513f289e82bbd2214cf9e32e198499a9b86ae661214636361d95c80117",
+      "bytes": 69068
+    },
+    {
+      "file": "生命敬畏态度_RFL001-RFL020_全量首轮审查_风险分级_v1.csv",
+      "sha256": "c10bc813801cc60c6731b1bdf8f14a8279de531613bba536f4bd22583621e595",
+      "bytes": 71746
+    }
+  ],
+  "outputs": [
+    {
+      "file": "kcsz_18project_candidates_v1.csv",
+      "sha256": "f5d38b858375f3923c721b8d3c280dbecb7b4b4775997fd0ab08639fe1a30609",
+      "bytes": 750490
+    },
+    {
+      "file": "kcsz_18project_source_traceability_v1.csv",
+      "sha256": "623735da46e5abd7e80d1f70097ddd5f00c07ebf44aa4e7e5b60c20f331d79ed",
+      "bytes": 1211022
+    },
+    {
+      "file": "kcsz_18project_teacher_decisions_v1.csv",
+      "sha256": "359bba08bca0387aa1977d0b3c1ba7d7d7e36f8804d5624b18d52388baf8a41a",
+      "bytes": 12510
+    },
+    {
+      "file": "kcsz_18project_project_summary_v1.csv",
+      "sha256": "b991e5bcd2ad1c92809607d917143e2b550d4d3b86932ca286b68cd6e9709010",
+      "bytes": 5646
+    },
+    {
+      "file": "kcsz_18project_priority_exceptions_v1.csv",
+      "sha256": "fe86f09a9a89e0462d9a067c8aa55a56b1b65ada9a1c7bfd26a5090f267bd033",
+      "bytes": 143212
+    },
+    {
+      "file": "kcsz_18project_overlap_screen_v1.csv",
+      "sha256": "6a7a53fb7b340ffc41a1a02b4962c4dc9048b3514661bfd07629c3fb734d892a",
+      "bytes": 4883
+    },
+    {
+      "file": "kcsz_18project_validation_log_v1.csv",
+      "sha256": "5e7d42e1967e13b2fdee294bd34f233822ac86ebf365d96c2d4f08922bd9a459",
+      "bytes": 264928
+    },
+    {
+      "file": "kcsz_18project_master_v1.xlsx",
+      "sha256": "37edbfd3b3ef180b9b8f7c0d451fbeb9015e133d8c6309db21cd9c9c1ff8868c",
+      "bytes": 579875
+    },
+    {
+      "file": "kcsz_18project_consolidation_report_v1.md",
+      "sha256": "8c7d4e2ac0a4a3a8a79ee85bf291d89bbd8feac64777976f3a63626b70156d29",
+      "bytes": 8105
+    },
+    {
+      "file": "kcsz_18project_codex_handoff_v1.md",
+      "sha256": "e7d7074a4b1d893a854e54b99926dfa9728b8c4473bb1c39c6b069a753226028",
+      "bytes": 3533
+    },
+    {
+      "file": "kcsz_18project_validate_v1.py",
+      "sha256": "b5c48303fc4781ed25f4bc161494d4283ba857802d91df2c2fbd7f59fc6fdb18",
+      "bytes": 4287
+    }
+  ],
+  "constraints": {
+    "two_bank_only": true,
+    "raw_30_fields_lossless": true,
+    "every_candidate_has_provenance": true,
+    "approval_scopes_separate": true,
+    "release_eligible_default": false,
+    "original_scale_not_assumed_equivalent": true,
+    "no_skill_code_modified": true,
+    "do_not_auto_score_blocked_items": true
+  }
+}

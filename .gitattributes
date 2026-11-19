@@ -1,0 +1,3 @@
+# Release manifests and imported source records verify exact file bytes.
+# Preserve the same bytes in Git checkouts on Windows and Linux.
+* -text

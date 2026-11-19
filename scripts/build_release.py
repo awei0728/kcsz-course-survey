@@ -13,6 +13,7 @@ import zipfile
 
 from survey_data import SurveyStore
 from survey_presentation import load_presentation_rules
+from candidate_data import CandidateStore
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -39,17 +40,38 @@ QUESTIONNAIRE_FILES = (
     "data/questionnaires/cultural-identity--original.json",
     "data/questionnaires/engineering-ethics--original.json",
 )
+CANDIDATE_FILES = (
+    "data/candidates/dimensions.json",
+    "data/candidates/dimension-mapping-source.md",
+    "data/candidates/handoff-v1/import-manifest.json",
+    "data/candidates/handoff-v1/kcsz_18project_manifest_v1.json",
+    "data/candidates/handoff-v1/kcsz_18project_candidates_v1.csv",
+    "data/candidates/handoff-v1/kcsz_18project_source_traceability_v1.csv",
+    "data/candidates/handoff-v1/kcsz_18project_teacher_decisions_v1.csv",
+    "data/candidates/handoff-v1/kcsz_18project_project_summary_v1.csv",
+    "data/candidates/handoff-v1/kcsz_18project_priority_exceptions_v1.csv",
+    "data/candidates/handoff-v1/kcsz_18project_overlap_screen_v1.csv",
+    "data/candidates/handoff-v1/kcsz_18project_validation_log_v1.csv",
+    "data/candidates/handoff-v1/sources/item-mapping.csv",
+)
+BINARY_ASSETS = ("assets/importQuestionTemplateNew.xls",)
 PUBLIC_FILES = tuple(sorted((
-    ".gitignore", "SKILL.md", "README.md", "BUILDING.md", "SOURCES.md", "VERSION",
+    ".gitignore", ".gitattributes", "SKILL.md", "README.md", "BUILDING.md", "SOURCES.md", "VERSION",
     "LICENSE", "RELEASE_NOTES.md",
     "references/public-call.md", "references/runtime.md", "references/import-feedback.md",
     "references/workbuddy.md", "references/teach-claw.md",
     "scripts/survey_data.py", "scripts/survey_presentation.py", "scripts/survey_export.py",
     "scripts/survey_delivery.py", "scripts/build_release.py",
+    "scripts/teachclaw_entry.py", "scripts/candidate_data.py", "scripts/import_candidate_handoff.py",
+    "scripts/candidate_survey.py", "scripts/chaoxing_export.py",
+    "references/candidate-surveys.md", "assets/chaoxing-template-profile.json",
+    "references/release-verification-v0.2.0-rc.1.md",
     "data/catalog.json", "data/presentation-rules.json",
     "tests/test_survey_data.py", "tests/test_survey_export.py", "tests/test_survey_delivery.py",
     "tests/test_skill_package.py", "tests/test_release_build.py",
-    *QUESTIONNAIRE_FILES, *PDF_FILES,
+    "tests/test_candidate_data.py", "tests/test_candidate_survey.py", "tests/test_candidate_entry.py",
+    "tests/test_chaoxing_export.py", "tests/test_teachclaw_entry.py",
+    *QUESTIONNAIRE_FILES, *PDF_FILES, *CANDIDATE_FILES, *BINARY_ASSETS,
 )))
 FIXED_ZIP_TIME = (1980, 1, 1, 0, 0, 0)
 
@@ -63,6 +85,10 @@ def _category(relative: str) -> str:
         return "third_party_source_pdf"
     if relative in QUESTIONNAIRE_FILES:
         return "transcribed_source_questionnaire"
+    if relative in CANDIDATE_FILES:
+        return "research_candidate_data_not_survey_approval"
+    if relative in BINARY_ASSETS:
+        return "user_supplied_import_template"
     if relative == "data/presentation-rules.json":
         return "approved_derived_presentation_rules"
     if relative.startswith("scripts/"):
@@ -85,7 +111,7 @@ def collect_public_files(root: Path) -> tuple[str, dict[str, bytes]]:
         if source.is_symlink() or not source.resolve().is_relative_to(root) or not source.is_file():
             raise ValueError(f"Missing or unsafe allowlisted file: {relative}")
         content = source.read_bytes()
-        if relative not in PDF_FILES:
+        if relative not in PDF_FILES + BINARY_ASSETS:
             content.decode("utf-8")
         payload[relative] = content
     version = payload["VERSION"].decode("utf-8").strip()
@@ -100,6 +126,12 @@ def collect_public_files(root: Path) -> tuple[str, dict[str, bytes]]:
     if actual != set(QUESTIONNAIRE_FILES) or sources != set(PDF_FILES):
         raise ValueError("The catalog and release allowlist do not match.")
     load_presentation_rules(root / "data/presentation-rules.json")
+    candidate_validation = CandidateStore(root / "data/candidates").validate()
+    if candidate_validation["dimension_mapping"] != "confirmed":
+        raise ValueError("The three goal dimensions must be confirmed before packaging.")
+    template_profile = json.loads(payload["assets/chaoxing-template-profile.json"])
+    if sha256(payload[BINARY_ASSETS[0]]) != template_profile["source_template"]["sha256"]:
+        raise ValueError("The learning-platform template hash does not match its profile.")
     for relative, content in payload.items():
         if not relative.endswith(".md"):
             continue
@@ -123,7 +155,7 @@ def build_candidate(root: Path = ROOT, output_dir: Path | None = None,
     if not re.fullmatch(r"[a-zA-Z0-9][a-zA-Z0-9._-]{0,95}", candidate_id):
         raise ValueError("candidate_id must be a single safe directory name.")
     parent = Path(output_dir).resolve() if output_dir is not None else root / "release-candidate"
-    for protected in [root / n for n in ("data", "scripts", "tests", "docs", "references")]:
+    for protected in [root / n for n in ("data", "scripts", "tests", "docs", "references", "assets")]:
         if parent == protected or parent.is_relative_to(protected):
             raise ValueError("The output directory cannot be a source resource directory.")
     parent.mkdir(parents=True, exist_ok=True)
@@ -162,10 +194,15 @@ def build_candidate(root: Path = ROOT, output_dir: Path | None = None,
     release_notes_path = destination / release_notes_name
     with release_notes_path.open("xb") as handle:
         handle.write(release_notes_content)
+    candidate_counts = json.loads(payload["data/candidates/handoff-v1/kcsz_18project_manifest_v1.json"])["counts"]
+    dimensions = json.loads(payload["data/candidates/dimensions.json"])["dimensions"]
+    legacy_projects = json.loads(payload["data/catalog.json"])["projects"]
+    legacy_versions = sum(len(project["versions"]) for project in legacy_projects)
     manifest = {
         "schema_version": 1, "name": PACKAGE_NAME, "version": version,
         "scope": "local_release_candidate", "public_release_ready": True,
-        "public_release_ready_meaning": "Local materials are complete under the user's publication instruction; this builder does not publish remotely or verify a new host installation.",
+        "public_release_ready_meaning": "Software packaging is complete under the user's publication instruction; this does not approve candidate items for survey use, publish remotely, or verify a new host installation.",
+        "candidate_survey_release_eligible": False,
         "public_release_pending": [],
         "github_repository": "awei0728/kcsz-course-survey",
         "remote_release_status": "not_published_by_builder",
@@ -176,7 +213,9 @@ def build_candidate(root: Path = ROOT, output_dir: Path | None = None,
                 "copyright": "Copyright (c) 2026 awei0728",
                 "scope": "original_project_code_and_original_project_materials",
                 "excluded_materials": ["third_party_source_pdfs", "original_scale_content",
-                                       "verbatim_transcribed_items", "corresponding_source_content_in_derived_materials"],
+                                       "verbatim_transcribed_items", "corresponding_source_content_in_derived_materials",
+                                       "user_supplied_candidate_handoff_content", "user_supplied_dimension_mapping",
+                                       "user_supplied_import_template"],
             },
             "source_pdfs": {
                 "publication_status": "user_confirmed_publication_permitted",
@@ -189,16 +228,54 @@ def build_candidate(root: Path = ROOT, output_dir: Path | None = None,
                 "rights": "retained_by_original_authors_and_publishers",
                 "included_in_project_mit_license": False,
             },
+            "candidate_handoff_and_dimension_mapping": {
+                "publication_status": "included_by_user_current_version_publication_instruction",
+                "source": "user_supplied_materials",
+                "included_in_project_mit_license": False,
+                "survey_approval_granted_by_publication": False,
+            },
+            "learning_platform_template": {
+                "source_file": "assets/importQuestionTemplateNew.xls",
+                "publication_status": "included_by_user_current_version_publication_instruction",
+                "included_in_project_mit_license": False,
+                "third_party_open_license_asserted": False,
+                "platform_endorsement_asserted": False,
+            },
         },
         "source_directory": "source/" + PACKAGE_NAME, "file_count": len(entries),
         "files": entries, "contains_source_pdfs": True,
         "pdf_files": [e for e in entries if e["category"] == "third_party_source_pdf"],
         "pdf_reason": "Runtime source-integrity validation reads both original PDFs and checks SHA-256.",
-        "coverage": {"projects": 12, "source_versions": 16},
+        "coverage": {"projects": candidate_counts["projects"],
+                     "unified_candidates": candidate_counts["unified_candidates"],
+                     "raw_source_rows": candidate_counts["raw_source_rows"],
+                     "core_candidates": candidate_counts["core_candidates"],
+                     "backup_candidates": candidate_counts["backup_candidates"],
+                     "merged_candidates": candidate_counts["merged_candidates"],
+                     "teacher_events": candidate_counts["teacher_events"],
+                     "top_level_dimensions": len(dimensions),
+                     "dimension_project_counts": {dimension["name"]: len(dimension["project_ids"]) for dimension in dimensions},
+                     "legacy_source_projects": len(legacy_projects),
+                     "source_versions": legacy_versions, "source_version_scope": "legacy_catalog_only",
+                     "legacy_source_versions": legacy_versions, "formats": ["wjx", "chaoxing"]},
+        "selection_contract": {"single_default": "all_core_and_backup_candidates",
+                               "single_sized": "uniform_without_bank_priority",
+                               "multiple_default": "all_core_candidates",
+                               "multiple_sized": "balanced_projects_uniform_within_project",
+                               "question_count_scope": "questionnaire_total",
+                               "maximum_projects": 6, "maximum_projects_per_primary_dimension": 3},
         "verification": {"prior_workbuddy_package": "user_feedback_passed_loading_and_creativity",
                          "this_candidate_workbuddy": "not_reloaded",
                          "wjx_user_feedback_passed": ["creativity--original", "engineering-ethics--original"],
-                         "other_source_versions_wjx": "pending_user_feedback", "teach_claw": "deferred"},
+                         "other_source_versions_wjx": "pending_user_feedback",
+                         "candidate_integrity": "validated_by_builder",
+                         "candidate_wjx_import": "pending_user_validation",
+                         "candidate_chaoxing_import": "pending_user_validation",
+                         "teach_claw": "runtime_verified_mock_delivery",
+                         "teach_claw_plugin_version": "1.4.0",
+                         "teach_claw_actual_qq_receipt": "pending_user_feedback",
+                         "teach_claw_scope": "deployed plugin, WSL systemd to unified Windows runner; local mock attachments only",
+                         "evidence_file": "references/release-verification-v0.2.0-rc.1.md"},
         "release_notes": {"path": release_notes_name, "bytes": len(release_notes_content),
                           "sha256": sha256(release_notes_content), "source_path": "RELEASE_NOTES.md"},
         "zip": {"path": zip_name, "bytes": zip_path.stat().st_size,

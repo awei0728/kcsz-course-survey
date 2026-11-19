@@ -1,0 +1,70 @@
+{
+  "schema_version": 1,
+  "status": "confirmed",
+  "dimensions": [
+    {
+      "id": "national-identity",
+      "name": "家国认同",
+      "project_ids": [
+        "patriotic-attitude",
+        "chinese-culture-communication",
+        "china-friendly-attitude"
+      ]
+    },
+    {
+      "id": "cultural-cultivation",
+      "name": "文化涵养",
+      "project_ids": [
+        "critical-thinking",
+        "student-core-competencies",
+        "scientific-spirit",
+        "creativity",
+        "thinking-problem-solving",
+        "cultural-identity",
+        "intercultural-understanding",
+        "chinese-culture-understanding",
+        "respect-for-life"
+      ]
+    },
+    {
+      "id": "professional-literacy",
+      "name": "职业素养",
+      "project_ids": [
+        "learning-self-efficacy",
+        "professional-identity",
+        "learning-style-engagement",
+        "cooperation-social-ability",
+        "engineering-ethics",
+        "research-integrity"
+      ]
+    }
+  ],
+  "project_related_dimensions": {
+    "critical-thinking": ["professional-literacy"],
+    "learning-self-efficacy": [],
+    "professional-identity": [],
+    "patriotic-attitude": [],
+    "student-core-competencies": ["professional-literacy"],
+    "scientific-spirit": ["professional-literacy"],
+    "creativity": ["professional-literacy"],
+    "learning-style-engagement": [],
+    "cooperation-social-ability": ["cultural-cultivation"],
+    "thinking-problem-solving": ["professional-literacy"],
+    "cultural-identity": ["national-identity"],
+    "engineering-ethics": ["cultural-cultivation"],
+    "intercultural-understanding": ["professional-literacy"],
+    "chinese-culture-communication": ["cultural-cultivation"],
+    "chinese-culture-understanding": ["national-identity"],
+    "china-friendly-attitude": ["cultural-cultivation"],
+    "respect-for-life": ["professional-literacy"],
+    "research-integrity": ["cultural-cultivation"]
+  },
+  "limit_counting": "primary_dimension_only",
+  "mapping_source": {
+    "file": "dimension-mapping-source.md",
+    "sha256": "1873d0674d52e69bbca32f56308dec515ccff7a7da7ff99565a75055e8d34a3d",
+    "version": "v1.0",
+    "date": "2026-11-19"
+  },
+  "evidence": "用户提供的三个一级维度与18项目对应关系v1.0：主归属3/9/6沿用教师确认总方案；专业认同感仅归职业素养，学生核心素养主归文化涵养并关联职业素养。其余关联归属仅用于导航检索，不推定为原量表统计因子或逐项独立批准。"
+}

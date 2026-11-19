@@ -1,33 +1,33 @@
-# WorkBuddy 加载与文件交付
+# WorkBuddy安装与调用
 
-核查与反馈记录日期：2026-10-04。第一版验收宿主为 WorkBuddy；此前安装包的加载和创造力自然语言生成流程已获用户反馈通过。v0.1.0-rc.1 候选沿用该包层级，但未重新在 WorkBuddy 加载，不能把此前反馈写成本候选自动实测记录。
+本版为 `v0.2.0-rc.1`。此前包的WorkBuddy加载及创造力自然语言生成收到过用户成功反馈；本版沿用包层级，但未把历史反馈写成本版重新加载已通过。平台界面核查记录来自2026-10-04，实际操作以当前宿主为准。
 
-## 已确认的入口与包结构
+## 安装
 
-WorkBuddy“技能→添加技能→上传技能”支持拖拽或选择本地技能包，已安装技能可以启用、关闭。来源：[官方技能说明](https://www.workbuddy.ai/docs/zh/workbuddy/From-Beginner-to-Expert-Guide/Function-Description/Skills-Market)。
+从 [本版发布页](https://github.com/awei0728/kcsz-course-survey/releases/tag/v0.2.0-rc.1)取得 [完整ZIP](https://github.com/awei0728/kcsz-course-survey/releases/download/v0.2.0-rc.1/kcsz-course-survey-v0.2.0-rc.1-workbuddy.zip)，在WorkBuddy“技能→添加技能→上传技能”导入并启用。新建“做一做（Craft）”任务，选择该Skill，沿用宿主已有模型。
 
-“做一做（Craft）”可以执行任务、生成文件，对话中可选择已安装技能。使用宿主已有模型，权限仍由 WorkBuddy 当前设置控制；本 Skill 不要求换模型或改变全局权限。来源：[官方任务栏说明](https://www.workbuddy.ai/docs/zh/workbuddy/From-Beginner-to-Expert-Guide/Function-Description/Task-Bar)。
+操作依据为 [官方技能说明](https://www.workbuddy.ai/docs/zh/workbuddy/From-Beginner-to-Expert-Guide/Function-Description/Skills-Market) 和 [官方任务栏说明](https://www.workbuddy.ai/docs/zh/workbuddy/From-Beginner-to-Expert-Guide/Function-Description/Task-Bar)。不把其他产品的安装目录、工具或路径占位符当作通用协议。
 
-候选 ZIP 保持此前用户成功加载的 `kcsz-course-survey/SKILL.md` 目录层级，并包含脚本、正式数据、引用说明和两份原 PDF。公开源码另提供构建与测试材料。实际运行资源见 [runtime.md](runtime.md)，白名单与构建入口见 [BUILDING.md](../BUILDING.md)。不要只上传入口文件，也不要删除 PDF 后忽略校验。
+ZIP保留 `kcsz-course-survey/SKILL.md` 层级，包含脚本、两套数据、维度证据、学习通模板、必要引用及旧来源PDF。不要只上传SKILL.md或删除资料后跳过校验；资源依赖见 [runtime.md](runtime.md)。
 
-## 安装和最短使用步骤
+## 新版自然语言流程
 
-1. 在 [v0.1.0-rc.1 预发布页面](https://github.com/awei0728/kcsz-course-survey/releases/tag/v0.1.0-rc.1)取得 `kcsz-course-survey-v0.1.0-rc.1-workbuddy.zip`，或使用[固定版本下载入口](https://github.com/awei0728/kcsz-course-survey/releases/download/v0.1.0-rc.1/kcsz-course-survey-v0.1.0-rc.1-workbuddy.zip)，再在官方上传入口选择 ZIP。本次发布完成前远端下载入口尚不可用。
-2. 在已安装技能中找到并启用 `kcsz-course-survey`。
-3. 新建 Craft 任务并选择该技能，沿用当前模型，发送“帮我生成一份用于 Python 课程前测的学生创造力问卷。”
-4. 宿主定位实际加载的 Skill 根目录，使用当前可用的 Python 3.10+，核实 catalog 后完整导出。课程和场景只进入标题，未指定输出位置就使用程序默认目录。
-5. 读取 JSON 结果，确认 `ok`、项目/版本及实际文件，再返回 TXT。首次加载本候选若失败，保留真实上传、调用或文件返回错误，不将本地检查写成宿主通过。
+```text
+生成创造力问卷，选8题，输出问卷星文本。
+将爱国主义态度、创造力、学习自我效能感组合为10题问卷，输出学习通Excel。
+有哪些价值目标可用？
+```
 
-多卷请求如“生成批判性思维前测问卷”应询问 A/B；前后测不决定卷别。工程伦理调用当前整卷修正版，仍为 11 道作答题、19 字段，并附人工排序核对说明。具体参数安全与错误处理见 [public-call.md](public-call.md)。
+宿主先按 [18目标组卷](candidate-surveys.md) 查询真实目标及主维度，再调用 `candidate_survey.py`。单目标默认全核心＋备份，指定题数从两库同权池抽取；多目标默认全核心，指定总题数仅从核心池抽取，最多6目标、同主维度最多3目标。未指定题数时不擅自截断，未指定格式时默认问卷星。
 
-## 调用与文件返回
+候选流程不追问A/B卷。只有用户明确原版或A/B卷时，才进入保留的12项目、16来源流程；前测、后测不自动决定卷别，课程/场景参数只属于旧来源标题流程。旧学生核心素养原卷是指标合理性判断，旧工程伦理仍使用作答规则补全及基础题型适配。
 
-通过宿主当次可用的进程工具，以可执行文件和参数数组调用脚本；不要采用其他产品的目录或根路径占位符。使用实际解释器，不硬编码开发机的 Python 路径，不安装或切换全局环境。
+## 安全调用与交付
 
-结果文件从 `artifacts[].path` 获取，TXT 为 `role=primary`，教师说明和来源映射辅助交付。本机曾有文件展示工具依据；其名称与参数须以当前 WorkBuddy 会话真实工具定义为准，不在本 Skill 中猜测 API。若只能返回本地文件，给完整实际路径。官方 [快速开始](https://www.workbuddy.ai/docs/workbuddy/Quickstart)介绍结果面板的文件与预览，不构成 Python 附件上传协议。
+定位实际加载的Skill目录和可用Python3.10+，以独立argv传参，按 [公共调用说明](public-call.md) 读取UTF-8 JSON。确认 `ok/error/artifacts` 及实际文件存在后，返回 `role=primary` 的TXT或XLS，同时提供教师说明与来源映射；不能凭目录名推测路径或在错误后交付旧文件。
 
-用户反馈范围见 [import-feedback.md](import-feedback.md)：问卷星创造力与工程伦理修正版两版通过，其余十四版待反馈。WorkBuddy 此前通过的是加载与创造力生成流程，没有扩展为全部十六版宿主自然语言验收。新候选的上传接受、当次工具和文件可访问性尚须实际会话确认。
+使用宿主当前真实的文件展示机制；若只能提供本地文件，返回完整实际路径，不编造下载链接或附件API。[官方快速开始](https://www.workbuddy.ai/docs/workbuddy/Quickstart)不构成Python附件协议。
 
-本机配置、缓存和安装路径的历史核查留在开发审计资料中，不作为公开安装协议，也不要求用户复制本机配置。
+当前482题仍为候选，默认交付审查稿；软件发布和抽中题目不会授予施测许可。两种格式的当次平台导入均待验证。旧问卷星创造力原版与工程伦理修正版2版的用户反馈不扩展到新版候选或全部旧来源版本，详见 [反馈记录](import-feedback.md)。
 
-原创代码采用 [MIT](../LICENSE)；两份来源 PDF、量规原文、逐字题项与对应来源内容保留原作者及出版方权利，不纳入 MIT。用户已确认 PDF 可以公开发布，安装包仍保留实际运行所需的原文件。详见 [来源说明](../SOURCES.md)。
+原创程序与原创说明采用 [MIT](../LICENSE)，来源内容和上传模板的范围见 [SOURCES](../SOURCES.md)。

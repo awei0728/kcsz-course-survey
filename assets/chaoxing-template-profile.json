@@ -1,0 +1,52 @@
+{
+  "schema_version": 1,
+  "target": "chaoxing",
+  "format": "xls",
+  "binary_format": "BIFF8 in OLE Compound File v3",
+  "worksheet_name": "课程题库",
+  "headers": [
+    "目录",
+    "题目类型",
+    "自定义题型",
+    "大题题干",
+    "小题题型",
+    "小题题干",
+    "正确答案",
+    "答案解析",
+    "难易度",
+    "知识点",
+    "标签",
+    "选项数",
+    "选项A",
+    "选项B",
+    "选项C",
+    "选项D",
+    "选项E",
+    "选项F",
+    "选项G",
+    "选项H"
+  ],
+  "source_template": {
+    "filename": "importQuestionTemplateNew.xls",
+    "sha256": "c69460996695a91ddc85da3264e0aa6e6b0a9e39407e73a62c5451380398b768",
+    "bytes": 40960
+  },
+  "evidence": {
+    "instructions_cell": "A2",
+    "assessment_rule": "测评题，正确答案可以为空",
+    "assessment_example_row": 37,
+    "assessment_type_cell": "B37",
+    "assessment_type": "测评题",
+    "assessment_answer_cell": "G37",
+    "assessment_answer_is_blank": true
+  },
+  "export_contract": {
+    "question_type": "测评题",
+    "answer_column": "blank",
+    "option_count": 5,
+    "option_columns": "M:Q",
+    "preserve_header_order": true,
+    "remove_instruction_and_example_rows": true,
+    "actual_platform_import": "pending_user_import"
+  }
+}

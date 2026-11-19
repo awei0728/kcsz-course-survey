@@ -75,6 +75,8 @@ class ReleaseBuildTests(unittest.TestCase):
         self.assertEqual(set(authorization["code_license"]["excluded_materials"]), {
             "third_party_source_pdfs", "original_scale_content", "verbatim_transcribed_items",
             "corresponding_source_content_in_derived_materials",
+            "user_supplied_candidate_handoff_content", "user_supplied_dimension_mapping",
+            "user_supplied_import_template",
         })
         self.assertFalse(authorization["source_pdfs"]["included_in_project_mit_license"])
         self.assertFalse(authorization["source_pdfs"]["third_party_open_license_asserted"])
@@ -82,6 +84,10 @@ class ReleaseBuildTests(unittest.TestCase):
         self.assertFalse(authorization["transcribed_and_source_derived_content"]["included_in_project_mit_license"])
         self.assertEqual(manifest["verification"]["this_candidate_workbuddy"], "not_reloaded")
         self.assertEqual(manifest["verification"]["other_source_versions_wjx"], "pending_user_feedback")
+        self.assertFalse(authorization["candidate_handoff_and_dimension_mapping"]["included_in_project_mit_license"])
+        self.assertFalse(authorization["candidate_handoff_and_dimension_mapping"]["survey_approval_granted_by_publication"])
+        self.assertFalse(authorization["learning_platform_template"]["included_in_project_mit_license"])
+        self.assertFalse(authorization["learning_platform_template"]["platform_endorsement_asserted"])
         notes = manifest["release_notes"]
         attachment = Path(result["release_notes_path"])
         self.assertEqual(attachment.name, notes["path"])
@@ -90,6 +96,40 @@ class ReleaseBuildTests(unittest.TestCase):
         self.assertEqual(hashlib.sha256(attachment.read_bytes()).hexdigest(), notes["sha256"])
         self.assertIn(f'{notes["sha256"]}  {notes["path"]}',
                       Path(result["checksum_path"]).read_text(encoding="utf-8"))
+
+    def test_candidate_coverage_selection_and_approval_boundaries_are_separate(self):
+        result = build_release.build_candidate(self.clone, self.area / "builds", "candidate-coverage")
+        manifest = json.loads(Path(result["manifest_path"]).read_text(encoding="utf-8"))
+        self.assertEqual(manifest["version"], "v0.2.0-rc.1")
+        coverage = manifest["coverage"]
+        self.assertEqual(coverage["projects"], 18)
+        self.assertEqual(coverage["unified_candidates"], 482)
+        self.assertEqual(coverage["raw_source_rows"], 505)
+        self.assertEqual(coverage["core_candidates"], 188)
+        self.assertEqual(coverage["backup_candidates"], 294)
+        self.assertEqual(coverage["dimension_project_counts"], {"家国认同": 3, "文化涵养": 9, "职业素养": 6})
+        self.assertEqual(coverage["legacy_source_projects"], 12)
+        self.assertEqual(coverage["legacy_source_versions"], 16)
+        self.assertEqual(coverage["formats"], ["wjx", "chaoxing"])
+        self.assertFalse(manifest["candidate_survey_release_eligible"])
+        self.assertEqual(manifest["selection_contract"]["question_count_scope"], "questionnaire_total")
+        self.assertEqual(manifest["selection_contract"]["maximum_projects"], 6)
+        self.assertEqual(manifest["selection_contract"]["maximum_projects_per_primary_dimension"], 3)
+        self.assertEqual(manifest["verification"]["candidate_wjx_import"], "pending_user_validation")
+        self.assertEqual(manifest["verification"]["candidate_chaoxing_import"], "pending_user_validation")
+        self.assertEqual(manifest["verification"]["teach_claw"], "runtime_verified_mock_delivery")
+        self.assertEqual(manifest["verification"]["teach_claw_plugin_version"], "1.4.0")
+        self.assertEqual(manifest["verification"]["teach_claw_actual_qq_receipt"], "pending_user_feedback")
+        self.assertTrue(any(f["path"] == "assets/importQuestionTemplateNew.xls" and
+                            f["category"] == "user_supplied_import_template" for f in manifest["files"]))
+
+    def test_changed_learning_platform_template_fails_before_build_creation(self):
+        template = self.clone / "assets/importQuestionTemplateNew.xls"
+        template.write_bytes(template.read_bytes() + b"changed")
+        destination = self.area / "invalid-template-builds"
+        with self.assertRaisesRegex(ValueError, "template hash"):
+            build_release.build_candidate(self.clone, destination, "changed-template")
+        self.assertFalse(destination.exists())
 
     def test_existing_candidate_is_not_overwritten(self):
         first = build_release.build_candidate(self.clone, self.area / "builds", "one")
